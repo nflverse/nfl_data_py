@@ -7,7 +7,7 @@ nfl_data_py is a Python library for interacting with NFL data.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nfl_data_py.
 
 ```bash
-pip install foobar
+pip install nfl_data_py
 ```
 
 ## Usage
