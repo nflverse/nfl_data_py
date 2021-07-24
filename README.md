@@ -1,1 +1,1 @@
-# nflfastPy
+# nfl_data_py
