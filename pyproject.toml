@@ -1,8 +1,0 @@
-[nfl_data_py]
-requires = [
-    "setuptools>=42",
-    "pandas",
-    "numpy",
-    "datetime"
-]
-build-backend = "setuptools.build_meta"
