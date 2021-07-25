@@ -21,8 +21,10 @@ import nfl_data_py as nfl
 nfl.import_pbp_data(years, columns)
 ```
 Returns play-by-play data for the years and columns specified
+
 years
 : required, list of years to pull data for (earliest available is 1999)
+
 columns
 : optional, list of columns to pull data for
 
@@ -36,8 +38,10 @@ returns list of columns available in play-by-play dataset
 nfl.import_weekly_data(years, columns)
 ```
 Returns weekly data for the years and columns specified
+
 years
 : required, list of years to pull data for (earliest available is 1999)
+
 columns
 : optional, list of columns to pull data for
 
@@ -51,6 +55,7 @@ returns list of columns available in weekly dataset
 nfl.import_seasonal_data(years)
 ```
 Returns seasonal data, including various calculated market share stats
+
 years
 : required, list of years to pull data for (earliest available is 1999)
 
@@ -59,8 +64,10 @@ years
 nfl.import_rosters(years, columns)
 ```
 Returns roster information for years and columns specified
+
 years
 : required, list of years to pull data for (earliest available is 1999)
+
 columns
 : optional, list of columns to pull data for
 
@@ -68,7 +75,8 @@ columns
 ```python
 nfl.clean_nfl_data(df)
 ```
-Runs descriptive data (team name, player name, etc.) through various cleaning processes)
+Runs descriptive data (team name, player name, etc.) through various cleaning processes
+
 df
 : required, dataframe to be cleaned
 
