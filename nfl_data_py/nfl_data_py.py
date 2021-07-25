@@ -9,14 +9,14 @@ def import_pbp_data(years, columns=None):
         columns = []
     plays = pandas.DataFrame()
 
-    url1 = r'https://github.com/guga31bb/nflfastR-data/blob/master/data/play_by_play_'
-    url2 = r'.csv.gz?raw=true'
+    url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
+    url2 = r'.parquet'
 
     for year in years:
         if len(columns) != 0:
-            data = pandas.read_csv(url1 + str(year) + url2, low_memory=False, compression='gzip')[columns]
+            data = pandas.read_parquet(url1 + str(year) + url2, columns=columns)
         else:
-            data = pandas.read_csv(url1 + str(year) + url2, low_memory=False, compression='gzip')
+            data = pandas.read_parquet(url1 + str(year) + url2)
         raw = pandas.DataFrame(data)
         raw['season'] = str(year)
         if len(plays) == 0:
@@ -32,8 +32,7 @@ def import_weekly_data(years, columns=None):
 
     if columns is None:
         columns = []
-    data = pandas.read_csv(r'https://github.com/guga31bb/nflfastR-data/blob/master/data/player_stats.csv.gz?raw=true',
-                            low_memory=False, compression='gzip')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
@@ -45,8 +44,7 @@ def import_weekly_data(years, columns=None):
 
 def import_seasonal_data(years):
 
-    data = pandas.read_csv(r'https://github.com/guga31bb/nflfastR-data/blob/master/data/player_stats.csv.gz?raw=true',
-                            low_memory=False, compression='gzip')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
 
     pgstats = data[['recent_team', 'season', 'week', 'attempts', 'completions', 'passing_yards', 'passing_tds',
                       'passing_air_yards', 'passing_yards_after_catch', 'passing_first_downs',
@@ -90,8 +88,7 @@ def import_seasonal_data(years):
 
 def see_pbp_cols():
 
-    data = pandas.read_csv(r'https://github.com/guga31bb/nflfastR-data/blob/master/data/play_by_play_2020.csv.gz?raw='
-                           r'true', low_memory=False, compression='gzip')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet')
     cols = data.columns
 
     return cols
@@ -99,8 +96,7 @@ def see_pbp_cols():
 
 def see_weekly_cols():
 
-    data = pandas.read_csv(r'https://github.com/guga31bb/nflfastR-data/blob/master/data/player_stats.csv.gz?raw=true',
-                            low_memory=False, compression='gzip')
+    data = pd.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     cols = data.columns
 
     return cols
