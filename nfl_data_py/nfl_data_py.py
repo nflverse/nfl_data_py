@@ -18,7 +18,7 @@ def import_pbp_data(years, columns=None):
         else:
             data = pandas.read_parquet(url1 + str(year) + url2)
         raw = pandas.DataFrame(data)
-        raw['season'] = str(year)
+        raw['season'] = year
         if len(plays) == 0:
             plays = raw
         else:
