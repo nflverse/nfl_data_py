@@ -14,9 +14,9 @@ def import_pbp_data(years, columns=None):
 
     for year in years:
         if len(columns) != 0:
-            data = pandas.read_parquet(url1 + str(year) + url2, columns=columns)
+            data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
         else:
-            data = pandas.read_parquet(url1 + str(year) + url2)
+            data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
         raw = pandas.DataFrame(data)
         raw['season'] = year
         if len(plays) == 0:
@@ -88,7 +88,7 @@ def import_seasonal_data(years):
 
 def see_pbp_cols():
 
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='fastparquet')
     cols = data.columns
 
     return cols
@@ -96,7 +96,7 @@ def see_pbp_cols():
 
 def see_weekly_cols():
 
-    data = pd.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     cols = data.columns
 
     return cols
