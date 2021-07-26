@@ -209,66 +209,6 @@ def clean_nfl_data(df):
         'TAM': 'TB'
     }
 
-    player_pro_tm_repl = [
-        ['Lynn Bowden', 'pro_team', {'LV': 'MIA'}],
-        ['Devin Aromashodu', 'pro_team', {'MIA': 'IND'}],
-        ['Brandon Williams', 'pro_team', {'SF': 'CIN'}],
-        ['Paul Hubbard', 'pro_team', {'CLE': 'BUF'}],
-        ['Kenny Moore', 'pro_team', {'DET': 'CAR'}],
-        ['Trindon Holliday', 'pro_team', {'HOU': 'DEN'}],
-        ['Braxton Berrios', 'pro_team', {'NE': 'NYJ'}],
-        ['Hakeem Butler', 'pro_team', {'ARI': 'PHI'}],
-        ['Terry Godwin', 'pro_team', {'CAR': 'JAX'}],
-        ['Dezmon Briscoe', 'pro_team', {'CIN': 'TB'}],
-        ['Robert Davis', 'pro_team', {'WAS': 'PHI'}],
-        ['Vince Mayle', 'pro_team', {'CLE': 'BAL'}],
-        ['Toney Clemons', 'pro_team', {'PIT': 'JAX'}],
-        ['Jeremy Ebert', 'pro_team', {'NE': 'JAX'}],
-        ['Todd Watkins', 'pro_team', {'ARI': 'OAK'}],
-        ['David Clowney', 'pro_team', {'GB': 'NYJ'}],
-        ['Marcus Maxwell', 'pro_team', {'SF': 'CIN'}],
-        ['Cobi Hamilton', 'pro_team', {'CIN': 'PIT'}],
-        ['Kaelin Clay', 'pro_team', {'TB': 'CAR'}],
-        ['Tavarres King', 'pro_team', {'DEN': 'TB'}],
-        ['Jalen Saunders', 'pro_team', {'NYJ': 'NO'}],
-        ['Brandon Gibson', 'pro_team', {'PHI': 'STL'}],
-        ['Patrick Turner', 'pro_team', {'MIA': 'NYJ'}],
-        ['Deon Cain', 'pro_team', {'IND': 'PIT'}],
-        ['Jordan Kent', 'pro_team', {'SEA': 'STL'}],
-        ['Braxton Berrios', 'pro_team', {'NE': 'NYJ'}]
-    ]
-
-    player_col_tm_repl = [
-        ['Van Jefferson', 'col_team', {'Florida': 'Mississippi'}],
-        ['Dorial Green-Beckham', 'col_team', {'Oklahoma': 'Missouri'}]
-    ]
-
-    player_fr_yr_repl = [
-        ['Mike Williams', 'Syracuse', 'yr', {2007: 2006}],
-        ['Larry Fitzgerald', 'Pittsburgh', 'yr', {2002: 2001}],
-        ['Cordarrelle Patterson', 'Tennessee', 'yr', {2012: 2009}],
-        ['Kaelin Clay', 'Utah', 'yr', {2014: 2010}],
-        ['Maurice Mann', 'Nevada', 'yr', {2002: 2000}],
-        ['Michael Gallup', 'Colorado State', 'yr', {2016: 2014}],
-        ['Mario Alford', 'West Virginia', 'yr', {2013: 2011}],
-        ['Jaelen Strong', 'Arizona State', 'yr', {2013: 2011}],
-        ['Jaleel Scott', 'New Mexico State', 'yr', {2016: 2013}],
-        ['Marcus Maxwell', 'Oregon', 'yr', {2003: 2001}],
-        ['Brandon Aiyuk', 'Arizona State', 'yr', {2018: 2016}],
-        ['Devin Thomas', 'Michigan State', 'yr', {2006: 2004}],
-        ['Rishard Matthews', 'Nevada', 'yr', {2010: 2007}],
-        ['Todd Watkins', 'BYU', 'yr', {2004: 2002}],
-        ['Kevin White', 'West Virginia', 'yr', {2013: 2011}],
-        ['Marquise Brown', 'Oklahoma', 'yr', {2017: 2015}],
-        ['Demetrius Byrd', 'LSU', 'yr', {2007: 2005}],
-        ['Javon Wims', 'Georgia', 'yr', {2016: 2014}],
-        ['Dede Westbrook', 'Oklahoma', 'yr', {2015: 2012}],
-        ['Vince Mayle', 'Washington State', 'yr', {2013: 2010}],
-        ['Quinton Patton', 'Louisiana Tech', 'yr', {2011: 2009}],
-        ['John Hightower', 'Boise State', 'yr', {2018: 2016}],
-        ['David Reed', 'Utah', 'yr', {2008: 2006}]
-    ]
-
     if 'name' in df.columns:
         df.replace({'name': name_repl}, inplace=True)
 
@@ -278,17 +218,5 @@ def clean_nfl_data(df):
         if 'name' in df.columns:
             for z in player_col_tm_repl:
                 df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
-
-    if 'team' in df.columns:
-        df.replace({'team': pro_tm_repl}, inplace=True)
-
-        for z in player_pro_tm_repl:
-            df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
-
-    if 'type' in df.columns:
-
-        for z in player_fr_yr_repl:
-            df[(df['name'] == z[0]) & (df['col_team'] == z[1])] = df[(df['name'] == z[0]) & (
-                    df['col_team'] == z[1])].replace({z[2]: z[3]})
 
     return df
