@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2014_01_GB_SEA,2014,REG,1,2014-09-04,Thursday,20:30,GB,SEA,16,36,20,CenturyLink Field,Home,outdoors,fieldturf,2014090400
+1,2014_01_NO_ATL,2014,REG,1,2014-09-07,Sunday,13:00,NO,ATL,34,37,3,Georgia Dome,Home,dome,fieldturf,2014090700
+2,2014_01_CIN_BAL,2014,REG,1,2014-09-07,Sunday,13:00,CIN,BAL,23,16,-7,M&T Bank Stadium,Home,outdoors,sportturf,2014090701
+3,2014_01_BUF_CHI,2014,REG,1,2014-09-07,Sunday,13:00,BUF,CHI,23,20,-3,Soldier Field,Home,outdoors,grass,2014090702
+4,2014_01_WAS_HOU,2014,REG,1,2014-09-07,Sunday,13:00,WAS,HOU,6,17,11,NRG Stadium,Home,closed,grass,2014090703
+5,2014_01_TEN_KC,2014,REG,1,2014-09-07,Sunday,13:00,TEN,KC,26,10,-16,Arrowhead Stadium,Home,outdoors,grass,2014090704
+6,2014_01_NE_MIA,2014,REG,1,2014-09-07,Sunday,13:00,NE,MIA,20,33,13,Sun Life Stadium,Home,outdoors,grass,2014090705
+7,2014_01_OAK_NYJ,2014,REG,1,2014-09-07,Sunday,13:00,OAK,NYJ,14,19,5,MetLife Stadium,Home,outdoors,fieldturf,2014090706
+8,2014_01_JAX_PHI,2014,REG,1,2014-09-07,Sunday,13:00,JAX,PHI,17,34,17,Lincoln Financial Field,Home,outdoors,grass,2014090707
+9,2014_01_CLE_PIT,2014,REG,1,2014-09-07,Sunday,13:00,CLE,PIT,27,30,3,Heinz Field,Home,outdoors,grass,2014090708
+10,2014_01_MIN_STL,2014,REG,1,2014-09-07,Sunday,13:00,MIN,STL,34,6,-28,Edward Jones Dome,Home,dome,astroplay,2014090709
+11,2014_01_SF_DAL,2014,REG,1,2014-09-07,Sunday,16:25,SF,DAL,28,17,-11,AT&T Stadium,Home,closed,matrixturf,2014090710
+12,2014_01_CAR_TB,2014,REG,1,2014-09-07,Sunday,16:25,CAR,TB,20,14,-6,Raymond James Stadium,Home,outdoors,grass,2014090711
+13,2014_01_IND_DEN,2014,REG,1,2014-09-07,Sunday,20:30,IND,DEN,24,31,7,Sports Authority Field at Mile High,Home,outdoors,grass,2014090712
+14,2014_01_NYG_DET,2014,REG,1,2014-09-08,Monday,19:10,NYG,DET,14,35,21,Ford Field,Home,dome,fieldturf,2014090800
+15,2014_01_SD_ARI,2014,REG,1,2014-09-08,Monday,21:20,SD,ARI,17,18,1,University of Phoenix Stadium,Home,closed,grass,2014090801
+16,2014_02_PIT_BAL,2014,REG,2,2014-09-11,Thursday,20:25,PIT,BAL,6,26,20,M&T Bank Stadium,Home,outdoors,sportturf,2014091100
+17,2014_02_MIA_BUF,2014,REG,2,2014-09-14,Sunday,13:00,MIA,BUF,10,29,19,Ralph Wilson Stadium,Home,outdoors,a_turf,2014091400
+18,2014_02_DET_CAR,2014,REG,2,2014-09-14,Sunday,13:00,DET,CAR,7,24,17,Bank of America Stadium,Home,outdoors,grass,2014091401
+19,2014_02_ATL_CIN,2014,REG,2,2014-09-14,Sunday,13:00,ATL,CIN,10,24,14,Paul Brown Stadium,Home,outdoors,fieldturf,2014091402
+20,2014_02_NO_CLE,2014,REG,2,2014-09-14,Sunday,13:00,NO,CLE,24,26,2,FirstEnergy Stadium,Home,outdoors,grass,2014091403
+21,2014_02_NE_MIN,2014,REG,2,2014-09-14,Sunday,13:00,NE,MIN,30,7,-23,TCF Bank Stadium,Home,outdoors,fieldturf,2014091404
+22,2014_02_ARI_NYG,2014,REG,2,2014-09-14,Sunday,13:00,ARI,NYG,25,14,-11,MetLife Stadium,Home,outdoors,fieldturf,2014091405
+23,2014_02_DAL_TEN,2014,REG,2,2014-09-14,Sunday,13:00,DAL,TEN,26,10,-16,LP Field,Home,outdoors,grass,2014091406
+24,2014_02_JAX_WAS,2014,REG,2,2014-09-14,Sunday,13:00,JAX,WAS,10,41,31,FedExField,Home,outdoors,grass,2014091407
+25,2014_02_SEA_SD,2014,REG,2,2014-09-14,Sunday,16:05,SEA,SD,21,30,9,Qualcomm Stadium,Home,outdoors,grass,2014091408
+26,2014_02_STL_TB,2014,REG,2,2014-09-14,Sunday,16:05,STL,TB,19,17,-2,Raymond James Stadium,Home,outdoors,grass,2014091409
+27,2014_02_KC_DEN,2014,REG,2,2014-09-14,Sunday,16:25,KC,DEN,17,24,7,Sports Authority Field at Mile High,Home,outdoors,grass,2014091410
+28,2014_02_NYJ_GB,2014,REG,2,2014-09-14,Sunday,16:25,NYJ,GB,24,31,7,Lambeau Field,Home,outdoors,grass,2014091411
+29,2014_02_HOU_OAK,2014,REG,2,2014-09-14,Sunday,16:25,HOU,OAK,30,14,-16,O.co Coliseum,Home,outdoors,grass,2014091412
+30,2014_02_CHI_SF,2014,REG,2,2014-09-14,Sunday,20:30,CHI,SF,28,20,-8,Levi's Stadium,Home,outdoors,grass,2014091413
+31,2014_02_PHI_IND,2014,REG,2,2014-09-15,Monday,20:30,PHI,IND,30,27,-3,Lucas Oil Stadium,Home,closed,fieldturf,2014091500
+32,2014_03_TB_ATL,2014,REG,3,2014-09-18,Thursday,20:25,TB,ATL,14,56,42,Georgia Dome,Home,dome,fieldturf,2014091800
+33,2014_03_SD_BUF,2014,REG,3,2014-09-21,Sunday,13:00,SD,BUF,22,10,-12,Ralph Wilson Stadium,Home,outdoors,a_turf,2014092100
+34,2014_03_TEN_CIN,2014,REG,3,2014-09-21,Sunday,13:00,TEN,CIN,7,33,26,Paul Brown Stadium,Home,outdoors,fieldturf,2014092101
+35,2014_03_BAL_CLE,2014,REG,3,2014-09-21,Sunday,13:00,BAL,CLE,23,21,-2,FirstEnergy Stadium,Home,outdoors,grass,2014092102
+36,2014_03_GB_DET,2014,REG,3,2014-09-21,Sunday,13:00,GB,DET,7,19,12,Ford Field,Home,dome,fieldturf,2014092103
+37,2014_03_IND_JAX,2014,REG,3,2014-09-21,Sunday,13:00,IND,JAX,44,17,-27,EverBank Field,Home,outdoors,grass,2014092104
+38,2014_03_OAK_NE,2014,REG,3,2014-09-21,Sunday,13:00,OAK,NE,9,16,7,Gillette Stadium,Home,outdoors,fieldturf,2014092105
+39,2014_03_MIN_NO,2014,REG,3,2014-09-21,Sunday,13:00,MIN,NO,9,20,11,Mercedes-Benz Superdome,Home,dome,sportturf,2014092106
+40,2014_03_HOU_NYG,2014,REG,3,2014-09-21,Sunday,13:00,HOU,NYG,17,30,13,MetLife Stadium,Home,outdoors,fieldturf,2014092107
+41,2014_03_WAS_PHI,2014,REG,3,2014-09-21,Sunday,13:00,WAS,PHI,34,37,3,Lincoln Financial Field,Home,outdoors,grass,2014092108
+42,2014_03_DAL_STL,2014,REG,3,2014-09-21,Sunday,13:00,DAL,STL,34,31,-3,Edward Jones Dome,Home,dome,astroplay,2014092109
+43,2014_03_SF_ARI,2014,REG,3,2014-09-21,Sunday,16:05,SF,ARI,14,23,9,University of Phoenix Stadium,Home,closed,grass,2014092110
+44,2014_03_KC_MIA,2014,REG,3,2014-09-21,Sunday,16:25,KC,MIA,34,15,-19,Sun Life Stadium,Home,outdoors,grass,2014092111
+45,2014_03_DEN_SEA,2014,REG,3,2014-09-21,Sunday,16:25,DEN,SEA,20,26,6,CenturyLink Field,Home,outdoors,fieldturf,2014092112
+46,2014_03_PIT_CAR,2014,REG,3,2014-09-21,Sunday,20:30,PIT,CAR,37,19,-18,Bank of America Stadium,Home,outdoors,grass,2014092113
+47,2014_03_CHI_NYJ,2014,REG,3,2014-09-22,Monday,20:30,CHI,NYJ,27,19,-8,MetLife Stadium,Home,outdoors,fieldturf,2014092200
+48,2014_04_NYG_WAS,2014,REG,4,2014-09-25,Thursday,20:25,NYG,WAS,45,14,-31,FedExField,Home,outdoors,grass,2014092500
+49,2014_04_CAR_BAL,2014,REG,4,2014-09-28,Sunday,13:00,CAR,BAL,10,38,28,M&T Bank Stadium,Home,outdoors,sportturf,2014092800
+50,2014_04_GB_CHI,2014,REG,4,2014-09-28,Sunday,13:00,GB,CHI,38,17,-21,Soldier Field,Home,outdoors,grass,2014092801
+51,2014_04_BUF_HOU,2014,REG,4,2014-09-28,Sunday,13:00,BUF,HOU,17,23,6,NRG Stadium,Home,closed,grass,2014092802
+52,2014_04_TEN_IND,2014,REG,4,2014-09-28,Sunday,13:00,TEN,IND,17,41,24,Lucas Oil Stadium,Home,open,fieldturf,2014092803
+53,2014_04_DET_NYJ,2014,REG,4,2014-09-28,Sunday,13:00,DET,NYJ,24,17,-7,MetLife Stadium,Home,outdoors,fieldturf,2014092805
+54,2014_04_MIA_OAK,2014,REG,4,2014-09-28,Sunday,13:00,MIA,OAK,38,14,-24,Wembley Stadium,Neutral,outdoors,grass,2014092806
+55,2014_04_TB_PIT,2014,REG,4,2014-09-28,Sunday,13:00,TB,PIT,27,24,-3,Heinz Field,Home,outdoors,grass,2014092807
+56,2014_04_JAX_SD,2014,REG,4,2014-09-28,Sunday,16:05,JAX,SD,14,33,19,Qualcomm Stadium,Home,outdoors,grass,2014092808
+57,2014_04_ATL_MIN,2014,REG,4,2014-09-28,Sunday,16:25,ATL,MIN,28,41,13,TCF Bank Stadium,Home,outdoors,fieldturf,2014092804
+58,2014_04_PHI_SF,2014,REG,4,2014-09-28,Sunday,16:25,PHI,SF,21,26,5,Levi's Stadium,Home,outdoors,grass,2014092809
+59,2014_04_NO_DAL,2014,REG,4,2014-09-28,Sunday,20:30,NO,DAL,17,38,21,AT&T Stadium,Home,closed,matrixturf,2014092810
+60,2014_04_NE_KC,2014,REG,4,2014-09-29,Monday,20:30,NE,KC,14,41,27,Arrowhead Stadium,Home,outdoors,grass,2014092900
+61,2014_05_MIN_GB,2014,REG,5,2014-10-02,Thursday,20:25,MIN,GB,10,42,32,Lambeau Field,Home,outdoors,grass,2014100200
+62,2014_05_CHI_CAR,2014,REG,5,2014-10-05,Sunday,13:00,CHI,CAR,24,31,7,Bank of America Stadium,Home,outdoors,grass,2014100500
+63,2014_05_HOU_DAL,2014,REG,5,2014-10-05,Sunday,13:00,HOU,DAL,17,20,3,AT&T Stadium,Home,closed,matrixturf,2014100501
+64,2014_05_BUF_DET,2014,REG,5,2014-10-05,Sunday,13:00,BUF,DET,17,14,-3,Ford Field,Home,dome,fieldturf,2014100502
+65,2014_05_BAL_IND,2014,REG,5,2014-10-05,Sunday,13:00,BAL,IND,13,20,7,Lucas Oil Stadium,Home,open,fieldturf,2014100503
+66,2014_05_PIT_JAX,2014,REG,5,2014-10-05,Sunday,13:00,PIT,JAX,17,9,-8,EverBank Field,Home,outdoors,grass,2014100504
+67,2014_05_TB_NO,2014,REG,5,2014-10-05,Sunday,13:00,TB,NO,31,37,6,Mercedes-Benz Superdome,Home,dome,sportturf,2014100505
+68,2014_05_ATL_NYG,2014,REG,5,2014-10-05,Sunday,13:00,ATL,NYG,20,30,10,MetLife Stadium,Home,outdoors,fieldturf,2014100506
+69,2014_05_STL_PHI,2014,REG,5,2014-10-05,Sunday,13:00,STL,PHI,28,34,6,Lincoln Financial Field,Home,outdoors,grass,2014100507
+70,2014_05_CLE_TEN,2014,REG,5,2014-10-05,Sunday,13:00,CLE,TEN,29,28,-1,LP Field,Home,outdoors,grass,2014100508
+71,2014_05_ARI_DEN,2014,REG,5,2014-10-05,Sunday,16:05,ARI,DEN,20,41,21,Sports Authority Field at Mile High,Home,outdoors,grass,2014100509
+72,2014_05_NYJ_SD,2014,REG,5,2014-10-05,Sunday,16:25,NYJ,SD,0,31,31,Qualcomm Stadium,Home,outdoors,grass,2014100510
+73,2014_05_KC_SF,2014,REG,5,2014-10-05,Sunday,16:25,KC,SF,17,22,5,Levi's Stadium,Home,outdoors,grass,2014100511
+74,2014_05_CIN_NE,2014,REG,5,2014-10-05,Sunday,20:30,CIN,NE,17,43,26,Gillette Stadium,Home,outdoors,fieldturf,2014100512
+75,2014_05_SEA_WAS,2014,REG,5,2014-10-06,Monday,20:30,SEA,WAS,27,17,-10,FedExField,Home,outdoors,grass,2014100600
+76,2014_06_IND_HOU,2014,REG,6,2014-10-09,Thursday,20:25,IND,HOU,33,28,-5,NRG Stadium,Home,closed,grass,2014100900
+77,2014_06_NE_BUF,2014,REG,6,2014-10-12,Sunday,13:00,NE,BUF,37,22,-15,Ralph Wilson Stadium,Home,outdoors,a_turf,2014101201
+78,2014_06_CAR_CIN,2014,REG,6,2014-10-12,Sunday,13:00,CAR,CIN,37,37,0,Paul Brown Stadium,Home,outdoors,fieldturf,2014101202
+79,2014_06_PIT_CLE,2014,REG,6,2014-10-12,Sunday,13:00,PIT,CLE,10,31,21,FirstEnergy Stadium,Home,outdoors,grass,2014101203
+80,2014_06_GB_MIA,2014,REG,6,2014-10-12,Sunday,13:00,GB,MIA,27,24,-3,Sun Life Stadium,Home,outdoors,grass,2014101204
+81,2014_06_DET_MIN,2014,REG,6,2014-10-12,Sunday,13:00,DET,MIN,17,3,-14,TCF Bank Stadium,Home,outdoors,fieldturf,2014101205
+82,2014_06_DEN_NYJ,2014,REG,6,2014-10-12,Sunday,13:00,DEN,NYJ,31,17,-14,MetLife Stadium,Home,outdoors,fieldturf,2014101206
+83,2014_06_BAL_TB,2014,REG,6,2014-10-12,Sunday,13:00,BAL,TB,48,17,-31,Raymond James Stadium,Home,outdoors,grass,2014101207
+84,2014_06_JAX_TEN,2014,REG,6,2014-10-12,Sunday,13:00,JAX,TEN,14,16,2,LP Field,Home,outdoors,grass,2014101208
+85,2014_06_SD_OAK,2014,REG,6,2014-10-12,Sunday,16:05,SD,OAK,31,28,-3,O.co Coliseum,Home,outdoors,grass,2014101209
+86,2014_06_WAS_ARI,2014,REG,6,2014-10-12,Sunday,16:25,WAS,ARI,20,30,10,University of Phoenix Stadium,Home,closed,grass,2014101210
+87,2014_06_CHI_ATL,2014,REG,6,2014-10-12,Sunday,16:25,CHI,ATL,27,13,-14,Georgia Dome,Home,dome,fieldturf,2014101200
+88,2014_06_DAL_SEA,2014,REG,6,2014-10-12,Sunday,16:25,DAL,SEA,30,23,-7,CenturyLink Field,Home,outdoors,fieldturf,2014101211
+89,2014_06_NYG_PHI,2014,REG,6,2014-10-12,Sunday,20:30,NYG,PHI,0,27,27,Lincoln Financial Field,Home,outdoors,grass,2014101212
+90,2014_06_SF_STL,2014,REG,6,2014-10-13,Monday,20:30,SF,STL,31,17,-14,Edward Jones Dome,Home,dome,astroplay,2014101300
+91,2014_07_NYJ_NE,2014,REG,7,2014-10-16,Thursday,20:25,NYJ,NE,25,27,2,Gillette Stadium,Home,outdoors,fieldturf,2014101600
+92,2014_07_ATL_BAL,2014,REG,7,2014-10-19,Sunday,13:00,ATL,BAL,7,29,22,M&T Bank Stadium,Home,outdoors,sportturf,2014101900
+93,2014_07_MIN_BUF,2014,REG,7,2014-10-19,Sunday,13:00,MIN,BUF,16,17,1,Ralph Wilson Stadium,Home,outdoors,a_turf,2014101901
+94,2014_07_MIA_CHI,2014,REG,7,2014-10-19,Sunday,13:00,MIA,CHI,27,14,-13,Soldier Field,Home,outdoors,grass,2014101902
+95,2014_07_NO_DET,2014,REG,7,2014-10-19,Sunday,13:00,NO,DET,23,24,1,Ford Field,Home,dome,fieldturf,2014101903
+96,2014_07_CAR_GB,2014,REG,7,2014-10-19,Sunday,13:00,CAR,GB,17,38,21,Lambeau Field,Home,outdoors,grass,2014101904
+97,2014_07_CIN_IND,2014,REG,7,2014-10-19,Sunday,13:00,CIN,IND,0,27,27,Lucas Oil Stadium,Home,open,fieldturf,2014101905
+98,2014_07_CLE_JAX,2014,REG,7,2014-10-19,Sunday,13:00,CLE,JAX,6,24,18,EverBank Field,Home,outdoors,grass,2014101906
+99,2014_07_SEA_STL,2014,REG,7,2014-10-19,Sunday,13:00,SEA,STL,26,28,2,Edward Jones Dome,Home,dome,astroplay,2014101907
+100,2014_07_TEN_WAS,2014,REG,7,2014-10-19,Sunday,13:00,TEN,WAS,17,19,2,FedExField,Home,outdoors,grass,2014101908
+101,2014_07_KC_SD,2014,REG,7,2014-10-19,Sunday,16:05,KC,SD,23,20,-3,Qualcomm Stadium,Home,outdoors,grass,2014101909
+102,2014_07_NYG_DAL,2014,REG,7,2014-10-19,Sunday,16:25,NYG,DAL,21,31,10,AT&T Stadium,Home,closed,matrixturf,2014101910
+103,2014_07_ARI_OAK,2014,REG,7,2014-10-19,Sunday,16:25,ARI,OAK,24,13,-11,O.co Coliseum,Home,outdoors,grass,2014101911
+104,2014_07_SF_DEN,2014,REG,7,2014-10-19,Sunday,20:30,SF,DEN,17,42,25,Sports Authority Field at Mile High,Home,outdoors,grass,2014101912
+105,2014_07_HOU_PIT,2014,REG,7,2014-10-20,Monday,20:30,HOU,PIT,23,30,7,Heinz Field,Home,outdoors,grass,2014102000
+106,2014_08_SD_DEN,2014,REG,8,2014-10-23,Thursday,20:25,SD,DEN,21,35,14,Sports Authority Field at Mile High,Home,outdoors,grass,2014102300
+107,2014_08_DET_ATL,2014,REG,8,2014-10-26,Sunday,09:30,DET,ATL,22,21,-1,Wembley Stadium,Neutral,outdoors,fieldturf,2014102600
+108,2014_08_SEA_CAR,2014,REG,8,2014-10-26,Sunday,13:00,SEA,CAR,13,9,-4,Bank of America Stadium,Home,outdoors,grass,2014102601
+109,2014_08_BAL_CIN,2014,REG,8,2014-10-26,Sunday,13:00,BAL,CIN,24,27,3,Paul Brown Stadium,Home,outdoors,fieldturf,2014102602
+110,2014_08_MIA_JAX,2014,REG,8,2014-10-26,Sunday,13:00,MIA,JAX,27,13,-14,EverBank Field,Home,outdoors,grass,2014102603
+111,2014_08_STL_KC,2014,REG,8,2014-10-26,Sunday,13:00,STL,KC,7,34,27,Arrowhead Stadium,Home,outdoors,grass,2014102604
+112,2014_08_CHI_NE,2014,REG,8,2014-10-26,Sunday,13:00,CHI,NE,23,51,28,Gillette Stadium,Home,outdoors,fieldturf,2014102605
+113,2014_08_BUF_NYJ,2014,REG,8,2014-10-26,Sunday,13:00,BUF,NYJ,43,23,-20,MetLife Stadium,Home,outdoors,fieldturf,2014102606
+114,2014_08_MIN_TB,2014,REG,8,2014-10-26,Sunday,13:00,MIN,TB,19,13,-6,Raymond James Stadium,Home,outdoors,grass,2014102607
+115,2014_08_HOU_TEN,2014,REG,8,2014-10-26,Sunday,13:00,HOU,TEN,30,16,-14,LP Field,Home,outdoors,grass,2014102608
+116,2014_08_PHI_ARI,2014,REG,8,2014-10-26,Sunday,16:05,PHI,ARI,20,24,4,University of Phoenix Stadium,Home,closed,grass,2014102609
+117,2014_08_OAK_CLE,2014,REG,8,2014-10-26,Sunday,16:25,OAK,CLE,13,23,10,FirstEnergy Stadium,Home,outdoors,grass,2014102610
+118,2014_08_IND_PIT,2014,REG,8,2014-10-26,Sunday,16:25,IND,PIT,34,51,17,Heinz Field,Home,outdoors,grass,2014102611
+119,2014_08_GB_NO,2014,REG,8,2014-10-26,Sunday,20:30,GB,NO,23,44,21,Mercedes-Benz Superdome,Home,dome,sportturf,2014102612
+120,2014_08_WAS_DAL,2014,REG,8,2014-10-27,Monday,20:30,WAS,DAL,20,17,-3,AT&T Stadium,Home,closed,matrixturf,2014102700
+121,2014_09_NO_CAR,2014,REG,9,2014-10-30,Thursday,20:25,NO,CAR,28,10,-18,Bank of America Stadium,Home,outdoors,grass,2014103000
+122,2014_09_JAX_CIN,2014,REG,9,2014-11-02,Sunday,13:00,JAX,CIN,23,33,10,Paul Brown Stadium,Home,outdoors,fieldturf,2014110200
+123,2014_09_TB_CLE,2014,REG,9,2014-11-02,Sunday,13:00,TB,CLE,17,22,5,FirstEnergy Stadium,Home,outdoors,grass,2014110201
+124,2014_09_ARI_DAL,2014,REG,9,2014-11-02,Sunday,13:00,ARI,DAL,28,17,-11,AT&T Stadium,Home,closed,matrixturf,2014110202
+125,2014_09_PHI_HOU,2014,REG,9,2014-11-02,Sunday,13:00,PHI,HOU,31,21,-10,NRG Stadium,Home,closed,grass,2014110203
+126,2014_09_NYJ_KC,2014,REG,9,2014-11-02,Sunday,13:00,NYJ,KC,10,24,14,Arrowhead Stadium,Home,outdoors,grass,2014110204
+127,2014_09_SD_MIA,2014,REG,9,2014-11-02,Sunday,13:00,SD,MIA,0,37,37,Sun Life Stadium,Home,outdoors,grass,2014110205
+128,2014_09_WAS_MIN,2014,REG,9,2014-11-02,Sunday,13:00,WAS,MIN,26,29,3,TCF Bank Stadium,Home,outdoors,fieldturf,2014110206
+129,2014_09_STL_SF,2014,REG,9,2014-11-02,Sunday,16:05,STL,SF,13,10,-3,Levi's Stadium,Home,outdoors,grass,2014110207
+130,2014_09_DEN_NE,2014,REG,9,2014-11-02,Sunday,16:25,DEN,NE,21,43,22,Gillette Stadium,Home,outdoors,fieldturf,2014110208
+131,2014_09_OAK_SEA,2014,REG,9,2014-11-02,Sunday,16:25,OAK,SEA,24,30,6,CenturyLink Field,Home,outdoors,fieldturf,2014110209
+132,2014_09_BAL_PIT,2014,REG,9,2014-11-02,Sunday,20:30,BAL,PIT,23,43,20,Heinz Field,Home,outdoors,grass,2014110210
+133,2014_09_IND_NYG,2014,REG,9,2014-11-03,Monday,20:30,IND,NYG,40,24,-16,MetLife Stadium,Home,outdoors,fieldturf,2014110300
+134,2014_10_CLE_CIN,2014,REG,10,2014-11-06,Thursday,20:25,CLE,CIN,24,3,-21,Paul Brown Stadium,Home,outdoors,fieldturf,2014110600
+135,2014_10_TEN_BAL,2014,REG,10,2014-11-09,Sunday,13:00,TEN,BAL,7,21,14,M&T Bank Stadium,Home,outdoors,sportturf,2014110900
+136,2014_10_KC_BUF,2014,REG,10,2014-11-09,Sunday,13:00,KC,BUF,17,13,-4,Ralph Wilson Stadium,Home,outdoors,a_turf,2014110901
+137,2014_10_MIA_DET,2014,REG,10,2014-11-09,Sunday,13:00,MIA,DET,16,20,4,Ford Field,Home,dome,fieldturf,2014110902
+138,2014_10_DAL_JAX,2014,REG,10,2014-11-09,Sunday,13:00,DAL,JAX,31,17,-14,Wembley Stadium,Neutral,outdoors,grass,2014110903
+139,2014_10_SF_NO,2014,REG,10,2014-11-09,Sunday,13:00,SF,NO,27,24,-3,Mercedes-Benz Superdome,Home,dome,sportturf,2014110904
+140,2014_10_PIT_NYJ,2014,REG,10,2014-11-09,Sunday,13:00,PIT,NYJ,13,20,7,MetLife Stadium,Home,outdoors,fieldturf,2014110905
+141,2014_10_ATL_TB,2014,REG,10,2014-11-09,Sunday,13:00,ATL,TB,27,17,-10,Raymond James Stadium,Home,outdoors,grass,2014110906
+142,2014_10_DEN_OAK,2014,REG,10,2014-11-09,Sunday,16:05,DEN,OAK,41,17,-24,O.co Coliseum,Home,outdoors,grass,2014110907
+143,2014_10_STL_ARI,2014,REG,10,2014-11-09,Sunday,16:25,STL,ARI,14,31,17,University of Phoenix Stadium,Home,closed,grass,2014110908
+144,2014_10_NYG_SEA,2014,REG,10,2014-11-09,Sunday,16:25,NYG,SEA,17,38,21,CenturyLink Field,Home,outdoors,fieldturf,2014110909
+145,2014_10_CHI_GB,2014,REG,10,2014-11-09,Sunday,20:30,CHI,GB,14,55,41,Lambeau Field,Home,outdoors,grass,2014110910
+146,2014_10_CAR_PHI,2014,REG,10,2014-11-10,Monday,20:30,CAR,PHI,21,45,24,Lincoln Financial Field,Home,outdoors,grass,2014111000
+147,2014_11_BUF_MIA,2014,REG,11,2014-11-13,Thursday,20:25,BUF,MIA,9,22,13,Sun Life Stadium,Home,outdoors,grass,2014111300
+148,2014_11_ATL_CAR,2014,REG,11,2014-11-16,Sunday,13:00,ATL,CAR,19,17,-2,Bank of America Stadium,Home,outdoors,grass,2014111600
+149,2014_11_MIN_CHI,2014,REG,11,2014-11-16,Sunday,13:00,MIN,CHI,13,21,8,Soldier Field,Home,outdoors,grass,2014111601
+150,2014_11_HOU_CLE,2014,REG,11,2014-11-16,Sunday,13:00,HOU,CLE,23,7,-16,FirstEnergy Stadium,Home,outdoors,grass,2014111602
+151,2014_11_SEA_KC,2014,REG,11,2014-11-16,Sunday,13:00,SEA,KC,20,24,4,Arrowhead Stadium,Home,outdoors,grass,2014111604
+152,2014_11_CIN_NO,2014,REG,11,2014-11-16,Sunday,13:00,CIN,NO,27,10,-17,Mercedes-Benz Superdome,Home,dome,sportturf,2014111605
+153,2014_11_SF_NYG,2014,REG,11,2014-11-16,Sunday,13:00,SF,NYG,16,10,-6,MetLife Stadium,Home,outdoors,fieldturf,2014111606
+154,2014_11_DEN_STL,2014,REG,11,2014-11-16,Sunday,13:00,DEN,STL,7,22,15,Edward Jones Dome,Home,dome,astroplay,2014111607
+155,2014_11_TB_WAS,2014,REG,11,2014-11-16,Sunday,13:00,TB,WAS,27,7,-20,FedExField,Home,outdoors,grass,2014111608
+156,2014_11_OAK_SD,2014,REG,11,2014-11-16,Sunday,16:05,OAK,SD,6,13,7,Qualcomm Stadium,Home,outdoors,grass,2014111609
+157,2014_11_DET_ARI,2014,REG,11,2014-11-16,Sunday,16:25,DET,ARI,6,14,8,University of Phoenix Stadium,Home,closed,grass,2014111610
+158,2014_11_PHI_GB,2014,REG,11,2014-11-16,Sunday,16:25,PHI,GB,20,53,33,Lambeau Field,Home,outdoors,grass,2014111603
+159,2014_11_NE_IND,2014,REG,11,2014-11-16,Sunday,20:30,NE,IND,42,20,-22,Lucas Oil Stadium,Home,closed,fieldturf,2014111611
+160,2014_11_PIT_TEN,2014,REG,11,2014-11-17,Monday,20:30,PIT,TEN,27,24,-3,LP Field,Home,outdoors,grass,2014111700
+161,2014_12_KC_OAK,2014,REG,12,2014-11-20,Thursday,20:25,KC,OAK,20,24,4,O.co Coliseum,Home,outdoors,grass,2014112000
+162,2014_12_CLE_ATL,2014,REG,12,2014-11-23,Sunday,13:00,CLE,ATL,26,24,-2,Georgia Dome,Home,dome,fieldturf,2014112300
+163,2014_12_TB_CHI,2014,REG,12,2014-11-23,Sunday,13:00,TB,CHI,13,21,8,Soldier Field,Home,outdoors,grass,2014112302
+164,2014_12_CIN_HOU,2014,REG,12,2014-11-23,Sunday,13:00,CIN,HOU,22,13,-9,NRG Stadium,Home,closed,grass,2014112303
+165,2014_12_JAX_IND,2014,REG,12,2014-11-23,Sunday,13:00,JAX,IND,3,23,20,Lucas Oil Stadium,Home,closed,fieldturf,2014112304
+166,2014_12_GB_MIN,2014,REG,12,2014-11-23,Sunday,13:00,GB,MIN,24,21,-3,TCF Bank Stadium,Home,outdoors,fieldturf,2014112305
+167,2014_12_DET_NE,2014,REG,12,2014-11-23,Sunday,13:00,DET,NE,9,34,25,Gillette Stadium,Home,outdoors,fieldturf,2014112306
+168,2014_12_TEN_PHI,2014,REG,12,2014-11-23,Sunday,13:00,TEN,PHI,24,43,19,Lincoln Financial Field,Home,outdoors,grass,2014112307
+169,2014_12_STL_SD,2014,REG,12,2014-11-23,Sunday,16:05,STL,SD,24,27,3,Qualcomm Stadium,Home,outdoors,grass,2014112308
+170,2014_12_ARI_SEA,2014,REG,12,2014-11-23,Sunday,16:05,ARI,SEA,3,19,16,CenturyLink Field,Home,outdoors,fieldturf,2014112309
+171,2014_12_MIA_DEN,2014,REG,12,2014-11-23,Sunday,16:25,MIA,DEN,36,39,3,Sports Authority Field at Mile High,Home,outdoors,grass,2014112310
+172,2014_12_WAS_SF,2014,REG,12,2014-11-23,Sunday,16:25,WAS,SF,13,17,4,Levi's Stadium,Home,outdoors,grass,2014112311
+173,2014_12_DAL_NYG,2014,REG,12,2014-11-23,Sunday,20:30,DAL,NYG,31,28,-3,MetLife Stadium,Home,outdoors,fieldturf,2014112312
+174,2014_12_NYJ_BUF,2014,REG,12,2014-11-24,Monday,19:00,NYJ,BUF,3,38,35,Ford Field,Neutral,dome,fieldturf,2014112301
+175,2014_12_BAL_NO,2014,REG,12,2014-11-24,Monday,20:30,BAL,NO,34,27,-7,Mercedes-Benz Superdome,Home,dome,sportturf,2014112400
+176,2014_13_CHI_DET,2014,REG,13,2014-11-27,Thursday,12:30,CHI,DET,17,34,17,Ford Field,Home,dome,fieldturf,2014112700
+177,2014_13_PHI_DAL,2014,REG,13,2014-11-27,Thursday,16:30,PHI,DAL,33,10,-23,AT&T Stadium,Home,closed,matrixturf,2014112701
+178,2014_13_SEA_SF,2014,REG,13,2014-11-27,Thursday,20:30,SEA,SF,19,3,-16,Levi's Stadium,Home,outdoors,grass,2014112702
+179,2014_13_SD_BAL,2014,REG,13,2014-11-30,Sunday,13:00,SD,BAL,34,33,-1,M&T Bank Stadium,Home,outdoors,sportturf,2014113000
+180,2014_13_CLE_BUF,2014,REG,13,2014-11-30,Sunday,13:00,CLE,BUF,10,26,16,Ralph Wilson Stadium,Home,outdoors,a_turf,2014113001
+181,2014_13_TEN_HOU,2014,REG,13,2014-11-30,Sunday,13:00,TEN,HOU,21,45,24,NRG Stadium,Home,closed,grass,2014113002
+182,2014_13_WAS_IND,2014,REG,13,2014-11-30,Sunday,13:00,WAS,IND,27,49,22,Lucas Oil Stadium,Home,closed,fieldturf,2014113003
+183,2014_13_NYG_JAX,2014,REG,13,2014-11-30,Sunday,13:00,NYG,JAX,24,25,1,EverBank Field,Home,outdoors,grass,2014113004
+184,2014_13_CAR_MIN,2014,REG,13,2014-11-30,Sunday,13:00,CAR,MIN,13,31,18,TCF Bank Stadium,Home,outdoors,fieldturf,2014113005
+185,2014_13_NO_PIT,2014,REG,13,2014-11-30,Sunday,13:00,NO,PIT,35,32,-3,Heinz Field,Home,outdoors,grass,2014113006
+186,2014_13_OAK_STL,2014,REG,13,2014-11-30,Sunday,13:00,OAK,STL,0,52,52,Edward Jones Dome,Home,dome,astroplay,2014113007
+187,2014_13_CIN_TB,2014,REG,13,2014-11-30,Sunday,13:00,CIN,TB,14,13,-1,Raymond James Stadium,Home,outdoors,grass,2014113008
+188,2014_13_ARI_ATL,2014,REG,13,2014-11-30,Sunday,16:05,ARI,ATL,18,29,11,Georgia Dome,Home,dome,fieldturf,2014113009
+189,2014_13_NE_GB,2014,REG,13,2014-11-30,Sunday,16:25,NE,GB,21,26,5,Lambeau Field,Home,outdoors,grass,2014113010
+190,2014_13_DEN_KC,2014,REG,13,2014-11-30,Sunday,20:30,DEN,KC,29,16,-13,Arrowhead Stadium,Home,outdoors,grass,2014113011
+191,2014_13_MIA_NYJ,2014,REG,13,2014-12-01,Monday,20:30,MIA,NYJ,16,13,-3,MetLife Stadium,Home,outdoors,fieldturf,2014120100
+192,2014_14_DAL_CHI,2014,REG,14,2014-12-04,Thursday,20:25,DAL,CHI,41,28,-13,Soldier Field,Home,outdoors,grass,2014120400
+193,2014_14_PIT_CIN,2014,REG,14,2014-12-07,Sunday,13:00,PIT,CIN,42,21,-21,Paul Brown Stadium,Home,outdoors,fieldturf,2014120700
+194,2014_14_IND_CLE,2014,REG,14,2014-12-07,Sunday,13:00,IND,CLE,25,24,-1,FirstEnergy Stadium,Home,outdoors,grass,2014120701
+195,2014_14_TB_DET,2014,REG,14,2014-12-07,Sunday,13:00,TB,DET,17,34,17,Ford Field,Home,dome,fieldturf,2014120702
+196,2014_14_HOU_JAX,2014,REG,14,2014-12-07,Sunday,13:00,HOU,JAX,27,13,-14,EverBank Field,Home,outdoors,grass,2014120703
+197,2014_14_BAL_MIA,2014,REG,14,2014-12-07,Sunday,13:00,BAL,MIA,28,13,-15,Sun Life Stadium,Home,outdoors,grass,2014120704
+198,2014_14_NYJ_MIN,2014,REG,14,2014-12-07,Sunday,13:00,NYJ,MIN,24,30,6,TCF Bank Stadium,Home,outdoors,fieldturf,2014120705
+199,2014_14_CAR_NO,2014,REG,14,2014-12-07,Sunday,13:00,CAR,NO,41,10,-31,Mercedes-Benz Superdome,Home,dome,sportturf,2014120706
+200,2014_14_NYG_TEN,2014,REG,14,2014-12-07,Sunday,13:00,NYG,TEN,36,7,-29,LP Field,Home,outdoors,grass,2014120707
+201,2014_14_STL_WAS,2014,REG,14,2014-12-07,Sunday,13:00,STL,WAS,24,0,-24,FedExField,Home,outdoors,grass,2014120708
+202,2014_14_KC_ARI,2014,REG,14,2014-12-07,Sunday,16:05,KC,ARI,14,17,3,University of Phoenix Stadium,Home,closed,grass,2014120709
+203,2014_14_BUF_DEN,2014,REG,14,2014-12-07,Sunday,16:05,BUF,DEN,17,24,7,Sports Authority Field at Mile High,Home,outdoors,grass,2014120710
+204,2014_14_SF_OAK,2014,REG,14,2014-12-07,Sunday,16:25,SF,OAK,13,24,11,O.co Coliseum,Home,outdoors,grass,2014120711
+205,2014_14_SEA_PHI,2014,REG,14,2014-12-07,Sunday,16:25,SEA,PHI,24,14,-10,Lincoln Financial Field,Home,outdoors,grass,2014120712
+206,2014_14_NE_SD,2014,REG,14,2014-12-07,Sunday,20:30,NE,SD,23,14,-9,Qualcomm Stadium,Home,outdoors,grass,2014120713
+207,2014_14_ATL_GB,2014,REG,14,2014-12-08,Monday,20:30,ATL,GB,37,43,6,Lambeau Field,Home,outdoors,grass,2014120800
+208,2014_15_ARI_STL,2014,REG,15,2014-12-11,Thursday,20:25,ARI,STL,12,6,-6,Edward Jones Dome,Home,dome,astroplay,2014121100
+209,2014_15_PIT_ATL,2014,REG,15,2014-12-14,Sunday,13:00,PIT,ATL,27,20,-7,Georgia Dome,Home,dome,fieldturf,2014121400
+210,2014_15_JAX_BAL,2014,REG,15,2014-12-14,Sunday,13:00,JAX,BAL,12,20,8,M&T Bank Stadium,Home,outdoors,sportturf,2014121401
+211,2014_15_GB_BUF,2014,REG,15,2014-12-14,Sunday,13:00,GB,BUF,13,21,8,Ralph Wilson Stadium,Home,outdoors,a_turf,2014121402
+212,2014_15_TB_CAR,2014,REG,15,2014-12-14,Sunday,13:00,TB,CAR,17,19,2,Bank of America Stadium,Home,outdoors,grass,2014121403
+213,2014_15_CIN_CLE,2014,REG,15,2014-12-14,Sunday,13:00,CIN,CLE,30,0,-30,FirstEnergy Stadium,Home,outdoors,grass,2014121404
+214,2014_15_HOU_IND,2014,REG,15,2014-12-14,Sunday,13:00,HOU,IND,10,17,7,Lucas Oil Stadium,Home,closed,fieldturf,2014121406
+215,2014_15_OAK_KC,2014,REG,15,2014-12-14,Sunday,13:00,OAK,KC,13,31,18,Arrowhead Stadium,Home,outdoors,grass,2014121407
+216,2014_15_MIA_NE,2014,REG,15,2014-12-14,Sunday,13:00,MIA,NE,13,41,28,Gillette Stadium,Home,outdoors,fieldturf,2014121408
+217,2014_15_WAS_NYG,2014,REG,15,2014-12-14,Sunday,13:00,WAS,NYG,13,24,11,MetLife Stadium,Home,outdoors,fieldturf,2014121409
+218,2014_15_DEN_SD,2014,REG,15,2014-12-14,Sunday,16:05,DEN,SD,22,10,-12,Qualcomm Stadium,Home,outdoors,grass,2014121410
+219,2014_15_NYJ_TEN,2014,REG,15,2014-12-14,Sunday,16:05,NYJ,TEN,16,11,-5,LP Field,Home,outdoors,grass,2014121411
+220,2014_15_MIN_DET,2014,REG,15,2014-12-14,Sunday,16:25,MIN,DET,14,16,2,Ford Field,Home,dome,fieldturf,2014121405
+221,2014_15_SF_SEA,2014,REG,15,2014-12-14,Sunday,16:25,SF,SEA,7,17,10,CenturyLink Field,Home,outdoors,fieldturf,2014121412
+222,2014_15_DAL_PHI,2014,REG,15,2014-12-14,Sunday,20:30,DAL,PHI,38,27,-11,Lincoln Financial Field,Home,outdoors,grass,2014121413
+223,2014_15_NO_CHI,2014,REG,15,2014-12-15,Monday,20:30,NO,CHI,31,15,-16,Soldier Field,Home,outdoors,grass,2014121500
+224,2014_16_TEN_JAX,2014,REG,16,2014-12-18,Thursday,20:25,TEN,JAX,13,21,8,EverBank Field,Home,outdoors,grass,2014121800
+225,2014_16_PHI_WAS,2014,REG,16,2014-12-20,Saturday,16:25,PHI,WAS,24,27,3,FedExField,Home,outdoors,grass,2014122000
+226,2014_16_SD_SF,2014,REG,16,2014-12-20,Saturday,20:25,SD,SF,38,35,-3,Levi's Stadium,Home,outdoors,grass,2014122001
+227,2014_16_CLE_CAR,2014,REG,16,2014-12-21,Sunday,13:00,CLE,CAR,13,17,4,Bank of America Stadium,Home,outdoors,grass,2014122100
+228,2014_16_DET_CHI,2014,REG,16,2014-12-21,Sunday,13:00,DET,CHI,20,14,-6,Soldier Field,Home,outdoors,grass,2014122101
+229,2014_16_BAL_HOU,2014,REG,16,2014-12-21,Sunday,13:00,BAL,HOU,13,25,12,NRG Stadium,Home,closed,grass,2014122102
+230,2014_16_MIN_MIA,2014,REG,16,2014-12-21,Sunday,13:00,MIN,MIA,35,37,2,Sun Life Stadium,Home,outdoors,grass,2014122103
+231,2014_16_ATL_NO,2014,REG,16,2014-12-21,Sunday,13:00,ATL,NO,30,14,-16,Mercedes-Benz Superdome,Home,dome,sportturf,2014122104
+232,2014_16_NE_NYJ,2014,REG,16,2014-12-21,Sunday,13:00,NE,NYJ,17,16,-1,MetLife Stadium,Home,outdoors,fieldturf,2014122105
+233,2014_16_KC_PIT,2014,REG,16,2014-12-21,Sunday,13:00,KC,PIT,12,20,8,Heinz Field,Home,outdoors,grass,2014122106
+234,2014_16_GB_TB,2014,REG,16,2014-12-21,Sunday,13:00,GB,TB,20,3,-17,Raymond James Stadium,Home,outdoors,grass,2014122107
+235,2014_16_NYG_STL,2014,REG,16,2014-12-21,Sunday,16:05,NYG,STL,37,27,-10,Edward Jones Dome,Home,dome,astroplay,2014122108
+236,2014_16_IND_DAL,2014,REG,16,2014-12-21,Sunday,16:25,IND,DAL,7,42,35,AT&T Stadium,Home,closed,matrixturf,2014122109
+237,2014_16_BUF_OAK,2014,REG,16,2014-12-21,Sunday,16:25,BUF,OAK,24,26,2,O.co Coliseum,Home,outdoors,grass,2014122110
+238,2014_16_SEA_ARI,2014,REG,16,2014-12-21,Sunday,20:30,SEA,ARI,35,6,-29,University of Phoenix Stadium,Home,closed,grass,2014122111
+239,2014_16_DEN_CIN,2014,REG,16,2014-12-22,Monday,20:30,DEN,CIN,28,37,9,Paul Brown Stadium,Home,outdoors,fieldturf,2014122200
+240,2014_17_CLE_BAL,2014,REG,17,2014-12-28,Sunday,13:00,CLE,BAL,10,20,10,M&T Bank Stadium,Home,outdoors,sportturf,2014122801
+241,2014_17_JAX_HOU,2014,REG,17,2014-12-28,Sunday,13:00,JAX,HOU,17,23,6,NRG Stadium,Home,closed,grass,2014122803
+242,2014_17_SD_KC,2014,REG,17,2014-12-28,Sunday,13:00,SD,KC,7,19,12,Arrowhead Stadium,Home,outdoors,grass,2014122804
+243,2014_17_NYJ_MIA,2014,REG,17,2014-12-28,Sunday,13:00,NYJ,MIA,37,24,-13,Sun Life Stadium,Home,outdoors,grass,2014122805
+244,2014_17_CHI_MIN,2014,REG,17,2014-12-28,Sunday,13:00,CHI,MIN,9,13,4,TCF Bank Stadium,Home,outdoors,fieldturf,2014122806
+245,2014_17_BUF_NE,2014,REG,17,2014-12-28,Sunday,13:00,BUF,NE,17,9,-8,Gillette Stadium,Home,outdoors,fieldturf,2014122807
+246,2014_17_PHI_NYG,2014,REG,17,2014-12-28,Sunday,13:00,PHI,NYG,34,26,-8,MetLife Stadium,Home,outdoors,fieldturf,2014122808
+247,2014_17_NO_TB,2014,REG,17,2014-12-28,Sunday,13:00,NO,TB,23,20,-3,Raymond James Stadium,Home,outdoors,grass,2014122810
+248,2014_17_IND_TEN,2014,REG,17,2014-12-28,Sunday,13:00,IND,TEN,27,10,-17,LP Field,Home,outdoors,grass,2014122811
+249,2014_17_DAL_WAS,2014,REG,17,2014-12-28,Sunday,13:00,DAL,WAS,44,17,-27,FedExField,Home,outdoors,grass,2014122812
+250,2014_17_CAR_ATL,2014,REG,17,2014-12-28,Sunday,16:25,CAR,ATL,34,3,-31,Georgia Dome,Home,dome,fieldturf,2014122800
+251,2014_17_OAK_DEN,2014,REG,17,2014-12-28,Sunday,16:25,OAK,DEN,14,47,33,Sports Authority Field at Mile High,Home,outdoors,grass,2014122813
+252,2014_17_DET_GB,2014,REG,17,2014-12-28,Sunday,16:25,DET,GB,20,30,10,Lambeau Field,Home,outdoors,grass,2014122802
+253,2014_17_STL_SEA,2014,REG,17,2014-12-28,Sunday,16:25,STL,SEA,6,20,14,CenturyLink Field,Home,outdoors,fieldturf,2014122815
+254,2014_17_ARI_SF,2014,REG,17,2014-12-28,Sunday,16:25,ARI,SF,17,20,3,Levi's Stadium,Home,outdoors,grass,2014122814
+255,2014_17_CIN_PIT,2014,REG,17,2014-12-28,Sunday,20:30,CIN,PIT,17,27,10,Heinz Field,Home,outdoors,grass,2014122809
+256,2014_18_ARI_CAR,2014,WC,18,2015-01-03,Saturday,16:35,ARI,CAR,16,27,11,Bank of America Stadium,Home,outdoors,grass,2015010300
+257,2014_18_BAL_PIT,2014,WC,18,2015-01-03,Saturday,20:15,BAL,PIT,30,17,-13,Heinz Field,Home,outdoors,grass,2015010301
+258,2014_18_CIN_IND,2014,WC,18,2015-01-04,Sunday,13:05,CIN,IND,10,26,16,Lucas Oil Stadium,Home,closed,fieldturf,2015010400
+259,2014_18_DET_DAL,2014,WC,18,2015-01-04,Sunday,16:40,DET,DAL,20,24,4,AT&T Stadium,Home,closed,matrixturf,2015010401
+260,2014_19_BAL_NE,2014,DIV,19,2015-01-10,Saturday,16:35,BAL,NE,31,35,4,Gillette Stadium,Home,outdoors,fieldturf,2015011000
+261,2014_19_CAR_SEA,2014,DIV,19,2015-01-10,Saturday,20:15,CAR,SEA,17,31,14,CenturyLink Field,Home,outdoors,fieldturf,2015011001
+262,2014_19_DAL_GB,2014,DIV,19,2015-01-11,Sunday,13:05,DAL,GB,21,26,5,Lambeau Field,Home,outdoors,grass,2015011100
+263,2014_19_IND_DEN,2014,DIV,19,2015-01-11,Sunday,16:40,IND,DEN,24,13,-11,Sports Authority Field at Mile High,Home,outdoors,grass,2015011101
+264,2014_20_GB_SEA,2014,CON,20,2015-01-18,Sunday,15:05,GB,SEA,22,28,6,CenturyLink Field,Home,outdoors,fieldturf,2015011800
+265,2014_20_IND_NE,2014,CON,20,2015-01-18,Sunday,18:50,IND,NE,7,45,38,Gillette Stadium,Home,outdoors,fieldturf,2015011801
+266,2014_21_NE_SEA,2014,SB,21,2015-02-01,Sunday,18:30,NE,SEA,28,24,-4,University of Phoenix Stadium,Neutral,closed,grass,2015020100

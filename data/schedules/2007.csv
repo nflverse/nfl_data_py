@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2007_01_NO_IND,2007,REG,1,2007-09-06,Thursday,20:30,NO,IND,10,41,31,RCA Dome,Home,dome,fieldturf,2007090600
+1,2007_01_DEN_BUF,2007,REG,1,2007-09-09,Sunday,13:00,DEN,BUF,15,14,-1,Ralph Wilson Stadium,Home,outdoors,astroplay,2007090900
+2,2007_01_PIT_CLE,2007,REG,1,2007-09-09,Sunday,13:00,PIT,CLE,34,7,-27,Cleveland Browns Stadium,Home,outdoors,grass,2007090901
+3,2007_01_PHI_GB,2007,REG,1,2007-09-09,Sunday,13:00,PHI,GB,13,16,3,Lambeau Field,Home,outdoors,grass,2007090902
+4,2007_01_KC_HOU,2007,REG,1,2007-09-09,Sunday,13:00,KC,HOU,3,20,17,Reliant Stadium,Home,closed,grass,2007090903
+5,2007_01_TEN_JAX,2007,REG,1,2007-09-09,Sunday,13:00,TEN,JAX,13,10,-3,Jacksonville Municipal Stadium,Home,outdoors,grass,2007090912
+6,2007_01_ATL_MIN,2007,REG,1,2007-09-09,Sunday,13:00,ATL,MIN,3,24,21,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007090904
+7,2007_01_NE_NYJ,2007,REG,1,2007-09-09,Sunday,13:00,NE,NYJ,38,14,-24,Giants Stadium,Home,outdoors,fieldturf,2007090905
+8,2007_01_CAR_STL,2007,REG,1,2007-09-09,Sunday,13:00,CAR,STL,27,13,-14,Edward Jones Dome,Home,dome,fieldturf,2007090906
+9,2007_01_MIA_WAS,2007,REG,1,2007-09-09,Sunday,13:00,MIA,WAS,13,16,3,FedExField,Home,outdoors,grass,2007090907
+10,2007_01_DET_OAK,2007,REG,1,2007-09-09,Sunday,16:15,DET,OAK,36,21,-15,McAfee Coliseum,Home,outdoors,grass,2007090908
+11,2007_01_CHI_SD,2007,REG,1,2007-09-09,Sunday,16:15,CHI,SD,3,14,11,Qualcomm Stadium,Home,outdoors,grass,2007090909
+12,2007_01_TB_SEA,2007,REG,1,2007-09-09,Sunday,16:15,TB,SEA,6,20,14,Qwest Field,Home,outdoors,fieldturf,2007090910
+13,2007_01_NYG_DAL,2007,REG,1,2007-09-09,Sunday,20:25,NYG,DAL,35,45,10,Texas Stadium,Home,outdoors,fieldturf,2007090911
+14,2007_01_BAL_CIN,2007,REG,1,2007-09-10,Monday,19:10,BAL,CIN,20,27,7,Paul Brown Stadium,Home,outdoors,fieldturf,2007091000
+15,2007_01_ARI_SF,2007,REG,1,2007-09-10,Monday,22:25,ARI,SF,17,20,3,Monster Park,Home,outdoors,grass,2007091001
+16,2007_02_HOU_CAR,2007,REG,2,2007-09-16,Sunday,13:00,HOU,CAR,34,21,-13,Bank of America Stadium,Home,outdoors,grass,2007091600
+17,2007_02_CIN_CLE,2007,REG,2,2007-09-16,Sunday,13:00,CIN,CLE,45,51,6,Cleveland Browns Stadium,Home,outdoors,grass,2007091601
+18,2007_02_ATL_JAX,2007,REG,2,2007-09-16,Sunday,13:00,ATL,JAX,7,13,6,Jacksonville Municipal Stadium,Home,outdoors,grass,2007091602
+19,2007_02_GB_NYG,2007,REG,2,2007-09-16,Sunday,13:00,GB,NYG,35,13,-22,Giants Stadium,Home,outdoors,fieldturf,2007091603
+20,2007_02_BUF_PIT,2007,REG,2,2007-09-16,Sunday,13:00,BUF,PIT,3,26,23,Heinz Field,Home,outdoors,dessograss,2007091604
+21,2007_02_SF_STL,2007,REG,2,2007-09-16,Sunday,13:00,SF,STL,17,16,-1,Edward Jones Dome,Home,dome,fieldturf,2007091605
+22,2007_02_NO_TB,2007,REG,2,2007-09-16,Sunday,13:00,NO,TB,14,31,17,Raymond James Stadium,Home,outdoors,grass,2007091606
+23,2007_02_IND_TEN,2007,REG,2,2007-09-16,Sunday,13:00,IND,TEN,22,20,-2,LP Field,Home,outdoors,grass,2007091607
+24,2007_02_SEA_ARI,2007,REG,2,2007-09-16,Sunday,16:05,SEA,ARI,20,23,3,University of Phoenix Stadium,Home,closed,grass,2007091608
+25,2007_02_MIN_DET,2007,REG,2,2007-09-16,Sunday,16:05,MIN,DET,17,20,3,Ford Field,Home,dome,fieldturf,2007091609
+26,2007_02_DAL_MIA,2007,REG,2,2007-09-16,Sunday,16:05,DAL,MIA,37,20,-17,Dolphin Stadium,Home,outdoors,grass,2007091610
+27,2007_02_NYJ_BAL,2007,REG,2,2007-09-16,Sunday,16:15,NYJ,BAL,13,20,7,M&T Bank Stadium,Home,outdoors,sportturf,2007091611
+28,2007_02_KC_CHI,2007,REG,2,2007-09-16,Sunday,16:15,KC,CHI,10,20,10,Soldier Field,Home,outdoors,grass,2007091612
+29,2007_02_OAK_DEN,2007,REG,2,2007-09-16,Sunday,16:15,OAK,DEN,20,23,3,Invesco Field at Mile High,Home,outdoors,grass,2007091613
+30,2007_02_SD_NE,2007,REG,2,2007-09-16,Sunday,20:25,SD,NE,14,38,24,Gillette Stadium,Home,outdoors,fieldturf,2007091614
+31,2007_02_WAS_PHI,2007,REG,2,2007-09-17,Monday,20:40,WAS,PHI,20,12,-8,Lincoln Financial Field,Home,outdoors,grass,2007091700
+32,2007_03_ARI_BAL,2007,REG,3,2007-09-23,Sunday,13:00,ARI,BAL,23,26,3,M&T Bank Stadium,Home,outdoors,sportturf,2007092300
+33,2007_03_SD_GB,2007,REG,3,2007-09-23,Sunday,13:00,SD,GB,24,31,7,Lambeau Field,Home,outdoors,grass,2007092301
+34,2007_03_IND_HOU,2007,REG,3,2007-09-23,Sunday,13:00,IND,HOU,30,24,-6,Reliant Stadium,Home,closed,grass,2007092302
+35,2007_03_MIN_KC,2007,REG,3,2007-09-23,Sunday,13:00,MIN,KC,10,13,3,Arrowhead Stadium,Home,outdoors,grass,2007092303
+36,2007_03_BUF_NE,2007,REG,3,2007-09-23,Sunday,13:00,BUF,NE,7,38,31,Gillette Stadium,Home,outdoors,fieldturf,2007092304
+37,2007_03_MIA_NYJ,2007,REG,3,2007-09-23,Sunday,13:00,MIA,NYJ,28,31,3,Giants Stadium,Home,outdoors,fieldturf,2007092305
+38,2007_03_DET_PHI,2007,REG,3,2007-09-23,Sunday,13:00,DET,PHI,21,56,35,Lincoln Financial Field,Home,outdoors,grass,2007092306
+39,2007_03_SF_PIT,2007,REG,3,2007-09-23,Sunday,13:00,SF,PIT,16,37,21,Heinz Field,Home,outdoors,dessograss,2007092307
+40,2007_03_STL_TB,2007,REG,3,2007-09-23,Sunday,13:00,STL,TB,3,24,21,Raymond James Stadium,Home,outdoors,grass,2007092308
+41,2007_03_JAX_DEN,2007,REG,3,2007-09-23,Sunday,16:05,JAX,DEN,23,14,-9,Invesco Field at Mile High,Home,outdoors,grass,2007092309
+42,2007_03_CLE_OAK,2007,REG,3,2007-09-23,Sunday,16:05,CLE,OAK,24,26,2,McAfee Coliseum,Home,outdoors,grass,2007092310
+43,2007_03_CIN_SEA,2007,REG,3,2007-09-23,Sunday,16:05,CIN,SEA,21,24,3,Qwest Field,Home,outdoors,fieldturf,2007092311
+44,2007_03_CAR_ATL,2007,REG,3,2007-09-23,Sunday,16:15,CAR,ATL,27,20,-7,Georgia Dome,Home,dome,fieldturf,2007092312
+45,2007_03_NYG_WAS,2007,REG,3,2007-09-23,Sunday,16:15,NYG,WAS,24,17,-7,FedExField,Home,outdoors,grass,2007092313
+46,2007_03_DAL_CHI,2007,REG,3,2007-09-23,Sunday,20:25,DAL,CHI,34,10,-24,Soldier Field,Home,outdoors,grass,2007092314
+47,2007_03_TEN_NO,2007,REG,3,2007-09-24,Monday,20:40,TEN,NO,31,14,-17,Louisiana Superdome,Home,dome,fieldturf,2007092400
+48,2007_04_HOU_ATL,2007,REG,4,2007-09-30,Sunday,13:00,HOU,ATL,16,26,10,Georgia Dome,Home,dome,fieldturf,2007093000
+49,2007_04_NYJ_BUF,2007,REG,4,2007-09-30,Sunday,13:00,NYJ,BUF,14,17,3,Ralph Wilson Stadium,Home,outdoors,astroplay,2007093001
+50,2007_04_BAL_CLE,2007,REG,4,2007-09-30,Sunday,13:00,BAL,CLE,13,27,14,Cleveland Browns Stadium,Home,outdoors,grass,2007093002
+51,2007_04_STL_DAL,2007,REG,4,2007-09-30,Sunday,13:00,STL,DAL,7,35,28,Texas Stadium,Home,outdoors,fieldturf,2007093003
+52,2007_04_CHI_DET,2007,REG,4,2007-09-30,Sunday,13:00,CHI,DET,27,37,10,Ford Field,Home,dome,fieldturf,2007093004
+53,2007_04_OAK_MIA,2007,REG,4,2007-09-30,Sunday,13:00,OAK,MIA,35,17,-18,Dolphin Stadium,Home,outdoors,grass,2007093005
+54,2007_04_GB_MIN,2007,REG,4,2007-09-30,Sunday,13:00,GB,MIN,23,16,-7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007093006
+55,2007_04_TB_CAR,2007,REG,4,2007-09-30,Sunday,16:05,TB,CAR,20,7,-13,Bank of America Stadium,Home,outdoors,grass,2007093007
+56,2007_04_SEA_SF,2007,REG,4,2007-09-30,Sunday,16:05,SEA,SF,23,3,-20,Monster Park,Home,outdoors,grass,2007093008
+57,2007_04_PIT_ARI,2007,REG,4,2007-09-30,Sunday,16:15,PIT,ARI,14,21,7,University of Phoenix Stadium,Home,closed,grass,2007093009
+58,2007_04_DEN_IND,2007,REG,4,2007-09-30,Sunday,16:15,DEN,IND,20,38,18,RCA Dome,Home,dome,fieldturf,2007093010
+59,2007_04_KC_SD,2007,REG,4,2007-09-30,Sunday,16:15,KC,SD,30,16,-14,Qualcomm Stadium,Home,outdoors,grass,2007093011
+60,2007_04_PHI_NYG,2007,REG,4,2007-09-30,Sunday,20:25,PHI,NYG,3,16,13,Giants Stadium,Home,outdoors,fieldturf,2007093012
+61,2007_04_NE_CIN,2007,REG,4,2007-10-01,Monday,20:40,NE,CIN,34,13,-21,Paul Brown Stadium,Home,outdoors,fieldturf,2007100100
+62,2007_05_MIA_HOU,2007,REG,5,2007-10-07,Sunday,13:00,MIA,HOU,19,22,3,Reliant Stadium,Home,closed,grass,2007100700
+63,2007_05_JAX_KC,2007,REG,5,2007-10-07,Sunday,13:00,JAX,KC,17,7,-10,Arrowhead Stadium,Home,outdoors,grass,2007100701
+64,2007_05_CLE_NE,2007,REG,5,2007-10-07,Sunday,13:00,CLE,NE,17,34,17,Gillette Stadium,Home,outdoors,fieldturf,2007100702
+65,2007_05_CAR_NO,2007,REG,5,2007-10-07,Sunday,13:00,CAR,NO,16,13,-3,Louisiana Superdome,Home,dome,fieldturf,2007100703
+66,2007_05_NYJ_NYG,2007,REG,5,2007-10-07,Sunday,13:00,NYJ,NYG,24,35,11,Giants Stadium,Home,outdoors,fieldturf,2007100704
+67,2007_05_SEA_PIT,2007,REG,5,2007-10-07,Sunday,13:00,SEA,PIT,0,21,21,Heinz Field,Home,outdoors,dessograss,2007100705
+68,2007_05_ARI_STL,2007,REG,5,2007-10-07,Sunday,13:00,ARI,STL,34,31,-3,Edward Jones Dome,Home,dome,fieldturf,2007100706
+69,2007_05_ATL_TEN,2007,REG,5,2007-10-07,Sunday,13:00,ATL,TEN,13,20,7,LP Field,Home,outdoors,grass,2007100707
+70,2007_05_DET_WAS,2007,REG,5,2007-10-07,Sunday,13:00,DET,WAS,3,34,31,FedExField,Home,outdoors,grass,2007100708
+71,2007_05_TB_IND,2007,REG,5,2007-10-07,Sunday,16:05,TB,IND,14,33,19,RCA Dome,Home,dome,fieldturf,2007100709
+72,2007_05_SD_DEN,2007,REG,5,2007-10-07,Sunday,16:15,SD,DEN,41,3,-38,Invesco Field at Mile High,Home,outdoors,grass,2007100710
+73,2007_05_BAL_SF,2007,REG,5,2007-10-07,Sunday,16:15,BAL,SF,9,7,-2,Monster Park,Home,outdoors,grass,2007100711
+74,2007_05_CHI_GB,2007,REG,5,2007-10-07,Sunday,20:25,CHI,GB,27,20,-7,Lambeau Field,Home,outdoors,grass,2007100712
+75,2007_05_DAL_BUF,2007,REG,5,2007-10-08,Monday,20:40,DAL,BUF,25,24,-1,Ralph Wilson Stadium,Home,outdoors,astroplay,2007100800
+76,2007_06_STL_BAL,2007,REG,6,2007-10-14,Sunday,13:00,STL,BAL,3,22,19,M&T Bank Stadium,Home,outdoors,sportturf,2007101400
+77,2007_06_MIN_CHI,2007,REG,6,2007-10-14,Sunday,13:00,MIN,CHI,34,31,-3,Soldier Field,Home,outdoors,grass,2007101401
+78,2007_06_MIA_CLE,2007,REG,6,2007-10-14,Sunday,13:00,MIA,CLE,31,41,10,Cleveland Browns Stadium,Home,outdoors,grass,2007101402
+79,2007_06_WAS_GB,2007,REG,6,2007-10-14,Sunday,13:00,WAS,GB,14,17,3,Lambeau Field,Home,outdoors,grass,2007101403
+80,2007_06_HOU_JAX,2007,REG,6,2007-10-14,Sunday,13:00,HOU,JAX,17,37,20,Jacksonville Municipal Stadium,Home,outdoors,grass,2007101404
+81,2007_06_CIN_KC,2007,REG,6,2007-10-14,Sunday,13:00,CIN,KC,20,27,7,Arrowhead Stadium,Home,outdoors,grass,2007101405
+82,2007_06_PHI_NYJ,2007,REG,6,2007-10-14,Sunday,13:00,PHI,NYJ,16,9,-7,Giants Stadium,Home,outdoors,fieldturf,2007101406
+83,2007_06_TEN_TB,2007,REG,6,2007-10-14,Sunday,13:00,TEN,TB,10,13,3,Raymond James Stadium,Home,outdoors,grass,2007101407
+84,2007_06_CAR_ARI,2007,REG,6,2007-10-14,Sunday,16:05,CAR,ARI,25,10,-15,University of Phoenix Stadium,Home,closed,grass,2007101408
+85,2007_06_NE_DAL,2007,REG,6,2007-10-14,Sunday,16:15,NE,DAL,48,27,-21,Texas Stadium,Home,outdoors,fieldturf,2007101409
+86,2007_06_OAK_SD,2007,REG,6,2007-10-14,Sunday,16:15,OAK,SD,14,28,14,Qualcomm Stadium,Home,outdoors,grass,2007101410
+87,2007_06_NO_SEA,2007,REG,6,2007-10-14,Sunday,20:25,NO,SEA,28,17,-11,Qwest Field,Home,outdoors,fieldturf,2007101411
+88,2007_06_NYG_ATL,2007,REG,6,2007-10-15,Monday,20:40,NYG,ATL,31,10,-21,Georgia Dome,Home,dome,fieldturf,2007101500
+89,2007_07_BAL_BUF,2007,REG,7,2007-10-21,Sunday,13:00,BAL,BUF,14,19,5,Ralph Wilson Stadium,Home,outdoors,astroplay,2007102100
+90,2007_07_TB_DET,2007,REG,7,2007-10-21,Sunday,13:00,TB,DET,16,23,7,Ford Field,Home,dome,fieldturf,2007102102
+91,2007_07_TEN_HOU,2007,REG,7,2007-10-21,Sunday,13:00,TEN,HOU,38,36,-2,Reliant Stadium,Home,closed,grass,2007102103
+92,2007_07_NE_MIA,2007,REG,7,2007-10-21,Sunday,13:00,NE,MIA,49,28,-21,Dolphin Stadium,Home,outdoors,grass,2007102104
+93,2007_07_ATL_NO,2007,REG,7,2007-10-21,Sunday,13:00,ATL,NO,16,22,6,Louisiana Superdome,Home,dome,fieldturf,2007102106
+94,2007_07_SF_NYG,2007,REG,7,2007-10-21,Sunday,13:00,SF,NYG,15,33,18,Giants Stadium,Home,outdoors,fieldturf,2007102105
+95,2007_07_ARI_WAS,2007,REG,7,2007-10-21,Sunday,13:00,ARI,WAS,19,21,2,FedExField,Home,outdoors,grass,2007102107
+96,2007_07_NYJ_CIN,2007,REG,7,2007-10-21,Sunday,16:05,NYJ,CIN,31,38,7,Paul Brown Stadium,Home,outdoors,fieldturf,2007102108
+97,2007_07_KC_OAK,2007,REG,7,2007-10-21,Sunday,16:05,KC,OAK,12,10,-2,McAfee Coliseum,Home,outdoors,grass,2007102109
+98,2007_07_MIN_DAL,2007,REG,7,2007-10-21,Sunday,16:15,MIN,DAL,14,24,10,Texas Stadium,Home,outdoors,fieldturf,2007102101
+99,2007_07_CHI_PHI,2007,REG,7,2007-10-21,Sunday,16:15,CHI,PHI,19,16,-3,Lincoln Financial Field,Home,outdoors,grass,2007102110
+100,2007_07_STL_SEA,2007,REG,7,2007-10-21,Sunday,16:15,STL,SEA,6,33,27,Qwest Field,Home,outdoors,fieldturf,2007102111
+101,2007_07_PIT_DEN,2007,REG,7,2007-10-21,Sunday,20:25,PIT,DEN,28,31,3,Invesco Field at Mile High,Home,outdoors,grass,2007102112
+102,2007_07_IND_JAX,2007,REG,7,2007-10-22,Monday,20:40,IND,JAX,29,7,-22,Jacksonville Municipal Stadium,Home,outdoors,grass,2007102200
+103,2007_08_IND_CAR,2007,REG,8,2007-10-28,Sunday,13:00,IND,CAR,31,7,-24,Bank of America Stadium,Home,outdoors,grass,2007102800
+104,2007_08_DET_CHI,2007,REG,8,2007-10-28,Sunday,13:00,DET,CHI,16,7,-9,Soldier Field,Home,outdoors,grass,2007102801
+105,2007_08_PIT_CIN,2007,REG,8,2007-10-28,Sunday,13:00,PIT,CIN,24,13,-11,Paul Brown Stadium,Home,outdoors,fieldturf,2007102802
+106,2007_08_NYG_MIA,2007,REG,8,2007-10-28,Sunday,13:00,NYG,MIA,13,10,-3,Wembley Stadium,Neutral,outdoors,grass,2007102803
+107,2007_08_PHI_MIN,2007,REG,8,2007-10-28,Sunday,13:00,PHI,MIN,23,16,-7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007102804
+108,2007_08_CLE_STL,2007,REG,8,2007-10-28,Sunday,13:00,CLE,STL,27,20,-7,Edward Jones Dome,Home,dome,fieldturf,2007102805
+109,2007_08_OAK_TEN,2007,REG,8,2007-10-28,Sunday,13:00,OAK,TEN,9,13,4,LP Field,Home,outdoors,grass,2007102806
+110,2007_08_BUF_NYJ,2007,REG,8,2007-10-28,Sunday,16:05,BUF,NYJ,13,3,-10,Giants Stadium,Home,outdoors,fieldturf,2007102807
+111,2007_08_HOU_SD,2007,REG,8,2007-10-28,Sunday,16:05,HOU,SD,10,35,25,Qualcomm Stadium,Home,outdoors,grass,2007102808
+112,2007_08_JAX_TB,2007,REG,8,2007-10-28,Sunday,16:05,JAX,TB,24,23,-1,Raymond James Stadium,Home,outdoors,grass,2007102809
+113,2007_08_WAS_NE,2007,REG,8,2007-10-28,Sunday,16:15,WAS,NE,7,52,45,Gillette Stadium,Home,outdoors,fieldturf,2007102810
+114,2007_08_NO_SF,2007,REG,8,2007-10-28,Sunday,16:15,NO,SF,31,10,-21,Monster Park,Home,outdoors,grass,2007102811
+115,2007_08_GB_DEN,2007,REG,8,2007-10-29,Monday,20:40,GB,DEN,19,13,-6,Invesco Field at Mile High,Home,outdoors,grass,2007102900
+116,2007_09_SF_ATL,2007,REG,9,2007-11-04,Sunday,13:00,SF,ATL,16,20,4,Georgia Dome,Home,dome,fieldturf,2007110400
+117,2007_09_CIN_BUF,2007,REG,9,2007-11-04,Sunday,13:00,CIN,BUF,21,33,12,Ralph Wilson Stadium,Home,outdoors,astroplay,2007110401
+118,2007_09_DEN_DET,2007,REG,9,2007-11-04,Sunday,13:00,DEN,DET,7,44,37,Ford Field,Home,dome,fieldturf,2007110402
+119,2007_09_GB_KC,2007,REG,9,2007-11-04,Sunday,13:00,GB,KC,33,22,-11,Arrowhead Stadium,Home,outdoors,grass,2007110403
+120,2007_09_SD_MIN,2007,REG,9,2007-11-04,Sunday,13:00,SD,MIN,17,35,18,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007110404
+121,2007_09_JAX_NO,2007,REG,9,2007-11-04,Sunday,13:00,JAX,NO,24,41,17,Louisiana Superdome,Home,dome,fieldturf,2007110405
+122,2007_09_WAS_NYJ,2007,REG,9,2007-11-04,Sunday,13:00,WAS,NYJ,23,20,-3,Giants Stadium,Home,outdoors,fieldturf,2007110406
+123,2007_09_ARI_TB,2007,REG,9,2007-11-04,Sunday,13:00,ARI,TB,10,17,7,Raymond James Stadium,Home,outdoors,grass,2007110407
+124,2007_09_CAR_TEN,2007,REG,9,2007-11-04,Sunday,13:00,CAR,TEN,7,20,13,LP Field,Home,outdoors,grass,2007110408
+125,2007_09_SEA_CLE,2007,REG,9,2007-11-04,Sunday,16:05,SEA,CLE,30,33,3,Cleveland Browns Stadium,Home,outdoors,grass,2007110409
+126,2007_09_NE_IND,2007,REG,9,2007-11-04,Sunday,16:15,NE,IND,24,20,-4,RCA Dome,Home,dome,fieldturf,2007110410
+127,2007_09_HOU_OAK,2007,REG,9,2007-11-04,Sunday,16:15,HOU,OAK,24,17,-7,McAfee Coliseum,Home,outdoors,grass,2007110411
+128,2007_09_DAL_PHI,2007,REG,9,2007-11-04,Sunday,20:25,DAL,PHI,38,17,-21,Lincoln Financial Field,Home,outdoors,grass,2007110412
+129,2007_09_BAL_PIT,2007,REG,9,2007-11-05,Monday,20:40,BAL,PIT,7,38,31,Heinz Field,Home,outdoors,dessograss,2007110500
+130,2007_10_ATL_CAR,2007,REG,10,2007-11-11,Sunday,13:00,ATL,CAR,20,13,-7,Bank of America Stadium,Home,outdoors,grass,2007111100
+131,2007_10_MIN_GB,2007,REG,10,2007-11-11,Sunday,13:00,MIN,GB,0,34,34,Lambeau Field,Home,outdoors,grass,2007111101
+132,2007_10_DEN_KC,2007,REG,10,2007-11-11,Sunday,13:00,DEN,KC,27,11,-16,Arrowhead Stadium,Home,outdoors,grass,2007111102
+133,2007_10_BUF_MIA,2007,REG,10,2007-11-11,Sunday,13:00,BUF,MIA,13,10,-3,Dolphin Stadium,Home,outdoors,grass,2007111103
+134,2007_10_STL_NO,2007,REG,10,2007-11-11,Sunday,13:00,STL,NO,37,29,-8,Louisiana Superdome,Home,dome,fieldturf,2007111104
+135,2007_10_CLE_PIT,2007,REG,10,2007-11-11,Sunday,13:00,CLE,PIT,28,31,3,Heinz Field,Home,outdoors,dessograss,2007111105
+136,2007_10_JAX_TEN,2007,REG,10,2007-11-11,Sunday,13:00,JAX,TEN,28,13,-15,LP Field,Home,outdoors,grass,2007111106
+137,2007_10_PHI_WAS,2007,REG,10,2007-11-11,Sunday,13:00,PHI,WAS,33,25,-8,FedExField,Home,outdoors,grass,2007111107
+138,2007_10_CIN_BAL,2007,REG,10,2007-11-11,Sunday,16:05,CIN,BAL,21,7,-14,M&T Bank Stadium,Home,outdoors,sportturf,2007111108
+139,2007_10_DET_ARI,2007,REG,10,2007-11-11,Sunday,16:15,DET,ARI,21,31,10,University of Phoenix Stadium,Home,closed,grass,2007111109
+140,2007_10_DAL_NYG,2007,REG,10,2007-11-11,Sunday,16:15,DAL,NYG,31,20,-11,Giants Stadium,Home,outdoors,fieldturf,2007111110
+141,2007_10_CHI_OAK,2007,REG,10,2007-11-11,Sunday,16:15,CHI,OAK,17,6,-11,McAfee Coliseum,Home,outdoors,grass,2007111111
+142,2007_10_IND_SD,2007,REG,10,2007-11-11,Sunday,20:15,IND,SD,21,23,2,Qualcomm Stadium,Home,outdoors,grass,2007111112
+143,2007_10_SF_SEA,2007,REG,10,2007-11-12,Monday,20:40,SF,SEA,0,24,24,Qwest Field,Home,outdoors,fieldturf,2007111200
+144,2007_11_TB_ATL,2007,REG,11,2007-11-18,Sunday,13:00,TB,ATL,31,7,-24,Georgia Dome,Home,dome,fieldturf,2007111800
+145,2007_11_CLE_BAL,2007,REG,11,2007-11-18,Sunday,13:00,CLE,BAL,33,30,-3,M&T Bank Stadium,Home,outdoors,sportturf,2007111801
+146,2007_11_ARI_CIN,2007,REG,11,2007-11-18,Sunday,13:00,ARI,CIN,35,27,-8,Paul Brown Stadium,Home,outdoors,fieldturf,2007111803
+147,2007_11_NYG_DET,2007,REG,11,2007-11-18,Sunday,13:00,NYG,DET,16,10,-6,Ford Field,Home,dome,fieldturf,2007111812
+148,2007_11_CAR_GB,2007,REG,11,2007-11-18,Sunday,13:00,CAR,GB,17,31,14,Lambeau Field,Home,outdoors,grass,2007111805
+149,2007_11_NO_HOU,2007,REG,11,2007-11-18,Sunday,13:00,NO,HOU,10,23,13,Reliant Stadium,Home,closed,grass,2007111806
+150,2007_11_KC_IND,2007,REG,11,2007-11-18,Sunday,13:00,KC,IND,10,13,3,RCA Dome,Home,dome,fieldturf,2007111807
+151,2007_11_SD_JAX,2007,REG,11,2007-11-18,Sunday,13:00,SD,JAX,17,24,7,Jacksonville Municipal Stadium,Home,outdoors,grass,2007111808
+152,2007_11_OAK_MIN,2007,REG,11,2007-11-18,Sunday,13:00,OAK,MIN,22,29,7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007111809
+153,2007_11_MIA_PHI,2007,REG,11,2007-11-18,Sunday,13:00,MIA,PHI,7,17,10,Lincoln Financial Field,Home,outdoors,grass,2007111811
+154,2007_11_PIT_NYJ,2007,REG,11,2007-11-18,Sunday,16:05,PIT,NYJ,16,19,3,Giants Stadium,Home,outdoors,fieldturf,2007111810
+155,2007_11_WAS_DAL,2007,REG,11,2007-11-18,Sunday,16:15,WAS,DAL,23,28,5,Texas Stadium,Home,outdoors,fieldturf,2007111804
+156,2007_11_CHI_SEA,2007,REG,11,2007-11-18,Sunday,16:15,CHI,SEA,23,30,7,Qwest Field,Home,outdoors,fieldturf,2007111814
+157,2007_11_STL_SF,2007,REG,11,2007-11-18,Sunday,16:15,STL,SF,13,9,-4,Monster Park,Home,outdoors,grass,2007111813
+158,2007_11_NE_BUF,2007,REG,11,2007-11-18,Sunday,20:25,NE,BUF,56,10,-46,Ralph Wilson Stadium,Home,outdoors,astroplay,2007111802
+159,2007_11_TEN_DEN,2007,REG,11,2007-11-19,Monday,20:40,TEN,DEN,20,34,14,Invesco Field at Mile High,Home,outdoors,grass,2007111900
+160,2007_12_GB_DET,2007,REG,12,2007-11-22,Thursday,12:30,GB,DET,37,26,-11,Ford Field,Home,dome,fieldturf,2007112200
+161,2007_12_NYJ_DAL,2007,REG,12,2007-11-22,Thursday,16:15,NYJ,DAL,3,34,31,Texas Stadium,Home,outdoors,fieldturf,2007112201
+162,2007_12_IND_ATL,2007,REG,12,2007-11-22,Thursday,20:15,IND,ATL,31,13,-18,Georgia Dome,Home,dome,fieldturf,2007112202
+163,2007_12_NO_CAR,2007,REG,12,2007-11-25,Sunday,13:00,NO,CAR,31,6,-25,Bank of America Stadium,Home,outdoors,grass,2007112500
+164,2007_12_TEN_CIN,2007,REG,12,2007-11-25,Sunday,13:00,TEN,CIN,6,35,29,Paul Brown Stadium,Home,outdoors,fieldturf,2007112502
+165,2007_12_HOU_CLE,2007,REG,12,2007-11-25,Sunday,13:00,HOU,CLE,17,27,10,Cleveland Browns Stadium,Home,outdoors,grass,2007112503
+166,2007_12_BUF_JAX,2007,REG,12,2007-11-25,Sunday,13:00,BUF,JAX,14,36,22,Jacksonville Municipal Stadium,Home,outdoors,grass,2007112504
+167,2007_12_OAK_KC,2007,REG,12,2007-11-25,Sunday,13:00,OAK,KC,20,17,-3,Arrowhead Stadium,Home,outdoors,grass,2007112505
+168,2007_12_MIN_NYG,2007,REG,12,2007-11-25,Sunday,13:00,MIN,NYG,41,17,-24,Giants Stadium,Home,outdoors,fieldturf,2007112506
+169,2007_12_SEA_STL,2007,REG,12,2007-11-25,Sunday,13:00,SEA,STL,24,19,-5,Edward Jones Dome,Home,dome,fieldturf,2007112507
+170,2007_12_WAS_TB,2007,REG,12,2007-11-25,Sunday,13:00,WAS,TB,13,19,6,Raymond James Stadium,Home,outdoors,grass,2007112508
+171,2007_12_SF_ARI,2007,REG,12,2007-11-25,Sunday,16:05,SF,ARI,37,31,-6,University of Phoenix Stadium,Home,open,grass,2007112509
+172,2007_12_DEN_CHI,2007,REG,12,2007-11-25,Sunday,16:15,DEN,CHI,34,37,3,Soldier Field,Home,outdoors,grass,2007112501
+173,2007_12_BAL_SD,2007,REG,12,2007-11-25,Sunday,16:15,BAL,SD,14,32,18,Qualcomm Stadium,Home,outdoors,grass,2007112510
+174,2007_12_PHI_NE,2007,REG,12,2007-11-25,Sunday,20:25,PHI,NE,28,31,3,Gillette Stadium,Home,outdoors,fieldturf,2007112511
+175,2007_12_MIA_PIT,2007,REG,12,2007-11-26,Monday,20:30,MIA,PIT,0,3,3,Heinz Field,Home,outdoors,dessograss,2007112600
+176,2007_13_GB_DAL,2007,REG,13,2007-11-29,Thursday,20:15,GB,DAL,27,37,10,Texas Stadium,Home,outdoors,fieldturf,2007112900
+177,2007_13_SF_CAR,2007,REG,13,2007-12-02,Sunday,13:00,SF,CAR,14,31,17,Bank of America Stadium,Home,outdoors,grass,2007120200
+178,2007_13_JAX_IND,2007,REG,13,2007-12-02,Sunday,13:00,JAX,IND,25,28,3,RCA Dome,Home,dome,fieldturf,2007120201
+179,2007_13_SD_KC,2007,REG,13,2007-12-02,Sunday,13:00,SD,KC,24,10,-14,Arrowhead Stadium,Home,outdoors,grass,2007120202
+180,2007_13_NYJ_MIA,2007,REG,13,2007-12-02,Sunday,13:00,NYJ,MIA,40,13,-27,Dolphin Stadium,Home,outdoors,grass,2007120203
+181,2007_13_DET_MIN,2007,REG,13,2007-12-02,Sunday,13:00,DET,MIN,10,42,32,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007120204
+182,2007_13_SEA_PHI,2007,REG,13,2007-12-02,Sunday,13:00,SEA,PHI,28,24,-4,Lincoln Financial Field,Home,outdoors,grass,2007120206
+183,2007_13_ATL_STL,2007,REG,13,2007-12-02,Sunday,13:00,ATL,STL,16,28,12,Edward Jones Dome,Home,dome,fieldturf,2007120207
+184,2007_13_HOU_TEN,2007,REG,13,2007-12-02,Sunday,13:00,HOU,TEN,20,28,8,LP Field,Home,outdoors,grass,2007120208
+185,2007_13_BUF_WAS,2007,REG,13,2007-12-02,Sunday,13:00,BUF,WAS,17,16,-1,FedExField,Home,outdoors,grass,2007120209
+186,2007_13_CLE_ARI,2007,REG,13,2007-12-02,Sunday,16:05,CLE,ARI,21,27,6,University of Phoenix Stadium,Home,open,grass,2007120210
+187,2007_13_DEN_OAK,2007,REG,13,2007-12-02,Sunday,16:05,DEN,OAK,20,34,14,McAfee Coliseum,Home,outdoors,grass,2007120211
+188,2007_13_NYG_CHI,2007,REG,13,2007-12-02,Sunday,16:15,NYG,CHI,21,16,-5,Soldier Field,Home,outdoors,grass,2007120212
+189,2007_13_TB_NO,2007,REG,13,2007-12-02,Sunday,16:15,TB,NO,27,23,-4,Louisiana Superdome,Home,dome,fieldturf,2007120205
+190,2007_13_CIN_PIT,2007,REG,13,2007-12-02,Sunday,20:25,CIN,PIT,10,24,14,Heinz Field,Home,outdoors,dessograss,2007120213
+191,2007_13_NE_BAL,2007,REG,13,2007-12-03,Monday,20:40,NE,BAL,27,24,-3,M&T Bank Stadium,Home,outdoors,sportturf,2007120300
+192,2007_14_CHI_WAS,2007,REG,14,2007-12-06,Thursday,20:15,CHI,WAS,16,24,8,FedExField,Home,outdoors,grass,2007120600
+193,2007_14_MIA_BUF,2007,REG,14,2007-12-09,Sunday,13:00,MIA,BUF,17,38,21,Ralph Wilson Stadium,Home,outdoors,astroplay,2007120900
+194,2007_14_STL_CIN,2007,REG,14,2007-12-09,Sunday,13:00,STL,CIN,10,19,9,Paul Brown Stadium,Home,outdoors,fieldturf,2007120901
+195,2007_14_DAL_DET,2007,REG,14,2007-12-09,Sunday,13:00,DAL,DET,28,27,-1,Ford Field,Home,dome,fieldturf,2007120902
+196,2007_14_OAK_GB,2007,REG,14,2007-12-09,Sunday,13:00,OAK,GB,7,38,31,Lambeau Field,Home,outdoors,grass,2007120903
+197,2007_14_TB_HOU,2007,REG,14,2007-12-09,Sunday,13:00,TB,HOU,14,28,14,Reliant Stadium,Home,closed,grass,2007120904
+198,2007_14_CAR_JAX,2007,REG,14,2007-12-09,Sunday,13:00,CAR,JAX,6,37,31,Jacksonville Municipal Stadium,Home,outdoors,grass,2007120905
+199,2007_14_NYG_PHI,2007,REG,14,2007-12-09,Sunday,13:00,NYG,PHI,16,13,-3,Lincoln Financial Field,Home,outdoors,grass,2007120907
+200,2007_14_SD_TEN,2007,REG,14,2007-12-09,Sunday,13:00,SD,TEN,23,17,-6,LP Field,Home,outdoors,grass,2007120908
+201,2007_14_ARI_SEA,2007,REG,14,2007-12-09,Sunday,16:05,ARI,SEA,21,42,21,Qwest Field,Home,outdoors,fieldturf,2007120910
+202,2007_14_MIN_SF,2007,REG,14,2007-12-09,Sunday,16:05,MIN,SF,27,7,-20,Monster Park,Home,outdoors,grass,2007120909
+203,2007_14_KC_DEN,2007,REG,14,2007-12-09,Sunday,16:15,KC,DEN,7,41,34,Invesco Field at Mile High,Home,outdoors,grass,2007120911
+204,2007_14_PIT_NE,2007,REG,14,2007-12-09,Sunday,16:15,PIT,NE,13,34,21,Gillette Stadium,Home,outdoors,fieldturf,2007120906
+205,2007_14_CLE_NYJ,2007,REG,14,2007-12-09,Sunday,16:15,CLE,NYJ,24,18,-6,Giants Stadium,Home,outdoors,fieldturf,2007120912
+206,2007_14_IND_BAL,2007,REG,14,2007-12-09,Sunday,20:25,IND,BAL,44,20,-24,M&T Bank Stadium,Home,outdoors,sportturf,2007120913
+207,2007_14_NO_ATL,2007,REG,14,2007-12-10,Monday,20:40,NO,ATL,34,14,-20,Georgia Dome,Home,dome,fieldturf,2007121000
+208,2007_15_DEN_HOU,2007,REG,15,2007-12-13,Thursday,20:15,DEN,HOU,13,31,18,Reliant Stadium,Home,open,grass,2007121300
+209,2007_15_CIN_SF,2007,REG,15,2007-12-15,Saturday,20:15,CIN,SF,13,20,7,Monster Park,Home,outdoors,grass,2007121500
+210,2007_15_SEA_CAR,2007,REG,15,2007-12-16,Sunday,13:00,SEA,CAR,10,13,3,Bank of America Stadium,Home,outdoors,grass,2007121600
+211,2007_15_BUF_CLE,2007,REG,15,2007-12-16,Sunday,13:00,BUF,CLE,0,8,8,Cleveland Browns Stadium,Home,outdoors,grass,2007121601
+212,2007_15_TEN_KC,2007,REG,15,2007-12-16,Sunday,13:00,TEN,KC,26,17,-9,Arrowhead Stadium,Home,outdoors,grass,2007121602
+213,2007_15_BAL_MIA,2007,REG,15,2007-12-16,Sunday,13:00,BAL,MIA,16,22,6,Dolphin Stadium,Home,outdoors,grass,2007121603
+214,2007_15_NYJ_NE,2007,REG,15,2007-12-16,Sunday,13:00,NYJ,NE,10,20,10,Gillette Stadium,Home,outdoors,fieldturf,2007121604
+215,2007_15_ARI_NO,2007,REG,15,2007-12-16,Sunday,13:00,ARI,NO,24,31,7,Louisiana Superdome,Home,dome,fieldturf,2007121605
+216,2007_15_JAX_PIT,2007,REG,15,2007-12-16,Sunday,13:00,JAX,PIT,29,22,-7,Heinz Field,Home,outdoors,dessograss,2007121606
+217,2007_15_GB_STL,2007,REG,15,2007-12-16,Sunday,13:00,GB,STL,33,14,-19,Edward Jones Dome,Home,dome,fieldturf,2007121607
+218,2007_15_ATL_TB,2007,REG,15,2007-12-16,Sunday,13:00,ATL,TB,3,37,34,Raymond James Stadium,Home,outdoors,grass,2007121608
+219,2007_15_IND_OAK,2007,REG,15,2007-12-16,Sunday,16:05,IND,OAK,21,14,-7,McAfee Coliseum,Home,outdoors,grass,2007121609
+220,2007_15_PHI_DAL,2007,REG,15,2007-12-16,Sunday,16:15,PHI,DAL,10,6,-4,Texas Stadium,Home,outdoors,fieldturf,2007121610
+221,2007_15_DET_SD,2007,REG,15,2007-12-16,Sunday,16:15,DET,SD,14,51,37,Qualcomm Stadium,Home,outdoors,grass,2007121611
+222,2007_15_WAS_NYG,2007,REG,15,2007-12-16,Sunday,20:25,WAS,NYG,22,10,-12,Giants Stadium,Home,outdoors,fieldturf,2007121612
+223,2007_15_CHI_MIN,2007,REG,15,2007-12-17,Monday,20:40,CHI,MIN,13,20,7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007121701
+224,2007_16_PIT_STL,2007,REG,16,2007-12-20,Thursday,20:15,PIT,STL,41,24,-17,Edward Jones Dome,Home,dome,fieldturf,2007122000
+225,2007_16_DAL_CAR,2007,REG,16,2007-12-22,Saturday,20:15,DAL,CAR,20,13,-7,Bank of America Stadium,Home,outdoors,grass,2007122200
+226,2007_16_NYG_BUF,2007,REG,16,2007-12-23,Sunday,13:00,NYG,BUF,38,21,-17,Ralph Wilson Stadium,Home,outdoors,astroplay,2007122300
+227,2007_16_GB_CHI,2007,REG,16,2007-12-23,Sunday,13:00,GB,CHI,7,35,28,Soldier Field,Home,outdoors,grass,2007122301
+228,2007_16_CLE_CIN,2007,REG,16,2007-12-23,Sunday,13:00,CLE,CIN,14,19,5,Paul Brown Stadium,Home,outdoors,fieldturf,2007122302
+229,2007_16_KC_DET,2007,REG,16,2007-12-23,Sunday,13:00,KC,DET,20,25,5,Ford Field,Home,dome,fieldturf,2007122303
+230,2007_16_HOU_IND,2007,REG,16,2007-12-23,Sunday,13:00,HOU,IND,15,38,23,RCA Dome,Home,dome,fieldturf,2007122304
+231,2007_16_OAK_JAX,2007,REG,16,2007-12-23,Sunday,13:00,OAK,JAX,11,49,38,Jacksonville Municipal Stadium,Home,outdoors,grass,2007122305
+232,2007_16_PHI_NO,2007,REG,16,2007-12-23,Sunday,13:00,PHI,NO,38,23,-15,Louisiana Superdome,Home,dome,fieldturf,2007122308
+233,2007_16_ATL_ARI,2007,REG,16,2007-12-23,Sunday,16:05,ATL,ARI,27,30,3,University of Phoenix Stadium,Home,open,grass,2007122309
+234,2007_16_TB_SF,2007,REG,16,2007-12-23,Sunday,16:05,TB,SF,19,21,2,Monster Park,Home,outdoors,grass,2007122312
+235,2007_16_MIA_NE,2007,REG,16,2007-12-23,Sunday,16:15,MIA,NE,7,28,21,Gillette Stadium,Home,outdoors,fieldturf,2007122307
+236,2007_16_BAL_SEA,2007,REG,16,2007-12-23,Sunday,16:15,BAL,SEA,6,27,21,Qwest Field,Home,outdoors,fieldturf,2007122310
+237,2007_16_NYJ_TEN,2007,REG,16,2007-12-23,Sunday,16:15,NYJ,TEN,6,10,4,LP Field,Home,outdoors,grass,2007122311
+238,2007_16_WAS_MIN,2007,REG,16,2007-12-23,Sunday,20:15,WAS,MIN,32,21,-11,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2007122306
+239,2007_16_DEN_SD,2007,REG,16,2007-12-24,Monday,20:00,DEN,SD,3,23,20,Qualcomm Stadium,Home,outdoors,grass,2007122400
+240,2007_17_NE_NYG,2007,REG,17,2007-12-29,Saturday,20:15,NE,NYG,38,35,-3,Giants Stadium,Home,outdoors,fieldturf,2007122900
+241,2007_17_SEA_ATL,2007,REG,17,2007-12-30,Sunday,13:00,SEA,ATL,41,44,3,Georgia Dome,Home,dome,fieldturf,2007123000
+242,2007_17_NO_CHI,2007,REG,17,2007-12-30,Sunday,13:00,NO,CHI,25,33,8,Soldier Field,Home,outdoors,grass,2007123002
+243,2007_17_SF_CLE,2007,REG,17,2007-12-30,Sunday,13:00,SF,CLE,7,20,13,Cleveland Browns Stadium,Home,outdoors,grass,2007123003
+244,2007_17_DET_GB,2007,REG,17,2007-12-30,Sunday,13:00,DET,GB,13,34,21,Lambeau Field,Home,outdoors,grass,2007123004
+245,2007_17_JAX_HOU,2007,REG,17,2007-12-30,Sunday,13:00,JAX,HOU,28,42,14,Reliant Stadium,Home,open,grass,2007123005
+246,2007_17_CIN_MIA,2007,REG,17,2007-12-30,Sunday,13:00,CIN,MIA,38,25,-13,Dolphin Stadium,Home,outdoors,grass,2007123007
+247,2007_17_BUF_PHI,2007,REG,17,2007-12-30,Sunday,13:00,BUF,PHI,9,17,8,Lincoln Financial Field,Home,outdoors,grass,2007123008
+248,2007_17_CAR_TB,2007,REG,17,2007-12-30,Sunday,13:00,CAR,TB,31,23,-8,Raymond James Stadium,Home,outdoors,grass,2007123009
+249,2007_17_STL_ARI,2007,REG,17,2007-12-30,Sunday,16:15,STL,ARI,19,48,29,University of Phoenix Stadium,Home,open,grass,2007123011
+250,2007_17_PIT_BAL,2007,REG,17,2007-12-30,Sunday,16:15,PIT,BAL,21,27,6,M&T Bank Stadium,Home,outdoors,sportturf,2007123001
+251,2007_17_MIN_DEN,2007,REG,17,2007-12-30,Sunday,16:15,MIN,DEN,19,22,3,Invesco Field at Mile High,Home,outdoors,grass,2007123012
+252,2007_17_KC_NYJ,2007,REG,17,2007-12-30,Sunday,16:15,KC,NYJ,10,13,3,Giants Stadium,Home,outdoors,fieldturf,2007123014
+253,2007_17_SD_OAK,2007,REG,17,2007-12-30,Sunday,16:15,SD,OAK,30,17,-13,McAfee Coliseum,Home,outdoors,grass,2007123013
+254,2007_17_DAL_WAS,2007,REG,17,2007-12-30,Sunday,16:15,DAL,WAS,6,27,21,FedExField,Home,outdoors,grass,2007123010
+255,2007_17_TEN_IND,2007,REG,17,2007-12-30,Sunday,20:25,TEN,IND,16,10,-6,RCA Dome,Home,dome,fieldturf,2007123006
+256,2007_18_WAS_SEA,2007,WC,18,2008-01-05,Saturday,16:30,WAS,SEA,14,35,21,Qwest Field,Home,outdoors,fieldturf,2008010500
+257,2007_18_JAX_PIT,2007,WC,18,2008-01-05,Saturday,20:15,JAX,PIT,31,29,-2,Heinz Field,Home,outdoors,dessograss,2008010501
+258,2007_18_NYG_TB,2007,WC,18,2008-01-06,Sunday,13:00,NYG,TB,24,14,-10,Raymond James Stadium,Home,outdoors,grass,2008010600
+259,2007_18_TEN_SD,2007,WC,18,2008-01-06,Sunday,16:30,TEN,SD,6,17,11,Qualcomm Stadium,Home,outdoors,grass,2008010601
+260,2007_19_SEA_GB,2007,DIV,19,2008-01-12,Saturday,16:30,SEA,GB,20,42,22,Lambeau Field,Home,outdoors,grass,2008011200
+261,2007_19_JAX_NE,2007,DIV,19,2008-01-12,Saturday,20:15,JAX,NE,20,31,11,Gillette Stadium,Home,outdoors,fieldturf,2008011201
+262,2007_19_SD_IND,2007,DIV,19,2008-01-13,Sunday,13:00,SD,IND,28,24,-4,RCA Dome,Home,dome,fieldturf,2008011300
+263,2007_19_NYG_DAL,2007,DIV,19,2008-01-13,Sunday,16:30,NYG,DAL,21,17,-4,Texas Stadium,Home,outdoors,fieldturf,2008011301
+264,2007_20_SD_NE,2007,CON,20,2008-01-20,Sunday,15:00,SD,NE,12,21,9,Gillette Stadium,Home,outdoors,fieldturf,2008012000
+265,2007_20_NYG_GB,2007,CON,20,2008-01-20,Sunday,18:30,NYG,GB,23,20,-3,Lambeau Field,Home,outdoors,grass,2008012001
+266,2007_21_NYG_NE,2007,SB,21,2008-02-03,Sunday,18:30,NYG,NE,17,14,-3,University of Phoenix Stadium,Neutral,closed,grass,2008020300

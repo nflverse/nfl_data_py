@@ -1,0 +1,273 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2021_01_DAL_TB,2021,REG,1,2021-09-09,Thursday,20:20,DAL,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021090900
+1,2021_01_PHI_ATL,2021,REG,1,2021-09-12,Sunday,13:00,PHI,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2021091200
+2,2021_01_PIT_BUF,2021,REG,1,2021-09-12,Sunday,13:00,PIT,BUF,,,,New Era Field,Home,outdoors,astroturf,2021091201
+3,2021_01_NYJ_CAR,2021,REG,1,2021-09-12,Sunday,13:00,NYJ,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021091202
+4,2021_01_MIN_CIN,2021,REG,1,2021-09-12,Sunday,13:00,MIN,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021091203
+5,2021_01_SF_DET,2021,REG,1,2021-09-12,Sunday,13:00,SF,DET,,,,Ford Field,Home,dome,fieldturf,2021091204
+6,2021_01_JAX_HOU,2021,REG,1,2021-09-12,Sunday,13:00,JAX,HOU,,,,NRG Stadium,Home,,grass,2021091205
+7,2021_01_SEA_IND,2021,REG,1,2021-09-12,Sunday,13:00,SEA,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021091206
+8,2021_01_ARI_TEN,2021,REG,1,2021-09-12,Sunday,13:00,ARI,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021091207
+9,2021_01_LAC_WAS,2021,REG,1,2021-09-12,Sunday,13:00,LAC,WAS,,,,FedExField,Home,outdoors,grass,2021091208
+10,2021_01_CLE_KC,2021,REG,1,2021-09-12,Sunday,16:25,CLE,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021091209
+11,2021_01_MIA_NE,2021,REG,1,2021-09-12,Sunday,16:25,MIA,NE,,,,Gillette Stadium,Home,outdoors,grass,2021091210
+12,2021_01_GB_NO,2021,REG,1,2021-09-12,Sunday,16:25,GB,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021091211
+13,2021_01_DEN_NYG,2021,REG,1,2021-09-12,Sunday,16:25,DEN,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021091212
+14,2021_01_CHI_LA,2021,REG,1,2021-09-12,Sunday,20:20,CHI,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021091213
+15,2021_01_BAL_LV,2021,REG,1,2021-09-13,Monday,20:15,BAL,LV,,,,Allegiant Stadium,Home,dome,grass,2021091300
+16,2021_02_NYG_WAS,2021,REG,2,2021-09-16,Thursday,20:20,NYG,WAS,,,,FedExField,Home,outdoors,grass,2021091600
+17,2021_02_NO_CAR,2021,REG,2,2021-09-19,Sunday,13:00,NO,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021091908
+18,2021_02_CIN_CHI,2021,REG,2,2021-09-19,Sunday,13:00,CIN,CHI,,,,Soldier Field,Home,outdoors,grass,2021091906
+19,2021_02_HOU_CLE,2021,REG,2,2021-09-19,Sunday,13:00,HOU,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021091907
+20,2021_02_LA_IND,2021,REG,2,2021-09-19,Sunday,13:00,LA,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021091904
+21,2021_02_DEN_JAX,2021,REG,2,2021-09-19,Sunday,13:00,DEN,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021091901
+22,2021_02_BUF_MIA,2021,REG,2,2021-09-19,Sunday,13:00,BUF,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021091902
+23,2021_02_NE_NYJ,2021,REG,2,2021-09-19,Sunday,13:00,NE,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021091900
+24,2021_02_SF_PHI,2021,REG,2,2021-09-19,Sunday,13:00,SF,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2021091903
+25,2021_02_LV_PIT,2021,REG,2,2021-09-19,Sunday,13:00,LV,PIT,,,,Heinz Field,Home,outdoors,grass,2021091905
+26,2021_02_MIN_ARI,2021,REG,2,2021-09-19,Sunday,16:05,MIN,ARI,,,,State Farm Stadium,Home,closed,grass,2021091909
+27,2021_02_ATL_TB,2021,REG,2,2021-09-19,Sunday,16:05,ATL,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021091910
+28,2021_02_DAL_LAC,2021,REG,2,2021-09-19,Sunday,16:25,DAL,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021091912
+29,2021_02_TEN_SEA,2021,REG,2,2021-09-19,Sunday,16:25,TEN,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021091911
+30,2021_02_KC_BAL,2021,REG,2,2021-09-19,Sunday,20:20,KC,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021091913
+31,2021_02_DET_GB,2021,REG,2,2021-09-20,Monday,20:15,DET,GB,,,,Lambeau Field,Home,outdoors,grass,2021092000
+32,2021_03_CAR_HOU,2021,REG,3,2021-09-23,Thursday,20:20,CAR,HOU,,,,NRG Stadium,Home,,grass,2021092300
+33,2021_03_WAS_BUF,2021,REG,3,2021-09-26,Sunday,13:00,WAS,BUF,,,,New Era Field,Home,outdoors,astroturf,2021092608
+34,2021_03_CHI_CLE,2021,REG,3,2021-09-26,Sunday,13:00,CHI,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021092604
+35,2021_03_BAL_DET,2021,REG,3,2021-09-26,Sunday,13:00,BAL,DET,,,,Ford Field,Home,dome,fieldturf,2021092605
+36,2021_03_ARI_JAX,2021,REG,3,2021-09-26,Sunday,13:00,ARI,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021092607
+37,2021_03_LAC_KC,2021,REG,3,2021-09-26,Sunday,13:00,LAC,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021092602
+38,2021_03_NO_NE,2021,REG,3,2021-09-26,Sunday,13:00,NO,NE,,,,Gillette Stadium,Home,outdoors,grass,2021092606
+39,2021_03_ATL_NYG,2021,REG,3,2021-09-26,Sunday,13:00,ATL,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021092601
+40,2021_03_CIN_PIT,2021,REG,3,2021-09-26,Sunday,13:00,CIN,PIT,,,,Heinz Field,Home,outdoors,grass,2021092603
+41,2021_03_IND_TEN,2021,REG,3,2021-09-26,Sunday,13:00,IND,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021092600
+42,2021_03_NYJ_DEN,2021,REG,3,2021-09-26,Sunday,16:05,NYJ,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021092609
+43,2021_03_MIA_LV,2021,REG,3,2021-09-26,Sunday,16:05,MIA,LV,,,,Allegiant Stadium,Home,dome,grass,2021092610
+44,2021_03_TB_LA,2021,REG,3,2021-09-26,Sunday,16:25,TB,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021092612
+45,2021_03_SEA_MIN,2021,REG,3,2021-09-26,Sunday,16:25,SEA,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021092611
+46,2021_03_GB_SF,2021,REG,3,2021-09-26,Sunday,20:20,GB,SF,,,,Levi's Stadium,Home,outdoors,grass,2021092613
+47,2021_03_PHI_DAL,2021,REG,3,2021-09-27,Monday,20:15,PHI,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021092700
+48,2021_04_JAX_CIN,2021,REG,4,2021-09-30,Thursday,20:20,JAX,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021093000
+49,2021_04_WAS_ATL,2021,REG,4,2021-10-03,Sunday,13:00,WAS,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2021100308
+50,2021_04_HOU_BUF,2021,REG,4,2021-10-03,Sunday,13:00,HOU,BUF,,,,New Era Field,Home,outdoors,astroturf,2021100306
+51,2021_04_DET_CHI,2021,REG,4,2021-10-03,Sunday,13:00,DET,CHI,,,,Soldier Field,Home,outdoors,grass,2021100305
+52,2021_04_CAR_DAL,2021,REG,4,2021-10-03,Sunday,13:00,CAR,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021100302
+53,2021_04_IND_MIA,2021,REG,4,2021-10-03,Sunday,13:00,IND,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021100307
+54,2021_04_CLE_MIN,2021,REG,4,2021-10-03,Sunday,13:00,CLE,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021100304
+55,2021_04_NYG_NO,2021,REG,4,2021-10-03,Sunday,13:00,NYG,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021100303
+56,2021_04_TEN_NYJ,2021,REG,4,2021-10-03,Sunday,13:00,TEN,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021100300
+57,2021_04_KC_PHI,2021,REG,4,2021-10-03,Sunday,13:00,KC,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2021100301
+58,2021_04_ARI_LA,2021,REG,4,2021-10-03,Sunday,16:05,ARI,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021100310
+59,2021_04_SEA_SF,2021,REG,4,2021-10-03,Sunday,16:05,SEA,SF,,,,Levi's Stadium,Home,outdoors,grass,2021100309
+60,2021_04_BAL_DEN,2021,REG,4,2021-10-03,Sunday,16:25,BAL,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021100312
+61,2021_04_PIT_GB,2021,REG,4,2021-10-03,Sunday,16:25,PIT,GB,,,,Lambeau Field,Home,outdoors,grass,2021100311
+62,2021_04_TB_NE,2021,REG,4,2021-10-03,Sunday,20:20,TB,NE,,,,Gillette Stadium,Home,outdoors,grass,2021100313
+63,2021_04_LV_LAC,2021,REG,4,2021-10-04,Monday,20:15,LV,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021100400
+64,2021_05_LA_SEA,2021,REG,5,2021-10-07,Thursday,20:20,LA,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021100700
+65,2021_05_NYJ_ATL,2021,REG,5,2021-10-10,Sunday,09:30,NYJ,ATL,,,,Mercedes-Benz Stadium,Neutral,,fieldturf,2021101000
+66,2021_05_PHI_CAR,2021,REG,5,2021-10-10,Sunday,13:00,PHI,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021101007
+67,2021_05_GB_CIN,2021,REG,5,2021-10-10,Sunday,13:00,GB,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021101005
+68,2021_05_NE_HOU,2021,REG,5,2021-10-10,Sunday,13:00,NE,HOU,,,,NRG Stadium,Home,,grass,2021101003
+69,2021_05_TEN_JAX,2021,REG,5,2021-10-10,Sunday,13:00,TEN,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021101008
+70,2021_05_DET_MIN,2021,REG,5,2021-10-10,Sunday,13:00,DET,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021101001
+71,2021_05_DEN_PIT,2021,REG,5,2021-10-10,Sunday,13:00,DEN,PIT,,,,Heinz Field,Home,outdoors,grass,2021101006
+72,2021_05_MIA_TB,2021,REG,5,2021-10-10,Sunday,13:00,MIA,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021101004
+73,2021_05_NO_WAS,2021,REG,5,2021-10-10,Sunday,13:00,NO,WAS,,,,FedExField,Home,outdoors,grass,2021101002
+74,2021_05_CLE_LAC,2021,REG,5,2021-10-10,Sunday,16:05,CLE,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021101009
+75,2021_05_CHI_LV,2021,REG,5,2021-10-10,Sunday,16:05,CHI,LV,,,,Allegiant Stadium,Home,dome,grass,2021101010
+76,2021_05_SF_ARI,2021,REG,5,2021-10-10,Sunday,16:25,SF,ARI,,,,State Farm Stadium,Home,closed,grass,2021101011
+77,2021_05_NYG_DAL,2021,REG,5,2021-10-10,Sunday,16:25,NYG,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021101012
+78,2021_05_BUF_KC,2021,REG,5,2021-10-10,Sunday,20:20,BUF,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021101013
+79,2021_05_IND_BAL,2021,REG,5,2021-10-11,Monday,20:15,IND,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021101100
+80,2021_06_TB_PHI,2021,REG,6,2021-10-14,Thursday,20:20,TB,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2021101400
+81,2021_06_MIA_JAX,2021,REG,6,2021-10-17,Sunday,09:30,MIA,JAX,,,,TIAA Bank Stadium,Neutral,outdoors,grass,2021101700
+82,2021_06_LAC_BAL,2021,REG,6,2021-10-17,Sunday,13:00,LAC,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021101706
+83,2021_06_MIN_CAR,2021,REG,6,2021-10-17,Sunday,13:00,MIN,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021101707
+84,2021_06_GB_CHI,2021,REG,6,2021-10-17,Sunday,13:00,GB,CHI,,,,Soldier Field,Home,outdoors,grass,2021101705
+85,2021_06_CIN_DET,2021,REG,6,2021-10-17,Sunday,13:00,CIN,DET,,,,Ford Field,Home,dome,fieldturf,2021101704
+86,2021_06_HOU_IND,2021,REG,6,2021-10-17,Sunday,13:00,HOU,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021101703
+87,2021_06_LA_NYG,2021,REG,6,2021-10-17,Sunday,13:00,LA,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021101702
+88,2021_06_KC_WAS,2021,REG,6,2021-10-17,Sunday,13:00,KC,WAS,,,,FedExField,Home,outdoors,grass,2021101701
+89,2021_06_ARI_CLE,2021,REG,6,2021-10-17,Sunday,16:05,ARI,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021101708
+90,2021_06_LV_DEN,2021,REG,6,2021-10-17,Sunday,16:25,LV,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021101709
+91,2021_06_DAL_NE,2021,REG,6,2021-10-17,Sunday,16:25,DAL,NE,,,,Gillette Stadium,Home,outdoors,grass,2021101710
+92,2021_06_SEA_PIT,2021,REG,6,2021-10-17,Sunday,20:20,SEA,PIT,,,,Heinz Field,Home,outdoors,grass,2021101711
+93,2021_06_BUF_TEN,2021,REG,6,2021-10-18,Monday,20:15,BUF,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021101800
+94,2021_07_DEN_CLE,2021,REG,7,2021-10-21,Thursday,20:20,DEN,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021102100
+95,2021_07_CIN_BAL,2021,REG,7,2021-10-24,Sunday,13:00,CIN,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021102405
+96,2021_07_WAS_GB,2021,REG,7,2021-10-24,Sunday,13:00,WAS,GB,,,,Lambeau Field,Home,outdoors,grass,2021102403
+97,2021_07_ATL_MIA,2021,REG,7,2021-10-24,Sunday,13:00,ATL,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021102404
+98,2021_07_NYJ_NE,2021,REG,7,2021-10-24,Sunday,13:00,NYJ,NE,,,,Gillette Stadium,Home,outdoors,grass,2021102401
+99,2021_07_CAR_NYG,2021,REG,7,2021-10-24,Sunday,13:00,CAR,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021102400
+100,2021_07_KC_TEN,2021,REG,7,2021-10-24,Sunday,13:00,KC,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021102402
+101,2021_07_DET_LA,2021,REG,7,2021-10-24,Sunday,16:05,DET,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021102406
+102,2021_07_PHI_LV,2021,REG,7,2021-10-24,Sunday,16:05,PHI,LV,,,,Allegiant Stadium,Home,dome,grass,2021102407
+103,2021_07_HOU_ARI,2021,REG,7,2021-10-24,Sunday,16:25,HOU,ARI,,,,State Farm Stadium,Home,closed,grass,2021102408
+104,2021_07_CHI_TB,2021,REG,7,2021-10-24,Sunday,16:25,CHI,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021102409
+105,2021_07_IND_SF,2021,REG,7,2021-10-24,Sunday,20:20,IND,SF,,,,Levi's Stadium,Home,outdoors,grass,2021102410
+106,2021_07_NO_SEA,2021,REG,7,2021-10-25,Monday,20:15,NO,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021102500
+107,2021_08_GB_ARI,2021,REG,8,2021-10-28,Thursday,20:20,GB,ARI,,,,State Farm Stadium,Home,closed,grass,2021102800
+108,2021_08_CAR_ATL,2021,REG,8,2021-10-31,Sunday,13:00,CAR,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2021103106
+109,2021_08_MIA_BUF,2021,REG,8,2021-10-31,Sunday,13:00,MIA,BUF,,,,New Era Field,Home,outdoors,astroturf,2021103107
+110,2021_08_SF_CHI,2021,REG,8,2021-10-31,Sunday,13:00,SF,CHI,,,,Soldier Field,Home,outdoors,grass,2021103105
+111,2021_08_PIT_CLE,2021,REG,8,2021-10-31,Sunday,13:00,PIT,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021103103
+112,2021_08_PHI_DET,2021,REG,8,2021-10-31,Sunday,13:00,PHI,DET,,,,Ford Field,Home,dome,fieldturf,2021103104
+113,2021_08_LA_HOU,2021,REG,8,2021-10-31,Sunday,13:00,LA,HOU,,,,NRG Stadium,Home,,grass,2021103102
+114,2021_08_TEN_IND,2021,REG,8,2021-10-31,Sunday,13:00,TEN,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021103101
+115,2021_08_CIN_NYJ,2021,REG,8,2021-10-31,Sunday,13:00,CIN,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021103100
+116,2021_08_NE_LAC,2021,REG,8,2021-10-31,Sunday,16:05,NE,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021103108
+117,2021_08_JAX_SEA,2021,REG,8,2021-10-31,Sunday,16:05,JAX,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021103109
+118,2021_08_WAS_DEN,2021,REG,8,2021-10-31,Sunday,16:25,WAS,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021103110
+119,2021_08_TB_NO,2021,REG,8,2021-10-31,Sunday,16:25,TB,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021103111
+120,2021_08_DAL_MIN,2021,REG,8,2021-10-31,Sunday,20:20,DAL,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021103112
+121,2021_08_NYG_KC,2021,REG,8,2021-11-01,Monday,20:15,NYG,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021110100
+122,2021_09_NYJ_IND,2021,REG,9,2021-11-04,Thursday,20:20,NYJ,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021110400
+123,2021_09_MIN_BAL,2021,REG,9,2021-11-07,Sunday,13:00,MIN,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021110703
+124,2021_09_NE_CAR,2021,REG,9,2021-11-07,Sunday,13:00,NE,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021110702
+125,2021_09_CLE_CIN,2021,REG,9,2021-11-07,Sunday,13:00,CLE,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021110704
+126,2021_09_DEN_DAL,2021,REG,9,2021-11-07,Sunday,13:00,DEN,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021110701
+127,2021_09_BUF_JAX,2021,REG,9,2021-11-07,Sunday,13:00,BUF,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021110705
+128,2021_09_HOU_MIA,2021,REG,9,2021-11-07,Sunday,13:00,HOU,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021110706
+129,2021_09_ATL_NO,2021,REG,9,2021-11-07,Sunday,13:00,ATL,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021110700
+130,2021_09_LV_NYG,2021,REG,9,2021-11-07,Sunday,13:00,LV,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021110707
+131,2021_09_LAC_PHI,2021,REG,9,2021-11-07,Sunday,16:05,LAC,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2021110708
+132,2021_09_GB_KC,2021,REG,9,2021-11-07,Sunday,16:25,GB,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021110709
+133,2021_09_ARI_SF,2021,REG,9,2021-11-07,Sunday,16:25,ARI,SF,,,,Levi's Stadium,Home,outdoors,grass,2021110710
+134,2021_09_TEN_LA,2021,REG,9,2021-11-07,Sunday,20:20,TEN,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021110711
+135,2021_09_CHI_PIT,2021,REG,9,2021-11-08,Monday,20:15,CHI,PIT,,,,Heinz Field,Home,outdoors,grass,2021110800
+136,2021_10_BAL_MIA,2021,REG,10,2021-11-11,Thursday,20:20,BAL,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021111100
+137,2021_10_ATL_DAL,2021,REG,10,2021-11-14,Sunday,13:00,ATL,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021111402
+138,2021_10_JAX_IND,2021,REG,10,2021-11-14,Sunday,13:00,JAX,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021111404
+139,2021_10_CLE_NE,2021,REG,10,2021-11-14,Sunday,13:00,CLE,NE,,,,Gillette Stadium,Home,outdoors,grass,2021111406
+140,2021_10_BUF_NYJ,2021,REG,10,2021-11-14,Sunday,13:00,BUF,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021111400
+141,2021_10_DET_PIT,2021,REG,10,2021-11-14,Sunday,13:00,DET,PIT,,,,Heinz Field,Home,outdoors,grass,2021111405
+142,2021_10_NO_TEN,2021,REG,10,2021-11-14,Sunday,13:00,NO,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021111403
+143,2021_10_TB_WAS,2021,REG,10,2021-11-14,Sunday,13:00,TB,WAS,,,,FedExField,Home,outdoors,grass,2021111401
+144,2021_10_CAR_ARI,2021,REG,10,2021-11-14,Sunday,16:05,CAR,ARI,,,,State Farm Stadium,Home,closed,grass,2021111408
+145,2021_10_MIN_LAC,2021,REG,10,2021-11-14,Sunday,16:05,MIN,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021111407
+146,2021_10_PHI_DEN,2021,REG,10,2021-11-14,Sunday,16:25,PHI,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021111409
+147,2021_10_SEA_GB,2021,REG,10,2021-11-14,Sunday,16:25,SEA,GB,,,,Lambeau Field,Home,outdoors,grass,2021111410
+148,2021_10_KC_LV,2021,REG,10,2021-11-14,Sunday,20:20,KC,LV,,,,Allegiant Stadium,Home,dome,grass,2021111411
+149,2021_10_LA_SF,2021,REG,10,2021-11-15,Monday,20:15,LA,SF,,,,Levi's Stadium,Home,outdoors,grass,2021111500
+150,2021_11_NE_ATL,2021,REG,11,2021-11-18,Thursday,20:20,NE,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2021111800
+151,2021_11_IND_BUF,2021,REG,11,2021-11-21,Sunday,13:00,IND,BUF,,,,New Era Field,Home,outdoors,astroturf,2021112103
+152,2021_11_WAS_CAR,2021,REG,11,2021-11-21,Sunday,13:00,WAS,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021112102
+153,2021_11_BAL_CHI,2021,REG,11,2021-11-21,Sunday,13:00,BAL,CHI,,,,Soldier Field,Home,outdoors,grass,2021112108
+154,2021_11_DET_CLE,2021,REG,11,2021-11-21,Sunday,13:00,DET,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021112104
+155,2021_11_SF_JAX,2021,REG,11,2021-11-21,Sunday,13:00,SF,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021112105
+156,2021_11_GB_MIN,2021,REG,11,2021-11-21,Sunday,13:00,GB,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021112107
+157,2021_11_MIA_NYJ,2021,REG,11,2021-11-21,Sunday,13:00,MIA,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021112101
+158,2021_11_NO_PHI,2021,REG,11,2021-11-21,Sunday,13:00,NO,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2021112100
+159,2021_11_HOU_TEN,2021,REG,11,2021-11-21,Sunday,13:00,HOU,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021112106
+160,2021_11_CIN_LV,2021,REG,11,2021-11-21,Sunday,16:05,CIN,LV,,,,Allegiant Stadium,Home,dome,grass,2021112109
+161,2021_11_DAL_KC,2021,REG,11,2021-11-21,Sunday,16:25,DAL,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021112111
+162,2021_11_ARI_SEA,2021,REG,11,2021-11-21,Sunday,16:25,ARI,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021112110
+163,2021_11_PIT_LAC,2021,REG,11,2021-11-21,Sunday,20:20,PIT,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021112112
+164,2021_11_NYG_TB,2021,REG,11,2021-11-22,Monday,20:15,NYG,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021112200
+165,2021_12_CHI_DET,2021,REG,12,2021-11-25,Thursday,12:30,CHI,DET,,,,Ford Field,Home,dome,fieldturf,2021112500
+166,2021_12_LV_DAL,2021,REG,12,2021-11-25,Thursday,16:30,LV,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021112501
+167,2021_12_BUF_NO,2021,REG,12,2021-11-25,Thursday,20:20,BUF,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021112502
+168,2021_12_PIT_CIN,2021,REG,12,2021-11-28,Sunday,13:00,PIT,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021112805
+169,2021_12_NYJ_HOU,2021,REG,12,2021-11-28,Sunday,13:00,NYJ,HOU,,,,NRG Stadium,Home,,grass,2021112801
+170,2021_12_TB_IND,2021,REG,12,2021-11-28,Sunday,13:00,TB,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2021112800
+171,2021_12_ATL_JAX,2021,REG,12,2021-11-28,Sunday,13:00,ATL,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021112806
+172,2021_12_CAR_MIA,2021,REG,12,2021-11-28,Sunday,13:00,CAR,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021112803
+173,2021_12_TEN_NE,2021,REG,12,2021-11-28,Sunday,13:00,TEN,NE,,,,Gillette Stadium,Home,outdoors,grass,2021112804
+174,2021_12_PHI_NYG,2021,REG,12,2021-11-28,Sunday,13:00,PHI,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021112802
+175,2021_12_LAC_DEN,2021,REG,12,2021-11-28,Sunday,16:05,LAC,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021112807
+176,2021_12_LA_GB,2021,REG,12,2021-11-28,Sunday,16:25,LA,GB,,,,Lambeau Field,Home,outdoors,grass,2021112808
+177,2021_12_MIN_SF,2021,REG,12,2021-11-28,Sunday,16:25,MIN,SF,,,,Levi's Stadium,Home,outdoors,grass,2021112809
+178,2021_12_CLE_BAL,2021,REG,12,2021-11-28,Sunday,20:20,CLE,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021112810
+179,2021_12_SEA_WAS,2021,REG,12,2021-11-29,Monday,20:15,SEA,WAS,,,,FedExField,Home,outdoors,grass,2021112900
+180,2021_13_DAL_NO,2021,REG,13,2021-12-02,Thursday,20:20,DAL,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021120200
+181,2021_13_TB_ATL,2021,REG,13,2021-12-05,Sunday,13:00,TB,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2021120507
+182,2021_13_ARI_CHI,2021,REG,13,2021-12-05,Sunday,13:00,ARI,CHI,,,,Soldier Field,Home,outdoors,grass,2021120505
+183,2021_13_LAC_CIN,2021,REG,13,2021-12-05,Sunday,13:00,LAC,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021120506
+184,2021_13_MIN_DET,2021,REG,13,2021-12-05,Sunday,13:00,MIN,DET,,,,Ford Field,Home,dome,fieldturf,2021120502
+185,2021_13_IND_HOU,2021,REG,13,2021-12-05,Sunday,13:00,IND,HOU,,,,NRG Stadium,Home,,grass,2021120501
+186,2021_13_DEN_KC,2021,REG,13,2021-12-05,Sunday,13:00,DEN,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021120504
+187,2021_13_NYG_MIA,2021,REG,13,2021-12-05,Sunday,13:00,NYG,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2021120500
+188,2021_13_PHI_NYJ,2021,REG,13,2021-12-05,Sunday,13:00,PHI,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021120503
+189,2021_13_WAS_LV,2021,REG,13,2021-12-05,Sunday,16:05,WAS,LV,,,,Allegiant Stadium,Home,dome,grass,2021120508
+190,2021_13_JAX_LA,2021,REG,13,2021-12-05,Sunday,16:25,JAX,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021120509
+191,2021_13_BAL_PIT,2021,REG,13,2021-12-05,Sunday,16:25,BAL,PIT,,,,Heinz Field,Home,outdoors,grass,2021120510
+192,2021_13_SF_SEA,2021,REG,13,2021-12-05,Sunday,20:20,SF,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021120511
+193,2021_13_NE_BUF,2021,REG,13,2021-12-06,Monday,20:15,NE,BUF,,,,New Era Field,Home,outdoors,astroturf,2021120600
+194,2021_14_PIT_MIN,2021,REG,14,2021-12-09,Thursday,20:20,PIT,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021120900
+195,2021_14_ATL_CAR,2021,REG,14,2021-12-12,Sunday,13:00,ATL,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021121206
+196,2021_14_SF_CIN,2021,REG,14,2021-12-12,Sunday,13:00,SF,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021121201
+197,2021_14_BAL_CLE,2021,REG,14,2021-12-12,Sunday,13:00,BAL,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2021121207
+198,2021_14_SEA_HOU,2021,REG,14,2021-12-12,Sunday,13:00,SEA,HOU,,,,NRG Stadium,Home,,grass,2021121203
+199,2021_14_LV_KC,2021,REG,14,2021-12-12,Sunday,13:00,LV,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021121204
+200,2021_14_NO_NYJ,2021,REG,14,2021-12-12,Sunday,13:00,NO,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021121205
+201,2021_14_JAX_TEN,2021,REG,14,2021-12-12,Sunday,13:00,JAX,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021121202
+202,2021_14_DAL_WAS,2021,REG,14,2021-12-12,Sunday,13:00,DAL,WAS,,,,FedExField,Home,outdoors,grass,2021121200
+203,2021_14_DET_DEN,2021,REG,14,2021-12-12,Sunday,16:05,DET,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021121209
+204,2021_14_NYG_LAC,2021,REG,14,2021-12-12,Sunday,16:05,NYG,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021121208
+205,2021_14_BUF_TB,2021,REG,14,2021-12-12,Sunday,16:25,BUF,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021121210
+206,2021_14_CHI_GB,2021,REG,14,2021-12-12,Sunday,20:20,CHI,GB,,,,Lambeau Field,Home,outdoors,grass,2021121211
+207,2021_14_LA_ARI,2021,REG,14,2021-12-13,Monday,20:15,LA,ARI,,,,State Farm Stadium,Home,closed,grass,2021121300
+208,2021_15_KC_LAC,2021,REG,15,2021-12-16,Thursday,20:20,KC,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2021121600
+209,2021_15_GB_BAL,2021,REG,15,2021-12-19,Sunday,13:00,GB,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2021121903
+210,2021_15_CAR_BUF,2021,REG,15,2021-12-19,Sunday,13:00,CAR,BUF,,,,New Era Field,Home,outdoors,astroturf,2020121903
+211,2021_15_LV_CLE,2021,REG,15,2021-12-19,Sunday,13:00,LV,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2020121902
+212,2021_15_ARI_DET,2021,REG,15,2021-12-19,Sunday,13:00,ARI,DET,,,,Ford Field,Home,dome,fieldturf,2021121904
+213,2021_15_NE_IND,2021,REG,15,2021-12-19,Sunday,13:00,NE,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2020121904
+214,2021_15_HOU_JAX,2021,REG,15,2021-12-19,Sunday,13:00,HOU,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2021121901
+215,2021_15_NYJ_MIA,2021,REG,15,2021-12-19,Sunday,13:00,NYJ,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2020121900
+216,2021_15_DAL_NYG,2021,REG,15,2021-12-19,Sunday,13:00,DAL,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021121900
+217,2021_15_WAS_PHI,2021,REG,15,2021-12-19,Sunday,13:00,WAS,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2020121901
+218,2021_15_TEN_PIT,2021,REG,15,2021-12-19,Sunday,13:00,TEN,PIT,,,,Heinz Field,Home,outdoors,grass,2021121902
+219,2021_15_CIN_DEN,2021,REG,15,2021-12-19,Sunday,16:05,CIN,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2021121905
+220,2021_15_ATL_SF,2021,REG,15,2021-12-19,Sunday,16:05,ATL,SF,,,,Levi's Stadium,Home,outdoors,grass,2021121906
+221,2021_15_SEA_LA,2021,REG,15,2021-12-19,Sunday,16:25,SEA,LA,,,,SoFi Stadium,Home,dome,matrixturf,2021121907
+222,2021_15_NO_TB,2021,REG,15,2021-12-19,Sunday,20:20,NO,TB,,,,Raymond James Stadium,Home,outdoors,grass,2021121908
+223,2021_15_MIN_CHI,2021,REG,15,2021-12-20,Monday,20:15,MIN,CHI,,,,Soldier Field,Home,outdoors,grass,2021122000
+224,2021_16_SF_TEN,2021,REG,16,2021-12-23,Thursday,20:20,SF,TEN,,,,Nissan Stadium,Home,outdoors,grass,2021122300
+225,2021_16_CLE_GB,2021,REG,16,2021-12-25,Saturday,16:30,CLE,GB,,,,Lambeau Field,Home,outdoors,grass,2021122500
+226,2021_16_IND_ARI,2021,REG,16,2021-12-25,Saturday,20:15,IND,ARI,,,,State Farm Stadium,Home,closed,grass,2021122501
+227,2021_16_DET_ATL,2021,REG,16,2021-12-26,Sunday,13:00,DET,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2021122605
+228,2021_16_TB_CAR,2021,REG,16,2021-12-26,Sunday,13:00,TB,CAR,,,,Bank of America Stadium,Home,outdoors,grass,2021122603
+229,2021_16_BAL_CIN,2021,REG,16,2021-12-26,Sunday,13:00,BAL,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2021122607
+230,2021_16_LAC_HOU,2021,REG,16,2021-12-26,Sunday,13:00,LAC,HOU,,,,NRG Stadium,Home,,grass,2021122606
+231,2021_16_LA_MIN,2021,REG,16,2021-12-26,Sunday,13:00,LA,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2021122601
+232,2021_16_BUF_NE,2021,REG,16,2021-12-26,Sunday,13:00,BUF,NE,,,,Gillette Stadium,Home,outdoors,grass,2021122602
+233,2021_16_JAX_NYJ,2021,REG,16,2021-12-26,Sunday,13:00,JAX,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2021122604
+234,2021_16_NYG_PHI,2021,REG,16,2021-12-26,Sunday,13:00,NYG,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2021122600
+235,2021_16_CHI_SEA,2021,REG,16,2021-12-26,Sunday,16:05,CHI,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2021122608
+236,2021_16_PIT_KC,2021,REG,16,2021-12-26,Sunday,16:25,PIT,KC,,,,GEHA Field at Arrowhead Stadium,Home,outdoors,astroturf,2021122609
+237,2021_16_DEN_LV,2021,REG,16,2021-12-26,Sunday,16:25,DEN,LV,,,,Allegiant Stadium,Home,dome,grass,2021122610
+238,2021_16_WAS_DAL,2021,REG,16,2021-12-26,Sunday,20:20,WAS,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2021122611
+239,2021_16_MIA_NO,2021,REG,16,2021-12-27,Monday,20:15,MIA,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2021122700
+240,2021_17_ATL_BUF,2021,REG,17,2022-01-02,Sunday,13:00,ATL,BUF,,,,New Era Field,Home,outdoors,astroturf,2022010208
+241,2021_17_NYG_CHI,2021,REG,17,2022-01-02,Sunday,13:00,NYG,CHI,,,,Soldier Field,Home,outdoors,grass,2022010207
+242,2021_17_KC_CIN,2021,REG,17,2022-01-02,Sunday,13:00,KC,CIN,,,,Paul Brown Stadium,Home,outdoors,grass,2022010206
+243,2021_17_ARI_DAL,2021,REG,17,2022-01-02,Sunday,13:00,ARI,DAL,,,,AT&T Stadium,Home,closed,fieldturf,2022010209
+244,2021_17_LV_IND,2021,REG,17,2022-01-02,Sunday,13:00,LV,IND,,,,Lucas Oil Stadium,Home,,fieldturf,2022010205
+245,2021_17_JAX_NE,2021,REG,17,2022-01-02,Sunday,13:00,JAX,NE,,,,Gillette Stadium,Home,outdoors,grass,2022010204
+246,2021_17_CAR_NO,2021,REG,17,2022-01-02,Sunday,13:00,CAR,NO,,,,Mercedes-Benz Superdome,Home,dome,astroturf,2022010201
+247,2021_17_TB_NYJ,2021,REG,17,2022-01-02,Sunday,13:00,TB,NYJ,,,,MetLife Stadium,Home,outdoors,fieldturf ,2022010202
+248,2021_17_MIA_TEN,2021,REG,17,2022-01-02,Sunday,13:00,MIA,TEN,,,,Nissan Stadium,Home,outdoors,grass,2022010203
+249,2021_17_PHI_WAS,2021,REG,17,2022-01-02,Sunday,13:00,PHI,WAS,,,,FedExField,Home,outdoors,grass,2022010200
+250,2021_17_DEN_LAC,2021,REG,17,2022-01-02,Sunday,16:05,DEN,LAC,,,,SoFi Stadium,Home,dome,matrixturf,2022010211
+251,2021_17_HOU_SF,2021,REG,17,2022-01-02,Sunday,16:05,HOU,SF,,,,Levi's Stadium,Home,outdoors,grass,2022010210
+252,2021_17_LA_BAL,2021,REG,17,2022-01-02,Sunday,16:25,LA,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2022010212
+253,2021_17_DET_SEA,2021,REG,17,2022-01-02,Sunday,16:25,DET,SEA,,,,Lumen Field,Home,outdoors,fieldturf,2022010213
+254,2021_17_MIN_GB,2021,REG,17,2022-01-02,Sunday,20:20,MIN,GB,,,,Lambeau Field,Home,outdoors,grass,2022010214
+255,2021_17_CLE_PIT,2021,REG,17,2022-01-03,Monday,20:15,CLE,PIT,,,,Heinz Field,Home,outdoors,grass,2022010300
+256,2021_18_NO_ATL,2021,REG,18,2022-01-09,Sunday,13:00,NO,ATL,,,,Mercedes-Benz Stadium,Home,,fieldturf,2022010907
+257,2021_18_PIT_BAL,2021,REG,18,2022-01-09,Sunday,13:00,PIT,BAL,,,,M&T Bank Stadium,Home,outdoors,grass,2022010909
+258,2021_18_NYJ_BUF,2021,REG,18,2022-01-09,Sunday,13:00,NYJ,BUF,,,,New Era Field,Home,outdoors,astroturf,2022010910
+259,2021_18_CIN_CLE,2021,REG,18,2022-01-09,Sunday,13:00,CIN,CLE,,,,FirstEnergy Stadium,Home,outdoors,grass,2022010911
+260,2021_18_GB_DET,2021,REG,18,2022-01-09,Sunday,13:00,GB,DET,,,,Ford Field,Home,dome,fieldturf,2022010901
+261,2021_18_TEN_HOU,2021,REG,18,2022-01-09,Sunday,13:00,TEN,HOU,,,,NRG Stadium,Home,,grass,2022010908
+262,2021_18_IND_JAX,2021,REG,18,2022-01-09,Sunday,13:00,IND,JAX,,,,TIAA Bank Stadium,Home,outdoors,grass,2022010902
+263,2021_18_NE_MIA,2021,REG,18,2022-01-09,Sunday,13:00,NE,MIA,,,,Hard Rock Stadium,Home,outdoors,grass,2022010906
+264,2021_18_CHI_MIN,2021,REG,18,2022-01-09,Sunday,13:00,CHI,MIN,,,,U.S. Bank Stadium,Home,dome,sportturf,2022010904
+265,2021_18_WAS_NYG,2021,REG,18,2022-01-09,Sunday,13:00,WAS,NYG,,,,MetLife Stadium,Home,outdoors,fieldturf ,2022010903
+266,2021_18_DAL_PHI,2021,REG,18,2022-01-09,Sunday,13:00,DAL,PHI,,,,Lincoln Financial Field,Home,outdoors,grass,2022010900
+267,2021_18_CAR_TB,2021,REG,18,2022-01-09,Sunday,13:00,CAR,TB,,,,Raymond James Stadium,Home,outdoors,grass,2022010905
+268,2021_18_SEA_ARI,2021,REG,18,2022-01-09,Sunday,16:25,SEA,ARI,,,,State Farm Stadium,Home,closed,grass,2022010915
+269,2021_18_KC_DEN,2021,REG,18,2022-01-09,Sunday,16:25,KC,DEN,,,,Empower Field at Mile High,Home,outdoors,grass,2022010914
+270,2021_18_SF_LA,2021,REG,18,2022-01-09,Sunday,16:25,SF,LA,,,,SoFi Stadium,Home,dome,matrixturf,2022010913
+271,2021_18_LAC_LV,2021,REG,18,2022-01-09,Sunday,16:25,LAC,LV,,,,Allegiant Stadium,Home,dome,grass,2022010912

@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2002_01_SF_NYG,2002,REG,1,2002-09-05,Thursday,20:30,SF,NYG,16,13,-3,Giants Stadium,Home,outdoors,grass,2002090500
+1,2002_01_NYJ_BUF,2002,REG,1,2002-09-08,Sunday,13:00,NYJ,BUF,37,31,-6,Ralph Wilson Stadium,Home,outdoors,astroturf,2002090801
+2,2002_01_BAL_CAR,2002,REG,1,2002-09-08,Sunday,13:00,BAL,CAR,7,10,3,Ericsson Stadium,Home,outdoors,grass,2002090804
+3,2002_01_MIN_CHI,2002,REG,1,2002-09-08,Sunday,13:00,MIN,CHI,23,27,4,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002090812
+4,2002_01_SD_CIN,2002,REG,1,2002-09-08,Sunday,13:00,SD,CIN,34,6,-28,Paul Brown Stadium,Home,outdoors,grass,2002090805
+5,2002_01_KC_CLE,2002,REG,1,2002-09-08,Sunday,13:00,KC,CLE,40,39,-1,Cleveland Browns Stadium,Home,outdoors,grass,2002090810
+6,2002_01_ATL_GB,2002,REG,1,2002-09-08,Sunday,13:00,ATL,GB,34,37,3,Lambeau Field,Home,outdoors,grass,2002090802
+7,2002_01_IND_JAX,2002,REG,1,2002-09-08,Sunday,13:00,IND,JAX,28,25,-3,Alltel Stadium,Home,outdoors,grass,2002090808
+8,2002_01_DET_MIA,2002,REG,1,2002-09-08,Sunday,13:00,DET,MIA,21,49,28,Pro Player Stadium,Home,outdoors,grass,2002090806
+9,2002_01_PHI_TEN,2002,REG,1,2002-09-08,Sunday,13:00,PHI,TEN,24,27,3,The Coliseum,Home,outdoors,grass,2002090803
+10,2002_01_ARI_WAS,2002,REG,1,2002-09-08,Sunday,13:00,ARI,WAS,23,31,8,FedExField,Home,outdoors,grass,2002090800
+11,2002_01_STL_DEN,2002,REG,1,2002-09-08,Sunday,16:15,STL,DEN,16,23,7,Invesco Field at Mile High,Home,outdoors,grass,2002090811
+12,2002_01_SEA_OAK,2002,REG,1,2002-09-08,Sunday,16:15,SEA,OAK,17,31,14,Network Associates Coliseum,Home,outdoors,grass,2002090809
+13,2002_01_NO_TB,2002,REG,1,2002-09-08,Sunday,16:15,NO,TB,26,20,-6,Raymond James Stadium,Home,outdoors,grass,2002090807
+14,2002_01_DAL_HOU,2002,REG,1,2002-09-08,Sunday,20:30,DAL,HOU,10,19,9,Reliant Stadium,Home,closed,grass,2002090813
+15,2002_01_PIT_NE,2002,REG,1,2002-09-09,Monday,09:00,PIT,NE,14,30,16,Gillette Stadium,Home,outdoors,grass,2002090900
+16,2002_02_CHI_ATL,2002,REG,2,2002-09-15,Sunday,13:00,CHI,ATL,14,13,-1,Georgia Dome,Home,dome,astroturf,2002091500
+17,2002_02_TB_BAL,2002,REG,2,2002-09-15,Sunday,13:00,TB,BAL,25,0,-25,Ravens Stadium,Home,outdoors,grass,2002091501
+18,2002_02_DET_CAR,2002,REG,2,2002-09-15,Sunday,13:00,DET,CAR,7,31,24,Ericsson Stadium,Home,outdoors,grass,2002091504
+19,2002_02_CIN_CLE,2002,REG,2,2002-09-15,Sunday,13:00,CIN,CLE,7,20,13,Cleveland Browns Stadium,Home,outdoors,grass,2002091502
+20,2002_02_TEN_DAL,2002,REG,2,2002-09-15,Sunday,13:00,TEN,DAL,13,21,8,Texas Stadium,Home,outdoors,astroturf,2002091503
+21,2002_02_MIA_IND,2002,REG,2,2002-09-15,Sunday,13:00,MIA,IND,21,13,-8,RCA Dome,Home,dome,astroturf,2002091510
+22,2002_02_JAX_KC,2002,REG,2,2002-09-15,Sunday,13:00,JAX,KC,23,16,-7,Arrowhead Stadium,Home,outdoors,grass,2002091508
+23,2002_02_GB_NO,2002,REG,2,2002-09-15,Sunday,13:00,GB,NO,20,35,15,Louisiana Superdome,Home,dome,astroturf,2002091506
+24,2002_02_NE_NYJ,2002,REG,2,2002-09-15,Sunday,13:00,NE,NYJ,44,7,-37,Giants Stadium,Home,outdoors,grass,2002091512
+25,2002_02_ARI_SEA,2002,REG,2,2002-09-15,Sunday,16:05,ARI,SEA,24,13,-11,Seahawks Stadium,Home,outdoors,fieldturf,2002091505
+26,2002_02_NYG_STL,2002,REG,2,2002-09-15,Sunday,16:05,NYG,STL,26,21,-5,Edward Jones Dome,Home,dome,astroturf,2002091507
+27,2002_02_BUF_MIN,2002,REG,2,2002-09-15,Sunday,16:15,BUF,MIN,45,39,-6,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002091509
+28,2002_02_HOU_SD,2002,REG,2,2002-09-15,Sunday,16:15,HOU,SD,3,24,21,Qualcomm Stadium,Home,outdoors,grass,2002091513
+29,2002_02_DEN_SF,2002,REG,2,2002-09-15,Sunday,16:15,DEN,SF,24,14,-10,3Com Park,Home,outdoors,grass,2002091511
+30,2002_02_OAK_PIT,2002,REG,2,2002-09-15,Sunday,20:30,OAK,PIT,30,17,-13,Heinz Field,Home,outdoors,grass,2002091514
+31,2002_02_PHI_WAS,2002,REG,2,2002-09-16,Monday,09:00,PHI,WAS,37,7,-30,FedExField,Home,outdoors,grass,2002091600
+32,2002_03_NO_CHI,2002,REG,3,2002-09-22,Sunday,13:00,NO,CHI,29,23,-6,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002092210
+33,2002_03_IND_HOU,2002,REG,3,2002-09-22,Sunday,13:00,IND,HOU,23,3,-20,Reliant Stadium,Home,open,grass,2002092206
+34,2002_03_NYJ_MIA,2002,REG,3,2002-09-22,Sunday,13:00,NYJ,MIA,3,30,27,Pro Player Stadium,Home,outdoors,grass,2002092201
+35,2002_03_CAR_MIN,2002,REG,3,2002-09-22,Sunday,13:00,CAR,MIN,21,14,-7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002092200
+36,2002_03_KC_NE,2002,REG,3,2002-09-22,Sunday,13:00,KC,NE,38,41,3,Gillette Stadium,Home,outdoors,grass,2002092208
+37,2002_03_DAL_PHI,2002,REG,3,2002-09-22,Sunday,13:00,DAL,PHI,13,44,31,Veterans Stadium,Home,outdoors,fieldturf,2002092204
+38,2002_03_CLE_TEN,2002,REG,3,2002-09-22,Sunday,13:00,CLE,TEN,31,28,-3,The Coliseum,Home,outdoors,grass,2002092202
+39,2002_03_SD_ARI,2002,REG,3,2002-09-22,Sunday,16:05,SD,ARI,23,15,-8,Sun Devil Stadium,Home,outdoors,grass,2002092205
+40,2002_03_BUF_DEN,2002,REG,3,2002-09-22,Sunday,16:05,BUF,DEN,23,28,5,Invesco Field at Mile High,Home,outdoors,grass,2002092203
+41,2002_03_GB_DET,2002,REG,3,2002-09-22,Sunday,16:15,GB,DET,37,31,-6,Ford Field,Home,dome,fieldturf,2002092207
+42,2002_03_SEA_NYG,2002,REG,3,2002-09-22,Sunday,16:15,SEA,NYG,6,9,3,Giants Stadium,Home,outdoors,grass,2002092209
+43,2002_03_WAS_SF,2002,REG,3,2002-09-22,Sunday,16:15,WAS,SF,10,20,10,3Com Park,Home,outdoors,grass,2002092211
+44,2002_03_CIN_ATL,2002,REG,3,2002-09-22,Sunday,20:30,CIN,ATL,3,30,27,Georgia Dome,Home,dome,astroturf,2002092212
+45,2002_03_STL_TB,2002,REG,3,2002-09-23,Monday,09:00,STL,TB,14,26,12,Raymond James Stadium,Home,outdoors,grass,2002092300
+46,2002_04_CHI_BUF,2002,REG,4,2002-09-29,Sunday,13:00,CHI,BUF,27,33,6,Ralph Wilson Stadium,Home,outdoors,astroturf,2002092902
+47,2002_04_NO_DET,2002,REG,4,2002-09-29,Sunday,13:00,NO,DET,21,26,5,Ford Field,Home,dome,fieldturf,2002092912
+48,2002_04_CAR_GB,2002,REG,4,2002-09-29,Sunday,13:00,CAR,GB,14,17,3,Lambeau Field,Home,outdoors,grass,2002092900
+49,2002_04_NYJ_JAX,2002,REG,4,2002-09-29,Sunday,13:00,NYJ,JAX,3,28,25,Alltel Stadium,Home,outdoors,grass,2002092901
+50,2002_04_MIA_KC,2002,REG,4,2002-09-29,Sunday,13:00,MIA,KC,30,48,18,Arrowhead Stadium,Home,outdoors,grass,2002092910
+51,2002_04_HOU_PHI,2002,REG,4,2002-09-29,Sunday,13:00,HOU,PHI,17,35,18,Veterans Stadium,Home,outdoors,fieldturf,2002092908
+52,2002_04_CLE_PIT,2002,REG,4,2002-09-29,Sunday,13:00,CLE,PIT,13,16,3,Heinz Field,Home,outdoors,grass,2002092904
+53,2002_04_DAL_STL,2002,REG,4,2002-09-29,Sunday,13:00,DAL,STL,13,10,-3,Edward Jones Dome,Home,dome,astroturf,2002092906
+54,2002_04_NYG_ARI,2002,REG,4,2002-09-29,Sunday,16:05,NYG,ARI,7,21,14,Sun Devil Stadium,Home,outdoors,grass,2002092903
+55,2002_04_TB_CIN,2002,REG,4,2002-09-29,Sunday,16:05,TB,CIN,35,7,-28,Paul Brown Stadium,Home,outdoors,grass,2002092905
+56,2002_04_TEN_OAK,2002,REG,4,2002-09-29,Sunday,16:15,TEN,OAK,25,52,27,Network Associates Coliseum,Home,outdoors,grass,2002092909
+57,2002_04_NE_SD,2002,REG,4,2002-09-29,Sunday,16:15,NE,SD,14,21,7,Qualcomm Stadium,Home,outdoors,grass,2002092907
+58,2002_04_MIN_SEA,2002,REG,4,2002-09-29,Sunday,20:30,MIN,SEA,23,48,25,Seahawks Stadium,Home,outdoors,fieldturf,2002092911
+59,2002_04_DEN_BAL,2002,REG,4,2002-09-30,Monday,09:00,DEN,BAL,23,34,11,Ravens Stadium,Home,outdoors,grass,2002093000
+60,2002_05_TB_ATL,2002,REG,5,2002-10-06,Sunday,13:00,TB,ATL,20,6,-14,Georgia Dome,Home,dome,astroturf,2002100612
+61,2002_05_OAK_BUF,2002,REG,5,2002-10-06,Sunday,13:00,OAK,BUF,49,31,-18,Ralph Wilson Stadium,Home,outdoors,astroturf,2002100608
+62,2002_05_ARI_CAR,2002,REG,5,2002-10-06,Sunday,13:00,ARI,CAR,16,13,-3,Ericsson Stadium,Home,outdoors,grass,2002100600
+63,2002_05_NYG_DAL,2002,REG,5,2002-10-06,Sunday,13:00,NYG,DAL,21,17,-4,Texas Stadium,Home,outdoors,astroturf,2002100606
+64,2002_05_CIN_IND,2002,REG,5,2002-10-06,Sunday,13:00,CIN,IND,21,28,7,RCA Dome,Home,dome,astroturf,2002100602
+65,2002_05_NE_MIA,2002,REG,5,2002-10-06,Sunday,13:00,NE,MIA,13,26,13,Pro Player Stadium,Home,outdoors,grass,2002100604
+66,2002_05_PIT_NO,2002,REG,5,2002-10-06,Sunday,13:00,PIT,NO,29,32,3,Louisiana Superdome,Home,dome,astroturf,2002100610
+67,2002_05_WAS_TEN,2002,REG,5,2002-10-06,Sunday,13:00,WAS,TEN,31,14,-17,The Coliseum,Home,outdoors,grass,2002100601
+68,2002_05_SD_DEN,2002,REG,5,2002-10-06,Sunday,16:05,SD,DEN,9,26,17,Invesco Field at Mile High,Home,outdoors,grass,2002100605
+69,2002_05_KC_NYJ,2002,REG,5,2002-10-06,Sunday,16:05,KC,NYJ,29,25,-4,Giants Stadium,Home,outdoors,grass,2002100603
+70,2002_05_PHI_JAX,2002,REG,5,2002-10-06,Sunday,16:15,PHI,JAX,25,28,3,Alltel Stadium,Home,outdoors,grass,2002100607
+71,2002_05_STL_SF,2002,REG,5,2002-10-06,Sunday,16:15,STL,SF,13,37,24,3Com Park,Home,outdoors,grass,2002100609
+72,2002_05_BAL_CLE,2002,REG,5,2002-10-06,Sunday,20:30,BAL,CLE,26,21,-5,Cleveland Browns Stadium,Home,outdoors,grass,2002100611
+73,2002_05_GB_CHI,2002,REG,5,2002-10-07,Monday,09:00,GB,CHI,34,21,-13,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002100700
+74,2002_06_PIT_CIN,2002,REG,6,2002-10-13,Sunday,13:00,PIT,CIN,34,7,-27,Paul Brown Stadium,Home,outdoors,grass,2002101303
+75,2002_06_CAR_DAL,2002,REG,6,2002-10-13,Sunday,13:00,CAR,DAL,13,14,1,Texas Stadium,Home,outdoors,astroturf,2002101306
+76,2002_06_BUF_HOU,2002,REG,6,2002-10-13,Sunday,13:00,BUF,HOU,31,24,-7,Reliant Stadium,Home,closed,grass,2002101304
+77,2002_06_BAL_IND,2002,REG,6,2002-10-13,Sunday,13:00,BAL,IND,20,22,2,RCA Dome,Home,dome,astroturf,2002101302
+78,2002_06_DET_MIN,2002,REG,6,2002-10-13,Sunday,13:00,DET,MIN,24,31,7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002101308
+79,2002_06_GB_NE,2002,REG,6,2002-10-13,Sunday,13:00,GB,NE,28,10,-18,Gillette Stadium,Home,outdoors,grass,2002101310
+80,2002_06_ATL_NYG,2002,REG,6,2002-10-13,Sunday,13:00,ATL,NYG,17,10,-7,Giants Stadium,Home,outdoors,grass,2002101300
+81,2002_06_CLE_TB,2002,REG,6,2002-10-13,Sunday,13:00,CLE,TB,3,17,14,Raymond James Stadium,Home,outdoors,grass,2002101305
+82,2002_06_NO_WAS,2002,REG,6,2002-10-13,Sunday,13:00,NO,WAS,43,27,-16,FedExField,Home,outdoors,grass,2002101301
+83,2002_06_KC_SD,2002,REG,6,2002-10-13,Sunday,16:15,KC,SD,34,35,1,Qualcomm Stadium,Home,outdoors,grass,2002101307
+84,2002_06_OAK_STL,2002,REG,6,2002-10-13,Sunday,16:15,OAK,STL,13,28,15,Edward Jones Dome,Home,dome,astroturf,2002101309
+85,2002_06_JAX_TEN,2002,REG,6,2002-10-13,Sunday,16:15,JAX,TEN,14,23,9,The Coliseum,Home,outdoors,grass,2002101312
+86,2002_06_MIA_DEN,2002,REG,6,2002-10-13,Sunday,20:30,MIA,DEN,24,22,-2,Invesco Field at Mile High,Home,outdoors,grass,2002101311
+87,2002_06_SF_SEA,2002,REG,6,2002-10-14,Monday,09:00,SF,SEA,28,21,-7,Seahawks Stadium,Home,outdoors,fieldturf,2002101400
+88,2002_07_CAR_ATL,2002,REG,7,2002-10-20,Sunday,13:00,CAR,ATL,0,30,30,Georgia Dome,Home,dome,astroturf,2002102002
+89,2002_07_JAX_BAL,2002,REG,7,2002-10-20,Sunday,13:00,JAX,BAL,10,17,7,Ravens Stadium,Home,outdoors,grass,2002102008
+90,2002_07_CHI_DET,2002,REG,7,2002-10-20,Sunday,13:00,CHI,DET,20,23,3,Ford Field,Home,dome,fieldturf,2002102004
+91,2002_07_DEN_KC,2002,REG,7,2002-10-20,Sunday,13:00,DEN,KC,37,34,-3,Arrowhead Stadium,Home,outdoors,grass,2002102006
+92,2002_07_BUF_MIA,2002,REG,7,2002-10-20,Sunday,13:00,BUF,MIA,23,10,-13,Pro Player Stadium,Home,outdoors,grass,2002102000
+93,2002_07_SF_NO,2002,REG,7,2002-10-20,Sunday,13:00,SF,NO,27,35,8,Louisiana Superdome,Home,dome,astroturf,2002102001
+94,2002_07_MIN_NYJ,2002,REG,7,2002-10-20,Sunday,13:00,MIN,NYJ,7,20,13,Giants Stadium,Home,outdoors,grass,2002102010
+95,2002_07_SEA_STL,2002,REG,7,2002-10-20,Sunday,13:00,SEA,STL,20,37,17,Edward Jones Dome,Home,dome,astroturf,2002102012
+96,2002_07_HOU_CLE,2002,REG,7,2002-10-20,Sunday,16:05,HOU,CLE,17,34,17,Cleveland Browns Stadium,Home,outdoors,grass,2002102005
+97,2002_07_SD_OAK,2002,REG,7,2002-10-20,Sunday,16:05,SD,OAK,27,21,-6,Network Associates Coliseum,Home,outdoors,grass,2002102007
+98,2002_07_DAL_ARI,2002,REG,7,2002-10-20,Sunday,16:15,DAL,ARI,6,9,3,Sun Devil Stadium,Home,outdoors,grass,2002102009
+99,2002_07_WAS_GB,2002,REG,7,2002-10-20,Sunday,16:15,WAS,GB,9,30,21,Lambeau Field,Home,outdoors,grass,2002102011
+100,2002_07_TB_PHI,2002,REG,7,2002-10-20,Sunday,16:15,TB,PHI,10,20,10,Veterans Stadium,Home,outdoors,fieldturf,2002102003
+101,2002_07_IND_PIT,2002,REG,7,2002-10-21,Monday,09:00,IND,PIT,10,28,18,Heinz Field,Home,outdoors,grass,2002102100
+102,2002_08_PIT_BAL,2002,REG,8,2002-10-27,Sunday,13:00,PIT,BAL,31,18,-13,Ravens Stadium,Home,outdoors,grass,2002102710
+103,2002_08_DET_BUF,2002,REG,8,2002-10-27,Sunday,13:00,DET,BUF,17,24,7,Ralph Wilson Stadium,Home,outdoors,astroturf,2002102706
+104,2002_08_TB_CAR,2002,REG,8,2002-10-27,Sunday,13:00,TB,CAR,12,9,-3,Ericsson Stadium,Home,outdoors,grass,2002102701
+105,2002_08_TEN_CIN,2002,REG,8,2002-10-27,Sunday,13:00,TEN,CIN,30,24,-6,Paul Brown Stadium,Home,outdoors,grass,2002102703
+106,2002_08_SEA_DAL,2002,REG,8,2002-10-27,Sunday,13:00,SEA,DAL,17,14,-3,Texas Stadium,Home,outdoors,astroturf,2002102712
+107,2002_08_OAK_KC,2002,REG,8,2002-10-27,Sunday,13:00,OAK,KC,10,20,10,Arrowhead Stadium,Home,outdoors,grass,2002102708
+108,2002_08_CHI_MIN,2002,REG,8,2002-10-27,Sunday,13:00,CHI,MIN,7,25,18,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002102702
+109,2002_08_ATL_NO,2002,REG,8,2002-10-27,Sunday,13:00,ATL,NO,37,35,-2,Louisiana Superdome,Home,dome,astroturf,2002102700
+110,2002_08_CLE_NYJ,2002,REG,8,2002-10-27,Sunday,13:00,CLE,NYJ,24,21,-3,Giants Stadium,Home,outdoors,grass,2002102704
+111,2002_08_ARI_SF,2002,REG,8,2002-10-27,Sunday,16:05,ARI,SF,28,38,10,3Com Park,Home,outdoors,grass,2002102705
+112,2002_08_HOU_JAX,2002,REG,8,2002-10-27,Sunday,16:15,HOU,JAX,21,19,-2,Alltel Stadium,Home,outdoors,grass,2002102709
+113,2002_08_DEN_NE,2002,REG,8,2002-10-27,Sunday,16:15,DEN,NE,24,16,-8,Gillette Stadium,Home,outdoors,grass,2002102707
+114,2002_08_IND_WAS,2002,REG,8,2002-10-27,Sunday,20:30,IND,WAS,21,26,5,FedExField,Home,outdoors,grass,2002102711
+115,2002_08_NYG_PHI,2002,REG,8,2002-10-28,Monday,09:00,NYG,PHI,3,17,14,Veterans Stadium,Home,outdoors,fieldturf,2002102800
+116,2002_09_BAL_ATL,2002,REG,9,2002-11-03,Sunday,13:00,BAL,ATL,17,20,3,Georgia Dome,Home,dome,astroturf,2002110300
+117,2002_09_NE_BUF,2002,REG,9,2002-11-03,Sunday,13:00,NE,BUF,38,7,-31,Ralph Wilson Stadium,Home,outdoors,astroturf,2002110308
+118,2002_09_PHI_CHI,2002,REG,9,2002-11-03,Sunday,13:00,PHI,CHI,19,13,-6,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002110310
+119,2002_09_PIT_CLE,2002,REG,9,2002-11-03,Sunday,13:00,PIT,CLE,23,20,-3,Cleveland Browns Stadium,Home,outdoors,grass,2002110312
+120,2002_09_DAL_DET,2002,REG,9,2002-11-03,Sunday,13:00,DAL,DET,7,9,2,Ford Field,Home,dome,fieldturf,2002110304
+121,2002_09_CIN_HOU,2002,REG,9,2002-11-03,Sunday,13:00,CIN,HOU,38,3,-35,Reliant Stadium,Home,closed,grass,2002110302
+122,2002_09_TEN_IND,2002,REG,9,2002-11-03,Sunday,13:00,TEN,IND,23,15,-8,RCA Dome,Home,dome,astroturf,2002110301
+123,2002_09_MIN_TB,2002,REG,9,2002-11-03,Sunday,13:00,MIN,TB,24,38,14,Raymond James Stadium,Home,outdoors,grass,2002110306
+124,2002_09_NYJ_SD,2002,REG,9,2002-11-03,Sunday,16:05,NYJ,SD,44,13,-31,Qualcomm Stadium,Home,outdoors,grass,2002110303
+125,2002_09_STL_ARI,2002,REG,9,2002-11-03,Sunday,16:15,STL,ARI,27,14,-13,Sun Devil Stadium,Home,outdoors,grass,2002110307
+126,2002_09_SF_OAK,2002,REG,9,2002-11-03,Sunday,16:15,SF,OAK,23,20,-3,Network Associates Coliseum,Home,outdoors,grass,2002110305
+127,2002_09_WAS_SEA,2002,REG,9,2002-11-03,Sunday,16:15,WAS,SEA,14,3,-11,Seahawks Stadium,Home,outdoors,fieldturf,2002110309
+128,2002_09_JAX_NYG,2002,REG,9,2002-11-03,Sunday,20:30,JAX,NYG,17,24,7,Giants Stadium,Home,outdoors,grass,2002110311
+129,2002_09_MIA_GB,2002,REG,9,2002-11-04,Monday,09:00,MIA,GB,10,24,14,Lambeau Field,Home,outdoors,grass,2002110400
+130,2002_10_CIN_BAL,2002,REG,10,2002-11-10,Sunday,13:00,CIN,BAL,27,38,11,Ravens Stadium,Home,outdoors,grass,2002111002
+131,2002_10_NO_CAR,2002,REG,10,2002-11-10,Sunday,13:00,NO,CAR,34,24,-10,Ericsson Stadium,Home,outdoors,grass,2002111010
+132,2002_10_DET_GB,2002,REG,10,2002-11-10,Sunday,13:00,DET,GB,14,40,26,Lambeau Field,Home,outdoors,grass,2002111004
+133,2002_10_NYG_MIN,2002,REG,10,2002-11-10,Sunday,13:00,NYG,MIN,27,20,-7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002111012
+134,2002_10_IND_PHI,2002,REG,10,2002-11-10,Sunday,13:00,IND,PHI,35,13,-22,Veterans Stadium,Home,outdoors,fieldturf,2002111008
+135,2002_10_ATL_PIT,2002,REG,10,2002-11-10,Sunday,13:00,ATL,PIT,34,34,0,Heinz Field,Home,outdoors,grass,2002111000
+136,2002_10_SD_STL,2002,REG,10,2002-11-10,Sunday,13:00,SD,STL,24,28,4,Edward Jones Dome,Home,dome,astroturf,2002111001
+137,2002_10_HOU_TEN,2002,REG,10,2002-11-10,Sunday,13:00,HOU,TEN,10,17,7,The Coliseum,Home,outdoors,grass,2002111006
+138,2002_10_SEA_ARI,2002,REG,10,2002-11-10,Sunday,16:05,SEA,ARI,27,6,-21,Sun Devil Stadium,Home,outdoors,grass,2002111003
+139,2002_10_WAS_JAX,2002,REG,10,2002-11-10,Sunday,16:05,WAS,JAX,7,26,19,Alltel Stadium,Home,outdoors,grass,2002111005
+140,2002_10_NE_CHI,2002,REG,10,2002-11-10,Sunday,16:15,NE,CHI,33,30,-3,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002111009
+141,2002_10_KC_SF,2002,REG,10,2002-11-10,Sunday,16:15,KC,SF,13,17,4,3Com Park,Home,outdoors,grass,2002111007
+142,2002_10_MIA_NYJ,2002,REG,10,2002-11-10,Sunday,20:30,MIA,NYJ,10,13,3,Giants Stadium,Home,outdoors,grass,2002111011
+143,2002_10_OAK_DEN,2002,REG,10,2002-11-11,Monday,09:00,OAK,DEN,34,10,-24,Invesco Field at Mile High,Home,outdoors,grass,2002111100
+144,2002_11_NO_ATL,2002,REG,11,2002-11-17,Sunday,13:00,NO,ATL,17,24,7,Georgia Dome,Home,dome,astroturf,2002111712
+145,2002_11_CLE_CIN,2002,REG,11,2002-11-17,Sunday,13:00,CLE,CIN,27,20,-7,Paul Brown Stadium,Home,outdoors,grass,2002111706
+146,2002_11_JAX_HOU,2002,REG,11,2002-11-17,Sunday,13:00,JAX,HOU,24,21,-3,Reliant Stadium,Home,open,grass,2002111711
+147,2002_11_DAL_IND,2002,REG,11,2002-11-17,Sunday,13:00,DAL,IND,3,20,17,RCA Dome,Home,dome,astroturf,2002111708
+148,2002_11_BUF_KC,2002,REG,11,2002-11-17,Sunday,13:00,BUF,KC,16,17,1,Arrowhead Stadium,Home,outdoors,grass,2002111704
+149,2002_11_GB_MIN,2002,REG,11,2002-11-17,Sunday,13:00,GB,MIN,21,31,10,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002111710
+150,2002_11_WAS_NYG,2002,REG,11,2002-11-17,Sunday,13:00,WAS,NYG,17,19,2,Giants Stadium,Home,outdoors,grass,2002111703
+151,2002_11_ARI_PHI,2002,REG,11,2002-11-17,Sunday,13:00,ARI,PHI,14,38,24,Veterans Stadium,Home,outdoors,fieldturf,2002111700
+152,2002_11_PIT_TEN,2002,REG,11,2002-11-17,Sunday,13:00,PIT,TEN,23,31,8,The Coliseum,Home,outdoors,grass,2002111701
+153,2002_11_SF_SD,2002,REG,11,2002-11-17,Sunday,16:05,SF,SD,17,20,3,Qualcomm Stadium,Home,outdoors,grass,2002111707
+154,2002_11_CAR_TB,2002,REG,11,2002-11-17,Sunday,16:05,CAR,TB,10,23,13,Raymond James Stadium,Home,outdoors,grass,2002111705
+155,2002_11_NYJ_DET,2002,REG,11,2002-11-17,Sunday,16:15,NYJ,DET,31,14,-17,Ford Field,Home,dome,fieldturf,2002111713
+156,2002_11_BAL_MIA,2002,REG,11,2002-11-17,Sunday,16:15,BAL,MIA,7,26,19,Pro Player Stadium,Home,outdoors,grass,2002111702
+157,2002_11_DEN_SEA,2002,REG,11,2002-11-17,Sunday,16:15,DEN,SEA,31,9,-22,Seahawks Stadium,Home,outdoors,fieldturf,2002111709
+158,2002_11_NE_OAK,2002,REG,11,2002-11-17,Sunday,20:30,NE,OAK,20,27,7,Network Associates Coliseum,Home,outdoors,grass,2002111714
+159,2002_11_CHI_STL,2002,REG,11,2002-11-18,Monday,09:00,CHI,STL,16,21,5,Edward Jones Dome,Home,dome,astroturf,2002111800
+160,2002_12_TEN_BAL,2002,REG,12,2002-11-24,Sunday,13:00,TEN,BAL,12,13,1,Ravens Stadium,Home,outdoors,grass,2002112403
+161,2002_12_ATL_CAR,2002,REG,12,2002-11-24,Sunday,13:00,ATL,CAR,41,0,-41,Ericsson Stadium,Home,outdoors,grass,2002112400
+162,2002_12_DET_CHI,2002,REG,12,2002-11-24,Sunday,13:00,DET,CHI,17,20,3,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002112407
+163,2002_12_JAX_DAL,2002,REG,12,2002-11-24,Sunday,13:00,JAX,DAL,19,21,2,Texas Stadium,Home,outdoors,astroturf,2002112411
+164,2002_12_SD_MIA,2002,REG,12,2002-11-24,Sunday,13:00,SD,MIA,3,30,27,Pro Player Stadium,Home,outdoors,grass,2002112401
+165,2002_12_MIN_NE,2002,REG,12,2002-11-24,Sunday,13:00,MIN,NE,17,24,7,Gillette Stadium,Home,outdoors,grass,2002112413
+166,2002_12_CLE_NO,2002,REG,12,2002-11-24,Sunday,13:00,CLE,NO,24,15,-9,Louisiana Superdome,Home,dome,astroturf,2002112406
+167,2002_12_BUF_NYJ,2002,REG,12,2002-11-24,Sunday,13:00,BUF,NYJ,13,31,18,Giants Stadium,Home,outdoors,grass,2002112402
+168,2002_12_CIN_PIT,2002,REG,12,2002-11-24,Sunday,13:00,CIN,PIT,21,29,8,Heinz Field,Home,outdoors,grass,2002112404
+169,2002_12_STL_WAS,2002,REG,12,2002-11-24,Sunday,13:00,STL,WAS,17,20,3,FedExField,Home,outdoors,grass,2002112410
+170,2002_12_OAK_ARI,2002,REG,12,2002-11-24,Sunday,16:05,OAK,ARI,41,20,-21,Sun Devil Stadium,Home,outdoors,grass,2002112414
+171,2002_12_KC_SEA,2002,REG,12,2002-11-24,Sunday,16:05,KC,SEA,32,39,7,Seahawks Stadium,Home,outdoors,fieldturf,2002112405
+172,2002_12_NYG_HOU,2002,REG,12,2002-11-24,Sunday,16:15,NYG,HOU,14,16,2,Reliant Stadium,Home,open,grass,2002112408
+173,2002_12_GB_TB,2002,REG,12,2002-11-24,Sunday,16:15,GB,TB,7,21,14,Raymond James Stadium,Home,outdoors,grass,2002112409
+174,2002_12_IND_DEN,2002,REG,12,2002-11-24,Sunday,20:30,IND,DEN,23,20,-3,Invesco Field at Mile High,Home,outdoors,grass,2002112412
+175,2002_12_PHI_SF,2002,REG,12,2002-11-25,Monday,09:00,PHI,SF,38,17,-21,3Com Park,Home,outdoors,grass,2002112500
+176,2002_13_NE_DET,2002,REG,13,2002-11-28,Thursday,12:30,NE,DET,20,12,-8,Ford Field,Home,dome,fieldturf,2002112800
+177,2002_13_WAS_DAL,2002,REG,13,2002-11-28,Thursday,16:05,WAS,DAL,20,27,7,Texas Stadium,Home,outdoors,astroturf,2002112801
+178,2002_13_MIA_BUF,2002,REG,13,2002-12-01,Sunday,13:00,MIA,BUF,21,38,17,Ralph Wilson Stadium,Home,outdoors,astroturf,2002120110
+179,2002_13_BAL_CIN,2002,REG,13,2002-12-01,Sunday,13:00,BAL,CIN,27,23,-4,Paul Brown Stadium,Home,outdoors,grass,2002120104
+180,2002_13_CAR_CLE,2002,REG,13,2002-12-01,Sunday,13:00,CAR,CLE,13,6,-7,Cleveland Browns Stadium,Home,outdoors,grass,2002120106
+181,2002_13_CHI_GB,2002,REG,13,2002-12-01,Sunday,13:00,CHI,GB,20,30,10,Lambeau Field,Home,outdoors,grass,2002120108
+182,2002_13_PIT_JAX,2002,REG,13,2002-12-01,Sunday,13:00,PIT,JAX,25,23,-2,Alltel Stadium,Home,outdoors,grass,2002120101
+183,2002_13_ARI_KC,2002,REG,13,2002-12-01,Sunday,13:00,ARI,KC,0,49,49,Arrowhead Stadium,Home,outdoors,grass,2002120100
+184,2002_13_ATL_MIN,2002,REG,13,2002-12-01,Sunday,13:00,ATL,MIN,30,24,-6,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002120102
+185,2002_13_TEN_NYG,2002,REG,13,2002-12-01,Sunday,13:00,TEN,NYG,32,29,-3,Giants Stadium,Home,outdoors,grass,2002120103
+186,2002_13_HOU_IND,2002,REG,13,2002-12-01,Sunday,16:05,HOU,IND,3,19,16,RCA Dome,Home,dome,astroturf,2002120107
+187,2002_13_DEN_SD,2002,REG,13,2002-12-01,Sunday,16:05,DEN,SD,27,30,3,Qualcomm Stadium,Home,outdoors,grass,2002120105
+188,2002_13_STL_PHI,2002,REG,13,2002-12-01,Sunday,16:15,STL,PHI,3,10,7,Veterans Stadium,Home,outdoors,fieldturf,2002120111
+189,2002_13_SEA_SF,2002,REG,13,2002-12-01,Sunday,16:15,SEA,SF,24,31,7,3Com Park,Home,outdoors,grass,2002120109
+190,2002_13_TB_NO,2002,REG,13,2002-12-01,Sunday,20:30,TB,NO,20,23,3,Louisiana Superdome,Home,dome,astroturf,2002120112
+191,2002_13_NYJ_OAK,2002,REG,13,2002-12-02,Monday,09:00,NYJ,OAK,20,26,6,Network Associates Coliseum,Home,outdoors,grass,2002120200
+192,2002_14_CIN_CAR,2002,REG,14,2002-12-08,Sunday,13:00,CIN,CAR,31,52,21,Ericsson Stadium,Home,outdoors,grass,2002120804
+193,2002_14_SF_DAL,2002,REG,14,2002-12-08,Sunday,13:00,SF,DAL,31,27,-4,Texas Stadium,Home,outdoors,astroturf,2002120814
+194,2002_14_CLE_JAX,2002,REG,14,2002-12-08,Sunday,13:00,CLE,JAX,21,20,-1,Alltel Stadium,Home,outdoors,grass,2002120806
+195,2002_14_STL_KC,2002,REG,14,2002-12-08,Sunday,13:00,STL,KC,10,49,39,Arrowhead Stadium,Home,outdoors,grass,2002120801
+196,2002_14_BUF_NE,2002,REG,14,2002-12-08,Sunday,13:00,BUF,NE,17,27,10,Gillette Stadium,Home,outdoors,grass,2002120802
+197,2002_14_HOU_PIT,2002,REG,14,2002-12-08,Sunday,13:00,HOU,PIT,24,6,-18,Heinz Field,Home,outdoors,grass,2002120808
+198,2002_14_ATL_TB,2002,REG,14,2002-12-08,Sunday,13:00,ATL,TB,10,34,24,Raymond James Stadium,Home,outdoors,grass,2002120800
+199,2002_14_IND_TEN,2002,REG,14,2002-12-08,Sunday,13:00,IND,TEN,17,27,10,The Coliseum,Home,outdoors,grass,2002120810
+200,2002_14_NYG_WAS,2002,REG,14,2002-12-08,Sunday,13:00,NYG,WAS,27,21,-6,FedExField,Home,outdoors,grass,2002120812
+201,2002_14_DET_ARI,2002,REG,14,2002-12-08,Sunday,16:05,DET,ARI,20,23,3,Sun Devil Stadium,Home,outdoors,grass,2002120803
+202,2002_14_NO_BAL,2002,REG,14,2002-12-08,Sunday,16:05,NO,BAL,37,25,-12,Ravens Stadium,Home,outdoors,grass,2002120805
+203,2002_14_PHI_SEA,2002,REG,14,2002-12-08,Sunday,16:05,PHI,SEA,27,20,-7,Seahawks Stadium,Home,outdoors,fieldturf,2002120807
+204,2002_14_DEN_NYJ,2002,REG,14,2002-12-08,Sunday,16:15,DEN,NYJ,13,19,6,Giants Stadium,Home,outdoors,grass,2002120809
+205,2002_14_OAK_SD,2002,REG,14,2002-12-08,Sunday,16:15,OAK,SD,27,7,-20,Qualcomm Stadium,Home,outdoors,grass,2002120811
+206,2002_14_MIN_GB,2002,REG,14,2002-12-08,Sunday,20:30,MIN,GB,22,26,4,Lambeau Field,Home,outdoors,grass,2002120813
+207,2002_14_CHI_MIA,2002,REG,14,2002-12-09,Monday,09:00,CHI,MIA,9,27,18,Pro Player Stadium,Home,outdoors,grass,2002120900
+208,2002_15_SEA_ATL,2002,REG,15,2002-12-15,Sunday,13:00,SEA,ATL,30,24,-6,Georgia Dome,Home,dome,astroturf,2002121501
+209,2002_15_SD_BUF,2002,REG,15,2002-12-15,Sunday,13:00,SD,BUF,13,20,7,Ralph Wilson Stadium,Home,outdoors,astroturf,2002121514
+210,2002_15_NYJ_CHI,2002,REG,15,2002-12-15,Sunday,13:00,NYJ,CHI,13,20,7,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002121510
+211,2002_15_JAX_CIN,2002,REG,15,2002-12-15,Sunday,13:00,JAX,CIN,29,15,-14,Paul Brown Stadium,Home,outdoors,grass,2002121506
+212,2002_15_IND_CLE,2002,REG,15,2002-12-15,Sunday,13:00,IND,CLE,28,23,-5,Cleveland Browns Stadium,Home,outdoors,grass,2002121504
+213,2002_15_TB_DET,2002,REG,15,2002-12-15,Sunday,13:00,TB,DET,23,20,-3,Ford Field,Home,dome,fieldturf,2002121503
+214,2002_15_BAL_HOU,2002,REG,15,2002-12-15,Sunday,13:00,BAL,HOU,23,19,-4,Reliant Stadium,Home,open,grass,2002121500
+215,2002_15_OAK_MIA,2002,REG,15,2002-12-15,Sunday,13:00,OAK,MIA,17,23,6,Pro Player Stadium,Home,outdoors,grass,2002121512
+216,2002_15_MIN_NO,2002,REG,15,2002-12-15,Sunday,13:00,MIN,NO,32,31,-1,Louisiana Superdome,Home,dome,astroturf,2002121508
+217,2002_15_WAS_PHI,2002,REG,15,2002-12-15,Sunday,13:00,WAS,PHI,21,34,13,Veterans Stadium,Home,outdoors,fieldturf,2002121505
+218,2002_15_CAR_PIT,2002,REG,15,2002-12-15,Sunday,13:00,CAR,PIT,14,30,16,Heinz Field,Home,outdoors,grass,2002121502
+219,2002_15_KC_DEN,2002,REG,15,2002-12-15,Sunday,16:05,KC,DEN,24,31,7,Invesco Field at Mile High,Home,outdoors,grass,2002121507
+220,2002_15_DAL_NYG,2002,REG,15,2002-12-15,Sunday,16:15,DAL,NYG,7,37,30,Giants Stadium,Home,outdoors,grass,2002121509
+221,2002_15_GB_SF,2002,REG,15,2002-12-15,Sunday,16:15,GB,SF,20,14,-6,3Com Park,Home,outdoors,grass,2002121511
+222,2002_15_ARI_STL,2002,REG,15,2002-12-15,Sunday,20:30,ARI,STL,28,30,2,Edward Jones Dome,Home,dome,astroturf,2002121513
+223,2002_15_NE_TEN,2002,REG,15,2002-12-16,Monday,09:00,NE,TEN,7,24,17,The Coliseum,Home,outdoors,grass,2002121600
+224,2002_16_MIA_MIN,2002,REG,16,2002-12-21,Saturday,13:30,MIA,MIN,17,20,3,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2002122100
+225,2002_16_SF_ARI,2002,REG,16,2002-12-21,Saturday,17:00,SF,ARI,17,14,-3,Sun Devil Stadium,Home,outdoors,grass,2002122101
+226,2002_16_PHI_DAL,2002,REG,16,2002-12-21,Saturday,20:30,PHI,DAL,27,3,-24,Texas Stadium,Home,outdoors,astroturf,2002122102
+227,2002_16_DET_ATL,2002,REG,16,2002-12-22,Sunday,13:00,DET,ATL,15,36,21,Georgia Dome,Home,dome,astroturf,2002122204
+228,2002_16_CHI_CAR,2002,REG,16,2002-12-22,Sunday,13:00,CHI,CAR,14,24,10,Ericsson Stadium,Home,outdoors,grass,2002122202
+229,2002_16_NO_CIN,2002,REG,16,2002-12-22,Sunday,13:00,NO,CIN,13,20,7,Paul Brown Stadium,Home,outdoors,grass,2002122208
+230,2002_16_BUF_GB,2002,REG,16,2002-12-22,Sunday,13:00,BUF,GB,0,10,10,Lambeau Field,Home,outdoors,grass,2002122200
+231,2002_16_NYG_IND,2002,REG,16,2002-12-22,Sunday,13:00,NYG,IND,44,27,-17,RCA Dome,Home,dome,astroturf,2002122210
+232,2002_16_TEN_JAX,2002,REG,16,2002-12-22,Sunday,13:00,TEN,JAX,28,10,-18,Alltel Stadium,Home,outdoors,grass,2002122203
+233,2002_16_SD_KC,2002,REG,16,2002-12-22,Sunday,13:00,SD,KC,22,24,2,Arrowhead Stadium,Home,outdoors,grass,2002122201
+234,2002_16_HOU_WAS,2002,REG,16,2002-12-22,Sunday,13:00,HOU,WAS,10,26,16,FedExField,Home,outdoors,grass,2002122206
+235,2002_16_STL_SEA,2002,REG,16,2002-12-22,Sunday,16:05,STL,SEA,10,30,20,Seahawks Stadium,Home,outdoors,fieldturf,2002122205
+236,2002_16_CLE_BAL,2002,REG,16,2002-12-22,Sunday,16:15,CLE,BAL,14,13,-1,Ravens Stadium,Home,outdoors,grass,2002122207
+237,2002_16_DEN_OAK,2002,REG,16,2002-12-22,Sunday,16:15,DEN,OAK,16,28,12,Network Associates Coliseum,Home,outdoors,grass,2002122209
+238,2002_16_NYJ_NE,2002,REG,16,2002-12-22,Sunday,20:30,NYJ,NE,30,17,-13,Gillette Stadium,Home,outdoors,grass,2002122211
+239,2002_16_PIT_TB,2002,REG,16,2002-12-23,Monday,09:00,PIT,TB,17,7,-10,Raymond James Stadium,Home,outdoors,grass,2002122300
+240,2002_17_PHI_NYG,2002,REG,17,2002-12-28,Saturday,13:30,PHI,NYG,7,10,3,Giants Stadium,Home,outdoors,grass,2002122800
+241,2002_17_KC_OAK,2002,REG,17,2002-12-28,Saturday,17:00,KC,OAK,0,24,24,Network Associates Coliseum,Home,outdoors,grass,2002122801
+242,2002_17_CIN_BUF,2002,REG,17,2002-12-29,Sunday,13:00,CIN,BUF,9,27,18,Ralph Wilson Stadium,Home,outdoors,astroturf,2002122906
+243,2002_17_ATL_CLE,2002,REG,17,2002-12-29,Sunday,13:00,ATL,CLE,16,24,8,Cleveland Browns Stadium,Home,outdoors,grass,2002122900
+244,2002_17_MIN_DET,2002,REG,17,2002-12-29,Sunday,13:00,MIN,DET,38,36,-2,Ford Field,Home,dome,fieldturf,2002122912
+245,2002_17_TEN_HOU,2002,REG,17,2002-12-29,Sunday,13:00,TEN,HOU,13,3,-10,Reliant Stadium,Home,open,grass,2002122901
+246,2002_17_MIA_NE,2002,REG,17,2002-12-29,Sunday,13:00,MIA,NE,24,27,3,Gillette Stadium,Home,outdoors,grass,2002122910
+247,2002_17_CAR_NO,2002,REG,17,2002-12-29,Sunday,13:00,CAR,NO,10,6,-4,Louisiana Superdome,Home,dome,astroturf,2002122904
+248,2002_17_BAL_PIT,2002,REG,17,2002-12-29,Sunday,13:00,BAL,PIT,31,34,3,Heinz Field,Home,outdoors,grass,2002122902
+249,2002_17_DAL_WAS,2002,REG,17,2002-12-29,Sunday,13:00,DAL,WAS,14,20,6,FedExField,Home,outdoors,grass,2002122908
+250,2002_17_JAX_IND,2002,REG,17,2002-12-29,Sunday,16:05,JAX,IND,13,20,7,RCA Dome,Home,dome,astroturf,2002122903
+251,2002_17_ARI_DEN,2002,REG,17,2002-12-29,Sunday,16:15,ARI,DEN,7,37,30,Invesco Field at Mile High,Home,outdoors,grass,2002122905
+252,2002_17_GB_NYJ,2002,REG,17,2002-12-29,Sunday,16:15,GB,NYJ,17,42,25,Giants Stadium,Home,outdoors,grass,2002122907
+253,2002_17_SEA_SD,2002,REG,17,2002-12-29,Sunday,16:15,SEA,SD,31,28,-3,Qualcomm Stadium,Home,outdoors,grass,2002122909
+254,2002_17_TB_CHI,2002,REG,17,2002-12-29,Sunday,20:30,TB,CHI,15,0,-15,Memorial Stadium (Champaign),Home,outdoors,astroplay,2002122911
+255,2002_17_SF_STL,2002,REG,17,2002-12-30,Monday,09:00,SF,STL,20,31,11,Edward Jones Dome,Home,dome,astroturf,2002123000
+256,2002_18_IND_NYJ,2002,WC,18,2003-01-04,Saturday,16:30,IND,NYJ,0,41,41,Giants Stadium,Home,outdoors,grass,2003010400
+257,2002_18_ATL_GB,2002,WC,18,2003-01-04,Saturday,20:00,ATL,GB,27,7,-20,Lambeau Field,Home,outdoors,grass,2003010401
+258,2002_18_CLE_PIT,2002,WC,18,2003-01-05,Sunday,13:00,CLE,PIT,33,36,3,Heinz Field,Home,outdoors,grass,2003010500
+259,2002_18_NYG_SF,2002,WC,18,2003-01-05,Sunday,16:30,NYG,SF,38,39,1,3Com Park,Home,outdoors,grass,2003010501
+260,2002_19_PIT_TEN,2002,DIV,19,2003-01-11,Saturday,16:30,PIT,TEN,31,34,3,The Coliseum,Home,outdoors,grass,2003011100
+261,2002_19_ATL_PHI,2002,DIV,19,2003-01-11,Saturday,20:00,ATL,PHI,6,20,14,Veterans Stadium,Home,outdoors,fieldturf,2003011101
+262,2002_19_SF_TB,2002,DIV,19,2003-01-12,Sunday,13:00,SF,TB,6,31,25,Raymond James Stadium,Home,outdoors,grass,2003011201
+263,2002_19_NYJ_OAK,2002,DIV,19,2003-01-12,Sunday,16:30,NYJ,OAK,10,30,20,Network Associates Coliseum,Home,outdoors,grass,2003011200
+264,2002_20_TB_PHI,2002,CON,20,2003-01-19,Sunday,15:00,TB,PHI,27,10,-17,Veterans Stadium,Home,outdoors,fieldturf,2003011900
+265,2002_20_TEN_OAK,2002,CON,20,2003-01-19,Sunday,18:30,TEN,OAK,24,41,17,Network Associates Coliseum,Home,outdoors,grass,2003011901
+266,2002_21_OAK_TB,2002,SB,21,2003-01-26,Sunday,18:18,OAK,TB,21,48,27,Qualcomm Stadium,Neutral,outdoors,grass,2003012600
