@@ -137,6 +137,13 @@ def import_rosters(years, columns=None):
     return rosters
 
 
+def import_team_desc():
+    
+    df = pandas.read_csv(r'https://github.com/nflverse/nflfastR-data/raw/master/teams_colors_logos.csv')
+    
+    return df
+
+
 def clean_nfl_data(df):
 
     name_repl = {
