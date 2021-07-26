@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2015_01_PIT_NE,2015,REG,1,2015-09-10,Thursday,20:30,PIT,NE,21,28,7,Gillette Stadium,Home,outdoors,fieldturf,2015091000
+1,2015_01_IND_BUF,2015,REG,1,2015-09-13,Sunday,13:00,IND,BUF,14,27,13,Ralph Wilson Stadium,Home,outdoors,a_turf,2015091304
+2,2015_01_GB_CHI,2015,REG,1,2015-09-13,Sunday,13:00,GB,CHI,31,23,-8,Soldier Field,Home,outdoors,grass,2015091300
+3,2015_01_KC_HOU,2015,REG,1,2015-09-13,Sunday,13:00,KC,HOU,27,20,-7,NRG Stadium,Home,closed,grass,2015091306
+4,2015_01_CAR_JAX,2015,REG,1,2015-09-13,Sunday,13:00,CAR,JAX,20,9,-11,EverBank Field,Home,outdoors,grass,2015091302
+5,2015_01_CLE_NYJ,2015,REG,1,2015-09-13,Sunday,13:00,CLE,NYJ,10,31,21,MetLife Stadium,Home,outdoors,fieldturf,2015091305
+6,2015_01_SEA_STL,2015,REG,1,2015-09-13,Sunday,13:00,SEA,STL,31,34,3,Edward Jones Dome,Home,dome,astroplay,2015091301
+7,2015_01_MIA_WAS,2015,REG,1,2015-09-13,Sunday,13:00,MIA,WAS,17,10,-7,FedExField,Home,outdoors,grass,2015091303
+8,2015_01_NO_ARI,2015,REG,1,2015-09-13,Sunday,16:05,NO,ARI,19,31,12,University of Phoenix Stadium,Home,closed,grass,2015091307
+9,2015_01_DET_SD,2015,REG,1,2015-09-13,Sunday,16:05,DET,SD,28,33,5,Qualcomm Stadium,Home,outdoors,grass,2015091308
+10,2015_01_BAL_DEN,2015,REG,1,2015-09-13,Sunday,16:25,BAL,DEN,13,19,6,Sports Authority Field at Mile High,Home,outdoors,grass,2015091309
+11,2015_01_CIN_OAK,2015,REG,1,2015-09-13,Sunday,16:25,CIN,OAK,33,13,-20,O.co Coliseum,Home,outdoors,grass,2015091310
+12,2015_01_TEN_TB,2015,REG,1,2015-09-13,Sunday,16:25,TEN,TB,42,14,-28,Raymond James Stadium,Home,outdoors,grass,2015091311
+13,2015_01_NYG_DAL,2015,REG,1,2015-09-13,Sunday,20:30,NYG,DAL,26,27,1,AT&T Stadium,Home,closed,matrixturf,2015091312
+14,2015_01_PHI_ATL,2015,REG,1,2015-09-14,Monday,19:10,PHI,ATL,24,26,2,Georgia Dome,Home,dome,fieldturf,2015091400
+15,2015_01_MIN_SF,2015,REG,1,2015-09-14,Monday,22:20,MIN,SF,3,20,17,Levi's Stadium,Home,outdoors,grass,2015091401
+16,2015_02_DEN_KC,2015,REG,2,2015-09-17,Thursday,20:25,DEN,KC,31,24,-7,Arrowhead Stadium,Home,outdoors,grass,2015091700
+17,2015_02_NE_BUF,2015,REG,2,2015-09-20,Sunday,13:00,NE,BUF,40,32,-8,Ralph Wilson Stadium,Home,outdoors,a_turf,2015092001
+18,2015_02_HOU_CAR,2015,REG,2,2015-09-20,Sunday,13:00,HOU,CAR,17,24,7,Bank of America Stadium,Home,outdoors,grass,2015092000
+19,2015_02_ARI_CHI,2015,REG,2,2015-09-20,Sunday,13:00,ARI,CHI,48,23,-25,Soldier Field,Home,outdoors,grass,2015092006
+20,2015_02_SD_CIN,2015,REG,2,2015-09-20,Sunday,13:00,SD,CIN,19,24,5,Paul Brown Stadium,Home,outdoors,fieldturf,2015092002
+21,2015_02_TEN_CLE,2015,REG,2,2015-09-20,Sunday,13:00,TEN,CLE,14,28,14,FirstEnergy Stadium,Home,outdoors,grass,2015092003
+22,2015_02_DET_MIN,2015,REG,2,2015-09-20,Sunday,13:00,DET,MIN,16,26,10,TCF Bank Stadium,Home,outdoors,fieldturf,2015092007
+23,2015_02_TB_NO,2015,REG,2,2015-09-20,Sunday,13:00,TB,NO,26,19,-7,Mercedes-Benz Superdome,Home,dome,sportturf,2015092008
+24,2015_02_ATL_NYG,2015,REG,2,2015-09-20,Sunday,13:00,ATL,NYG,24,20,-4,MetLife Stadium,Home,outdoors,fieldturf,2015092004
+25,2015_02_SF_PIT,2015,REG,2,2015-09-20,Sunday,13:00,SF,PIT,18,43,25,Heinz Field,Home,outdoors,grass,2015092009
+26,2015_02_STL_WAS,2015,REG,2,2015-09-20,Sunday,13:00,STL,WAS,10,24,14,FedExField,Home,outdoors,grass,2015092005
+27,2015_02_MIA_JAX,2015,REG,2,2015-09-20,Sunday,16:05,MIA,JAX,20,23,3,EverBank Field,Home,outdoors,grass,2015092011
+28,2015_02_BAL_OAK,2015,REG,2,2015-09-20,Sunday,16:05,BAL,OAK,33,37,4,O.co Coliseum,Home,outdoors,grass,2015092010
+29,2015_02_DAL_PHI,2015,REG,2,2015-09-20,Sunday,16:25,DAL,PHI,20,10,-10,Lincoln Financial Field,Home,outdoors,grass,2015092012
+30,2015_02_SEA_GB,2015,REG,2,2015-09-20,Sunday,20:30,SEA,GB,17,27,10,Lambeau Field,Home,outdoors,grass,2015092013
+31,2015_02_NYJ_IND,2015,REG,2,2015-09-21,Monday,20:30,NYJ,IND,20,7,-13,Lucas Oil Stadium,Home,closed,fieldturf,2015092100
+32,2015_03_WAS_NYG,2015,REG,3,2015-09-24,Thursday,20:25,WAS,NYG,21,32,11,MetLife Stadium,Home,outdoors,fieldturf,2015092400
+33,2015_03_CIN_BAL,2015,REG,3,2015-09-27,Sunday,13:00,CIN,BAL,28,24,-4,M&T Bank Stadium,Home,outdoors,sportturf,2015092707
+34,2015_03_NO_CAR,2015,REG,3,2015-09-27,Sunday,13:00,NO,CAR,22,27,5,Bank of America Stadium,Home,outdoors,grass,2015092701
+35,2015_03_OAK_CLE,2015,REG,3,2015-09-27,Sunday,13:00,OAK,CLE,27,20,-7,FirstEnergy Stadium,Home,outdoors,grass,2015092708
+36,2015_03_ATL_DAL,2015,REG,3,2015-09-27,Sunday,13:00,ATL,DAL,39,28,-11,AT&T Stadium,Home,closed,matrixturf,2015092700
+37,2015_03_TB_HOU,2015,REG,3,2015-09-27,Sunday,13:00,TB,HOU,9,19,10,NRG Stadium,Home,closed,fieldturf,2015092703
+38,2015_03_SD_MIN,2015,REG,3,2015-09-27,Sunday,13:00,SD,MIN,14,31,17,TCF Bank Stadium,Home,outdoors,fieldturf,2015092704
+39,2015_03_JAX_NE,2015,REG,3,2015-09-27,Sunday,13:00,JAX,NE,17,51,34,Gillette Stadium,Home,outdoors,fieldturf,2015092706
+40,2015_03_PHI_NYJ,2015,REG,3,2015-09-27,Sunday,13:00,PHI,NYJ,24,17,-7,MetLife Stadium,Home,outdoors,fieldturf,2015092702
+41,2015_03_PIT_STL,2015,REG,3,2015-09-27,Sunday,13:00,PIT,STL,12,6,-6,Edward Jones Dome,Home,dome,astroplay,2015092705
+42,2015_03_IND_TEN,2015,REG,3,2015-09-27,Sunday,13:00,IND,TEN,35,33,-2,Nissan Stadium,Home,outdoors,grass,2015092709
+43,2015_03_SF_ARI,2015,REG,3,2015-09-27,Sunday,16:05,SF,ARI,7,47,40,University of Phoenix Stadium,Home,closed,grass,2015092710
+44,2015_03_BUF_MIA,2015,REG,3,2015-09-27,Sunday,16:25,BUF,MIA,41,14,-27,Sun Life Stadium,Home,outdoors,grass,2015092712
+45,2015_03_CHI_SEA,2015,REG,3,2015-09-27,Sunday,16:25,CHI,SEA,0,26,26,CenturyLink Field,Home,outdoors,fieldturf,2015092711
+46,2015_03_DEN_DET,2015,REG,3,2015-09-27,Sunday,20:30,DEN,DET,24,12,-12,Ford Field,Home,dome,fieldturf,2015092713
+47,2015_03_KC_GB,2015,REG,3,2015-09-28,Monday,20:30,KC,GB,28,38,10,Lambeau Field,Home,outdoors,grass,2015092800
+48,2015_04_BAL_PIT,2015,REG,4,2015-10-01,Thursday,20:25,BAL,PIT,23,20,-3,Heinz Field,Home,outdoors,grass,2015100100
+49,2015_04_NYJ_MIA,2015,REG,4,2015-10-04,Sunday,09:30,NYJ,MIA,27,14,-13,Wembley Stadium,Neutral,outdoors,grass,2015100400
+50,2015_04_HOU_ATL,2015,REG,4,2015-10-04,Sunday,13:00,HOU,ATL,21,48,27,Georgia Dome,Home,dome,fieldturf,2015100402
+51,2015_04_NYG_BUF,2015,REG,4,2015-10-04,Sunday,13:00,NYG,BUF,24,10,-14,Ralph Wilson Stadium,Home,outdoors,a_turf,2015100407
+52,2015_04_OAK_CHI,2015,REG,4,2015-10-04,Sunday,13:00,OAK,CHI,20,22,2,Soldier Field,Home,outdoors,grass,2015100401
+53,2015_04_KC_CIN,2015,REG,4,2015-10-04,Sunday,13:00,KC,CIN,21,36,15,Paul Brown Stadium,Home,outdoors,fieldturf,2015100403
+54,2015_04_JAX_IND,2015,REG,4,2015-10-04,Sunday,13:00,JAX,IND,13,16,3,Lucas Oil Stadium,Home,open,fieldturf,2015100404
+55,2015_04_CAR_TB,2015,REG,4,2015-10-04,Sunday,13:00,CAR,TB,37,23,-14,Raymond James Stadium,Home,outdoors,grass,2015100406
+56,2015_04_PHI_WAS,2015,REG,4,2015-10-04,Sunday,13:00,PHI,WAS,20,23,3,FedExField,Home,outdoors,grass,2015100405
+57,2015_04_CLE_SD,2015,REG,4,2015-10-04,Sunday,16:05,CLE,SD,27,30,3,Qualcomm Stadium,Home,outdoors,grass,2015100408
+58,2015_04_STL_ARI,2015,REG,4,2015-10-04,Sunday,16:25,STL,ARI,24,22,-2,University of Phoenix Stadium,Home,closed,grass,2015100410
+59,2015_04_MIN_DEN,2015,REG,4,2015-10-04,Sunday,16:25,MIN,DEN,20,23,3,Sports Authority Field at Mile High,Home,outdoors,grass,2015100411
+60,2015_04_GB_SF,2015,REG,4,2015-10-04,Sunday,16:25,GB,SF,17,3,-14,Levi's Stadium,Home,outdoors,grass,2015100409
+61,2015_04_DAL_NO,2015,REG,4,2015-10-04,Sunday,20:30,DAL,NO,20,26,6,Mercedes-Benz Superdome,Home,dome,sportturf,2015100412
+62,2015_04_DET_SEA,2015,REG,4,2015-10-05,Monday,20:30,DET,SEA,10,13,3,CenturyLink Field,Home,outdoors,fieldturf,2015100500
+63,2015_05_IND_HOU,2015,REG,5,2015-10-08,Thursday,20:25,IND,HOU,27,20,-7,NRG Stadium,Home,closed,fieldturf,2015100800
+64,2015_05_WAS_ATL,2015,REG,5,2015-10-11,Sunday,13:00,WAS,ATL,19,25,6,Georgia Dome,Home,dome,fieldturf,2015101103
+65,2015_05_CLE_BAL,2015,REG,5,2015-10-11,Sunday,13:00,CLE,BAL,33,30,-3,M&T Bank Stadium,Home,outdoors,sportturf,2015101105
+66,2015_05_SEA_CIN,2015,REG,5,2015-10-11,Sunday,13:00,SEA,CIN,24,27,3,Paul Brown Stadium,Home,outdoors,fieldturf,2015101102
+67,2015_05_STL_GB,2015,REG,5,2015-10-11,Sunday,13:00,STL,GB,10,24,14,Lambeau Field,Home,outdoors,grass,2015101107
+68,2015_05_CHI_KC,2015,REG,5,2015-10-11,Sunday,13:00,CHI,KC,18,17,-1,Arrowhead Stadium,Home,outdoors,grass,2015101101
+69,2015_05_NO_PHI,2015,REG,5,2015-10-11,Sunday,13:00,NO,PHI,17,39,22,Lincoln Financial Field,Home,outdoors,grass,2015101100
+70,2015_05_JAX_TB,2015,REG,5,2015-10-11,Sunday,13:00,JAX,TB,31,38,7,Raymond James Stadium,Home,outdoors,grass,2015101104
+71,2015_05_BUF_TEN,2015,REG,5,2015-10-11,Sunday,13:00,BUF,TEN,14,13,-1,Nissan Stadium,Home,outdoors,grass,2015101106
+72,2015_05_ARI_DET,2015,REG,5,2015-10-11,Sunday,16:05,ARI,DET,42,17,-25,Ford Field,Home,dome,fieldturf,2015101108
+73,2015_05_NE_DAL,2015,REG,5,2015-10-11,Sunday,16:25,NE,DAL,30,6,-24,AT&T Stadium,Home,closed,matrixturf,2015101109
+74,2015_05_DEN_OAK,2015,REG,5,2015-10-11,Sunday,16:25,DEN,OAK,16,10,-6,O.co Coliseum,Home,outdoors,grass,2015101110
+75,2015_05_SF_NYG,2015,REG,5,2015-10-11,Sunday,20:30,SF,NYG,27,30,3,MetLife Stadium,Home,outdoors,fieldturf,2015101111
+76,2015_05_PIT_SD,2015,REG,5,2015-10-12,Monday,20:30,PIT,SD,24,20,-4,Qualcomm Stadium,Home,outdoors,grass,2015101200
+77,2015_06_ATL_NO,2015,REG,6,2015-10-15,Thursday,20:25,ATL,NO,21,31,10,Mercedes-Benz Superdome,Home,dome,sportturf,2015101500
+78,2015_06_CIN_BUF,2015,REG,6,2015-10-18,Sunday,13:00,CIN,BUF,34,21,-13,Ralph Wilson Stadium,Home,outdoors,a_turf,2015101804
+79,2015_06_DEN_CLE,2015,REG,6,2015-10-18,Sunday,13:00,DEN,CLE,26,23,-3,FirstEnergy Stadium,Home,outdoors,grass,2015101805
+80,2015_06_CHI_DET,2015,REG,6,2015-10-18,Sunday,13:00,CHI,DET,34,37,3,Ford Field,Home,dome,fieldturf,2015101800
+81,2015_06_HOU_JAX,2015,REG,6,2015-10-18,Sunday,13:00,HOU,JAX,31,20,-11,EverBank Field,Home,outdoors,grass,2015101807
+82,2015_06_KC_MIN,2015,REG,6,2015-10-18,Sunday,13:00,KC,MIN,10,16,6,TCF Bank Stadium,Home,outdoors,fieldturf,2015101803
+83,2015_06_WAS_NYJ,2015,REG,6,2015-10-18,Sunday,13:00,WAS,NYJ,20,34,14,MetLife Stadium,Home,outdoors,fieldturf,2015101801
+84,2015_06_ARI_PIT,2015,REG,6,2015-10-18,Sunday,13:00,ARI,PIT,13,25,12,Heinz Field,Home,outdoors,grass,2015101802
+85,2015_06_MIA_TEN,2015,REG,6,2015-10-18,Sunday,13:00,MIA,TEN,38,10,-28,Nissan Stadium,Home,outdoors,grass,2015101806
+86,2015_06_CAR_SEA,2015,REG,6,2015-10-18,Sunday,16:05,CAR,SEA,27,23,-4,CenturyLink Field,Home,outdoors,fieldturf,2015101808
+87,2015_06_SD_GB,2015,REG,6,2015-10-18,Sunday,16:25,SD,GB,20,27,7,Lambeau Field,Home,outdoors,grass,2015101809
+88,2015_06_BAL_SF,2015,REG,6,2015-10-18,Sunday,16:25,BAL,SF,20,25,5,Levi's Stadium,Home,outdoors,grass,2015101810
+89,2015_06_NE_IND,2015,REG,6,2015-10-18,Sunday,20:30,NE,IND,34,27,-7,Lucas Oil Stadium,Home,closed,fieldturf,2015101811
+90,2015_06_NYG_PHI,2015,REG,6,2015-10-19,Monday,20:30,NYG,PHI,7,27,20,Lincoln Financial Field,Home,outdoors,grass,2015101900
+91,2015_07_SEA_SF,2015,REG,7,2015-10-22,Thursday,20:25,SEA,SF,20,3,-17,Levi's Stadium,Home,outdoors,grass,2015102200
+92,2015_07_BUF_JAX,2015,REG,7,2015-10-25,Sunday,09:30,BUF,JAX,31,34,3,Wembley Stadium,Neutral,outdoors,grass,2015102500
+93,2015_07_MIN_DET,2015,REG,7,2015-10-25,Sunday,13:00,MIN,DET,28,19,-9,Ford Field,Home,dome,fieldturf,2015102506
+94,2015_07_NO_IND,2015,REG,7,2015-10-25,Sunday,13:00,NO,IND,27,21,-6,Lucas Oil Stadium,Home,open,fieldturf,2015102507
+95,2015_07_PIT_KC,2015,REG,7,2015-10-25,Sunday,13:00,PIT,KC,13,23,10,Arrowhead Stadium,Home,outdoors,grass,2015102504
+96,2015_07_HOU_MIA,2015,REG,7,2015-10-25,Sunday,13:00,HOU,MIA,26,44,18,Sun Life Stadium,Home,outdoors,grass,2015102502
+97,2015_07_NYJ_NE,2015,REG,7,2015-10-25,Sunday,13:00,NYJ,NE,23,30,7,Gillette Stadium,Home,outdoors,fieldturf,2015102503
+98,2015_07_CLE_STL,2015,REG,7,2015-10-25,Sunday,13:00,CLE,STL,6,24,18,Edward Jones Dome,Home,dome,astroplay,2015102501
+99,2015_07_ATL_TEN,2015,REG,7,2015-10-25,Sunday,13:00,ATL,TEN,10,7,-3,Nissan Stadium,Home,outdoors,grass,2015102508
+100,2015_07_TB_WAS,2015,REG,7,2015-10-25,Sunday,13:00,TB,WAS,30,31,1,FedExField,Home,outdoors,grass,2015102505
+101,2015_07_OAK_SD,2015,REG,7,2015-10-25,Sunday,16:05,OAK,SD,37,29,-8,Qualcomm Stadium,Home,outdoors,grass,2015102509
+102,2015_07_DAL_NYG,2015,REG,7,2015-10-25,Sunday,16:25,DAL,NYG,20,27,7,MetLife Stadium,Home,outdoors,fieldturf,2015102510
+103,2015_07_PHI_CAR,2015,REG,7,2015-10-25,Sunday,20:30,PHI,CAR,16,27,11,Bank of America Stadium,Home,outdoors,grass,2015102511
+104,2015_07_BAL_ARI,2015,REG,7,2015-10-26,Monday,20:30,BAL,ARI,18,26,8,University of Phoenix Stadium,Home,closed,grass,2015102600
+105,2015_08_MIA_NE,2015,REG,8,2015-10-29,Thursday,20:25,MIA,NE,7,36,29,Gillette Stadium,Home,outdoors,fieldturf,2015102900
+106,2015_08_DET_KC,2015,REG,8,2015-11-01,Sunday,09:30,DET,KC,10,45,35,Wembley Stadium,Neutral,outdoors,grass,2015110100
+107,2015_08_TB_ATL,2015,REG,8,2015-11-01,Sunday,13:00,TB,ATL,23,20,-3,Georgia Dome,Home,dome,fieldturf,2015110105
+108,2015_08_SD_BAL,2015,REG,8,2015-11-01,Sunday,13:00,SD,BAL,26,29,3,M&T Bank Stadium,Home,outdoors,sportturf,2015110101
+109,2015_08_MIN_CHI,2015,REG,8,2015-11-01,Sunday,13:00,MIN,CHI,23,20,-3,Soldier Field,Home,outdoors,grass,2015110104
+110,2015_08_ARI_CLE,2015,REG,8,2015-11-01,Sunday,13:00,ARI,CLE,34,20,-14,FirstEnergy Stadium,Home,outdoors,grass,2015110108
+111,2015_08_TEN_HOU,2015,REG,8,2015-11-01,Sunday,13:00,TEN,HOU,6,20,14,NRG Stadium,Home,closed,fieldturf,2015110103
+112,2015_08_NYG_NO,2015,REG,8,2015-11-01,Sunday,13:00,NYG,NO,49,52,3,Mercedes-Benz Superdome,Home,dome,sportturf,2015110106
+113,2015_08_CIN_PIT,2015,REG,8,2015-11-01,Sunday,13:00,CIN,PIT,16,10,-6,Heinz Field,Home,outdoors,grass,2015110102
+114,2015_08_SF_STL,2015,REG,8,2015-11-01,Sunday,13:00,SF,STL,6,27,21,Edward Jones Dome,Home,dome,astroplay,2015110107
+115,2015_08_NYJ_OAK,2015,REG,8,2015-11-01,Sunday,16:05,NYJ,OAK,20,34,14,O.co Coliseum,Home,outdoors,grass,2015110109
+116,2015_08_SEA_DAL,2015,REG,8,2015-11-01,Sunday,16:25,SEA,DAL,13,12,-1,AT&T Stadium,Home,closed,matrixturf,2015110110
+117,2015_08_GB_DEN,2015,REG,8,2015-11-01,Sunday,20:30,GB,DEN,10,29,19,Sports Authority Field at Mile High,Home,outdoors,grass,2015110111
+118,2015_08_IND_CAR,2015,REG,8,2015-11-02,Monday,20:30,IND,CAR,26,29,3,Bank of America Stadium,Home,outdoors,grass,2015110200
+119,2015_09_CLE_CIN,2015,REG,9,2015-11-05,Thursday,20:25,CLE,CIN,10,31,21,Paul Brown Stadium,Home,outdoors,fieldturf,2015110500
+120,2015_09_MIA_BUF,2015,REG,9,2015-11-08,Sunday,13:00,MIA,BUF,17,33,16,Ralph Wilson Stadium,Home,outdoors,a_turf,2015110804
+121,2015_09_GB_CAR,2015,REG,9,2015-11-08,Sunday,13:00,GB,CAR,29,37,8,Bank of America Stadium,Home,outdoors,grass,2015110801
+122,2015_09_STL_MIN,2015,REG,9,2015-11-08,Sunday,13:00,STL,MIN,18,21,3,TCF Bank Stadium,Home,outdoors,fieldturf,2015110800
+123,2015_09_WAS_NE,2015,REG,9,2015-11-08,Sunday,13:00,WAS,NE,10,27,17,Gillette Stadium,Home,outdoors,fieldturf,2015110802
+124,2015_09_TEN_NO,2015,REG,9,2015-11-08,Sunday,13:00,TEN,NO,34,28,-6,Mercedes-Benz Superdome,Home,dome,sportturf,2015110803
+125,2015_09_JAX_NYJ,2015,REG,9,2015-11-08,Sunday,13:00,JAX,NYJ,23,28,5,MetLife Stadium,Home,outdoors,fieldturf,2015110805
+126,2015_09_OAK_PIT,2015,REG,9,2015-11-08,Sunday,13:00,OAK,PIT,35,38,3,Heinz Field,Home,outdoors,grass,2015110806
+127,2015_09_ATL_SF,2015,REG,9,2015-11-08,Sunday,16:05,ATL,SF,16,17,1,Levi's Stadium,Home,outdoors,grass,2015110808
+128,2015_09_NYG_TB,2015,REG,9,2015-11-08,Sunday,16:05,NYG,TB,32,18,-14,Raymond James Stadium,Home,outdoors,grass,2015110807
+129,2015_09_DEN_IND,2015,REG,9,2015-11-08,Sunday,16:25,DEN,IND,24,27,3,Lucas Oil Stadium,Home,open,fieldturf,2015110809
+130,2015_09_PHI_DAL,2015,REG,9,2015-11-08,Sunday,20:30,PHI,DAL,33,27,-6,AT&T Stadium,Home,closed,matrixturf,2015110810
+131,2015_09_CHI_SD,2015,REG,9,2015-11-09,Monday,20:30,CHI,SD,22,19,-3,Qualcomm Stadium,Home,outdoors,grass,2015110900
+132,2015_10_BUF_NYJ,2015,REG,10,2015-11-12,Thursday,20:25,BUF,NYJ,22,17,-5,MetLife Stadium,Home,outdoors,fieldturf,2015111200
+133,2015_10_JAX_BAL,2015,REG,10,2015-11-15,Sunday,13:00,JAX,BAL,22,20,-2,M&T Bank Stadium,Home,outdoors,sportturf,2015111506
+134,2015_10_DET_GB,2015,REG,10,2015-11-15,Sunday,13:00,DET,GB,18,16,-2,Lambeau Field,Home,outdoors,grass,2015111501
+135,2015_10_MIA_PHI,2015,REG,10,2015-11-15,Sunday,13:00,MIA,PHI,20,19,-1,Lincoln Financial Field,Home,outdoors,grass,2015111505
+136,2015_10_CLE_PIT,2015,REG,10,2015-11-15,Sunday,13:00,CLE,PIT,9,30,21,Heinz Field,Home,outdoors,grass,2015111507
+137,2015_10_CHI_STL,2015,REG,10,2015-11-15,Sunday,13:00,CHI,STL,37,13,-24,Edward Jones Dome,Home,dome,astroplay,2015111504
+138,2015_10_DAL_TB,2015,REG,10,2015-11-15,Sunday,13:00,DAL,TB,6,10,4,Raymond James Stadium,Home,outdoors,grass,2015111502
+139,2015_10_CAR_TEN,2015,REG,10,2015-11-15,Sunday,13:00,CAR,TEN,27,10,-17,Nissan Stadium,Home,outdoors,grass,2015111503
+140,2015_10_NO_WAS,2015,REG,10,2015-11-15,Sunday,13:00,NO,WAS,14,47,33,FedExField,Home,outdoors,grass,2015111500
+141,2015_10_MIN_OAK,2015,REG,10,2015-11-15,Sunday,16:05,MIN,OAK,30,14,-16,O.co Coliseum,Home,outdoors,grass,2015111508
+142,2015_10_KC_DEN,2015,REG,10,2015-11-15,Sunday,16:25,KC,DEN,29,13,-16,Sports Authority Field at Mile High,Home,outdoors,grass,2015111510
+143,2015_10_NE_NYG,2015,REG,10,2015-11-15,Sunday,16:25,NE,NYG,27,26,-1,MetLife Stadium,Home,outdoors,fieldturf,2015111509
+144,2015_10_ARI_SEA,2015,REG,10,2015-11-15,Sunday,20:30,ARI,SEA,39,32,-7,CenturyLink Field,Home,outdoors,fieldturf,2015111511
+145,2015_10_HOU_CIN,2015,REG,10,2015-11-16,Monday,20:30,HOU,CIN,10,6,-4,Paul Brown Stadium,Home,outdoors,fieldturf,2015111600
+146,2015_11_TEN_JAX,2015,REG,11,2015-11-19,Thursday,20:25,TEN,JAX,13,19,6,EverBank Field,Home,outdoors,grass,2015111900
+147,2015_11_IND_ATL,2015,REG,11,2015-11-22,Sunday,13:00,IND,ATL,24,21,-3,Georgia Dome,Home,dome,fieldturf,2015112202
+148,2015_11_STL_BAL,2015,REG,11,2015-11-22,Sunday,13:00,STL,BAL,13,16,3,M&T Bank Stadium,Home,outdoors,sportturf,2015112208
+149,2015_11_WAS_CAR,2015,REG,11,2015-11-22,Sunday,13:00,WAS,CAR,16,44,28,Bank of America Stadium,Home,outdoors,grass,2015112206
+150,2015_11_DEN_CHI,2015,REG,11,2015-11-22,Sunday,13:00,DEN,CHI,17,15,-2,Soldier Field,Home,outdoors,grass,2015112200
+151,2015_11_OAK_DET,2015,REG,11,2015-11-22,Sunday,13:00,OAK,DET,13,18,5,Ford Field,Home,dome,fieldturf,2015112201
+152,2015_11_NYJ_HOU,2015,REG,11,2015-11-22,Sunday,13:00,NYJ,HOU,17,24,7,NRG Stadium,Home,closed,fieldturf,2015112203
+153,2015_11_DAL_MIA,2015,REG,11,2015-11-22,Sunday,13:00,DAL,MIA,24,14,-10,Sun Life Stadium,Home,outdoors,grass,2015112207
+154,2015_11_TB_PHI,2015,REG,11,2015-11-22,Sunday,13:00,TB,PHI,45,17,-28,Lincoln Financial Field,Home,outdoors,grass,2015112204
+155,2015_11_KC_SD,2015,REG,11,2015-11-22,Sunday,16:05,KC,SD,33,3,-30,Qualcomm Stadium,Home,outdoors,grass,2015112211
+156,2015_11_GB_MIN,2015,REG,11,2015-11-22,Sunday,16:25,GB,MIN,30,13,-17,TCF Bank Stadium,Home,outdoors,fieldturf,2015112205
+157,2015_11_SF_SEA,2015,REG,11,2015-11-22,Sunday,16:25,SF,SEA,13,29,16,CenturyLink Field,Home,outdoors,fieldturf,2015112210
+158,2015_11_CIN_ARI,2015,REG,11,2015-11-22,Sunday,20:30,CIN,ARI,31,34,3,University of Phoenix Stadium,Home,closed,grass,2015112209
+159,2015_11_BUF_NE,2015,REG,11,2015-11-23,Monday,20:30,BUF,NE,13,20,7,Gillette Stadium,Home,outdoors,fieldturf,2015112300
+160,2015_12_PHI_DET,2015,REG,12,2015-11-26,Thursday,12:30,PHI,DET,14,45,31,Ford Field,Home,dome,fieldturf,2015112600
+161,2015_12_CAR_DAL,2015,REG,12,2015-11-26,Thursday,16:30,CAR,DAL,33,14,-19,AT&T Stadium,Home,closed,matrixturf,2015112601
+162,2015_12_CHI_GB,2015,REG,12,2015-11-26,Thursday,20:30,CHI,GB,17,13,-4,Lambeau Field,Home,outdoors,grass,2015112602
+163,2015_12_MIN_ATL,2015,REG,12,2015-11-29,Sunday,13:00,MIN,ATL,20,10,-10,Georgia Dome,Home,dome,fieldturf,2015112901
+164,2015_12_STL_CIN,2015,REG,12,2015-11-29,Sunday,13:00,STL,CIN,7,31,24,Paul Brown Stadium,Home,outdoors,fieldturf,2015112902
+165,2015_12_NO_HOU,2015,REG,12,2015-11-29,Sunday,13:00,NO,HOU,6,24,18,NRG Stadium,Home,closed,fieldturf,2015112903
+166,2015_12_TB_IND,2015,REG,12,2015-11-29,Sunday,13:00,TB,IND,12,25,13,Lucas Oil Stadium,Home,closed,fieldturf,2015112904
+167,2015_12_SD_JAX,2015,REG,12,2015-11-29,Sunday,13:00,SD,JAX,31,25,-6,EverBank Field,Home,outdoors,grass,2015112906
+168,2015_12_BUF_KC,2015,REG,12,2015-11-29,Sunday,13:00,BUF,KC,22,30,8,Arrowhead Stadium,Home,outdoors,grass,2015112908
+169,2015_12_MIA_NYJ,2015,REG,12,2015-11-29,Sunday,13:00,MIA,NYJ,20,38,18,MetLife Stadium,Home,outdoors,fieldturf,2015112905
+170,2015_12_OAK_TEN,2015,REG,12,2015-11-29,Sunday,13:00,OAK,TEN,24,21,-3,Nissan Stadium,Home,outdoors,grass,2015112907
+171,2015_12_NYG_WAS,2015,REG,12,2015-11-29,Sunday,13:00,NYG,WAS,14,20,6,FedExField,Home,outdoors,grass,2015112900
+172,2015_12_ARI_SF,2015,REG,12,2015-11-29,Sunday,16:05,ARI,SF,19,13,-6,Levi's Stadium,Home,outdoors,grass,2015112909
+173,2015_12_PIT_SEA,2015,REG,12,2015-11-29,Sunday,16:25,PIT,SEA,30,39,9,CenturyLink Field,Home,outdoors,fieldturf,2015112910
+174,2015_12_NE_DEN,2015,REG,12,2015-11-29,Sunday,20:30,NE,DEN,24,30,6,Sports Authority Field at Mile High,Home,outdoors,grass,2015112911
+175,2015_12_BAL_CLE,2015,REG,12,2015-11-30,Monday,20:30,BAL,CLE,33,27,-6,FirstEnergy Stadium,Home,outdoors,grass,2015113000
+176,2015_13_GB_DET,2015,REG,13,2015-12-03,Thursday,20:25,GB,DET,27,23,-4,Ford Field,Home,dome,fieldturf,2015120300
+177,2015_13_HOU_BUF,2015,REG,13,2015-12-06,Sunday,13:00,HOU,BUF,21,30,9,Ralph Wilson Stadium,Home,outdoors,a_turf,2015120601
+178,2015_13_SF_CHI,2015,REG,13,2015-12-06,Sunday,13:00,SF,CHI,26,20,-6,Soldier Field,Home,outdoors,grass,2015120605
+179,2015_13_CIN_CLE,2015,REG,13,2015-12-06,Sunday,13:00,CIN,CLE,37,3,-34,FirstEnergy Stadium,Home,outdoors,grass,2015120603
+180,2015_13_BAL_MIA,2015,REG,13,2015-12-06,Sunday,13:00,BAL,MIA,13,15,2,Sun Life Stadium,Home,outdoors,grass,2015120602
+181,2015_13_SEA_MIN,2015,REG,13,2015-12-06,Sunday,13:00,SEA,MIN,38,7,-31,TCF Bank Stadium,Home,outdoors,fieldturf,2015120606
+182,2015_13_NYJ_NYG,2015,REG,13,2015-12-06,Sunday,13:00,NYJ,NYG,23,20,-3,MetLife Stadium,Home,outdoors,fieldturf,2015120600
+183,2015_13_ARI_STL,2015,REG,13,2015-12-06,Sunday,13:00,ARI,STL,27,3,-24,Edward Jones Dome,Home,dome,astroplay,2015120609
+184,2015_13_ATL_TB,2015,REG,13,2015-12-06,Sunday,13:00,ATL,TB,19,23,4,Raymond James Stadium,Home,outdoors,grass,2015120608
+185,2015_13_JAX_TEN,2015,REG,13,2015-12-06,Sunday,13:00,JAX,TEN,39,42,3,Nissan Stadium,Home,outdoors,grass,2015120604
+186,2015_13_KC_OAK,2015,REG,13,2015-12-06,Sunday,16:05,KC,OAK,34,20,-14,O.co Coliseum,Home,outdoors,grass,2015120610
+187,2015_13_DEN_SD,2015,REG,13,2015-12-06,Sunday,16:05,DEN,SD,17,3,-14,Qualcomm Stadium,Home,outdoors,grass,2015120611
+188,2015_13_PHI_NE,2015,REG,13,2015-12-06,Sunday,16:25,PHI,NE,35,28,-7,Gillette Stadium,Home,outdoors,fieldturf,2015120612
+189,2015_13_CAR_NO,2015,REG,13,2015-12-06,Sunday,16:25,CAR,NO,41,38,-3,Mercedes-Benz Superdome,Home,dome,sportturf,2015120607
+190,2015_13_IND_PIT,2015,REG,13,2015-12-06,Sunday,20:30,IND,PIT,10,45,35,Heinz Field,Home,outdoors,grass,2015120613
+191,2015_13_DAL_WAS,2015,REG,13,2015-12-07,Monday,20:30,DAL,WAS,19,16,-3,FedExField,Home,outdoors,grass,2015120700
+192,2015_14_MIN_ARI,2015,REG,14,2015-12-10,Thursday,20:25,MIN,ARI,20,23,3,University of Phoenix Stadium,Home,open,grass,2015121000
+193,2015_14_SEA_BAL,2015,REG,14,2015-12-13,Sunday,13:00,SEA,BAL,35,6,-29,M&T Bank Stadium,Home,outdoors,sportturf,2015121313
+194,2015_14_ATL_CAR,2015,REG,14,2015-12-13,Sunday,13:00,ATL,CAR,0,38,38,Bank of America Stadium,Home,outdoors,grass,2015121307
+195,2015_14_WAS_CHI,2015,REG,14,2015-12-13,Sunday,13:00,WAS,CHI,24,21,-3,Soldier Field,Home,outdoors,grass,2015121306
+196,2015_14_PIT_CIN,2015,REG,14,2015-12-13,Sunday,13:00,PIT,CIN,33,20,-13,Paul Brown Stadium,Home,outdoors,fieldturf,2015121302
+197,2015_14_SF_CLE,2015,REG,14,2015-12-13,Sunday,13:00,SF,CLE,10,24,14,FirstEnergy Stadium,Home,outdoors,grass,2015121310
+198,2015_14_IND_JAX,2015,REG,14,2015-12-13,Sunday,13:00,IND,JAX,16,51,35,EverBank Field,Home,outdoors,grass,2015121304
+199,2015_14_SD_KC,2015,REG,14,2015-12-13,Sunday,13:00,SD,KC,3,10,7,Arrowhead Stadium,Home,outdoors,grass,2015121305
+200,2015_14_TEN_NYJ,2015,REG,14,2015-12-13,Sunday,13:00,TEN,NYJ,8,30,22,MetLife Stadium,Home,outdoors,fieldturf,2015121301
+201,2015_14_BUF_PHI,2015,REG,14,2015-12-13,Sunday,13:00,BUF,PHI,20,23,3,Lincoln Financial Field,Home,outdoors,grass,2015121300
+202,2015_14_DET_STL,2015,REG,14,2015-12-13,Sunday,13:00,DET,STL,14,21,7,Edward Jones Dome,Home,dome,astroplay,2015121309
+203,2015_14_NO_TB,2015,REG,14,2015-12-13,Sunday,13:00,NO,TB,24,17,-7,Raymond James Stadium,Home,outdoors,grass,2015121308
+204,2015_14_OAK_DEN,2015,REG,14,2015-12-13,Sunday,16:05,OAK,DEN,15,12,-3,Sports Authority Field at Mile High,Home,outdoors,grass,2015121311
+205,2015_14_DAL_GB,2015,REG,14,2015-12-13,Sunday,16:25,DAL,GB,7,28,21,Lambeau Field,Home,outdoors,grass,2015121312
+206,2015_14_NE_HOU,2015,REG,14,2015-12-13,Sunday,20:30,NE,HOU,27,6,-21,NRG Stadium,Home,closed,fieldturf,2015121303
+207,2015_14_NYG_MIA,2015,REG,14,2015-12-14,Monday,20:30,NYG,MIA,31,24,-7,Sun Life Stadium,Home,outdoors,grass,2015121400
+208,2015_15_TB_STL,2015,REG,15,2015-12-17,Thursday,20:25,TB,STL,23,31,8,Edward Jones Dome,Home,dome,astroplay,2015121700
+209,2015_15_NYJ_DAL,2015,REG,15,2015-12-19,Saturday,20:25,NYJ,DAL,19,16,-3,AT&T Stadium,Home,closed,matrixturf,2015121900
+210,2015_15_KC_BAL,2015,REG,15,2015-12-20,Sunday,13:00,KC,BAL,34,14,-20,M&T Bank Stadium,Home,outdoors,sportturf,2015122006
+211,2015_15_HOU_IND,2015,REG,15,2015-12-20,Sunday,13:00,HOU,IND,16,10,-6,Lucas Oil Stadium,Home,closed,fieldturf,2015122004
+212,2015_15_ATL_JAX,2015,REG,15,2015-12-20,Sunday,13:00,ATL,JAX,23,17,-6,EverBank Field,Home,outdoors,grass,2015122003
+213,2015_15_CHI_MIN,2015,REG,15,2015-12-20,Sunday,13:00,CHI,MIN,17,38,21,TCF Bank Stadium,Home,outdoors,fieldturf,2015122002
+214,2015_15_TEN_NE,2015,REG,15,2015-12-20,Sunday,13:00,TEN,NE,16,33,17,Gillette Stadium,Home,outdoors,fieldturf,2015122005
+215,2015_15_CAR_NYG,2015,REG,15,2015-12-20,Sunday,13:00,CAR,NYG,38,35,-3,MetLife Stadium,Home,outdoors,fieldturf,2015122000
+216,2015_15_BUF_WAS,2015,REG,15,2015-12-20,Sunday,13:00,BUF,WAS,25,35,10,FedExField,Home,outdoors,grass,2015122007
+217,2015_15_GB_OAK,2015,REG,15,2015-12-20,Sunday,16:05,GB,OAK,30,20,-10,O.co Coliseum,Home,outdoors,grass,2015122009
+218,2015_15_CLE_SEA,2015,REG,15,2015-12-20,Sunday,16:05,CLE,SEA,13,30,17,CenturyLink Field,Home,outdoors,fieldturf,2015122008
+219,2015_15_DEN_PIT,2015,REG,15,2015-12-20,Sunday,16:25,DEN,PIT,27,34,7,Heinz Field,Home,outdoors,grass,2015122010
+220,2015_15_MIA_SD,2015,REG,15,2015-12-20,Sunday,16:25,MIA,SD,14,30,16,Qualcomm Stadium,Home,outdoors,grass,2015122011
+221,2015_15_CIN_SF,2015,REG,15,2015-12-20,Sunday,16:25,CIN,SF,24,14,-10,Levi's Stadium,Home,outdoors,grass,2015122012
+222,2015_15_ARI_PHI,2015,REG,15,2015-12-20,Sunday,20:30,ARI,PHI,40,17,-23,Lincoln Financial Field,Home,outdoors,grass,2015122001
+223,2015_15_DET_NO,2015,REG,15,2015-12-21,Monday,20:30,DET,NO,35,27,-8,Mercedes-Benz Superdome,Home,dome,sportturf,2015122100
+224,2015_16_SD_OAK,2015,REG,16,2015-12-24,Thursday,20:25,SD,OAK,20,23,3,O.co Coliseum,Home,outdoors,grass,2015122400
+225,2015_16_WAS_PHI,2015,REG,16,2015-12-26,Saturday,20:25,WAS,PHI,38,24,-14,Lincoln Financial Field,Home,outdoors,grass,2015122600
+226,2015_16_CAR_ATL,2015,REG,16,2015-12-27,Sunday,13:00,CAR,ATL,13,20,7,Georgia Dome,Home,dome,fieldturf,2015122707
+227,2015_16_PIT_BAL,2015,REG,16,2015-12-27,Sunday,13:00,PIT,BAL,17,20,3,M&T Bank Stadium,Home,outdoors,sportturf,2015122712
+228,2015_16_DAL_BUF,2015,REG,16,2015-12-27,Sunday,13:00,DAL,BUF,6,16,10,Ralph Wilson Stadium,Home,outdoors,a_turf,2015122709
+229,2015_16_SF_DET,2015,REG,16,2015-12-27,Sunday,13:00,SF,DET,17,32,15,Ford Field,Home,dome,fieldturf,2015122705
+230,2015_16_CLE_KC,2015,REG,16,2015-12-27,Sunday,13:00,CLE,KC,13,17,4,Arrowhead Stadium,Home,outdoors,grass,2015122704
+231,2015_16_IND_MIA,2015,REG,16,2015-12-27,Sunday,13:00,IND,MIA,18,12,-6,Sun Life Stadium,Home,outdoors,grass,2015122701
+232,2015_16_NE_NYJ,2015,REG,16,2015-12-27,Sunday,13:00,NE,NYJ,20,26,6,MetLife Stadium,Home,outdoors,fieldturf,2015122702
+233,2015_16_CHI_TB,2015,REG,16,2015-12-27,Sunday,13:00,CHI,TB,26,21,-5,Raymond James Stadium,Home,outdoors,grass,2015122708
+234,2015_16_HOU_TEN,2015,REG,16,2015-12-27,Sunday,13:00,HOU,TEN,34,6,-28,Nissan Stadium,Home,outdoors,grass,2015122703
+235,2015_16_JAX_NO,2015,REG,16,2015-12-27,Sunday,16:05,JAX,NO,27,38,11,Mercedes-Benz Superdome,Home,dome,sportturf,2015122700
+236,2015_16_GB_ARI,2015,REG,16,2015-12-27,Sunday,16:25,GB,ARI,8,38,30,University of Phoenix Stadium,Home,closed,grass,2015122710
+237,2015_16_STL_SEA,2015,REG,16,2015-12-27,Sunday,16:25,STL,SEA,23,17,-6,CenturyLink Field,Home,outdoors,fieldturf,2015122711
+238,2015_16_NYG_MIN,2015,REG,16,2015-12-27,Sunday,20:30,NYG,MIN,17,49,32,TCF Bank Stadium,Home,outdoors,fieldturf,2015122706
+239,2015_16_CIN_DEN,2015,REG,16,2015-12-28,Monday,20:30,CIN,DEN,17,20,3,Sports Authority Field at Mile High,Home,outdoors,grass,2015122800
+240,2015_17_NO_ATL,2015,REG,17,2016-01-03,Sunday,13:00,NO,ATL,20,17,-3,Georgia Dome,Home,dome,fieldturf,2016010311
+241,2015_17_NYJ_BUF,2015,REG,17,2016-01-03,Sunday,13:00,NYJ,BUF,17,22,5,Ralph Wilson Stadium,Home,outdoors,a_turf,2016010300
+242,2015_17_DET_CHI,2015,REG,17,2016-01-03,Sunday,13:00,DET,CHI,24,20,-4,Soldier Field,Home,outdoors,grass,2016010309
+243,2015_17_BAL_CIN,2015,REG,17,2016-01-03,Sunday,13:00,BAL,CIN,16,24,8,Paul Brown Stadium,Home,outdoors,fieldturf,2016010302
+244,2015_17_PIT_CLE,2015,REG,17,2016-01-03,Sunday,13:00,PIT,CLE,28,12,-16,FirstEnergy Stadium,Home,outdoors,grass,2016010303
+245,2015_17_WAS_DAL,2015,REG,17,2016-01-03,Sunday,13:00,WAS,DAL,34,23,-11,AT&T Stadium,Home,closed,matrixturf,2016010307
+246,2015_17_JAX_HOU,2015,REG,17,2016-01-03,Sunday,13:00,JAX,HOU,6,30,24,NRG Stadium,Home,closed,fieldturf,2016010304
+247,2015_17_TEN_IND,2015,REG,17,2016-01-03,Sunday,13:00,TEN,IND,24,30,6,Lucas Oil Stadium,Home,closed,fieldturf,2016010305
+248,2015_17_NE_MIA,2015,REG,17,2016-01-03,Sunday,13:00,NE,MIA,10,20,10,Sun Life Stadium,Home,outdoors,grass,2016010301
+249,2015_17_PHI_NYG,2015,REG,17,2016-01-03,Sunday,13:00,PHI,NYG,35,30,-5,MetLife Stadium,Home,outdoors,fieldturf,2016010308
+250,2015_17_SEA_ARI,2015,REG,17,2016-01-03,Sunday,16:25,SEA,ARI,36,6,-30,University of Phoenix Stadium,Home,closed,grass,2016010314
+251,2015_17_TB_CAR,2015,REG,17,2016-01-03,Sunday,16:25,TB,CAR,10,38,28,Bank of America Stadium,Home,outdoors,grass,2016010312
+252,2015_17_SD_DEN,2015,REG,17,2016-01-03,Sunday,16:25,SD,DEN,20,27,7,Sports Authority Field at Mile High,Home,outdoors,grass,2016010313
+253,2015_17_OAK_KC,2015,REG,17,2016-01-03,Sunday,16:25,OAK,KC,17,23,6,Arrowhead Stadium,Home,outdoors,grass,2016010306
+254,2015_17_STL_SF,2015,REG,17,2016-01-03,Sunday,16:25,STL,SF,16,19,3,Levi's Stadium,Home,outdoors,grass,2016010315
+255,2015_17_MIN_GB,2015,REG,17,2016-01-03,Sunday,20:30,MIN,GB,20,13,-7,Lambeau Field,Home,outdoors,grass,2016010310
+256,2015_18_KC_HOU,2015,WC,18,2016-01-09,Saturday,16:35,KC,HOU,30,0,-30,NRG Stadium,Home,closed,fieldturf,2016010900
+257,2015_18_PIT_CIN,2015,WC,18,2016-01-09,Saturday,20:15,PIT,CIN,18,16,-2,Paul Brown Stadium,Home,outdoors,fieldturf,2016010901
+258,2015_18_SEA_MIN,2015,WC,18,2016-01-10,Sunday,13:05,SEA,MIN,10,9,-1,TCF Bank Stadium,Home,outdoors,fieldturf,2016011000
+259,2015_18_GB_WAS,2015,WC,18,2016-01-10,Sunday,16:40,GB,WAS,35,18,-17,FedExField,Home,outdoors,grass,2016011001
+260,2015_19_KC_NE,2015,DIV,19,2016-01-16,Saturday,16:35,KC,NE,20,27,7,Gillette Stadium,Home,outdoors,fieldturf,2016011600
+261,2015_19_GB_ARI,2015,DIV,19,2016-01-16,Saturday,20:15,GB,ARI,20,26,6,University of Phoenix Stadium,Home,closed,grass,2016011601
+262,2015_19_SEA_CAR,2015,DIV,19,2016-01-17,Sunday,13:05,SEA,CAR,24,31,7,Bank of America Stadium,Home,outdoors,grass,2016011700
+263,2015_19_PIT_DEN,2015,DIV,19,2016-01-17,Sunday,16:40,PIT,DEN,16,23,7,Sports Authority Field at Mile High,Home,outdoors,grass,2016011701
+264,2015_20_NE_DEN,2015,CON,20,2016-01-24,Sunday,15:05,NE,DEN,18,20,2,Sports Authority Field at Mile High,Home,outdoors,grass,2016012400
+265,2015_20_ARI_CAR,2015,CON,20,2016-01-24,Sunday,18:40,ARI,CAR,15,49,34,Bank of America Stadium,Home,outdoors,grass,2016012401
+266,2015_21_CAR_DEN,2015,SB,21,2016-02-07,Sunday,18:30,CAR,DEN,10,24,14,Levi's Stadium,Neutral,outdoors,grass,2016020700

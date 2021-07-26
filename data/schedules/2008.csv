@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2008_01_WAS_NYG,2008,REG,1,2008-09-04,Thursday,19:00,WAS,NYG,7,16,9,Giants Stadium,Home,outdoors,fieldturf,2008090400
+1,2008_01_DET_ATL,2008,REG,1,2008-09-07,Sunday,13:00,DET,ATL,21,34,13,Georgia Dome,Home,dome,fieldturf,2008090700
+2,2008_01_CIN_BAL,2008,REG,1,2008-09-07,Sunday,13:00,CIN,BAL,10,17,7,M&T Bank Stadium,Home,outdoors,sportturf,2008090701
+3,2008_01_SEA_BUF,2008,REG,1,2008-09-07,Sunday,13:00,SEA,BUF,10,34,24,Ralph Wilson Stadium,Home,outdoors,astroplay,2008090702
+4,2008_01_NYJ_MIA,2008,REG,1,2008-09-07,Sunday,13:00,NYJ,MIA,20,14,-6,Dolphin Stadium,Home,outdoors,grass,2008090703
+5,2008_01_KC_NE,2008,REG,1,2008-09-07,Sunday,13:00,KC,NE,10,17,7,Gillette Stadium,Home,outdoors,fieldturf,2008090704
+6,2008_01_TB_NO,2008,REG,1,2008-09-07,Sunday,13:00,TB,NO,20,24,4,Louisiana Superdome,Home,dome,fieldturf,2008090705
+7,2008_01_STL_PHI,2008,REG,1,2008-09-07,Sunday,13:00,STL,PHI,3,38,35,Lincoln Financial Field,Home,outdoors,grass,2008090706
+8,2008_01_HOU_PIT,2008,REG,1,2008-09-07,Sunday,13:00,HOU,PIT,17,38,21,Heinz Field,Home,outdoors,dessograss,2008090707
+9,2008_01_JAX_TEN,2008,REG,1,2008-09-07,Sunday,13:00,JAX,TEN,10,17,7,LP Field,Home,outdoors,grass,2008090708
+10,2008_01_DAL_CLE,2008,REG,1,2008-09-07,Sunday,16:15,DAL,CLE,28,10,-18,Cleveland Browns Stadium,Home,outdoors,grass,2008090709
+11,2008_01_CAR_SD,2008,REG,1,2008-09-07,Sunday,16:15,CAR,SD,26,24,-2,Qualcomm Stadium,Home,outdoors,grass,2008090710
+12,2008_01_ARI_SF,2008,REG,1,2008-09-07,Sunday,16:15,ARI,SF,23,13,-10,Candlestick Park,Home,outdoors,grass,2008090711
+13,2008_01_CHI_IND,2008,REG,1,2008-09-07,Sunday,20:15,CHI,IND,29,13,-16,Lucas Oil Stadium,Home,open,fieldturf,2008090712
+14,2008_01_MIN_GB,2008,REG,1,2008-09-08,Monday,19:00,MIN,GB,19,24,5,Lambeau Field,Home,outdoors,grass,2008090800
+15,2008_01_DEN_OAK,2008,REG,1,2008-09-08,Monday,22:15,DEN,OAK,41,14,-27,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008090801
+16,2008_02_CHI_CAR,2008,REG,2,2008-09-14,Sunday,13:00,CHI,CAR,17,20,3,Bank of America Stadium,Home,outdoors,grass,2008091400
+17,2008_02_TEN_CIN,2008,REG,2,2008-09-14,Sunday,13:00,TEN,CIN,24,7,-17,Paul Brown Stadium,Home,outdoors,fieldturf,2008091401
+18,2008_02_GB_DET,2008,REG,2,2008-09-14,Sunday,13:00,GB,DET,48,25,-23,Ford Field,Home,dome,fieldturf,2008091402
+19,2008_02_BUF_JAX,2008,REG,2,2008-09-14,Sunday,13:00,BUF,JAX,20,16,-4,Jacksonville Municipal Stadium,Home,outdoors,grass,2008091403
+20,2008_02_OAK_KC,2008,REG,2,2008-09-14,Sunday,13:00,OAK,KC,23,8,-15,Arrowhead Stadium,Home,outdoors,grass,2008091404
+21,2008_02_IND_MIN,2008,REG,2,2008-09-14,Sunday,13:00,IND,MIN,18,15,-3,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008091405
+22,2008_02_NYG_STL,2008,REG,2,2008-09-14,Sunday,13:00,NYG,STL,41,13,-28,Edward Jones Dome,Home,dome,fieldturf,2008091406
+23,2008_02_NO_WAS,2008,REG,2,2008-09-14,Sunday,13:00,NO,WAS,24,29,5,FedExField,Home,outdoors,grass,2008091407
+24,2008_02_SF_SEA,2008,REG,2,2008-09-14,Sunday,16:05,SF,SEA,33,30,-3,Qwest Field,Home,outdoors,fieldturf,2008091408
+25,2008_02_ATL_TB,2008,REG,2,2008-09-14,Sunday,16:05,ATL,TB,9,24,15,Raymond James Stadium,Home,outdoors,grass,2008091409
+26,2008_02_MIA_ARI,2008,REG,2,2008-09-14,Sunday,16:15,MIA,ARI,10,31,21,University of Phoenix Stadium,Home,closed,grass,2008091410
+27,2008_02_SD_DEN,2008,REG,2,2008-09-14,Sunday,16:15,SD,DEN,38,39,1,Invesco Field at Mile High,Home,outdoors,grass,2008091411
+28,2008_02_NE_NYJ,2008,REG,2,2008-09-14,Sunday,16:15,NE,NYJ,19,10,-9,Giants Stadium,Home,outdoors,fieldturf,2008091413
+29,2008_02_PIT_CLE,2008,REG,2,2008-09-14,Sunday,20:15,PIT,CLE,10,6,-4,Cleveland Browns Stadium,Home,outdoors,grass,2008091414
+30,2008_02_PHI_DAL,2008,REG,2,2008-09-15,Monday,20:30,PHI,DAL,37,41,4,Texas Stadium,Home,outdoors,fieldturf,2008091500
+31,2008_03_KC_ATL,2008,REG,3,2008-09-21,Sunday,13:00,KC,ATL,14,38,24,Georgia Dome,Home,dome,fieldturf,2008092100
+32,2008_03_OAK_BUF,2008,REG,3,2008-09-21,Sunday,13:00,OAK,BUF,23,24,1,Ralph Wilson Stadium,Home,outdoors,astroplay,2008092101
+33,2008_03_TB_CHI,2008,REG,3,2008-09-21,Sunday,13:00,TB,CHI,27,24,-3,Soldier Field,Home,outdoors,grass,2008092102
+34,2008_03_CAR_MIN,2008,REG,3,2008-09-21,Sunday,13:00,CAR,MIN,10,20,10,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008092103
+35,2008_03_MIA_NE,2008,REG,3,2008-09-21,Sunday,13:00,MIA,NE,38,13,-25,Gillette Stadium,Home,outdoors,fieldturf,2008092104
+36,2008_03_CIN_NYG,2008,REG,3,2008-09-21,Sunday,13:00,CIN,NYG,23,26,3,Giants Stadium,Home,outdoors,fieldturf,2008092105
+37,2008_03_HOU_TEN,2008,REG,3,2008-09-21,Sunday,13:00,HOU,TEN,12,31,19,LP Field,Home,outdoors,grass,2008092106
+38,2008_03_ARI_WAS,2008,REG,3,2008-09-21,Sunday,13:00,ARI,WAS,17,24,7,FedExField,Home,outdoors,grass,2008092107
+39,2008_03_NO_DEN,2008,REG,3,2008-09-21,Sunday,16:05,NO,DEN,32,34,2,Invesco Field at Mile High,Home,outdoors,grass,2008092108
+40,2008_03_STL_SEA,2008,REG,3,2008-09-21,Sunday,16:05,STL,SEA,13,37,24,Qwest Field,Home,outdoors,fieldturf,2008092110
+41,2008_03_DET_SF,2008,REG,3,2008-09-21,Sunday,16:05,DET,SF,13,31,18,Candlestick Park,Home,outdoors,grass,2008092109
+42,2008_03_CLE_BAL,2008,REG,3,2008-09-21,Sunday,16:15,CLE,BAL,10,28,18,M&T Bank Stadium,Home,outdoors,sportturf,2008092111
+43,2008_03_JAX_IND,2008,REG,3,2008-09-21,Sunday,16:15,JAX,IND,23,21,-2,Lucas Oil Stadium,Home,closed,fieldturf,2008092112
+44,2008_03_PIT_PHI,2008,REG,3,2008-09-21,Sunday,16:15,PIT,PHI,6,15,9,Lincoln Financial Field,Home,outdoors,grass,2008092113
+45,2008_03_DAL_GB,2008,REG,3,2008-09-21,Sunday,20:15,DAL,GB,27,16,-11,Lambeau Field,Home,outdoors,grass,2008092114
+46,2008_03_NYJ_SD,2008,REG,3,2008-09-22,Monday,20:30,NYJ,SD,29,48,19,Qualcomm Stadium,Home,outdoors,grass,2008092200
+47,2008_04_ATL_CAR,2008,REG,4,2008-09-28,Sunday,13:00,ATL,CAR,9,24,15,Bank of America Stadium,Home,outdoors,grass,2008092800
+48,2008_04_CLE_CIN,2008,REG,4,2008-09-28,Sunday,13:00,CLE,CIN,20,12,-8,Paul Brown Stadium,Home,outdoors,fieldturf,2008092801
+49,2008_04_HOU_JAX,2008,REG,4,2008-09-28,Sunday,13:00,HOU,JAX,27,30,3,Jacksonville Municipal Stadium,Home,outdoors,grass,2008092802
+50,2008_04_DEN_KC,2008,REG,4,2008-09-28,Sunday,13:00,DEN,KC,19,33,14,Arrowhead Stadium,Home,outdoors,grass,2008092803
+51,2008_04_SF_NO,2008,REG,4,2008-09-28,Sunday,13:00,SF,NO,17,31,14,Louisiana Superdome,Home,dome,fieldturf,2008092804
+52,2008_04_ARI_NYJ,2008,REG,4,2008-09-28,Sunday,13:00,ARI,NYJ,35,56,21,Giants Stadium,Home,outdoors,fieldturf,2008092805
+53,2008_04_GB_TB,2008,REG,4,2008-09-28,Sunday,13:00,GB,TB,21,30,9,Raymond James Stadium,Home,outdoors,grass,2008092806
+54,2008_04_MIN_TEN,2008,REG,4,2008-09-28,Sunday,13:00,MIN,TEN,17,30,13,LP Field,Home,outdoors,grass,2008092807
+55,2008_04_SD_OAK,2008,REG,4,2008-09-28,Sunday,16:05,SD,OAK,28,18,-10,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008092808
+56,2008_04_BUF_STL,2008,REG,4,2008-09-28,Sunday,16:05,BUF,STL,31,14,-17,Edward Jones Dome,Home,dome,fieldturf,2008092809
+57,2008_04_WAS_DAL,2008,REG,4,2008-09-28,Sunday,16:15,WAS,DAL,26,24,-2,Texas Stadium,Home,outdoors,fieldturf,2008092810
+58,2008_04_PHI_CHI,2008,REG,4,2008-09-28,Sunday,20:15,PHI,CHI,20,24,4,Soldier Field,Home,outdoors,grass,2008092811
+59,2008_04_BAL_PIT,2008,REG,4,2008-09-29,Monday,20:30,BAL,PIT,20,23,3,Heinz Field,Home,outdoors,dessograss,2008092900
+60,2008_05_TEN_BAL,2008,REG,5,2008-10-05,Sunday,13:00,TEN,BAL,13,10,-3,M&T Bank Stadium,Home,outdoors,sportturf,2008100500
+61,2008_05_KC_CAR,2008,REG,5,2008-10-05,Sunday,13:00,KC,CAR,0,34,34,Bank of America Stadium,Home,outdoors,grass,2008100501
+62,2008_05_CHI_DET,2008,REG,5,2008-10-05,Sunday,13:00,CHI,DET,34,7,-27,Ford Field,Home,dome,fieldturf,2008100502
+63,2008_05_ATL_GB,2008,REG,5,2008-10-05,Sunday,13:00,ATL,GB,27,24,-3,Lambeau Field,Home,outdoors,grass,2008100503
+64,2008_05_IND_HOU,2008,REG,5,2008-10-05,Sunday,13:00,IND,HOU,31,27,-4,Reliant Stadium,Home,open,grass,2008100504
+65,2008_05_SD_MIA,2008,REG,5,2008-10-05,Sunday,13:00,SD,MIA,10,17,7,Dolphin Stadium,Home,outdoors,grass,2008100505
+66,2008_05_SEA_NYG,2008,REG,5,2008-10-05,Sunday,13:00,SEA,NYG,6,44,38,Giants Stadium,Home,outdoors,fieldturf,2008100506
+67,2008_05_WAS_PHI,2008,REG,5,2008-10-05,Sunday,13:00,WAS,PHI,23,17,-6,Lincoln Financial Field,Home,outdoors,grass,2008100507
+68,2008_05_TB_DEN,2008,REG,5,2008-10-05,Sunday,16:05,TB,DEN,13,16,3,Invesco Field at Mile High,Home,outdoors,grass,2008100508
+69,2008_05_BUF_ARI,2008,REG,5,2008-10-05,Sunday,16:15,BUF,ARI,17,41,24,University of Phoenix Stadium,Home,closed,grass,2008100509
+70,2008_05_CIN_DAL,2008,REG,5,2008-10-05,Sunday,16:15,CIN,DAL,22,31,9,Texas Stadium,Home,outdoors,fieldturf,2008100510
+71,2008_05_NE_SF,2008,REG,5,2008-10-05,Sunday,16:15,NE,SF,30,21,-9,Candlestick Park,Home,outdoors,grass,2008100511
+72,2008_05_PIT_JAX,2008,REG,5,2008-10-05,Sunday,20:15,PIT,JAX,26,21,-5,Jacksonville Municipal Stadium,Home,outdoors,grass,2008100512
+73,2008_05_MIN_NO,2008,REG,5,2008-10-06,Monday,20:30,MIN,NO,30,27,-3,Louisiana Superdome,Home,dome,fieldturf,2008100600
+74,2008_06_CHI_ATL,2008,REG,6,2008-10-12,Sunday,13:00,CHI,ATL,20,22,2,Georgia Dome,Home,dome,fieldturf,2008101200
+75,2008_06_MIA_HOU,2008,REG,6,2008-10-12,Sunday,13:00,MIA,HOU,28,29,1,Reliant Stadium,Home,open,grass,2008101201
+76,2008_06_BAL_IND,2008,REG,6,2008-10-12,Sunday,13:00,BAL,IND,3,31,28,Lucas Oil Stadium,Home,open,fieldturf,2008101202
+77,2008_06_DET_MIN,2008,REG,6,2008-10-12,Sunday,13:00,DET,MIN,10,12,2,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008101203
+78,2008_06_OAK_NO,2008,REG,6,2008-10-12,Sunday,13:00,OAK,NO,3,34,31,Louisiana Superdome,Home,dome,fieldturf,2008101204
+79,2008_06_CIN_NYJ,2008,REG,6,2008-10-12,Sunday,13:00,CIN,NYJ,14,26,12,Giants Stadium,Home,outdoors,fieldturf,2008101205
+80,2008_06_CAR_TB,2008,REG,6,2008-10-12,Sunday,13:00,CAR,TB,3,27,24,Raymond James Stadium,Home,outdoors,grass,2008101206
+81,2008_06_STL_WAS,2008,REG,6,2008-10-12,Sunday,13:00,STL,WAS,19,17,-2,FedExField,Home,outdoors,grass,2008101207
+82,2008_06_JAX_DEN,2008,REG,6,2008-10-12,Sunday,16:05,JAX,DEN,24,17,-7,Invesco Field at Mile High,Home,outdoors,grass,2008101208
+83,2008_06_DAL_ARI,2008,REG,6,2008-10-12,Sunday,16:15,DAL,ARI,24,30,6,University of Phoenix Stadium,Home,closed,grass,2008101209
+84,2008_06_GB_SEA,2008,REG,6,2008-10-12,Sunday,16:15,GB,SEA,27,17,-10,Qwest Field,Home,outdoors,fieldturf,2008101211
+85,2008_06_PHI_SF,2008,REG,6,2008-10-12,Sunday,16:15,PHI,SF,40,26,-14,Candlestick Park,Home,outdoors,grass,2008101210
+86,2008_06_NE_SD,2008,REG,6,2008-10-12,Sunday,20:15,NE,SD,10,30,20,Qualcomm Stadium,Home,outdoors,grass,2008101212
+87,2008_06_NYG_CLE,2008,REG,6,2008-10-13,Monday,20:30,NYG,CLE,14,35,21,Cleveland Browns Stadium,Home,outdoors,grass,2008101300
+88,2008_07_SD_BUF,2008,REG,7,2008-10-19,Sunday,13:00,SD,BUF,14,23,9,Ralph Wilson Stadium,Home,outdoors,astroplay,2008101900
+89,2008_07_NO_CAR,2008,REG,7,2008-10-19,Sunday,13:00,NO,CAR,7,30,23,Bank of America Stadium,Home,outdoors,grass,2008101901
+90,2008_07_MIN_CHI,2008,REG,7,2008-10-19,Sunday,13:00,MIN,CHI,41,48,7,Soldier Field,Home,outdoors,grass,2008101902
+91,2008_07_PIT_CIN,2008,REG,7,2008-10-19,Sunday,13:00,PIT,CIN,38,10,-28,Paul Brown Stadium,Home,outdoors,fieldturf,2008101903
+92,2008_07_TEN_KC,2008,REG,7,2008-10-19,Sunday,13:00,TEN,KC,34,10,-24,Arrowhead Stadium,Home,outdoors,grass,2008101904
+93,2008_07_BAL_MIA,2008,REG,7,2008-10-19,Sunday,13:00,BAL,MIA,27,13,-14,Dolphin Stadium,Home,outdoors,grass,2008101905
+94,2008_07_SF_NYG,2008,REG,7,2008-10-19,Sunday,13:00,SF,NYG,17,29,12,Giants Stadium,Home,outdoors,fieldturf,2008101906
+95,2008_07_DAL_STL,2008,REG,7,2008-10-19,Sunday,13:00,DAL,STL,14,34,20,Edward Jones Dome,Home,dome,fieldturf,2008101907
+96,2008_07_DET_HOU,2008,REG,7,2008-10-19,Sunday,16:05,DET,HOU,21,28,7,Reliant Stadium,Home,open,grass,2008101908
+97,2008_07_IND_GB,2008,REG,7,2008-10-19,Sunday,16:15,IND,GB,14,34,20,Lambeau Field,Home,outdoors,grass,2008101909
+98,2008_07_NYJ_OAK,2008,REG,7,2008-10-19,Sunday,16:15,NYJ,OAK,13,16,3,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008101910
+99,2008_07_CLE_WAS,2008,REG,7,2008-10-19,Sunday,16:15,CLE,WAS,11,14,3,FedExField,Home,outdoors,grass,2008101911
+100,2008_07_SEA_TB,2008,REG,7,2008-10-19,Sunday,20:15,SEA,TB,10,20,10,Raymond James Stadium,Home,outdoors,grass,2008101912
+101,2008_07_DEN_NE,2008,REG,7,2008-10-20,Monday,20:30,DEN,NE,7,41,34,Gillette Stadium,Home,outdoors,fieldturf,2008102000
+102,2008_08_OAK_BAL,2008,REG,8,2008-10-26,Sunday,13:00,OAK,BAL,10,29,19,M&T Bank Stadium,Home,outdoors,sportturf,2008102600
+103,2008_08_ARI_CAR,2008,REG,8,2008-10-26,Sunday,13:00,ARI,CAR,23,27,4,Bank of America Stadium,Home,outdoors,grass,2008102601
+104,2008_08_TB_DAL,2008,REG,8,2008-10-26,Sunday,13:00,TB,DAL,9,13,4,Texas Stadium,Home,outdoors,fieldturf,2008102602
+105,2008_08_WAS_DET,2008,REG,8,2008-10-26,Sunday,13:00,WAS,DET,25,17,-8,Ford Field,Home,dome,fieldturf,2008102603
+106,2008_08_BUF_MIA,2008,REG,8,2008-10-26,Sunday,13:00,BUF,MIA,16,25,9,Dolphin Stadium,Home,outdoors,grass,2008102604
+107,2008_08_STL_NE,2008,REG,8,2008-10-26,Sunday,13:00,STL,NE,16,23,7,Gillette Stadium,Home,outdoors,fieldturf,2008102605
+108,2008_08_SD_NO,2008,REG,8,2008-10-26,Sunday,13:00,SD,NO,32,37,5,Wembley Stadium,Neutral,outdoors,grass,2008102606
+109,2008_08_KC_NYJ,2008,REG,8,2008-10-26,Sunday,13:00,KC,NYJ,24,28,4,Giants Stadium,Home,outdoors,fieldturf,2008102607
+110,2008_08_ATL_PHI,2008,REG,8,2008-10-26,Sunday,13:00,ATL,PHI,14,27,13,Lincoln Financial Field,Home,outdoors,grass,2008102608
+111,2008_08_CIN_HOU,2008,REG,8,2008-10-26,Sunday,16:05,CIN,HOU,6,35,29,Reliant Stadium,Home,open,grass,2008102612
+112,2008_08_CLE_JAX,2008,REG,8,2008-10-26,Sunday,16:05,CLE,JAX,23,17,-6,Jacksonville Municipal Stadium,Home,outdoors,grass,2008102609
+113,2008_08_NYG_PIT,2008,REG,8,2008-10-26,Sunday,16:15,NYG,PIT,21,14,-7,Heinz Field,Home,outdoors,dessograss,2008102610
+114,2008_08_SEA_SF,2008,REG,8,2008-10-26,Sunday,16:15,SEA,SF,34,13,-21,Candlestick Park,Home,outdoors,grass,2008102611
+115,2008_08_IND_TEN,2008,REG,8,2008-10-27,Monday,20:30,IND,TEN,21,31,10,LP Field,Home,outdoors,grass,2008102700
+116,2008_09_NYJ_BUF,2008,REG,9,2008-11-02,Sunday,13:00,NYJ,BUF,26,17,-9,Ralph Wilson Stadium,Home,outdoors,astroplay,2008110200
+117,2008_09_DET_CHI,2008,REG,9,2008-11-02,Sunday,13:00,DET,CHI,23,27,4,Soldier Field,Home,outdoors,grass,2008110201
+118,2008_09_JAX_CIN,2008,REG,9,2008-11-02,Sunday,13:00,JAX,CIN,19,21,2,Paul Brown Stadium,Home,outdoors,fieldturf,2008110202
+119,2008_09_BAL_CLE,2008,REG,9,2008-11-02,Sunday,13:00,BAL,CLE,37,27,-10,Cleveland Browns Stadium,Home,outdoors,grass,2008110203
+120,2008_09_TB_KC,2008,REG,9,2008-11-02,Sunday,13:00,TB,KC,30,27,-3,Arrowhead Stadium,Home,outdoors,grass,2008110204
+121,2008_09_HOU_MIN,2008,REG,9,2008-11-02,Sunday,13:00,HOU,MIN,21,28,7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008110205
+122,2008_09_ARI_STL,2008,REG,9,2008-11-02,Sunday,13:00,ARI,STL,34,13,-21,Edward Jones Dome,Home,dome,fieldturf,2008110206
+123,2008_09_GB_TEN,2008,REG,9,2008-11-02,Sunday,13:00,GB,TEN,16,19,3,LP Field,Home,outdoors,grass,2008110207
+124,2008_09_MIA_DEN,2008,REG,9,2008-11-02,Sunday,16:05,MIA,DEN,26,17,-9,Invesco Field at Mile High,Home,outdoors,grass,2008110208
+125,2008_09_DAL_NYG,2008,REG,9,2008-11-02,Sunday,16:15,DAL,NYG,14,35,21,Giants Stadium,Home,outdoors,fieldturf,2008110209
+126,2008_09_ATL_OAK,2008,REG,9,2008-11-02,Sunday,16:15,ATL,OAK,24,0,-24,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008110210
+127,2008_09_PHI_SEA,2008,REG,9,2008-11-02,Sunday,16:15,PHI,SEA,26,7,-19,Qwest Field,Home,outdoors,fieldturf,2008110211
+128,2008_09_NE_IND,2008,REG,9,2008-11-02,Sunday,20:15,NE,IND,15,18,3,Lucas Oil Stadium,Home,open,fieldturf,2008110212
+129,2008_09_PIT_WAS,2008,REG,9,2008-11-03,Monday,20:30,PIT,WAS,23,6,-17,FedExField,Home,outdoors,grass,2008110300
+130,2008_10_DEN_CLE,2008,REG,10,2008-11-06,Thursday,20:15,DEN,CLE,34,30,-4,Cleveland Browns Stadium,Home,outdoors,grass,2008110600
+131,2008_10_NO_ATL,2008,REG,10,2008-11-09,Sunday,13:00,NO,ATL,20,34,14,Georgia Dome,Home,dome,fieldturf,2008110900
+132,2008_10_TEN_CHI,2008,REG,10,2008-11-09,Sunday,13:00,TEN,CHI,21,14,-7,Soldier Field,Home,outdoors,grass,2008110901
+133,2008_10_JAX_DET,2008,REG,10,2008-11-09,Sunday,13:00,JAX,DET,38,14,-24,Ford Field,Home,dome,fieldturf,2008110902
+134,2008_10_BAL_HOU,2008,REG,10,2008-11-09,Sunday,13:00,BAL,HOU,41,13,-28,Reliant Stadium,Home,open,grass,2008110903
+135,2008_10_SEA_MIA,2008,REG,10,2008-11-09,Sunday,13:00,SEA,MIA,19,21,2,Dolphin Stadium,Home,outdoors,grass,2008110904
+136,2008_10_GB_MIN,2008,REG,10,2008-11-09,Sunday,13:00,GB,MIN,27,28,1,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008110905
+137,2008_10_BUF_NE,2008,REG,10,2008-11-09,Sunday,13:00,BUF,NE,10,20,10,Gillette Stadium,Home,outdoors,fieldturf,2008110906
+138,2008_10_STL_NYJ,2008,REG,10,2008-11-09,Sunday,13:00,STL,NYJ,3,47,44,Giants Stadium,Home,outdoors,fieldturf,2008110907
+139,2008_10_CAR_OAK,2008,REG,10,2008-11-09,Sunday,16:05,CAR,OAK,17,6,-11,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008110908
+140,2008_10_IND_PIT,2008,REG,10,2008-11-09,Sunday,16:15,IND,PIT,24,20,-4,Heinz Field,Home,outdoors,dessograss,2008110909
+141,2008_10_KC_SD,2008,REG,10,2008-11-09,Sunday,16:15,KC,SD,19,20,1,Qualcomm Stadium,Home,outdoors,grass,2008110910
+142,2008_10_NYG_PHI,2008,REG,10,2008-11-09,Sunday,20:15,NYG,PHI,36,31,-5,Lincoln Financial Field,Home,outdoors,grass,2008110911
+143,2008_10_SF_ARI,2008,REG,10,2008-11-10,Monday,20:30,SF,ARI,24,29,5,University of Phoenix Stadium,Home,open,grass,2008111000
+144,2008_11_NYJ_NE,2008,REG,11,2008-11-13,Thursday,20:15,NYJ,NE,34,31,-3,Gillette Stadium,Home,outdoors,fieldturf,2008111300
+145,2008_11_DEN_ATL,2008,REG,11,2008-11-16,Sunday,13:00,DEN,ATL,24,20,-4,Georgia Dome,Home,dome,fieldturf,2008111600
+146,2008_11_DET_CAR,2008,REG,11,2008-11-16,Sunday,13:00,DET,CAR,22,31,9,Bank of America Stadium,Home,outdoors,grass,2008111601
+147,2008_11_PHI_CIN,2008,REG,11,2008-11-16,Sunday,13:00,PHI,CIN,13,13,0,Paul Brown Stadium,Home,outdoors,fieldturf,2008111602
+148,2008_11_CHI_GB,2008,REG,11,2008-11-16,Sunday,13:00,CHI,GB,3,37,34,Lambeau Field,Home,outdoors,grass,2008111603
+149,2008_11_HOU_IND,2008,REG,11,2008-11-16,Sunday,13:00,HOU,IND,27,33,6,Lucas Oil Stadium,Home,closed,fieldturf,2008111604
+150,2008_11_NO_KC,2008,REG,11,2008-11-16,Sunday,13:00,NO,KC,30,20,-10,Arrowhead Stadium,Home,outdoors,grass,2008111606
+151,2008_11_OAK_MIA,2008,REG,11,2008-11-16,Sunday,13:00,OAK,MIA,15,17,2,Dolphin Stadium,Home,outdoors,grass,2008111607
+152,2008_11_BAL_NYG,2008,REG,11,2008-11-16,Sunday,13:00,BAL,NYG,10,30,20,Giants Stadium,Home,outdoors,fieldturf,2008111608
+153,2008_11_MIN_TB,2008,REG,11,2008-11-16,Sunday,13:00,MIN,TB,13,19,6,Raymond James Stadium,Home,outdoors,grass,2008111609
+154,2008_11_ARI_SEA,2008,REG,11,2008-11-16,Sunday,16:05,ARI,SEA,26,20,-6,Qwest Field,Home,outdoors,fieldturf,2008111611
+155,2008_11_STL_SF,2008,REG,11,2008-11-16,Sunday,16:05,STL,SF,16,35,19,Candlestick Park,Home,outdoors,grass,2008111610
+156,2008_11_TEN_JAX,2008,REG,11,2008-11-16,Sunday,16:15,TEN,JAX,24,14,-10,Jacksonville Municipal Stadium,Home,outdoors,grass,2008111605
+157,2008_11_SD_PIT,2008,REG,11,2008-11-16,Sunday,16:15,SD,PIT,10,11,1,Heinz Field,Home,outdoors,dessograss,2008111612
+158,2008_11_DAL_WAS,2008,REG,11,2008-11-16,Sunday,20:15,DAL,WAS,14,10,-4,FedExField,Home,outdoors,grass,2008111613
+159,2008_11_CLE_BUF,2008,REG,11,2008-11-17,Monday,20:30,CLE,BUF,29,27,-2,Ralph Wilson Stadium,Home,outdoors,astroplay,2008111700
+160,2008_12_CIN_PIT,2008,REG,12,2008-11-20,Thursday,20:15,CIN,PIT,10,27,17,Heinz Field,Home,outdoors,dessograss,2008112000
+161,2008_12_PHI_BAL,2008,REG,12,2008-11-23,Sunday,13:00,PHI,BAL,7,36,29,M&T Bank Stadium,Home,outdoors,sportturf,2008112301
+162,2008_12_HOU_CLE,2008,REG,12,2008-11-23,Sunday,13:00,HOU,CLE,16,6,-10,Cleveland Browns Stadium,Home,outdoors,grass,2008112302
+163,2008_12_SF_DAL,2008,REG,12,2008-11-23,Sunday,13:00,SF,DAL,22,35,13,Texas Stadium,Home,outdoors,fieldturf,2008112303
+164,2008_12_TB_DET,2008,REG,12,2008-11-23,Sunday,13:00,TB,DET,38,20,-18,Ford Field,Home,dome,fieldturf,2008112304
+165,2008_12_MIN_JAX,2008,REG,12,2008-11-23,Sunday,13:00,MIN,JAX,30,12,-18,Jacksonville Municipal Stadium,Home,outdoors,grass,2008112305
+166,2008_12_BUF_KC,2008,REG,12,2008-11-23,Sunday,13:00,BUF,KC,54,31,-23,Arrowhead Stadium,Home,outdoors,grass,2008112306
+167,2008_12_NE_MIA,2008,REG,12,2008-11-23,Sunday,13:00,NE,MIA,48,28,-20,Dolphin Stadium,Home,outdoors,grass,2008112307
+168,2008_12_CHI_STL,2008,REG,12,2008-11-23,Sunday,13:00,CHI,STL,27,3,-24,Edward Jones Dome,Home,dome,fieldturf,2008112308
+169,2008_12_NYJ_TEN,2008,REG,12,2008-11-23,Sunday,13:00,NYJ,TEN,34,13,-21,LP Field,Home,outdoors,grass,2008112309
+170,2008_12_OAK_DEN,2008,REG,12,2008-11-23,Sunday,16:05,OAK,DEN,31,10,-21,Invesco Field at Mile High,Home,outdoors,grass,2008112310
+171,2008_12_NYG_ARI,2008,REG,12,2008-11-23,Sunday,16:15,NYG,ARI,37,29,-8,University of Phoenix Stadium,Home,closed,grass,2008112311
+172,2008_12_CAR_ATL,2008,REG,12,2008-11-23,Sunday,16:15,CAR,ATL,28,45,17,Georgia Dome,Home,dome,fieldturf,2008112300
+173,2008_12_WAS_SEA,2008,REG,12,2008-11-23,Sunday,16:15,WAS,SEA,20,17,-3,Qwest Field,Home,outdoors,fieldturf,2008112312
+174,2008_12_IND_SD,2008,REG,12,2008-11-23,Sunday,20:15,IND,SD,23,20,-3,Qualcomm Stadium,Home,outdoors,grass,2008112313
+175,2008_12_GB_NO,2008,REG,12,2008-11-24,Monday,20:30,GB,NO,29,51,22,Louisiana Superdome,Home,dome,fieldturf,2008112400
+176,2008_13_TEN_DET,2008,REG,13,2008-11-27,Thursday,12:30,TEN,DET,47,10,-37,Ford Field,Home,dome,fieldturf,2008112700
+177,2008_13_SEA_DAL,2008,REG,13,2008-11-27,Thursday,16:25,SEA,DAL,9,34,25,Texas Stadium,Home,outdoors,fieldturf,2008112701
+178,2008_13_ARI_PHI,2008,REG,13,2008-11-27,Thursday,20:15,ARI,PHI,20,48,28,Lincoln Financial Field,Home,outdoors,grass,2008112702
+179,2008_13_SF_BUF,2008,REG,13,2008-11-30,Sunday,13:00,SF,BUF,10,3,-7,Ralph Wilson Stadium,Home,outdoors,astroplay,2008113000
+180,2008_13_BAL_CIN,2008,REG,13,2008-11-30,Sunday,13:00,BAL,CIN,34,3,-31,Paul Brown Stadium,Home,outdoors,fieldturf,2008113001
+181,2008_13_IND_CLE,2008,REG,13,2008-11-30,Sunday,13:00,IND,CLE,10,6,-4,Cleveland Browns Stadium,Home,outdoors,grass,2008113002
+182,2008_13_CAR_GB,2008,REG,13,2008-11-30,Sunday,13:00,CAR,GB,35,31,-4,Lambeau Field,Home,outdoors,grass,2008113003
+183,2008_13_MIA_STL,2008,REG,13,2008-11-30,Sunday,13:00,MIA,STL,16,12,-4,Edward Jones Dome,Home,dome,fieldturf,2008113005
+184,2008_13_NO_TB,2008,REG,13,2008-11-30,Sunday,13:00,NO,TB,20,23,3,Raymond James Stadium,Home,outdoors,grass,2008113006
+185,2008_13_NYG_WAS,2008,REG,13,2008-11-30,Sunday,13:00,NYG,WAS,23,7,-16,FedExField,Home,outdoors,grass,2008113007
+186,2008_13_ATL_SD,2008,REG,13,2008-11-30,Sunday,16:05,ATL,SD,22,16,-6,Qualcomm Stadium,Home,outdoors,grass,2008113008
+187,2008_13_PIT_NE,2008,REG,13,2008-11-30,Sunday,16:15,PIT,NE,33,10,-23,Gillette Stadium,Home,outdoors,fieldturf,2008113009
+188,2008_13_DEN_NYJ,2008,REG,13,2008-11-30,Sunday,16:15,DEN,NYJ,34,17,-17,Giants Stadium,Home,outdoors,fieldturf,2008113004
+189,2008_13_KC_OAK,2008,REG,13,2008-11-30,Sunday,16:15,KC,OAK,20,13,-7,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008113010
+190,2008_13_CHI_MIN,2008,REG,13,2008-11-30,Sunday,20:15,CHI,MIN,14,34,20,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008113011
+191,2008_13_JAX_HOU,2008,REG,13,2008-12-01,Monday,20:30,JAX,HOU,17,30,13,Reliant Stadium,Home,open,grass,2008120100
+192,2008_14_OAK_SD,2008,REG,14,2008-12-04,Thursday,20:15,OAK,SD,7,34,27,Qualcomm Stadium,Home,outdoors,grass,2008120400
+193,2008_14_JAX_CHI,2008,REG,14,2008-12-07,Sunday,13:00,JAX,CHI,10,23,13,Soldier Field,Home,outdoors,grass,2008120701
+194,2008_14_MIN_DET,2008,REG,14,2008-12-07,Sunday,13:00,MIN,DET,20,16,-4,Ford Field,Home,dome,fieldturf,2008120702
+195,2008_14_HOU_GB,2008,REG,14,2008-12-07,Sunday,13:00,HOU,GB,24,21,-3,Lambeau Field,Home,outdoors,grass,2008120703
+196,2008_14_CIN_IND,2008,REG,14,2008-12-07,Sunday,13:00,CIN,IND,3,35,32,Lucas Oil Stadium,Home,closed,fieldturf,2008120704
+197,2008_14_ATL_NO,2008,REG,14,2008-12-07,Sunday,13:00,ATL,NO,25,29,4,Louisiana Superdome,Home,dome,fieldturf,2008120705
+198,2008_14_PHI_NYG,2008,REG,14,2008-12-07,Sunday,13:00,PHI,NYG,20,14,-6,Giants Stadium,Home,outdoors,fieldturf,2008120706
+199,2008_14_CLE_TEN,2008,REG,14,2008-12-07,Sunday,13:00,CLE,TEN,9,28,19,LP Field,Home,outdoors,grass,2008120707
+200,2008_14_MIA_BUF,2008,REG,14,2008-12-07,Sunday,16:05,MIA,BUF,16,3,-13,Rogers Centre,Neutral,dome,fieldturf,2008120708
+201,2008_14_KC_DEN,2008,REG,14,2008-12-07,Sunday,16:05,KC,DEN,17,24,7,Invesco Field at Mile High,Home,outdoors,grass,2008120709
+202,2008_14_NE_SEA,2008,REG,14,2008-12-07,Sunday,16:05,NE,SEA,24,21,-3,Qwest Field,Home,outdoors,fieldturf,2008120713
+203,2008_14_NYJ_SF,2008,REG,14,2008-12-07,Sunday,16:05,NYJ,SF,14,24,10,Candlestick Park,Home,outdoors,grass,2008120710
+204,2008_14_STL_ARI,2008,REG,14,2008-12-07,Sunday,16:15,STL,ARI,10,34,24,University of Phoenix Stadium,Home,open,grass,2008120711
+205,2008_14_DAL_PIT,2008,REG,14,2008-12-07,Sunday,16:15,DAL,PIT,13,20,7,Heinz Field,Home,outdoors,dessograss,2008120712
+206,2008_14_WAS_BAL,2008,REG,14,2008-12-07,Sunday,20:15,WAS,BAL,10,24,14,M&T Bank Stadium,Home,outdoors,sportturf,2008120700
+207,2008_14_TB_CAR,2008,REG,14,2008-12-08,Monday,20:30,TB,CAR,23,38,15,Bank of America Stadium,Home,outdoors,grass,2008120800
+208,2008_15_NO_CHI,2008,REG,15,2008-12-11,Thursday,20:15,NO,CHI,24,27,3,Soldier Field,Home,outdoors,grass,2008121100
+209,2008_15_TB_ATL,2008,REG,15,2008-12-14,Sunday,13:00,TB,ATL,10,13,3,Georgia Dome,Home,dome,fieldturf,2008121400
+210,2008_15_WAS_CIN,2008,REG,15,2008-12-14,Sunday,13:00,WAS,CIN,13,20,7,Paul Brown Stadium,Home,outdoors,fieldturf,2008121403
+211,2008_15_TEN_HOU,2008,REG,15,2008-12-14,Sunday,13:00,TEN,HOU,12,13,1,Reliant Stadium,Home,open,grass,2008121404
+212,2008_15_DET_IND,2008,REG,15,2008-12-14,Sunday,13:00,DET,IND,21,31,10,Lucas Oil Stadium,Home,closed,fieldturf,2008121405
+213,2008_15_GB_JAX,2008,REG,15,2008-12-14,Sunday,13:00,GB,JAX,16,20,4,Jacksonville Municipal Stadium,Home,outdoors,grass,2008121406
+214,2008_15_SD_KC,2008,REG,15,2008-12-14,Sunday,13:00,SD,KC,22,21,-1,Arrowhead Stadium,Home,outdoors,grass,2008121407
+215,2008_15_SF_MIA,2008,REG,15,2008-12-14,Sunday,13:00,SF,MIA,9,14,5,Dolphin Stadium,Home,outdoors,grass,2008121408
+216,2008_15_BUF_NYJ,2008,REG,15,2008-12-14,Sunday,13:00,BUF,NYJ,27,31,4,Giants Stadium,Home,outdoors,fieldturf,2008121409
+217,2008_15_SEA_STL,2008,REG,15,2008-12-14,Sunday,13:00,SEA,STL,23,20,-3,Edward Jones Dome,Home,dome,fieldturf,2008121410
+218,2008_15_MIN_ARI,2008,REG,15,2008-12-14,Sunday,16:05,MIN,ARI,35,14,-21,University of Phoenix Stadium,Home,open,grass,2008121411
+219,2008_15_PIT_BAL,2008,REG,15,2008-12-14,Sunday,16:15,PIT,BAL,13,9,-4,M&T Bank Stadium,Home,outdoors,sportturf,2008121401
+220,2008_15_DEN_CAR,2008,REG,15,2008-12-14,Sunday,16:15,DEN,CAR,10,30,20,Bank of America Stadium,Home,outdoors,grass,2008121402
+221,2008_15_NE_OAK,2008,REG,15,2008-12-14,Sunday,16:15,NE,OAK,49,26,-23,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008121412
+222,2008_15_NYG_DAL,2008,REG,15,2008-12-14,Sunday,20:15,NYG,DAL,8,20,12,Texas Stadium,Home,outdoors,fieldturf,2008121413
+223,2008_15_CLE_PHI,2008,REG,15,2008-12-15,Monday,20:30,CLE,PHI,10,30,20,Lincoln Financial Field,Home,outdoors,grass,2008121500
+224,2008_16_IND_JAX,2008,REG,16,2008-12-18,Thursday,20:15,IND,JAX,31,24,-7,Jacksonville Municipal Stadium,Home,outdoors,grass,2008121800
+225,2008_16_BAL_DAL,2008,REG,16,2008-12-20,Saturday,20:15,BAL,DAL,33,24,-9,Texas Stadium,Home,outdoors,fieldturf,2008122000
+226,2008_16_CIN_CLE,2008,REG,16,2008-12-21,Sunday,13:00,CIN,CLE,14,0,-14,Cleveland Browns Stadium,Home,outdoors,grass,2008122100
+227,2008_16_NO_DET,2008,REG,16,2008-12-21,Sunday,13:00,NO,DET,42,7,-35,Ford Field,Home,dome,fieldturf,2008122101
+228,2008_16_MIA_KC,2008,REG,16,2008-12-21,Sunday,13:00,MIA,KC,38,31,-7,Arrowhead Stadium,Home,outdoors,grass,2008122102
+229,2008_16_ARI_NE,2008,REG,16,2008-12-21,Sunday,13:00,ARI,NE,7,47,40,Gillette Stadium,Home,outdoors,fieldturf,2008122104
+230,2008_16_SF_STL,2008,REG,16,2008-12-21,Sunday,13:00,SF,STL,17,16,-1,Edward Jones Dome,Home,dome,fieldturf,2008122106
+231,2008_16_SD_TB,2008,REG,16,2008-12-21,Sunday,13:00,SD,TB,41,24,-17,Raymond James Stadium,Home,outdoors,grass,2008122112
+232,2008_16_PIT_TEN,2008,REG,16,2008-12-21,Sunday,13:00,PIT,TEN,14,31,17,LP Field,Home,outdoors,grass,2008122107
+233,2008_16_BUF_DEN,2008,REG,16,2008-12-21,Sunday,16:05,BUF,DEN,30,23,-7,Invesco Field at Mile High,Home,outdoors,grass,2008122109
+234,2008_16_HOU_OAK,2008,REG,16,2008-12-21,Sunday,16:05,HOU,OAK,16,27,11,Oakland-Alameda County Coliseum,Home,outdoors,grass,2008122110
+235,2008_16_NYJ_SEA,2008,REG,16,2008-12-21,Sunday,16:05,NYJ,SEA,3,13,10,Qwest Field,Home,outdoors,fieldturf,2008122111
+236,2008_16_ATL_MIN,2008,REG,16,2008-12-21,Sunday,16:15,ATL,MIN,24,17,-7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008122103
+237,2008_16_PHI_WAS,2008,REG,16,2008-12-21,Sunday,16:15,PHI,WAS,3,10,7,FedExField,Home,outdoors,grass,2008122108
+238,2008_16_CAR_NYG,2008,REG,16,2008-12-21,Sunday,20:15,CAR,NYG,28,34,6,Giants Stadium,Home,outdoors,fieldturf,2008122105
+239,2008_16_GB_CHI,2008,REG,16,2008-12-22,Monday,20:30,GB,CHI,17,20,3,Soldier Field,Home,outdoors,grass,2008122200
+240,2008_17_STL_ATL,2008,REG,17,2008-12-28,Sunday,13:00,STL,ATL,27,31,4,Georgia Dome,Home,dome,fieldturf,2008122800
+241,2008_17_NE_BUF,2008,REG,17,2008-12-28,Sunday,13:00,NE,BUF,13,0,-13,Ralph Wilson Stadium,Home,outdoors,astroplay,2008122802
+242,2008_17_KC_CIN,2008,REG,17,2008-12-28,Sunday,13:00,KC,CIN,6,16,10,Paul Brown Stadium,Home,outdoors,fieldturf,2008122803
+243,2008_17_DET_GB,2008,REG,17,2008-12-28,Sunday,13:00,DET,GB,21,31,10,Lambeau Field,Home,outdoors,grass,2008122804
+244,2008_17_CHI_HOU,2008,REG,17,2008-12-28,Sunday,13:00,CHI,HOU,24,31,7,Reliant Stadium,Home,open,grass,2008122805
+245,2008_17_TEN_IND,2008,REG,17,2008-12-28,Sunday,13:00,TEN,IND,0,23,23,Lucas Oil Stadium,Home,closed,fieldturf,2008122806
+246,2008_17_NYG_MIN,2008,REG,17,2008-12-28,Sunday,13:00,NYG,MIN,19,20,1,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2008122807
+247,2008_17_CAR_NO,2008,REG,17,2008-12-28,Sunday,13:00,CAR,NO,33,31,-2,Louisiana Superdome,Home,dome,fieldturf,2008122808
+248,2008_17_CLE_PIT,2008,REG,17,2008-12-28,Sunday,13:00,CLE,PIT,0,31,31,Heinz Field,Home,outdoors,dessograss,2008122811
+249,2008_17_OAK_TB,2008,REG,17,2008-12-28,Sunday,13:00,OAK,TB,31,24,-7,Raymond James Stadium,Home,outdoors,grass,2008122812
+250,2008_17_SEA_ARI,2008,REG,17,2008-12-28,Sunday,16:15,SEA,ARI,21,34,13,University of Phoenix Stadium,Home,closed,grass,2008122813
+251,2008_17_JAX_BAL,2008,REG,17,2008-12-28,Sunday,16:15,JAX,BAL,7,27,20,M&T Bank Stadium,Home,outdoors,sportturf,2008122801
+252,2008_17_MIA_NYJ,2008,REG,17,2008-12-28,Sunday,16:15,MIA,NYJ,24,17,-7,Giants Stadium,Home,outdoors,fieldturf,2008122809
+253,2008_17_DAL_PHI,2008,REG,17,2008-12-28,Sunday,16:15,DAL,PHI,6,44,38,Lincoln Financial Field,Home,outdoors,grass,2008122810
+254,2008_17_WAS_SF,2008,REG,17,2008-12-28,Sunday,16:15,WAS,SF,24,27,3,Candlestick Park,Home,outdoors,grass,2008122815
+255,2008_17_DEN_SD,2008,REG,17,2008-12-28,Sunday,20:15,DEN,SD,21,52,31,Qualcomm Stadium,Home,outdoors,grass,2008122814
+256,2008_18_ATL_ARI,2008,WC,18,2009-01-03,Saturday,16:30,ATL,ARI,24,30,6,University of Phoenix Stadium,Home,closed,grass,2009010300
+257,2008_18_IND_SD,2008,WC,18,2009-01-03,Saturday,20:00,IND,SD,17,23,6,Qualcomm Stadium,Home,outdoors,grass,2009010301
+258,2008_18_BAL_MIA,2008,WC,18,2009-01-04,Sunday,13:00,BAL,MIA,27,9,-18,Dolphin Stadium,Home,outdoors,grass,2009010400
+259,2008_18_PHI_MIN,2008,WC,18,2009-01-04,Sunday,16:30,PHI,MIN,26,14,-12,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009010401
+260,2008_19_BAL_TEN,2008,DIV,19,2009-01-10,Saturday,16:30,BAL,TEN,13,10,-3,LP Field,Home,outdoors,grass,2009011000
+261,2008_19_ARI_CAR,2008,DIV,19,2009-01-10,Saturday,20:15,ARI,CAR,33,13,-20,Bank of America Stadium,Home,outdoors,grass,2009011001
+262,2008_19_PHI_NYG,2008,DIV,19,2009-01-11,Sunday,13:00,PHI,NYG,23,11,-12,Giants Stadium,Home,outdoors,fieldturf,2009011101
+263,2008_19_SD_PIT,2008,DIV,19,2009-01-11,Sunday,16:45,SD,PIT,24,35,11,Heinz Field,Home,outdoors,dessograss,2009011100
+264,2008_20_PHI_ARI,2008,CON,20,2009-01-18,Sunday,16:05,PHI,ARI,25,32,7,University of Phoenix Stadium,Home,closed,grass,2009011800
+265,2008_20_BAL_PIT,2008,CON,20,2009-01-18,Sunday,18:30,BAL,PIT,14,23,9,Heinz Field,Home,outdoors,dessograss,2009011801
+266,2008_21_PIT_ARI,2008,SB,21,2009-02-01,Sunday,18:31,PIT,ARI,27,23,-4,Raymond James Stadium,Neutral,outdoors,grass,2009020100

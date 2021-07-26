@@ -1,0 +1,270 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2020_01_HOU_KC,2020,REG,1,2020-09-10,Thursday,20:20,HOU,KC,20,34,14,Arrowhead Stadium,Home,outdoors,astroturf,2020091000
+1,2020_01_SEA_ATL,2020,REG,1,2020-09-13,Sunday,13:00,SEA,ATL,38,25,-13,Mercedes-Benz Stadium,Home,closed,fieldturf,2020091300
+2,2020_01_CLE_BAL,2020,REG,1,2020-09-13,Sunday,13:00,CLE,BAL,6,38,32,M&T Bank Stadium,Home,outdoors,grass,2020091301
+3,2020_01_NYJ_BUF,2020,REG,1,2020-09-13,Sunday,13:00,NYJ,BUF,17,27,10,New Era Field,Home,outdoors,astroturf,2020091302
+4,2020_01_LV_CAR,2020,REG,1,2020-09-13,Sunday,13:00,LV,CAR,34,30,-4,Bank of America Stadium,Home,outdoors,grass,2020091303
+5,2020_01_CHI_DET,2020,REG,1,2020-09-13,Sunday,13:00,CHI,DET,27,23,-4,Ford Field,Home,dome,fieldturf,2020091304
+6,2020_01_IND_JAX,2020,REG,1,2020-09-13,Sunday,13:00,IND,JAX,20,27,7,TIAA Bank Stadium,Home,outdoors,grass,2020091305
+7,2020_01_GB_MIN,2020,REG,1,2020-09-13,Sunday,13:00,GB,MIN,43,34,-9,U.S. Bank Stadium,Home,dome,sportturf,2020091306
+8,2020_01_MIA_NE,2020,REG,1,2020-09-13,Sunday,13:00,MIA,NE,11,21,10,Gillette Stadium,Home,outdoors,grass,2020091307
+9,2020_01_PHI_WAS,2020,REG,1,2020-09-13,Sunday,13:00,PHI,WAS,17,27,10,FedExField,Home,outdoors,grass,2020091308
+10,2020_01_LAC_CIN,2020,REG,1,2020-09-13,Sunday,16:05,LAC,CIN,16,13,-3,Paul Brown Stadium,Home,outdoors,grass,2020091309
+11,2020_01_TB_NO,2020,REG,1,2020-09-13,Sunday,16:25,TB,NO,23,34,11,Mercedes-Benz Superdome,Home,dome,astroturf,2020091310
+12,2020_01_ARI_SF,2020,REG,1,2020-09-13,Sunday,16:25,ARI,SF,24,20,-4,Levi's Stadium,Home,outdoors,grass,2020091311
+13,2020_01_DAL_LA,2020,REG,1,2020-09-13,Sunday,20:20,DAL,LA,17,20,3,SoFi Stadium,Home,dome,matrixturf,2020091312
+14,2020_01_PIT_NYG,2020,REG,1,2020-09-14,Monday,19:15,PIT,NYG,26,16,-10,MetLife Stadium,Home,outdoors,fieldturf ,2020091400
+15,2020_01_TEN_DEN,2020,REG,1,2020-09-14,Monday,22:10,TEN,DEN,16,14,-2,Empower Field at Mile High,Home,outdoors,grass,2020091401
+16,2020_02_CIN_CLE,2020,REG,2,2020-09-17,Thursday,20:20,CIN,CLE,30,35,5,FirstEnergy Stadium,Home,outdoors,grass,2020091700
+17,2020_02_NYG_CHI,2020,REG,2,2020-09-20,Sunday,13:00,NYG,CHI,13,17,4,Soldier Field,Home,outdoors,grass,2020092000
+18,2020_02_ATL_DAL,2020,REG,2,2020-09-20,Sunday,13:00,ATL,DAL,39,40,1,AT&T Stadium,Home,closed,fieldturf,2020092001
+19,2020_02_DET_GB,2020,REG,2,2020-09-20,Sunday,13:00,DET,GB,21,42,21,Lambeau Field,Home,outdoors,grass,2020092002
+20,2020_02_MIN_IND,2020,REG,2,2020-09-20,Sunday,13:00,MIN,IND,11,28,17,Lucas Oil Stadium,Home,closed,fieldturf,2020092003
+21,2020_02_BUF_MIA,2020,REG,2,2020-09-20,Sunday,13:00,BUF,MIA,31,28,-3,Hard Rock Stadium,Home,outdoors,grass,2020092004
+22,2020_02_SF_NYJ,2020,REG,2,2020-09-20,Sunday,13:00,SF,NYJ,31,13,-18,MetLife Stadium,Home,outdoors,fieldturf ,2020092005
+23,2020_02_LA_PHI,2020,REG,2,2020-09-20,Sunday,13:00,LA,PHI,37,19,-18,Lincoln Financial Field,Home,outdoors,grass,2020092006
+24,2020_02_DEN_PIT,2020,REG,2,2020-09-20,Sunday,13:00,DEN,PIT,21,26,5,Heinz Field,Home,outdoors,grass,2020092007
+25,2020_02_CAR_TB,2020,REG,2,2020-09-20,Sunday,13:00,CAR,TB,17,31,14,Raymond James Stadium,Home,outdoors,grass,2020092008
+26,2020_02_JAX_TEN,2020,REG,2,2020-09-20,Sunday,13:00,JAX,TEN,30,33,3,Nissan Stadium,Home,outdoors,grass,2020092009
+27,2020_02_WAS_ARI,2020,REG,2,2020-09-20,Sunday,16:05,WAS,ARI,15,30,15,State Farm Stadium,Home,closed,grass,2020092010
+28,2020_02_BAL_HOU,2020,REG,2,2020-09-20,Sunday,16:25,BAL,HOU,33,16,-17,NRG Stadium,Home,closed,grass,2020092011
+29,2020_02_KC_LAC,2020,REG,2,2020-09-20,Sunday,16:25,KC,LAC,23,20,-3,SoFi Stadium,Home,dome,matrixturf,2020092012
+30,2020_02_NE_SEA,2020,REG,2,2020-09-20,Sunday,20:20,NE,SEA,30,35,5,CenturyLink Field,Home,outdoors,fieldturf,2020092013
+31,2020_02_NO_LV,2020,REG,2,2020-09-21,Monday,20:15,NO,LV,24,34,10,Allegiant Stadium,Home,dome,grass,2020092100
+32,2020_03_MIA_JAX,2020,REG,3,2020-09-24,Thursday,20:20,MIA,JAX,31,13,-18,TIAA Bank Stadium,Home,outdoors,grass,2020092400
+33,2020_03_CHI_ATL,2020,REG,3,2020-09-27,Sunday,13:00,CHI,ATL,30,26,-4,Mercedes-Benz Stadium,Home,closed,fieldturf,2020092700
+34,2020_03_LA_BUF,2020,REG,3,2020-09-27,Sunday,13:00,LA,BUF,32,35,3,New Era Field,Home,outdoors,astroturf,2020092701
+35,2020_03_WAS_CLE,2020,REG,3,2020-09-27,Sunday,13:00,WAS,CLE,20,34,14,FirstEnergy Stadium,Home,outdoors,grass,2020092702
+36,2020_03_TEN_MIN,2020,REG,3,2020-09-27,Sunday,13:00,TEN,MIN,31,30,-1,U.S. Bank Stadium,Home,dome,sportturf,2020092703
+37,2020_03_LV_NE,2020,REG,3,2020-09-27,Sunday,13:00,LV,NE,20,36,16,Gillette Stadium,Home,outdoors,grass,2020092704
+38,2020_03_SF_NYG,2020,REG,3,2020-09-27,Sunday,13:00,SF,NYG,36,9,-27,MetLife Stadium,Home,outdoors,fieldturf ,2020092705
+39,2020_03_CIN_PHI,2020,REG,3,2020-09-27,Sunday,13:00,CIN,PHI,23,23,0,Lincoln Financial Field,Home,outdoors,grass,2020092706
+40,2020_03_HOU_PIT,2020,REG,3,2020-09-27,Sunday,13:00,HOU,PIT,21,28,7,Heinz Field,Home,outdoors,grass,2020092707
+41,2020_03_NYJ_IND,2020,REG,3,2020-09-27,Sunday,16:05,NYJ,IND,7,36,29,Lucas Oil Stadium,Home,closed,fieldturf,2020092708
+42,2020_03_CAR_LAC,2020,REG,3,2020-09-27,Sunday,16:05,CAR,LAC,21,16,-5,SoFi Stadium,Home,dome,matrixturf,2020092709
+43,2020_03_DET_ARI,2020,REG,3,2020-09-27,Sunday,16:25,DET,ARI,26,23,-3,State Farm Stadium,Home,closed,grass,2020092710
+44,2020_03_TB_DEN,2020,REG,3,2020-09-27,Sunday,16:25,TB,DEN,28,10,-18,Empower Field at Mile High,Home,outdoors,grass,2020092711
+45,2020_03_DAL_SEA,2020,REG,3,2020-09-27,Sunday,16:25,DAL,SEA,31,38,7,CenturyLink Field,Home,outdoors,fieldturf,2020092712
+46,2020_03_GB_NO,2020,REG,3,2020-09-27,Sunday,20:20,GB,NO,37,30,-7,Mercedes-Benz Superdome,Home,dome,astroturf,2020092713
+47,2020_03_KC_BAL,2020,REG,3,2020-09-28,Monday,20:15,KC,BAL,34,20,-14,M&T Bank Stadium,Home,outdoors,grass,2020092800
+48,2020_04_DEN_NYJ,2020,REG,4,2020-10-01,Thursday,20:20,DEN,NYJ,37,28,-9,MetLife Stadium,Home,outdoors,fieldturf ,2020100100
+49,2020_04_ARI_CAR,2020,REG,4,2020-10-04,Sunday,13:00,ARI,CAR,21,31,10,Bank of America Stadium,Home,outdoors,grass,2020100400
+50,2020_04_JAX_CIN,2020,REG,4,2020-10-04,Sunday,13:00,JAX,CIN,25,33,8,Paul Brown Stadium,Home,outdoors,grass,2020100402
+51,2020_04_CLE_DAL,2020,REG,4,2020-10-04,Sunday,13:00,CLE,DAL,49,38,-11,AT&T Stadium,Home,closed,fieldturf,2020100403
+52,2020_04_NO_DET,2020,REG,4,2020-10-04,Sunday,13:00,NO,DET,35,29,-6,Ford Field,Home,dome,fieldturf,2020100404
+53,2020_04_MIN_HOU,2020,REG,4,2020-10-04,Sunday,13:00,MIN,HOU,31,23,-8,NRG Stadium,Home,closed,grass,2020100405
+54,2020_04_SEA_MIA,2020,REG,4,2020-10-04,Sunday,13:00,SEA,MIA,31,23,-8,Hard Rock Stadium,Home,outdoors,grass,2020100406
+55,2020_04_LAC_TB,2020,REG,4,2020-10-04,Sunday,13:00,LAC,TB,31,38,7,Raymond James Stadium,Home,outdoors,grass,2020100407
+56,2020_04_BAL_WAS,2020,REG,4,2020-10-04,Sunday,13:00,BAL,WAS,31,17,-14,FedExField,Home,outdoors,grass,2020100409
+57,2020_04_NYG_LA,2020,REG,4,2020-10-04,Sunday,16:05,NYG,LA,9,17,8,SoFi Stadium,Home,dome,matrixturf,2020100410
+58,2020_04_IND_CHI,2020,REG,4,2020-10-04,Sunday,16:25,IND,CHI,19,11,-8,Soldier Field,Home,outdoors,grass,2020100401
+59,2020_04_BUF_LV,2020,REG,4,2020-10-04,Sunday,16:25,BUF,LV,30,23,-7,Allegiant Stadium,Home,dome,grass,2020100412
+60,2020_04_PHI_SF,2020,REG,4,2020-10-04,Sunday,20:20,PHI,SF,25,20,-5,Levi's Stadium,Home,outdoors,grass,2020100413
+61,2020_04_NE_KC,2020,REG,4,2020-10-05,Monday,19:05,NE,KC,10,26,16,Arrowhead Stadium,Home,outdoors,astroturf,2020100501
+62,2020_04_ATL_GB,2020,REG,4,2020-10-05,Monday,21:00,ATL,GB,16,30,14,Lambeau Field,Home,outdoors,grass,2020100500
+63,2020_05_TB_CHI,2020,REG,5,2020-10-08,Thursday,20:20,TB,CHI,19,20,1,Soldier Field,Home,outdoors,grass,2020100800
+64,2020_05_CAR_ATL,2020,REG,5,2020-10-11,Sunday,13:00,CAR,ATL,23,16,-7,Mercedes-Benz Stadium,Home,closed,fieldturf,2020101100
+65,2020_05_CIN_BAL,2020,REG,5,2020-10-11,Sunday,13:00,CIN,BAL,3,27,24,M&T Bank Stadium,Home,outdoors,grass,2020101101
+66,2020_05_JAX_HOU,2020,REG,5,2020-10-11,Sunday,13:00,JAX,HOU,14,30,16,NRG Stadium,Home,closed,grass,2020101102
+67,2020_05_LV_KC,2020,REG,5,2020-10-11,Sunday,13:00,LV,KC,40,32,-8,Arrowhead Stadium,Home,outdoors,astroturf,2020101103
+68,2020_05_ARI_NYJ,2020,REG,5,2020-10-11,Sunday,13:00,ARI,NYJ,30,10,-20,MetLife Stadium,Home,outdoors,fieldturf ,2020101105
+69,2020_05_PHI_PIT,2020,REG,5,2020-10-11,Sunday,13:00,PHI,PIT,29,38,9,Heinz Field,Home,outdoors,grass,2020101106
+70,2020_05_LA_WAS,2020,REG,5,2020-10-11,Sunday,13:00,LA,WAS,30,10,-20,FedExField,Home,outdoors,grass,2020101108
+71,2020_05_MIA_SF,2020,REG,5,2020-10-11,Sunday,16:05,MIA,SF,43,17,-26,Levi's Stadium,Home,outdoors,grass,2020101109
+72,2020_05_IND_CLE,2020,REG,5,2020-10-11,Sunday,16:25,IND,CLE,23,32,9,FirstEnergy Stadium,Home,outdoors,grass,2020101110
+73,2020_05_NYG_DAL,2020,REG,5,2020-10-11,Sunday,16:25,NYG,DAL,34,37,3,AT&T Stadium,Home,closed,fieldturf,2020101111
+74,2020_05_MIN_SEA,2020,REG,5,2020-10-11,Sunday,20:20,MIN,SEA,26,27,1,CenturyLink Field,Home,outdoors,fieldturf,2020101112
+75,2020_05_LAC_NO,2020,REG,5,2020-10-12,Monday,20:15,LAC,NO,27,30,3,Mercedes-Benz Superdome,Home,dome,astroturf,2020101200
+76,2020_05_BUF_TEN,2020,REG,5,2020-10-13,Tuesday,19:00,BUF,TEN,16,42,26,Nissan Stadium,Home,outdoors,grass,2020101300
+77,2020_06_CHI_CAR,2020,REG,6,2020-10-18,Sunday,13:00,CHI,CAR,23,16,-7,Bank of America Stadium,Home,outdoors,grass,2020101800
+78,2020_06_CIN_IND,2020,REG,6,2020-10-18,Sunday,13:00,CIN,IND,27,31,4,Lucas Oil Stadium,Home,closed,fieldturf,2020101801
+79,2020_06_DET_JAX,2020,REG,6,2020-10-18,Sunday,13:00,DET,JAX,34,16,-18,TIAA Bank Stadium,Home,outdoors,grass,2020101802
+80,2020_06_ATL_MIN,2020,REG,6,2020-10-18,Sunday,13:00,ATL,MIN,40,23,-17,U.S. Bank Stadium,Home,dome,sportturf,2020101803
+81,2020_06_DEN_NE,2020,REG,6,2020-10-18,Sunday,13:00,DEN,NE,18,12,-6,Gillette Stadium,Home,outdoors,grass,2020101812
+82,2020_06_WAS_NYG,2020,REG,6,2020-10-18,Sunday,13:00,WAS,NYG,19,20,1,MetLife Stadium,Home,outdoors,fieldturf ,2020101804
+83,2020_06_BAL_PHI,2020,REG,6,2020-10-18,Sunday,13:00,BAL,PHI,30,28,-2,Lincoln Financial Field,Home,outdoors,grass,2020101805
+84,2020_06_CLE_PIT,2020,REG,6,2020-10-18,Sunday,13:00,CLE,PIT,7,38,31,Heinz Field,Home,outdoors,grass,2020101806
+85,2020_06_HOU_TEN,2020,REG,6,2020-10-18,Sunday,13:00,HOU,TEN,36,42,6,Nissan Stadium,Home,outdoors,grass,2020101807
+86,2020_06_NYJ_MIA,2020,REG,6,2020-10-18,Sunday,16:05,NYJ,MIA,0,24,24,Hard Rock Stadium,Home,outdoors,grass,2020101813
+87,2020_06_GB_TB,2020,REG,6,2020-10-18,Sunday,16:25,GB,TB,10,38,28,Raymond James Stadium,Home,outdoors,grass,2020101810
+88,2020_06_LA_SF,2020,REG,6,2020-10-18,Sunday,20:20,LA,SF,16,24,8,Levi's Stadium,Home,outdoors,grass,2020101811
+89,2020_06_KC_BUF,2020,REG,6,2020-10-19,Monday,17:00,KC,BUF,26,17,-9,New Era Field,Home,outdoors,astroturf,2020101901
+90,2020_06_ARI_DAL,2020,REG,6,2020-10-19,Monday,20:15,ARI,DAL,38,10,-28,AT&T Stadium,Home,closed,fieldturf,2020101900
+91,2020_07_NYG_PHI,2020,REG,7,2020-10-22,Thursday,20:20,NYG,PHI,21,22,1,Lincoln Financial Field,Home,outdoors,grass,2020102200
+92,2020_07_DET_ATL,2020,REG,7,2020-10-25,Sunday,13:00,DET,ATL,23,22,-1,Mercedes-Benz Stadium,Home,closed,fieldturf,2020102500
+93,2020_07_CLE_CIN,2020,REG,7,2020-10-25,Sunday,13:00,CLE,CIN,37,34,-3,Paul Brown Stadium,Home,outdoors,grass,2020102502
+94,2020_07_GB_HOU,2020,REG,7,2020-10-25,Sunday,13:00,GB,HOU,35,20,-15,NRG Stadium,Home,closed,grass,2020102503
+95,2020_07_CAR_NO,2020,REG,7,2020-10-25,Sunday,13:00,CAR,NO,24,27,3,Mercedes-Benz Superdome,Home,dome,astroturf,2020102505
+96,2020_07_BUF_NYJ,2020,REG,7,2020-10-25,Sunday,13:00,BUF,NYJ,18,10,-8,MetLife Stadium,Home,outdoors,fieldturf ,2020102506
+97,2020_07_PIT_TEN,2020,REG,7,2020-10-25,Sunday,13:00,PIT,TEN,27,24,-3,Nissan Stadium,Home,outdoors,grass,2020102512
+98,2020_07_DAL_WAS,2020,REG,7,2020-10-25,Sunday,13:00,DAL,WAS,3,25,22,FedExField,Home,outdoors,grass,2020102507
+99,2020_07_TB_LV,2020,REG,7,2020-10-25,Sunday,16:05,TB,LV,45,20,-25,Allegiant Stadium,Home,dome,grass,2020102511
+100,2020_07_KC_DEN,2020,REG,7,2020-10-25,Sunday,16:25,KC,DEN,43,16,-27,Empower Field at Mile High,Home,outdoors,grass,2020102509
+101,2020_07_JAX_LAC,2020,REG,7,2020-10-25,Sunday,16:25,JAX,LAC,29,39,10,SoFi Stadium,Home,dome,matrixturf,2020102513
+102,2020_07_SF_NE,2020,REG,7,2020-10-25,Sunday,16:25,SF,NE,33,6,-27,Gillette Stadium,Home,outdoors,grass,2020102510
+103,2020_07_SEA_ARI,2020,REG,7,2020-10-25,Sunday,20:20,SEA,ARI,34,37,3,State Farm Stadium,Home,closed,grass,2020102508
+104,2020_07_CHI_LA,2020,REG,7,2020-10-26,Monday,20:15,CHI,LA,10,24,14,SoFi Stadium,Home,dome,matrixturf,2020102600
+105,2020_08_ATL_CAR,2020,REG,8,2020-10-29,Thursday,20:20,ATL,CAR,25,17,-8,Bank of America Stadium,Home,outdoors,grass,2020102900
+106,2020_08_PIT_BAL,2020,REG,8,2020-11-01,Sunday,13:00,PIT,BAL,28,24,-4,M&T Bank Stadium,Home,outdoors,grass,2020110111
+107,2020_08_NE_BUF,2020,REG,8,2020-11-01,Sunday,13:00,NE,BUF,21,24,3,New Era Field,Home,outdoors,astroturf,2020110100
+108,2020_08_TEN_CIN,2020,REG,8,2020-11-01,Sunday,13:00,TEN,CIN,20,31,11,Paul Brown Stadium,Home,outdoors,grass,2020110101
+109,2020_08_LV_CLE,2020,REG,8,2020-11-01,Sunday,13:00,LV,CLE,16,6,-10,FirstEnergy Stadium,Home,outdoors,grass,2020110102
+110,2020_08_IND_DET,2020,REG,8,2020-11-01,Sunday,13:00,IND,DET,41,21,-20,Ford Field,Home,dome,fieldturf,2020110103
+111,2020_08_MIN_GB,2020,REG,8,2020-11-01,Sunday,13:00,MIN,GB,28,22,-6,Lambeau Field,Home,outdoors,grass,2020110104
+112,2020_08_NYJ_KC,2020,REG,8,2020-11-01,Sunday,13:00,NYJ,KC,9,35,26,Arrowhead Stadium,Home,outdoors,astroturf,2020110105
+113,2020_08_LA_MIA,2020,REG,8,2020-11-01,Sunday,13:00,LA,MIA,17,28,11,Hard Rock Stadium,Home,outdoors,grass,2020110106
+114,2020_08_LAC_DEN,2020,REG,8,2020-11-01,Sunday,16:05,LAC,DEN,30,31,1,Empower Field at Mile High,Home,outdoors,grass,2020110112
+115,2020_08_NO_CHI,2020,REG,8,2020-11-01,Sunday,16:25,NO,CHI,26,23,-3,Soldier Field,Home,outdoors,grass,2020110108
+116,2020_08_SF_SEA,2020,REG,8,2020-11-01,Sunday,16:25,SF,SEA,27,37,10,CenturyLink Field,Home,outdoors,fieldturf,2020110109
+117,2020_08_DAL_PHI,2020,REG,8,2020-11-01,Sunday,20:20,DAL,PHI,9,23,14,Lincoln Financial Field,Home,outdoors,grass,2020110110
+118,2020_08_TB_NYG,2020,REG,8,2020-11-02,Monday,20:15,TB,NYG,25,23,-2,MetLife Stadium,Home,outdoors,fieldturf ,2020110200
+119,2020_09_GB_SF,2020,REG,9,2020-11-05,Thursday,20:20,GB,SF,34,17,-17,Levi's Stadium,Home,outdoors,grass,2020110500
+120,2020_09_DEN_ATL,2020,REG,9,2020-11-08,Sunday,13:00,DEN,ATL,27,34,7,Mercedes-Benz Stadium,Home,closed,fieldturf,2020110800
+121,2020_09_SEA_BUF,2020,REG,9,2020-11-08,Sunday,13:00,SEA,BUF,34,44,10,New Era Field,Home,outdoors,astroturf,2020110801
+122,2020_09_BAL_IND,2020,REG,9,2020-11-08,Sunday,13:00,BAL,IND,24,10,-14,Lucas Oil Stadium,Home,closed,fieldturf,2020110802
+123,2020_09_HOU_JAX,2020,REG,9,2020-11-08,Sunday,13:00,HOU,JAX,27,25,-2,TIAA Bank Stadium,Home,outdoors,grass,2020110803
+124,2020_09_CAR_KC,2020,REG,9,2020-11-08,Sunday,13:00,CAR,KC,31,33,2,Arrowhead Stadium,Home,outdoors,astroturf,2020110804
+125,2020_09_DET_MIN,2020,REG,9,2020-11-08,Sunday,13:00,DET,MIN,20,34,14,U.S. Bank Stadium,Home,dome,sportturf,2020110805
+126,2020_09_CHI_TEN,2020,REG,9,2020-11-08,Sunday,13:00,CHI,TEN,17,24,7,Nissan Stadium,Home,outdoors,grass,2020110806
+127,2020_09_NYG_WAS,2020,REG,9,2020-11-08,Sunday,13:00,NYG,WAS,23,20,-3,FedExField,Home,outdoors,grass,2020110807
+128,2020_09_LV_LAC,2020,REG,9,2020-11-08,Sunday,16:05,LV,LAC,31,26,-5,SoFi Stadium,Home,dome,matrixturf,2020110808
+129,2020_09_MIA_ARI,2020,REG,9,2020-11-08,Sunday,16:25,MIA,ARI,34,31,-3,State Farm Stadium,Home,closed,grass,2020110809
+130,2020_09_PIT_DAL,2020,REG,9,2020-11-08,Sunday,16:25,PIT,DAL,24,19,-5,AT&T Stadium,Home,closed,fieldturf,2020110810
+131,2020_09_NO_TB,2020,REG,9,2020-11-08,Sunday,20:20,NO,TB,38,3,-35,Raymond James Stadium,Home,outdoors,grass,2020110811
+132,2020_09_NE_NYJ,2020,REG,9,2020-11-09,Monday,20:15,NE,NYJ,30,27,-3,MetLife Stadium,Home,outdoors,fieldturf ,2020110900
+133,2020_10_IND_TEN,2020,REG,10,2020-11-12,Thursday,20:20,IND,TEN,34,17,-17,Nissan Stadium,Home,outdoors,grass,2020111200
+134,2020_10_TB_CAR,2020,REG,10,2020-11-15,Sunday,13:00,TB,CAR,46,23,-23,Bank of America Stadium,Home,outdoors,grass,2020111500
+135,2020_10_HOU_CLE,2020,REG,10,2020-11-15,Sunday,13:00,HOU,CLE,7,10,3,FirstEnergy Stadium,Home,outdoors,grass,2020111501
+136,2020_10_WAS_DET,2020,REG,10,2020-11-15,Sunday,13:00,WAS,DET,27,30,3,Ford Field,Home,dome,fieldturf,2020111502
+137,2020_10_JAX_GB,2020,REG,10,2020-11-15,Sunday,13:00,JAX,GB,20,24,4,Lambeau Field,Home,outdoors,grass,2020111503
+138,2020_10_PHI_NYG,2020,REG,10,2020-11-15,Sunday,13:00,PHI,NYG,17,27,10,MetLife Stadium,Home,outdoors,fieldturf ,2020111504
+139,2020_10_BUF_ARI,2020,REG,10,2020-11-15,Sunday,16:05,BUF,ARI,30,32,2,State Farm Stadium,Home,closed,grass,2020111506
+140,2020_10_DEN_LV,2020,REG,10,2020-11-15,Sunday,16:05,DEN,LV,12,37,25,Allegiant Stadium,Home,dome,grass,2020111507
+141,2020_10_LAC_MIA,2020,REG,10,2020-11-15,Sunday,16:05,LAC,MIA,21,29,8,Hard Rock Stadium,Home,outdoors,grass,2020111512
+142,2020_10_SEA_LA,2020,REG,10,2020-11-15,Sunday,16:25,SEA,LA,16,23,7,SoFi Stadium,Home,dome,matrixturf,2020111509
+143,2020_10_SF_NO,2020,REG,10,2020-11-15,Sunday,16:25,SF,NO,13,27,14,Mercedes-Benz Superdome,Home,dome,astroturf,2020111510
+144,2020_10_CIN_PIT,2020,REG,10,2020-11-15,Sunday,16:25,CIN,PIT,10,36,26,Heinz Field,Home,outdoors,grass,2020111505
+145,2020_10_BAL_NE,2020,REG,10,2020-11-15,Sunday,20:20,BAL,NE,17,23,6,Gillette Stadium,Home,outdoors,grass,2020111511
+146,2020_10_MIN_CHI,2020,REG,10,2020-11-16,Monday,20:15,MIN,CHI,19,13,-6,Soldier Field,Home,outdoors,grass,2020111600
+147,2020_11_ARI_SEA,2020,REG,11,2020-11-19,Thursday,20:20,ARI,SEA,21,28,7,Lumen Field,Home,outdoors,fieldturf,2020111900
+148,2020_11_TEN_BAL,2020,REG,11,2020-11-22,Sunday,13:00,TEN,BAL,30,24,-6,M&T Bank Stadium,Home,outdoors,grass,2020112200
+149,2020_11_DET_CAR,2020,REG,11,2020-11-22,Sunday,13:00,DET,CAR,0,20,20,Bank of America Stadium,Home,outdoors,grass,2020112201
+150,2020_11_PHI_CLE,2020,REG,11,2020-11-22,Sunday,13:00,PHI,CLE,17,22,5,FirstEnergy Stadium,Home,outdoors,grass,2020112202
+151,2020_11_NE_HOU,2020,REG,11,2020-11-22,Sunday,13:00,NE,HOU,20,27,7,NRG Stadium,Home,closed,grass,2020112203
+152,2020_11_PIT_JAX,2020,REG,11,2020-11-22,Sunday,13:00,PIT,JAX,27,3,-24,TIAA Bank Stadium,Home,outdoors,grass,2020112205
+153,2020_11_ATL_NO,2020,REG,11,2020-11-22,Sunday,13:00,ATL,NO,9,24,15,Mercedes-Benz Superdome,Home,dome,astroturf,2020112206
+154,2020_11_CIN_WAS,2020,REG,11,2020-11-22,Sunday,13:00,CIN,WAS,9,20,11,FedExField,Home,outdoors,grass,2020112207
+155,2020_11_MIA_DEN,2020,REG,11,2020-11-22,Sunday,16:05,MIA,DEN,13,20,7,Empower Field at Mile High,Home,outdoors,grass,2020112211
+156,2020_11_NYJ_LAC,2020,REG,11,2020-11-22,Sunday,16:05,NYJ,LAC,28,34,6,SoFi Stadium,Home,dome,matrixturf,2020112212
+157,2020_11_GB_IND,2020,REG,11,2020-11-22,Sunday,16:25,GB,IND,31,34,3,Lucas Oil Stadium,Home,closed,fieldturf,2020112204
+158,2020_11_DAL_MIN,2020,REG,11,2020-11-22,Sunday,16:25,DAL,MIN,31,28,-3,U.S. Bank Stadium,Home,dome,sportturf,2020112209
+159,2020_11_KC_LV,2020,REG,11,2020-11-22,Sunday,20:20,KC,LV,35,31,-4,Allegiant Stadium,Home,dome,grass,2020112210
+160,2020_11_LA_TB,2020,REG,11,2020-11-23,Monday,20:15,LA,TB,27,24,-3,Raymond James Stadium,Home,outdoors,grass,2020112300
+161,2020_12_HOU_DET,2020,REG,12,2020-11-26,Thursday,12:30,HOU,DET,41,25,-16,Ford Field,Home,dome,fieldturf,2020112600
+162,2020_12_WAS_DAL,2020,REG,12,2020-11-26,Thursday,16:30,WAS,DAL,41,16,-25,AT&T Stadium,Home,closed,fieldturf,2020112601
+163,2020_12_LV_ATL,2020,REG,12,2020-11-29,Sunday,13:00,LV,ATL,6,43,37,Mercedes-Benz Stadium,Home,closed,fieldturf,2020112900
+164,2020_12_LAC_BUF,2020,REG,12,2020-11-29,Sunday,13:00,LAC,BUF,17,27,10,New Era Field,Home,outdoors,astroturf,2020112901
+165,2020_12_NYG_CIN,2020,REG,12,2020-11-29,Sunday,13:00,NYG,CIN,19,17,-2,Paul Brown Stadium,Home,outdoors,grass,2020112902
+166,2020_12_TEN_IND,2020,REG,12,2020-11-29,Sunday,13:00,TEN,IND,45,26,-19,Lucas Oil Stadium,Home,closed,fieldturf,2020112903
+167,2020_12_CLE_JAX,2020,REG,12,2020-11-29,Sunday,13:00,CLE,JAX,27,25,-2,TIAA Bank Stadium,Home,outdoors,grass,2020112904
+168,2020_12_CAR_MIN,2020,REG,12,2020-11-29,Sunday,13:00,CAR,MIN,27,28,1,U.S. Bank Stadium,Home,dome,sportturf,2020112905
+169,2020_12_ARI_NE,2020,REG,12,2020-11-29,Sunday,13:00,ARI,NE,17,20,3,Gillette Stadium,Home,outdoors,grass,2020112906
+170,2020_12_MIA_NYJ,2020,REG,12,2020-11-29,Sunday,13:00,MIA,NYJ,20,3,-17,MetLife Stadium,Home,outdoors,fieldturf ,2020112907
+171,2020_12_NO_DEN,2020,REG,12,2020-11-29,Sunday,16:05,NO,DEN,31,3,-28,Empower Field at Mile High,Home,outdoors,grass,2020112908
+172,2020_12_SF_LA,2020,REG,12,2020-11-29,Sunday,16:05,SF,LA,23,20,-3,SoFi Stadium,Home,dome,matrixturf,2020112909
+173,2020_12_KC_TB,2020,REG,12,2020-11-29,Sunday,16:25,KC,TB,27,24,-3,Raymond James Stadium,Home,outdoors,grass,2020112910
+174,2020_12_CHI_GB,2020,REG,12,2020-11-29,Sunday,20:20,CHI,GB,25,41,16,Lambeau Field,Home,outdoors,grass,2020112911
+175,2020_12_SEA_PHI,2020,REG,12,2020-11-30,Monday,20:15,SEA,PHI,23,17,-6,Lincoln Financial Field,Home,outdoors,grass,2020113000
+176,2020_12_BAL_PIT,2020,REG,12,2020-12-02,Wednesday,15:40,BAL,PIT,14,19,5,Heinz Field,Home,outdoors,grass,2020120200
+177,2020_13_NO_ATL,2020,REG,13,2020-12-06,Sunday,13:00,NO,ATL,21,16,-5,Mercedes-Benz Stadium,Home,closed,fieldturf,2020120600
+178,2020_13_DET_CHI,2020,REG,13,2020-12-06,Sunday,13:00,DET,CHI,34,30,-4,Soldier Field,Home,outdoors,grass,2020120601
+179,2020_13_IND_HOU,2020,REG,13,2020-12-06,Sunday,13:00,IND,HOU,26,20,-6,NRG Stadium,Home,closed,grass,2020120602
+180,2020_13_CIN_MIA,2020,REG,13,2020-12-06,Sunday,13:00,CIN,MIA,7,19,12,Hard Rock Stadium,Home,outdoors,grass,2020120603
+181,2020_13_JAX_MIN,2020,REG,13,2020-12-06,Sunday,13:00,JAX,MIN,24,27,3,U.S. Bank Stadium,Home,dome,sportturf,2020120604
+182,2020_13_LV_NYJ,2020,REG,13,2020-12-06,Sunday,13:00,LV,NYJ,31,28,-3,MetLife Stadium,Home,outdoors,fieldturf ,2020120605
+183,2020_13_CLE_TEN,2020,REG,13,2020-12-06,Sunday,13:00,CLE,TEN,41,35,-6,Nissan Stadium,Home,outdoors,grass,2020120607
+184,2020_13_LA_ARI,2020,REG,13,2020-12-06,Sunday,16:05,LA,ARI,38,28,-10,State Farm Stadium,Home,closed,grass,2020120608
+185,2020_13_NYG_SEA,2020,REG,13,2020-12-06,Sunday,16:05,NYG,SEA,17,12,-5,Lumen Field,Home,outdoors,fieldturf,2020120609
+186,2020_13_PHI_GB,2020,REG,13,2020-12-06,Sunday,16:25,PHI,GB,16,30,14,Lambeau Field,Home,outdoors,grass,2020120610
+187,2020_13_NE_LAC,2020,REG,13,2020-12-06,Sunday,16:25,NE,LAC,45,0,-45,SoFi Stadium,Home,dome,matrixturf,2020120611
+188,2020_13_DEN_KC,2020,REG,13,2020-12-06,Sunday,20:20,DEN,KC,16,22,6,Arrowhead Stadium,Home,outdoors,astroturf,2020120612
+189,2020_13_WAS_PIT,2020,REG,13,2020-12-07,Monday,17:00,WAS,PIT,23,17,-6,Heinz Field,Home,outdoors,grass,2020120702
+190,2020_13_BUF_SF,2020,REG,13,2020-12-07,Monday,20:15,BUF,SF,34,24,-10,State Farm Stadium,Neutral,closed,grass,2020120700
+191,2020_13_DAL_BAL,2020,REG,13,2020-12-08,Tuesday,20:05,DAL,BAL,17,34,17,M&T Bank Stadium,Home,outdoors,grass,2020120800
+192,2020_14_NE_LA,2020,REG,14,2020-12-10,Thursday,20:20,NE,LA,3,24,21,SoFi Stadium,Home,dome,matrixturf,2020121000
+193,2020_14_DEN_CAR,2020,REG,14,2020-12-13,Sunday,13:00,DEN,CAR,32,27,-5,Bank of America Stadium,Home,outdoors,grass,2020121300
+194,2020_14_HOU_CHI,2020,REG,14,2020-12-13,Sunday,13:00,HOU,CHI,7,36,29,Soldier Field,Home,outdoors,grass,2020121301
+195,2020_14_DAL_CIN,2020,REG,14,2020-12-13,Sunday,13:00,DAL,CIN,30,7,-23,Paul Brown Stadium,Home,outdoors,grass,2020121302
+196,2020_14_TEN_JAX,2020,REG,14,2020-12-13,Sunday,13:00,TEN,JAX,31,10,-21,TIAA Bank Stadium,Home,outdoors,grass,2020121304
+197,2020_14_KC_MIA,2020,REG,14,2020-12-13,Sunday,13:00,KC,MIA,33,27,-6,Hard Rock Stadium,Home,outdoors,grass,2020121305
+198,2020_14_ARI_NYG,2020,REG,14,2020-12-13,Sunday,13:00,ARI,NYG,26,7,-19,MetLife Stadium,Home,outdoors,fieldturf ,2020121306
+199,2020_14_MIN_TB,2020,REG,14,2020-12-13,Sunday,13:00,MIN,TB,14,26,12,Raymond James Stadium,Home,outdoors,grass,2020121307
+200,2020_14_IND_LV,2020,REG,14,2020-12-13,Sunday,16:05,IND,LV,44,27,-17,Allegiant Stadium,Home,dome,grass,2020121308
+201,2020_14_NYJ_SEA,2020,REG,14,2020-12-13,Sunday,16:05,NYJ,SEA,3,40,37,Lumen Field,Home,outdoors,fieldturf,2020121309
+202,2020_14_GB_DET,2020,REG,14,2020-12-13,Sunday,16:25,GB,DET,31,24,-7,Ford Field,Home,dome,fieldturf,2020121303
+203,2020_14_ATL_LAC,2020,REG,14,2020-12-13,Sunday,16:25,ATL,LAC,17,20,3,SoFi Stadium,Home,dome,matrixturf,2020121310
+204,2020_14_NO_PHI,2020,REG,14,2020-12-13,Sunday,16:25,NO,PHI,21,24,3,Lincoln Financial Field,Home,outdoors,grass,2020121311
+205,2020_14_WAS_SF,2020,REG,14,2020-12-13,Sunday,16:25,WAS,SF,23,15,-8,State Farm Stadium,Neutral,closed,grass,2020121312
+206,2020_14_PIT_BUF,2020,REG,14,2020-12-13,Sunday,20:20,PIT,BUF,15,26,11,New Era Field,Home,outdoors,astroturf,2020121313
+207,2020_14_BAL_CLE,2020,REG,14,2020-12-14,Monday,20:15,BAL,CLE,47,42,-5,FirstEnergy Stadium,Home,outdoors,grass,2020121400
+208,2020_15_LAC_LV,2020,REG,15,2020-12-17,Thursday,20:20,LAC,LV,30,27,-3,Allegiant Stadium,Home,dome,grass,2020121700
+209,2020_15_BUF_DEN,2020,REG,15,2020-12-19,Saturday,16:30,BUF,DEN,48,19,-29,Empower Field at Mile High,Home,outdoors,grass,2020121900
+210,2020_15_CAR_GB,2020,REG,15,2020-12-19,Saturday,20:15,CAR,GB,16,24,8,Lambeau Field,Home,outdoors,grass,2020121901
+211,2020_15_TB_ATL,2020,REG,15,2020-12-20,Sunday,13:00,TB,ATL,31,27,-4,Mercedes-Benz Stadium,Home,closed,fieldturf,2020122005
+212,2020_15_JAX_BAL,2020,REG,15,2020-12-20,Sunday,13:00,JAX,BAL,14,40,26,M&T Bank Stadium,Home,outdoors,grass,2020122006
+213,2020_15_SF_DAL,2020,REG,15,2020-12-20,Sunday,13:00,SF,DAL,33,41,8,AT&T Stadium,Home,closed,fieldturf,2020122013
+214,2020_15_HOU_IND,2020,REG,15,2020-12-20,Sunday,13:00,HOU,IND,20,27,7,Lucas Oil Stadium,Home,closed,fieldturf,2020122002
+215,2020_15_NE_MIA,2020,REG,15,2020-12-20,Sunday,13:00,NE,MIA,12,22,10,Hard Rock Stadium,Home,outdoors,grass,2020122007
+216,2020_15_CHI_MIN,2020,REG,15,2020-12-20,Sunday,13:00,CHI,MIN,33,27,-6,U.S. Bank Stadium,Home,dome,sportturf,2020122008
+217,2020_15_DET_TEN,2020,REG,15,2020-12-20,Sunday,13:00,DET,TEN,25,46,21,Nissan Stadium,Home,outdoors,grass,2020122004
+218,2020_15_SEA_WAS,2020,REG,15,2020-12-20,Sunday,13:00,SEA,WAS,20,15,-5,FedExField,Home,outdoors,grass,2020122010
+219,2020_15_PHI_ARI,2020,REG,15,2020-12-20,Sunday,16:05,PHI,ARI,26,33,7,State Farm Stadium,Home,closed,grass,2020122011
+220,2020_15_NYJ_LA,2020,REG,15,2020-12-20,Sunday,16:05,NYJ,LA,23,20,-3,SoFi Stadium,Home,dome,matrixturf,2020122003
+221,2020_15_KC_NO,2020,REG,15,2020-12-20,Sunday,16:25,KC,NO,32,29,-3,Mercedes-Benz Superdome,Home,dome,astroturf,2020122012
+222,2020_15_CLE_NYG,2020,REG,15,2020-12-20,Sunday,20:20,CLE,NYG,20,6,-14,MetLife Stadium,Home,outdoors,fieldturf ,2020122009
+223,2020_15_PIT_CIN,2020,REG,15,2020-12-21,Monday,20:15,PIT,CIN,17,27,10,Paul Brown Stadium,Home,outdoors,grass,2020122100
+224,2020_16_MIN_NO,2020,REG,16,2020-12-25,Friday,16:30,MIN,NO,33,52,19,Mercedes-Benz Superdome,Home,dome,astroturf,2020122500
+225,2020_16_TB_DET,2020,REG,16,2020-12-26,Saturday,13:00,TB,DET,47,7,-40,Ford Field,Home,dome,fieldturf,2020122600
+226,2020_16_SF_ARI,2020,REG,16,2020-12-26,Saturday,16:30,SF,ARI,20,12,-8,State Farm Stadium,Home,closed,grass,2020122601
+227,2020_16_MIA_LV,2020,REG,16,2020-12-26,Saturday,20:15,MIA,LV,26,25,-1,Allegiant Stadium,Home,dome,grass,2020122602
+228,2020_16_NYG_BAL,2020,REG,16,2020-12-27,Sunday,13:00,NYG,BAL,13,27,14,M&T Bank Stadium,Home,outdoors,grass,2020122705
+229,2020_16_CIN_HOU,2020,REG,16,2020-12-27,Sunday,13:00,CIN,HOU,37,31,-6,NRG Stadium,Home,closed,grass,2020122706
+230,2020_16_CHI_JAX,2020,REG,16,2020-12-27,Sunday,13:00,CHI,JAX,41,17,-24,TIAA Bank Stadium,Home,outdoors,grass,2020122707
+231,2020_16_ATL_KC,2020,REG,16,2020-12-27,Sunday,13:00,ATL,KC,14,17,3,Arrowhead Stadium,Home,outdoors,astroturf,2020122708
+232,2020_16_CLE_NYJ,2020,REG,16,2020-12-27,Sunday,13:00,CLE,NYJ,16,23,7,MetLife Stadium,Home,outdoors,fieldturf ,2020122704
+233,2020_16_IND_PIT,2020,REG,16,2020-12-27,Sunday,13:00,IND,PIT,24,28,4,Heinz Field,Home,outdoors,grass,2020122709
+234,2020_16_DEN_LAC,2020,REG,16,2020-12-27,Sunday,16:05,DEN,LAC,16,19,3,SoFi Stadium,Home,dome,matrixturf,2020122702
+235,2020_16_CAR_WAS,2020,REG,16,2020-12-27,Sunday,16:05,CAR,WAS,20,13,-7,FedExField,Home,outdoors,grass,2020122710
+236,2020_16_PHI_DAL,2020,REG,16,2020-12-27,Sunday,16:25,PHI,DAL,17,37,20,AT&T Stadium,Home,closed,fieldturf,2020122712
+237,2020_16_LA_SEA,2020,REG,16,2020-12-27,Sunday,16:25,LA,SEA,9,20,11,Lumen Field,Home,outdoors,fieldturf,2020122711
+238,2020_16_TEN_GB,2020,REG,16,2020-12-27,Sunday,20:20,TEN,GB,14,40,26,Lambeau Field,Home,outdoors,grass,2020122713
+239,2020_16_BUF_NE,2020,REG,16,2020-12-28,Monday,20:15,BUF,NE,38,9,-29,Gillette Stadium,Home,outdoors,grass,2020122800
+240,2020_17_MIA_BUF,2020,REG,17,2021-01-03,Sunday,13:00,MIA,BUF,26,56,30,New Era Field,Home,outdoors,astroturf,2021010300
+241,2020_17_BAL_CIN,2020,REG,17,2021-01-03,Sunday,13:00,BAL,CIN,38,3,-35,Paul Brown Stadium,Home,outdoors,grass,2021010303
+242,2020_17_PIT_CLE,2020,REG,17,2021-01-03,Sunday,13:00,PIT,CLE,22,24,2,FirstEnergy Stadium,Home,outdoors,grass,2021010304
+243,2020_17_MIN_DET,2020,REG,17,2021-01-03,Sunday,13:00,MIN,DET,37,35,-2,Ford Field,Home,dome,fieldturf,2021010305
+244,2020_17_NYJ_NE,2020,REG,17,2021-01-03,Sunday,13:00,NYJ,NE,14,28,14,Gillette Stadium,Home,outdoors,grass,2021010307
+245,2020_17_DAL_NYG,2020,REG,17,2021-01-03,Sunday,13:00,DAL,NYG,19,23,4,MetLife Stadium,Home,outdoors,fieldturf ,2021010308
+246,2020_17_ATL_TB,2020,REG,17,2021-01-03,Sunday,13:00,ATL,TB,27,44,17,Raymond James Stadium,Home,outdoors,grass,2021010310
+247,2020_17_NO_CAR,2020,REG,17,2021-01-03,Sunday,16:25,NO,CAR,33,7,-26,Bank of America Stadium,Home,outdoors,grass,2021010301
+248,2020_17_GB_CHI,2020,REG,17,2021-01-03,Sunday,16:25,GB,CHI,35,16,-19,Soldier Field,Home,outdoors,grass,2021010302
+249,2020_17_LV_DEN,2020,REG,17,2021-01-03,Sunday,16:25,LV,DEN,32,31,-1,Empower Field at Mile High,Home,outdoors,grass,2021010311
+250,2020_17_TEN_HOU,2020,REG,17,2021-01-03,Sunday,16:25,TEN,HOU,41,38,-3,NRG Stadium,Home,closed,grass,2021010312
+251,2020_17_JAX_IND,2020,REG,17,2021-01-03,Sunday,16:25,JAX,IND,14,28,14,Lucas Oil Stadium,Home,closed,fieldturf,2021010313
+252,2020_17_LAC_KC,2020,REG,17,2021-01-03,Sunday,16:25,LAC,KC,38,21,-17,Arrowhead Stadium,Home,outdoors,astroturf,2021010306
+253,2020_17_ARI_LA,2020,REG,17,2021-01-03,Sunday,16:25,ARI,LA,7,18,11,SoFi Stadium,Home,dome,matrixturf,2021010314
+254,2020_17_SEA_SF,2020,REG,17,2021-01-03,Sunday,16:25,SEA,SF,26,23,-3,State Farm Stadium,Neutral,closed,grass,2021010315
+255,2020_17_WAS_PHI,2020,REG,17,2021-01-03,Sunday,20:20,WAS,PHI,20,14,-6,Lincoln Financial Field,Home,outdoors,grass,2021010309
+256,2020_18_IND_BUF,2020,WC,18,2021-01-09,Saturday,13:05,IND,BUF,24,27,3,New Era Field,Home,outdoors,astroturf,2021010900
+257,2020_18_LA_SEA,2020,WC,18,2021-01-09,Saturday,16:40,LA,SEA,30,20,-10,Lumen Field,Home,outdoors,fieldturf,2021010901
+258,2020_18_TB_WAS,2020,WC,18,2021-01-09,Saturday,20:15,TB,WAS,31,23,-8,FedExField,Home,outdoors,grass,2021010902
+259,2020_18_BAL_TEN,2020,WC,18,2021-01-10,Sunday,13:05,BAL,TEN,20,13,-7,Nissan Stadium,Home,outdoors,grass,2021011000
+260,2020_18_CHI_NO,2020,WC,18,2021-01-10,Sunday,16:40,CHI,NO,9,21,12,Mercedes-Benz Superdome,Home,dome,astroturf,2021011001
+261,2020_18_CLE_PIT,2020,WC,18,2021-01-10,Sunday,20:15,CLE,PIT,48,37,-11,Heinz Field,Home,outdoors,grass,2021011002
+262,2020_19_LA_GB,2020,DIV,19,2021-01-16,Saturday,16:35,LA,GB,18,32,14,Lambeau Field,Home,outdoors,grass,2021011600
+263,2020_19_BAL_BUF,2020,DIV,19,2021-01-16,Saturday,20:15,BAL,BUF,3,17,14,New Era Field,Home,outdoors,astroturf,2021011601
+264,2020_19_CLE_KC,2020,DIV,19,2021-01-17,Sunday,15:05,CLE,KC,17,22,5,Arrowhead Stadium,Home,outdoors,astroturf,2021011700
+265,2020_19_TB_NO,2020,DIV,19,2021-01-17,Sunday,18:40,TB,NO,30,20,-10,Mercedes-Benz Superdome,Home,dome,astroturf,2021011701
+266,2020_20_TB_GB,2020,CON,20,2021-01-24,Sunday,15:05,TB,GB,31,26,-5,Lambeau Field,Home,outdoors,grass,2021012400
+267,2020_20_BUF_KC,2020,CON,20,2021-01-24,Sunday,18:40,BUF,KC,24,38,14,Arrowhead Stadium,Home,outdoors,astroturf,2021012401
+268,2020_21_KC_TB,2020,SB,21,2021-02-07,Sunday,18:30,KC,TB,9,31,22,Raymond James Stadium,Neutral,outdoors,grass,2021020700

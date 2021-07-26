@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2009_01_TEN_PIT,2009,REG,1,2009-09-10,Thursday,20:30,TEN,PIT,10,13,3,Heinz Field,Home,outdoors,dessograss,2009091000
+1,2009_01_MIA_ATL,2009,REG,1,2009-09-13,Sunday,13:00,MIA,ATL,7,19,12,Georgia Dome,Home,dome,fieldturf,2009091300
+2,2009_01_KC_BAL,2009,REG,1,2009-09-13,Sunday,13:00,KC,BAL,24,38,14,M&T Bank Stadium,Home,outdoors,sportturf,2009091301
+3,2009_01_PHI_CAR,2009,REG,1,2009-09-13,Sunday,13:00,PHI,CAR,38,10,-28,Bank of America Stadium,Home,outdoors,grass,2009091302
+4,2009_01_DEN_CIN,2009,REG,1,2009-09-13,Sunday,13:00,DEN,CIN,12,7,-5,Paul Brown Stadium,Home,outdoors,fieldturf,2009091303
+5,2009_01_MIN_CLE,2009,REG,1,2009-09-13,Sunday,13:00,MIN,CLE,34,20,-14,Cleveland Browns Stadium,Home,outdoors,grass,2009091304
+6,2009_01_NYJ_HOU,2009,REG,1,2009-09-13,Sunday,13:00,NYJ,HOU,24,7,-17,Reliant Stadium,Home,closed,grass,2009091305
+7,2009_01_JAX_IND,2009,REG,1,2009-09-13,Sunday,13:00,JAX,IND,12,14,2,Lucas Oil Stadium,Home,open,fieldturf,2009091306
+8,2009_01_DET_NO,2009,REG,1,2009-09-13,Sunday,13:00,DET,NO,27,45,18,Louisiana Superdome,Home,dome,fieldturf,2009091307
+9,2009_01_DAL_TB,2009,REG,1,2009-09-13,Sunday,13:00,DAL,TB,34,21,-13,Raymond James Stadium,Home,outdoors,grass,2009091308
+10,2009_01_SF_ARI,2009,REG,1,2009-09-13,Sunday,16:15,SF,ARI,20,16,-4,University of Phoenix Stadium,Home,closed,grass,2009091309
+11,2009_01_WAS_NYG,2009,REG,1,2009-09-13,Sunday,16:15,WAS,NYG,17,23,6,Giants Stadium,Home,outdoors,fieldturf,2009091310
+12,2009_01_STL_SEA,2009,REG,1,2009-09-13,Sunday,16:15,STL,SEA,0,28,28,Qwest Field,Home,outdoors,fieldturf,2009091311
+13,2009_01_CHI_GB,2009,REG,1,2009-09-13,Sunday,20:20,CHI,GB,15,21,6,Lambeau Field,Home,outdoors,grass,2009091312
+14,2009_01_BUF_NE,2009,REG,1,2009-09-14,Monday,19:00,BUF,NE,24,25,1,Gillette Stadium,Home,outdoors,fieldturf,2009091400
+15,2009_01_SD_OAK,2009,REG,1,2009-09-14,Monday,22:15,SD,OAK,24,20,-4,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009091401
+16,2009_02_CAR_ATL,2009,REG,2,2009-09-20,Sunday,13:00,CAR,ATL,20,28,8,Georgia Dome,Home,dome,fieldturf,2009092000
+17,2009_02_MIN_DET,2009,REG,2,2009-09-20,Sunday,13:00,MIN,DET,27,13,-14,Ford Field,Home,dome,fieldturf,2009092001
+18,2009_02_CIN_GB,2009,REG,2,2009-09-20,Sunday,13:00,CIN,GB,31,24,-7,Lambeau Field,Home,outdoors,grass,2009092002
+19,2009_02_ARI_JAX,2009,REG,2,2009-09-20,Sunday,13:00,ARI,JAX,31,17,-14,Jacksonville Municipal Stadium,Home,outdoors,grass,2009092003
+20,2009_02_OAK_KC,2009,REG,2,2009-09-20,Sunday,13:00,OAK,KC,13,10,-3,Arrowhead Stadium,Home,outdoors,grass,2009092004
+21,2009_02_NE_NYJ,2009,REG,2,2009-09-20,Sunday,13:00,NE,NYJ,9,16,7,Giants Stadium,Home,outdoors,fieldturf,2009092005
+22,2009_02_NO_PHI,2009,REG,2,2009-09-20,Sunday,13:00,NO,PHI,48,22,-26,Lincoln Financial Field,Home,outdoors,grass,2009092006
+23,2009_02_HOU_TEN,2009,REG,2,2009-09-20,Sunday,13:00,HOU,TEN,34,31,-3,LP Field,Home,outdoors,grass,2009092007
+24,2009_02_STL_WAS,2009,REG,2,2009-09-20,Sunday,13:00,STL,WAS,7,9,2,FedExField,Home,outdoors,grass,2009092008
+25,2009_02_TB_BUF,2009,REG,2,2009-09-20,Sunday,16:05,TB,BUF,20,33,13,Ralph Wilson Stadium,Home,outdoors,astroplay,2009092009
+26,2009_02_SEA_SF,2009,REG,2,2009-09-20,Sunday,16:05,SEA,SF,10,23,13,Candlestick Park,Home,outdoors,grass,2009092010
+27,2009_02_PIT_CHI,2009,REG,2,2009-09-20,Sunday,16:15,PIT,CHI,14,17,3,Soldier Field,Home,outdoors,grass,2009092011
+28,2009_02_CLE_DEN,2009,REG,2,2009-09-20,Sunday,16:15,CLE,DEN,6,27,21,Invesco Field at Mile High,Home,outdoors,grass,2009092012
+29,2009_02_BAL_SD,2009,REG,2,2009-09-20,Sunday,16:15,BAL,SD,31,26,-5,Qualcomm Stadium,Home,outdoors,grass,2009092013
+30,2009_02_NYG_DAL,2009,REG,2,2009-09-20,Sunday,20:20,NYG,DAL,33,31,-2,Cowboys Stadium,Home,open,fieldturf,2009092014
+31,2009_02_IND_MIA,2009,REG,2,2009-09-21,Monday,20:30,IND,MIA,27,23,-4,Dolphin Stadium,Home,outdoors,grass,2009092100
+32,2009_03_CLE_BAL,2009,REG,3,2009-09-27,Sunday,13:00,CLE,BAL,3,34,31,M&T Bank Stadium,Home,outdoors,sportturf,2009092700
+33,2009_03_WAS_DET,2009,REG,3,2009-09-27,Sunday,13:00,WAS,DET,14,19,5,Ford Field,Home,dome,fieldturf,2009092702
+34,2009_03_JAX_HOU,2009,REG,3,2009-09-27,Sunday,13:00,JAX,HOU,31,24,-7,Reliant Stadium,Home,closed,grass,2009092703
+35,2009_03_SF_MIN,2009,REG,3,2009-09-27,Sunday,13:00,SF,MIN,24,27,3,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009092704
+36,2009_03_ATL_NE,2009,REG,3,2009-09-27,Sunday,13:00,ATL,NE,10,26,16,Gillette Stadium,Home,outdoors,fieldturf,2009092705
+37,2009_03_TEN_NYJ,2009,REG,3,2009-09-27,Sunday,13:00,TEN,NYJ,17,24,7,Giants Stadium,Home,outdoors,fieldturf,2009092711
+38,2009_03_KC_PHI,2009,REG,3,2009-09-27,Sunday,13:00,KC,PHI,14,34,20,Lincoln Financial Field,Home,outdoors,grass,2009092706
+39,2009_03_GB_STL,2009,REG,3,2009-09-27,Sunday,13:00,GB,STL,36,17,-19,Edward Jones Dome,Home,dome,fieldturf,2009092707
+40,2009_03_NYG_TB,2009,REG,3,2009-09-27,Sunday,13:00,NYG,TB,24,0,-24,Raymond James Stadium,Home,outdoors,grass,2009092708
+41,2009_03_NO_BUF,2009,REG,3,2009-09-27,Sunday,16:05,NO,BUF,27,7,-20,Ralph Wilson Stadium,Home,outdoors,astroplay,2009092709
+42,2009_03_CHI_SEA,2009,REG,3,2009-09-27,Sunday,16:05,CHI,SEA,25,19,-6,Qwest Field,Home,outdoors,fieldturf,2009092710
+43,2009_03_PIT_CIN,2009,REG,3,2009-09-27,Sunday,16:15,PIT,CIN,20,23,3,Paul Brown Stadium,Home,outdoors,fieldturf,2009092701
+44,2009_03_DEN_OAK,2009,REG,3,2009-09-27,Sunday,16:15,DEN,OAK,23,3,-20,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009092712
+45,2009_03_MIA_SD,2009,REG,3,2009-09-27,Sunday,16:15,MIA,SD,13,23,10,Qualcomm Stadium,Home,outdoors,grass,2009092713
+46,2009_03_IND_ARI,2009,REG,3,2009-09-27,Sunday,20:20,IND,ARI,31,10,-21,University of Phoenix Stadium,Home,closed,grass,2009092714
+47,2009_03_CAR_DAL,2009,REG,3,2009-09-28,Monday,20:30,CAR,DAL,7,21,14,Cowboys Stadium,Home,closed,fieldturf,2009092800
+48,2009_04_DET_CHI,2009,REG,4,2009-10-04,Sunday,13:00,DET,CHI,24,48,24,Soldier Field,Home,outdoors,grass,2009100400
+49,2009_04_CIN_CLE,2009,REG,4,2009-10-04,Sunday,13:00,CIN,CLE,23,20,-3,Cleveland Browns Stadium,Home,outdoors,grass,2009100401
+50,2009_04_OAK_HOU,2009,REG,4,2009-10-04,Sunday,13:00,OAK,HOU,6,29,23,Reliant Stadium,Home,closed,grass,2009100402
+51,2009_04_SEA_IND,2009,REG,4,2009-10-04,Sunday,13:00,SEA,IND,17,34,17,Lucas Oil Stadium,Home,open,fieldturf,2009100403
+52,2009_04_TEN_JAX,2009,REG,4,2009-10-04,Sunday,13:00,TEN,JAX,17,37,20,Jacksonville Municipal Stadium,Home,outdoors,grass,2009100404
+53,2009_04_NYG_KC,2009,REG,4,2009-10-04,Sunday,13:00,NYG,KC,27,16,-11,Arrowhead Stadium,Home,outdoors,grass,2009100405
+54,2009_04_BAL_NE,2009,REG,4,2009-10-04,Sunday,13:00,BAL,NE,21,27,6,Gillette Stadium,Home,outdoors,fieldturf,2009100406
+55,2009_04_TB_WAS,2009,REG,4,2009-10-04,Sunday,13:00,TB,WAS,13,16,3,FedExField,Home,outdoors,grass,2009100407
+56,2009_04_BUF_MIA,2009,REG,4,2009-10-04,Sunday,16:05,BUF,MIA,10,38,28,Dolphin Stadium,Home,outdoors,grass,2009100408
+57,2009_04_NYJ_NO,2009,REG,4,2009-10-04,Sunday,16:05,NYJ,NO,10,24,14,Louisiana Superdome,Home,dome,fieldturf,2009100409
+58,2009_04_DAL_DEN,2009,REG,4,2009-10-04,Sunday,16:15,DAL,DEN,10,17,7,Invesco Field at Mile High,Home,outdoors,grass,2009100410
+59,2009_04_STL_SF,2009,REG,4,2009-10-04,Sunday,16:15,STL,SF,0,35,35,Candlestick Park,Home,outdoors,grass,2009100411
+60,2009_04_SD_PIT,2009,REG,4,2009-10-04,Sunday,20:20,SD,PIT,28,38,10,Heinz Field,Home,outdoors,dessograss,2009100412
+61,2009_04_GB_MIN,2009,REG,4,2009-10-05,Monday,20:30,GB,MIN,23,30,7,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009100500
+62,2009_05_CIN_BAL,2009,REG,5,2009-10-11,Sunday,13:00,CIN,BAL,17,14,-3,M&T Bank Stadium,Home,outdoors,sportturf,2009101100
+63,2009_05_CLE_BUF,2009,REG,5,2009-10-11,Sunday,13:00,CLE,BUF,6,3,-3,Ralph Wilson Stadium,Home,outdoors,astroplay,2009101101
+64,2009_05_WAS_CAR,2009,REG,5,2009-10-11,Sunday,13:00,WAS,CAR,17,20,3,Bank of America Stadium,Home,outdoors,grass,2009101102
+65,2009_05_PIT_DET,2009,REG,5,2009-10-11,Sunday,13:00,PIT,DET,28,20,-8,Ford Field,Home,dome,fieldturf,2009101103
+66,2009_05_DAL_KC,2009,REG,5,2009-10-11,Sunday,13:00,DAL,KC,26,20,-6,Arrowhead Stadium,Home,outdoors,grass,2009101104
+67,2009_05_OAK_NYG,2009,REG,5,2009-10-11,Sunday,13:00,OAK,NYG,7,44,37,Giants Stadium,Home,outdoors,fieldturf,2009101105
+68,2009_05_TB_PHI,2009,REG,5,2009-10-11,Sunday,13:00,TB,PHI,14,33,19,Lincoln Financial Field,Home,outdoors,grass,2009101106
+69,2009_05_MIN_STL,2009,REG,5,2009-10-11,Sunday,13:00,MIN,STL,38,10,-28,Edward Jones Dome,Home,dome,fieldturf,2009101107
+70,2009_05_ATL_SF,2009,REG,5,2009-10-11,Sunday,16:05,ATL,SF,45,10,-35,Candlestick Park,Home,outdoors,grass,2009101108
+71,2009_05_HOU_ARI,2009,REG,5,2009-10-11,Sunday,16:15,HOU,ARI,21,28,7,University of Phoenix Stadium,Home,closed,grass,2009101109
+72,2009_05_NE_DEN,2009,REG,5,2009-10-11,Sunday,16:15,NE,DEN,17,20,3,Invesco Field at Mile High,Home,outdoors,grass,2009101110
+73,2009_05_JAX_SEA,2009,REG,5,2009-10-11,Sunday,16:15,JAX,SEA,0,41,41,Qwest Field,Home,outdoors,fieldturf,2009101111
+74,2009_05_IND_TEN,2009,REG,5,2009-10-11,Sunday,20:20,IND,TEN,31,9,-22,LP Field,Home,outdoors,grass,2009101112
+75,2009_05_NYJ_MIA,2009,REG,5,2009-10-12,Monday,20:30,NYJ,MIA,27,31,4,Dolphin Stadium,Home,outdoors,grass,2009101200
+76,2009_06_HOU_CIN,2009,REG,6,2009-10-18,Sunday,13:00,HOU,CIN,28,17,-11,Paul Brown Stadium,Home,outdoors,fieldturf,2009101800
+77,2009_06_DET_GB,2009,REG,6,2009-10-18,Sunday,13:00,DET,GB,0,26,26,Lambeau Field,Home,outdoors,grass,2009101801
+78,2009_06_STL_JAX,2009,REG,6,2009-10-18,Sunday,13:00,STL,JAX,20,23,3,Jacksonville Municipal Stadium,Home,outdoors,grass,2009101802
+79,2009_06_BAL_MIN,2009,REG,6,2009-10-18,Sunday,13:00,BAL,MIN,31,33,2,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009101803
+80,2009_06_NYG_NO,2009,REG,6,2009-10-18,Sunday,13:00,NYG,NO,27,48,21,Louisiana Superdome,Home,dome,fieldturf,2009101804
+81,2009_06_CLE_PIT,2009,REG,6,2009-10-18,Sunday,13:00,CLE,PIT,14,27,13,Heinz Field,Home,outdoors,dessograss,2009101805
+82,2009_06_CAR_TB,2009,REG,6,2009-10-18,Sunday,13:00,CAR,TB,28,21,-7,Raymond James Stadium,Home,outdoors,grass,2009101806
+83,2009_06_KC_WAS,2009,REG,6,2009-10-18,Sunday,13:00,KC,WAS,14,6,-8,FedExField,Home,outdoors,grass,2009101807
+84,2009_06_PHI_OAK,2009,REG,6,2009-10-18,Sunday,16:05,PHI,OAK,9,13,4,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009101808
+85,2009_06_ARI_SEA,2009,REG,6,2009-10-18,Sunday,16:05,ARI,SEA,27,3,-24,Qwest Field,Home,outdoors,fieldturf,2009101809
+86,2009_06_TEN_NE,2009,REG,6,2009-10-18,Sunday,16:15,TEN,NE,0,59,59,Gillette Stadium,Home,outdoors,fieldturf,2009101810
+87,2009_06_BUF_NYJ,2009,REG,6,2009-10-18,Sunday,16:15,BUF,NYJ,16,13,-3,Giants Stadium,Home,outdoors,fieldturf,2009101811
+88,2009_06_CHI_ATL,2009,REG,6,2009-10-18,Sunday,20:20,CHI,ATL,14,21,7,Georgia Dome,Home,dome,fieldturf,2009101812
+89,2009_06_DEN_SD,2009,REG,6,2009-10-19,Monday,20:30,DEN,SD,34,23,-11,Qualcomm Stadium,Home,outdoors,grass,2009101900
+90,2009_07_GB_CLE,2009,REG,7,2009-10-25,Sunday,13:00,GB,CLE,31,3,-28,Cleveland Browns Stadium,Home,outdoors,grass,2009102501
+91,2009_07_SF_HOU,2009,REG,7,2009-10-25,Sunday,13:00,SF,HOU,21,24,3,Reliant Stadium,Home,open,grass,2009102502
+92,2009_07_SD_KC,2009,REG,7,2009-10-25,Sunday,13:00,SD,KC,37,7,-30,Arrowhead Stadium,Home,outdoors,grass,2009102503
+93,2009_07_MIN_PIT,2009,REG,7,2009-10-25,Sunday,13:00,MIN,PIT,17,27,10,Heinz Field,Home,outdoors,dessograss,2009102504
+94,2009_07_IND_STL,2009,REG,7,2009-10-25,Sunday,13:00,IND,STL,42,6,-36,Edward Jones Dome,Home,dome,fieldturf,2009102505
+95,2009_07_NE_TB,2009,REG,7,2009-10-25,Sunday,13:00,NE,TB,35,7,-28,Wembley Stadium,Neutral,outdoors,grass,2009102506
+96,2009_07_BUF_CAR,2009,REG,7,2009-10-25,Sunday,16:05,BUF,CAR,20,9,-11,Bank of America Stadium,Home,outdoors,grass,2009102507
+97,2009_07_NYJ_OAK,2009,REG,7,2009-10-25,Sunday,16:05,NYJ,OAK,38,0,-38,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009102508
+98,2009_07_CHI_CIN,2009,REG,7,2009-10-25,Sunday,16:15,CHI,CIN,10,45,35,Paul Brown Stadium,Home,outdoors,fieldturf,2009102500
+99,2009_07_ATL_DAL,2009,REG,7,2009-10-25,Sunday,16:15,ATL,DAL,21,37,16,Cowboys Stadium,Home,closed,fieldturf,2009102509
+100,2009_07_NO_MIA,2009,REG,7,2009-10-25,Sunday,16:15,NO,MIA,46,34,-12,Dolphin Stadium,Home,outdoors,grass,2009102510
+101,2009_07_ARI_NYG,2009,REG,7,2009-10-25,Sunday,20:20,ARI,NYG,24,17,-7,Giants Stadium,Home,outdoors,fieldturf,2009102511
+102,2009_07_PHI_WAS,2009,REG,7,2009-10-26,Monday,20:30,PHI,WAS,27,17,-10,FedExField,Home,outdoors,grass,2009102600
+103,2009_08_DEN_BAL,2009,REG,8,2009-11-01,Sunday,13:00,DEN,BAL,7,30,23,M&T Bank Stadium,Home,outdoors,sportturf,2009110100
+104,2009_08_HOU_BUF,2009,REG,8,2009-11-01,Sunday,13:00,HOU,BUF,31,10,-21,Ralph Wilson Stadium,Home,outdoors,astroplay,2009110101
+105,2009_08_CLE_CHI,2009,REG,8,2009-11-01,Sunday,13:00,CLE,CHI,6,30,24,Soldier Field,Home,outdoors,grass,2009110102
+106,2009_08_SEA_DAL,2009,REG,8,2009-11-01,Sunday,13:00,SEA,DAL,17,38,21,Cowboys Stadium,Home,closed,fieldturf,2009110103
+107,2009_08_STL_DET,2009,REG,8,2009-11-01,Sunday,13:00,STL,DET,17,10,-7,Ford Field,Home,dome,fieldturf,2009110104
+108,2009_08_SF_IND,2009,REG,8,2009-11-01,Sunday,13:00,SF,IND,14,18,4,Lucas Oil Stadium,Home,open,fieldturf,2009110106
+109,2009_08_MIA_NYJ,2009,REG,8,2009-11-01,Sunday,13:00,MIA,NYJ,30,25,-5,Giants Stadium,Home,outdoors,fieldturf,2009110107
+110,2009_08_NYG_PHI,2009,REG,8,2009-11-01,Sunday,13:00,NYG,PHI,17,40,23,Lincoln Financial Field,Home,outdoors,grass,2009110111
+111,2009_08_OAK_SD,2009,REG,8,2009-11-01,Sunday,16:05,OAK,SD,16,24,8,Qualcomm Stadium,Home,outdoors,grass,2009110108
+112,2009_08_JAX_TEN,2009,REG,8,2009-11-01,Sunday,16:05,JAX,TEN,13,30,17,LP Field,Home,outdoors,grass,2009110109
+113,2009_08_CAR_ARI,2009,REG,8,2009-11-01,Sunday,16:15,CAR,ARI,34,21,-13,University of Phoenix Stadium,Home,closed,grass,2009110110
+114,2009_08_MIN_GB,2009,REG,8,2009-11-01,Sunday,16:15,MIN,GB,38,26,-12,Lambeau Field,Home,outdoors,grass,2009110105
+115,2009_08_ATL_NO,2009,REG,8,2009-11-02,Monday,20:30,ATL,NO,27,35,8,Louisiana Superdome,Home,dome,fieldturf,2009110200
+116,2009_09_WAS_ATL,2009,REG,9,2009-11-08,Sunday,13:00,WAS,ATL,17,31,14,Georgia Dome,Home,dome,fieldturf,2009110800
+117,2009_09_ARI_CHI,2009,REG,9,2009-11-08,Sunday,13:00,ARI,CHI,41,21,-20,Soldier Field,Home,outdoors,grass,2009110801
+118,2009_09_BAL_CIN,2009,REG,9,2009-11-08,Sunday,13:00,BAL,CIN,7,17,10,Paul Brown Stadium,Home,outdoors,fieldturf,2009110802
+119,2009_09_HOU_IND,2009,REG,9,2009-11-08,Sunday,13:00,HOU,IND,17,20,3,Lucas Oil Stadium,Home,open,fieldturf,2009110803
+120,2009_09_KC_JAX,2009,REG,9,2009-11-08,Sunday,13:00,KC,JAX,21,24,3,Jacksonville Municipal Stadium,Home,outdoors,grass,2009110804
+121,2009_09_MIA_NE,2009,REG,9,2009-11-08,Sunday,13:00,MIA,NE,17,27,10,Gillette Stadium,Home,outdoors,fieldturf,2009110805
+122,2009_09_GB_TB,2009,REG,9,2009-11-08,Sunday,13:00,GB,TB,28,38,10,Raymond James Stadium,Home,outdoors,grass,2009110806
+123,2009_09_CAR_NO,2009,REG,9,2009-11-08,Sunday,16:05,CAR,NO,20,30,10,Louisiana Superdome,Home,dome,fieldturf,2009110807
+124,2009_09_DET_SEA,2009,REG,9,2009-11-08,Sunday,16:05,DET,SEA,20,32,12,Qwest Field,Home,outdoors,fieldturf,2009110808
+125,2009_09_SD_NYG,2009,REG,9,2009-11-08,Sunday,16:15,SD,NYG,21,20,-1,Giants Stadium,Home,outdoors,fieldturf,2009110809
+126,2009_09_TEN_SF,2009,REG,9,2009-11-08,Sunday,16:15,TEN,SF,34,27,-7,Candlestick Park,Home,outdoors,grass,2009110810
+127,2009_09_DAL_PHI,2009,REG,9,2009-11-08,Sunday,20:20,DAL,PHI,20,16,-4,Lincoln Financial Field,Home,outdoors,grass,2009110811
+128,2009_09_PIT_DEN,2009,REG,9,2009-11-09,Monday,20:30,PIT,DEN,28,10,-18,Invesco Field at Mile High,Home,outdoors,grass,2009110900
+129,2009_10_CHI_SF,2009,REG,10,2009-11-12,Thursday,20:20,CHI,SF,6,10,4,Candlestick Park,Home,outdoors,grass,2009111200
+130,2009_10_ATL_CAR,2009,REG,10,2009-11-15,Sunday,13:00,ATL,CAR,19,28,9,Bank of America Stadium,Home,outdoors,grass,2009111500
+131,2009_10_TB_MIA,2009,REG,10,2009-11-15,Sunday,13:00,TB,MIA,23,25,2,Dolphin Stadium,Home,outdoors,grass,2009111501
+132,2009_10_DET_MIN,2009,REG,10,2009-11-15,Sunday,13:00,DET,MIN,10,27,17,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009111502
+133,2009_10_JAX_NYJ,2009,REG,10,2009-11-15,Sunday,13:00,JAX,NYJ,24,22,-2,Giants Stadium,Home,outdoors,fieldturf,2009111503
+134,2009_10_CIN_PIT,2009,REG,10,2009-11-15,Sunday,13:00,CIN,PIT,18,12,-6,Heinz Field,Home,outdoors,dessograss,2009111504
+135,2009_10_NO_STL,2009,REG,10,2009-11-15,Sunday,13:00,NO,STL,28,23,-5,Edward Jones Dome,Home,dome,fieldturf,2009111505
+136,2009_10_BUF_TEN,2009,REG,10,2009-11-15,Sunday,13:00,BUF,TEN,17,41,24,LP Field,Home,outdoors,grass,2009111506
+137,2009_10_DEN_WAS,2009,REG,10,2009-11-15,Sunday,13:00,DEN,WAS,17,27,10,FedExField,Home,outdoors,grass,2009111507
+138,2009_10_KC_OAK,2009,REG,10,2009-11-15,Sunday,16:05,KC,OAK,16,10,-6,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009111508
+139,2009_10_SEA_ARI,2009,REG,10,2009-11-15,Sunday,16:15,SEA,ARI,20,31,11,University of Phoenix Stadium,Home,closed,grass,2009111509
+140,2009_10_DAL_GB,2009,REG,10,2009-11-15,Sunday,16:15,DAL,GB,7,17,10,Lambeau Field,Home,outdoors,grass,2009111510
+141,2009_10_PHI_SD,2009,REG,10,2009-11-15,Sunday,16:15,PHI,SD,23,31,8,Qualcomm Stadium,Home,outdoors,grass,2009111511
+142,2009_10_NE_IND,2009,REG,10,2009-11-15,Sunday,20:20,NE,IND,34,35,1,Lucas Oil Stadium,Home,closed,fieldturf,2009111512
+143,2009_10_BAL_CLE,2009,REG,10,2009-11-16,Monday,20:30,BAL,CLE,16,0,-16,Cleveland Browns Stadium,Home,outdoors,grass,2009111600
+144,2009_11_MIA_CAR,2009,REG,11,2009-11-19,Thursday,20:20,MIA,CAR,24,17,-7,Bank of America Stadium,Home,outdoors,grass,2009111900
+145,2009_11_IND_BAL,2009,REG,11,2009-11-22,Sunday,13:00,IND,BAL,17,15,-2,M&T Bank Stadium,Home,outdoors,sportturf,2009112200
+146,2009_11_WAS_DAL,2009,REG,11,2009-11-22,Sunday,13:00,WAS,DAL,6,7,1,Cowboys Stadium,Home,closed,fieldturf,2009112201
+147,2009_11_CLE_DET,2009,REG,11,2009-11-22,Sunday,13:00,CLE,DET,37,38,1,Ford Field,Home,dome,fieldturf,2009112202
+148,2009_11_SF_GB,2009,REG,11,2009-11-22,Sunday,13:00,SF,GB,24,30,6,Lambeau Field,Home,outdoors,grass,2009112203
+149,2009_11_BUF_JAX,2009,REG,11,2009-11-22,Sunday,13:00,BUF,JAX,15,18,3,Jacksonville Municipal Stadium,Home,outdoors,grass,2009112204
+150,2009_11_PIT_KC,2009,REG,11,2009-11-22,Sunday,13:00,PIT,KC,24,27,3,Arrowhead Stadium,Home,outdoors,grass,2009112205
+151,2009_11_SEA_MIN,2009,REG,11,2009-11-22,Sunday,13:00,SEA,MIN,9,35,26,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009112206
+152,2009_11_ATL_NYG,2009,REG,11,2009-11-22,Sunday,13:00,ATL,NYG,31,34,3,Giants Stadium,Home,outdoors,fieldturf,2009112207
+153,2009_11_NO_TB,2009,REG,11,2009-11-22,Sunday,13:00,NO,TB,38,7,-31,Raymond James Stadium,Home,outdoors,grass,2009112208
+154,2009_11_ARI_STL,2009,REG,11,2009-11-22,Sunday,16:05,ARI,STL,21,13,-8,Edward Jones Dome,Home,dome,fieldturf,2009112209
+155,2009_11_SD_DEN,2009,REG,11,2009-11-22,Sunday,16:15,SD,DEN,32,3,-29,Invesco Field at Mile High,Home,outdoors,grass,2009112210
+156,2009_11_NYJ_NE,2009,REG,11,2009-11-22,Sunday,16:15,NYJ,NE,14,31,17,Gillette Stadium,Home,outdoors,fieldturf,2009112211
+157,2009_11_CIN_OAK,2009,REG,11,2009-11-22,Sunday,16:15,CIN,OAK,17,20,3,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009112212
+158,2009_11_PHI_CHI,2009,REG,11,2009-11-22,Sunday,20:20,PHI,CHI,24,20,-4,Soldier Field,Home,outdoors,grass,2009112213
+159,2009_11_TEN_HOU,2009,REG,11,2009-11-23,Monday,20:30,TEN,HOU,20,17,-3,Reliant Stadium,Home,open,grass,2009112300
+160,2009_12_GB_DET,2009,REG,12,2009-11-26,Thursday,12:30,GB,DET,34,12,-22,Ford Field,Home,dome,fieldturf,2009112600
+161,2009_12_OAK_DAL,2009,REG,12,2009-11-26,Thursday,16:15,OAK,DAL,7,24,17,Cowboys Stadium,Home,open,fieldturf,2009112601
+162,2009_12_NYG_DEN,2009,REG,12,2009-11-26,Thursday,20:20,NYG,DEN,6,26,20,Invesco Field at Mile High,Home,outdoors,grass,2009112602
+163,2009_12_TB_ATL,2009,REG,12,2009-11-29,Sunday,13:00,TB,ATL,17,20,3,Georgia Dome,Home,dome,fieldturf,2009112900
+164,2009_12_MIA_BUF,2009,REG,12,2009-11-29,Sunday,13:00,MIA,BUF,14,31,17,Ralph Wilson Stadium,Home,outdoors,astroplay,2009112901
+165,2009_12_CLE_CIN,2009,REG,12,2009-11-29,Sunday,13:00,CLE,CIN,7,16,9,Paul Brown Stadium,Home,outdoors,fieldturf,2009112902
+166,2009_12_IND_HOU,2009,REG,12,2009-11-29,Sunday,13:00,IND,HOU,35,27,-8,Reliant Stadium,Home,open,grass,2009112903
+167,2009_12_CAR_NYJ,2009,REG,12,2009-11-29,Sunday,13:00,CAR,NYJ,6,17,11,Giants Stadium,Home,outdoors,fieldturf,2009112905
+168,2009_12_WAS_PHI,2009,REG,12,2009-11-29,Sunday,13:00,WAS,PHI,24,27,3,Lincoln Financial Field,Home,outdoors,grass,2009112906
+169,2009_12_SEA_STL,2009,REG,12,2009-11-29,Sunday,13:00,SEA,STL,27,17,-10,Edward Jones Dome,Home,dome,fieldturf,2009112907
+170,2009_12_KC_SD,2009,REG,12,2009-11-29,Sunday,16:05,KC,SD,14,43,29,Qualcomm Stadium,Home,outdoors,grass,2009112909
+171,2009_12_JAX_SF,2009,REG,12,2009-11-29,Sunday,16:05,JAX,SF,3,20,17,Candlestick Park,Home,outdoors,grass,2009112910
+172,2009_12_CHI_MIN,2009,REG,12,2009-11-29,Sunday,16:15,CHI,MIN,10,36,26,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009112904
+173,2009_12_ARI_TEN,2009,REG,12,2009-11-29,Sunday,16:15,ARI,TEN,17,20,3,LP Field,Home,outdoors,grass,2009112908
+174,2009_12_PIT_BAL,2009,REG,12,2009-11-29,Sunday,20:20,PIT,BAL,17,20,3,M&T Bank Stadium,Home,outdoors,sportturf,2009112911
+175,2009_12_NE_NO,2009,REG,12,2009-11-30,Monday,20:30,NE,NO,17,38,21,Louisiana Superdome,Home,dome,fieldturf,2009113000
+176,2009_13_NYJ_BUF,2009,REG,13,2009-12-03,Thursday,20:20,NYJ,BUF,19,13,-6,Rogers Centre,Home,dome,fieldturf,2009120300
+177,2009_13_PHI_ATL,2009,REG,13,2009-12-06,Sunday,13:00,PHI,ATL,34,7,-27,Georgia Dome,Home,dome,fieldturf,2009120600
+178,2009_13_TB_CAR,2009,REG,13,2009-12-06,Sunday,13:00,TB,CAR,6,16,10,Bank of America Stadium,Home,outdoors,grass,2009120601
+179,2009_13_STL_CHI,2009,REG,13,2009-12-06,Sunday,13:00,STL,CHI,9,17,8,Soldier Field,Home,outdoors,grass,2009120602
+180,2009_13_DET_CIN,2009,REG,13,2009-12-06,Sunday,13:00,DET,CIN,13,23,10,Paul Brown Stadium,Home,outdoors,fieldturf,2009120603
+181,2009_13_TEN_IND,2009,REG,13,2009-12-06,Sunday,13:00,TEN,IND,17,27,10,Lucas Oil Stadium,Home,closed,fieldturf,2009120604
+182,2009_13_HOU_JAX,2009,REG,13,2009-12-06,Sunday,13:00,HOU,JAX,18,23,5,Jacksonville Municipal Stadium,Home,outdoors,grass,2009120605
+183,2009_13_DEN_KC,2009,REG,13,2009-12-06,Sunday,13:00,DEN,KC,44,13,-31,Arrowhead Stadium,Home,outdoors,grass,2009120606
+184,2009_13_NE_MIA,2009,REG,13,2009-12-06,Sunday,13:00,NE,MIA,21,22,1,Dolphin Stadium,Home,outdoors,grass,2009120613
+185,2009_13_OAK_PIT,2009,REG,13,2009-12-06,Sunday,13:00,OAK,PIT,27,24,-3,Heinz Field,Home,outdoors,dessograss,2009120607
+186,2009_13_NO_WAS,2009,REG,13,2009-12-06,Sunday,13:00,NO,WAS,33,30,-3,FedExField,Home,outdoors,grass,2009120608
+187,2009_13_SD_CLE,2009,REG,13,2009-12-06,Sunday,16:05,SD,CLE,30,23,-7,Cleveland Browns Stadium,Home,outdoors,grass,2009120609
+188,2009_13_DAL_NYG,2009,REG,13,2009-12-06,Sunday,16:15,DAL,NYG,24,31,7,Giants Stadium,Home,outdoors,fieldturf,2009120611
+189,2009_13_SF_SEA,2009,REG,13,2009-12-06,Sunday,16:15,SF,SEA,17,20,3,Qwest Field,Home,outdoors,fieldturf,2009120612
+190,2009_13_MIN_ARI,2009,REG,13,2009-12-06,Sunday,20:20,MIN,ARI,17,30,13,University of Phoenix Stadium,Home,closed,grass,2009120610
+191,2009_13_BAL_GB,2009,REG,13,2009-12-07,Monday,20:30,BAL,GB,14,27,13,Lambeau Field,Home,outdoors,grass,2009120700
+192,2009_14_PIT_CLE,2009,REG,14,2009-12-10,Thursday,20:20,PIT,CLE,6,13,7,Cleveland Browns Stadium,Home,outdoors,grass,2009121000
+193,2009_14_NO_ATL,2009,REG,14,2009-12-13,Sunday,13:00,NO,ATL,26,23,-3,Georgia Dome,Home,dome,fieldturf,2009121300
+194,2009_14_DET_BAL,2009,REG,14,2009-12-13,Sunday,13:00,DET,BAL,3,48,45,M&T Bank Stadium,Home,outdoors,sportturf,2009121301
+195,2009_14_GB_CHI,2009,REG,14,2009-12-13,Sunday,13:00,GB,CHI,21,14,-7,Soldier Field,Home,outdoors,grass,2009121302
+196,2009_14_SEA_HOU,2009,REG,14,2009-12-13,Sunday,13:00,SEA,HOU,7,34,27,Reliant Stadium,Home,closed,grass,2009121303
+197,2009_14_DEN_IND,2009,REG,14,2009-12-13,Sunday,13:00,DEN,IND,16,28,12,Lucas Oil Stadium,Home,closed,fieldturf,2009121304
+198,2009_14_MIA_JAX,2009,REG,14,2009-12-13,Sunday,13:00,MIA,JAX,14,10,-4,Jacksonville Municipal Stadium,Home,outdoors,grass,2009121305
+199,2009_14_BUF_KC,2009,REG,14,2009-12-13,Sunday,13:00,BUF,KC,16,10,-6,Arrowhead Stadium,Home,outdoors,grass,2009121306
+200,2009_14_CIN_MIN,2009,REG,14,2009-12-13,Sunday,13:00,CIN,MIN,10,30,20,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2009121307
+201,2009_14_CAR_NE,2009,REG,14,2009-12-13,Sunday,13:00,CAR,NE,10,20,10,Gillette Stadium,Home,outdoors,fieldturf,2009121308
+202,2009_14_NYJ_TB,2009,REG,14,2009-12-13,Sunday,13:00,NYJ,TB,26,3,-23,Raymond James Stadium,Home,outdoors,grass,2009121309
+203,2009_14_WAS_OAK,2009,REG,14,2009-12-13,Sunday,16:05,WAS,OAK,34,13,-21,Oakland-Alameda County Coliseum,Home,outdoors,grass,2009121311
+204,2009_14_STL_TEN,2009,REG,14,2009-12-13,Sunday,16:05,STL,TEN,7,47,40,LP Field,Home,outdoors,grass,2009121310
+205,2009_14_SD_DAL,2009,REG,14,2009-12-13,Sunday,16:15,SD,DAL,20,17,-3,Cowboys Stadium,Home,open,fieldturf,2009121312
+206,2009_14_PHI_NYG,2009,REG,14,2009-12-13,Sunday,20:20,PHI,NYG,45,38,-7,Giants Stadium,Home,outdoors,fieldturf,2009121313
+207,2009_14_ARI_SF,2009,REG,14,2009-12-14,Monday,20:30,ARI,SF,9,24,15,Candlestick Park,Home,outdoors,grass,2009121400
+208,2009_15_IND_JAX,2009,REG,15,2009-12-17,Thursday,20:20,IND,JAX,35,31,-4,Jacksonville Municipal Stadium,Home,outdoors,grass,2009121700
+209,2009_15_DAL_NO,2009,REG,15,2009-12-19,Saturday,20:20,DAL,NO,24,17,-7,Louisiana Superdome,Home,dome,fieldturf,2009121900
+210,2009_15_NE_BUF,2009,REG,15,2009-12-20,Sunday,13:00,NE,BUF,17,10,-7,Ralph Wilson Stadium,Home,outdoors,astroplay,2009122001
+211,2009_15_ARI_DET,2009,REG,15,2009-12-20,Sunday,13:00,ARI,DET,31,24,-7,Ford Field,Home,dome,fieldturf,2009122002
+212,2009_15_CLE_KC,2009,REG,15,2009-12-20,Sunday,13:00,CLE,KC,41,34,-7,Arrowhead Stadium,Home,outdoors,grass,2009122003
+213,2009_15_ATL_NYJ,2009,REG,15,2009-12-20,Sunday,13:00,ATL,NYJ,10,7,-3,Giants Stadium,Home,outdoors,fieldturf,2009122004
+214,2009_15_HOU_STL,2009,REG,15,2009-12-20,Sunday,13:00,HOU,STL,16,13,-3,Edward Jones Dome,Home,dome,fieldturf,2009122007
+215,2009_15_MIA_TEN,2009,REG,15,2009-12-20,Sunday,13:00,MIA,TEN,24,27,3,LP Field,Home,outdoors,grass,2009122008
+216,2009_15_OAK_DEN,2009,REG,15,2009-12-20,Sunday,16:05,OAK,DEN,20,19,-1,Invesco Field at Mile High,Home,outdoors,grass,2009122009
+217,2009_15_CIN_SD,2009,REG,15,2009-12-20,Sunday,16:05,CIN,SD,24,27,3,Qualcomm Stadium,Home,outdoors,grass,2009122010
+218,2009_15_CHI_BAL,2009,REG,15,2009-12-20,Sunday,16:15,CHI,BAL,7,31,24,M&T Bank Stadium,Home,outdoors,sportturf,2009122000
+219,2009_15_SF_PHI,2009,REG,15,2009-12-20,Sunday,16:15,SF,PHI,13,27,14,Lincoln Financial Field,Home,outdoors,grass,2009122005
+220,2009_15_GB_PIT,2009,REG,15,2009-12-20,Sunday,16:15,GB,PIT,36,37,1,Heinz Field,Home,outdoors,dessograss,2009122006
+221,2009_15_TB_SEA,2009,REG,15,2009-12-20,Sunday,16:15,TB,SEA,24,7,-17,Qwest Field,Home,outdoors,fieldturf,2009122011
+222,2009_15_MIN_CAR,2009,REG,15,2009-12-20,Sunday,20:20,MIN,CAR,7,26,19,Bank of America Stadium,Home,outdoors,grass,2009122012
+223,2009_15_NYG_WAS,2009,REG,15,2009-12-21,Monday,20:30,NYG,WAS,45,12,-33,FedExField,Home,outdoors,grass,2009122100
+224,2009_16_SD_TEN,2009,REG,16,2009-12-25,Friday,19:30,SD,TEN,42,17,-25,LP Field,Home,outdoors,grass,2009122500
+225,2009_16_BUF_ATL,2009,REG,16,2009-12-27,Sunday,13:00,BUF,ATL,3,31,28,Georgia Dome,Home,dome,fieldturf,2009122700
+226,2009_16_KC_CIN,2009,REG,16,2009-12-27,Sunday,13:00,KC,CIN,10,17,7,Paul Brown Stadium,Home,outdoors,fieldturf,2009122701
+227,2009_16_OAK_CLE,2009,REG,16,2009-12-27,Sunday,13:00,OAK,CLE,9,23,14,Cleveland Browns Stadium,Home,outdoors,grass,2009122702
+228,2009_16_SEA_GB,2009,REG,16,2009-12-27,Sunday,13:00,SEA,GB,10,48,38,Lambeau Field,Home,outdoors,grass,2009122703
+229,2009_16_HOU_MIA,2009,REG,16,2009-12-27,Sunday,13:00,HOU,MIA,27,20,-7,Dolphin Stadium,Home,outdoors,grass,2009122704
+230,2009_16_JAX_NE,2009,REG,16,2009-12-27,Sunday,13:00,JAX,NE,7,35,28,Gillette Stadium,Home,outdoors,fieldturf,2009122706
+231,2009_16_TB_NO,2009,REG,16,2009-12-27,Sunday,13:00,TB,NO,20,17,-3,Louisiana Superdome,Home,dome,fieldturf,2009122707
+232,2009_16_CAR_NYG,2009,REG,16,2009-12-27,Sunday,13:00,CAR,NYG,41,9,-32,Giants Stadium,Home,outdoors,fieldturf,2009122705
+233,2009_16_BAL_PIT,2009,REG,16,2009-12-27,Sunday,13:00,BAL,PIT,20,23,3,Heinz Field,Home,outdoors,dessograss,2009122709
+234,2009_16_STL_ARI,2009,REG,16,2009-12-27,Sunday,16:05,STL,ARI,10,31,21,University of Phoenix Stadium,Home,open,grass,2009122710
+235,2009_16_DET_SF,2009,REG,16,2009-12-27,Sunday,16:05,DET,SF,6,20,14,Candlestick Park,Home,outdoors,grass,2009122711
+236,2009_16_NYJ_IND,2009,REG,16,2009-12-27,Sunday,16:15,NYJ,IND,29,15,-14,Lucas Oil Stadium,Home,closed,fieldturf,2009122712
+237,2009_16_DEN_PHI,2009,REG,16,2009-12-27,Sunday,16:15,DEN,PHI,27,30,3,Lincoln Financial Field,Home,outdoors,grass,2009122708
+238,2009_16_DAL_WAS,2009,REG,16,2009-12-27,Sunday,20:20,DAL,WAS,17,0,-17,FedExField,Home,outdoors,grass,2009122713
+239,2009_16_MIN_CHI,2009,REG,16,2009-12-28,Monday,20:30,MIN,CHI,30,36,6,Soldier Field,Home,outdoors,grass,2009122800
+240,2009_17_IND_BUF,2009,REG,17,2010-01-03,Sunday,13:00,IND,BUF,7,30,23,Ralph Wilson Stadium,Home,outdoors,astroplay,2010010300
+241,2009_17_NO_CAR,2009,REG,17,2010-01-03,Sunday,13:00,NO,CAR,10,23,13,Bank of America Stadium,Home,outdoors,grass,2010010301
+242,2009_17_JAX_CLE,2009,REG,17,2010-01-03,Sunday,13:00,JAX,CLE,17,23,6,Cleveland Browns Stadium,Home,outdoors,grass,2010010302
+243,2009_17_CHI_DET,2009,REG,17,2010-01-03,Sunday,13:00,CHI,DET,37,23,-14,Ford Field,Home,dome,fieldturf,2010010304
+244,2009_17_NE_HOU,2009,REG,17,2010-01-03,Sunday,13:00,NE,HOU,27,34,7,Reliant Stadium,Home,closed,grass,2010010305
+245,2009_17_PIT_MIA,2009,REG,17,2010-01-03,Sunday,13:00,PIT,MIA,30,24,-6,Dolphin Stadium,Home,outdoors,grass,2010010306
+246,2009_17_NYG_MIN,2009,REG,17,2010-01-03,Sunday,13:00,NYG,MIN,7,44,37,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2010010307
+247,2009_17_SF_STL,2009,REG,17,2010-01-03,Sunday,13:00,SF,STL,28,6,-22,Edward Jones Dome,Home,dome,fieldturf,2010010309
+248,2009_17_ATL_TB,2009,REG,17,2010-01-03,Sunday,13:00,ATL,TB,20,10,-10,Raymond James Stadium,Home,outdoors,grass,2010010310
+249,2009_17_GB_ARI,2009,REG,17,2010-01-03,Sunday,16:15,GB,ARI,33,7,-26,University of Phoenix Stadium,Home,closed,grass,2010010311
+250,2009_17_PHI_DAL,2009,REG,17,2010-01-03,Sunday,16:15,PHI,DAL,0,24,24,Cowboys Stadium,Home,closed,fieldturf,2010010303
+251,2009_17_KC_DEN,2009,REG,17,2010-01-03,Sunday,16:15,KC,DEN,44,24,-20,Invesco Field at Mile High,Home,outdoors,grass,2010010312
+252,2009_17_BAL_OAK,2009,REG,17,2010-01-03,Sunday,16:15,BAL,OAK,21,13,-8,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010010313
+253,2009_17_WAS_SD,2009,REG,17,2010-01-03,Sunday,16:15,WAS,SD,20,23,3,Qualcomm Stadium,Home,outdoors,grass,2010010314
+254,2009_17_TEN_SEA,2009,REG,17,2010-01-03,Sunday,16:15,TEN,SEA,17,13,-4,Qwest Field,Home,outdoors,fieldturf,2010010315
+255,2009_17_CIN_NYJ,2009,REG,17,2010-01-03,Sunday,20:20,CIN,NYJ,0,37,37,Giants Stadium,Home,outdoors,fieldturf,2010010308
+256,2009_18_NYJ_CIN,2009,WC,18,2010-01-09,Saturday,16:30,NYJ,CIN,24,14,-10,Paul Brown Stadium,Home,outdoors,fieldturf,2010010901
+257,2009_18_PHI_DAL,2009,WC,18,2010-01-09,Saturday,20:00,PHI,DAL,14,34,20,Cowboys Stadium,Home,closed,fieldturf,2010010900
+258,2009_18_BAL_NE,2009,WC,18,2010-01-10,Sunday,13:00,BAL,NE,33,14,-19,Gillette Stadium,Home,outdoors,fieldturf,2010011001
+259,2009_18_GB_ARI,2009,WC,18,2010-01-10,Sunday,16:30,GB,ARI,45,51,6,University of Phoenix Stadium,Home,closed,grass,2010011000
+260,2009_19_ARI_NO,2009,DIV,19,2010-01-16,Saturday,16:30,ARI,NO,14,45,31,Louisiana Superdome,Home,dome,fieldturf,2010011601
+261,2009_19_BAL_IND,2009,DIV,19,2010-01-16,Saturday,20:15,BAL,IND,3,20,17,Lucas Oil Stadium,Home,closed,fieldturf,2010011600
+262,2009_19_DAL_MIN,2009,DIV,19,2010-01-17,Sunday,13:00,DAL,MIN,3,34,31,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2010011700
+263,2009_19_NYJ_SD,2009,DIV,19,2010-01-17,Sunday,16:40,NYJ,SD,17,14,-3,Qualcomm Stadium,Home,outdoors,grass,2010011701
+264,2009_20_NYJ_IND,2009,CON,20,2010-01-24,Sunday,15:05,NYJ,IND,17,30,13,Lucas Oil Stadium,Home,closed,fieldturf,2010012400
+265,2009_20_MIN_NO,2009,CON,20,2010-01-24,Sunday,18:40,MIN,NO,28,31,3,Louisiana Superdome,Home,dome,fieldturf,2010012401
+266,2009_21_NO_IND,2009,SB,21,2010-02-07,Sunday,18:32,NO,IND,31,17,-14,Dolphin Stadium,Neutral,outdoors,grass,2010020700

@@ -1,6 +1,6 @@
 # nfl_data_py
 
-nfl_data_py is a Python library for interacting with NFL data sourced from nflfastR (https://github.com/nflverse/nflfastR).
+nfl_data_py is a Python library for interacting with NFL data sourced from nflfastR (https://github.com/nflverse/nflfastR-data/).
 
 ## Installation
 

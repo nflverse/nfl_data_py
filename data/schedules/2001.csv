@@ -1,0 +1,260 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2001_01_CHI_BAL,2001,REG,1,2001-09-09,Sunday,13:00,CHI,BAL,6,17,11,PSINet Stadium,Home,outdoors,grass,2001090902
+1,2001_01_NO_BUF,2001,REG,1,2001-09-09,Sunday,13:00,NO,BUF,24,6,-18,Ralph Wilson Stadium,Home,outdoors,astroturf,2001090906
+2,2001_01_NE_CIN,2001,REG,1,2001-09-09,Sunday,13:00,NE,CIN,17,23,6,Paul Brown Stadium,Home,outdoors,grass,2001090905
+3,2001_01_SEA_CLE,2001,REG,1,2001-09-09,Sunday,13:00,SEA,CLE,9,6,-3,Cleveland Browns Stadium,Home,outdoors,grass,2001090910
+4,2001_01_TB_DAL,2001,REG,1,2001-09-09,Sunday,13:00,TB,DAL,10,6,-4,Texas Stadium,Home,outdoors,astroturf,2001090911
+5,2001_01_DET_GB,2001,REG,1,2001-09-09,Sunday,13:00,DET,GB,6,28,22,Lambeau Field,Home,outdoors,grass,2001090903
+6,2001_01_PIT_JAX,2001,REG,1,2001-09-09,Sunday,13:00,PIT,JAX,3,21,18,Alltel Stadium,Home,outdoors,grass,2001090908
+7,2001_01_OAK_KC,2001,REG,1,2001-09-09,Sunday,13:00,OAK,KC,27,24,-3,Arrowhead Stadium,Home,outdoors,grass,2001090907
+8,2001_01_CAR_MIN,2001,REG,1,2001-09-09,Sunday,13:00,CAR,MIN,24,13,-11,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001090901
+9,2001_01_IND_NYJ,2001,REG,1,2001-09-09,Sunday,13:00,IND,NYJ,45,24,-21,Giants Stadium,Home,outdoors,grass,2001090904
+10,2001_01_STL_PHI,2001,REG,1,2001-09-09,Sunday,16:15,STL,PHI,20,17,-3,Veterans Stadium,Home,outdoors,fieldturf,2001090909
+11,2001_01_WAS_SD,2001,REG,1,2001-09-09,Sunday,16:15,WAS,SD,3,30,27,Qualcomm Stadium,Home,outdoors,grass,2001090912
+12,2001_01_ATL_SF,2001,REG,1,2001-09-09,Sunday,16:15,ATL,SF,13,16,3,3Com Park,Home,outdoors,grass,2001090900
+13,2001_01_MIA_TEN,2001,REG,1,2001-09-09,Sunday,20:30,MIA,TEN,31,23,-8,Adelphia Coliseum,Home,outdoors,grass,2001090913
+14,2001_01_NYG_DEN,2001,REG,1,2001-09-10,Monday,09:00,NYG,DEN,20,31,11,Invesco Field at Mile High,Home,outdoors,grass,2001091000
+15,2001_02_CAR_ATL,2001,REG,2,2001-09-23,Sunday,13:00,CAR,ATL,16,24,8,Georgia Dome,Home,dome,astroturf,2001092302
+16,2001_02_MIN_CHI,2001,REG,2,2001-09-23,Sunday,13:00,MIN,CHI,10,17,7,Soldier Field,Home,outdoors,grass,2001092304
+17,2001_02_BAL_CIN,2001,REG,2,2001-09-23,Sunday,13:00,BAL,CIN,10,21,11,Paul Brown Stadium,Home,outdoors,grass,2001092300
+18,2001_02_DET_CLE,2001,REG,2,2001-09-23,Sunday,13:00,DET,CLE,14,24,10,Cleveland Browns Stadium,Home,outdoors,grass,2001092303
+19,2001_02_SD_DAL,2001,REG,2,2001-09-23,Sunday,13:00,SD,DAL,32,21,-11,Texas Stadium,Home,outdoors,astroturf,2001092310
+20,2001_02_BUF_IND,2001,REG,2,2001-09-23,Sunday,13:00,BUF,IND,26,42,16,RCA Dome,Home,dome,astroturf,2001092301
+21,2001_02_TEN_JAX,2001,REG,2,2001-09-23,Sunday,13:00,TEN,JAX,6,13,7,Alltel Stadium,Home,outdoors,grass,2001092311
+22,2001_02_NYG_KC,2001,REG,2,2001-09-23,Sunday,13:00,NYG,KC,13,3,-10,Arrowhead Stadium,Home,outdoors,grass,2001092305
+23,2001_02_OAK_MIA,2001,REG,2,2001-09-23,Sunday,13:00,OAK,MIA,15,18,3,Pro Player Stadium,Home,outdoors,grass,2001092307
+24,2001_02_NYJ_NE,2001,REG,2,2001-09-23,Sunday,16:05,NYJ,NE,10,3,-7,Foxboro Stadium,Home,outdoors,grass,2001092306
+25,2001_02_PHI_SEA,2001,REG,2,2001-09-23,Sunday,16:15,PHI,SEA,27,3,-24,Husky Stadium,Home,outdoors,fieldturf,2001092308
+26,2001_02_STL_SF,2001,REG,2,2001-09-23,Sunday,16:15,STL,SF,30,26,-4,3Com Park,Home,outdoors,grass,2001092309
+27,2001_02_DEN_ARI,2001,REG,2,2001-09-23,Sunday,20:30,DEN,ARI,38,17,-21,Sun Devil Stadium,Home,outdoors,grass,2001092312
+28,2001_02_WAS_GB,2001,REG,2,2001-09-24,Monday,09:00,WAS,GB,0,37,37,Lambeau Field,Home,outdoors,grass,2001092400
+29,2001_03_PIT_BUF,2001,REG,3,2001-09-30,Sunday,13:00,PIT,BUF,20,3,-17,Ralph Wilson Stadium,Home,outdoors,astroturf,2001093009
+30,2001_03_GB_CAR,2001,REG,3,2001-09-30,Sunday,13:00,GB,CAR,28,7,-21,Ericsson Stadium,Home,outdoors,grass,2001093004
+31,2001_03_TB_MIN,2001,REG,3,2001-09-30,Sunday,13:00,TB,MIN,16,20,4,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001093011
+32,2001_03_IND_NE,2001,REG,3,2001-09-30,Sunday,13:00,IND,NE,13,44,31,Foxboro Stadium,Home,outdoors,grass,2001093005
+33,2001_03_NO_NYG,2001,REG,3,2001-09-30,Sunday,13:00,NO,NYG,13,21,8,Giants Stadium,Home,outdoors,grass,2001093008
+34,2001_03_MIA_STL,2001,REG,3,2001-09-30,Sunday,13:00,MIA,STL,10,42,32,Dome at America's Center,Home,dome,astroturf,2001093007
+35,2001_03_KC_WAS,2001,REG,3,2001-09-30,Sunday,13:00,KC,WAS,45,13,-32,FedExField,Home,outdoors,grass,2001093006
+36,2001_03_ATL_ARI,2001,REG,3,2001-09-30,Sunday,16:05,ATL,ARI,34,14,-20,Sun Devil Stadium,Home,outdoors,grass,2001093000
+37,2001_03_BAL_DEN,2001,REG,3,2001-09-30,Sunday,16:15,BAL,DEN,20,13,-7,Invesco Field at Mile High,Home,outdoors,grass,2001093001
+38,2001_03_CLE_JAX,2001,REG,3,2001-09-30,Sunday,16:15,CLE,JAX,23,14,-9,Alltel Stadium,Home,outdoors,grass,2001093003
+39,2001_03_SEA_OAK,2001,REG,3,2001-09-30,Sunday,16:15,SEA,OAK,14,38,24,Network Associates Coliseum,Home,outdoors,grass,2001093010
+40,2001_03_CIN_SD,2001,REG,3,2001-09-30,Sunday,16:15,CIN,SD,14,28,14,Qualcomm Stadium,Home,outdoors,grass,2001093002
+41,2001_03_DAL_PHI,2001,REG,3,2001-09-30,Sunday,20:30,DAL,PHI,18,40,22,Veterans Stadium,Home,outdoors,fieldturf,2001093012
+42,2001_03_SF_NYJ,2001,REG,3,2001-10-01,Monday,09:00,SF,NYJ,19,17,-2,Giants Stadium,Home,outdoors,grass,2001100100
+43,2001_04_CHI_ATL,2001,REG,4,2001-10-07,Sunday,13:00,CHI,ATL,31,3,-28,Georgia Dome,Home,dome,astroturf,2001100701
+44,2001_04_TEN_BAL,2001,REG,4,2001-10-07,Sunday,13:00,TEN,BAL,7,26,19,PSINet Stadium,Home,outdoors,grass,2001100710
+45,2001_04_SD_CLE,2001,REG,4,2001-10-07,Sunday,13:00,SD,CLE,16,20,4,Cleveland Browns Stadium,Home,outdoors,grass,2001100709
+46,2001_04_NE_MIA,2001,REG,4,2001-10-07,Sunday,13:00,NE,MIA,10,30,20,Pro Player Stadium,Home,outdoors,grass,2001100707
+47,2001_04_MIN_NO,2001,REG,4,2001-10-07,Sunday,13:00,MIN,NO,15,28,13,Louisiana Superdome,Home,dome,astroturf,2001100706
+48,2001_04_WAS_NYG,2001,REG,4,2001-10-07,Sunday,13:00,WAS,NYG,9,23,14,Giants Stadium,Home,outdoors,grass,2001100711
+49,2001_04_ARI_PHI,2001,REG,4,2001-10-07,Sunday,13:00,ARI,PHI,21,20,-1,Veterans Stadium,Home,outdoors,fieldturf,2001100700
+50,2001_04_CIN_PIT,2001,REG,4,2001-10-07,Sunday,13:00,CIN,PIT,7,16,9,Heinz Field,Home,outdoors,grass,2001100702
+51,2001_04_NYJ_BUF,2001,REG,4,2001-10-07,Sunday,16:05,NYJ,BUF,42,36,-6,Ralph Wilson Stadium,Home,outdoors,astroturf,2001100708
+52,2001_04_KC_DEN,2001,REG,4,2001-10-07,Sunday,16:05,KC,DEN,6,20,14,Invesco Field at Mile High,Home,outdoors,grass,2001100705
+53,2001_04_JAX_SEA,2001,REG,4,2001-10-07,Sunday,16:05,JAX,SEA,15,24,9,Husky Stadium,Home,outdoors,fieldturf,2001100704
+54,2001_04_DAL_OAK,2001,REG,4,2001-10-07,Sunday,16:15,DAL,OAK,21,28,7,Network Associates Coliseum,Home,outdoors,grass,2001100713
+55,2001_04_GB_TB,2001,REG,4,2001-10-07,Sunday,16:15,GB,TB,10,14,4,Raymond James Stadium,Home,outdoors,grass,2001100703
+56,2001_04_CAR_SF,2001,REG,4,2001-10-07,Sunday,20:30,CAR,SF,14,24,10,3Com Park,Home,outdoors,grass,2001100712
+57,2001_04_STL_DET,2001,REG,4,2001-10-08,Monday,09:00,STL,DET,35,0,-35,Pontiac Silverdome,Home,dome,astroturf,2001100800
+58,2001_05_SF_ATL,2001,REG,5,2001-10-14,Sunday,13:00,SF,ATL,37,31,-6,Georgia Dome,Home,dome,astroturf,2001101410
+59,2001_05_NO_CAR,2001,REG,5,2001-10-14,Sunday,13:00,NO,CAR,27,25,-2,Ericsson Stadium,Home,outdoors,grass,2001101406
+60,2001_05_ARI_CHI,2001,REG,5,2001-10-14,Sunday,13:00,ARI,CHI,13,20,7,Soldier Field,Home,outdoors,grass,2001101400
+61,2001_05_CLE_CIN,2001,REG,5,2001-10-14,Sunday,13:00,CLE,CIN,14,24,10,Paul Brown Stadium,Home,outdoors,grass,2001101402
+62,2001_05_BAL_GB,2001,REG,5,2001-10-14,Sunday,13:00,BAL,GB,23,31,8,Lambeau Field,Home,outdoors,grass,2001101401
+63,2001_05_PIT_KC,2001,REG,5,2001-10-14,Sunday,13:00,PIT,KC,20,17,-3,Arrowhead Stadium,Home,outdoors,grass,2001101408
+64,2001_05_DET_MIN,2001,REG,5,2001-10-14,Sunday,13:00,DET,MIN,26,31,5,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001101404
+65,2001_05_SD_NE,2001,REG,5,2001-10-14,Sunday,13:00,SD,NE,26,29,3,Foxboro Stadium,Home,outdoors,grass,2001101409
+66,2001_05_NYG_STL,2001,REG,5,2001-10-14,Sunday,13:00,NYG,STL,14,15,1,Dome at America's Center,Home,dome,astroturf,2001101407
+67,2001_05_TB_TEN,2001,REG,5,2001-10-14,Sunday,13:00,TB,TEN,28,31,3,Adelphia Coliseum,Home,outdoors,grass,2001101411
+68,2001_05_MIA_NYJ,2001,REG,5,2001-10-14,Sunday,16:15,MIA,NYJ,17,21,4,Giants Stadium,Home,outdoors,grass,2001101405
+69,2001_05_DEN_SEA,2001,REG,5,2001-10-14,Sunday,16:15,DEN,SEA,21,34,13,Husky Stadium,Home,outdoors,fieldturf,2001101403
+70,2001_05_OAK_IND,2001,REG,5,2001-10-14,Sunday,20:30,OAK,IND,23,18,-5,RCA Dome,Home,dome,astroturf,2001101412
+71,2001_05_WAS_DAL,2001,REG,5,2001-10-15,Monday,09:00,WAS,DAL,7,9,2,Texas Stadium,Home,outdoors,astroturf,2001101500
+72,2001_06_BUF_JAX,2001,REG,6,2001-10-18,Thursday,20:30,BUF,JAX,13,10,-3,Alltel Stadium,Home,outdoors,grass,2001101800
+73,2001_06_CHI_CIN,2001,REG,6,2001-10-21,Sunday,13:00,CHI,CIN,24,0,-24,Paul Brown Stadium,Home,outdoors,grass,2001102103
+74,2001_06_BAL_CLE,2001,REG,6,2001-10-21,Sunday,13:00,BAL,CLE,14,24,10,Cleveland Browns Stadium,Home,outdoors,grass,2001102101
+75,2001_06_TEN_DET,2001,REG,6,2001-10-21,Sunday,13:00,TEN,DET,27,24,-3,Pontiac Silverdome,Home,dome,astroturf,2001102111
+76,2001_06_NE_IND,2001,REG,6,2001-10-21,Sunday,13:00,NE,IND,38,17,-21,RCA Dome,Home,dome,astroturf,2001102108
+77,2001_06_ATL_NO,2001,REG,6,2001-10-21,Sunday,13:00,ATL,NO,20,13,-7,Louisiana Superdome,Home,dome,astroturf,2001102100
+78,2001_06_STL_NYJ,2001,REG,6,2001-10-21,Sunday,13:00,STL,NYJ,34,14,-20,Giants Stadium,Home,outdoors,grass,2001102110
+79,2001_06_PIT_TB,2001,REG,6,2001-10-21,Sunday,13:00,PIT,TB,17,10,-7,Raymond James Stadium,Home,outdoors,grass,2001102109
+80,2001_06_CAR_WAS,2001,REG,6,2001-10-21,Sunday,13:00,CAR,WAS,14,17,3,FedExField,Home,outdoors,grass,2001102102
+81,2001_06_KC_ARI,2001,REG,6,2001-10-21,Sunday,16:00,KC,ARI,16,24,8,Sun Devil Stadium,Home,outdoors,grass,2001102107
+82,2001_06_DEN_SD,2001,REG,6,2001-10-21,Sunday,16:05,DEN,SD,10,27,17,Qualcomm Stadium,Home,outdoors,grass,2001102105
+83,2001_06_GB_MIN,2001,REG,6,2001-10-21,Sunday,16:15,GB,MIN,13,35,22,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001102106
+84,2001_06_PHI_NYG,2001,REG,6,2001-10-22,Monday,09:00,PHI,NYG,10,9,-1,Giants Stadium,Home,outdoors,grass,2001102200
+85,2001_07_IND_KC,2001,REG,7,2001-10-25,Thursday,20:30,IND,KC,35,28,-7,Arrowhead Stadium,Home,outdoors,grass,2001102500
+86,2001_07_JAX_BAL,2001,REG,7,2001-10-28,Sunday,13:00,JAX,BAL,17,18,1,PSINet Stadium,Home,outdoors,grass,2001102804
+87,2001_07_NYJ_CAR,2001,REG,7,2001-10-28,Sunday,13:00,NYJ,CAR,13,12,-1,Ericsson Stadium,Home,outdoors,grass,2001102809
+88,2001_07_SF_CHI,2001,REG,7,2001-10-28,Sunday,13:00,SF,CHI,31,37,6,Soldier Field,Home,outdoors,grass,2001102811
+89,2001_07_CIN_DET,2001,REG,7,2001-10-28,Sunday,13:00,CIN,DET,31,27,-4,Pontiac Silverdome,Home,dome,astroturf,2001102802
+90,2001_07_NO_STL,2001,REG,7,2001-10-28,Sunday,13:00,NO,STL,34,31,-3,Dome at America's Center,Home,dome,astroturf,2001102808
+91,2001_07_MIN_TB,2001,REG,7,2001-10-28,Sunday,13:00,MIN,TB,14,41,27,Raymond James Stadium,Home,outdoors,grass,2001102806
+92,2001_07_ARI_DAL,2001,REG,7,2001-10-28,Sunday,16:05,ARI,DAL,3,17,14,Texas Stadium,Home,outdoors,astroturf,2001102800
+93,2001_07_NYG_WAS,2001,REG,7,2001-10-28,Sunday,16:05,NYG,WAS,21,35,14,FedExField,Home,outdoors,grass,2001102812
+94,2001_07_NE_DEN,2001,REG,7,2001-10-28,Sunday,16:15,NE,DEN,20,31,11,Invesco Field at Mile High,Home,outdoors,grass,2001102807
+95,2001_07_OAK_PHI,2001,REG,7,2001-10-28,Sunday,16:15,OAK,PHI,20,10,-10,Veterans Stadium,Home,outdoors,fieldturf,2001102810
+96,2001_07_BUF_SD,2001,REG,7,2001-10-28,Sunday,16:15,BUF,SD,24,27,3,Qualcomm Stadium,Home,outdoors,grass,2001102801
+97,2001_07_MIA_SEA,2001,REG,7,2001-10-28,Sunday,16:15,MIA,SEA,24,20,-4,Husky Stadium,Home,outdoors,fieldturf,2001102805
+98,2001_07_TEN_PIT,2001,REG,7,2001-10-29,Monday,09:00,TEN,PIT,7,34,27,Heinz Field,Home,outdoors,grass,2001102900
+99,2001_08_NE_ATL,2001,REG,8,2001-11-04,Sunday,13:00,NE,ATL,24,10,-14,Georgia Dome,Home,dome,astroturf,2001110408
+100,2001_08_IND_BUF,2001,REG,8,2001-11-04,Sunday,13:00,IND,BUF,30,14,-16,Ralph Wilson Stadium,Home,outdoors,astroturf,2001110405
+101,2001_08_TB_GB,2001,REG,8,2001-11-04,Sunday,13:00,TB,GB,20,21,1,Lambeau Field,Home,outdoors,grass,2001110411
+102,2001_08_CAR_MIA,2001,REG,8,2001-11-04,Sunday,13:00,CAR,MIA,6,23,17,Pro Player Stadium,Home,outdoors,grass,2001110401
+103,2001_08_DAL_NYG,2001,REG,8,2001-11-04,Sunday,13:00,DAL,NYG,24,27,3,Giants Stadium,Home,outdoors,grass,2001110403
+104,2001_08_BAL_PIT,2001,REG,8,2001-11-04,Sunday,13:00,BAL,PIT,13,10,-3,Heinz Field,Home,outdoors,grass,2001110400
+105,2001_08_JAX_TEN,2001,REG,8,2001-11-04,Sunday,13:00,JAX,TEN,24,28,4,Adelphia Coliseum,Home,outdoors,grass,2001110406
+106,2001_08_PHI_ARI,2001,REG,8,2001-11-04,Sunday,16:05,PHI,ARI,21,7,-14,Sun Devil Stadium,Home,outdoors,grass,2001110409
+107,2001_08_DET_SF,2001,REG,8,2001-11-04,Sunday,16:05,DET,SF,13,21,8,3Com Park,Home,outdoors,grass,2001110404
+108,2001_08_CLE_CHI,2001,REG,8,2001-11-04,Sunday,16:15,CLE,CHI,21,27,6,Soldier Field,Home,outdoors,grass,2001110402
+109,2001_08_KC_SD,2001,REG,8,2001-11-04,Sunday,16:15,KC,SD,25,20,-5,Qualcomm Stadium,Home,outdoors,grass,2001110407
+110,2001_08_SEA_WAS,2001,REG,8,2001-11-04,Sunday,16:15,SEA,WAS,14,27,13,FedExField,Home,outdoors,grass,2001110410
+111,2001_08_NYJ_NO,2001,REG,8,2001-11-04,Sunday,20:30,NYJ,NO,16,9,-7,Louisiana Superdome,Home,dome,astroturf,2001110412
+112,2001_08_DEN_OAK,2001,REG,8,2001-11-05,Monday,09:00,DEN,OAK,28,38,10,Network Associates Coliseum,Home,outdoors,grass,2001110500
+113,2001_09_DAL_ATL,2001,REG,9,2001-11-11,Sunday,13:00,DAL,ATL,13,20,7,Georgia Dome,Home,dome,astroturf,2001111103
+114,2001_09_GB_CHI,2001,REG,9,2001-11-11,Sunday,13:00,GB,CHI,20,12,-8,Soldier Field,Home,outdoors,grass,2001111104
+115,2001_09_PIT_CLE,2001,REG,9,2001-11-11,Sunday,13:00,PIT,CLE,15,12,-3,Cleveland Browns Stadium,Home,outdoors,grass,2001111110
+116,2001_09_TB_DET,2001,REG,9,2001-11-11,Sunday,13:00,TB,DET,20,17,-3,Pontiac Silverdome,Home,dome,astroturf,2001111112
+117,2001_09_MIA_IND,2001,REG,9,2001-11-11,Sunday,13:00,MIA,IND,27,24,-3,RCA Dome,Home,dome,astroturf,2001111106
+118,2001_09_CIN_JAX,2001,REG,9,2001-11-11,Sunday,13:00,CIN,JAX,13,30,17,Alltel Stadium,Home,outdoors,grass,2001111102
+119,2001_09_BUF_NE,2001,REG,9,2001-11-11,Sunday,13:00,BUF,NE,11,21,10,Foxboro Stadium,Home,outdoors,grass,2001111100
+120,2001_09_KC_NYJ,2001,REG,9,2001-11-11,Sunday,13:00,KC,NYJ,7,27,20,Giants Stadium,Home,outdoors,grass,2001111105
+121,2001_09_CAR_STL,2001,REG,9,2001-11-11,Sunday,13:00,CAR,STL,14,48,34,Dome at America's Center,Home,dome,astroturf,2001111101
+122,2001_09_SD_DEN,2001,REG,9,2001-11-11,Sunday,16:05,SD,DEN,16,26,10,Invesco Field at Mile High,Home,outdoors,grass,2001111111
+123,2001_09_NYG_ARI,2001,REG,9,2001-11-11,Sunday,16:15,NYG,ARI,17,10,-7,Sun Devil Stadium,Home,outdoors,grass,2001111109
+124,2001_09_MIN_PHI,2001,REG,9,2001-11-11,Sunday,16:15,MIN,PHI,17,48,31,Veterans Stadium,Home,outdoors,fieldturf,2001111107
+125,2001_09_NO_SF,2001,REG,9,2001-11-11,Sunday,16:15,NO,SF,27,28,1,3Com Park,Home,outdoors,grass,2001111108
+126,2001_09_OAK_SEA,2001,REG,9,2001-11-11,Sunday,20:30,OAK,SEA,27,34,7,Husky Stadium,Home,outdoors,fieldturf,2001111113
+127,2001_09_BAL_TEN,2001,REG,9,2001-11-12,Monday,09:00,BAL,TEN,16,10,-6,Adelphia Coliseum,Home,outdoors,grass,2001111200
+128,2001_10_CLE_BAL,2001,REG,10,2001-11-18,Sunday,13:00,CLE,BAL,27,17,-10,PSINet Stadium,Home,outdoors,grass,2001111802
+129,2001_10_SEA_BUF,2001,REG,10,2001-11-18,Sunday,13:00,SEA,BUF,23,20,-3,Ralph Wilson Stadium,Home,outdoors,astroturf,2001111810
+130,2001_10_SF_CAR,2001,REG,10,2001-11-18,Sunday,13:00,SF,CAR,25,22,-3,Ericsson Stadium,Home,outdoors,grass,2001111809
+131,2001_10_TEN_CIN,2001,REG,10,2001-11-18,Sunday,13:00,TEN,CIN,20,7,-13,Paul Brown Stadium,Home,outdoors,grass,2001111811
+132,2001_10_PHI_DAL,2001,REG,10,2001-11-18,Sunday,13:00,PHI,DAL,36,3,-33,Texas Stadium,Home,outdoors,astroturf,2001111807
+133,2001_10_ATL_GB,2001,REG,10,2001-11-18,Sunday,13:00,ATL,GB,23,20,-3,Lambeau Field,Home,outdoors,grass,2001111800
+134,2001_10_NYJ_MIA,2001,REG,10,2001-11-18,Sunday,13:00,NYJ,MIA,24,0,-24,Pro Player Stadium,Home,outdoors,grass,2001111806
+135,2001_10_IND_NO,2001,REG,10,2001-11-18,Sunday,13:00,IND,NO,20,34,14,Louisiana Superdome,Home,dome,astroturf,2001111804
+136,2001_10_SD_OAK,2001,REG,10,2001-11-18,Sunday,16:05,SD,OAK,24,34,10,Network Associates Coliseum,Home,outdoors,grass,2001111808
+137,2001_10_JAX_PIT,2001,REG,10,2001-11-18,Sunday,16:05,JAX,PIT,7,20,13,Heinz Field,Home,outdoors,grass,2001111805
+138,2001_10_DET_ARI,2001,REG,10,2001-11-18,Sunday,16:15,DET,ARI,38,45,7,Sun Devil Stadium,Home,outdoors,grass,2001111803
+139,2001_10_WAS_DEN,2001,REG,10,2001-11-18,Sunday,16:15,WAS,DEN,17,10,-7,Invesco Field at Mile High,Home,outdoors,grass,2001111812
+140,2001_10_CHI_TB,2001,REG,10,2001-11-18,Sunday,16:15,CHI,TB,27,24,-3,Raymond James Stadium,Home,outdoors,grass,2001111801
+141,2001_10_STL_NE,2001,REG,10,2001-11-18,Sunday,20:30,STL,NE,24,17,-7,Foxboro Stadium,Home,outdoors,grass,2001111813
+142,2001_10_NYG_MIN,2001,REG,10,2001-11-19,Monday,09:00,NYG,MIN,16,28,12,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001111900
+143,2001_11_GB_DET,2001,REG,11,2001-11-22,Thursday,12:30,GB,DET,29,27,-2,Pontiac Silverdome,Home,dome,astroturf,2001112200
+144,2001_11_DEN_DAL,2001,REG,11,2001-11-22,Thursday,16:05,DEN,DAL,26,24,-2,Texas Stadium,Home,outdoors,astroturf,2001112201
+145,2001_11_MIA_BUF,2001,REG,11,2001-11-25,Sunday,13:00,MIA,BUF,34,27,-7,Ralph Wilson Stadium,Home,outdoors,astroturf,2001112504
+146,2001_11_ATL_CAR,2001,REG,11,2001-11-25,Sunday,13:00,ATL,CAR,10,7,-3,Ericsson Stadium,Home,outdoors,grass,2001112501
+147,2001_11_CIN_CLE,2001,REG,11,2001-11-25,Sunday,13:00,CIN,CLE,0,18,18,Cleveland Browns Stadium,Home,outdoors,grass,2001112503
+148,2001_11_SF_IND,2001,REG,11,2001-11-25,Sunday,13:00,SF,IND,40,21,-19,RCA Dome,Home,dome,astroturf,2001112508
+149,2001_11_BAL_JAX,2001,REG,11,2001-11-25,Sunday,13:00,BAL,JAX,24,21,-3,Alltel Stadium,Home,outdoors,grass,2001112502
+150,2001_11_SEA_KC,2001,REG,11,2001-11-25,Sunday,13:00,SEA,KC,7,19,12,Arrowhead Stadium,Home,outdoors,grass,2001112509
+151,2001_11_WAS_PHI,2001,REG,11,2001-11-25,Sunday,13:00,WAS,PHI,13,3,-10,Veterans Stadium,Home,outdoors,fieldturf,2001112510
+152,2001_11_PIT_TEN,2001,REG,11,2001-11-25,Sunday,13:00,PIT,TEN,34,24,-10,Adelphia Coliseum,Home,outdoors,grass,2001112507
+153,2001_11_NO_NE,2001,REG,11,2001-11-25,Sunday,16:05,NO,NE,17,34,17,Foxboro Stadium,Home,outdoors,grass,2001112505
+154,2001_11_ARI_SD,2001,REG,11,2001-11-25,Sunday,16:05,ARI,SD,20,17,-3,Qualcomm Stadium,Home,outdoors,grass,2001112500
+155,2001_11_OAK_NYG,2001,REG,11,2001-11-25,Sunday,16:15,OAK,NYG,28,10,-18,Giants Stadium,Home,outdoors,grass,2001112506
+156,2001_11_CHI_MIN,2001,REG,11,2001-11-25,Sunday,20:30,CHI,MIN,13,6,-7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001112511
+157,2001_11_TB_STL,2001,REG,11,2001-11-26,Monday,09:00,TB,STL,24,17,-7,Dome at America's Center,Home,dome,astroturf,2001112600
+158,2001_12_PHI_KC,2001,REG,12,2001-11-29,Thursday,20:30,PHI,KC,23,10,-13,Arrowhead Stadium,Home,outdoors,grass,2001112900
+159,2001_12_IND_BAL,2001,REG,12,2001-12-02,Sunday,13:00,IND,BAL,27,39,12,PSINet Stadium,Home,outdoors,grass,2001120205
+160,2001_12_DET_CHI,2001,REG,12,2001-12-02,Sunday,13:00,DET,CHI,10,13,3,Soldier Field,Home,outdoors,grass,2001120204
+161,2001_12_TB_CIN,2001,REG,12,2001-12-02,Sunday,13:00,TB,CIN,16,13,-3,Paul Brown Stadium,Home,outdoors,grass,2001120210
+162,2001_12_TEN_CLE,2001,REG,12,2001-12-02,Sunday,13:00,TEN,CLE,31,15,-16,Cleveland Browns Stadium,Home,outdoors,grass,2001120211
+163,2001_12_DEN_MIA,2001,REG,12,2001-12-02,Sunday,13:00,DEN,MIA,10,21,11,Pro Player Stadium,Home,outdoors,grass,2001120203
+164,2001_12_CAR_NO,2001,REG,12,2001-12-02,Sunday,13:00,CAR,NO,23,27,4,Louisiana Superdome,Home,dome,astroturf,2001120201
+165,2001_12_NE_NYJ,2001,REG,12,2001-12-02,Sunday,13:00,NE,NYJ,17,16,-1,Giants Stadium,Home,outdoors,grass,2001120207
+166,2001_12_MIN_PIT,2001,REG,12,2001-12-02,Sunday,13:00,MIN,PIT,16,21,5,Heinz Field,Home,outdoors,grass,2001120206
+167,2001_12_SD_SEA,2001,REG,12,2001-12-02,Sunday,16:05,SD,SEA,10,13,3,Husky Stadium,Home,outdoors,fieldturf,2001120209
+168,2001_12_STL_ATL,2001,REG,12,2001-12-02,Sunday,16:15,STL,ATL,35,6,-29,Georgia Dome,Home,dome,astroturf,2001120208
+169,2001_12_ARI_OAK,2001,REG,12,2001-12-02,Sunday,16:15,ARI,OAK,34,31,-3,Network Associates Coliseum,Home,outdoors,grass,2001120200
+170,2001_12_DAL_WAS,2001,REG,12,2001-12-02,Sunday,16:15,DAL,WAS,20,14,-6,FedExField,Home,outdoors,grass,2001120202
+171,2001_12_BUF_SF,2001,REG,12,2001-12-02,Sunday,20:30,BUF,SF,0,35,35,3Com Park,Home,outdoors,grass,2001120212
+172,2001_12_GB_JAX,2001,REG,12,2001-12-03,Monday,09:00,GB,JAX,28,21,-7,Alltel Stadium,Home,outdoors,grass,2001120300
+173,2001_13_NO_ATL,2001,REG,13,2001-12-09,Sunday,13:00,NO,ATL,28,10,-18,Georgia Dome,Home,dome,astroturf,2001120906
+174,2001_13_CAR_BUF,2001,REG,13,2001-12-09,Sunday,13:00,CAR,BUF,24,25,1,Ralph Wilson Stadium,Home,outdoors,astroturf,2001120900
+175,2001_13_JAX_CIN,2001,REG,13,2001-12-09,Sunday,13:00,JAX,CIN,14,10,-4,Paul Brown Stadium,Home,outdoors,grass,2001120904
+176,2001_13_NYG_DAL,2001,REG,13,2001-12-09,Sunday,13:00,NYG,DAL,13,20,7,Texas Stadium,Home,outdoors,astroturf,2001120907
+177,2001_13_CHI_GB,2001,REG,13,2001-12-09,Sunday,13:00,CHI,GB,7,17,10,Lambeau Field,Home,outdoors,grass,2001120901
+178,2001_13_TEN_MIN,2001,REG,13,2001-12-09,Sunday,13:00,TEN,MIN,24,42,18,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001120911
+179,2001_13_CLE_NE,2001,REG,13,2001-12-09,Sunday,13:00,CLE,NE,16,27,11,Foxboro Stadium,Home,outdoors,grass,2001120902
+180,2001_13_SD_PHI,2001,REG,13,2001-12-09,Sunday,13:00,SD,PHI,14,24,10,Veterans Stadium,Home,outdoors,fieldturf,2001120909
+181,2001_13_SF_STL,2001,REG,13,2001-12-09,Sunday,13:00,SF,STL,14,27,13,Dome at America's Center,Home,dome,astroturf,2001120910
+182,2001_13_DET_TB,2001,REG,13,2001-12-09,Sunday,13:00,DET,TB,12,15,3,Raymond James Stadium,Home,outdoors,grass,2001120903
+183,2001_13_WAS_ARI,2001,REG,13,2001-12-09,Sunday,16:05,WAS,ARI,20,10,-10,Sun Devil Stadium,Home,outdoors,grass,2001120912
+184,2001_13_KC_OAK,2001,REG,13,2001-12-09,Sunday,16:15,KC,OAK,26,28,2,Network Associates Coliseum,Home,outdoors,grass,2001120905
+185,2001_13_NYJ_PIT,2001,REG,13,2001-12-09,Sunday,16:15,NYJ,PIT,7,18,11,Heinz Field,Home,outdoors,grass,2001120908
+186,2001_13_SEA_DEN,2001,REG,13,2001-12-09,Sunday,20:30,SEA,DEN,7,20,13,Invesco Field at Mile High,Home,outdoors,grass,2001120913
+187,2001_13_IND_MIA,2001,REG,13,2001-12-10,Monday,09:00,IND,MIA,6,41,35,Pro Player Stadium,Home,outdoors,grass,2001121000
+188,2001_14_ARI_NYG,2001,REG,14,2001-12-15,Saturday,13:30,ARI,NYG,13,17,4,Giants Stadium,Home,outdoors,grass,2001121500
+189,2001_14_OAK_SD,2001,REG,14,2001-12-15,Saturday,17:00,OAK,SD,13,6,-7,Qualcomm Stadium,Home,outdoors,grass,2001121501
+190,2001_14_NE_BUF,2001,REG,14,2001-12-16,Sunday,13:00,NE,BUF,12,9,-3,Ralph Wilson Stadium,Home,outdoors,astroturf,2001121608
+191,2001_14_TB_CHI,2001,REG,14,2001-12-16,Sunday,13:00,TB,CHI,3,27,24,Soldier Field,Home,outdoors,grass,2001121610
+192,2001_14_JAX_CLE,2001,REG,14,2001-12-16,Sunday,13:00,JAX,CLE,15,10,-5,Cleveland Browns Stadium,Home,outdoors,grass,2001121605
+193,2001_14_MIN_DET,2001,REG,14,2001-12-16,Sunday,13:00,MIN,DET,24,27,3,Pontiac Silverdome,Home,dome,astroturf,2001121607
+194,2001_14_ATL_IND,2001,REG,14,2001-12-16,Sunday,13:00,ATL,IND,27,41,14,RCA Dome,Home,dome,astroturf,2001121600
+195,2001_14_DEN_KC,2001,REG,14,2001-12-16,Sunday,13:00,DEN,KC,23,26,3,Arrowhead Stadium,Home,outdoors,grass,2001121603
+196,2001_14_CIN_NYJ,2001,REG,14,2001-12-16,Sunday,13:00,CIN,NYJ,14,15,1,Giants Stadium,Home,outdoors,grass,2001121601
+197,2001_14_PHI_WAS,2001,REG,14,2001-12-16,Sunday,16:00,PHI,WAS,20,6,-14,FedExField,Home,outdoors,grass,2001121609
+198,2001_14_MIA_SF,2001,REG,14,2001-12-16,Sunday,16:05,MIA,SF,0,21,21,3Com Park,Home,outdoors,grass,2001121606
+199,2001_14_DAL_SEA,2001,REG,14,2001-12-16,Sunday,16:15,DAL,SEA,3,29,26,Husky Stadium,Home,outdoors,fieldturf,2001121602
+200,2001_14_GB_TEN,2001,REG,14,2001-12-16,Sunday,16:15,GB,TEN,20,26,6,Adelphia Coliseum,Home,outdoors,grass,2001121604
+201,2001_14_PIT_BAL,2001,REG,14,2001-12-16,Sunday,20:30,PIT,BAL,26,21,-5,PSINet Stadium,Home,outdoors,grass,2001121611
+202,2001_14_STL_NO,2001,REG,14,2001-12-17,Monday,09:00,STL,NO,34,21,-13,Louisiana Superdome,Home,dome,astroturf,2001121700
+203,2001_15_TEN_OAK,2001,REG,15,2001-12-22,Saturday,09:00,TEN,OAK,13,10,-3,Network Associates Coliseum,Home,outdoors,grass,2001122202
+204,2001_15_MIA_NE,2001,REG,15,2001-12-22,Saturday,13:30,MIA,NE,13,20,7,Foxboro Stadium,Home,outdoors,grass,2001122200
+205,2001_15_PHI_SF,2001,REG,15,2001-12-22,Saturday,17:00,PHI,SF,3,13,10,3Com Park,Home,outdoors,grass,2001122201
+206,2001_15_BUF_ATL,2001,REG,15,2001-12-23,Sunday,13:00,BUF,ATL,30,33,3,Georgia Dome,Home,dome,astroturf,2001122300
+207,2001_15_CIN_BAL,2001,REG,15,2001-12-23,Sunday,13:00,CIN,BAL,0,16,16,PSINet Stadium,Home,outdoors,grass,2001122302
+208,2001_15_STL_CAR,2001,REG,15,2001-12-23,Sunday,13:00,STL,CAR,38,32,-6,Ericsson Stadium,Home,outdoors,grass,2001122308
+209,2001_15_SD_KC,2001,REG,15,2001-12-23,Sunday,13:00,SD,KC,17,20,3,Arrowhead Stadium,Home,outdoors,grass,2001122309
+210,2001_15_JAX_MIN,2001,REG,15,2001-12-23,Sunday,13:00,JAX,MIN,33,3,-30,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001122306
+211,2001_15_SEA_NYG,2001,REG,15,2001-12-23,Sunday,13:00,SEA,NYG,24,27,3,Giants Stadium,Home,outdoors,grass,2001122310
+212,2001_15_DET_PIT,2001,REG,15,2001-12-23,Sunday,13:00,DET,PIT,14,47,33,Heinz Field,Home,outdoors,grass,2001122305
+213,2001_15_NO_TB,2001,REG,15,2001-12-23,Sunday,13:00,NO,TB,21,48,27,Raymond James Stadium,Home,outdoors,grass,2001122307
+214,2001_15_CHI_WAS,2001,REG,15,2001-12-23,Sunday,13:00,CHI,WAS,20,15,-5,FedExField,Home,outdoors,grass,2001122301
+215,2001_15_DAL_ARI,2001,REG,15,2001-12-23,Sunday,16:05,DAL,ARI,10,17,7,Sun Devil Stadium,Home,outdoors,grass,2001122304
+216,2001_15_CLE_GB,2001,REG,15,2001-12-23,Sunday,16:15,CLE,GB,7,30,23,Lambeau Field,Home,outdoors,grass,2001122303
+217,2001_15_NYJ_IND,2001,REG,15,2001-12-23,Sunday,20:30,NYJ,IND,29,28,-1,RCA Dome,Home,dome,astroturf,2001122311
+218,2001_16_BAL_TB,2001,REG,16,2001-12-29,Saturday,09:00,BAL,TB,10,22,12,Raymond James Stadium,Home,outdoors,grass,2001122900
+219,2001_16_ARI_CAR,2001,REG,16,2001-12-30,Sunday,13:00,ARI,CAR,30,7,-23,Ericsson Stadium,Home,outdoors,grass,2001123000
+220,2001_16_PIT_CIN,2001,REG,16,2001-12-30,Sunday,13:00,PIT,CIN,23,26,3,Paul Brown Stadium,Home,outdoors,grass,2001123010
+221,2001_16_SF_DAL,2001,REG,16,2001-12-30,Sunday,13:00,SF,DAL,21,27,6,Texas Stadium,Home,outdoors,astroturf,2001123011
+222,2001_16_CHI_DET,2001,REG,16,2001-12-30,Sunday,13:00,CHI,DET,24,0,-24,Pontiac Silverdome,Home,dome,astroturf,2001123003
+223,2001_16_MIN_GB,2001,REG,16,2001-12-30,Sunday,13:00,MIN,GB,13,24,11,Lambeau Field,Home,outdoors,grass,2001123007
+224,2001_16_KC_JAX,2001,REG,16,2001-12-30,Sunday,13:00,KC,JAX,30,26,-4,Alltel Stadium,Home,outdoors,grass,2001123006
+225,2001_16_ATL_MIA,2001,REG,16,2001-12-30,Sunday,13:00,ATL,MIA,14,21,7,Pro Player Stadium,Home,outdoors,grass,2001123001
+226,2001_16_BUF_NYJ,2001,REG,16,2001-12-30,Sunday,13:00,BUF,NYJ,14,9,-5,Giants Stadium,Home,outdoors,grass,2001123002
+227,2001_16_IND_STL,2001,REG,16,2001-12-30,Sunday,13:00,IND,STL,17,42,25,Dome at America's Center,Home,dome,astroturf,2001123005
+228,2001_16_CLE_TEN,2001,REG,16,2001-12-30,Sunday,13:00,CLE,TEN,41,38,-3,Adelphia Coliseum,Home,outdoors,grass,2001123004
+229,2001_16_NYG_PHI,2001,REG,16,2001-12-30,Sunday,16:05,NYG,PHI,21,24,3,Veterans Stadium,Home,outdoors,fieldturf,2001123008
+230,2001_16_OAK_DEN,2001,REG,16,2001-12-30,Sunday,16:15,OAK,DEN,17,23,6,Invesco Field at Mile High,Home,outdoors,grass,2001123009
+231,2001_16_SEA_SD,2001,REG,16,2001-12-30,Sunday,16:15,SEA,SD,25,22,-3,Qualcomm Stadium,Home,outdoors,grass,2001123012
+232,2001_16_WAS_NO,2001,REG,16,2001-12-30,Sunday,20:30,WAS,NO,40,10,-30,Louisiana Superdome,Home,dome,astroturf,2001123013
+233,2001_17_DEN_IND,2001,REG,17,2002-01-06,Sunday,12:00,DEN,IND,10,29,19,RCA Dome,Home,dome,astroturf,2002010605
+234,2001_17_NE_CAR,2001,REG,17,2002-01-06,Sunday,13:00,NE,CAR,38,6,-32,Ericsson Stadium,Home,outdoors,grass,2002010609
+235,2001_17_JAX_CHI,2001,REG,17,2002-01-06,Sunday,13:00,JAX,CHI,13,33,20,Soldier Field,Home,outdoors,grass,2002010607
+236,2001_17_DAL_DET,2001,REG,17,2002-01-06,Sunday,13:00,DAL,DET,10,15,5,Pontiac Silverdome,Home,dome,astroturf,2002010604
+237,2001_17_SF_NO,2001,REG,17,2002-01-06,Sunday,13:00,SF,NO,38,0,-38,Louisiana Superdome,Home,dome,astroturf,2002010612
+238,2001_17_GB_NYG,2001,REG,17,2002-01-06,Sunday,13:00,GB,NYG,34,25,-9,Giants Stadium,Home,outdoors,grass,2002010606
+239,2001_17_CLE_PIT,2001,REG,17,2002-01-06,Sunday,13:00,CLE,PIT,7,28,21,Heinz Field,Home,outdoors,grass,2002010613
+240,2001_17_CIN_TEN,2001,REG,17,2002-01-06,Sunday,13:00,CIN,TEN,23,21,-2,Adelphia Coliseum,Home,outdoors,grass,2002010603
+241,2001_17_ARI_WAS,2001,REG,17,2002-01-06,Sunday,13:00,ARI,WAS,17,20,3,FedExField,Home,outdoors,grass,2002010601
+242,2001_17_ATL_STL,2001,REG,17,2002-01-06,Sunday,16:05,ATL,STL,13,31,18,Dome at America's Center,Home,dome,astroturf,2002010600
+243,2001_17_BUF_MIA,2001,REG,17,2002-01-06,Sunday,16:15,BUF,MIA,7,34,27,Pro Player Stadium,Home,outdoors,grass,2002010602
+244,2001_17_NYJ_OAK,2001,REG,17,2002-01-06,Sunday,16:15,NYJ,OAK,24,22,-2,Network Associates Coliseum,Home,outdoors,grass,2002010610
+245,2001_17_KC_SEA,2001,REG,17,2002-01-06,Sunday,16:15,KC,SEA,18,21,3,Husky Stadium,Home,outdoors,fieldturf,2002010608
+246,2001_17_PHI_TB,2001,REG,17,2002-01-06,Sunday,20:30,PHI,TB,17,13,-4,Raymond James Stadium,Home,outdoors,grass,2002010611
+247,2001_17_MIN_BAL,2001,REG,17,2002-01-07,Monday,09:00,MIN,BAL,3,19,16,PSINet Stadium,Home,outdoors,grass,2002010700
+248,2001_18_TB_PHI,2001,WC,18,2002-01-12,Saturday,16:30,TB,PHI,9,31,22,Veterans Stadium,Home,outdoors,fieldturf,2002011200
+249,2001_18_NYJ_OAK,2001,WC,18,2002-01-12,Saturday,20:00,NYJ,OAK,24,38,14,Network Associates Coliseum,Home,outdoors,grass,2002011201
+250,2001_18_SF_GB,2001,WC,18,2002-01-13,Sunday,12:30,SF,GB,15,25,10,Lambeau Field,Home,outdoors,grass,2002011300
+251,2001_18_BAL_MIA,2001,WC,18,2002-01-13,Sunday,16:00,BAL,MIA,20,3,-17,Pro Player Stadium,Home,outdoors,grass,2002011301
+252,2001_19_PHI_CHI,2001,DIV,19,2002-01-19,Saturday,16:30,PHI,CHI,33,19,-14,Soldier Field,Home,outdoors,grass,2002011900
+253,2001_19_OAK_NE,2001,DIV,19,2002-01-19,Saturday,20:00,OAK,NE,13,16,3,Foxboro Stadium,Home,outdoors,grass,2002011901
+254,2001_19_BAL_PIT,2001,DIV,19,2002-01-20,Sunday,12:30,BAL,PIT,10,27,17,Heinz Field,Home,outdoors,grass,2002012001
+255,2001_19_GB_STL,2001,DIV,19,2002-01-20,Sunday,16:00,GB,STL,17,45,28,Dome at America's Center,Home,dome,astroturf,2002012000
+256,2001_20_NE_PIT,2001,CON,20,2002-01-27,Sunday,12:30,NE,PIT,24,17,-7,Heinz Field,Home,outdoors,grass,2002012700
+257,2001_20_PHI_STL,2001,CON,20,2002-01-27,Sunday,16:00,PHI,STL,24,29,5,Dome at America's Center,Home,dome,astroturf,2002012701
+258,2001_21_STL_NE,2001,SB,21,2002-02-03,Sunday,18:40,STL,NE,17,20,3,Louisiana Superdome,Neutral,dome,astroturf,2002020300

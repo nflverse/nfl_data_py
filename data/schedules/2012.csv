@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2012_01_DAL_NYG,2012,REG,1,2012-09-05,Wednesday,20:30,DAL,NYG,24,17,-7,MetLife Stadium,Home,outdoors,fieldturf,2012090500
+1,2012_01_IND_CHI,2012,REG,1,2012-09-09,Sunday,13:00,IND,CHI,21,41,20,Soldier Field,Home,outdoors,grass,2012090900
+2,2012_01_PHI_CLE,2012,REG,1,2012-09-09,Sunday,13:00,PHI,CLE,17,16,-1,Cleveland Browns Stadium,Home,outdoors,grass,2012090907
+3,2012_01_STL_DET,2012,REG,1,2012-09-09,Sunday,13:00,STL,DET,23,27,4,Ford Field,Home,dome,fieldturf,2012090905
+4,2012_01_MIA_HOU,2012,REG,1,2012-09-09,Sunday,13:00,MIA,HOU,10,30,20,Reliant Stadium,Home,closed,grass,2012090903
+5,2012_01_ATL_KC,2012,REG,1,2012-09-09,Sunday,13:00,ATL,KC,40,24,-16,Arrowhead Stadium,Home,outdoors,grass,2012090908
+6,2012_01_JAX_MIN,2012,REG,1,2012-09-09,Sunday,13:00,JAX,MIN,23,26,3,Mall of America Field,Home,dome,sportturf,2012090901
+7,2012_01_WAS_NO,2012,REG,1,2012-09-09,Sunday,13:00,WAS,NO,40,32,-8,Mercedes-Benz Superdome,Home,dome,sportturf,2012090906
+8,2012_01_BUF_NYJ,2012,REG,1,2012-09-09,Sunday,13:00,BUF,NYJ,28,48,20,MetLife Stadium,Home,outdoors,fieldturf,2012090902
+9,2012_01_NE_TEN,2012,REG,1,2012-09-09,Sunday,13:00,NE,TEN,34,13,-21,LP Field,Home,outdoors,grass,2012090904
+10,2012_01_SEA_ARI,2012,REG,1,2012-09-09,Sunday,16:25,SEA,ARI,16,20,4,University of Phoenix Stadium,Home,closed,grass,2012090910
+11,2012_01_SF_GB,2012,REG,1,2012-09-09,Sunday,16:25,SF,GB,30,22,-8,Lambeau Field,Home,outdoors,grass,2012090909
+12,2012_01_CAR_TB,2012,REG,1,2012-09-09,Sunday,16:25,CAR,TB,10,16,6,Raymond James Stadium,Home,outdoors,grass,2012090911
+13,2012_01_PIT_DEN,2012,REG,1,2012-09-09,Sunday,20:20,PIT,DEN,19,31,12,Sports Authority Field at Mile High,Home,outdoors,grass,2012090912
+14,2012_01_CIN_BAL,2012,REG,1,2012-09-10,Monday,19:00,CIN,BAL,13,44,31,M&T Bank Stadium,Home,outdoors,sportturf,2012091000
+15,2012_01_SD_OAK,2012,REG,1,2012-09-10,Monday,22:15,SD,OAK,22,14,-8,O.co Coliseum,Home,outdoors,grass,2012091001
+16,2012_02_CHI_GB,2012,REG,2,2012-09-13,Thursday,20:20,CHI,GB,10,23,13,Lambeau Field,Home,outdoors,grass,2012091300
+17,2012_02_KC_BUF,2012,REG,2,2012-09-16,Sunday,13:00,KC,BUF,17,35,18,Ralph Wilson Stadium,Home,outdoors,a_turf,2012091605
+18,2012_02_NO_CAR,2012,REG,2,2012-09-16,Sunday,13:00,NO,CAR,27,35,8,Bank of America Stadium,Home,outdoors,grass,2012091601
+19,2012_02_CLE_CIN,2012,REG,2,2012-09-16,Sunday,13:00,CLE,CIN,27,34,7,Paul Brown Stadium,Home,outdoors,fieldturf,2012091606
+20,2012_02_MIN_IND,2012,REG,2,2012-09-16,Sunday,13:00,MIN,IND,20,23,3,Lucas Oil Stadium,Home,open,fieldturf,2012091603
+21,2012_02_HOU_JAX,2012,REG,2,2012-09-16,Sunday,13:00,HOU,JAX,27,7,-20,EverBank Field,Home,outdoors,grass,2012091607
+22,2012_02_OAK_MIA,2012,REG,2,2012-09-16,Sunday,13:00,OAK,MIA,13,35,22,Sun Life Stadium,Home,outdoors,grass,2012091612
+23,2012_02_ARI_NE,2012,REG,2,2012-09-16,Sunday,13:00,ARI,NE,20,18,-2,Gillette Stadium,Home,outdoors,fieldturf,2012091602
+24,2012_02_TB_NYG,2012,REG,2,2012-09-16,Sunday,13:00,TB,NYG,34,41,7,MetLife Stadium,Home,outdoors,fieldturf,2012091600
+25,2012_02_BAL_PHI,2012,REG,2,2012-09-16,Sunday,13:00,BAL,PHI,23,24,1,Lincoln Financial Field,Home,outdoors,grass,2012091604
+26,2012_02_DAL_SEA,2012,REG,2,2012-09-16,Sunday,16:05,DAL,SEA,7,27,20,CenturyLink Field,Home,outdoors,fieldturf,2012091608
+27,2012_02_WAS_STL,2012,REG,2,2012-09-16,Sunday,16:05,WAS,STL,28,31,3,Edward Jones Dome,Home,dome,astroplay,2012091609
+28,2012_02_NYJ_PIT,2012,REG,2,2012-09-16,Sunday,16:25,NYJ,PIT,10,27,17,Heinz Field,Home,outdoors,grass,2012091610
+29,2012_02_TEN_SD,2012,REG,2,2012-09-16,Sunday,16:25,TEN,SD,10,38,28,Qualcomm Stadium,Home,outdoors,grass,2012091611
+30,2012_02_DET_SF,2012,REG,2,2012-09-16,Sunday,20:20,DET,SF,19,27,8,Candlestick Park,Home,outdoors,grass,2012091613
+31,2012_02_DEN_ATL,2012,REG,2,2012-09-17,Monday,20:30,DEN,ATL,21,27,6,Georgia Dome,Home,dome,fieldturf,2012091700
+32,2012_03_NYG_CAR,2012,REG,3,2012-09-20,Thursday,20:20,NYG,CAR,36,7,-29,Bank of America Stadium,Home,outdoors,grass,2012092000
+33,2012_03_STL_CHI,2012,REG,3,2012-09-23,Sunday,13:00,STL,CHI,6,23,17,Soldier Field,Home,outdoors,grass,2012092301
+34,2012_03_BUF_CLE,2012,REG,3,2012-09-23,Sunday,13:00,BUF,CLE,24,14,-10,Cleveland Browns Stadium,Home,outdoors,grass,2012092307
+35,2012_03_TB_DAL,2012,REG,3,2012-09-23,Sunday,13:00,TB,DAL,10,16,6,Cowboys Stadium,Home,closed,matrixturf,2012092300
+36,2012_03_JAX_IND,2012,REG,3,2012-09-23,Sunday,13:00,JAX,IND,22,17,-5,Lucas Oil Stadium,Home,open,fieldturf,2012092308
+37,2012_03_NYJ_MIA,2012,REG,3,2012-09-23,Sunday,13:00,NYJ,MIA,23,20,-3,Sun Life Stadium,Home,outdoors,grass,2012092306
+38,2012_03_SF_MIN,2012,REG,3,2012-09-23,Sunday,13:00,SF,MIN,13,24,11,Mall of America Field,Home,dome,sportturf,2012092302
+39,2012_03_KC_NO,2012,REG,3,2012-09-23,Sunday,13:00,KC,NO,27,24,-3,Mercedes-Benz Superdome,Home,dome,sportturf,2012092305
+40,2012_03_DET_TEN,2012,REG,3,2012-09-23,Sunday,13:00,DET,TEN,41,44,3,LP Field,Home,outdoors,grass,2012092303
+41,2012_03_CIN_WAS,2012,REG,3,2012-09-23,Sunday,13:00,CIN,WAS,38,31,-7,FedExField,Home,outdoors,grass,2012092304
+42,2012_03_PHI_ARI,2012,REG,3,2012-09-23,Sunday,16:05,PHI,ARI,6,27,21,University of Phoenix Stadium,Home,closed,grass,2012092309
+43,2012_03_ATL_SD,2012,REG,3,2012-09-23,Sunday,16:05,ATL,SD,27,3,-24,Qualcomm Stadium,Home,outdoors,grass,2012092310
+44,2012_03_HOU_DEN,2012,REG,3,2012-09-23,Sunday,16:25,HOU,DEN,31,25,-6,Sports Authority Field at Mile High,Home,outdoors,grass,2012092311
+45,2012_03_PIT_OAK,2012,REG,3,2012-09-23,Sunday,16:25,PIT,OAK,31,34,3,O.co Coliseum,Home,outdoors,grass,2012092312
+46,2012_03_NE_BAL,2012,REG,3,2012-09-23,Sunday,20:20,NE,BAL,30,31,1,M&T Bank Stadium,Home,outdoors,sportturf,2012092313
+47,2012_03_GB_SEA,2012,REG,3,2012-09-24,Monday,20:30,GB,SEA,12,14,2,CenturyLink Field,Home,outdoors,fieldturf,2012092400
+48,2012_04_CLE_BAL,2012,REG,4,2012-09-27,Thursday,20:20,CLE,BAL,16,23,7,M&T Bank Stadium,Home,outdoors,sportturf,2012092700
+49,2012_04_CAR_ATL,2012,REG,4,2012-09-30,Sunday,13:00,CAR,ATL,28,30,2,Georgia Dome,Home,dome,fieldturf,2012093004
+50,2012_04_NE_BUF,2012,REG,4,2012-09-30,Sunday,13:00,NE,BUF,52,28,-24,Ralph Wilson Stadium,Home,outdoors,a_turf,2012093000
+51,2012_04_MIN_DET,2012,REG,4,2012-09-30,Sunday,13:00,MIN,DET,20,13,-7,Ford Field,Home,dome,fieldturf,2012093003
+52,2012_04_TEN_HOU,2012,REG,4,2012-09-30,Sunday,13:00,TEN,HOU,14,38,24,Reliant Stadium,Home,closed,grass,2012093001
+53,2012_04_SD_KC,2012,REG,4,2012-09-30,Sunday,13:00,SD,KC,37,20,-17,Arrowhead Stadium,Home,outdoors,grass,2012093002
+54,2012_04_SF_NYJ,2012,REG,4,2012-09-30,Sunday,13:00,SF,NYJ,34,0,-34,MetLife Stadium,Home,outdoors,fieldturf,2012093006
+55,2012_04_SEA_STL,2012,REG,4,2012-09-30,Sunday,13:00,SEA,STL,13,19,6,Edward Jones Dome,Home,dome,astroplay,2012093005
+56,2012_04_MIA_ARI,2012,REG,4,2012-09-30,Sunday,16:05,MIA,ARI,21,24,3,University of Phoenix Stadium,Home,closed,grass,2012093007
+57,2012_04_OAK_DEN,2012,REG,4,2012-09-30,Sunday,16:05,OAK,DEN,6,37,31,Sports Authority Field at Mile High,Home,outdoors,grass,2012093008
+58,2012_04_CIN_JAX,2012,REG,4,2012-09-30,Sunday,16:05,CIN,JAX,27,10,-17,EverBank Field,Home,outdoors,grass,2012093009
+59,2012_04_NO_GB,2012,REG,4,2012-09-30,Sunday,16:25,NO,GB,27,28,1,Lambeau Field,Home,outdoors,grass,2012093010
+60,2012_04_WAS_TB,2012,REG,4,2012-09-30,Sunday,16:25,WAS,TB,24,22,-2,Raymond James Stadium,Home,outdoors,grass,2012093011
+61,2012_04_NYG_PHI,2012,REG,4,2012-09-30,Sunday,20:20,NYG,PHI,17,19,2,Lincoln Financial Field,Home,outdoors,grass,2012093012
+62,2012_04_CHI_DAL,2012,REG,4,2012-10-01,Monday,20:30,CHI,DAL,34,18,-16,Cowboys Stadium,Home,closed,matrixturf,2012100100
+63,2012_05_ARI_STL,2012,REG,5,2012-10-04,Thursday,20:20,ARI,STL,3,17,14,Edward Jones Dome,Home,dome,astroplay,2012100400
+64,2012_05_MIA_CIN,2012,REG,5,2012-10-07,Sunday,13:00,MIA,CIN,17,13,-4,Paul Brown Stadium,Home,outdoors,fieldturf,2012100705
+65,2012_05_GB_IND,2012,REG,5,2012-10-07,Sunday,13:00,GB,IND,27,30,3,Lucas Oil Stadium,Home,closed,fieldturf,2012100702
+66,2012_05_BAL_KC,2012,REG,5,2012-10-07,Sunday,13:00,BAL,KC,9,6,-3,Arrowhead Stadium,Home,outdoors,grass,2012100706
+67,2012_05_CLE_NYG,2012,REG,5,2012-10-07,Sunday,13:00,CLE,NYG,27,41,14,MetLife Stadium,Home,outdoors,fieldturf,2012100703
+68,2012_05_PHI_PIT,2012,REG,5,2012-10-07,Sunday,13:00,PHI,PIT,14,16,2,Heinz Field,Home,outdoors,grass,2012100701
+69,2012_05_ATL_WAS,2012,REG,5,2012-10-07,Sunday,13:00,ATL,WAS,24,17,-7,FedExField,Home,outdoors,grass,2012100700
+70,2012_05_SEA_CAR,2012,REG,5,2012-10-07,Sunday,16:05,SEA,CAR,16,12,-4,Bank of America Stadium,Home,outdoors,grass,2012100707
+71,2012_05_CHI_JAX,2012,REG,5,2012-10-07,Sunday,16:05,CHI,JAX,41,3,-38,EverBank Field,Home,outdoors,grass,2012100708
+72,2012_05_TEN_MIN,2012,REG,5,2012-10-07,Sunday,16:15,TEN,MIN,7,30,23,Mall of America Field,Home,dome,sportturf,2012100704
+73,2012_05_DEN_NE,2012,REG,5,2012-10-07,Sunday,16:25,DEN,NE,21,31,10,Gillette Stadium,Home,outdoors,fieldturf,2012100709
+74,2012_05_BUF_SF,2012,REG,5,2012-10-07,Sunday,16:25,BUF,SF,3,45,42,Candlestick Park,Home,outdoors,grass,2012100710
+75,2012_05_SD_NO,2012,REG,5,2012-10-07,Sunday,20:20,SD,NO,24,31,7,Mercedes-Benz Superdome,Home,dome,sportturf,2012100711
+76,2012_05_HOU_NYJ,2012,REG,5,2012-10-08,Monday,20:30,HOU,NYJ,23,17,-6,MetLife Stadium,Home,outdoors,fieldturf,2012100800
+77,2012_06_PIT_TEN,2012,REG,6,2012-10-11,Thursday,20:20,PIT,TEN,23,26,3,LP Field,Home,outdoors,grass,2012101100
+78,2012_06_OAK_ATL,2012,REG,6,2012-10-14,Sunday,13:00,OAK,ATL,20,23,3,Georgia Dome,Home,dome,fieldturf,2012101400
+79,2012_06_DAL_BAL,2012,REG,6,2012-10-14,Sunday,13:00,DAL,BAL,29,31,2,M&T Bank Stadium,Home,outdoors,sportturf,2012101406
+80,2012_06_CIN_CLE,2012,REG,6,2012-10-14,Sunday,13:00,CIN,CLE,24,34,10,Cleveland Browns Stadium,Home,outdoors,grass,2012101403
+81,2012_06_STL_MIA,2012,REG,6,2012-10-14,Sunday,13:00,STL,MIA,14,17,3,Sun Life Stadium,Home,outdoors,grass,2012101405
+82,2012_06_IND_NYJ,2012,REG,6,2012-10-14,Sunday,13:00,IND,NYJ,9,35,26,MetLife Stadium,Home,outdoors,fieldturf,2012101402
+83,2012_06_DET_PHI,2012,REG,6,2012-10-14,Sunday,13:00,DET,PHI,26,23,-3,Lincoln Financial Field,Home,outdoors,grass,2012101404
+84,2012_06_KC_TB,2012,REG,6,2012-10-14,Sunday,13:00,KC,TB,10,38,28,Raymond James Stadium,Home,outdoors,grass,2012101401
+85,2012_06_BUF_ARI,2012,REG,6,2012-10-14,Sunday,16:05,BUF,ARI,19,16,-3,University of Phoenix Stadium,Home,closed,grass,2012101407
+86,2012_06_NE_SEA,2012,REG,6,2012-10-14,Sunday,16:05,NE,SEA,23,24,1,CenturyLink Field,Home,outdoors,fieldturf,2012101408
+87,2012_06_NYG_SF,2012,REG,6,2012-10-14,Sunday,16:25,NYG,SF,26,3,-23,Candlestick Park,Home,outdoors,grass,2012101409
+88,2012_06_MIN_WAS,2012,REG,6,2012-10-14,Sunday,16:25,MIN,WAS,26,38,12,FedExField,Home,outdoors,grass,2012101410
+89,2012_06_GB_HOU,2012,REG,6,2012-10-14,Sunday,20:20,GB,HOU,42,24,-18,Reliant Stadium,Home,closed,grass,2012101411
+90,2012_06_DEN_SD,2012,REG,6,2012-10-15,Monday,20:30,DEN,SD,35,24,-11,Qualcomm Stadium,Home,outdoors,grass,2012101500
+91,2012_07_SEA_SF,2012,REG,7,2012-10-18,Thursday,20:20,SEA,SF,6,13,7,Candlestick Park,Home,outdoors,grass,2012101800
+92,2012_07_TEN_BUF,2012,REG,7,2012-10-21,Sunday,13:00,TEN,BUF,35,34,-1,Ralph Wilson Stadium,Home,outdoors,a_turf,2012102107
+93,2012_07_DAL_CAR,2012,REG,7,2012-10-21,Sunday,13:00,DAL,CAR,19,14,-5,Bank of America Stadium,Home,outdoors,grass,2012102102
+94,2012_07_BAL_HOU,2012,REG,7,2012-10-21,Sunday,13:00,BAL,HOU,13,43,30,Reliant Stadium,Home,closed,grass,2012102105
+95,2012_07_CLE_IND,2012,REG,7,2012-10-21,Sunday,13:00,CLE,IND,13,17,4,Lucas Oil Stadium,Home,open,fieldturf,2012102106
+96,2012_07_ARI_MIN,2012,REG,7,2012-10-21,Sunday,13:00,ARI,MIN,14,21,7,Mall of America Field,Home,dome,sportturf,2012102101
+97,2012_07_WAS_NYG,2012,REG,7,2012-10-21,Sunday,13:00,WAS,NYG,23,27,4,MetLife Stadium,Home,outdoors,fieldturf,2012102100
+98,2012_07_GB_STL,2012,REG,7,2012-10-21,Sunday,13:00,GB,STL,30,20,-10,Edward Jones Dome,Home,dome,astroplay,2012102104
+99,2012_07_NO_TB,2012,REG,7,2012-10-21,Sunday,13:00,NO,TB,35,28,-7,Raymond James Stadium,Home,outdoors,grass,2012102103
+100,2012_07_NYJ_NE,2012,REG,7,2012-10-21,Sunday,16:25,NYJ,NE,26,29,3,Gillette Stadium,Home,outdoors,fieldturf,2012102108
+101,2012_07_JAX_OAK,2012,REG,7,2012-10-21,Sunday,16:25,JAX,OAK,23,26,3,O.co Coliseum,Home,outdoors,grass,2012102109
+102,2012_07_PIT_CIN,2012,REG,7,2012-10-21,Sunday,20:20,PIT,CIN,24,17,-7,Paul Brown Stadium,Home,outdoors,fieldturf,2012102110
+103,2012_07_DET_CHI,2012,REG,7,2012-10-22,Monday,20:30,DET,CHI,7,13,6,Soldier Field,Home,outdoors,grass,2012102200
+104,2012_08_TB_MIN,2012,REG,8,2012-10-25,Thursday,20:20,TB,MIN,36,17,-19,Mall of America Field,Home,dome,sportturf,2012102500
+105,2012_08_CAR_CHI,2012,REG,8,2012-10-28,Sunday,13:00,CAR,CHI,22,23,1,Soldier Field,Home,outdoors,grass,2012102806
+106,2012_08_SD_CLE,2012,REG,8,2012-10-28,Sunday,13:00,SD,CLE,6,7,1,Cleveland Browns Stadium,Home,outdoors,grass,2012102802
+107,2012_08_SEA_DET,2012,REG,8,2012-10-28,Sunday,13:00,SEA,DET,24,28,4,Ford Field,Home,dome,fieldturf,2012102807
+108,2012_08_JAX_GB,2012,REG,8,2012-10-28,Sunday,13:00,JAX,GB,15,24,9,Lambeau Field,Home,outdoors,grass,2012102800
+109,2012_08_MIA_NYJ,2012,REG,8,2012-10-28,Sunday,13:00,MIA,NYJ,30,9,-21,MetLife Stadium,Home,outdoors,fieldturf,2012102801
+110,2012_08_ATL_PHI,2012,REG,8,2012-10-28,Sunday,13:00,ATL,PHI,30,17,-13,Lincoln Financial Field,Home,outdoors,grass,2012102805
+111,2012_08_WAS_PIT,2012,REG,8,2012-10-28,Sunday,13:00,WAS,PIT,12,27,15,Heinz Field,Home,outdoors,grass,2012102808
+112,2012_08_NE_STL,2012,REG,8,2012-10-28,Sunday,13:00,NE,STL,45,7,-38,Wembley Stadium,Neutral,outdoors,astroplay,2012102804
+113,2012_08_IND_TEN,2012,REG,8,2012-10-28,Sunday,13:00,IND,TEN,19,13,-6,LP Field,Home,outdoors,grass,2012102803
+114,2012_08_OAK_KC,2012,REG,8,2012-10-28,Sunday,16:05,OAK,KC,26,16,-10,Arrowhead Stadium,Home,outdoors,grass,2012102809
+115,2012_08_NYG_DAL,2012,REG,8,2012-10-28,Sunday,16:25,NYG,DAL,29,24,-5,Cowboys Stadium,Home,open,matrixturf,2012102810
+116,2012_08_NO_DEN,2012,REG,8,2012-10-28,Sunday,20:20,NO,DEN,14,34,20,Sports Authority Field at Mile High,Home,outdoors,grass,2012102811
+117,2012_08_SF_ARI,2012,REG,8,2012-10-29,Monday,20:30,SF,ARI,24,3,-21,University of Phoenix Stadium,Home,closed,grass,2012102900
+118,2012_09_KC_SD,2012,REG,9,2012-11-01,Thursday,20:20,KC,SD,13,31,18,Qualcomm Stadium,Home,outdoors,grass,2012110100
+119,2012_09_DEN_CIN,2012,REG,9,2012-11-04,Sunday,13:00,DEN,CIN,31,23,-8,Paul Brown Stadium,Home,outdoors,fieldturf,2012110404
+120,2012_09_BAL_CLE,2012,REG,9,2012-11-04,Sunday,13:00,BAL,CLE,25,15,-10,Cleveland Browns Stadium,Home,outdoors,grass,2012110405
+121,2012_09_ARI_GB,2012,REG,9,2012-11-04,Sunday,13:00,ARI,GB,17,31,14,Lambeau Field,Home,outdoors,grass,2012110401
+122,2012_09_BUF_HOU,2012,REG,9,2012-11-04,Sunday,13:00,BUF,HOU,9,21,12,Reliant Stadium,Home,closed,grass,2012110406
+123,2012_09_MIA_IND,2012,REG,9,2012-11-04,Sunday,13:00,MIA,IND,20,23,3,Lucas Oil Stadium,Home,closed,fieldturf,2012110407
+124,2012_09_DET_JAX,2012,REG,9,2012-11-04,Sunday,13:00,DET,JAX,31,14,-17,EverBank Field,Home,outdoors,grass,2012110402
+125,2012_09_CHI_TEN,2012,REG,9,2012-11-04,Sunday,13:00,CHI,TEN,51,20,-31,LP Field,Home,outdoors,grass,2012110403
+126,2012_09_CAR_WAS,2012,REG,9,2012-11-04,Sunday,13:00,CAR,WAS,21,13,-8,FedExField,Home,outdoors,grass,2012110400
+127,2012_09_TB_OAK,2012,REG,9,2012-11-04,Sunday,16:05,TB,OAK,42,32,-10,O.co Coliseum,Home,outdoors,grass,2012110409
+128,2012_09_MIN_SEA,2012,REG,9,2012-11-04,Sunday,16:05,MIN,SEA,20,30,10,CenturyLink Field,Home,outdoors,fieldturf,2012110408
+129,2012_09_PIT_NYG,2012,REG,9,2012-11-04,Sunday,16:25,PIT,NYG,24,20,-4,MetLife Stadium,Home,outdoors,fieldturf,2012110410
+130,2012_09_DAL_ATL,2012,REG,9,2012-11-04,Sunday,20:20,DAL,ATL,13,19,6,Georgia Dome,Home,dome,fieldturf,2012110411
+131,2012_09_PHI_NO,2012,REG,9,2012-11-05,Monday,20:30,PHI,NO,13,28,15,Mercedes-Benz Superdome,Home,dome,sportturf,2012110500
+132,2012_10_IND_JAX,2012,REG,10,2012-11-08,Thursday,20:20,IND,JAX,27,10,-17,EverBank Field,Home,outdoors,grass,2012110800
+133,2012_10_OAK_BAL,2012,REG,10,2012-11-11,Sunday,13:00,OAK,BAL,20,55,35,M&T Bank Stadium,Home,outdoors,sportturf,2012111104
+134,2012_10_DEN_CAR,2012,REG,10,2012-11-11,Sunday,13:00,DEN,CAR,36,14,-22,Bank of America Stadium,Home,outdoors,grass,2012111100
+135,2012_10_NYG_CIN,2012,REG,10,2012-11-11,Sunday,13:00,NYG,CIN,13,31,18,Paul Brown Stadium,Home,outdoors,fieldturf,2012111105
+136,2012_10_TEN_MIA,2012,REG,10,2012-11-11,Sunday,13:00,TEN,MIA,37,3,-34,Sun Life Stadium,Home,outdoors,grass,2012111102
+137,2012_10_DET_MIN,2012,REG,10,2012-11-11,Sunday,13:00,DET,MIN,24,34,10,Mall of America Field,Home,dome,sportturf,2012111107
+138,2012_10_BUF_NE,2012,REG,10,2012-11-11,Sunday,13:00,BUF,NE,31,37,6,Gillette Stadium,Home,outdoors,fieldturf,2012111103
+139,2012_10_ATL_NO,2012,REG,10,2012-11-11,Sunday,13:00,ATL,NO,27,31,4,Mercedes-Benz Superdome,Home,dome,sportturf,2012111106
+140,2012_10_SD_TB,2012,REG,10,2012-11-11,Sunday,13:00,SD,TB,24,34,10,Raymond James Stadium,Home,outdoors,grass,2012111101
+141,2012_10_NYJ_SEA,2012,REG,10,2012-11-11,Sunday,16:05,NYJ,SEA,7,28,21,CenturyLink Field,Home,outdoors,fieldturf,2012111108
+142,2012_10_DAL_PHI,2012,REG,10,2012-11-11,Sunday,16:25,DAL,PHI,38,23,-15,Lincoln Financial Field,Home,outdoors,grass,2012111109
+143,2012_10_STL_SF,2012,REG,10,2012-11-11,Sunday,16:25,STL,SF,24,24,0,Candlestick Park,Home,outdoors,grass,2012111110
+144,2012_10_HOU_CHI,2012,REG,10,2012-11-11,Sunday,20:20,HOU,CHI,13,6,-7,Soldier Field,Home,outdoors,grass,2012111111
+145,2012_10_KC_PIT,2012,REG,10,2012-11-12,Monday,20:30,KC,PIT,13,16,3,Heinz Field,Home,outdoors,grass,2012111200
+146,2012_11_MIA_BUF,2012,REG,11,2012-11-15,Thursday,20:20,MIA,BUF,14,19,5,Ralph Wilson Stadium,Home,outdoors,a_turf,2012111500
+147,2012_11_ARI_ATL,2012,REG,11,2012-11-18,Sunday,13:00,ARI,ATL,19,23,4,Georgia Dome,Home,dome,fieldturf,2012111802
+148,2012_11_TB_CAR,2012,REG,11,2012-11-18,Sunday,13:00,TB,CAR,27,21,-6,Bank of America Stadium,Home,outdoors,grass,2012111803
+149,2012_11_CLE_DAL,2012,REG,11,2012-11-18,Sunday,13:00,CLE,DAL,20,23,3,Cowboys Stadium,Home,closed,matrixturf,2012111804
+150,2012_11_GB_DET,2012,REG,11,2012-11-18,Sunday,13:00,GB,DET,24,20,-4,Ford Field,Home,dome,fieldturf,2012111801
+151,2012_11_JAX_HOU,2012,REG,11,2012-11-18,Sunday,13:00,JAX,HOU,37,43,6,Reliant Stadium,Home,closed,grass,2012111807
+152,2012_11_CIN_KC,2012,REG,11,2012-11-18,Sunday,13:00,CIN,KC,28,6,-22,Arrowhead Stadium,Home,outdoors,grass,2012111808
+153,2012_11_NYJ_STL,2012,REG,11,2012-11-18,Sunday,13:00,NYJ,STL,27,13,-14,Edward Jones Dome,Home,dome,astroplay,2012111805
+154,2012_11_PHI_WAS,2012,REG,11,2012-11-18,Sunday,13:00,PHI,WAS,6,31,25,FedExField,Home,outdoors,grass,2012111800
+155,2012_11_NO_OAK,2012,REG,11,2012-11-18,Sunday,16:05,NO,OAK,38,17,-21,O.co Coliseum,Home,outdoors,grass,2012111809
+156,2012_11_SD_DEN,2012,REG,11,2012-11-18,Sunday,16:25,SD,DEN,23,30,7,Sports Authority Field at Mile High,Home,outdoors,grass,2012111810
+157,2012_11_IND_NE,2012,REG,11,2012-11-18,Sunday,16:25,IND,NE,24,59,35,Gillette Stadium,Home,outdoors,fieldturf,2012111806
+158,2012_11_BAL_PIT,2012,REG,11,2012-11-18,Sunday,20:20,BAL,PIT,13,10,-3,Heinz Field,Home,outdoors,grass,2012111811
+159,2012_11_CHI_SF,2012,REG,11,2012-11-19,Monday,20:30,CHI,SF,7,32,25,Candlestick Park,Home,outdoors,grass,2012111900
+160,2012_12_HOU_DET,2012,REG,12,2012-11-22,Thursday,12:30,HOU,DET,34,31,-3,Ford Field,Home,dome,fieldturf,2012112200
+161,2012_12_WAS_DAL,2012,REG,12,2012-11-22,Thursday,16:15,WAS,DAL,38,31,-7,Cowboys Stadium,Home,closed,matrixturf,2012112201
+162,2012_12_NE_NYJ,2012,REG,12,2012-11-22,Thursday,20:20,NE,NYJ,49,19,-30,MetLife Stadium,Home,outdoors,fieldturf,2012112202
+163,2012_12_MIN_CHI,2012,REG,12,2012-11-25,Sunday,13:00,MIN,CHI,10,28,18,Soldier Field,Home,outdoors,grass,2012112505
+164,2012_12_OAK_CIN,2012,REG,12,2012-11-25,Sunday,13:00,OAK,CIN,10,34,24,Paul Brown Stadium,Home,outdoors,fieldturf,2012112500
+165,2012_12_PIT_CLE,2012,REG,12,2012-11-25,Sunday,13:00,PIT,CLE,14,20,6,Cleveland Browns Stadium,Home,outdoors,grass,2012112501
+166,2012_12_BUF_IND,2012,REG,12,2012-11-25,Sunday,13:00,BUF,IND,13,20,7,Lucas Oil Stadium,Home,closed,fieldturf,2012112502
+167,2012_12_TEN_JAX,2012,REG,12,2012-11-25,Sunday,13:00,TEN,JAX,19,24,5,EverBank Field,Home,outdoors,grass,2012112503
+168,2012_12_DEN_KC,2012,REG,12,2012-11-25,Sunday,13:00,DEN,KC,17,9,-8,Arrowhead Stadium,Home,outdoors,grass,2012112504
+169,2012_12_SEA_MIA,2012,REG,12,2012-11-25,Sunday,13:00,SEA,MIA,21,24,3,Sun Life Stadium,Home,outdoors,grass,2012112507
+170,2012_12_ATL_TB,2012,REG,12,2012-11-25,Sunday,13:00,ATL,TB,24,23,-1,Raymond James Stadium,Home,outdoors,grass,2012112506
+171,2012_12_BAL_SD,2012,REG,12,2012-11-25,Sunday,16:05,BAL,SD,16,13,-3,Qualcomm Stadium,Home,outdoors,grass,2012112508
+172,2012_12_STL_ARI,2012,REG,12,2012-11-25,Sunday,16:25,STL,ARI,31,17,-14,University of Phoenix Stadium,Home,closed,grass,2012112510
+173,2012_12_SF_NO,2012,REG,12,2012-11-25,Sunday,16:25,SF,NO,31,21,-10,Mercedes-Benz Superdome,Home,dome,sportturf,2012112509
+174,2012_12_GB_NYG,2012,REG,12,2012-11-25,Sunday,20:20,GB,NYG,10,38,28,MetLife Stadium,Home,outdoors,fieldturf,2012112511
+175,2012_12_CAR_PHI,2012,REG,12,2012-11-26,Monday,20:30,CAR,PHI,30,22,-8,Lincoln Financial Field,Home,outdoors,grass,2012112600
+176,2012_13_NO_ATL,2012,REG,13,2012-11-29,Thursday,20:20,NO,ATL,13,23,10,Georgia Dome,Home,dome,fieldturf,2012112900
+177,2012_13_JAX_BUF,2012,REG,13,2012-12-02,Sunday,13:00,JAX,BUF,18,34,16,Ralph Wilson Stadium,Home,outdoors,a_turf,2012120206
+178,2012_13_SEA_CHI,2012,REG,13,2012-12-02,Sunday,13:00,SEA,CHI,23,17,-6,Soldier Field,Home,outdoors,grass,2012120200
+179,2012_13_IND_DET,2012,REG,13,2012-12-02,Sunday,13:00,IND,DET,35,33,-2,Ford Field,Home,dome,fieldturf,2012120205
+180,2012_13_MIN_GB,2012,REG,13,2012-12-02,Sunday,13:00,MIN,GB,14,23,9,Lambeau Field,Home,outdoors,grass,2012120201
+181,2012_13_CAR_KC,2012,REG,13,2012-12-02,Sunday,13:00,CAR,KC,21,27,6,Arrowhead Stadium,Home,outdoors,grass,2012120204
+182,2012_13_NE_MIA,2012,REG,13,2012-12-02,Sunday,13:00,NE,MIA,23,16,-7,Sun Life Stadium,Home,outdoors,grass,2012120207
+183,2012_13_ARI_NYJ,2012,REG,13,2012-12-02,Sunday,13:00,ARI,NYJ,6,7,1,MetLife Stadium,Home,outdoors,fieldturf,2012120203
+184,2012_13_SF_STL,2012,REG,13,2012-12-02,Sunday,13:00,SF,STL,13,16,3,Edward Jones Dome,Home,dome,astroplay,2012120202
+185,2012_13_HOU_TEN,2012,REG,13,2012-12-02,Sunday,13:00,HOU,TEN,24,10,-14,LP Field,Home,outdoors,grass,2012120208
+186,2012_13_TB_DEN,2012,REG,13,2012-12-02,Sunday,16:05,TB,DEN,23,31,8,Sports Authority Field at Mile High,Home,outdoors,grass,2012120209
+187,2012_13_PIT_BAL,2012,REG,13,2012-12-02,Sunday,16:25,PIT,BAL,23,20,-3,M&T Bank Stadium,Home,outdoors,sportturf,2012120210
+188,2012_13_CLE_OAK,2012,REG,13,2012-12-02,Sunday,16:25,CLE,OAK,20,17,-3,O.co Coliseum,Home,outdoors,grass,2012120211
+189,2012_13_CIN_SD,2012,REG,13,2012-12-02,Sunday,16:25,CIN,SD,20,13,-7,Qualcomm Stadium,Home,outdoors,grass,2012120212
+190,2012_13_PHI_DAL,2012,REG,13,2012-12-02,Sunday,20:20,PHI,DAL,33,38,5,Cowboys Stadium,Home,closed,matrixturf,2012120213
+191,2012_13_NYG_WAS,2012,REG,13,2012-12-03,Monday,20:30,NYG,WAS,16,17,1,FedExField,Home,outdoors,grass,2012120300
+192,2012_14_DEN_OAK,2012,REG,14,2012-12-06,Thursday,20:20,DEN,OAK,26,13,-13,O.co Coliseum,Home,outdoors,grass,2012120600
+193,2012_14_STL_BUF,2012,REG,14,2012-12-09,Sunday,13:00,STL,BUF,15,12,-3,Ralph Wilson Stadium,Home,outdoors,a_turf,2012120908
+194,2012_14_ATL_CAR,2012,REG,14,2012-12-09,Sunday,13:00,ATL,CAR,20,30,10,Bank of America Stadium,Home,outdoors,grass,2012120906
+195,2012_14_DAL_CIN,2012,REG,14,2012-12-09,Sunday,13:00,DAL,CIN,20,19,-1,Paul Brown Stadium,Home,outdoors,fieldturf,2012120909
+196,2012_14_KC_CLE,2012,REG,14,2012-12-09,Sunday,13:00,KC,CLE,7,30,23,Cleveland Browns Stadium,Home,outdoors,grass,2012120901
+197,2012_14_TEN_IND,2012,REG,14,2012-12-09,Sunday,13:00,TEN,IND,23,27,4,Lucas Oil Stadium,Home,closed,fieldturf,2012120903
+198,2012_14_NYJ_JAX,2012,REG,14,2012-12-09,Sunday,13:00,NYJ,JAX,17,10,-7,EverBank Field,Home,outdoors,grass,2012120904
+199,2012_14_CHI_MIN,2012,REG,14,2012-12-09,Sunday,13:00,CHI,MIN,14,21,7,Mall of America Field,Home,dome,sportturf,2012120905
+200,2012_14_SD_PIT,2012,REG,14,2012-12-09,Sunday,13:00,SD,PIT,34,24,-10,Heinz Field,Home,outdoors,grass,2012120902
+201,2012_14_PHI_TB,2012,REG,14,2012-12-09,Sunday,13:00,PHI,TB,23,21,-2,Raymond James Stadium,Home,outdoors,grass,2012120907
+202,2012_14_BAL_WAS,2012,REG,14,2012-12-09,Sunday,13:00,BAL,WAS,28,31,3,FedExField,Home,outdoors,grass,2012120900
+203,2012_14_MIA_SF,2012,REG,14,2012-12-09,Sunday,16:05,MIA,SF,13,27,14,Candlestick Park,Home,outdoors,grass,2012120910
+204,2012_14_NO_NYG,2012,REG,14,2012-12-09,Sunday,16:25,NO,NYG,27,52,25,MetLife Stadium,Home,outdoors,fieldturf,2012120911
+205,2012_14_ARI_SEA,2012,REG,14,2012-12-09,Sunday,16:25,ARI,SEA,0,58,58,CenturyLink Field,Home,outdoors,fieldturf,2012120912
+206,2012_14_DET_GB,2012,REG,14,2012-12-09,Sunday,20:20,DET,GB,20,27,7,Lambeau Field,Home,outdoors,grass,2012120913
+207,2012_14_HOU_NE,2012,REG,14,2012-12-10,Monday,20:30,HOU,NE,14,42,28,Gillette Stadium,Home,outdoors,fieldturf,2012121000
+208,2012_15_CIN_PHI,2012,REG,15,2012-12-13,Thursday,20:20,CIN,PHI,34,13,-21,Lincoln Financial Field,Home,outdoors,grass,2012121300
+209,2012_15_NYG_ATL,2012,REG,15,2012-12-16,Sunday,13:00,NYG,ATL,0,34,34,Georgia Dome,Home,dome,fieldturf,2012121601
+210,2012_15_DEN_BAL,2012,REG,15,2012-12-16,Sunday,13:00,DEN,BAL,34,17,-17,M&T Bank Stadium,Home,outdoors,sportturf,2012121606
+211,2012_15_GB_CHI,2012,REG,15,2012-12-16,Sunday,13:00,GB,CHI,21,13,-8,Soldier Field,Home,outdoors,grass,2012121600
+212,2012_15_WAS_CLE,2012,REG,15,2012-12-16,Sunday,13:00,WAS,CLE,38,21,-17,Cleveland Browns Stadium,Home,outdoors,grass,2012121604
+213,2012_15_IND_HOU,2012,REG,15,2012-12-16,Sunday,13:00,IND,HOU,17,29,12,Reliant Stadium,Home,closed,grass,2012121607
+214,2012_15_JAX_MIA,2012,REG,15,2012-12-16,Sunday,13:00,JAX,MIA,3,24,21,Sun Life Stadium,Home,outdoors,grass,2012121605
+215,2012_15_TB_NO,2012,REG,15,2012-12-16,Sunday,13:00,TB,NO,0,41,41,Mercedes-Benz Superdome,Home,dome,sportturf,2012121602
+216,2012_15_MIN_STL,2012,REG,15,2012-12-16,Sunday,13:00,MIN,STL,36,22,-14,Edward Jones Dome,Home,dome,astroplay,2012121603
+217,2012_15_DET_ARI,2012,REG,15,2012-12-16,Sunday,16:05,DET,ARI,10,38,28,University of Phoenix Stadium,Home,closed,grass,2012121608
+218,2012_15_SEA_BUF,2012,REG,15,2012-12-16,Sunday,16:05,SEA,BUF,50,17,-33,Rogers Centre,Home,dome,a_turf,2012121610
+219,2012_15_CAR_SD,2012,REG,15,2012-12-16,Sunday,16:05,CAR,SD,31,7,-24,Qualcomm Stadium,Home,outdoors,grass,2012121609
+220,2012_15_PIT_DAL,2012,REG,15,2012-12-16,Sunday,16:25,PIT,DAL,24,27,3,Cowboys Stadium,Home,closed,matrixturf,2012121611
+221,2012_15_KC_OAK,2012,REG,15,2012-12-16,Sunday,16:25,KC,OAK,0,15,15,O.co Coliseum,Home,outdoors,grass,2012121612
+222,2012_15_SF_NE,2012,REG,15,2012-12-16,Sunday,20:20,SF,NE,41,34,-7,Gillette Stadium,Home,outdoors,fieldturf,2012121613
+223,2012_15_NYJ_TEN,2012,REG,15,2012-12-17,Monday,20:30,NYJ,TEN,10,14,4,LP Field,Home,outdoors,grass,2012121700
+224,2012_16_ATL_DET,2012,REG,16,2012-12-22,Saturday,20:30,ATL,DET,31,18,-13,Ford Field,Home,dome,fieldturf,2012122200
+225,2012_16_OAK_CAR,2012,REG,16,2012-12-23,Sunday,13:00,OAK,CAR,6,17,11,Bank of America Stadium,Home,outdoors,grass,2012122301
+226,2012_16_NO_DAL,2012,REG,16,2012-12-23,Sunday,13:00,NO,DAL,34,31,-3,Cowboys Stadium,Home,closed,matrixturf,2012122306
+227,2012_16_TEN_GB,2012,REG,16,2012-12-23,Sunday,13:00,TEN,GB,7,55,48,Lambeau Field,Home,outdoors,grass,2012122300
+228,2012_16_MIN_HOU,2012,REG,16,2012-12-23,Sunday,13:00,MIN,HOU,23,6,-17,Reliant Stadium,Home,closed,grass,2012122310
+229,2012_16_NE_JAX,2012,REG,16,2012-12-23,Sunday,13:00,NE,JAX,23,16,-7,EverBank Field,Home,outdoors,grass,2012122304
+230,2012_16_IND_KC,2012,REG,16,2012-12-23,Sunday,13:00,IND,KC,20,13,-7,Arrowhead Stadium,Home,outdoors,grass,2012122305
+231,2012_16_BUF_MIA,2012,REG,16,2012-12-23,Sunday,13:00,BUF,MIA,10,24,14,Sun Life Stadium,Home,outdoors,grass,2012122302
+232,2012_16_SD_NYJ,2012,REG,16,2012-12-23,Sunday,13:00,SD,NYJ,27,17,-10,MetLife Stadium,Home,outdoors,fieldturf,2012122314
+233,2012_16_WAS_PHI,2012,REG,16,2012-12-23,Sunday,13:00,WAS,PHI,27,20,-7,Lincoln Financial Field,Home,outdoors,grass,2012122307
+234,2012_16_CIN_PIT,2012,REG,16,2012-12-23,Sunday,13:00,CIN,PIT,13,10,-3,Heinz Field,Home,outdoors,grass,2012122303
+235,2012_16_STL_TB,2012,REG,16,2012-12-23,Sunday,13:00,STL,TB,28,13,-15,Raymond James Stadium,Home,outdoors,grass,2012122308
+236,2012_16_CLE_DEN,2012,REG,16,2012-12-23,Sunday,16:05,CLE,DEN,12,34,22,Sports Authority Field at Mile High,Home,outdoors,grass,2012122311
+237,2012_16_CHI_ARI,2012,REG,16,2012-12-23,Sunday,16:25,CHI,ARI,28,13,-15,University of Phoenix Stadium,Home,closed,grass,2012122312
+238,2012_16_NYG_BAL,2012,REG,16,2012-12-23,Sunday,16:25,NYG,BAL,14,33,19,M&T Bank Stadium,Home,outdoors,sportturf,2012122309
+239,2012_16_SF_SEA,2012,REG,16,2012-12-23,Sunday,20:20,SF,SEA,13,42,29,CenturyLink Field,Home,outdoors,fieldturf,2012122313
+240,2012_17_TB_ATL,2012,REG,17,2012-12-30,Sunday,13:00,TB,ATL,22,17,-5,Georgia Dome,Home,dome,fieldturf,2012123010
+241,2012_17_NYJ_BUF,2012,REG,17,2012-12-30,Sunday,13:00,NYJ,BUF,9,28,19,Ralph Wilson Stadium,Home,outdoors,a_turf,2012123000
+242,2012_17_BAL_CIN,2012,REG,17,2012-12-30,Sunday,13:00,BAL,CIN,17,23,6,Paul Brown Stadium,Home,outdoors,fieldturf,2012123002
+243,2012_17_CHI_DET,2012,REG,17,2012-12-30,Sunday,13:00,CHI,DET,26,24,-2,Ford Field,Home,dome,fieldturf,2012123008
+244,2012_17_HOU_IND,2012,REG,17,2012-12-30,Sunday,13:00,HOU,IND,16,28,12,Lucas Oil Stadium,Home,closed,fieldturf,2012123004
+245,2012_17_CAR_NO,2012,REG,17,2012-12-30,Sunday,13:00,CAR,NO,44,38,-6,Mercedes-Benz Superdome,Home,dome,sportturf,2012123011
+246,2012_17_PHI_NYG,2012,REG,17,2012-12-30,Sunday,13:00,PHI,NYG,7,42,35,MetLife Stadium,Home,outdoors,fieldturf,2012123006
+247,2012_17_CLE_PIT,2012,REG,17,2012-12-30,Sunday,13:00,CLE,PIT,10,24,14,Heinz Field,Home,outdoors,grass,2012123003
+248,2012_17_JAX_TEN,2012,REG,17,2012-12-30,Sunday,13:00,JAX,TEN,20,38,18,LP Field,Home,outdoors,grass,2012123005
+249,2012_17_KC_DEN,2012,REG,17,2012-12-30,Sunday,16:25,KC,DEN,3,38,35,Sports Authority Field at Mile High,Home,outdoors,grass,2012123012
+250,2012_17_GB_MIN,2012,REG,17,2012-12-30,Sunday,16:25,GB,MIN,34,37,3,Mall of America Field,Home,dome,sportturf,2012123009
+251,2012_17_MIA_NE,2012,REG,17,2012-12-30,Sunday,16:25,MIA,NE,0,28,28,Gillette Stadium,Home,outdoors,fieldturf,2012123001
+252,2012_17_OAK_SD,2012,REG,17,2012-12-30,Sunday,16:25,OAK,SD,21,24,3,Qualcomm Stadium,Home,outdoors,grass,2012123013
+253,2012_17_STL_SEA,2012,REG,17,2012-12-30,Sunday,16:25,STL,SEA,13,20,7,CenturyLink Field,Home,outdoors,fieldturf,2012123015
+254,2012_17_ARI_SF,2012,REG,17,2012-12-30,Sunday,16:25,ARI,SF,13,27,14,Candlestick Park,Home,outdoors,grass,2012123014
+255,2012_17_DAL_WAS,2012,REG,17,2012-12-30,Sunday,20:20,DAL,WAS,18,28,10,FedExField,Home,outdoors,grass,2012123007
+256,2012_18_CIN_HOU,2012,WC,18,2013-01-05,Saturday,16:30,CIN,HOU,13,19,6,Reliant Stadium,Home,closed,grass,2013010500
+257,2012_18_MIN_GB,2012,WC,18,2013-01-05,Saturday,20:00,MIN,GB,10,24,14,Lambeau Field,Home,outdoors,grass,2013010501
+258,2012_18_IND_BAL,2012,WC,18,2013-01-06,Sunday,13:00,IND,BAL,9,24,15,M&T Bank Stadium,Home,outdoors,sportturf,2013010600
+259,2012_18_SEA_WAS,2012,WC,18,2013-01-06,Sunday,16:30,SEA,WAS,24,14,-10,FedExField,Home,outdoors,grass,2013010601
+260,2012_19_BAL_DEN,2012,DIV,19,2013-01-12,Saturday,16:30,BAL,DEN,38,35,-3,Sports Authority Field at Mile High,Home,outdoors,grass,2013011200
+261,2012_19_GB_SF,2012,DIV,19,2013-01-12,Saturday,20:00,GB,SF,31,45,14,Candlestick Park,Home,outdoors,grass,2013011201
+262,2012_19_SEA_ATL,2012,DIV,19,2013-01-13,Sunday,13:00,SEA,ATL,28,30,2,Georgia Dome,Home,dome,fieldturf,2013011301
+263,2012_19_HOU_NE,2012,DIV,19,2013-01-13,Sunday,16:30,HOU,NE,28,41,13,Gillette Stadium,Home,outdoors,fieldturf,2013011300
+264,2012_20_SF_ATL,2012,CON,20,2013-01-20,Sunday,15:00,SF,ATL,28,24,-4,Georgia Dome,Home,dome,fieldturf,2013012001
+265,2012_20_BAL_NE,2012,CON,20,2013-01-20,Sunday,18:30,BAL,NE,28,13,-15,Gillette Stadium,Home,outdoors,fieldturf,2013012000
+266,2012_21_BAL_SF,2012,SB,21,2013-02-03,Sunday,18:30,BAL,SF,34,31,-3,Mercedes-Benz Superdome,Neutral,dome,astroturf,2013020300

@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2003_01_NYJ_WAS,2003,REG,1,2003-09-04,Thursday,09:00,NYJ,WAS,13,16,3,FedExField,Home,outdoors,grass,2003090400
+1,2003_01_NE_BUF,2003,REG,1,2003-09-07,Sunday,13:00,NE,BUF,0,31,31,Ralph Wilson Stadium,Home,outdoors,astroplay,2003090707
+2,2003_01_JAX_CAR,2003,REG,1,2003-09-07,Sunday,13:00,JAX,CAR,23,24,1,Ericsson Stadium,Home,outdoors,grass,2003090705
+3,2003_01_DEN_CIN,2003,REG,1,2003-09-07,Sunday,13:00,DEN,CIN,30,10,-20,Paul Brown Stadium,Home,outdoors,grass,2003090701
+4,2003_01_IND_CLE,2003,REG,1,2003-09-07,Sunday,13:00,IND,CLE,9,6,-3,Cleveland Browns Stadium,Home,outdoors,grass,2003090702
+5,2003_01_ARI_DET,2003,REG,1,2003-09-07,Sunday,13:00,ARI,DET,24,42,18,Ford Field,Home,dome,fieldturf,2003090700
+6,2003_01_MIN_GB,2003,REG,1,2003-09-07,Sunday,13:00,MIN,GB,30,25,-5,Lambeau Field,Home,outdoors,grass,2003090706
+7,2003_01_SD_KC,2003,REG,1,2003-09-07,Sunday,13:00,SD,KC,14,27,13,Arrowhead Stadium,Home,outdoors,grass,2003090708
+8,2003_01_HOU_MIA,2003,REG,1,2003-09-07,Sunday,13:00,HOU,MIA,21,20,-1,Pro Player Stadium,Home,outdoors,grass,2003090704
+9,2003_01_STL_NYG,2003,REG,1,2003-09-07,Sunday,13:00,STL,NYG,13,23,10,Giants Stadium,Home,outdoors,fieldturf,2003090709
+10,2003_01_BAL_PIT,2003,REG,1,2003-09-07,Sunday,13:00,BAL,PIT,15,34,19,Heinz Field,Home,outdoors,dessograss,2003090703
+11,2003_01_ATL_DAL,2003,REG,1,2003-09-07,Sunday,16:15,ATL,DAL,27,13,-14,Texas Stadium,Home,outdoors,fieldturf,2003090710
+12,2003_01_NO_SEA,2003,REG,1,2003-09-07,Sunday,16:15,NO,SEA,10,27,17,Seahawks Stadium,Home,outdoors,fieldturf,2003090712
+13,2003_01_CHI_SF,2003,REG,1,2003-09-07,Sunday,16:15,CHI,SF,7,49,42,3Com Park,Home,outdoors,grass,2003090711
+14,2003_01_OAK_TEN,2003,REG,1,2003-09-07,Sunday,20:30,OAK,TEN,20,25,5,The Coliseum,Home,outdoors,grass,2003090713
+15,2003_01_TB_PHI,2003,REG,1,2003-09-08,Monday,09:00,TB,PHI,17,0,-17,Lincoln Financial Field,Home,outdoors,grass,2003090800
+16,2003_02_WAS_ATL,2003,REG,2,2003-09-14,Sunday,13:00,WAS,ATL,33,31,-2,Georgia Dome,Home,dome,fieldturf,2003091408
+17,2003_02_CLE_BAL,2003,REG,2,2003-09-14,Sunday,13:00,CLE,BAL,13,33,20,M&T Bank Stadium,Home,outdoors,sportturf,2003091401
+18,2003_02_DET_GB,2003,REG,2,2003-09-14,Sunday,13:00,DET,GB,6,31,25,Lambeau Field,Home,outdoors,grass,2003091402
+19,2003_02_TEN_IND,2003,REG,2,2003-09-14,Sunday,13:00,TEN,IND,7,33,26,RCA Dome,Home,dome,astroturf,2003091407
+20,2003_02_BUF_JAX,2003,REG,2,2003-09-14,Sunday,13:00,BUF,JAX,38,17,-21,Alltel Stadium,Home,outdoors,grass,2003091400
+21,2003_02_PIT_KC,2003,REG,2,2003-09-14,Sunday,13:00,PIT,KC,20,41,21,Arrowhead Stadium,Home,outdoors,grass,2003091405
+22,2003_02_HOU_NO,2003,REG,2,2003-09-14,Sunday,13:00,HOU,NO,10,31,21,Louisiana Superdome,Home,dome,fieldturf,2003091403
+23,2003_02_MIA_NYJ,2003,REG,2,2003-09-14,Sunday,13:00,MIA,NYJ,21,10,-11,Giants Stadium,Home,outdoors,fieldturf,2003091404
+24,2003_02_SF_STL,2003,REG,2,2003-09-14,Sunday,13:00,SF,STL,24,27,3,Edward Jones Dome,Home,dome,astroturf,2003091406
+25,2003_02_SEA_ARI,2003,REG,2,2003-09-14,Sunday,16:05,SEA,ARI,38,0,-38,Sun Devil Stadium,Home,outdoors,grass,2003091410
+26,2003_02_CAR_TB,2003,REG,2,2003-09-14,Sunday,16:05,CAR,TB,12,9,-3,Raymond James Stadium,Home,outdoors,grass,2003091409
+27,2003_02_CIN_OAK,2003,REG,2,2003-09-14,Sunday,16:15,CIN,OAK,20,23,3,Network Associates Coliseum,Home,outdoors,grass,2003091411
+28,2003_02_NE_PHI,2003,REG,2,2003-09-14,Sunday,16:15,NE,PHI,31,10,-21,Lincoln Financial Field,Home,outdoors,grass,2003091413
+29,2003_02_DEN_SD,2003,REG,2,2003-09-14,Sunday,16:15,DEN,SD,37,13,-24,Qualcomm Stadium,Home,outdoors,grass,2003091412
+30,2003_02_CHI_MIN,2003,REG,2,2003-09-14,Sunday,20:30,CHI,MIN,13,24,11,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003091414
+31,2003_02_DAL_NYG,2003,REG,2,2003-09-15,Monday,09:00,DAL,NYG,35,32,-3,Giants Stadium,Home,outdoors,fieldturf,2003091500
+32,2003_03_TB_ATL,2003,REG,3,2003-09-21,Sunday,13:00,TB,ATL,31,10,-21,Georgia Dome,Home,dome,fieldturf,2003092100
+33,2003_03_PIT_CIN,2003,REG,3,2003-09-21,Sunday,13:00,PIT,CIN,17,10,-7,Paul Brown Stadium,Home,outdoors,grass,2003092112
+34,2003_03_MIN_DET,2003,REG,3,2003-09-21,Sunday,13:00,MIN,DET,23,13,-10,Ford Field,Home,dome,fieldturf,2003092109
+35,2003_03_KC_HOU,2003,REG,3,2003-09-21,Sunday,13:00,KC,HOU,42,14,-28,Reliant Stadium,Home,closed,grass,2003092108
+36,2003_03_JAX_IND,2003,REG,3,2003-09-21,Sunday,13:00,JAX,IND,13,23,10,RCA Dome,Home,dome,astroturf,2003092107
+37,2003_03_NYJ_NE,2003,REG,3,2003-09-21,Sunday,13:00,NYJ,NE,16,23,7,Gillette Stadium,Home,outdoors,grass,2003092111
+38,2003_03_NO_TEN,2003,REG,3,2003-09-21,Sunday,13:00,NO,TEN,12,27,15,The Coliseum,Home,outdoors,grass,2003092110
+39,2003_03_GB_ARI,2003,REG,3,2003-09-21,Sunday,16:05,GB,ARI,13,20,7,Sun Devil Stadium,Home,outdoors,grass,2003092104
+40,2003_03_STL_SEA,2003,REG,3,2003-09-21,Sunday,16:05,STL,SEA,23,24,1,Seahawks Stadium,Home,outdoors,fieldturf,2003092105
+41,2003_03_NYG_WAS,2003,REG,3,2003-09-21,Sunday,16:05,NYG,WAS,24,21,-3,FedExField,Home,outdoors,grass,2003092101
+42,2003_03_BAL_SD,2003,REG,3,2003-09-21,Sunday,16:15,BAL,SD,24,10,-14,Qualcomm Stadium,Home,outdoors,grass,2003092102
+43,2003_03_CLE_SF,2003,REG,3,2003-09-21,Sunday,16:15,CLE,SF,13,12,-1,3Com Park,Home,outdoors,grass,2003092106
+44,2003_03_BUF_MIA,2003,REG,3,2003-09-21,Sunday,20:30,BUF,MIA,7,17,10,Pro Player Stadium,Home,outdoors,grass,2003092103
+45,2003_03_OAK_DEN,2003,REG,3,2003-09-22,Monday,09:00,OAK,DEN,10,31,21,Invesco Field at Mile High,Home,outdoors,grass,2003092200
+46,2003_04_PHI_BUF,2003,REG,4,2003-09-28,Sunday,13:00,PHI,BUF,23,13,-10,Ralph Wilson Stadium,Home,outdoors,astroplay,2003092803
+47,2003_04_CIN_CLE,2003,REG,4,2003-09-28,Sunday,13:00,CIN,CLE,21,14,-7,Cleveland Browns Stadium,Home,outdoors,grass,2003092801
+48,2003_04_JAX_HOU,2003,REG,4,2003-09-28,Sunday,13:00,JAX,HOU,20,24,4,Reliant Stadium,Home,open,grass,2003092808
+49,2003_04_SF_MIN,2003,REG,4,2003-09-28,Sunday,13:00,SF,MIN,7,35,28,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003092810
+50,2003_04_TEN_PIT,2003,REG,4,2003-09-28,Sunday,13:00,TEN,PIT,30,13,-17,Heinz Field,Home,outdoors,dessograss,2003092804
+51,2003_04_ARI_STL,2003,REG,4,2003-09-28,Sunday,13:00,ARI,STL,13,37,24,Edward Jones Dome,Home,dome,astroturf,2003092800
+52,2003_04_NE_WAS,2003,REG,4,2003-09-28,Sunday,13:00,NE,WAS,17,20,3,FedExField,Home,outdoors,grass,2003092809
+53,2003_04_KC_BAL,2003,REG,4,2003-09-28,Sunday,16:05,KC,BAL,17,10,-7,M&T Bank Stadium,Home,outdoors,sportturf,2003092802
+54,2003_04_SD_OAK,2003,REG,4,2003-09-28,Sunday,16:05,SD,OAK,31,34,3,Network Associates Coliseum,Home,outdoors,grass,2003092811
+55,2003_04_ATL_CAR,2003,REG,4,2003-09-28,Sunday,16:15,ATL,CAR,3,23,20,Ericsson Stadium,Home,outdoors,grass,2003092807
+56,2003_04_DET_DEN,2003,REG,4,2003-09-28,Sunday,16:15,DET,DEN,16,20,4,Invesco Field at Mile High,Home,outdoors,grass,2003092812
+57,2003_04_DAL_NYJ,2003,REG,4,2003-09-28,Sunday,16:15,DAL,NYJ,17,6,-11,Giants Stadium,Home,outdoors,fieldturf,2003092805
+58,2003_04_IND_NO,2003,REG,4,2003-09-28,Sunday,20:30,IND,NO,55,21,-34,Louisiana Superdome,Home,dome,fieldturf,2003092806
+59,2003_04_GB_CHI,2003,REG,4,2003-09-29,Monday,09:00,GB,CHI,38,23,-15,Soldier Field,Home,outdoors,grass,2003092900
+60,2003_05_MIN_ATL,2003,REG,5,2003-10-05,Sunday,13:00,MIN,ATL,39,26,-13,Georgia Dome,Home,dome,fieldturf,2003100502
+61,2003_05_CIN_BUF,2003,REG,5,2003-10-05,Sunday,13:00,CIN,BUF,16,22,6,Ralph Wilson Stadium,Home,outdoors,astroplay,2003100507
+62,2003_05_NO_CAR,2003,REG,5,2003-10-05,Sunday,13:00,NO,CAR,13,19,6,Ericsson Stadium,Home,outdoors,grass,2003100509
+63,2003_05_OAK_CHI,2003,REG,5,2003-10-05,Sunday,13:00,OAK,CHI,21,24,3,Soldier Field,Home,outdoors,grass,2003100503
+64,2003_05_ARI_DAL,2003,REG,5,2003-10-05,Sunday,13:00,ARI,DAL,7,24,17,Texas Stadium,Home,outdoors,fieldturf,2003100500
+65,2003_05_SEA_GB,2003,REG,5,2003-10-05,Sunday,13:00,SEA,GB,13,35,22,Lambeau Field,Home,outdoors,grass,2003100510
+66,2003_05_DEN_KC,2003,REG,5,2003-10-05,Sunday,13:00,DEN,KC,23,24,1,Arrowhead Stadium,Home,outdoors,grass,2003100501
+67,2003_05_TEN_NE,2003,REG,5,2003-10-05,Sunday,13:00,TEN,NE,30,38,8,Gillette Stadium,Home,outdoors,grass,2003100504
+68,2003_05_MIA_NYG,2003,REG,5,2003-10-05,Sunday,13:00,MIA,NYG,23,10,-13,Giants Stadium,Home,outdoors,fieldturf,2003100508
+69,2003_05_SD_JAX,2003,REG,5,2003-10-05,Sunday,16:05,SD,JAX,21,27,6,Alltel Stadium,Home,outdoors,grass,2003100511
+70,2003_05_WAS_PHI,2003,REG,5,2003-10-05,Sunday,16:15,WAS,PHI,25,27,2,Lincoln Financial Field,Home,outdoors,grass,2003100512
+71,2003_05_DET_SF,2003,REG,5,2003-10-05,Sunday,16:15,DET,SF,17,24,7,3Com Park,Home,outdoors,grass,2003100505
+72,2003_05_CLE_PIT,2003,REG,5,2003-10-05,Sunday,20:30,CLE,PIT,33,13,-20,Heinz Field,Home,outdoors,dessograss,2003100506
+73,2003_05_IND_TB,2003,REG,5,2003-10-06,Monday,09:00,IND,TB,38,35,-3,Raymond James Stadium,Home,outdoors,grass,2003100600
+74,2003_06_OAK_CLE,2003,REG,6,2003-10-12,Sunday,13:00,OAK,CLE,7,13,6,Cleveland Browns Stadium,Home,outdoors,grass,2003101203
+75,2003_06_PHI_DAL,2003,REG,6,2003-10-12,Sunday,13:00,PHI,DAL,21,23,2,Texas Stadium,Home,outdoors,fieldturf,2003101210
+76,2003_06_KC_GB,2003,REG,6,2003-10-12,Sunday,13:00,KC,GB,40,34,-6,Lambeau Field,Home,outdoors,grass,2003101208
+77,2003_06_CAR_IND,2003,REG,6,2003-10-12,Sunday,13:00,CAR,IND,23,20,-3,RCA Dome,Home,dome,astroturf,2003101200
+78,2003_06_MIA_JAX,2003,REG,6,2003-10-12,Sunday,13:00,MIA,JAX,24,10,-14,Alltel Stadium,Home,outdoors,grass,2003101202
+79,2003_06_NYG_NE,2003,REG,6,2003-10-12,Sunday,13:00,NYG,NE,6,17,11,Gillette Stadium,Home,outdoors,grass,2003101209
+80,2003_06_CHI_NO,2003,REG,6,2003-10-12,Sunday,13:00,CHI,NO,13,20,7,Louisiana Superdome,Home,dome,fieldturf,2003101207
+81,2003_06_HOU_TEN,2003,REG,6,2003-10-12,Sunday,13:00,HOU,TEN,17,38,21,The Coliseum,Home,outdoors,grass,2003101201
+82,2003_06_TB_WAS,2003,REG,6,2003-10-12,Sunday,13:00,TB,WAS,35,13,-22,FedExField,Home,outdoors,grass,2003101204
+83,2003_06_BAL_ARI,2003,REG,6,2003-10-12,Sunday,16:15,BAL,ARI,26,18,-8,Sun Devil Stadium,Home,outdoors,grass,2003101211
+84,2003_06_PIT_DEN,2003,REG,6,2003-10-12,Sunday,16:15,PIT,DEN,14,17,3,Invesco Field at Mile High,Home,outdoors,grass,2003101212
+85,2003_06_BUF_NYJ,2003,REG,6,2003-10-12,Sunday,16:15,BUF,NYJ,3,30,27,Giants Stadium,Home,outdoors,fieldturf,2003101205
+86,2003_06_SF_SEA,2003,REG,6,2003-10-12,Sunday,20:30,SF,SEA,19,20,1,Seahawks Stadium,Home,outdoors,fieldturf,2003101206
+87,2003_06_ATL_STL,2003,REG,6,2003-10-13,Monday,09:00,ATL,STL,0,36,36,Edward Jones Dome,Home,dome,astroturf,2003101300
+88,2003_07_NO_ATL,2003,REG,7,2003-10-19,Sunday,13:00,NO,ATL,45,17,-28,Georgia Dome,Home,dome,fieldturf,2003101909
+89,2003_07_TEN_CAR,2003,REG,7,2003-10-19,Sunday,13:00,TEN,CAR,37,17,-20,Ericsson Stadium,Home,outdoors,grass,2003101904
+90,2003_07_BAL_CIN,2003,REG,7,2003-10-19,Sunday,13:00,BAL,CIN,26,34,8,Paul Brown Stadium,Home,outdoors,grass,2003101900
+91,2003_07_SD_CLE,2003,REG,7,2003-10-19,Sunday,13:00,SD,CLE,26,20,-6,Cleveland Browns Stadium,Home,outdoors,grass,2003101910
+92,2003_07_DAL_DET,2003,REG,7,2003-10-19,Sunday,13:00,DAL,DET,38,7,-31,Ford Field,Home,dome,fieldturf,2003101907
+93,2003_07_NE_MIA,2003,REG,7,2003-10-19,Sunday,13:00,NE,MIA,19,13,-6,Pro Player Stadium,Home,outdoors,grass,2003101902
+94,2003_07_DEN_MIN,2003,REG,7,2003-10-19,Sunday,13:00,DEN,MIN,20,28,8,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003101901
+95,2003_07_PHI_NYG,2003,REG,7,2003-10-19,Sunday,13:00,PHI,NYG,14,10,-4,Giants Stadium,Home,outdoors,fieldturf,2003101903
+96,2003_07_GB_STL,2003,REG,7,2003-10-19,Sunday,13:00,GB,STL,24,34,10,Edward Jones Dome,Home,dome,astroturf,2003101908
+97,2003_07_NYJ_HOU,2003,REG,7,2003-10-19,Sunday,16:05,NYJ,HOU,19,14,-5,Reliant Stadium,Home,open,grass,2003101905
+98,2003_07_WAS_BUF,2003,REG,7,2003-10-19,Sunday,16:15,WAS,BUF,7,24,17,Ralph Wilson Stadium,Home,outdoors,astroplay,2003101911
+99,2003_07_CHI_SEA,2003,REG,7,2003-10-19,Sunday,16:15,CHI,SEA,17,24,7,Seahawks Stadium,Home,outdoors,fieldturf,2003101912
+100,2003_07_TB_SF,2003,REG,7,2003-10-19,Sunday,16:15,TB,SF,7,24,17,3Com Park,Home,outdoors,grass,2003101906
+101,2003_07_KC_OAK,2003,REG,7,2003-10-20,Monday,09:00,KC,OAK,17,10,-7,Network Associates Coliseum,Home,outdoors,grass,2003102000
+102,2003_08_DEN_BAL,2003,REG,8,2003-10-26,Sunday,13:00,DEN,BAL,6,26,20,M&T Bank Stadium,Home,outdoors,sportturf,2003102608
+103,2003_08_DET_CHI,2003,REG,8,2003-10-26,Sunday,13:00,DET,CHI,16,24,8,Soldier Field,Home,outdoors,grass,2003102602
+104,2003_08_SEA_CIN,2003,REG,8,2003-10-26,Sunday,13:00,SEA,CIN,24,27,3,Paul Brown Stadium,Home,outdoors,grass,2003102603
+105,2003_08_TEN_JAX,2003,REG,8,2003-10-26,Sunday,13:00,TEN,JAX,30,17,-13,Alltel Stadium,Home,outdoors,grass,2003102604
+106,2003_08_NYG_MIN,2003,REG,8,2003-10-26,Sunday,13:00,NYG,MIN,29,17,-12,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003102609
+107,2003_08_CLE_NE,2003,REG,8,2003-10-26,Sunday,13:00,CLE,NE,3,9,6,Gillette Stadium,Home,outdoors,grass,2003102607
+108,2003_08_CAR_NO,2003,REG,8,2003-10-26,Sunday,13:00,CAR,NO,23,20,-3,Louisiana Superdome,Home,dome,fieldturf,2003102600
+109,2003_08_STL_PIT,2003,REG,8,2003-10-26,Sunday,13:00,STL,PIT,33,21,-12,Heinz Field,Home,outdoors,dessograss,2003102610
+110,2003_08_DAL_TB,2003,REG,8,2003-10-26,Sunday,13:00,DAL,TB,0,16,16,Raymond James Stadium,Home,outdoors,grass,2003102601
+111,2003_08_SF_ARI,2003,REG,8,2003-10-26,Sunday,16:05,SF,ARI,13,16,3,Sun Devil Stadium,Home,outdoors,grass,2003102611
+112,2003_08_HOU_IND,2003,REG,8,2003-10-26,Sunday,16:15,HOU,IND,21,30,9,RCA Dome,Home,dome,astroturf,2003102605
+113,2003_08_NYJ_PHI,2003,REG,8,2003-10-26,Sunday,16:15,NYJ,PHI,17,24,7,Lincoln Financial Field,Home,outdoors,grass,2003102612
+114,2003_08_BUF_KC,2003,REG,8,2003-10-26,Sunday,20:30,BUF,KC,5,38,33,Arrowhead Stadium,Home,outdoors,grass,2003102606
+115,2003_08_MIA_SD,2003,REG,8,2003-10-27,Monday,09:00,MIA,SD,26,10,-16,Sun Devil Stadium,Neutral,outdoors,grass,2003102700
+116,2003_09_JAX_BAL,2003,REG,9,2003-11-02,Sunday,13:00,JAX,BAL,17,24,7,M&T Bank Stadium,Home,outdoors,sportturf,2003110201
+117,2003_09_SD_CHI,2003,REG,9,2003-11-02,Sunday,13:00,SD,CHI,7,20,13,Soldier Field,Home,outdoors,grass,2003110203
+118,2003_09_OAK_DET,2003,REG,9,2003-11-02,Sunday,13:00,OAK,DET,13,23,10,Ford Field,Home,dome,fieldturf,2003110209
+119,2003_09_CAR_HOU,2003,REG,9,2003-11-02,Sunday,13:00,CAR,HOU,10,14,4,Reliant Stadium,Home,closed,grass,2003110200
+120,2003_09_IND_MIA,2003,REG,9,2003-11-02,Sunday,13:00,IND,MIA,23,17,-6,Pro Player Stadium,Home,outdoors,grass,2003110207
+121,2003_09_NYG_NYJ,2003,REG,9,2003-11-02,Sunday,13:00,NYG,NYJ,31,28,-3,Giants Stadium,Home,outdoors,fieldturf,2003110202
+122,2003_09_NO_TB,2003,REG,9,2003-11-02,Sunday,13:00,NO,TB,17,14,-3,Raymond James Stadium,Home,outdoors,grass,2003110208
+123,2003_09_CIN_ARI,2003,REG,9,2003-11-02,Sunday,16:05,CIN,ARI,14,17,3,Sun Devil Stadium,Home,outdoors,grass,2003110204
+124,2003_09_PIT_SEA,2003,REG,9,2003-11-02,Sunday,16:05,PIT,SEA,16,23,7,Seahawks Stadium,Home,outdoors,fieldturf,2003110211
+125,2003_09_PHI_ATL,2003,REG,9,2003-11-02,Sunday,16:15,PHI,ATL,23,16,-7,Georgia Dome,Home,dome,fieldturf,2003110205
+126,2003_09_WAS_DAL,2003,REG,9,2003-11-02,Sunday,16:15,WAS,DAL,14,21,7,Texas Stadium,Home,outdoors,fieldturf,2003110210
+127,2003_09_STL_SF,2003,REG,9,2003-11-02,Sunday,16:15,STL,SF,10,30,20,3Com Park,Home,outdoors,grass,2003110212
+128,2003_09_GB_MIN,2003,REG,9,2003-11-02,Sunday,20:30,GB,MIN,30,27,-3,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003110206
+129,2003_09_NE_DEN,2003,REG,9,2003-11-03,Monday,09:00,NE,DEN,30,26,-4,Invesco Field at Mile High,Home,outdoors,grass,2003110300
+130,2003_10_TB_CAR,2003,REG,10,2003-11-09,Sunday,13:00,TB,CAR,24,27,3,Ericsson Stadium,Home,outdoors,grass,2003110904
+131,2003_10_HOU_CIN,2003,REG,10,2003-11-09,Sunday,13:00,HOU,CIN,27,34,7,Paul Brown Stadium,Home,outdoors,grass,2003110902
+132,2003_10_CHI_DET,2003,REG,10,2003-11-09,Sunday,13:00,CHI,DET,10,12,2,Ford Field,Home,dome,fieldturf,2003110901
+133,2003_10_IND_JAX,2003,REG,10,2003-11-09,Sunday,13:00,IND,JAX,23,28,5,Alltel Stadium,Home,outdoors,grass,2003110909
+134,2003_10_CLE_KC,2003,REG,10,2003-11-09,Sunday,13:00,CLE,KC,20,41,21,Arrowhead Stadium,Home,outdoors,grass,2003110908
+135,2003_10_ATL_NYG,2003,REG,10,2003-11-09,Sunday,13:00,ATL,NYG,27,7,-20,Giants Stadium,Home,outdoors,fieldturf,2003110907
+136,2003_10_ARI_PIT,2003,REG,10,2003-11-09,Sunday,13:00,ARI,PIT,15,28,13,Heinz Field,Home,outdoors,dessograss,2003110900
+137,2003_10_MIA_TEN,2003,REG,10,2003-11-09,Sunday,13:00,MIA,TEN,7,31,24,The Coliseum,Home,outdoors,grass,2003110903
+138,2003_10_SEA_WAS,2003,REG,10,2003-11-09,Sunday,13:00,SEA,WAS,20,27,7,FedExField,Home,outdoors,grass,2003110910
+139,2003_10_MIN_SD,2003,REG,10,2003-11-09,Sunday,16:05,MIN,SD,28,42,14,Qualcomm Stadium,Home,outdoors,grass,2003110911
+140,2003_10_BUF_DAL,2003,REG,10,2003-11-09,Sunday,16:15,BUF,DAL,6,10,4,Texas Stadium,Home,outdoors,fieldturf,2003110905
+141,2003_10_NYJ_OAK,2003,REG,10,2003-11-09,Sunday,16:15,NYJ,OAK,27,24,-3,Network Associates Coliseum,Home,outdoors,grass,2003110912
+142,2003_10_BAL_STL,2003,REG,10,2003-11-09,Sunday,20:30,BAL,STL,22,33,11,Edward Jones Dome,Home,dome,astroturf,2003110906
+143,2003_10_PHI_GB,2003,REG,10,2003-11-10,Monday,09:00,PHI,GB,17,14,-3,Lambeau Field,Home,outdoors,grass,2003111000
+144,2003_11_HOU_BUF,2003,REG,11,2003-11-16,Sunday,13:00,HOU,BUF,12,10,-2,Ralph Wilson Stadium,Home,outdoors,astroplay,2003111609
+145,2003_11_WAS_CAR,2003,REG,11,2003-11-16,Sunday,13:00,WAS,CAR,17,20,3,Ericsson Stadium,Home,outdoors,grass,2003111604
+146,2003_11_STL_CHI,2003,REG,11,2003-11-16,Sunday,13:00,STL,CHI,23,21,-2,Soldier Field,Home,outdoors,grass,2003111611
+147,2003_11_KC_CIN,2003,REG,11,2003-11-16,Sunday,13:00,KC,CIN,19,24,5,Paul Brown Stadium,Home,outdoors,grass,2003111610
+148,2003_11_ARI_CLE,2003,REG,11,2003-11-16,Sunday,13:00,ARI,CLE,6,44,38,Cleveland Browns Stadium,Home,outdoors,grass,2003111600
+149,2003_11_BAL_MIA,2003,REG,11,2003-11-16,Sunday,13:00,BAL,MIA,6,9,3,Pro Player Stadium,Home,outdoors,grass,2003111601
+150,2003_11_ATL_NO,2003,REG,11,2003-11-16,Sunday,13:00,ATL,NO,20,23,3,Louisiana Superdome,Home,dome,fieldturf,2003111608
+151,2003_11_NYG_PHI,2003,REG,11,2003-11-16,Sunday,13:00,NYG,PHI,10,28,18,Lincoln Financial Field,Home,outdoors,grass,2003111603
+152,2003_11_JAX_TEN,2003,REG,11,2003-11-16,Sunday,13:00,JAX,TEN,3,10,7,The Coliseum,Home,outdoors,grass,2003111602
+153,2003_11_SD_DEN,2003,REG,11,2003-11-16,Sunday,16:05,SD,DEN,8,37,29,Invesco Field at Mile High,Home,outdoors,grass,2003111605
+154,2003_11_NYJ_IND,2003,REG,11,2003-11-16,Sunday,16:05,NYJ,IND,31,38,7,RCA Dome,Home,dome,astroturf,2003111612
+155,2003_11_MIN_OAK,2003,REG,11,2003-11-16,Sunday,16:15,MIN,OAK,18,28,10,Network Associates Coliseum,Home,outdoors,grass,2003111614
+156,2003_11_DET_SEA,2003,REG,11,2003-11-16,Sunday,16:15,DET,SEA,14,35,21,Seahawks Stadium,Home,outdoors,fieldturf,2003111613
+157,2003_11_GB_TB,2003,REG,11,2003-11-16,Sunday,16:15,GB,TB,20,13,-7,Raymond James Stadium,Home,outdoors,grass,2003111606
+158,2003_11_DAL_NE,2003,REG,11,2003-11-16,Sunday,20:30,DAL,NE,0,12,12,Gillette Stadium,Home,outdoors,grass,2003111607
+159,2003_11_PIT_SF,2003,REG,11,2003-11-17,Monday,09:00,PIT,SF,14,30,16,3Com Park,Home,outdoors,grass,2003111700
+160,2003_12_SEA_BAL,2003,REG,12,2003-11-23,Sunday,13:00,SEA,BAL,41,44,3,M&T Bank Stadium,Home,outdoors,sportturf,2003112311
+161,2003_12_IND_BUF,2003,REG,12,2003-11-23,Sunday,13:00,IND,BUF,17,14,-3,Ralph Wilson Stadium,Home,outdoors,astroplay,2003112301
+162,2003_12_PIT_CLE,2003,REG,12,2003-11-23,Sunday,13:00,PIT,CLE,13,6,-7,Cleveland Browns Stadium,Home,outdoors,grass,2003112303
+163,2003_12_CAR_DAL,2003,REG,12,2003-11-23,Sunday,13:00,CAR,DAL,20,24,4,Texas Stadium,Home,outdoors,fieldturf,2003112300
+164,2003_12_SF_GB,2003,REG,12,2003-11-23,Sunday,13:00,SF,GB,10,20,10,Lambeau Field,Home,outdoors,grass,2003112304
+165,2003_12_NE_HOU,2003,REG,12,2003-11-23,Sunday,13:00,NE,HOU,23,20,-3,Reliant Stadium,Home,closed,grass,2003112302
+166,2003_12_DET_MIN,2003,REG,12,2003-11-23,Sunday,13:00,DET,MIN,14,24,10,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003112308
+167,2003_12_JAX_NYJ,2003,REG,12,2003-11-23,Sunday,13:00,JAX,NYJ,10,13,3,Giants Stadium,Home,outdoors,fieldturf,2003112309
+168,2003_12_NO_PHI,2003,REG,12,2003-11-23,Sunday,13:00,NO,PHI,20,33,13,Lincoln Financial Field,Home,outdoors,grass,2003112310
+169,2003_12_STL_ARI,2003,REG,12,2003-11-23,Sunday,16:05,STL,ARI,30,27,-3,Sun Devil Stadium,Home,outdoors,grass,2003112305
+170,2003_12_CHI_DEN,2003,REG,12,2003-11-23,Sunday,16:05,CHI,DEN,19,10,-9,Invesco Field at Mile High,Home,outdoors,grass,2003112312
+171,2003_12_TEN_ATL,2003,REG,12,2003-11-23,Sunday,16:15,TEN,ATL,38,31,-7,Georgia Dome,Home,dome,fieldturf,2003112314
+172,2003_12_OAK_KC,2003,REG,12,2003-11-23,Sunday,16:15,OAK,KC,24,27,3,Arrowhead Stadium,Home,outdoors,grass,2003112306
+173,2003_12_CIN_SD,2003,REG,12,2003-11-23,Sunday,16:15,CIN,SD,34,27,-7,Qualcomm Stadium,Home,outdoors,grass,2003112313
+174,2003_12_WAS_MIA,2003,REG,12,2003-11-23,Sunday,20:30,WAS,MIA,23,24,1,Pro Player Stadium,Home,outdoors,grass,2003112307
+175,2003_12_NYG_TB,2003,REG,12,2003-11-24,Monday,09:00,NYG,TB,13,19,6,Raymond James Stadium,Home,outdoors,grass,2003112400
+176,2003_13_GB_DET,2003,REG,13,2003-11-27,Thursday,12:30,GB,DET,14,22,8,Ford Field,Home,dome,fieldturf,2003112700
+177,2003_13_MIA_DAL,2003,REG,13,2003-11-27,Thursday,16:05,MIA,DAL,40,21,-19,Texas Stadium,Home,outdoors,fieldturf,2003112701
+178,2003_13_SF_BAL,2003,REG,13,2003-11-30,Sunday,13:00,SF,BAL,6,44,38,M&T Bank Stadium,Home,outdoors,sportturf,2003113010
+179,2003_13_PHI_CAR,2003,REG,13,2003-11-30,Sunday,13:00,PHI,CAR,25,16,-9,Ericsson Stadium,Home,outdoors,grass,2003113003
+180,2003_13_ARI_CHI,2003,REG,13,2003-11-30,Sunday,13:00,ARI,CHI,3,28,25,Soldier Field,Home,outdoors,grass,2003113000
+181,2003_13_ATL_HOU,2003,REG,13,2003-11-30,Sunday,13:00,ATL,HOU,13,17,4,Reliant Stadium,Home,closed,grass,2003113007
+182,2003_13_NE_IND,2003,REG,13,2003-11-30,Sunday,13:00,NE,IND,38,34,-4,RCA Dome,Home,dome,astroturf,2003113009
+183,2003_13_BUF_NYG,2003,REG,13,2003-11-30,Sunday,13:00,BUF,NYG,24,7,-17,Giants Stadium,Home,outdoors,fieldturf,2003113001
+184,2003_13_CIN_PIT,2003,REG,13,2003-11-30,Sunday,13:00,CIN,PIT,24,20,-4,Heinz Field,Home,outdoors,dessograss,2003113008
+185,2003_13_MIN_STL,2003,REG,13,2003-11-30,Sunday,13:00,MIN,STL,17,48,31,Edward Jones Dome,Home,dome,astroturf,2003113002
+186,2003_13_NO_WAS,2003,REG,13,2003-11-30,Sunday,16:05,NO,WAS,24,20,-4,FedExField,Home,outdoors,grass,2003113004
+187,2003_13_DEN_OAK,2003,REG,13,2003-11-30,Sunday,16:15,DEN,OAK,22,8,-14,Network Associates Coliseum,Home,outdoors,grass,2003113005
+188,2003_13_KC_SD,2003,REG,13,2003-11-30,Sunday,16:15,KC,SD,28,24,-4,Qualcomm Stadium,Home,outdoors,grass,2003113012
+189,2003_13_CLE_SEA,2003,REG,13,2003-11-30,Sunday,16:15,CLE,SEA,7,34,27,Seahawks Stadium,Home,outdoors,fieldturf,2003113011
+190,2003_13_TB_JAX,2003,REG,13,2003-11-30,Sunday,20:30,TB,JAX,10,17,7,Alltel Stadium,Home,outdoors,grass,2003113006
+191,2003_13_TEN_NYJ,2003,REG,13,2003-12-01,Monday,09:00,TEN,NYJ,17,24,7,Giants Stadium,Home,outdoors,fieldturf,2003120100
+192,2003_14_CIN_BAL,2003,REG,14,2003-12-07,Sunday,13:00,CIN,BAL,13,31,18,M&T Bank Stadium,Home,outdoors,sportturf,2003120704
+193,2003_14_SD_DET,2003,REG,14,2003-12-07,Sunday,13:00,SD,DET,14,7,-7,Ford Field,Home,dome,fieldturf,2003120703
+194,2003_14_CHI_GB,2003,REG,14,2003-12-07,Sunday,13:00,CHI,GB,21,34,13,Lambeau Field,Home,outdoors,grass,2003120700
+195,2003_14_HOU_JAX,2003,REG,14,2003-12-07,Sunday,13:00,HOU,JAX,0,27,27,Alltel Stadium,Home,outdoors,grass,2003120705
+196,2003_14_SEA_MIN,2003,REG,14,2003-12-07,Sunday,13:00,SEA,MIN,7,34,27,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003120707
+197,2003_14_TB_NO,2003,REG,14,2003-12-07,Sunday,13:00,TB,NO,14,7,-7,Louisiana Superdome,Home,dome,fieldturf,2003120708
+198,2003_14_WAS_NYG,2003,REG,14,2003-12-07,Sunday,13:00,WAS,NYG,20,7,-13,Giants Stadium,Home,outdoors,fieldturf,2003120709
+199,2003_14_DAL_PHI,2003,REG,14,2003-12-07,Sunday,13:00,DAL,PHI,10,36,26,Lincoln Financial Field,Home,outdoors,grass,2003120701
+200,2003_14_OAK_PIT,2003,REG,14,2003-12-07,Sunday,13:00,OAK,PIT,7,27,20,Heinz Field,Home,outdoors,dessograss,2003120706
+201,2003_14_IND_TEN,2003,REG,14,2003-12-07,Sunday,13:00,IND,TEN,29,27,-2,The Coliseum,Home,outdoors,grass,2003120702
+202,2003_14_ARI_SF,2003,REG,14,2003-12-07,Sunday,16:05,ARI,SF,14,50,36,3Com Park,Home,outdoors,grass,2003120710
+203,2003_14_NYJ_BUF,2003,REG,14,2003-12-07,Sunday,16:15,NYJ,BUF,6,17,11,Ralph Wilson Stadium,Home,outdoors,astroplay,2003120713
+204,2003_14_KC_DEN,2003,REG,14,2003-12-07,Sunday,16:15,KC,DEN,27,45,18,Invesco Field at Mile High,Home,outdoors,grass,2003120711
+205,2003_14_MIA_NE,2003,REG,14,2003-12-07,Sunday,16:15,MIA,NE,0,12,12,Gillette Stadium,Home,outdoors,grass,2003120712
+206,2003_14_CAR_ATL,2003,REG,14,2003-12-07,Sunday,20:30,CAR,ATL,14,20,6,Georgia Dome,Home,dome,fieldturf,2003120714
+207,2003_14_STL_CLE,2003,REG,14,2003-12-08,Monday,09:00,STL,CLE,26,20,-6,Cleveland Browns Stadium,Home,outdoors,grass,2003120800
+208,2003_15_MIN_CHI,2003,REG,15,2003-12-14,Sunday,13:00,MIN,CHI,10,13,3,Soldier Field,Home,outdoors,grass,2003121403
+209,2003_15_SF_CIN,2003,REG,15,2003-12-14,Sunday,13:00,SF,CIN,38,41,3,Paul Brown Stadium,Home,outdoors,grass,2003121411
+210,2003_15_ATL_IND,2003,REG,15,2003-12-14,Sunday,13:00,ATL,IND,7,38,31,RCA Dome,Home,dome,astroturf,2003121400
+211,2003_15_DET_KC,2003,REG,15,2003-12-14,Sunday,13:00,DET,KC,17,45,28,Arrowhead Stadium,Home,outdoors,grass,2003121408
+212,2003_15_JAX_NE,2003,REG,15,2003-12-14,Sunday,13:00,JAX,NE,13,27,14,Gillette Stadium,Home,outdoors,grass,2003121409
+213,2003_15_PIT_NYJ,2003,REG,15,2003-12-14,Sunday,13:00,PIT,NYJ,0,6,6,Giants Stadium,Home,outdoors,fieldturf,2003121410
+214,2003_15_SEA_STL,2003,REG,15,2003-12-14,Sunday,13:00,SEA,STL,22,27,5,Edward Jones Dome,Home,dome,astroturf,2003121404
+215,2003_15_HOU_TB,2003,REG,15,2003-12-14,Sunday,13:00,HOU,TB,3,16,13,Raymond James Stadium,Home,outdoors,grass,2003121402
+216,2003_15_BUF_TEN,2003,REG,15,2003-12-14,Sunday,13:00,BUF,TEN,26,28,2,The Coliseum,Home,outdoors,grass,2003121407
+217,2003_15_CLE_DEN,2003,REG,15,2003-12-14,Sunday,16:05,CLE,DEN,20,23,3,Invesco Field at Mile High,Home,outdoors,grass,2003121412
+218,2003_15_BAL_OAK,2003,REG,15,2003-12-14,Sunday,16:05,BAL,OAK,12,20,8,Network Associates Coliseum,Home,outdoors,grass,2003121414
+219,2003_15_CAR_ARI,2003,REG,15,2003-12-14,Sunday,16:15,CAR,ARI,20,17,-3,Sun Devil Stadium,Home,outdoors,grass,2003121405
+220,2003_15_GB_SD,2003,REG,15,2003-12-14,Sunday,16:15,GB,SD,38,21,-17,Qualcomm Stadium,Home,outdoors,grass,2003121413
+221,2003_15_DAL_WAS,2003,REG,15,2003-12-14,Sunday,16:15,DAL,WAS,27,0,-27,FedExField,Home,outdoors,grass,2003121401
+222,2003_15_NYG_NO,2003,REG,15,2003-12-14,Sunday,20:30,NYG,NO,7,45,38,Louisiana Superdome,Home,dome,fieldturf,2003121406
+223,2003_15_PHI_MIA,2003,REG,15,2003-12-15,Monday,09:00,PHI,MIA,34,27,-7,Pro Player Stadium,Home,outdoors,grass,2003121501
+224,2003_16_ATL_TB,2003,REG,16,2003-12-20,Saturday,13:30,ATL,TB,30,28,-2,Raymond James Stadium,Home,outdoors,grass,2003122000
+225,2003_16_KC_MIN,2003,REG,16,2003-12-20,Saturday,17:00,KC,MIN,20,45,25,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2003122002
+226,2003_16_NE_NYJ,2003,REG,16,2003-12-20,Saturday,20:30,NE,NYJ,21,16,-5,Giants Stadium,Home,outdoors,fieldturf,2003122001
+227,2003_16_MIA_BUF,2003,REG,16,2003-12-21,Sunday,13:00,MIA,BUF,20,3,-17,Ralph Wilson Stadium,Home,outdoors,astroplay,2003122107
+228,2003_16_DET_CAR,2003,REG,16,2003-12-21,Sunday,13:00,DET,CAR,14,20,6,Ericsson Stadium,Home,outdoors,grass,2003122101
+229,2003_16_WAS_CHI,2003,REG,16,2003-12-21,Sunday,13:00,WAS,CHI,24,27,3,Soldier Field,Home,outdoors,grass,2003122109
+230,2003_16_BAL_CLE,2003,REG,16,2003-12-21,Sunday,13:00,BAL,CLE,35,0,-35,Cleveland Browns Stadium,Home,outdoors,grass,2003122100
+231,2003_16_NYG_DAL,2003,REG,16,2003-12-21,Sunday,13:00,NYG,DAL,3,19,16,Texas Stadium,Home,outdoors,fieldturf,2003122108
+232,2003_16_TEN_HOU,2003,REG,16,2003-12-21,Sunday,13:00,TEN,HOU,27,24,-3,Reliant Stadium,Home,open,grass,2003122103
+233,2003_16_NO_JAX,2003,REG,16,2003-12-21,Sunday,13:00,NO,JAX,19,20,1,Alltel Stadium,Home,outdoors,grass,2003122102
+234,2003_16_CIN_STL,2003,REG,16,2003-12-21,Sunday,13:00,CIN,STL,10,27,17,Edward Jones Dome,Home,dome,astroturf,2003122106
+235,2003_16_SD_PIT,2003,REG,16,2003-12-21,Sunday,16:05,SD,PIT,24,40,16,Heinz Field,Home,outdoors,dessograss,2003122104
+236,2003_16_SF_PHI,2003,REG,16,2003-12-21,Sunday,16:15,SF,PHI,31,28,-3,Lincoln Financial Field,Home,outdoors,grass,2003122105
+237,2003_16_ARI_SEA,2003,REG,16,2003-12-21,Sunday,16:15,ARI,SEA,10,28,18,Seahawks Stadium,Home,outdoors,fieldturf,2003122110
+238,2003_16_DEN_IND,2003,REG,16,2003-12-21,Sunday,20:30,DEN,IND,31,17,-14,RCA Dome,Home,dome,astroturf,2003122111
+239,2003_16_GB_OAK,2003,REG,16,2003-12-22,Monday,09:00,GB,OAK,41,7,-34,Network Associates Coliseum,Home,outdoors,grass,2003122200
+240,2003_17_BUF_NE,2003,REG,17,2003-12-27,Saturday,13:30,BUF,NE,0,31,31,Gillette Stadium,Home,outdoors,grass,2003122700
+241,2003_17_SEA_SF,2003,REG,17,2003-12-27,Saturday,17:00,SEA,SF,24,17,-7,3Com Park,Home,outdoors,grass,2003122701
+242,2003_17_PHI_WAS,2003,REG,17,2003-12-27,Saturday,20:30,PHI,WAS,31,7,-24,FedExField,Home,outdoors,grass,2003122702
+243,2003_17_JAX_ATL,2003,REG,17,2003-12-28,Sunday,13:00,JAX,ATL,14,21,7,Georgia Dome,Home,dome,fieldturf,2003122804
+244,2003_17_CLE_CIN,2003,REG,17,2003-12-28,Sunday,13:00,CLE,CIN,22,14,-8,Paul Brown Stadium,Home,outdoors,grass,2003122801
+245,2003_17_STL_DET,2003,REG,17,2003-12-28,Sunday,13:00,STL,DET,20,30,10,Ford Field,Home,dome,fieldturf,2003122805
+246,2003_17_IND_HOU,2003,REG,17,2003-12-28,Sunday,13:00,IND,HOU,20,17,-3,Reliant Stadium,Home,closed,grass,2003122803
+247,2003_17_CHI_KC,2003,REG,17,2003-12-28,Sunday,13:00,CHI,KC,3,31,28,Arrowhead Stadium,Home,outdoors,grass,2003122800
+248,2003_17_NYJ_MIA,2003,REG,17,2003-12-28,Sunday,13:00,NYJ,MIA,21,23,2,Pro Player Stadium,Home,outdoors,grass,2003122806
+249,2003_17_DAL_NO,2003,REG,17,2003-12-28,Sunday,13:00,DAL,NO,7,13,6,Louisiana Superdome,Home,dome,fieldturf,2003122802
+250,2003_17_TB_TEN,2003,REG,17,2003-12-28,Sunday,13:00,TB,TEN,13,33,20,The Coliseum,Home,outdoors,grass,2003122807
+251,2003_17_MIN_ARI,2003,REG,17,2003-12-28,Sunday,16:05,MIN,ARI,17,18,1,Sun Devil Stadium,Home,outdoors,grass,2003122809
+252,2003_17_CAR_NYG,2003,REG,17,2003-12-28,Sunday,16:05,CAR,NYG,37,24,-13,Giants Stadium,Home,outdoors,fieldturf,2003122808
+253,2003_17_DEN_GB,2003,REG,17,2003-12-28,Sunday,16:15,DEN,GB,3,31,28,Lambeau Field,Home,outdoors,grass,2003122810
+254,2003_17_OAK_SD,2003,REG,17,2003-12-28,Sunday,16:15,OAK,SD,14,21,7,Qualcomm Stadium,Home,outdoors,grass,2003122811
+255,2003_17_PIT_BAL,2003,REG,17,2003-12-28,Sunday,20:30,PIT,BAL,10,13,3,M&T Bank Stadium,Home,outdoors,sportturf,2003122812
+256,2003_18_TEN_BAL,2003,WC,18,2004-01-03,Saturday,16:30,TEN,BAL,20,17,-3,M&T Bank Stadium,Home,outdoors,sportturf,2004010301
+257,2003_18_DAL_CAR,2003,WC,18,2004-01-03,Saturday,20:00,DAL,CAR,10,29,19,Ericsson Stadium,Home,outdoors,grass,2004010300
+258,2003_18_SEA_GB,2003,WC,18,2004-01-04,Sunday,13:00,SEA,GB,27,33,6,Lambeau Field,Home,outdoors,grass,2004010400
+259,2003_18_DEN_IND,2003,WC,18,2004-01-04,Sunday,16:30,DEN,IND,10,41,31,RCA Dome,Home,dome,astroturf,2004010401
+260,2003_19_CAR_STL,2003,DIV,19,2004-01-10,Saturday,16:30,CAR,STL,29,23,-6,Edward Jones Dome,Home,dome,astroturf,2004011000
+261,2003_19_TEN_NE,2003,DIV,19,2004-01-10,Saturday,20:15,TEN,NE,14,17,3,Gillette Stadium,Home,outdoors,grass,2004011002
+262,2003_19_IND_KC,2003,DIV,19,2004-01-11,Sunday,14:00,IND,KC,38,31,-7,Arrowhead Stadium,Home,outdoors,grass,2004011102
+263,2003_19_GB_PHI,2003,DIV,19,2004-01-11,Sunday,16:45,GB,PHI,17,20,3,Lincoln Financial Field,Home,outdoors,grass,2004011100
+264,2003_20_IND_NE,2003,CON,20,2004-01-18,Sunday,15:00,IND,NE,14,24,10,Gillette Stadium,Home,outdoors,grass,2004011800
+265,2003_20_CAR_PHI,2003,CON,20,2004-01-18,Sunday,18:45,CAR,PHI,14,3,-11,Lincoln Financial Field,Home,outdoors,grass,2004011801
+266,2003_21_CAR_NE,2003,SB,21,2004-02-01,Sunday,18:25,CAR,NE,29,32,3,Reliant Stadium,Neutral,closed,grass,2004020100
