@@ -7,47 +7,83 @@ import datetime
 
 def import_pbp_data(years, columns=None):
 
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
     if columns is None:
         columns = []
+        
     plays = pandas.DataFrame()
 
     url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
     url2 = r'.parquet'
 
     for year in years:
-        if len(columns) != 0:
-            data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
-        else:
-            data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
-        raw = pandas.DataFrame(data)
-        raw['season'] = year
-        if len(plays) == 0:
-            plays = raw
-        else:
-            plays = plays.append(raw)
-        print(str(year) + ' done.')
+        
+        try:
+            if len(columns) != 0:
+                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
+            else:
+                data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
+            
+            raw = pandas.DataFrame(data)
+            raw['season'] = year
 
+            if len(plays) == 0:
+                plays = raw
+            else:
+                plays = plays.append(raw)
+            
+            print(str(year) + ' done.')
+            
+        except:
+            print('Data not available for ' + str(year))
+            
     return plays
 
 
 def import_weekly_data(years, columns=None):
 
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
     if columns is None:
         columns = []
+        
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
-
         data = data[columns]
 
     return data
 
 
-def import_seasonal_data(years):
-
+def import_seasonal_data(years, s_type='REG'):
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+        
+    if s_type not in ('REG','ALL','POST'):
+        raise ValueError('Only REG, ALL, POST allowed for s_type.')
+    
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
-
+    
+    if s_type == 'ALL':
+        data = data[data['season'].isin(years)]
+        
+    else:
+        data = data[(data['season'].isin(years)) & (data['season_type'] == s_type)]
+    
     pgstats = data[['recent_team', 'season', 'week', 'attempts', 'completions', 'passing_yards', 'passing_tds',
                       'passing_air_yards', 'passing_yards_after_catch', 'passing_first_downs',
                       'fantasy_points_ppr']].groupby(
@@ -76,7 +112,7 @@ def import_seasonal_data(years):
     season_stats['yptmpa'] = season_stats['receiving_yards'] / season_stats['atts']
     season_stats['ppr_sh'] = season_stats['fantasy_points_ppr'] / season_stats['ppr_pts']
 
-    data = data[(data['season'].isin(years)) & (data['season_type'] == 'REG')].drop(['recent_team', 'week'], axis=1)
+    data.drop(['recent_team', 'week'], axis=1, inplace=True)
     szn = data.groupby(['player_id', 'player_name', 'season', 'season_type']).sum().reset_index().merge(
         data[['player_id', 'season', 'season_type']].groupby(['player_id', 'season']).count().reset_index().rename(
             columns={'season_type': 'games'}), how='left', on=['player_id', 'season'])
@@ -106,8 +142,15 @@ def see_weekly_cols():
 
 def import_rosters(years, columns=None):
 
+    if not isinstance(years, (list, range)):
+        raise ValueError('years input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+
     if columns is None:
         columns = []
+        
     rosters = []
 
     for y in years:
@@ -144,6 +187,28 @@ def import_team_desc():
     return df
 
 
+def import_schedules(years):
+
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
+    scheds = pd.DataFrame()
+            
+    for x in years:
+        
+        try:
+            temp = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/schedules//' + str(x) + '.csv').drop('Unnamed: 0', axis=1)
+            scheds = scheds.append(temp)
+    
+        except:
+            print('Data not available for ' + str(x))
+        
+    return scheds
+    
+    
 def clean_nfl_data(df):
 
     name_repl = {
