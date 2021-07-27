@@ -59,7 +59,7 @@ Returns seasonal data, including various calculated market share stats
 years
 : required, list of years to pull data for (earliest available is 1999)
 
-**Importing roster data**
+**Additional data imports**
 ```python
 nfl.import_rosters(years, columns)
 ```
@@ -70,6 +70,18 @@ years
 
 columns
 : optional, list of columns to pull data for
+
+```python
+nfl.import_team_desc()
+```
+Returns dataframe with color/logo/etc information for all NFL team
+
+```python
+nfl.import_schedules(years)
+```
+Returns dataframe with schedule information for years specified
+
+years: required, list of years to pull data for (earliest available is 1999)
 
 **Additional features**
 ```python
