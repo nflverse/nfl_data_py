@@ -71,7 +71,6 @@ years
 columns
 : optional, list of columns to pull data for
 
-**Other assorted data imports**
 ```python
 nfl.import_win_totals(years)
 ```
