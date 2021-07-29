@@ -208,7 +208,84 @@ def import_schedules(years):
         
     return scheds
     
+
+def import_win_totals(years):
+
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
     
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/win_totals.csv')
+    
+    df = df[df['season'].isin(years)]
+    
+    return df
+    
+
+def import_officials(years=None):
+
+    if years is None:
+        years = []
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/officials.csv')
+    df['season'] = df['game_id'].str[0:4].astype(int)
+    
+    if len(years) > 0:
+        df = df[df['season'].isin(years)]
+    
+    return df
+    
+    
+def import_sc_lines(years=None):
+
+    if years is None:
+        years = []
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/sc_lines.csv')
+    
+    if len(years) > 0:
+        df = df[df['season'].isin(years)]
+    
+    return df
+    
+    
+def import_draft_picks(years=None):
+
+    if years is None:
+        years = []
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_picks.csv')
+    
+    if len(years) > 0:
+        df = df[df['season'].isin(years)]  
+    
+    return df
+    
+
+def import_draft_values(picks=None):
+
+    if picks is None:
+        picks = []
+    
+    if not isinstance(picks, (list, range)):
+        raise ValueError('picks variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_values.csv')
+
+    if len(picks) > 0:
+        df = df[df['pick'].between(picks[0], picks[-1])]
+
+    return df        
+
+
 def clean_nfl_data(df):
 
     name_repl = {
