@@ -144,38 +144,38 @@ def import_rosters(years, columns=None):
 
     if not isinstance(years, (list, range)):
         raise ValueError('years input must be list or range.')
-        
+
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
 
     if columns is None:
         columns = []
-        
+
     rosters = []
 
     for y in years:
         temp = pandas.read_csv(r'https://github.com/mrcaseb/nflfastR-roster/blob/master/data/seasons/roster_' + str(y)
                                + '.csv?raw=True', low_memory=False)
-
-        if len(columns) > 0:
-
-            temp = temp[columns]
-
         rosters.append(temp)
 
     rosters = pandas.DataFrame(pandas.concat(rosters)).rename(
         columns={'full_name': 'player_name', 'gsis_id': 'player_id'})
     rosters.drop_duplicates(subset=['season', 'player_name', 'position', 'player_id'], keep='first', inplace=True)
 
+    if len(columns) > 0:
+        rosters = rosters[columns]
+
     def calc_age(x):
         ca = pandas.to_datetime(x[0])
         bd = pandas.to_datetime(x[1])
         return ca.year - bd.year + numpy.where(ca.month > bd.month, 0, -1)
 
-    rosters['current_age'] = rosters['season'].apply(lambda x: datetime.datetime(int(x), 9, 1))
-    rosters['age'] = rosters[['current_age', 'birth_date']].apply(calc_age, axis=1)
-    rosters.drop(['current_age'], axis=1, inplace=True)
-    rosters.dropna(subset=['player_id'], inplace=True)
+    if 'birth_date' in columns and 'current_age' in columns:
+    
+        rosters['current_age'] = rosters['season'].apply(lambda x: datetime.datetime(int(x), 9, 1))
+        rosters['age'] = rosters[['current_age', 'birth_date']].apply(calc_age, axis=1)
+        rosters.drop(['current_age'], axis=1, inplace=True)
+        rosters.dropna(subset=['player_id'], inplace=True)
 
     return rosters
 
