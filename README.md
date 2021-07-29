@@ -1,6 +1,6 @@
 # nfl_data_py
 
-nfl_data_py is a Python library for interacting with NFL data sourced from nflfastR (https://github.com/nflverse/nflfastR-data/).
+nfl_data_py is a Python library for interacting with NFL data sourced from nflfastR (https://github.com/nflverse/nflfastR-data/) and nfldata (https://github.com/nflverse/nfldata/).
 
 ## Installation
 
@@ -71,6 +71,40 @@ years
 columns
 : optional, list of columns to pull data for
 
+**Other assorted data imports**
+```python
+nfl.import_win_totals(years)
+```
+Returns win total lines for years specified
+years
+: optional, list of years to pull
+
+```python
+nfl.import_sc_lines(years)
+```
+Returns scoring lines for years specified
+years
+: optional, list of years to pull
+
+```python
+nfl.import_officials(years)
+```
+Returns official information by game for the years specified
+years
+: optional, list of years to pull
+
+```python
+nfl.import_draft_picks()
+```
+Returns list of draft picks for the years specified
+years
+: optional, list of years to pull
+
+```python
+nfl.import_draft_values()
+```
+Returns relative values by generic draft pick according to various popular valuation methods
+
 **Additional features**
 ```python
 nfl.clean_nfl_data(df)
@@ -79,6 +113,9 @@ Runs descriptive data (team name, player name, etc.) through various cleaning pr
 
 df
 : required, dataframe to be cleaned
+
+## Recognition
+I'd like to recognize all of [Ben Baldwin](https://twitter.com/benbbaldwin), [Sebastian Carl](https://twitter.com/mrcaseb), and [Lee Sharpe](https://twitter.com/LeeSharpeNFL) for making this data freely available and easy to access. I'd also like to thank [Tan Ho](https://twitter.com/_TanH), who has been an invaluable resource as I've worked through this project, and Josh Kazan for the resources and assistance he's provided.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
