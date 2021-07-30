@@ -2,6 +2,8 @@
 
 nfl_data_py is a Python library for interacting with NFL data sourced from nflfastR (https://github.com/nflverse/nflfastR-data/) and nfldata (https://github.com/nflverse/nfldata/).
 
+Includes import functions for play-by-play data, weekly data, seasonal data, rosters, win totals, scoring lines, officials, draft picks, draft pick values, schedules, team descriptive info, combine results and id mappings across various sites.
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nfl_data_py.
@@ -114,6 +116,22 @@ nfl.import_schedules(years)
 Returns dataframe with schedule information for years specified
 
 years: required, list of years to pull data for (earliest available is 1999)
+
+```python
+nfl.import_combine_data(years, positions)
+```
+Returns dataframe with combine results for years and positions specified
+
+years: optional, list or range of years to pull data from
+positions: optional, list of positions to be pulled (standard format - WR/QB/RB/etc.)
+
+```python
+nfl.import_ids(columns, ids)
+```
+Returns dataframe with mapped ids for all players across most major NFL and fantasy football data platforms
+
+columns: optional, list of columns to return
+ids: optional, list of ids to return
 
 **Additional features**
 ```python
