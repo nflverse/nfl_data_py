@@ -1,6 +1,6 @@
 # nfl_data_py
 
-nfl_data_py is a Python library for interacting with NFL data sourced from nflfastR (https://github.com/nflverse/nflfastR-data/) and nfldata (https://github.com/nflverse/nfldata/).
+nfl_data_py is a Python library for interacting with NFL data sourced from [nflfastR](https://github.com/nflverse/nflfastR-data/), [nfldata](https://github.com/nflverse/nfldata/), and [dynastyprocess](https://raw.githubusercontent.com/dynastyprocess/).
 
 Includes import functions for play-by-play data, weekly data, seasonal data, rosters, win totals, scoring lines, officials, draft picks, draft pick values, schedules, team descriptive info, combine results and id mappings across various sites.
 
