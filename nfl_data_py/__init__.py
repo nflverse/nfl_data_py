@@ -283,8 +283,72 @@ def import_draft_values(picks=None):
     if len(picks) > 0:
         df = df[df['pick'].between(picks[0], picks[-1])]
 
-    return df        
+    return df      
 
+
+def import_combine_data(years=None, positions=None):
+    
+    if years is None:
+        years = []
+        
+    if positions is None:
+        positions = []
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+        
+    if not isinstance(positions, list):
+        raise ValueError('positions variable must be list.')
+    
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/combine.csv')
+    
+    if len(years) > 0 and len(positions) > 0:
+        df = df[(df['season'].isin(years)) & (df['position'].isin(positions))]
+    elif len(years) > 0:
+        df = df[df['season'].isin(years)]
+    elif len(positions) > 0:
+        df = df[df['position'].isin(positions)]
+
+    return df    
+
+
+def import_ids(columns=None, ids=None):
+    
+    avail_ids = ['mfl_id', 'sportradar_id', 'fantasypros_id', 'gsis_id', 'pff_id',
+       'sleeper_id', 'nfl_id', 'espn_id', 'yahoo_id', 'fleaflicker_id',
+       'cbs_id', 'rotowire_id', 'rotoworld_id', 'ktc_id', 'pfr_id',
+       'cfbref_id', 'stats_id', 'stats_global_id', 'fantasy_data_id']
+    avail_sites = [x[:-3] for x in avail_ids]
+    
+    if columns is None:
+        columns = []
+    
+    if ids is None:
+        ids = []
+
+    if not isinstance(columns, list):
+        raise ValueError('columns variable must be list.')
+        
+    if not isinstance(ids, list):
+        raise ValueError('ids variable must be list.')
+        
+    if False in [x in avail_sites for x in ids]:
+        raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
+        
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
+    
+    rem_cols = [x for x in df.columns if x not in avail_ids]
+    tgt_ids = [x + '_id' for x in ids]
+        
+    if len(columns) > 0 and len(ids) > 0:
+        df = df[set(tgt_ids + columns)]
+    elif len(columns) > 0 and len(ids) == 0:
+        df = df[set(avail_ids + columns)]
+    elif len(columns) == 0 and len(ids) > 0:
+        df = df[set(tgt_ids + rem_cols)]
+    
+    return df
+    
 
 def clean_nfl_data(df):
 
