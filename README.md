@@ -26,7 +26,6 @@ Returns play-by-play data for the years and columns specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
-
 columns
 : optional, list of columns to pull data for
 
@@ -43,7 +42,6 @@ Returns weekly data for the years and columns specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
-
 columns
 : optional, list of columns to pull data for
 
@@ -69,7 +67,6 @@ Returns roster information for years and columns specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
-
 columns
 : optional, list of columns to pull data for
 
@@ -77,6 +74,7 @@ columns
 nfl.import_win_totals(years)
 ```
 Returns win total lines for years specified
+
 years
 : optional, list of years to pull
 
@@ -84,6 +82,7 @@ years
 nfl.import_sc_lines(years)
 ```
 Returns scoring lines for years specified
+
 years
 : optional, list of years to pull
 
@@ -91,13 +90,15 @@ years
 nfl.import_officials(years)
 ```
 Returns official information by game for the years specified
+
 years
 : optional, list of years to pull
 
 ```python
-nfl.import_draft_picks()
+nfl.import_draft_picks(years)
 ```
 Returns list of draft picks for the years specified
+
 years
 : optional, list of years to pull
 
@@ -105,6 +106,7 @@ years
 nfl.import_draft_values()
 ```
 Returns relative values by generic draft pick according to various popular valuation methods
+
 ```python
 nfl.import_team_desc()
 ```
@@ -115,7 +117,8 @@ nfl.import_schedules(years)
 ```
 Returns dataframe with schedule information for years specified
 
-years: required, list of years to pull data for (earliest available is 1999)
+years
+: required, list of years to pull data for (earliest available is 1999)
 
 ```python
 nfl.import_combine_data(years, positions)
