@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2010_01_MIN_NO,2010,REG,1,2010-09-09,Thursday,20:30,MIN,NO,9,14,5,Louisiana Superdome,Home,dome,sportturf,2010090900
+1,2010_01_MIA_BUF,2010,REG,1,2010-09-12,Sunday,13:00,MIA,BUF,15,10,-5,Ralph Wilson Stadium,Home,outdoors,astroplay,2010091201
+2,2010_01_DET_CHI,2010,REG,1,2010-09-12,Sunday,13:00,DET,CHI,14,19,5,Soldier Field,Home,outdoors,grass,2010091207
+3,2010_01_IND_HOU,2010,REG,1,2010-09-12,Sunday,13:00,IND,HOU,24,34,10,Reliant Stadium,Home,closed,grass,2010091203
+4,2010_01_DEN_JAX,2010,REG,1,2010-09-12,Sunday,13:00,DEN,JAX,17,24,7,EverBank Field,Home,outdoors,grass,2010091204
+5,2010_01_CIN_NE,2010,REG,1,2010-09-12,Sunday,13:00,CIN,NE,24,38,14,Gillette Stadium,Home,outdoors,fieldturf,2010091202
+6,2010_01_CAR_NYG,2010,REG,1,2010-09-12,Sunday,13:00,CAR,NYG,18,31,13,New Meadowlands Stadium,Home,outdoors,fieldturf,2010091206
+7,2010_01_ATL_PIT,2010,REG,1,2010-09-12,Sunday,13:00,ATL,PIT,9,15,6,Heinz Field,Home,outdoors,grass,2010091209
+8,2010_01_CLE_TB,2010,REG,1,2010-09-12,Sunday,13:00,CLE,TB,14,17,3,Raymond James Stadium,Home,outdoors,grass,2010091200
+9,2010_01_OAK_TEN,2010,REG,1,2010-09-12,Sunday,13:00,OAK,TEN,13,38,25,LP Field,Home,outdoors,grass,2010091205
+10,2010_01_GB_PHI,2010,REG,1,2010-09-12,Sunday,16:15,GB,PHI,27,20,-7,Lincoln Financial Field,Home,outdoors,grass,2010091210
+11,2010_01_SF_SEA,2010,REG,1,2010-09-12,Sunday,16:15,SF,SEA,6,31,25,Qwest Field,Home,outdoors,fieldturf,2010091211
+12,2010_01_ARI_STL,2010,REG,1,2010-09-12,Sunday,16:15,ARI,STL,17,13,-4,Edward Jones Dome,Home,dome,astroplay,2010091208
+13,2010_01_DAL_WAS,2010,REG,1,2010-09-12,Sunday,20:20,DAL,WAS,7,13,6,FedExField,Home,outdoors,grass,2010091212
+14,2010_01_BAL_NYJ,2010,REG,1,2010-09-13,Monday,19:00,BAL,NYJ,10,9,-1,New Meadowlands Stadium,Home,outdoors,fieldturf,2010091300
+15,2010_01_SD_KC,2010,REG,1,2010-09-13,Monday,22:15,SD,KC,14,21,7,Arrowhead Stadium,Home,outdoors,grass,2010091301
+16,2010_02_ARI_ATL,2010,REG,2,2010-09-19,Sunday,13:00,ARI,ATL,7,41,34,Georgia Dome,Home,dome,fieldturf,2010091907
+17,2010_02_TB_CAR,2010,REG,2,2010-09-19,Sunday,13:00,TB,CAR,20,7,-13,Bank of America Stadium,Home,outdoors,grass,2010091908
+18,2010_02_BAL_CIN,2010,REG,2,2010-09-19,Sunday,13:00,BAL,CIN,10,15,5,Paul Brown Stadium,Home,outdoors,fieldturf,2010091912
+19,2010_02_KC_CLE,2010,REG,2,2010-09-19,Sunday,13:00,KC,CLE,16,14,-2,Cleveland Browns Stadium,Home,outdoors,grass,2010091903
+20,2010_02_CHI_DAL,2010,REG,2,2010-09-19,Sunday,13:00,CHI,DAL,27,20,-7,Cowboys Stadium,Home,closed,matrixturf,2010091905
+21,2010_02_PHI_DET,2010,REG,2,2010-09-19,Sunday,13:00,PHI,DET,35,32,-3,Ford Field,Home,dome,fieldturf,2010091906
+22,2010_02_BUF_GB,2010,REG,2,2010-09-19,Sunday,13:00,BUF,GB,7,34,27,Lambeau Field,Home,outdoors,grass,2010091901
+23,2010_02_MIA_MIN,2010,REG,2,2010-09-19,Sunday,13:00,MIA,MIN,14,10,-4,Mall of America Field,Home,dome,sportturf,2010091902
+24,2010_02_PIT_TEN,2010,REG,2,2010-09-19,Sunday,13:00,PIT,TEN,19,11,-8,LP Field,Home,outdoors,grass,2010091904
+25,2010_02_SEA_DEN,2010,REG,2,2010-09-19,Sunday,16:05,SEA,DEN,14,31,17,Invesco Field at Mile High,Home,outdoors,grass,2010091909
+26,2010_02_STL_OAK,2010,REG,2,2010-09-19,Sunday,16:05,STL,OAK,14,16,2,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010091910
+27,2010_02_NE_NYJ,2010,REG,2,2010-09-19,Sunday,16:15,NE,NYJ,14,28,14,New Meadowlands Stadium,Home,outdoors,fieldturf,2010091911
+28,2010_02_JAX_SD,2010,REG,2,2010-09-19,Sunday,16:15,JAX,SD,13,38,25,Qualcomm Stadium,Home,outdoors,grass,2010091913
+29,2010_02_HOU_WAS,2010,REG,2,2010-09-19,Sunday,16:15,HOU,WAS,30,27,-3,FedExField,Home,outdoors,grass,2010091900
+30,2010_02_NYG_IND,2010,REG,2,2010-09-19,Sunday,20:20,NYG,IND,14,38,24,Lucas Oil Stadium,Home,open,fieldturf,2010091914
+31,2010_02_NO_SF,2010,REG,2,2010-09-20,Monday,20:30,NO,SF,25,22,-3,Candlestick Park,Home,outdoors,grass,2010092000
+32,2010_03_CLE_BAL,2010,REG,3,2010-09-26,Sunday,13:00,CLE,BAL,17,24,7,M&T Bank Stadium,Home,outdoors,fieldturf,2010092604
+33,2010_03_CIN_CAR,2010,REG,3,2010-09-26,Sunday,13:00,CIN,CAR,20,7,-13,Bank of America Stadium,Home,outdoors,grass,2010092601
+34,2010_03_DAL_HOU,2010,REG,3,2010-09-26,Sunday,13:00,DAL,HOU,27,13,-14,Reliant Stadium,Home,closed,grass,2010092608
+35,2010_03_SF_KC,2010,REG,3,2010-09-26,Sunday,13:00,SF,KC,10,31,21,Arrowhead Stadium,Home,outdoors,grass,2010092609
+36,2010_03_DET_MIN,2010,REG,3,2010-09-26,Sunday,13:00,DET,MIN,10,24,14,Mall of America Field,Home,dome,sportturf,2010092605
+37,2010_03_BUF_NE,2010,REG,3,2010-09-26,Sunday,13:00,BUF,NE,30,38,8,Gillette Stadium,Home,outdoors,fieldturf,2010092603
+38,2010_03_ATL_NO,2010,REG,3,2010-09-26,Sunday,13:00,ATL,NO,27,24,-3,Louisiana Superdome,Home,dome,sportturf,2010092606
+39,2010_03_TEN_NYG,2010,REG,3,2010-09-26,Sunday,13:00,TEN,NYG,29,10,-19,New Meadowlands Stadium,Home,outdoors,fieldturf,2010092600
+40,2010_03_PIT_TB,2010,REG,3,2010-09-26,Sunday,13:00,PIT,TB,38,13,-25,Raymond James Stadium,Home,outdoors,grass,2010092602
+41,2010_03_PHI_JAX,2010,REG,3,2010-09-26,Sunday,16:05,PHI,JAX,28,3,-25,EverBank Field,Home,outdoors,grass,2010092610
+42,2010_03_WAS_STL,2010,REG,3,2010-09-26,Sunday,16:05,WAS,STL,16,30,14,Edward Jones Dome,Home,dome,astroplay,2010092607
+43,2010_03_OAK_ARI,2010,REG,3,2010-09-26,Sunday,16:15,OAK,ARI,23,24,1,University of Phoenix Stadium,Home,closed,grass,2010092612
+44,2010_03_IND_DEN,2010,REG,3,2010-09-26,Sunday,16:15,IND,DEN,27,13,-14,Invesco Field at Mile High,Home,outdoors,grass,2010092611
+45,2010_03_SD_SEA,2010,REG,3,2010-09-26,Sunday,16:15,SD,SEA,20,27,7,Qwest Field,Home,outdoors,fieldturf,2010092613
+46,2010_03_NYJ_MIA,2010,REG,3,2010-09-26,Sunday,20:20,NYJ,MIA,31,23,-8,Sun Life Stadium,Home,outdoors,grass,2010092614
+47,2010_03_GB_CHI,2010,REG,3,2010-09-27,Monday,20:30,GB,CHI,17,20,3,Soldier Field,Home,outdoors,grass,2010092700
+48,2010_04_SF_ATL,2010,REG,4,2010-10-03,Sunday,13:00,SF,ATL,14,16,2,Georgia Dome,Home,dome,fieldturf,2010100305
+49,2010_04_NYJ_BUF,2010,REG,4,2010-10-03,Sunday,13:00,NYJ,BUF,38,14,-24,Ralph Wilson Stadium,Home,outdoors,astroplay,2010100300
+50,2010_04_CIN_CLE,2010,REG,4,2010-10-03,Sunday,13:00,CIN,CLE,20,23,3,Cleveland Browns Stadium,Home,outdoors,grass,2010100301
+51,2010_04_DET_GB,2010,REG,4,2010-10-03,Sunday,13:00,DET,GB,26,28,2,Lambeau Field,Home,outdoors,grass,2010100304
+52,2010_04_CAR_NO,2010,REG,4,2010-10-03,Sunday,13:00,CAR,NO,14,16,2,Louisiana Superdome,Home,dome,sportturf,2010100306
+53,2010_04_BAL_PIT,2010,REG,4,2010-10-03,Sunday,13:00,BAL,PIT,17,14,-3,Heinz Field,Home,outdoors,grass,2010100302
+54,2010_04_SEA_STL,2010,REG,4,2010-10-03,Sunday,13:00,SEA,STL,3,20,17,Edward Jones Dome,Home,dome,astroplay,2010100307
+55,2010_04_DEN_TEN,2010,REG,4,2010-10-03,Sunday,13:00,DEN,TEN,26,20,-6,LP Field,Home,outdoors,grass,2010100303
+56,2010_04_IND_JAX,2010,REG,4,2010-10-03,Sunday,16:05,IND,JAX,28,31,3,EverBank Field,Home,outdoors,grass,2010100308
+57,2010_04_HOU_OAK,2010,REG,4,2010-10-03,Sunday,16:05,HOU,OAK,31,24,-7,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010100309
+58,2010_04_WAS_PHI,2010,REG,4,2010-10-03,Sunday,16:15,WAS,PHI,17,12,-5,Lincoln Financial Field,Home,outdoors,grass,2010100310
+59,2010_04_ARI_SD,2010,REG,4,2010-10-03,Sunday,16:15,ARI,SD,10,41,31,Qualcomm Stadium,Home,outdoors,grass,2010100311
+60,2010_04_CHI_NYG,2010,REG,4,2010-10-03,Sunday,20:20,CHI,NYG,3,17,14,New Meadowlands Stadium,Home,outdoors,fieldturf,2010100312
+61,2010_04_NE_MIA,2010,REG,4,2010-10-04,Monday,20:30,NE,MIA,41,14,-27,Sun Life Stadium,Home,outdoors,grass,2010100400
+62,2010_05_DEN_BAL,2010,REG,5,2010-10-10,Sunday,13:00,DEN,BAL,17,31,14,M&T Bank Stadium,Home,outdoors,fieldturf,2010101001
+63,2010_05_JAX_BUF,2010,REG,5,2010-10-10,Sunday,13:00,JAX,BUF,36,26,-10,Ralph Wilson Stadium,Home,outdoors,astroplay,2010101000
+64,2010_05_CHI_CAR,2010,REG,5,2010-10-10,Sunday,13:00,CHI,CAR,23,6,-17,Bank of America Stadium,Home,outdoors,grass,2010101005
+65,2010_05_TB_CIN,2010,REG,5,2010-10-10,Sunday,13:00,TB,CIN,24,21,-3,Paul Brown Stadium,Home,outdoors,fieldturf,2010101006
+66,2010_05_ATL_CLE,2010,REG,5,2010-10-10,Sunday,13:00,ATL,CLE,20,10,-10,Cleveland Browns Stadium,Home,outdoors,grass,2010101007
+67,2010_05_STL_DET,2010,REG,5,2010-10-10,Sunday,13:00,STL,DET,6,44,38,Ford Field,Home,dome,fieldturf,2010101004
+68,2010_05_NYG_HOU,2010,REG,5,2010-10-10,Sunday,13:00,NYG,HOU,34,10,-24,Reliant Stadium,Home,closed,grass,2010101008
+69,2010_05_KC_IND,2010,REG,5,2010-10-10,Sunday,13:00,KC,IND,9,19,10,Lucas Oil Stadium,Home,closed,fieldturf,2010101002
+70,2010_05_GB_WAS,2010,REG,5,2010-10-10,Sunday,13:00,GB,WAS,13,16,3,FedExField,Home,outdoors,grass,2010101003
+71,2010_05_NO_ARI,2010,REG,5,2010-10-10,Sunday,16:05,NO,ARI,20,30,10,University of Phoenix Stadium,Home,closed,grass,2010101009
+72,2010_05_TEN_DAL,2010,REG,5,2010-10-10,Sunday,16:15,TEN,DAL,34,27,-7,Cowboys Stadium,Home,closed,matrixturf,2010101010
+73,2010_05_SD_OAK,2010,REG,5,2010-10-10,Sunday,16:15,SD,OAK,27,35,8,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010101011
+74,2010_05_PHI_SF,2010,REG,5,2010-10-10,Sunday,20:20,PHI,SF,27,24,-3,Candlestick Park,Home,outdoors,grass,2010101012
+75,2010_05_MIN_NYJ,2010,REG,5,2010-10-11,Monday,21:15,MIN,NYJ,20,29,9,New Meadowlands Stadium,Home,outdoors,fieldturf,2010101100
+76,2010_06_SEA_CHI,2010,REG,6,2010-10-17,Sunday,13:00,SEA,CHI,23,20,-3,Soldier Field,Home,outdoors,grass,2010101707
+77,2010_06_MIA_GB,2010,REG,6,2010-10-17,Sunday,13:00,MIA,GB,23,20,-3,Lambeau Field,Home,outdoors,grass,2010101700
+78,2010_06_KC_HOU,2010,REG,6,2010-10-17,Sunday,13:00,KC,HOU,31,35,4,Reliant Stadium,Home,open,grass,2010101704
+79,2010_06_BAL_NE,2010,REG,6,2010-10-17,Sunday,13:00,BAL,NE,20,23,3,Gillette Stadium,Home,outdoors,fieldturf,2010101702
+80,2010_06_DET_NYG,2010,REG,6,2010-10-17,Sunday,13:00,DET,NYG,20,28,8,New Meadowlands Stadium,Home,outdoors,fieldturf,2010101705
+81,2010_06_ATL_PHI,2010,REG,6,2010-10-17,Sunday,13:00,ATL,PHI,17,31,14,Lincoln Financial Field,Home,outdoors,grass,2010101706
+82,2010_06_CLE_PIT,2010,REG,6,2010-10-17,Sunday,13:00,CLE,PIT,10,28,18,Heinz Field,Home,outdoors,grass,2010101703
+83,2010_06_SD_STL,2010,REG,6,2010-10-17,Sunday,13:00,SD,STL,17,20,3,Edward Jones Dome,Home,dome,astroplay,2010101701
+84,2010_06_NO_TB,2010,REG,6,2010-10-17,Sunday,13:00,NO,TB,31,6,-25,Raymond James Stadium,Home,outdoors,grass,2010101708
+85,2010_06_NYJ_DEN,2010,REG,6,2010-10-17,Sunday,16:05,NYJ,DEN,24,20,-4,Invesco Field at Mile High,Home,outdoors,grass,2010101709
+86,2010_06_OAK_SF,2010,REG,6,2010-10-17,Sunday,16:05,OAK,SF,9,17,8,Candlestick Park,Home,outdoors,grass,2010101710
+87,2010_06_DAL_MIN,2010,REG,6,2010-10-17,Sunday,16:15,DAL,MIN,21,24,3,Mall of America Field,Home,dome,sportturf,2010101711
+88,2010_06_IND_WAS,2010,REG,6,2010-10-17,Sunday,20:20,IND,WAS,27,24,-3,FedExField,Home,outdoors,grass,2010101712
+89,2010_06_TEN_JAX,2010,REG,6,2010-10-18,Monday,20:30,TEN,JAX,30,3,-27,EverBank Field,Home,outdoors,grass,2010101800
+90,2010_07_CIN_ATL,2010,REG,7,2010-10-24,Sunday,13:00,CIN,ATL,32,39,7,Georgia Dome,Home,dome,fieldturf,2010102400
+91,2010_07_BUF_BAL,2010,REG,7,2010-10-24,Sunday,13:00,BUF,BAL,34,37,3,M&T Bank Stadium,Home,outdoors,fieldturf,2010102402
+92,2010_07_SF_CAR,2010,REG,7,2010-10-24,Sunday,13:00,SF,CAR,20,23,3,Bank of America Stadium,Home,outdoors,grass,2010102406
+93,2010_07_WAS_CHI,2010,REG,7,2010-10-24,Sunday,13:00,WAS,CHI,17,14,-3,Soldier Field,Home,outdoors,grass,2010102405
+94,2010_07_JAX_KC,2010,REG,7,2010-10-24,Sunday,13:00,JAX,KC,20,42,22,Arrowhead Stadium,Home,outdoors,grass,2010102403
+95,2010_07_PIT_MIA,2010,REG,7,2010-10-24,Sunday,13:00,PIT,MIA,23,22,-1,Sun Life Stadium,Home,outdoors,grass,2010102401
+96,2010_07_CLE_NO,2010,REG,7,2010-10-24,Sunday,13:00,CLE,NO,30,17,-13,Louisiana Superdome,Home,dome,sportturf,2010102404
+97,2010_07_STL_TB,2010,REG,7,2010-10-24,Sunday,13:00,STL,TB,17,18,1,Raymond James Stadium,Home,outdoors,grass,2010102407
+98,2010_07_PHI_TEN,2010,REG,7,2010-10-24,Sunday,13:00,PHI,TEN,19,37,18,LP Field,Home,outdoors,grass,2010102408
+99,2010_07_ARI_SEA,2010,REG,7,2010-10-24,Sunday,16:05,ARI,SEA,10,22,12,Qwest Field,Home,outdoors,fieldturf,2010102409
+100,2010_07_OAK_DEN,2010,REG,7,2010-10-24,Sunday,16:15,OAK,DEN,59,14,-45,Invesco Field at Mile High,Home,outdoors,grass,2010102411
+101,2010_07_NE_SD,2010,REG,7,2010-10-24,Sunday,16:15,NE,SD,23,20,-3,Qualcomm Stadium,Home,outdoors,grass,2010102410
+102,2010_07_MIN_GB,2010,REG,7,2010-10-24,Sunday,20:20,MIN,GB,24,28,4,Lambeau Field,Home,outdoors,grass,2010102412
+103,2010_07_NYG_DAL,2010,REG,7,2010-10-25,Monday,20:30,NYG,DAL,41,35,-6,Cowboys Stadium,Home,open,matrixturf,2010102500
+104,2010_08_MIA_CIN,2010,REG,8,2010-10-31,Sunday,13:00,MIA,CIN,22,14,-8,Paul Brown Stadium,Home,outdoors,fieldturf,2010103102
+105,2010_08_JAX_DAL,2010,REG,8,2010-10-31,Sunday,13:00,JAX,DAL,35,17,-18,Cowboys Stadium,Home,closed,matrixturf,2010103101
+106,2010_08_WAS_DET,2010,REG,8,2010-10-31,Sunday,13:00,WAS,DET,25,37,12,Ford Field,Home,dome,fieldturf,2010103104
+107,2010_08_BUF_KC,2010,REG,8,2010-10-31,Sunday,13:00,BUF,KC,10,13,3,Arrowhead Stadium,Home,outdoors,grass,2010103103
+108,2010_08_GB_NYJ,2010,REG,8,2010-10-31,Sunday,13:00,GB,NYJ,9,0,-9,New Meadowlands Stadium,Home,outdoors,fieldturf,2010103106
+109,2010_08_DEN_SF,2010,REG,8,2010-10-31,Sunday,13:00,DEN,SF,16,24,8,Wembley Stadium,Neutral,outdoors,grass,2010103100
+110,2010_08_CAR_STL,2010,REG,8,2010-10-31,Sunday,13:00,CAR,STL,10,20,10,Edward Jones Dome,Home,dome,astroplay,2010103105
+111,2010_08_TEN_SD,2010,REG,8,2010-10-31,Sunday,16:05,TEN,SD,25,33,8,Qualcomm Stadium,Home,outdoors,grass,2010103107
+112,2010_08_TB_ARI,2010,REG,8,2010-10-31,Sunday,16:15,TB,ARI,38,35,-3,University of Phoenix Stadium,Home,closed,grass,2010103109
+113,2010_08_MIN_NE,2010,REG,8,2010-10-31,Sunday,16:15,MIN,NE,18,28,10,Gillette Stadium,Home,outdoors,fieldturf,2010103108
+114,2010_08_SEA_OAK,2010,REG,8,2010-10-31,Sunday,16:15,SEA,OAK,3,33,30,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010103110
+115,2010_08_PIT_NO,2010,REG,8,2010-10-31,Sunday,20:20,PIT,NO,10,20,10,Louisiana Superdome,Home,dome,sportturf,2010103111
+116,2010_08_HOU_IND,2010,REG,8,2010-11-01,Monday,20:30,HOU,IND,17,30,13,Lucas Oil Stadium,Home,closed,fieldturf,2010110100
+117,2010_09_TB_ATL,2010,REG,9,2010-11-07,Sunday,13:00,TB,ATL,21,27,6,Georgia Dome,Home,dome,fieldturf,2010110706
+118,2010_09_MIA_BAL,2010,REG,9,2010-11-07,Sunday,13:00,MIA,BAL,10,26,16,M&T Bank Stadium,Home,outdoors,fieldturf,2010110701
+119,2010_09_CHI_BUF,2010,REG,9,2010-11-07,Sunday,13:00,CHI,BUF,22,19,-3,Rogers Centre,Home,dome,astroplay,2010110704
+120,2010_09_NO_CAR,2010,REG,9,2010-11-07,Sunday,13:00,NO,CAR,34,3,-31,Bank of America Stadium,Home,outdoors,grass,2010110707
+121,2010_09_NE_CLE,2010,REG,9,2010-11-07,Sunday,13:00,NE,CLE,14,34,20,Cleveland Browns Stadium,Home,outdoors,grass,2010110702
+122,2010_09_NYJ_DET,2010,REG,9,2010-11-07,Sunday,13:00,NYJ,DET,23,20,-3,Ford Field,Home,dome,fieldturf,2010110700
+123,2010_09_SD_HOU,2010,REG,9,2010-11-07,Sunday,13:00,SD,HOU,29,23,-6,Reliant Stadium,Home,open,grass,2010110703
+124,2010_09_ARI_MIN,2010,REG,9,2010-11-07,Sunday,13:00,ARI,MIN,24,27,3,Mall of America Field,Home,dome,sportturf,2010110705
+125,2010_09_NYG_SEA,2010,REG,9,2010-11-07,Sunday,16:05,NYG,SEA,41,7,-34,Qwest Field,Home,outdoors,fieldturf,2010110708
+126,2010_09_KC_OAK,2010,REG,9,2010-11-07,Sunday,16:15,KC,OAK,20,23,3,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010110710
+127,2010_09_IND_PHI,2010,REG,9,2010-11-07,Sunday,16:15,IND,PHI,24,26,2,Lincoln Financial Field,Home,outdoors,grass,2010110709
+128,2010_09_DAL_GB,2010,REG,9,2010-11-07,Sunday,20:20,DAL,GB,7,45,38,Lambeau Field,Home,outdoors,grass,2010110711
+129,2010_09_PIT_CIN,2010,REG,9,2010-11-08,Monday,20:30,PIT,CIN,27,21,-6,Paul Brown Stadium,Home,outdoors,fieldturf,2010110800
+130,2010_10_BAL_ATL,2010,REG,10,2010-11-11,Thursday,20:20,BAL,ATL,21,26,5,Georgia Dome,Home,dome,fieldturf,2010111100
+131,2010_10_DET_BUF,2010,REG,10,2010-11-14,Sunday,13:00,DET,BUF,12,14,2,Ralph Wilson Stadium,Home,outdoors,astroplay,2010111406
+132,2010_10_MIN_CHI,2010,REG,10,2010-11-14,Sunday,13:00,MIN,CHI,13,27,14,Soldier Field,Home,outdoors,grass,2010111404
+133,2010_10_NYJ_CLE,2010,REG,10,2010-11-14,Sunday,13:00,NYJ,CLE,26,20,-6,Cleveland Browns Stadium,Home,outdoors,grass,2010111401
+134,2010_10_CIN_IND,2010,REG,10,2010-11-14,Sunday,13:00,CIN,IND,17,23,6,Lucas Oil Stadium,Home,closed,fieldturf,2010111402
+135,2010_10_HOU_JAX,2010,REG,10,2010-11-14,Sunday,13:00,HOU,JAX,24,31,7,EverBank Field,Home,outdoors,grass,2010111403
+136,2010_10_TEN_MIA,2010,REG,10,2010-11-14,Sunday,13:00,TEN,MIA,17,29,12,Sun Life Stadium,Home,outdoors,grass,2010111400
+137,2010_10_CAR_TB,2010,REG,10,2010-11-14,Sunday,13:00,CAR,TB,16,31,15,Raymond James Stadium,Home,outdoors,grass,2010111405
+138,2010_10_KC_DEN,2010,REG,10,2010-11-14,Sunday,16:05,KC,DEN,29,49,20,Invesco Field at Mile High,Home,outdoors,grass,2010111407
+139,2010_10_SEA_ARI,2010,REG,10,2010-11-14,Sunday,16:15,SEA,ARI,36,18,-18,University of Phoenix Stadium,Home,closed,grass,2010111409
+140,2010_10_DAL_NYG,2010,REG,10,2010-11-14,Sunday,16:15,DAL,NYG,33,20,-13,New Meadowlands Stadium,Home,outdoors,fieldturf,2010111408
+141,2010_10_STL_SF,2010,REG,10,2010-11-14,Sunday,16:15,STL,SF,20,23,3,Candlestick Park,Home,outdoors,grass,2010111410
+142,2010_10_NE_PIT,2010,REG,10,2010-11-14,Sunday,20:20,NE,PIT,39,26,-13,Heinz Field,Home,outdoors,grass,2010111411
+143,2010_10_PHI_WAS,2010,REG,10,2010-11-15,Monday,20:30,PHI,WAS,59,28,-31,FedExField,Home,outdoors,grass,2010111500
+144,2010_11_CHI_MIA,2010,REG,11,2010-11-18,Thursday,20:20,CHI,MIA,16,0,-16,Sun Life Stadium,Home,outdoors,grass,2010111800
+145,2010_11_BAL_CAR,2010,REG,11,2010-11-21,Sunday,13:00,BAL,CAR,37,13,-24,Bank of America Stadium,Home,outdoors,grass,2010112100
+146,2010_11_BUF_CIN,2010,REG,11,2010-11-21,Sunday,13:00,BUF,CIN,49,31,-18,Paul Brown Stadium,Home,outdoors,fieldturf,2010112102
+147,2010_11_DET_DAL,2010,REG,11,2010-11-21,Sunday,13:00,DET,DAL,19,35,16,Cowboys Stadium,Home,closed,matrixturf,2010112105
+148,2010_11_CLE_JAX,2010,REG,11,2010-11-21,Sunday,13:00,CLE,JAX,20,24,4,EverBank Field,Home,outdoors,grass,2010112104
+149,2010_11_ARI_KC,2010,REG,11,2010-11-21,Sunday,13:00,ARI,KC,13,31,18,Arrowhead Stadium,Home,outdoors,grass,2010112109
+150,2010_11_GB_MIN,2010,REG,11,2010-11-21,Sunday,13:00,GB,MIN,31,3,-28,Mall of America Field,Home,dome,sportturf,2010112106
+151,2010_11_HOU_NYJ,2010,REG,11,2010-11-21,Sunday,13:00,HOU,NYJ,27,30,3,New Meadowlands Stadium,Home,outdoors,fieldturf,2010112101
+152,2010_11_OAK_PIT,2010,REG,11,2010-11-21,Sunday,13:00,OAK,PIT,3,35,32,Heinz Field,Home,outdoors,grass,2010112103
+153,2010_11_WAS_TEN,2010,REG,11,2010-11-21,Sunday,13:00,WAS,TEN,19,16,-3,LP Field,Home,outdoors,grass,2010112108
+154,2010_11_SEA_NO,2010,REG,11,2010-11-21,Sunday,16:05,SEA,NO,19,34,15,Louisiana Superdome,Home,dome,sportturf,2010112107
+155,2010_11_TB_SF,2010,REG,11,2010-11-21,Sunday,16:05,TB,SF,21,0,-21,Candlestick Park,Home,outdoors,grass,2010112111
+156,2010_11_ATL_STL,2010,REG,11,2010-11-21,Sunday,16:05,ATL,STL,34,17,-17,Edward Jones Dome,Home,dome,astroplay,2010112110
+157,2010_11_IND_NE,2010,REG,11,2010-11-21,Sunday,16:15,IND,NE,28,31,3,Gillette Stadium,Home,outdoors,fieldturf,2010112112
+158,2010_11_NYG_PHI,2010,REG,11,2010-11-21,Sunday,20:20,NYG,PHI,17,27,10,Lincoln Financial Field,Home,outdoors,grass,2010112113
+159,2010_11_DEN_SD,2010,REG,11,2010-11-22,Monday,20:30,DEN,SD,14,35,21,Qualcomm Stadium,Home,outdoors,grass,2010112200
+160,2010_12_NE_DET,2010,REG,12,2010-11-25,Thursday,12:30,NE,DET,45,24,-21,Ford Field,Home,dome,fieldturf,2010112500
+161,2010_12_NO_DAL,2010,REG,12,2010-11-25,Thursday,16:15,NO,DAL,30,27,-3,Cowboys Stadium,Home,closed,matrixturf,2010112501
+162,2010_12_CIN_NYJ,2010,REG,12,2010-11-25,Thursday,20:20,CIN,NYJ,10,26,16,New Meadowlands Stadium,Home,outdoors,fieldturf,2010112502
+163,2010_12_GB_ATL,2010,REG,12,2010-11-28,Sunday,13:00,GB,ATL,17,20,3,Georgia Dome,Home,dome,fieldturf,2010112805
+164,2010_12_PIT_BUF,2010,REG,12,2010-11-28,Sunday,13:00,PIT,BUF,19,16,-3,Ralph Wilson Stadium,Home,outdoors,astroplay,2010112801
+165,2010_12_CAR_CLE,2010,REG,12,2010-11-28,Sunday,13:00,CAR,CLE,23,24,1,Cleveland Browns Stadium,Home,outdoors,grass,2010112807
+166,2010_12_TEN_HOU,2010,REG,12,2010-11-28,Sunday,13:00,TEN,HOU,0,20,20,Reliant Stadium,Home,open,grass,2010112802
+167,2010_12_JAX_NYG,2010,REG,12,2010-11-28,Sunday,13:00,JAX,NYG,20,24,4,New Meadowlands Stadium,Home,outdoors,fieldturf,2010112800
+168,2010_12_MIN_WAS,2010,REG,12,2010-11-28,Sunday,13:00,MIN,WAS,17,13,-4,FedExField,Home,outdoors,grass,2010112803
+169,2010_12_MIA_OAK,2010,REG,12,2010-11-28,Sunday,16:05,MIA,OAK,33,17,-16,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010112809
+170,2010_12_KC_SEA,2010,REG,12,2010-11-28,Sunday,16:05,KC,SEA,42,24,-18,Qwest Field,Home,outdoors,fieldturf,2010112808
+171,2010_12_TB_BAL,2010,REG,12,2010-11-28,Sunday,16:15,TB,BAL,10,17,7,M&T Bank Stadium,Home,outdoors,fieldturf,2010112806
+172,2010_12_PHI_CHI,2010,REG,12,2010-11-28,Sunday,16:15,PHI,CHI,26,31,5,Soldier Field,Home,outdoors,grass,2010112804
+173,2010_12_STL_DEN,2010,REG,12,2010-11-28,Sunday,16:15,STL,DEN,36,33,-3,Invesco Field at Mile High,Home,outdoors,grass,2010112810
+174,2010_12_SD_IND,2010,REG,12,2010-11-28,Sunday,20:20,SD,IND,36,14,-22,Lucas Oil Stadium,Home,closed,fieldturf,2010112811
+175,2010_12_SF_ARI,2010,REG,12,2010-11-29,Monday,20:30,SF,ARI,27,6,-21,University of Phoenix Stadium,Home,closed,grass,2010112900
+176,2010_13_HOU_PHI,2010,REG,13,2010-12-02,Thursday,20:20,HOU,PHI,24,34,10,Lincoln Financial Field,Home,outdoors,grass,2010120200
+177,2010_13_NO_CIN,2010,REG,13,2010-12-05,Sunday,13:00,NO,CIN,34,30,-4,Paul Brown Stadium,Home,outdoors,fieldturf,2010120508
+178,2010_13_CHI_DET,2010,REG,13,2010-12-05,Sunday,13:00,CHI,DET,24,20,-4,Ford Field,Home,dome,fieldturf,2010120505
+179,2010_13_SF_GB,2010,REG,13,2010-12-05,Sunday,13:00,SF,GB,16,34,18,Lambeau Field,Home,outdoors,grass,2010120506
+180,2010_13_DEN_KC,2010,REG,13,2010-12-05,Sunday,13:00,DEN,KC,6,10,4,Arrowhead Stadium,Home,outdoors,grass,2010120503
+181,2010_13_CLE_MIA,2010,REG,13,2010-12-05,Sunday,13:00,CLE,MIA,13,10,-3,Sun Life Stadium,Home,outdoors,grass,2010120501
+182,2010_13_BUF_MIN,2010,REG,13,2010-12-05,Sunday,13:00,BUF,MIN,14,38,24,Mall of America Field,Home,dome,sportturf,2010120500
+183,2010_13_WAS_NYG,2010,REG,13,2010-12-05,Sunday,13:00,WAS,NYG,7,31,24,New Meadowlands Stadium,Home,outdoors,fieldturf,2010120504
+184,2010_13_JAX_TEN,2010,REG,13,2010-12-05,Sunday,13:00,JAX,TEN,17,6,-11,LP Field,Home,outdoors,grass,2010120502
+185,2010_13_OAK_SD,2010,REG,13,2010-12-05,Sunday,16:05,OAK,SD,28,13,-15,Qualcomm Stadium,Home,outdoors,grass,2010120509
+186,2010_13_STL_ARI,2010,REG,13,2010-12-05,Sunday,16:15,STL,ARI,19,6,-13,University of Phoenix Stadium,Home,closed,grass,2010120511
+187,2010_13_DAL_IND,2010,REG,13,2010-12-05,Sunday,16:15,DAL,IND,38,35,-3,Lucas Oil Stadium,Home,closed,fieldturf,2010120510
+188,2010_13_CAR_SEA,2010,REG,13,2010-12-05,Sunday,16:15,CAR,SEA,14,31,17,Qwest Field,Home,outdoors,fieldturf,2010120512
+189,2010_13_ATL_TB,2010,REG,13,2010-12-05,Sunday,16:15,ATL,TB,28,24,-4,Raymond James Stadium,Home,outdoors,grass,2010120507
+190,2010_13_PIT_BAL,2010,REG,13,2010-12-05,Sunday,20:20,PIT,BAL,13,10,-3,M&T Bank Stadium,Home,outdoors,fieldturf,2010120513
+191,2010_13_NYJ_NE,2010,REG,13,2010-12-06,Monday,20:30,NYJ,NE,3,45,42,Gillette Stadium,Home,outdoors,fieldturf,2010120600
+192,2010_14_IND_TEN,2010,REG,14,2010-12-09,Thursday,20:20,IND,TEN,30,28,-2,LP Field,Home,outdoors,grass,2010120900
+193,2010_14_CLE_BUF,2010,REG,14,2010-12-12,Sunday,13:00,CLE,BUF,6,13,7,Ralph Wilson Stadium,Home,outdoors,astroplay,2010121201
+194,2010_14_ATL_CAR,2010,REG,14,2010-12-12,Sunday,13:00,ATL,CAR,31,10,-21,Bank of America Stadium,Home,outdoors,grass,2010121207
+195,2010_14_GB_DET,2010,REG,14,2010-12-12,Sunday,13:00,GB,DET,3,7,4,Ford Field,Home,dome,fieldturf,2010121205
+196,2010_14_OAK_JAX,2010,REG,14,2010-12-12,Sunday,13:00,OAK,JAX,31,38,7,EverBank Field,Home,outdoors,grass,2010121203
+197,2010_14_CIN_PIT,2010,REG,14,2010-12-12,Sunday,13:00,CIN,PIT,7,23,16,Heinz Field,Home,outdoors,grass,2010121202
+198,2010_14_TB_WAS,2010,REG,14,2010-12-12,Sunday,13:00,TB,WAS,17,16,-1,FedExField,Home,outdoors,grass,2010121204
+199,2010_14_STL_NO,2010,REG,14,2010-12-12,Sunday,16:05,STL,NO,13,31,18,Louisiana Superdome,Home,dome,sportturf,2010121208
+200,2010_14_SEA_SF,2010,REG,14,2010-12-12,Sunday,16:05,SEA,SF,21,40,19,Candlestick Park,Home,outdoors,grass,2010121209
+201,2010_14_DEN_ARI,2010,REG,14,2010-12-12,Sunday,16:15,DEN,ARI,13,43,30,University of Phoenix Stadium,Home,closed,grass,2010121211
+202,2010_14_NE_CHI,2010,REG,14,2010-12-12,Sunday,16:15,NE,CHI,36,7,-29,Soldier Field,Home,outdoors,grass,2010121200
+203,2010_14_MIA_NYJ,2010,REG,14,2010-12-12,Sunday,16:15,MIA,NYJ,10,6,-4,New Meadowlands Stadium,Home,outdoors,fieldturf,2010121210
+204,2010_14_KC_SD,2010,REG,14,2010-12-12,Sunday,16:15,KC,SD,0,31,31,Qualcomm Stadium,Home,outdoors,grass,2010121212
+205,2010_14_PHI_DAL,2010,REG,14,2010-12-12,Sunday,20:20,PHI,DAL,30,27,-3,Cowboys Stadium,Home,closed,matrixturf,2010121213
+206,2010_14_NYG_MIN,2010,REG,14,2010-12-13,Monday,19:20,NYG,MIN,21,3,-18,Ford Field,Neutral,dome,fieldturf,2010121301
+207,2010_14_BAL_HOU,2010,REG,14,2010-12-13,Monday,20:30,BAL,HOU,34,28,-6,Reliant Stadium,Home,closed,grass,2010121300
+208,2010_15_SF_SD,2010,REG,15,2010-12-16,Thursday,20:20,SF,SD,7,34,27,Qualcomm Stadium,Home,outdoors,grass,2010121600
+209,2010_15_NO_BAL,2010,REG,15,2010-12-19,Sunday,13:00,NO,BAL,24,30,6,M&T Bank Stadium,Home,outdoors,fieldturf,2010121909
+210,2010_15_ARI_CAR,2010,REG,15,2010-12-19,Sunday,13:00,ARI,CAR,12,19,7,Bank of America Stadium,Home,outdoors,grass,2010121907
+211,2010_15_CLE_CIN,2010,REG,15,2010-12-19,Sunday,13:00,CLE,CIN,17,19,2,Paul Brown Stadium,Home,outdoors,fieldturf,2010121902
+212,2010_15_WAS_DAL,2010,REG,15,2010-12-19,Sunday,13:00,WAS,DAL,30,33,3,Cowboys Stadium,Home,open,matrixturf,2010121905
+213,2010_15_JAX_IND,2010,REG,15,2010-12-19,Sunday,13:00,JAX,IND,24,34,10,Lucas Oil Stadium,Home,closed,fieldturf,2010121903
+214,2010_15_BUF_MIA,2010,REG,15,2010-12-19,Sunday,13:00,BUF,MIA,17,14,-3,Sun Life Stadium,Home,outdoors,grass,2010121901
+215,2010_15_PHI_NYG,2010,REG,15,2010-12-19,Sunday,13:00,PHI,NYG,38,31,-7,New Meadowlands Stadium,Home,outdoors,fieldturf,2010121906
+216,2010_15_KC_STL,2010,REG,15,2010-12-19,Sunday,13:00,KC,STL,27,13,-14,Edward Jones Dome,Home,dome,astroplay,2010121900
+217,2010_15_DET_TB,2010,REG,15,2010-12-19,Sunday,13:00,DET,TB,23,20,-3,Raymond James Stadium,Home,outdoors,grass,2010121908
+218,2010_15_HOU_TEN,2010,REG,15,2010-12-19,Sunday,13:00,HOU,TEN,17,31,14,LP Field,Home,outdoors,grass,2010121904
+219,2010_15_ATL_SEA,2010,REG,15,2010-12-19,Sunday,16:05,ATL,SEA,34,18,-16,Qwest Field,Home,outdoors,fieldturf,2010121910
+220,2010_15_DEN_OAK,2010,REG,15,2010-12-19,Sunday,16:15,DEN,OAK,23,39,16,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010121912
+221,2010_15_NYJ_PIT,2010,REG,15,2010-12-19,Sunday,16:15,NYJ,PIT,22,17,-5,Heinz Field,Home,outdoors,grass,2010121911
+222,2010_15_GB_NE,2010,REG,15,2010-12-19,Sunday,20:20,GB,NE,27,31,4,Gillette Stadium,Home,outdoors,fieldturf,2010121913
+223,2010_15_CHI_MIN,2010,REG,15,2010-12-20,Monday,20:30,CHI,MIN,40,14,-26,TCF Bank Stadium,Home,outdoors,fieldturf,2010122000
+224,2010_16_CAR_PIT,2010,REG,16,2010-12-23,Thursday,20:20,CAR,PIT,3,27,24,Heinz Field,Home,outdoors,grass,2010122300
+225,2010_16_DAL_ARI,2010,REG,16,2010-12-25,Saturday,19:30,DAL,ARI,26,27,1,University of Phoenix Stadium,Home,closed,grass,2010122500
+226,2010_16_NE_BUF,2010,REG,16,2010-12-26,Sunday,13:00,NE,BUF,34,3,-31,Ralph Wilson Stadium,Home,outdoors,astroplay,2010122601
+227,2010_16_NYJ_CHI,2010,REG,16,2010-12-26,Sunday,13:00,NYJ,CHI,34,38,4,Soldier Field,Home,outdoors,grass,2010122600
+228,2010_16_BAL_CLE,2010,REG,16,2010-12-26,Sunday,13:00,BAL,CLE,20,10,-10,Cleveland Browns Stadium,Home,outdoors,grass,2010122602
+229,2010_16_WAS_JAX,2010,REG,16,2010-12-26,Sunday,13:00,WAS,JAX,20,17,-3,EverBank Field,Home,outdoors,grass,2010122608
+230,2010_16_TEN_KC,2010,REG,16,2010-12-26,Sunday,13:00,TEN,KC,14,34,20,Arrowhead Stadium,Home,outdoors,grass,2010122603
+231,2010_16_DET_MIA,2010,REG,16,2010-12-26,Sunday,13:00,DET,MIA,34,27,-7,Sun Life Stadium,Home,outdoors,grass,2010122607
+232,2010_16_SF_STL,2010,REG,16,2010-12-26,Sunday,13:00,SF,STL,17,25,8,Edward Jones Dome,Home,dome,astroplay,2010122606
+233,2010_16_SD_CIN,2010,REG,16,2010-12-26,Sunday,16:05,SD,CIN,20,34,14,Paul Brown Stadium,Home,outdoors,fieldturf,2010122612
+234,2010_16_HOU_DEN,2010,REG,16,2010-12-26,Sunday,16:05,HOU,DEN,23,24,1,Invesco Field at Mile High,Home,outdoors,grass,2010122609
+235,2010_16_IND_OAK,2010,REG,16,2010-12-26,Sunday,16:05,IND,OAK,31,26,-5,Oakland-Alameda County Coliseum,Home,outdoors,grass,2010122610
+236,2010_16_NYG_GB,2010,REG,16,2010-12-26,Sunday,16:15,NYG,GB,17,45,28,Lambeau Field,Home,outdoors,grass,2010122611
+237,2010_16_SEA_TB,2010,REG,16,2010-12-26,Sunday,16:15,SEA,TB,15,38,23,Raymond James Stadium,Home,outdoors,grass,2010122605
+238,2010_16_NO_ATL,2010,REG,16,2010-12-27,Monday,20:30,NO,ATL,17,14,-3,Georgia Dome,Home,dome,fieldturf,2010122700
+239,2010_16_MIN_PHI,2010,REG,16,2010-12-28,Tuesday,20:00,MIN,PHI,24,14,-10,Lincoln Financial Field,Home,outdoors,grass,2010122800
+240,2010_17_CAR_ATL,2010,REG,17,2011-01-02,Sunday,13:00,CAR,ATL,10,31,21,Georgia Dome,Home,dome,fieldturf,2011010211
+241,2010_17_CIN_BAL,2010,REG,17,2011-01-02,Sunday,13:00,CIN,BAL,7,13,6,M&T Bank Stadium,Home,outdoors,fieldturf,2011010202
+242,2010_17_PIT_CLE,2010,REG,17,2011-01-02,Sunday,13:00,PIT,CLE,41,9,-32,Cleveland Browns Stadium,Home,outdoors,grass,2011010203
+243,2010_17_MIN_DET,2010,REG,17,2011-01-02,Sunday,13:00,MIN,DET,13,20,7,Ford Field,Home,dome,fieldturf,2011010209
+244,2010_17_OAK_KC,2010,REG,17,2011-01-02,Sunday,13:00,OAK,KC,31,10,-21,Arrowhead Stadium,Home,outdoors,grass,2011010206
+245,2010_17_MIA_NE,2010,REG,17,2011-01-02,Sunday,13:00,MIA,NE,7,38,31,Gillette Stadium,Home,outdoors,fieldturf,2011010200
+246,2010_17_TB_NO,2010,REG,17,2011-01-02,Sunday,13:00,TB,NO,23,13,-10,Louisiana Superdome,Home,dome,sportturf,2011010212
+247,2010_17_BUF_NYJ,2010,REG,17,2011-01-02,Sunday,13:00,BUF,NYJ,7,38,31,New Meadowlands Stadium,Home,outdoors,fieldturf,2011010201
+248,2010_17_SD_DEN,2010,REG,17,2011-01-02,Sunday,16:15,SD,DEN,33,28,-5,Invesco Field at Mile High,Home,outdoors,grass,2011010213
+249,2010_17_CHI_GB,2010,REG,17,2011-01-02,Sunday,16:15,CHI,GB,3,10,7,Lambeau Field,Home,outdoors,grass,2011010210
+250,2010_17_JAX_HOU,2010,REG,17,2011-01-02,Sunday,16:15,JAX,HOU,17,34,17,Reliant Stadium,Home,open,grass,2011010204
+251,2010_17_TEN_IND,2010,REG,17,2011-01-02,Sunday,16:15,TEN,IND,20,23,3,Lucas Oil Stadium,Home,closed,fieldturf,2011010205
+252,2010_17_DAL_PHI,2010,REG,17,2011-01-02,Sunday,16:15,DAL,PHI,14,13,-1,Lincoln Financial Field,Home,outdoors,grass,2011010207
+253,2010_17_ARI_SF,2010,REG,17,2011-01-02,Sunday,16:15,ARI,SF,7,38,31,Candlestick Park,Home,outdoors,grass,2011010214
+254,2010_17_NYG_WAS,2010,REG,17,2011-01-02,Sunday,16:15,NYG,WAS,17,14,-3,FedExField,Home,outdoors,grass,2011010208
+255,2010_17_STL_SEA,2010,REG,17,2011-01-02,Sunday,20:20,STL,SEA,6,16,10,Qwest Field,Home,outdoors,fieldturf,2011010215
+256,2010_18_NO_SEA,2010,WC,18,2011-01-08,Saturday,16:30,NO,SEA,36,41,5,Qwest Field,Home,outdoors,fieldturf,2011010801
+257,2010_18_NYJ_IND,2010,WC,18,2011-01-08,Saturday,20:00,NYJ,IND,17,16,-1,Lucas Oil Stadium,Home,closed,fieldturf,2011010800
+258,2010_18_BAL_KC,2010,WC,18,2011-01-09,Sunday,13:00,BAL,KC,30,7,-23,Arrowhead Stadium,Home,outdoors,grass,2011010900
+259,2010_18_GB_PHI,2010,WC,18,2011-01-09,Sunday,16:30,GB,PHI,21,16,-5,Lincoln Financial Field,Home,outdoors,grass,2011010901
+260,2010_19_BAL_PIT,2010,DIV,19,2011-01-15,Saturday,16:30,BAL,PIT,24,31,7,Heinz Field,Home,outdoors,grass,2011011500
+261,2010_19_GB_ATL,2010,DIV,19,2011-01-15,Saturday,20:00,GB,ATL,48,21,-27,Georgia Dome,Home,dome,fieldturf,2011011501
+262,2010_19_SEA_CHI,2010,DIV,19,2011-01-16,Sunday,13:00,SEA,CHI,24,35,11,Soldier Field,Home,outdoors,grass,2011011601
+263,2010_19_NYJ_NE,2010,DIV,19,2011-01-16,Sunday,16:30,NYJ,NE,28,21,-7,Gillette Stadium,Home,outdoors,fieldturf,2011011600
+264,2010_20_GB_CHI,2010,CON,20,2011-01-23,Sunday,15:00,GB,CHI,21,14,-7,Soldier Field,Home,outdoors,grass,2011012301
+265,2010_20_NYJ_PIT,2010,CON,20,2011-01-23,Sunday,18:30,NYJ,PIT,19,24,5,Heinz Field,Home,outdoors,grass,2011012300
+266,2010_21_PIT_GB,2010,SB,21,2011-02-06,Sunday,18:30,PIT,GB,25,31,6,Cowboys Stadium,Neutral,closed,grass,2011020600

@@ -7,47 +7,83 @@ import datetime
 
 def import_pbp_data(years, columns=None):
 
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
     if columns is None:
         columns = []
+        
     plays = pandas.DataFrame()
 
     url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
     url2 = r'.parquet'
 
     for year in years:
-        if len(columns) != 0:
-            data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
-        else:
-            data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
-        raw = pandas.DataFrame(data)
-        raw['season'] = year
-        if len(plays) == 0:
-            plays = raw
-        else:
-            plays = plays.append(raw)
-        print(str(year) + ' done.')
+        
+        try:
+            if len(columns) != 0:
+                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
+            else:
+                data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
+            
+            raw = pandas.DataFrame(data)
+            raw['season'] = year
 
+            if len(plays) == 0:
+                plays = raw
+            else:
+                plays = plays.append(raw)
+            
+            print(str(year) + ' done.')
+            
+        except:
+            print('Data not available for ' + str(year))
+            
     return plays
 
 
 def import_weekly_data(years, columns=None):
 
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
     if columns is None:
         columns = []
+        
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
-
         data = data[columns]
 
     return data
 
 
-def import_seasonal_data(years):
-
+def import_seasonal_data(years, s_type='REG'):
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+        
+    if s_type not in ('REG','ALL','POST'):
+        raise ValueError('Only REG, ALL, POST allowed for s_type.')
+    
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
-
+    
+    if s_type == 'ALL':
+        data = data[data['season'].isin(years)]
+        
+    else:
+        data = data[(data['season'].isin(years)) & (data['season_type'] == s_type)]
+    
     pgstats = data[['recent_team', 'season', 'week', 'attempts', 'completions', 'passing_yards', 'passing_tds',
                       'passing_air_yards', 'passing_yards_after_catch', 'passing_first_downs',
                       'fantasy_points_ppr']].groupby(
@@ -76,7 +112,7 @@ def import_seasonal_data(years):
     season_stats['yptmpa'] = season_stats['receiving_yards'] / season_stats['atts']
     season_stats['ppr_sh'] = season_stats['fantasy_points_ppr'] / season_stats['ppr_pts']
 
-    data = data[(data['season'].isin(years)) & (data['season_type'] == 'REG')].drop(['recent_team', 'week'], axis=1)
+    data.drop(['recent_team', 'week'], axis=1, inplace=True)
     szn = data.groupby(['player_id', 'player_name', 'season', 'season_type']).sum().reset_index().merge(
         data[['player_id', 'season', 'season_type']].groupby(['player_id', 'season']).count().reset_index().rename(
             columns={'season_type': 'games'}), how='left', on=['player_id', 'season'])
@@ -106,35 +142,148 @@ def see_weekly_cols():
 
 def import_rosters(years, columns=None):
 
+    if not isinstance(years, (list, range)):
+        raise ValueError('years input must be list or range.')
+
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+
     if columns is None:
         columns = []
+
     rosters = []
 
     for y in years:
         temp = pandas.read_csv(r'https://github.com/mrcaseb/nflfastR-roster/blob/master/data/seasons/roster_' + str(y)
                                + '.csv?raw=True', low_memory=False)
-
-        if len(columns) > 0:
-
-            temp = temp[columns]
-
         rosters.append(temp)
 
     rosters = pandas.DataFrame(pandas.concat(rosters)).rename(
         columns={'full_name': 'player_name', 'gsis_id': 'player_id'})
     rosters.drop_duplicates(subset=['season', 'player_name', 'position', 'player_id'], keep='first', inplace=True)
 
+    if len(columns) > 0:
+        rosters = rosters[columns]
+
     def calc_age(x):
         ca = pandas.to_datetime(x[0])
         bd = pandas.to_datetime(x[1])
         return ca.year - bd.year + numpy.where(ca.month > bd.month, 0, -1)
 
-    rosters['current_age'] = rosters['season'].apply(lambda x: datetime.datetime(int(x), 9, 1))
-    rosters['age'] = rosters[['current_age', 'birth_date']].apply(calc_age, axis=1)
-    rosters.drop(['current_age'], axis=1, inplace=True)
-    rosters.dropna(subset=['player_id'], inplace=True)
+    if 'birth_date' in columns and 'current_age' in columns:
+    
+        rosters['current_age'] = rosters['season'].apply(lambda x: datetime.datetime(int(x), 9, 1))
+        rosters['age'] = rosters[['current_age', 'birth_date']].apply(calc_age, axis=1)
+        rosters.drop(['current_age'], axis=1, inplace=True)
+        rosters.dropna(subset=['player_id'], inplace=True)
 
     return rosters
+
+
+def import_team_desc():
+    
+    df = pandas.read_csv(r'https://github.com/nflverse/nflfastR-data/raw/master/teams_colors_logos.csv')
+    
+    return df
+
+
+def import_schedules(years):
+
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
+    scheds = pd.DataFrame()
+            
+    for x in years:
+        
+        try:
+            temp = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/schedules//' + str(x) + '.csv').drop('Unnamed: 0', axis=1)
+            scheds = scheds.append(temp)
+    
+        except:
+            print('Data not available for ' + str(x))
+        
+    return scheds
+    
+
+def import_win_totals(years):
+
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+    
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/win_totals.csv')
+    
+    df = df[df['season'].isin(years)]
+    
+    return df
+    
+
+def import_officials(years=None):
+
+    if years is None:
+        years = []
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/officials.csv')
+    df['season'] = df['game_id'].str[0:4].astype(int)
+    
+    if len(years) > 0:
+        df = df[df['season'].isin(years)]
+    
+    return df
+    
+    
+def import_sc_lines(years=None):
+
+    if years is None:
+        years = []
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/sc_lines.csv')
+    
+    if len(years) > 0:
+        df = df[df['season'].isin(years)]
+    
+    return df
+    
+    
+def import_draft_picks(years=None):
+
+    if years is None:
+        years = []
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_picks.csv')
+    
+    if len(years) > 0:
+        df = df[df['season'].isin(years)]  
+    
+    return df
+    
+
+def import_draft_values(picks=None):
+
+    if picks is None:
+        picks = []
+    
+    if not isinstance(picks, (list, range)):
+        raise ValueError('picks variable must be list or range.')
+
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_values.csv')
+
+    if len(picks) > 0:
+        df = df[df['pick'].between(picks[0], picks[-1])]
+
+    return df        
 
 
 def clean_nfl_data(df):
@@ -209,66 +358,6 @@ def clean_nfl_data(df):
         'TAM': 'TB'
     }
 
-    player_pro_tm_repl = [
-        ['Lynn Bowden', 'pro_team', {'LV': 'MIA'}],
-        ['Devin Aromashodu', 'pro_team', {'MIA': 'IND'}],
-        ['Brandon Williams', 'pro_team', {'SF': 'CIN'}],
-        ['Paul Hubbard', 'pro_team', {'CLE': 'BUF'}],
-        ['Kenny Moore', 'pro_team', {'DET': 'CAR'}],
-        ['Trindon Holliday', 'pro_team', {'HOU': 'DEN'}],
-        ['Braxton Berrios', 'pro_team', {'NE': 'NYJ'}],
-        ['Hakeem Butler', 'pro_team', {'ARI': 'PHI'}],
-        ['Terry Godwin', 'pro_team', {'CAR': 'JAX'}],
-        ['Dezmon Briscoe', 'pro_team', {'CIN': 'TB'}],
-        ['Robert Davis', 'pro_team', {'WAS': 'PHI'}],
-        ['Vince Mayle', 'pro_team', {'CLE': 'BAL'}],
-        ['Toney Clemons', 'pro_team', {'PIT': 'JAX'}],
-        ['Jeremy Ebert', 'pro_team', {'NE': 'JAX'}],
-        ['Todd Watkins', 'pro_team', {'ARI': 'OAK'}],
-        ['David Clowney', 'pro_team', {'GB': 'NYJ'}],
-        ['Marcus Maxwell', 'pro_team', {'SF': 'CIN'}],
-        ['Cobi Hamilton', 'pro_team', {'CIN': 'PIT'}],
-        ['Kaelin Clay', 'pro_team', {'TB': 'CAR'}],
-        ['Tavarres King', 'pro_team', {'DEN': 'TB'}],
-        ['Jalen Saunders', 'pro_team', {'NYJ': 'NO'}],
-        ['Brandon Gibson', 'pro_team', {'PHI': 'STL'}],
-        ['Patrick Turner', 'pro_team', {'MIA': 'NYJ'}],
-        ['Deon Cain', 'pro_team', {'IND': 'PIT'}],
-        ['Jordan Kent', 'pro_team', {'SEA': 'STL'}],
-        ['Braxton Berrios', 'pro_team', {'NE': 'NYJ'}]
-    ]
-
-    player_col_tm_repl = [
-        ['Van Jefferson', 'col_team', {'Florida': 'Mississippi'}],
-        ['Dorial Green-Beckham', 'col_team', {'Oklahoma': 'Missouri'}]
-    ]
-
-    player_fr_yr_repl = [
-        ['Mike Williams', 'Syracuse', 'yr', {2007: 2006}],
-        ['Larry Fitzgerald', 'Pittsburgh', 'yr', {2002: 2001}],
-        ['Cordarrelle Patterson', 'Tennessee', 'yr', {2012: 2009}],
-        ['Kaelin Clay', 'Utah', 'yr', {2014: 2010}],
-        ['Maurice Mann', 'Nevada', 'yr', {2002: 2000}],
-        ['Michael Gallup', 'Colorado State', 'yr', {2016: 2014}],
-        ['Mario Alford', 'West Virginia', 'yr', {2013: 2011}],
-        ['Jaelen Strong', 'Arizona State', 'yr', {2013: 2011}],
-        ['Jaleel Scott', 'New Mexico State', 'yr', {2016: 2013}],
-        ['Marcus Maxwell', 'Oregon', 'yr', {2003: 2001}],
-        ['Brandon Aiyuk', 'Arizona State', 'yr', {2018: 2016}],
-        ['Devin Thomas', 'Michigan State', 'yr', {2006: 2004}],
-        ['Rishard Matthews', 'Nevada', 'yr', {2010: 2007}],
-        ['Todd Watkins', 'BYU', 'yr', {2004: 2002}],
-        ['Kevin White', 'West Virginia', 'yr', {2013: 2011}],
-        ['Marquise Brown', 'Oklahoma', 'yr', {2017: 2015}],
-        ['Demetrius Byrd', 'LSU', 'yr', {2007: 2005}],
-        ['Javon Wims', 'Georgia', 'yr', {2016: 2014}],
-        ['Dede Westbrook', 'Oklahoma', 'yr', {2015: 2012}],
-        ['Vince Mayle', 'Washington State', 'yr', {2013: 2010}],
-        ['Quinton Patton', 'Louisiana Tech', 'yr', {2011: 2009}],
-        ['John Hightower', 'Boise State', 'yr', {2018: 2016}],
-        ['David Reed', 'Utah', 'yr', {2008: 2006}]
-    ]
-
     if 'name' in df.columns:
         df.replace({'name': name_repl}, inplace=True)
 
@@ -278,17 +367,5 @@ def clean_nfl_data(df):
         if 'name' in df.columns:
             for z in player_col_tm_repl:
                 df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
-
-    if 'team' in df.columns:
-        df.replace({'team': pro_tm_repl}, inplace=True)
-
-        for z in player_pro_tm_repl:
-            df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
-
-    if 'type' in df.columns:
-
-        for z in player_fr_yr_repl:
-            df[(df['name'] == z[0]) & (df['col_team'] == z[1])] = df[(df['name'] == z[0]) & (
-                    df['col_team'] == z[1])].replace({z[2]: z[3]})
 
     return df

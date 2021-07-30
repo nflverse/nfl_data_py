@@ -1,0 +1,260 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,1999_01_MIN_ATL,1999,REG,1,1999-09-12,Sunday,,MIN,ATL,17,14,-3,Georgia Dome,Home,dome,astroturf,1999091210
+1,1999_01_KC_CHI,1999,REG,1,1999-09-12,Sunday,,KC,CHI,17,20,3,Soldier Field,Home,outdoors,grass,1999091206
+2,1999_01_PIT_CLE,1999,REG,1,1999-09-12,Sunday,,PIT,CLE,43,0,-43,Cleveland Browns Stadium,Home,outdoors,grass,1999091213
+3,1999_01_OAK_GB,1999,REG,1,1999-09-12,Sunday,,OAK,GB,24,28,4,Lambeau Field,Home,outdoors,grass,1999091208
+4,1999_01_BUF_IND,1999,REG,1,1999-09-12,Sunday,,BUF,IND,14,31,17,RCA Dome,Home,dome,astroturf,1999091202
+5,1999_01_SF_JAX,1999,REG,1,1999-09-12,Sunday,,SF,JAX,3,41,38,Alltel Stadium,Home,outdoors,grass,1999091212
+6,1999_01_CAR_NO,1999,REG,1,1999-09-12,Sunday,,CAR,NO,10,19,9,Louisiana Superdome,Home,dome,astroturf,1999091203
+7,1999_01_NE_NYJ,1999,REG,1,1999-09-12,Sunday,,NE,NYJ,30,28,-2,Giants Stadium,Home,outdoors,astroturf,1999091207
+8,1999_01_ARI_PHI,1999,REG,1,1999-09-12,Sunday,,ARI,PHI,25,24,-1,Veterans Stadium,Home,outdoors,astroturf,1999091200
+9,1999_01_DET_SEA,1999,REG,1,1999-09-12,Sunday,,DET,SEA,28,20,-8,Seattle Kingdome,Home,dome,astroturf,1999091209
+10,1999_01_BAL_STL,1999,REG,1,1999-09-12,Sunday,,BAL,STL,10,27,17,TWA Dome,Home,dome,astroturf,1999091201
+11,1999_01_NYG_TB,1999,REG,1,1999-09-12,Sunday,,NYG,TB,17,13,-4,Raymond James Stadium,Home,outdoors,grass,1999091211
+12,1999_01_CIN_TEN,1999,REG,1,1999-09-12,Sunday,,CIN,TEN,35,36,1,Adelphia Coliseum,Home,outdoors,grass,1999091204
+13,1999_01_DAL_WAS,1999,REG,1,1999-09-12,Sunday,,DAL,WAS,41,35,-6,Jack Kent Cooke Stadium,Home,outdoors,grass,1999091205
+14,1999_01_MIA_DEN,1999,REG,1,1999-09-13,Monday,,MIA,DEN,38,21,-17,Mile High Stadium,Home,outdoors,grass,1999091300
+15,1999_02_PIT_BAL,1999,REG,2,1999-09-19,Sunday,,PIT,BAL,23,20,-3,PSINet Stadium,Home,outdoors,grass,1999091905
+16,1999_02_NYJ_BUF,1999,REG,2,1999-09-19,Sunday,,NYJ,BUF,3,17,14,Ralph Wilson Stadium,Home,outdoors,astroturf,1999091913
+17,1999_02_JAX_CAR,1999,REG,2,1999-09-19,Sunday,,JAX,CAR,22,20,-2,Ericsson Stadium,Home,outdoors,grass,1999091903
+18,1999_02_SEA_CHI,1999,REG,2,1999-09-19,Sunday,,SEA,CHI,14,13,-1,Soldier Field,Home,outdoors,grass,1999091907
+19,1999_02_SD_CIN,1999,REG,2,1999-09-19,Sunday,,SD,CIN,34,7,-27,Cinergy Field,Home,outdoors,astroturf,1999091906
+20,1999_02_GB_DET,1999,REG,2,1999-09-19,Sunday,,GB,DET,15,23,8,Pontiac Silverdome,Home,dome,astroturf,1999091901
+21,1999_02_DEN_KC,1999,REG,2,1999-09-19,Sunday,,DEN,KC,10,26,16,Arrowhead Stadium,Home,outdoors,grass,1999091912
+22,1999_02_ARI_MIA,1999,REG,2,1999-09-19,Sunday,,ARI,MIA,16,19,3,Pro Player Stadium,Home,outdoors,grass,1999091900
+23,1999_02_OAK_MIN,1999,REG,2,1999-09-19,Sunday,,OAK,MIN,22,17,-5,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999091904
+24,1999_02_IND_NE,1999,REG,2,1999-09-19,Sunday,,IND,NE,28,31,3,Foxboro Stadium,Home,outdoors,grass,1999091902
+25,1999_02_WAS_NYG,1999,REG,2,1999-09-19,Sunday,,WAS,NYG,50,21,-29,Giants Stadium,Home,outdoors,astroturf,1999091909
+26,1999_02_TB_PHI,1999,REG,2,1999-09-19,Sunday,,TB,PHI,19,5,-14,Veterans Stadium,Home,outdoors,astroturf,1999091908
+27,1999_02_NO_SF,1999,REG,2,1999-09-19,Sunday,,NO,SF,21,28,7,3Com Park,Home,outdoors,grass,1999091910
+28,1999_02_CLE_TEN,1999,REG,2,1999-09-19,Sunday,,CLE,TEN,9,26,17,Adelphia Coliseum,Home,outdoors,grass,1999091911
+29,1999_02_ATL_DAL,1999,REG,2,1999-09-20,Monday,,ATL,DAL,7,24,17,Texas Stadium,Home,outdoors,astroturf,1999092000
+30,1999_03_CLE_BAL,1999,REG,3,1999-09-26,Sunday,,CLE,BAL,10,17,7,PSINet Stadium,Home,outdoors,grass,1999092603
+31,1999_03_PHI_BUF,1999,REG,3,1999-09-26,Sunday,,PHI,BUF,0,26,26,Ralph Wilson Stadium,Home,outdoors,astroturf,1999092606
+32,1999_03_CIN_CAR,1999,REG,3,1999-09-26,Sunday,,CIN,CAR,3,27,24,Ericsson Stadium,Home,outdoors,grass,1999092602
+33,1999_03_MIN_GB,1999,REG,3,1999-09-26,Sunday,,MIN,GB,20,23,3,Lambeau Field,Home,outdoors,grass,1999092611
+34,1999_03_TEN_JAX,1999,REG,3,1999-09-26,Sunday,,TEN,JAX,20,19,-1,Alltel Stadium,Home,outdoors,grass,1999092608
+35,1999_03_DET_KC,1999,REG,3,1999-09-26,Sunday,,DET,KC,21,31,10,Arrowhead Stadium,Home,outdoors,grass,1999092605
+36,1999_03_NYG_NE,1999,REG,3,1999-09-26,Sunday,,NYG,NE,14,16,2,Foxboro Stadium,Home,outdoors,grass,1999092612
+37,1999_03_WAS_NYJ,1999,REG,3,1999-09-26,Sunday,,WAS,NYJ,27,20,-7,Giants Stadium,Home,outdoors,astroturf,1999092601
+38,1999_03_CHI_OAK,1999,REG,3,1999-09-26,Sunday,,CHI,OAK,17,24,7,Network Associates Coliseum,Home,outdoors,grass,1999092610
+39,1999_03_SEA_PIT,1999,REG,3,1999-09-26,Sunday,,SEA,PIT,29,10,-19,Three Rivers Stadium,Home,outdoors,astroturf,1999092607
+40,1999_03_IND_SD,1999,REG,3,1999-09-26,Sunday,,IND,SD,27,19,-8,Qualcomm Stadium,Home,outdoors,grass,1999092609
+41,1999_03_ATL_STL,1999,REG,3,1999-09-26,Sunday,,ATL,STL,7,35,28,TWA Dome,Home,dome,astroturf,1999092600
+42,1999_03_DEN_TB,1999,REG,3,1999-09-26,Sunday,,DEN,TB,10,13,3,Raymond James Stadium,Home,outdoors,grass,1999092604
+43,1999_03_SF_ARI,1999,REG,3,1999-09-27,Monday,,SF,ARI,24,10,-14,Sun Devil Stadium,Home,outdoors,grass,1999092700
+44,1999_04_BAL_ATL,1999,REG,4,1999-10-03,Sunday,,BAL,ATL,19,13,-6,Georgia Dome,Home,dome,astroturf,1999100301
+45,1999_04_NO_CHI,1999,REG,4,1999-10-03,Sunday,,NO,CHI,10,14,4,Soldier Field,Home,outdoors,grass,1999100304
+46,1999_04_STL_CIN,1999,REG,4,1999-10-03,Sunday,,STL,CIN,38,10,-28,Cinergy Field,Home,outdoors,astroturf,1999100306
+47,1999_04_NE_CLE,1999,REG,4,1999-10-03,Sunday,,NE,CLE,19,7,-12,Cleveland Browns Stadium,Home,outdoors,grass,1999100303
+48,1999_04_ARI_DAL,1999,REG,4,1999-10-03,Sunday,,ARI,DAL,7,35,28,Texas Stadium,Home,outdoors,astroturf,1999100300
+49,1999_04_NYJ_DEN,1999,REG,4,1999-10-03,Sunday,,NYJ,DEN,21,13,-8,Mile High Stadium,Home,outdoors,grass,1999100310
+50,1999_04_TB_MIN,1999,REG,4,1999-10-03,Sunday,,TB,MIN,14,21,7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999100307
+51,1999_04_PHI_NYG,1999,REG,4,1999-10-03,Sunday,,PHI,NYG,15,16,1,Giants Stadium,Home,outdoors,astroturf,1999100305
+52,1999_04_JAX_PIT,1999,REG,4,1999-10-03,Sunday,,JAX,PIT,17,3,-14,Three Rivers Stadium,Home,outdoors,astroturf,1999100302
+53,1999_04_KC_SD,1999,REG,4,1999-10-03,Sunday,,KC,SD,14,21,7,Qualcomm Stadium,Home,outdoors,grass,1999100309
+54,1999_04_OAK_SEA,1999,REG,4,1999-10-03,Sunday,,OAK,SEA,21,22,1,Seattle Kingdome,Home,dome,astroturf,1999100312
+55,1999_04_TEN_SF,1999,REG,4,1999-10-03,Sunday,,TEN,SF,22,24,2,3Com Park,Home,outdoors,grass,1999100311
+56,1999_04_CAR_WAS,1999,REG,4,1999-10-03,Sunday,,CAR,WAS,36,38,2,Jack Kent Cooke Stadium,Home,outdoors,grass,1999100308
+57,1999_04_BUF_MIA,1999,REG,4,1999-10-04,Monday,,BUF,MIA,23,18,-5,Pro Player Stadium,Home,outdoors,grass,1999100400
+58,1999_05_NYG_ARI,1999,REG,5,1999-10-10,Sunday,,NYG,ARI,3,14,11,Sun Devil Stadium,Home,outdoors,grass,1999101008
+59,1999_05_PIT_BUF,1999,REG,5,1999-10-10,Sunday,,PIT,BUF,21,24,3,Ralph Wilson Stadium,Home,outdoors,astroturf,1999101005
+60,1999_05_CIN_CLE,1999,REG,5,1999-10-10,Sunday,,CIN,CLE,18,17,-1,Cleveland Browns Stadium,Home,outdoors,grass,1999101002
+61,1999_05_SD_DET,1999,REG,5,1999-10-10,Sunday,,SD,DET,20,10,-10,Pontiac Silverdome,Home,dome,astroturf,1999101006
+62,1999_05_TB_GB,1999,REG,5,1999-10-10,Sunday,,TB,GB,23,26,3,Lambeau Field,Home,outdoors,grass,1999101012
+63,1999_05_MIA_IND,1999,REG,5,1999-10-10,Sunday,,MIA,IND,34,31,-3,RCA Dome,Home,dome,astroturf,1999101011
+64,1999_05_NE_KC,1999,REG,5,1999-10-10,Sunday,,NE,KC,14,16,2,Arrowhead Stadium,Home,outdoors,grass,1999101004
+65,1999_05_CHI_MIN,1999,REG,5,1999-10-10,Sunday,,CHI,MIN,24,22,-2,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999101001
+66,1999_05_ATL_NO,1999,REG,5,1999-10-10,Sunday,,ATL,NO,20,17,-3,Louisiana Superdome,Home,dome,astroturf,1999101000
+67,1999_05_DEN_OAK,1999,REG,5,1999-10-10,Sunday,,DEN,OAK,16,13,-3,Network Associates Coliseum,Home,outdoors,grass,1999101010
+68,1999_05_DAL_PHI,1999,REG,5,1999-10-10,Sunday,,DAL,PHI,10,13,3,Veterans Stadium,Home,outdoors,astroturf,1999101003
+69,1999_05_SF_STL,1999,REG,5,1999-10-10,Sunday,,SF,STL,20,42,22,TWA Dome,Home,dome,astroturf,1999101007
+70,1999_05_BAL_TEN,1999,REG,5,1999-10-10,Sunday,,BAL,TEN,11,14,3,Adelphia Coliseum,Home,outdoors,grass,1999101009
+71,1999_05_JAX_NYJ,1999,REG,5,1999-10-11,Monday,,JAX,NYJ,16,6,-10,Giants Stadium,Home,outdoors,astroturf,1999101100
+72,1999_06_WAS_ARI,1999,REG,6,1999-10-17,Sunday,,WAS,ARI,24,10,-14,Sun Devil Stadium,Home,outdoors,grass,1999101712
+73,1999_06_STL_ATL,1999,REG,6,1999-10-17,Sunday,,STL,ATL,41,13,-28,Georgia Dome,Home,dome,astroturf,1999101707
+74,1999_06_OAK_BUF,1999,REG,6,1999-10-17,Sunday,,OAK,BUF,20,14,-6,Ralph Wilson Stadium,Home,outdoors,astroturf,1999101704
+75,1999_06_PHI_CHI,1999,REG,6,1999-10-17,Sunday,,PHI,CHI,20,16,-4,Soldier Field,Home,outdoors,grass,1999101705
+76,1999_06_PIT_CIN,1999,REG,6,1999-10-17,Sunday,,PIT,CIN,17,3,-14,Cinergy Field,Home,outdoors,astroturf,1999101706
+77,1999_06_GB_DEN,1999,REG,6,1999-10-17,Sunday,,GB,DEN,10,31,21,Mile High Stadium,Home,outdoors,grass,1999101711
+78,1999_06_MIN_DET,1999,REG,6,1999-10-17,Sunday,,MIN,DET,23,25,2,Pontiac Silverdome,Home,dome,astroturf,1999101703
+79,1999_06_CLE_JAX,1999,REG,6,1999-10-17,Sunday,,CLE,JAX,7,24,17,Alltel Stadium,Home,outdoors,grass,1999101700
+80,1999_06_MIA_NE,1999,REG,6,1999-10-17,Sunday,,MIA,NE,31,30,-1,Foxboro Stadium,Home,outdoors,grass,1999101702
+81,1999_06_TEN_NO,1999,REG,6,1999-10-17,Sunday,,TEN,NO,24,21,-3,Louisiana Superdome,Home,dome,astroturf,1999101708
+82,1999_06_IND_NYJ,1999,REG,6,1999-10-17,Sunday,,IND,NYJ,16,13,-3,Giants Stadium,Home,outdoors,astroturf,1999101701
+83,1999_06_SEA_SD,1999,REG,6,1999-10-17,Sunday,,SEA,SD,10,13,3,Qualcomm Stadium,Home,outdoors,grass,1999101709
+84,1999_06_CAR_SF,1999,REG,6,1999-10-17,Sunday,,CAR,SF,31,29,-2,3Com Park,Home,outdoors,grass,1999101710
+85,1999_06_DAL_NYG,1999,REG,6,1999-10-18,Monday,,DAL,NYG,10,13,3,Giants Stadium,Home,outdoors,astroturf,1999101800
+86,1999_07_KC_BAL,1999,REG,7,1999-10-21,Thursday,,KC,BAL,35,8,-27,PSINet Stadium,Home,outdoors,grass,1999102100
+87,1999_07_DET_CAR,1999,REG,7,1999-10-24,Sunday,,DET,CAR,24,9,-15,Ericsson Stadium,Home,outdoors,grass,1999102404
+88,1999_07_WAS_DAL,1999,REG,7,1999-10-24,Sunday,,WAS,DAL,20,38,18,Texas Stadium,Home,outdoors,astroturf,1999102408
+89,1999_07_CIN_IND,1999,REG,7,1999-10-24,Sunday,,CIN,IND,10,31,21,RCA Dome,Home,dome,astroturf,1999102401
+90,1999_07_PHI_MIA,1999,REG,7,1999-10-24,Sunday,,PHI,MIA,13,16,3,Pro Player Stadium,Home,outdoors,grass,1999102406
+91,1999_07_SF_MIN,1999,REG,7,1999-10-24,Sunday,,SF,MIN,16,40,24,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999102407
+92,1999_07_DEN_NE,1999,REG,7,1999-10-24,Sunday,,DEN,NE,23,24,1,Foxboro Stadium,Home,outdoors,grass,1999102403
+93,1999_07_NO_NYG,1999,REG,7,1999-10-24,Sunday,,NO,NYG,3,31,28,Giants Stadium,Home,outdoors,astroturf,1999102405
+94,1999_07_NYJ_OAK,1999,REG,7,1999-10-24,Sunday,,NYJ,OAK,23,24,1,Network Associates Coliseum,Home,outdoors,grass,1999102411
+95,1999_07_GB_SD,1999,REG,7,1999-10-24,Sunday,,GB,SD,31,3,-28,Qualcomm Stadium,Home,outdoors,grass,1999102409
+96,1999_07_BUF_SEA,1999,REG,7,1999-10-24,Sunday,,BUF,SEA,16,26,10,Seattle Kingdome,Home,dome,astroturf,1999102410
+97,1999_07_CLE_STL,1999,REG,7,1999-10-24,Sunday,,CLE,STL,3,34,31,TWA Dome,Home,dome,astroturf,1999102402
+98,1999_07_CHI_TB,1999,REG,7,1999-10-24,Sunday,,CHI,TB,3,6,3,Raymond James Stadium,Home,outdoors,grass,1999102400
+99,1999_07_ATL_PIT,1999,REG,7,1999-10-25,Monday,,ATL,PIT,9,13,4,Three Rivers Stadium,Home,outdoors,astroturf,1999102500
+100,1999_08_NE_ARI,1999,REG,8,1999-10-31,Sunday,,NE,ARI,27,3,-24,Sun Devil Stadium,Home,outdoors,grass,1999103110
+101,1999_08_CAR_ATL,1999,REG,8,1999-10-31,Sunday,,CAR,ATL,20,27,7,Georgia Dome,Home,dome,astroturf,1999103101
+102,1999_08_BUF_BAL,1999,REG,8,1999-10-31,Sunday,,BUF,BAL,13,10,-3,PSINet Stadium,Home,outdoors,grass,1999103100
+103,1999_08_JAX_CIN,1999,REG,8,1999-10-31,Sunday,,JAX,CIN,41,10,-31,Cinergy Field,Home,outdoors,astroturf,1999103105
+104,1999_08_MIN_DEN,1999,REG,8,1999-10-31,Sunday,,MIN,DEN,23,20,-3,Mile High Stadium,Home,outdoors,grass,1999103111
+105,1999_08_TB_DET,1999,REG,8,1999-10-31,Sunday,,TB,DET,3,20,17,Pontiac Silverdome,Home,dome,astroturf,1999103112
+106,1999_08_DAL_IND,1999,REG,8,1999-10-31,Sunday,,DAL,IND,24,34,10,RCA Dome,Home,dome,astroturf,1999103104
+107,1999_08_SD_KC,1999,REG,8,1999-10-31,Sunday,,SD,KC,0,34,34,Arrowhead Stadium,Home,outdoors,grass,1999103108
+108,1999_08_CLE_NO,1999,REG,8,1999-10-31,Sunday,,CLE,NO,21,16,-5,Louisiana Superdome,Home,dome,astroturf,1999103103
+109,1999_08_MIA_OAK,1999,REG,8,1999-10-31,Sunday,,MIA,OAK,16,9,-7,Network Associates Coliseum,Home,outdoors,grass,1999103109
+110,1999_08_NYG_PHI,1999,REG,8,1999-10-31,Sunday,,NYG,PHI,23,17,-6,Veterans Stadium,Home,outdoors,astroturf,1999103106
+111,1999_08_STL_TEN,1999,REG,8,1999-10-31,Sunday,,STL,TEN,21,24,3,Adelphia Coliseum,Home,outdoors,grass,1999103107
+112,1999_08_CHI_WAS,1999,REG,8,1999-10-31,Sunday,,CHI,WAS,22,48,26,Jack Kent Cooke Stadium,Home,outdoors,grass,1999103102
+113,1999_08_SEA_GB,1999,REG,8,1999-11-01,Monday,,SEA,GB,27,7,-20,Lambeau Field,Home,outdoors,grass,1999110100
+114,1999_09_JAX_ATL,1999,REG,9,1999-11-07,Sunday,,JAX,ATL,30,7,-23,Georgia Dome,Home,dome,astroturf,1999110704
+115,1999_09_PHI_CAR,1999,REG,9,1999-11-07,Sunday,,PHI,CAR,7,33,26,Ericsson Stadium,Home,outdoors,grass,1999110706
+116,1999_09_BAL_CLE,1999,REG,9,1999-11-07,Sunday,,BAL,CLE,41,9,-32,Cleveland Browns Stadium,Home,outdoors,grass,1999110701
+117,1999_09_STL_DET,1999,REG,9,1999-11-07,Sunday,,STL,DET,27,31,4,Pontiac Silverdome,Home,dome,astroturf,1999110707
+118,1999_09_CHI_GB,1999,REG,9,1999-11-07,Sunday,,CHI,GB,14,13,-1,Lambeau Field,Home,outdoors,grass,1999110703
+119,1999_09_KC_IND,1999,REG,9,1999-11-07,Sunday,,KC,IND,17,25,8,RCA Dome,Home,dome,astroturf,1999110705
+120,1999_09_TEN_MIA,1999,REG,9,1999-11-07,Sunday,,TEN,MIA,0,17,17,Pro Player Stadium,Home,outdoors,grass,1999110713
+121,1999_09_TB_NO,1999,REG,9,1999-11-07,Sunday,,TB,NO,31,16,-15,Louisiana Superdome,Home,dome,astroturf,1999110708
+122,1999_09_ARI_NYJ,1999,REG,9,1999-11-07,Sunday,,ARI,NYJ,7,12,5,Giants Stadium,Home,outdoors,astroturf,1999110700
+123,1999_09_DEN_SD,1999,REG,9,1999-11-07,Sunday,,DEN,SD,33,17,-16,Qualcomm Stadium,Home,outdoors,grass,1999110712
+124,1999_09_CIN_SEA,1999,REG,9,1999-11-07,Sunday,,CIN,SEA,20,37,17,Seattle Kingdome,Home,dome,astroturf,1999110711
+125,1999_09_PIT_SF,1999,REG,9,1999-11-07,Sunday,,PIT,SF,27,6,-21,3Com Park,Home,outdoors,grass,1999110709
+126,1999_09_BUF_WAS,1999,REG,9,1999-11-07,Sunday,,BUF,WAS,34,17,-17,Jack Kent Cooke Stadium,Home,outdoors,grass,1999110702
+127,1999_09_DAL_MIN,1999,REG,9,1999-11-08,Monday,,DAL,MIN,17,27,10,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999110800
+128,1999_10_DET_ARI,1999,REG,10,1999-11-14,Sunday,,DET,ARI,19,23,4,Sun Devil Stadium,Home,outdoors,grass,1999111411
+129,1999_10_MIA_BUF,1999,REG,10,1999-11-14,Sunday,,MIA,BUF,3,23,20,Ralph Wilson Stadium,Home,outdoors,astroturf,1999111404
+130,1999_10_MIN_CHI,1999,REG,10,1999-11-14,Sunday,,MIN,CHI,27,24,-3,Soldier Field,Home,outdoors,grass,1999111405
+131,1999_10_TEN_CIN,1999,REG,10,1999-11-14,Sunday,,TEN,CIN,24,14,-10,Cinergy Field,Home,outdoors,astroturf,1999111407
+132,1999_10_GB_DAL,1999,REG,10,1999-11-14,Sunday,,GB,DAL,13,27,14,Texas Stadium,Home,outdoors,astroturf,1999111412
+133,1999_10_BAL_JAX,1999,REG,10,1999-11-14,Sunday,,BAL,JAX,3,6,3,Alltel Stadium,Home,outdoors,grass,1999111409
+134,1999_10_SF_NO,1999,REG,10,1999-11-14,Sunday,,SF,NO,6,24,18,Louisiana Superdome,Home,dome,astroturf,1999111406
+135,1999_10_IND_NYG,1999,REG,10,1999-11-14,Sunday,,IND,NYG,27,19,-8,Giants Stadium,Home,outdoors,astroturf,1999111402
+136,1999_10_SD_OAK,1999,REG,10,1999-11-14,Sunday,,SD,OAK,9,28,19,Network Associates Coliseum,Home,outdoors,grass,1999111410
+137,1999_10_WAS_PHI,1999,REG,10,1999-11-14,Sunday,,WAS,PHI,28,35,7,Veterans Stadium,Home,outdoors,astroturf,1999111408
+138,1999_10_CLE_PIT,1999,REG,10,1999-11-14,Sunday,,CLE,PIT,16,15,-1,Three Rivers Stadium,Home,outdoors,astroturf,1999111401
+139,1999_10_DEN_SEA,1999,REG,10,1999-11-14,Sunday,,DEN,SEA,17,20,3,Seattle Kingdome,Home,dome,astroturf,1999111413
+140,1999_10_CAR_STL,1999,REG,10,1999-11-14,Sunday,,CAR,STL,10,35,25,TWA Dome,Home,dome,astroturf,1999111400
+141,1999_10_KC_TB,1999,REG,10,1999-11-14,Sunday,,KC,TB,10,17,7,Raymond James Stadium,Home,outdoors,grass,1999111403
+142,1999_10_NYJ_NE,1999,REG,10,1999-11-15,Monday,,NYJ,NE,24,17,-7,Foxboro Stadium,Home,outdoors,grass,1999111500
+143,1999_11_DAL_ARI,1999,REG,11,1999-11-21,Sunday,,DAL,ARI,9,13,4,Sun Devil Stadium,Home,outdoors,grass,1999112110
+144,1999_11_BAL_CIN,1999,REG,11,1999-11-21,Sunday,,BAL,CIN,34,31,-3,Cinergy Field,Home,outdoors,astroturf,1999112108
+145,1999_11_CAR_CLE,1999,REG,11,1999-11-21,Sunday,,CAR,CLE,31,17,-14,Cleveland Browns Stadium,Home,outdoors,grass,1999112102
+146,1999_11_DET_GB,1999,REG,11,1999-11-21,Sunday,,DET,GB,17,26,9,Lambeau Field,Home,outdoors,grass,1999112103
+147,1999_11_NO_JAX,1999,REG,11,1999-11-21,Sunday,,NO,JAX,23,41,18,Alltel Stadium,Home,outdoors,grass,1999112113
+148,1999_11_SEA_KC,1999,REG,11,1999-11-21,Sunday,,SEA,KC,31,19,-12,Arrowhead Stadium,Home,outdoors,grass,1999112107
+149,1999_11_NE_MIA,1999,REG,11,1999-11-21,Sunday,,NE,MIA,17,27,10,Pro Player Stadium,Home,outdoors,grass,1999112105
+150,1999_11_BUF_NYJ,1999,REG,11,1999-11-21,Sunday,,BUF,NYJ,7,17,10,Giants Stadium,Home,outdoors,astroturf,1999112101
+151,1999_11_IND_PHI,1999,REG,11,1999-11-21,Sunday,,IND,PHI,44,17,-27,Veterans Stadium,Home,outdoors,astroturf,1999112104
+152,1999_11_CHI_SD,1999,REG,11,1999-11-21,Sunday,,CHI,SD,23,20,-3,Qualcomm Stadium,Home,outdoors,grass,1999112109
+153,1999_11_STL_SF,1999,REG,11,1999-11-21,Sunday,,STL,SF,23,7,-16,3Com Park,Home,outdoors,grass,1999112112
+154,1999_11_ATL_TB,1999,REG,11,1999-11-21,Sunday,,ATL,TB,10,19,9,Raymond James Stadium,Home,outdoors,grass,1999112100
+155,1999_11_PIT_TEN,1999,REG,11,1999-11-21,Sunday,,PIT,TEN,10,16,6,Adelphia Coliseum,Home,outdoors,grass,1999112106
+156,1999_11_NYG_WAS,1999,REG,11,1999-11-21,Sunday,,NYG,WAS,13,23,10,Jack Kent Cooke Stadium,Home,outdoors,grass,1999112111
+157,1999_11_OAK_DEN,1999,REG,11,1999-11-22,Monday,,OAK,DEN,21,27,6,Mile High Stadium,Home,outdoors,grass,1999112200
+158,1999_12_MIA_DAL,1999,REG,12,1999-11-25,Thursday,,MIA,DAL,0,20,20,Texas Stadium,Home,outdoors,astroturf,1999112501
+159,1999_12_CHI_DET,1999,REG,12,1999-11-25,Thursday,,CHI,DET,17,21,4,Pontiac Silverdome,Home,dome,astroturf,1999112500
+160,1999_12_JAX_BAL,1999,REG,12,1999-11-28,Sunday,,JAX,BAL,30,23,-7,PSINet Stadium,Home,outdoors,grass,1999112802
+161,1999_12_NE_BUF,1999,REG,12,1999-11-28,Sunday,,NE,BUF,7,17,10,Ralph Wilson Stadium,Home,outdoors,astroturf,1999112803
+162,1999_12_ATL_CAR,1999,REG,12,1999-11-28,Sunday,,ATL,CAR,28,34,6,Ericsson Stadium,Home,outdoors,grass,1999112811
+163,1999_12_TEN_CLE,1999,REG,12,1999-11-28,Sunday,,TEN,CLE,33,21,-12,Cleveland Browns Stadium,Home,outdoors,grass,1999112807
+164,1999_12_NYJ_IND,1999,REG,12,1999-11-28,Sunday,,NYJ,IND,6,13,7,RCA Dome,Home,dome,astroturf,1999112810
+165,1999_12_SD_MIN,1999,REG,12,1999-11-28,Sunday,,SD,MIN,27,35,8,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999112806
+166,1999_12_ARI_NYG,1999,REG,12,1999-11-28,Sunday,,ARI,NYG,34,24,-10,Giants Stadium,Home,outdoors,astroturf,1999112800
+167,1999_12_KC_OAK,1999,REG,12,1999-11-28,Sunday,,KC,OAK,37,34,-3,Network Associates Coliseum,Home,outdoors,grass,1999112809
+168,1999_12_CIN_PIT,1999,REG,12,1999-11-28,Sunday,,CIN,PIT,27,20,-7,Three Rivers Stadium,Home,outdoors,astroturf,1999112801
+169,1999_12_TB_SEA,1999,REG,12,1999-11-28,Sunday,,TB,SEA,16,3,-13,Seattle Kingdome,Home,dome,astroturf,1999112808
+170,1999_12_NO_STL,1999,REG,12,1999-11-28,Sunday,,NO,STL,12,43,31,TWA Dome,Home,dome,astroturf,1999112804
+171,1999_12_PHI_WAS,1999,REG,12,1999-11-28,Sunday,,PHI,WAS,17,20,3,Jack Kent Cooke Stadium,Home,outdoors,grass,1999112805
+172,1999_12_GB_SF,1999,REG,12,1999-11-29,Monday,,GB,SF,20,3,-17,3Com Park,Home,outdoors,grass,1999112900
+173,1999_13_PIT_JAX,1999,REG,13,1999-12-02,Thursday,,PIT,JAX,6,20,14,Alltel Stadium,Home,outdoors,grass,1999120200
+174,1999_13_PHI_ARI,1999,REG,13,1999-12-05,Sunday,,PHI,ARI,17,21,4,Sun Devil Stadium,Home,outdoors,grass,1999120504
+175,1999_13_NO_ATL,1999,REG,13,1999-12-05,Sunday,,NO,ATL,12,35,23,Georgia Dome,Home,dome,astroturf,1999120511
+176,1999_13_TEN_BAL,1999,REG,13,1999-12-05,Sunday,,TEN,BAL,14,41,27,PSINet Stadium,Home,outdoors,grass,1999120502
+177,1999_13_STL_CAR,1999,REG,13,1999-12-05,Sunday,,STL,CAR,34,21,-13,Ericsson Stadium,Home,outdoors,grass,1999120500
+178,1999_13_GB_CHI,1999,REG,13,1999-12-05,Sunday,,GB,CHI,35,19,-16,Soldier Field,Home,outdoors,grass,1999120509
+179,1999_13_SF_CIN,1999,REG,13,1999-12-05,Sunday,,SF,CIN,30,44,14,Cinergy Field,Home,outdoors,astroturf,1999120501
+180,1999_13_KC_DEN,1999,REG,13,1999-12-05,Sunday,,KC,DEN,16,10,-6,Mile High Stadium,Home,outdoors,grass,1999120507
+181,1999_13_WAS_DET,1999,REG,13,1999-12-05,Sunday,,WAS,DET,17,33,16,Pontiac Silverdome,Home,dome,astroturf,1999120503
+182,1999_13_IND_MIA,1999,REG,13,1999-12-05,Sunday,,IND,MIA,37,34,-3,Pro Player Stadium,Home,outdoors,grass,1999120510
+183,1999_13_DAL_NE,1999,REG,13,1999-12-05,Sunday,,DAL,NE,6,13,7,Foxboro Stadium,Home,outdoors,grass,1999120508
+184,1999_13_NYJ_NYG,1999,REG,13,1999-12-05,Sunday,,NYJ,NYG,28,41,13,Giants Stadium,Home,outdoors,astroturf,1999120512
+185,1999_13_SEA_OAK,1999,REG,13,1999-12-05,Sunday,,SEA,OAK,21,30,9,Network Associates Coliseum,Home,outdoors,grass,1999120506
+186,1999_13_CLE_SD,1999,REG,13,1999-12-05,Sunday,,CLE,SD,10,23,13,Qualcomm Stadium,Home,outdoors,grass,1999120505
+187,1999_13_MIN_TB,1999,REG,13,1999-12-06,Monday,,MIN,TB,17,24,7,Raymond James Stadium,Home,outdoors,grass,1999120600
+188,1999_14_OAK_TEN,1999,REG,14,1999-12-09,Thursday,,OAK,TEN,14,21,7,Adelphia Coliseum,Home,outdoors,grass,1999120900
+189,1999_14_NYG_BUF,1999,REG,14,1999-12-12,Sunday,,NYG,BUF,19,17,-2,Ralph Wilson Stadium,Home,outdoors,astroturf,1999121206
+190,1999_14_CLE_CIN,1999,REG,14,1999-12-12,Sunday,,CLE,CIN,28,44,16,Cinergy Field,Home,outdoors,astroturf,1999121203
+191,1999_14_PHI_DAL,1999,REG,14,1999-12-12,Sunday,,PHI,DAL,10,20,10,Texas Stadium,Home,outdoors,astroturf,1999121207
+192,1999_14_CAR_GB,1999,REG,14,1999-12-12,Sunday,,CAR,GB,33,31,-2,Lambeau Field,Home,outdoors,grass,1999121202
+193,1999_14_NE_IND,1999,REG,14,1999-12-12,Sunday,,NE,IND,15,20,5,RCA Dome,Home,dome,astroturf,1999121205
+194,1999_14_MIN_KC,1999,REG,14,1999-12-12,Sunday,,MIN,KC,28,31,3,Arrowhead Stadium,Home,outdoors,grass,1999121212
+195,1999_14_STL_NO,1999,REG,14,1999-12-12,Sunday,,STL,NO,30,14,-16,Louisiana Superdome,Home,dome,astroturf,1999121208
+196,1999_14_MIA_NYJ,1999,REG,14,1999-12-12,Sunday,,MIA,NYJ,20,28,8,Giants Stadium,Home,outdoors,astroturf,1999121210
+197,1999_14_BAL_PIT,1999,REG,14,1999-12-12,Sunday,,BAL,PIT,31,24,-7,Three Rivers Stadium,Home,outdoors,astroturf,1999121201
+198,1999_14_SD_SEA,1999,REG,14,1999-12-12,Sunday,,SD,SEA,19,16,-3,Seattle Kingdome,Home,dome,astroturf,1999121209
+199,1999_14_ATL_SF,1999,REG,14,1999-12-12,Sunday,,ATL,SF,7,26,19,3Com Park,Home,outdoors,grass,1999121211
+200,1999_14_DET_TB,1999,REG,14,1999-12-12,Sunday,,DET,TB,16,23,7,Raymond James Stadium,Home,outdoors,grass,1999121204
+201,1999_14_ARI_WAS,1999,REG,14,1999-12-12,Sunday,,ARI,WAS,3,28,25,Jack Kent Cooke Stadium,Home,outdoors,grass,1999121200
+202,1999_14_DEN_JAX,1999,REG,14,1999-12-13,Monday,,DEN,JAX,24,27,3,Alltel Stadium,Home,outdoors,grass,1999121300
+203,1999_15_SF_CAR,1999,REG,15,1999-12-18,Saturday,,SF,CAR,24,41,17,Ericsson Stadium,Home,outdoors,grass,1999121801
+204,1999_15_PIT_KC,1999,REG,15,1999-12-18,Saturday,,PIT,KC,19,35,16,Arrowhead Stadium,Home,outdoors,grass,1999121800
+205,1999_15_BUF_ARI,1999,REG,15,1999-12-19,Sunday,,BUF,ARI,31,21,-10,Sun Devil Stadium,Home,outdoors,grass,1999121911
+206,1999_15_NO_BAL,1999,REG,15,1999-12-19,Sunday,,NO,BAL,8,31,23,PSINet Stadium,Home,outdoors,grass,1999121904
+207,1999_15_DET_CHI,1999,REG,15,1999-12-19,Sunday,,DET,CHI,10,28,18,Soldier Field,Home,outdoors,grass,1999121901
+208,1999_15_JAX_CLE,1999,REG,15,1999-12-19,Sunday,,JAX,CLE,24,14,-10,Cleveland Browns Stadium,Home,outdoors,grass,1999121902
+209,1999_15_NYJ_DAL,1999,REG,15,1999-12-19,Sunday,,NYJ,DAL,22,21,-1,Texas Stadium,Home,outdoors,astroturf,1999121909
+210,1999_15_SEA_DEN,1999,REG,15,1999-12-19,Sunday,,SEA,DEN,30,36,6,Mile High Stadium,Home,outdoors,grass,1999121910
+211,1999_15_WAS_IND,1999,REG,15,1999-12-19,Sunday,,WAS,IND,21,24,3,RCA Dome,Home,dome,astroturf,1999121907
+212,1999_15_SD_MIA,1999,REG,15,1999-12-19,Sunday,,SD,MIA,9,12,3,Pro Player Stadium,Home,outdoors,grass,1999121906
+213,1999_15_TB_OAK,1999,REG,15,1999-12-19,Sunday,,TB,OAK,0,45,45,Network Associates Coliseum,Home,outdoors,grass,1999121908
+214,1999_15_NE_PHI,1999,REG,15,1999-12-19,Sunday,,NE,PHI,9,24,15,Veterans Stadium,Home,outdoors,astroturf,1999121903
+215,1999_15_NYG_STL,1999,REG,15,1999-12-19,Sunday,,NYG,STL,10,31,21,TWA Dome,Home,dome,astroturf,1999121905
+216,1999_15_ATL_TEN,1999,REG,15,1999-12-19,Sunday,,ATL,TEN,17,30,13,Adelphia Coliseum,Home,outdoors,grass,1999121900
+217,1999_15_GB_MIN,1999,REG,15,1999-12-20,Monday,,GB,MIN,20,24,4,Hubert H. Humphrey Metrodome,Home,dome,astroturf,1999122000
+218,1999_16_DAL_NO,1999,REG,16,1999-12-24,Friday,,DAL,NO,24,31,7,Louisiana Superdome,Home,dome,astroturf,1999122400
+219,1999_16_DEN_DET,1999,REG,16,1999-12-25,Saturday,,DEN,DET,17,7,-10,Pontiac Silverdome,Home,dome,astroturf,1999122500
+220,1999_16_ARI_ATL,1999,REG,16,1999-12-26,Sunday,,ARI,ATL,14,37,23,Georgia Dome,Home,dome,astroturf,1999122600
+221,1999_16_CIN_BAL,1999,REG,16,1999-12-26,Sunday,,CIN,BAL,0,22,22,PSINet Stadium,Home,outdoors,grass,1999122604
+222,1999_16_IND_CLE,1999,REG,16,1999-12-26,Sunday,,IND,CLE,29,28,-1,Cleveland Browns Stadium,Home,outdoors,grass,1999122605
+223,1999_16_BUF_NE,1999,REG,16,1999-12-26,Sunday,,BUF,NE,13,10,-3,Foxboro Stadium,Home,outdoors,grass,1999122601
+224,1999_16_MIN_NYG,1999,REG,16,1999-12-26,Sunday,,MIN,NYG,34,17,-17,Giants Stadium,Home,outdoors,astroturf,1999122607
+225,1999_16_CAR_PIT,1999,REG,16,1999-12-26,Sunday,,CAR,PIT,20,30,10,Three Rivers Stadium,Home,outdoors,astroturf,1999122602
+226,1999_16_OAK_SD,1999,REG,16,1999-12-26,Sunday,,OAK,SD,20,23,3,Qualcomm Stadium,Home,outdoors,grass,1999122608
+227,1999_16_KC_SEA,1999,REG,16,1999-12-26,Sunday,,KC,SEA,14,23,9,Seattle Kingdome,Home,dome,astroturf,1999122609
+228,1999_16_WAS_SF,1999,REG,16,1999-12-26,Sunday,,WAS,SF,26,20,-6,3Com Park,Home,outdoors,grass,1999122611
+229,1999_16_CHI_STL,1999,REG,16,1999-12-26,Sunday,,CHI,STL,12,34,22,TWA Dome,Home,dome,astroturf,1999122603
+230,1999_16_GB_TB,1999,REG,16,1999-12-26,Sunday,,GB,TB,10,29,19,Raymond James Stadium,Home,outdoors,grass,1999122610
+231,1999_16_JAX_TEN,1999,REG,16,1999-12-26,Sunday,,JAX,TEN,14,41,27,Adelphia Coliseum,Home,outdoors,grass,1999122606
+232,1999_16_NYJ_MIA,1999,REG,16,1999-12-27,Monday,,NYJ,MIA,38,31,-7,Pro Player Stadium,Home,outdoors,grass,1999122700
+233,1999_17_IND_BUF,1999,REG,17,2000-01-02,Sunday,,IND,BUF,6,31,25,Ralph Wilson Stadium,Home,outdoors,astroturf,2000010212
+234,1999_17_NO_CAR,1999,REG,17,2000-01-02,Sunday,,NO,CAR,13,45,32,Ericsson Stadium,Home,outdoors,grass,2000010204
+235,1999_17_TB_CHI,1999,REG,17,2000-01-02,Sunday,,TB,CHI,20,6,-14,Soldier Field,Home,outdoors,grass,2000010207
+236,1999_17_NYG_DAL,1999,REG,17,2000-01-02,Sunday,,NYG,DAL,18,26,8,Texas Stadium,Home,outdoors,astroturf,2000010208
+237,1999_17_SD_DEN,1999,REG,17,2000-01-02,Sunday,,SD,DEN,12,6,-6,Mile High Stadium,Home,outdoors,grass,2000010211
+238,1999_17_ARI_GB,1999,REG,17,2000-01-02,Sunday,,ARI,GB,24,49,25,Lambeau Field,Home,outdoors,grass,2000010200
+239,1999_17_CIN_JAX,1999,REG,17,2000-01-02,Sunday,,CIN,JAX,7,24,17,Alltel Stadium,Home,outdoors,grass,2000010202
+240,1999_17_OAK_KC,1999,REG,17,2000-01-02,Sunday,,OAK,KC,41,38,-3,Arrowhead Stadium,Home,outdoors,grass,2000010213
+241,1999_17_DET_MIN,1999,REG,17,2000-01-02,Sunday,,DET,MIN,17,24,7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000010203
+242,1999_17_BAL_NE,1999,REG,17,2000-01-02,Sunday,,BAL,NE,3,20,17,Foxboro Stadium,Home,outdoors,grass,2000010201
+243,1999_17_SEA_NYJ,1999,REG,17,2000-01-02,Sunday,,SEA,NYJ,9,19,10,Giants Stadium,Home,outdoors,astroturf,2000010206
+244,1999_17_STL_PHI,1999,REG,17,2000-01-02,Sunday,,STL,PHI,31,38,7,Veterans Stadium,Home,outdoors,astroturf,2000010205
+245,1999_17_TEN_PIT,1999,REG,17,2000-01-02,Sunday,,TEN,PIT,47,36,-11,Three Rivers Stadium,Home,outdoors,astroturf,2000010209
+246,1999_17_MIA_WAS,1999,REG,17,2000-01-02,Sunday,,MIA,WAS,10,21,11,Jack Kent Cooke Stadium,Home,outdoors,grass,2000010210
+247,1999_17_SF_ATL,1999,REG,17,2000-01-03,Monday,,SF,ATL,29,34,5,Georgia Dome,Home,dome,astroturf,2000010300
+248,1999_18_BUF_TEN,1999,WC,18,2000-01-08,Saturday,,BUF,TEN,16,22,6,Adelphia Coliseum,Home,outdoors,grass,2000010800
+249,1999_18_DET_WAS,1999,WC,18,2000-01-08,Saturday,,DET,WAS,13,27,14,Jack Kent Cooke Stadium,Home,outdoors,grass,2000010801
+250,1999_18_DAL_MIN,1999,WC,18,2000-01-09,Sunday,,DAL,MIN,10,27,17,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000010900
+251,1999_18_MIA_SEA,1999,WC,18,2000-01-09,Sunday,,MIA,SEA,20,17,-3,Seattle Kingdome,Home,dome,astroturf,2000010901
+252,1999_19_MIA_JAX,1999,DIV,19,2000-01-15,Saturday,,MIA,JAX,7,62,55,Alltel Stadium,Home,outdoors,grass,2000011501
+253,1999_19_WAS_TB,1999,DIV,19,2000-01-15,Saturday,,WAS,TB,13,14,1,Raymond James Stadium,Home,outdoors,grass,2000011500
+254,1999_19_TEN_IND,1999,DIV,19,2000-01-16,Sunday,,TEN,IND,19,16,-3,RCA Dome,Home,dome,astroturf,2000011601
+255,1999_19_MIN_STL,1999,DIV,19,2000-01-16,Sunday,,MIN,STL,37,49,12,TWA Dome,Home,dome,astroturf,2000011600
+256,1999_20_TEN_JAX,1999,CON,20,2000-01-23,Sunday,,TEN,JAX,33,14,-19,Alltel Stadium,Home,outdoors,grass,2000012301
+257,1999_20_TB_STL,1999,CON,20,2000-01-23,Sunday,,TB,STL,6,11,5,TWA Dome,Home,dome,astroturf,2000012300
+258,1999_21_STL_TEN,1999,SB,21,2000-01-30,Sunday,,STL,TEN,23,16,-7,Georgia Dome,Neutral,dome,astroturf,2000013000

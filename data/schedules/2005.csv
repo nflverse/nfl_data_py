@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2005_01_OAK_NE,2005,REG,1,2005-09-08,Thursday,09:00,OAK,NE,20,30,10,Gillette Stadium,Home,outdoors,grass,2005090800
+1,2005_01_HOU_BUF,2005,REG,1,2005-09-11,Sunday,13:00,HOU,BUF,7,22,15,Ralph Wilson Stadium,Home,outdoors,astroplay,2005091107
+2,2005_01_NO_CAR,2005,REG,1,2005-09-11,Sunday,13:00,NO,CAR,23,20,-3,Bank of America Stadium,Home,outdoors,grass,2005091102
+3,2005_01_CIN_CLE,2005,REG,1,2005-09-11,Sunday,13:00,CIN,CLE,27,13,-14,Cleveland Browns Stadium,Home,outdoors,grass,2005091106
+4,2005_01_SEA_JAX,2005,REG,1,2005-09-11,Sunday,13:00,SEA,JAX,14,26,12,Alltel Stadium,Home,outdoors,grass,2005091103
+5,2005_01_NYJ_KC,2005,REG,1,2005-09-11,Sunday,13:00,NYJ,KC,7,27,20,Arrowhead Stadium,Home,outdoors,grass,2005091108
+6,2005_01_DEN_MIA,2005,REG,1,2005-09-11,Sunday,13:00,DEN,MIA,10,34,24,Dolphin Stadium,Home,outdoors,grass,2005091101
+7,2005_01_TB_MIN,2005,REG,1,2005-09-11,Sunday,13:00,TB,MIN,24,13,-11,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005091109
+8,2005_01_TEN_PIT,2005,REG,1,2005-09-11,Sunday,13:00,TEN,PIT,7,34,27,Heinz Field,Home,outdoors,dessograss,2005091104
+9,2005_01_CHI_WAS,2005,REG,1,2005-09-11,Sunday,13:00,CHI,WAS,7,9,2,FedExField,Home,outdoors,grass,2005091100
+10,2005_01_GB_DET,2005,REG,1,2005-09-11,Sunday,16:15,GB,DET,3,17,14,Ford Field,Home,dome,fieldturf,2005091111
+11,2005_01_ARI_NYG,2005,REG,1,2005-09-11,Sunday,16:15,ARI,NYG,19,42,23,Giants Stadium,Home,outdoors,fieldturf,2005091110
+12,2005_01_DAL_SD,2005,REG,1,2005-09-11,Sunday,16:15,DAL,SD,28,24,-4,Qualcomm Stadium,Home,outdoors,grass,2005091105
+13,2005_01_STL_SF,2005,REG,1,2005-09-11,Sunday,16:15,STL,SF,25,28,3,Monster Park,Home,outdoors,grass,2005091113
+14,2005_01_IND_BAL,2005,REG,1,2005-09-11,Sunday,20:30,IND,BAL,24,7,-17,M&T Bank Stadium,Home,outdoors,sportturf,2005091112
+15,2005_01_PHI_ATL,2005,REG,1,2005-09-12,Monday,09:00,PHI,ATL,10,14,4,Georgia Dome,Home,dome,fieldturf,2005091200
+16,2005_02_NE_CAR,2005,REG,2,2005-09-18,Sunday,13:00,NE,CAR,17,27,10,Bank of America Stadium,Home,outdoors,grass,2005091805
+17,2005_02_DET_CHI,2005,REG,2,2005-09-18,Sunday,13:00,DET,CHI,6,38,32,Soldier Field,Home,outdoors,grass,2005091802
+18,2005_02_MIN_CIN,2005,REG,2,2005-09-18,Sunday,13:00,MIN,CIN,8,37,29,Paul Brown Stadium,Home,outdoors,fieldturf,2005091804
+19,2005_02_PIT_HOU,2005,REG,2,2005-09-18,Sunday,13:00,PIT,HOU,27,7,-20,Reliant Stadium,Home,open,grass,2005091807
+20,2005_02_JAX_IND,2005,REG,2,2005-09-18,Sunday,13:00,JAX,IND,3,10,7,RCA Dome,Home,dome,fieldturf,2005091803
+21,2005_02_SF_PHI,2005,REG,2,2005-09-18,Sunday,13:00,SF,PHI,3,42,39,Lincoln Financial Field,Home,outdoors,grass,2005091808
+22,2005_02_BUF_TB,2005,REG,2,2005-09-18,Sunday,13:00,BUF,TB,3,19,16,Raymond James Stadium,Home,outdoors,grass,2005091801
+23,2005_02_BAL_TEN,2005,REG,2,2005-09-18,Sunday,13:00,BAL,TEN,10,25,15,The Coliseum,Home,outdoors,grass,2005091800
+24,2005_02_STL_ARI,2005,REG,2,2005-09-18,Sunday,16:05,STL,ARI,17,12,-5,Sun Devil Stadium,Home,outdoors,grass,2005091810
+25,2005_02_ATL_SEA,2005,REG,2,2005-09-18,Sunday,16:05,ATL,SEA,18,21,3,Qwest Field,Home,outdoors,fieldturf,2005091809
+26,2005_02_SD_DEN,2005,REG,2,2005-09-18,Sunday,16:15,SD,DEN,17,20,3,Invesco Field at Mile High,Home,outdoors,grass,2005091813
+27,2005_02_CLE_GB,2005,REG,2,2005-09-18,Sunday,16:15,CLE,GB,26,24,-2,Lambeau Field,Home,outdoors,grass,2005091811
+28,2005_02_MIA_NYJ,2005,REG,2,2005-09-18,Sunday,16:15,MIA,NYJ,7,17,10,Giants Stadium,Home,outdoors,fieldturf,2005091812
+29,2005_02_KC_OAK,2005,REG,2,2005-09-18,Sunday,20:30,KC,OAK,23,17,-6,McAfee Coliseum,Home,outdoors,grass,2005091814
+30,2005_02_WAS_DAL,2005,REG,2,2005-09-19,Monday,09:00,WAS,DAL,14,13,-1,Texas Stadium,Home,outdoors,fieldturf,2005091900
+31,2005_02_NYG_NO,2005,REG,2,2005-09-19,Monday,19:30,NYG,NO,27,10,-17,Giants Stadium,Home,outdoors,fieldturf,2005091901
+32,2005_03_ATL_BUF,2005,REG,3,2005-09-25,Sunday,13:00,ATL,BUF,24,16,-8,Ralph Wilson Stadium,Home,outdoors,astroplay,2005092500
+33,2005_03_CIN_CHI,2005,REG,3,2005-09-25,Sunday,13:00,CIN,CHI,24,7,-17,Soldier Field,Home,outdoors,grass,2005092502
+34,2005_03_TB_GB,2005,REG,3,2005-09-25,Sunday,13:00,TB,GB,17,16,-1,Lambeau Field,Home,outdoors,grass,2005092507
+35,2005_03_CLE_IND,2005,REG,3,2005-09-25,Sunday,13:00,CLE,IND,6,13,7,RCA Dome,Home,dome,fieldturf,2005092503
+36,2005_03_CAR_MIA,2005,REG,3,2005-09-25,Sunday,13:00,CAR,MIA,24,27,3,Dolphin Stadium,Home,outdoors,grass,2005092501
+37,2005_03_NO_MIN,2005,REG,3,2005-09-25,Sunday,13:00,NO,MIN,16,33,17,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005092505
+38,2005_03_JAX_NYJ,2005,REG,3,2005-09-25,Sunday,13:00,JAX,NYJ,26,20,-6,Giants Stadium,Home,outdoors,fieldturf,2005092504
+39,2005_03_OAK_PHI,2005,REG,3,2005-09-25,Sunday,13:00,OAK,PHI,20,23,3,Lincoln Financial Field,Home,outdoors,grass,2005092506
+40,2005_03_TEN_STL,2005,REG,3,2005-09-25,Sunday,13:00,TEN,STL,27,31,4,Edward Jones Dome,Home,dome,fieldturf,2005092508
+41,2005_03_ARI_SEA,2005,REG,3,2005-09-25,Sunday,16:05,ARI,SEA,12,37,25,Qwest Field,Home,outdoors,fieldturf,2005092509
+42,2005_03_DAL_SF,2005,REG,3,2005-09-25,Sunday,16:05,DAL,SF,34,31,-3,Monster Park,Home,outdoors,grass,2005092510
+43,2005_03_NE_PIT,2005,REG,3,2005-09-25,Sunday,16:15,NE,PIT,23,20,-3,Heinz Field,Home,outdoors,dessograss,2005092511
+44,2005_03_NYG_SD,2005,REG,3,2005-09-25,Sunday,20:30,NYG,SD,23,45,22,Qualcomm Stadium,Home,outdoors,grass,2005092512
+45,2005_03_KC_DEN,2005,REG,3,2005-09-26,Monday,09:00,KC,DEN,10,30,20,Invesco Field at Mile High,Home,outdoors,grass,2005092600
+46,2005_04_HOU_CIN,2005,REG,4,2005-10-02,Sunday,13:00,HOU,CIN,10,16,6,Paul Brown Stadium,Home,outdoors,fieldturf,2005100203
+47,2005_04_DEN_JAX,2005,REG,4,2005-10-02,Sunday,13:00,DEN,JAX,20,7,-13,Alltel Stadium,Home,outdoors,grass,2005100201
+48,2005_04_SD_NE,2005,REG,4,2005-10-02,Sunday,13:00,SD,NE,41,17,-24,Gillette Stadium,Home,outdoors,grass,2005100206
+49,2005_04_BUF_NO,2005,REG,4,2005-10-02,Sunday,13:00,BUF,NO,7,19,12,Alamo Dome,Home,dome,fieldturf,2005100200
+50,2005_04_STL_NYG,2005,REG,4,2005-10-02,Sunday,13:00,STL,NYG,24,44,20,Giants Stadium,Home,outdoors,fieldturf,2005100208
+51,2005_04_DET_TB,2005,REG,4,2005-10-02,Sunday,13:00,DET,TB,13,17,4,Raymond James Stadium,Home,outdoors,grass,2005100202
+52,2005_04_IND_TEN,2005,REG,4,2005-10-02,Sunday,13:00,IND,TEN,31,10,-21,The Coliseum,Home,outdoors,grass,2005100204
+53,2005_04_SEA_WAS,2005,REG,4,2005-10-02,Sunday,13:00,SEA,WAS,17,20,3,FedExField,Home,outdoors,grass,2005100207
+54,2005_04_NYJ_BAL,2005,REG,4,2005-10-02,Sunday,16:05,NYJ,BAL,3,13,10,M&T Bank Stadium,Home,outdoors,sportturf,2005100209
+55,2005_04_MIN_ATL,2005,REG,4,2005-10-02,Sunday,16:15,MIN,ATL,10,30,20,Georgia Dome,Home,dome,fieldturf,2005100211
+56,2005_04_PHI_KC,2005,REG,4,2005-10-02,Sunday,16:15,PHI,KC,37,31,-6,Arrowhead Stadium,Home,outdoors,grass,2005100205
+57,2005_04_DAL_OAK,2005,REG,4,2005-10-02,Sunday,16:15,DAL,OAK,13,19,6,McAfee Coliseum,Home,outdoors,grass,2005100210
+58,2005_04_SF_ARI,2005,REG,4,2005-10-02,Sunday,20:30,SF,ARI,14,31,17,Azteca Stadium,Neutral,outdoors,grass,2005100212
+59,2005_04_GB_CAR,2005,REG,4,2005-10-03,Monday,09:00,GB,CAR,29,32,3,Bank of America Stadium,Home,outdoors,grass,2005100300
+60,2005_05_NE_ATL,2005,REG,5,2005-10-09,Sunday,13:00,NE,ATL,31,28,-3,Georgia Dome,Home,dome,fieldturf,2005100903
+61,2005_05_MIA_BUF,2005,REG,5,2005-10-09,Sunday,13:00,MIA,BUF,14,20,6,Ralph Wilson Stadium,Home,outdoors,astroplay,2005100902
+62,2005_05_CHI_CLE,2005,REG,5,2005-10-09,Sunday,13:00,CHI,CLE,10,20,10,Cleveland Browns Stadium,Home,outdoors,grass,2005100901
+63,2005_05_BAL_DET,2005,REG,5,2005-10-09,Sunday,13:00,BAL,DET,17,35,18,Ford Field,Home,dome,fieldturf,2005100900
+64,2005_05_NO_GB,2005,REG,5,2005-10-09,Sunday,13:00,NO,GB,3,52,49,Lambeau Field,Home,outdoors,grass,2005100904
+65,2005_05_TEN_HOU,2005,REG,5,2005-10-09,Sunday,13:00,TEN,HOU,34,20,-14,Reliant Stadium,Home,closed,grass,2005100907
+66,2005_05_TB_NYJ,2005,REG,5,2005-10-09,Sunday,13:00,TB,NYJ,12,14,2,Giants Stadium,Home,outdoors,fieldturf,2005100906
+67,2005_05_SEA_STL,2005,REG,5,2005-10-09,Sunday,13:00,SEA,STL,37,31,-6,Edward Jones Dome,Home,dome,fieldturf,2005100905
+68,2005_05_IND_SF,2005,REG,5,2005-10-09,Sunday,16:05,IND,SF,28,3,-25,Monster Park,Home,outdoors,grass,2005100908
+69,2005_05_CAR_ARI,2005,REG,5,2005-10-09,Sunday,16:15,CAR,ARI,24,20,-4,Sun Devil Stadium,Home,outdoors,grass,2005100909
+70,2005_05_PHI_DAL,2005,REG,5,2005-10-09,Sunday,16:15,PHI,DAL,10,33,23,Texas Stadium,Home,outdoors,fieldturf,2005100910
+71,2005_05_WAS_DEN,2005,REG,5,2005-10-09,Sunday,16:15,WAS,DEN,19,21,2,Invesco Field at Mile High,Home,outdoors,grass,2005100911
+72,2005_05_CIN_JAX,2005,REG,5,2005-10-09,Sunday,20:30,CIN,JAX,20,23,3,Alltel Stadium,Home,outdoors,grass,2005100912
+73,2005_05_PIT_SD,2005,REG,5,2005-10-10,Monday,09:00,PIT,SD,24,22,-2,Qualcomm Stadium,Home,outdoors,grass,2005101000
+74,2005_06_CLE_BAL,2005,REG,6,2005-10-16,Sunday,13:00,CLE,BAL,3,16,13,M&T Bank Stadium,Home,outdoors,sportturf,2005101603
+75,2005_06_MIN_CHI,2005,REG,6,2005-10-16,Sunday,13:00,MIN,CHI,3,28,25,Soldier Field,Home,outdoors,grass,2005101606
+76,2005_06_NYG_DAL,2005,REG,6,2005-10-16,Sunday,13:00,NYG,DAL,13,16,3,Texas Stadium,Home,outdoors,fieldturf,2005101607
+77,2005_06_CAR_DET,2005,REG,6,2005-10-16,Sunday,13:00,CAR,DET,21,20,-1,Ford Field,Home,dome,fieldturf,2005101601
+78,2005_06_WAS_KC,2005,REG,6,2005-10-16,Sunday,13:00,WAS,KC,21,28,7,Arrowhead Stadium,Home,outdoors,grass,2005101608
+79,2005_06_ATL_NO,2005,REG,6,2005-10-16,Sunday,13:00,ATL,NO,34,31,-3,Alamo Dome,Home,dome,fieldturf,2005101600
+80,2005_06_JAX_PIT,2005,REG,6,2005-10-16,Sunday,13:00,JAX,PIT,23,17,-6,Heinz Field,Home,outdoors,dessograss,2005101604
+81,2005_06_MIA_TB,2005,REG,6,2005-10-16,Sunday,13:00,MIA,TB,13,27,14,Raymond James Stadium,Home,outdoors,grass,2005101605
+82,2005_06_CIN_TEN,2005,REG,6,2005-10-16,Sunday,13:00,CIN,TEN,31,23,-8,The Coliseum,Home,outdoors,grass,2005101602
+83,2005_06_NYJ_BUF,2005,REG,6,2005-10-16,Sunday,16:15,NYJ,BUF,17,27,10,Ralph Wilson Stadium,Home,outdoors,astroplay,2005101610
+84,2005_06_NE_DEN,2005,REG,6,2005-10-16,Sunday,16:15,NE,DEN,20,28,8,Invesco Field at Mile High,Home,outdoors,grass,2005101609
+85,2005_06_SD_OAK,2005,REG,6,2005-10-16,Sunday,16:15,SD,OAK,27,14,-13,McAfee Coliseum,Home,outdoors,grass,2005101611
+86,2005_06_HOU_SEA,2005,REG,6,2005-10-16,Sunday,20:30,HOU,SEA,10,42,32,Qwest Field,Home,outdoors,fieldturf,2005101612
+87,2005_06_STL_IND,2005,REG,6,2005-10-17,Monday,09:00,STL,IND,28,45,17,RCA Dome,Home,dome,fieldturf,2005101700
+88,2005_07_KC_MIA,2005,REG,7,2005-10-21,Friday,19:00,KC,MIA,30,20,-10,Dolphin Stadium,Home,outdoors,grass,2005102100
+89,2005_07_PIT_CIN,2005,REG,7,2005-10-23,Sunday,13:00,PIT,CIN,27,13,-14,Paul Brown Stadium,Home,outdoors,fieldturf,2005102305
+90,2005_07_DET_CLE,2005,REG,7,2005-10-23,Sunday,13:00,DET,CLE,13,10,-3,Cleveland Browns Stadium,Home,outdoors,grass,2005102300
+91,2005_07_IND_HOU,2005,REG,7,2005-10-23,Sunday,13:00,IND,HOU,38,20,-18,Reliant Stadium,Home,closed,grass,2005102302
+92,2005_07_GB_MIN,2005,REG,7,2005-10-23,Sunday,13:00,GB,MIN,20,23,3,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005102301
+93,2005_07_SD_PHI,2005,REG,7,2005-10-23,Sunday,13:00,SD,PHI,17,20,3,Lincoln Financial Field,Home,outdoors,grass,2005102306
+94,2005_07_NO_STL,2005,REG,7,2005-10-23,Sunday,13:00,NO,STL,17,28,11,Edward Jones Dome,Home,dome,fieldturf,2005102304
+95,2005_07_SF_WAS,2005,REG,7,2005-10-23,Sunday,13:00,SF,WAS,17,52,35,FedExField,Home,outdoors,grass,2005102307
+96,2005_07_DAL_SEA,2005,REG,7,2005-10-23,Sunday,16:05,DAL,SEA,10,13,3,Qwest Field,Home,outdoors,fieldturf,2005102308
+97,2005_07_TEN_ARI,2005,REG,7,2005-10-23,Sunday,16:15,TEN,ARI,10,20,10,Sun Devil Stadium,Home,outdoors,grass,2005102312
+98,2005_07_BAL_CHI,2005,REG,7,2005-10-23,Sunday,16:15,BAL,CHI,6,10,4,Soldier Field,Home,outdoors,grass,2005102309
+99,2005_07_DEN_NYG,2005,REG,7,2005-10-23,Sunday,16:15,DEN,NYG,23,24,1,Giants Stadium,Home,outdoors,fieldturf,2005102311
+100,2005_07_BUF_OAK,2005,REG,7,2005-10-23,Sunday,16:15,BUF,OAK,17,38,21,McAfee Coliseum,Home,outdoors,grass,2005102310
+101,2005_07_NYJ_ATL,2005,REG,7,2005-10-24,Monday,09:00,NYJ,ATL,14,27,13,Georgia Dome,Home,dome,fieldturf,2005102400
+102,2005_08_MIN_CAR,2005,REG,8,2005-10-30,Sunday,13:00,MIN,CAR,13,38,25,Bank of America Stadium,Home,outdoors,grass,2005103006
+103,2005_08_GB_CIN,2005,REG,8,2005-10-30,Sunday,13:00,GB,CIN,14,21,7,Paul Brown Stadium,Home,outdoors,fieldturf,2005103003
+104,2005_08_ARI_DAL,2005,REG,8,2005-10-30,Sunday,13:00,ARI,DAL,13,34,21,Texas Stadium,Home,outdoors,fieldturf,2005103000
+105,2005_08_CHI_DET,2005,REG,8,2005-10-30,Sunday,13:00,CHI,DET,19,13,-6,Ford Field,Home,dome,fieldturf,2005103001
+106,2005_08_CLE_HOU,2005,REG,8,2005-10-30,Sunday,13:00,CLE,HOU,16,19,3,Reliant Stadium,Home,open,grass,2005103002
+107,2005_08_WAS_NYG,2005,REG,8,2005-10-30,Sunday,13:00,WAS,NYG,0,36,36,Giants Stadium,Home,outdoors,fieldturf,2005103008
+108,2005_08_JAX_STL,2005,REG,8,2005-10-30,Sunday,13:00,JAX,STL,21,24,3,Edward Jones Dome,Home,dome,fieldturf,2005103004
+109,2005_08_OAK_TEN,2005,REG,8,2005-10-30,Sunday,13:00,OAK,TEN,34,25,-9,The Coliseum,Home,outdoors,grass,2005103007
+110,2005_08_MIA_NO,2005,REG,8,2005-10-30,Sunday,16:05,MIA,NO,21,6,-15,Tiger Stadium (LSU),Home,outdoors,grass,2005103005
+111,2005_08_KC_SD,2005,REG,8,2005-10-30,Sunday,16:05,KC,SD,20,28,8,Qualcomm Stadium,Home,outdoors,grass,2005103009
+112,2005_08_PHI_DEN,2005,REG,8,2005-10-30,Sunday,16:15,PHI,DEN,21,49,28,Invesco Field at Mile High,Home,outdoors,grass,2005103010
+113,2005_08_TB_SF,2005,REG,8,2005-10-30,Sunday,16:15,TB,SF,10,15,5,Monster Park,Home,outdoors,grass,2005103011
+114,2005_08_BUF_NE,2005,REG,8,2005-10-30,Sunday,20:30,BUF,NE,16,21,5,Gillette Stadium,Home,outdoors,grass,2005103012
+115,2005_08_BAL_PIT,2005,REG,8,2005-10-31,Monday,09:00,BAL,PIT,19,20,1,Heinz Field,Home,outdoors,dessograss,2005103100
+116,2005_09_CIN_BAL,2005,REG,9,2005-11-06,Sunday,13:00,CIN,BAL,21,9,-12,M&T Bank Stadium,Home,outdoors,sportturf,2005110603
+117,2005_09_TEN_CLE,2005,REG,9,2005-11-06,Sunday,13:00,TEN,CLE,14,20,6,Cleveland Browns Stadium,Home,outdoors,grass,2005110608
+118,2005_09_HOU_JAX,2005,REG,9,2005-11-06,Sunday,13:00,HOU,JAX,14,21,7,Alltel Stadium,Home,outdoors,grass,2005110605
+119,2005_09_OAK_KC,2005,REG,9,2005-11-06,Sunday,13:00,OAK,KC,23,27,4,Arrowhead Stadium,Home,outdoors,grass,2005110606
+120,2005_09_ATL_MIA,2005,REG,9,2005-11-06,Sunday,13:00,ATL,MIA,17,10,-7,Dolphin Stadium,Home,outdoors,grass,2005110600
+121,2005_09_DET_MIN,2005,REG,9,2005-11-06,Sunday,13:00,DET,MIN,14,27,13,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005110604
+122,2005_09_SD_NYJ,2005,REG,9,2005-11-06,Sunday,13:00,SD,NYJ,31,26,-5,Giants Stadium,Home,outdoors,fieldturf,2005110607
+123,2005_09_CAR_TB,2005,REG,9,2005-11-06,Sunday,13:00,CAR,TB,34,14,-20,Raymond James Stadium,Home,outdoors,grass,2005110601
+124,2005_09_SEA_ARI,2005,REG,9,2005-11-06,Sunday,16:05,SEA,ARI,33,19,-14,Sun Devil Stadium,Home,outdoors,grass,2005110610
+125,2005_09_CHI_NO,2005,REG,9,2005-11-06,Sunday,16:05,CHI,NO,20,17,-3,Tiger Stadium (LSU),Home,outdoors,grass,2005110602
+126,2005_09_NYG_SF,2005,REG,9,2005-11-06,Sunday,16:05,NYG,SF,24,6,-18,Monster Park,Home,outdoors,grass,2005110609
+127,2005_09_PIT_GB,2005,REG,9,2005-11-06,Sunday,16:15,PIT,GB,20,10,-10,Lambeau Field,Home,outdoors,grass,2005110611
+128,2005_09_PHI_WAS,2005,REG,9,2005-11-06,Sunday,20:30,PHI,WAS,10,17,7,FedExField,Home,outdoors,grass,2005110612
+129,2005_09_IND_NE,2005,REG,9,2005-11-07,Monday,09:00,IND,NE,40,21,-19,Gillette Stadium,Home,outdoors,grass,2005110700
+130,2005_10_KC_BUF,2005,REG,10,2005-11-13,Sunday,13:00,KC,BUF,3,14,11,Ralph Wilson Stadium,Home,outdoors,astroplay,2005111303
+131,2005_10_SF_CHI,2005,REG,10,2005-11-13,Sunday,13:00,SF,CHI,9,17,8,Soldier Field,Home,outdoors,grass,2005111306
+132,2005_10_ARI_DET,2005,REG,10,2005-11-13,Sunday,13:00,ARI,DET,21,29,8,Ford Field,Home,dome,fieldturf,2005111300
+133,2005_10_HOU_IND,2005,REG,10,2005-11-13,Sunday,13:00,HOU,IND,17,31,14,RCA Dome,Home,dome,fieldturf,2005111302
+134,2005_10_BAL_JAX,2005,REG,10,2005-11-13,Sunday,13:00,BAL,JAX,3,30,27,Alltel Stadium,Home,outdoors,grass,2005111301
+135,2005_10_NE_MIA,2005,REG,10,2005-11-13,Sunday,13:00,NE,MIA,23,16,-7,Dolphin Stadium,Home,outdoors,grass,2005111305
+136,2005_10_MIN_NYG,2005,REG,10,2005-11-13,Sunday,13:00,MIN,NYG,24,21,-3,Giants Stadium,Home,outdoors,fieldturf,2005111304
+137,2005_10_NYJ_CAR,2005,REG,10,2005-11-13,Sunday,16:05,NYJ,CAR,3,30,27,Bank of America Stadium,Home,outdoors,grass,2005111309
+138,2005_10_DEN_OAK,2005,REG,10,2005-11-13,Sunday,16:05,DEN,OAK,31,17,-14,McAfee Coliseum,Home,outdoors,grass,2005111308
+139,2005_10_GB_ATL,2005,REG,10,2005-11-13,Sunday,16:15,GB,ATL,33,25,-8,Georgia Dome,Home,dome,fieldturf,2005111310
+140,2005_10_STL_SEA,2005,REG,10,2005-11-13,Sunday,16:15,STL,SEA,16,31,15,Qwest Field,Home,outdoors,fieldturf,2005111311
+141,2005_10_WAS_TB,2005,REG,10,2005-11-13,Sunday,16:15,WAS,TB,35,36,1,Raymond James Stadium,Home,outdoors,grass,2005111307
+142,2005_10_CLE_PIT,2005,REG,10,2005-11-13,Sunday,20:30,CLE,PIT,21,34,13,Heinz Field,Home,outdoors,dessograss,2005111312
+143,2005_10_DAL_PHI,2005,REG,10,2005-11-14,Monday,09:00,DAL,PHI,21,20,-1,Lincoln Financial Field,Home,outdoors,grass,2005111400
+144,2005_11_TB_ATL,2005,REG,11,2005-11-20,Sunday,13:00,TB,ATL,30,27,-3,Georgia Dome,Home,dome,fieldturf,2005112009
+145,2005_11_PIT_BAL,2005,REG,11,2005-11-20,Sunday,13:00,PIT,BAL,13,16,3,M&T Bank Stadium,Home,outdoors,sportturf,2005112013
+146,2005_11_CAR_CHI,2005,REG,11,2005-11-20,Sunday,13:00,CAR,CHI,3,13,10,Soldier Field,Home,outdoors,grass,2005112001
+147,2005_11_MIA_CLE,2005,REG,11,2005-11-20,Sunday,13:00,MIA,CLE,0,22,22,Cleveland Browns Stadium,Home,outdoors,grass,2005112005
+148,2005_11_DET_DAL,2005,REG,11,2005-11-20,Sunday,13:00,DET,DAL,7,20,13,Texas Stadium,Home,outdoors,fieldturf,2005112002
+149,2005_11_NO_NE,2005,REG,11,2005-11-20,Sunday,13:00,NO,NE,17,24,7,Gillette Stadium,Home,outdoors,grass,2005112006
+150,2005_11_PHI_NYG,2005,REG,11,2005-11-20,Sunday,13:00,PHI,NYG,17,27,10,Giants Stadium,Home,outdoors,fieldturf,2005112008
+151,2005_11_ARI_STL,2005,REG,11,2005-11-20,Sunday,13:00,ARI,STL,38,28,-10,Edward Jones Dome,Home,dome,fieldturf,2005112000
+152,2005_11_JAX_TEN,2005,REG,11,2005-11-20,Sunday,13:00,JAX,TEN,31,28,-3,The Coliseum,Home,outdoors,grass,2005112004
+153,2005_11_OAK_WAS,2005,REG,11,2005-11-20,Sunday,13:00,OAK,WAS,16,13,-3,FedExField,Home,outdoors,grass,2005112007
+154,2005_11_SEA_SF,2005,REG,11,2005-11-20,Sunday,16:05,SEA,SF,27,25,-2,Monster Park,Home,outdoors,grass,2005112010
+155,2005_11_IND_CIN,2005,REG,11,2005-11-20,Sunday,16:15,IND,CIN,45,37,-8,Paul Brown Stadium,Home,outdoors,fieldturf,2005112003
+156,2005_11_NYJ_DEN,2005,REG,11,2005-11-20,Sunday,16:15,NYJ,DEN,0,27,27,Invesco Field at Mile High,Home,outdoors,grass,2005112012
+157,2005_11_BUF_SD,2005,REG,11,2005-11-20,Sunday,16:15,BUF,SD,10,48,38,Qualcomm Stadium,Home,outdoors,grass,2005112011
+158,2005_11_KC_HOU,2005,REG,11,2005-11-20,Sunday,20:30,KC,HOU,45,17,-28,Reliant Stadium,Home,open,grass,2005112014
+159,2005_11_MIN_GB,2005,REG,11,2005-11-21,Monday,09:00,MIN,GB,20,17,-3,Lambeau Field,Home,outdoors,grass,2005112100
+160,2005_12_ATL_DET,2005,REG,12,2005-11-24,Thursday,12:30,ATL,DET,27,7,-20,Ford Field,Home,dome,fieldturf,2005112400
+161,2005_12_DEN_DAL,2005,REG,12,2005-11-24,Thursday,16:15,DEN,DAL,24,21,-3,Texas Stadium,Home,outdoors,fieldturf,2005112401
+162,2005_12_CAR_BUF,2005,REG,12,2005-11-27,Sunday,13:00,CAR,BUF,13,9,-4,Ralph Wilson Stadium,Home,outdoors,astroplay,2005112701
+163,2005_12_BAL_CIN,2005,REG,12,2005-11-27,Sunday,13:00,BAL,CIN,29,42,13,Paul Brown Stadium,Home,outdoors,fieldturf,2005112700
+164,2005_12_STL_HOU,2005,REG,12,2005-11-27,Sunday,13:00,STL,HOU,33,27,-6,Reliant Stadium,Home,open,grass,2005112707
+165,2005_12_NE_KC,2005,REG,12,2005-11-27,Sunday,13:00,NE,KC,16,26,10,Arrowhead Stadium,Home,outdoors,grass,2005112704
+166,2005_12_CLE_MIN,2005,REG,12,2005-11-27,Sunday,13:00,CLE,MIN,12,24,12,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005112703
+167,2005_12_CHI_TB,2005,REG,12,2005-11-27,Sunday,13:00,CHI,TB,13,10,-3,Raymond James Stadium,Home,outdoors,grass,2005112702
+168,2005_12_SF_TEN,2005,REG,12,2005-11-27,Sunday,13:00,SF,TEN,22,33,11,The Coliseum,Home,outdoors,grass,2005112706
+169,2005_12_SD_WAS,2005,REG,12,2005-11-27,Sunday,13:00,SD,WAS,23,17,-6,FedExField,Home,outdoors,grass,2005112705
+170,2005_12_JAX_ARI,2005,REG,12,2005-11-27,Sunday,16:05,JAX,ARI,24,17,-7,Sun Devil Stadium,Home,outdoors,grass,2005112708
+171,2005_12_MIA_OAK,2005,REG,12,2005-11-27,Sunday,16:05,MIA,OAK,33,21,-12,McAfee Coliseum,Home,outdoors,grass,2005112709
+172,2005_12_GB_PHI,2005,REG,12,2005-11-27,Sunday,16:15,GB,PHI,14,19,5,Lincoln Financial Field,Home,outdoors,grass,2005112710
+173,2005_12_NYG_SEA,2005,REG,12,2005-11-27,Sunday,16:15,NYG,SEA,21,24,3,Qwest Field,Home,outdoors,fieldturf,2005112711
+174,2005_12_NO_NYJ,2005,REG,12,2005-11-27,Sunday,20:30,NO,NYJ,21,19,-2,Giants Stadium,Home,outdoors,fieldturf,2005112712
+175,2005_12_PIT_IND,2005,REG,12,2005-11-28,Monday,09:00,PIT,IND,7,26,19,RCA Dome,Home,dome,fieldturf,2005112800
+176,2005_13_HOU_BAL,2005,REG,13,2005-12-04,Sunday,13:00,HOU,BAL,15,16,1,M&T Bank Stadium,Home,outdoors,sportturf,2005120405
+177,2005_13_ATL_CAR,2005,REG,13,2005-12-04,Sunday,13:00,ATL,CAR,6,24,18,Bank of America Stadium,Home,outdoors,grass,2005120400
+178,2005_13_GB_CHI,2005,REG,13,2005-12-04,Sunday,13:00,GB,CHI,7,19,12,Soldier Field,Home,outdoors,grass,2005120404
+179,2005_13_JAX_CLE,2005,REG,13,2005-12-04,Sunday,13:00,JAX,CLE,20,14,-6,Cleveland Browns Stadium,Home,outdoors,grass,2005120406
+180,2005_13_MIN_DET,2005,REG,13,2005-12-04,Sunday,13:00,MIN,DET,21,16,-5,Ford Field,Home,dome,fieldturf,2005120407
+181,2005_13_TEN_IND,2005,REG,13,2005-12-04,Sunday,13:00,TEN,IND,3,35,32,RCA Dome,Home,dome,fieldturf,2005120409
+182,2005_13_BUF_MIA,2005,REG,13,2005-12-04,Sunday,13:00,BUF,MIA,23,24,1,Dolphin Stadium,Home,outdoors,grass,2005120401
+183,2005_13_TB_NO,2005,REG,13,2005-12-04,Sunday,13:00,TB,NO,10,3,-7,Tiger Stadium (LSU),Home,outdoors,grass,2005120408
+184,2005_13_DAL_NYG,2005,REG,13,2005-12-04,Sunday,13:00,DAL,NYG,10,17,7,Giants Stadium,Home,outdoors,fieldturf,2005120403
+185,2005_13_CIN_PIT,2005,REG,13,2005-12-04,Sunday,13:00,CIN,PIT,38,31,-7,Heinz Field,Home,outdoors,dessograss,2005120402
+186,2005_13_ARI_SF,2005,REG,13,2005-12-04,Sunday,16:05,ARI,SF,17,10,-7,Monster Park,Home,outdoors,grass,2005120410
+187,2005_13_WAS_STL,2005,REG,13,2005-12-04,Sunday,16:05,WAS,STL,24,9,-15,Edward Jones Dome,Home,dome,fieldturf,2005120411
+188,2005_13_DEN_KC,2005,REG,13,2005-12-04,Sunday,16:15,DEN,KC,27,31,4,Arrowhead Stadium,Home,outdoors,grass,2005120412
+189,2005_13_NYJ_NE,2005,REG,13,2005-12-04,Sunday,16:15,NYJ,NE,3,16,13,Gillette Stadium,Home,outdoors,grass,2005120413
+190,2005_13_OAK_SD,2005,REG,13,2005-12-04,Sunday,20:30,OAK,SD,10,34,24,Qualcomm Stadium,Home,outdoors,grass,2005120414
+191,2005_13_SEA_PHI,2005,REG,13,2005-12-05,Monday,09:00,SEA,PHI,42,0,-42,Lincoln Financial Field,Home,outdoors,grass,2005120500
+192,2005_14_NE_BUF,2005,REG,14,2005-12-11,Sunday,13:00,NE,BUF,35,7,-28,Ralph Wilson Stadium,Home,outdoors,astroplay,2005121104
+193,2005_14_TB_CAR,2005,REG,14,2005-12-11,Sunday,13:00,TB,CAR,20,10,-10,Bank of America Stadium,Home,outdoors,grass,2005121107
+194,2005_14_CLE_CIN,2005,REG,14,2005-12-11,Sunday,13:00,CLE,CIN,20,23,3,Paul Brown Stadium,Home,outdoors,fieldturf,2005121101
+195,2005_14_IND_JAX,2005,REG,14,2005-12-11,Sunday,13:00,IND,JAX,26,18,-8,Alltel Stadium,Home,outdoors,grass,2005121103
+196,2005_14_STL_MIN,2005,REG,14,2005-12-11,Sunday,13:00,STL,MIN,13,27,14,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005121106
+197,2005_14_OAK_NYJ,2005,REG,14,2005-12-11,Sunday,13:00,OAK,NYJ,10,26,16,Giants Stadium,Home,outdoors,fieldturf,2005121105
+198,2005_14_CHI_PIT,2005,REG,14,2005-12-11,Sunday,13:00,CHI,PIT,9,21,12,Heinz Field,Home,outdoors,dessograss,2005121100
+199,2005_14_HOU_TEN,2005,REG,14,2005-12-11,Sunday,13:00,HOU,TEN,10,13,3,The Coliseum,Home,outdoors,grass,2005121102
+200,2005_14_WAS_ARI,2005,REG,14,2005-12-11,Sunday,16:05,WAS,ARI,17,13,-4,Sun Devil Stadium,Home,outdoors,grass,2005121110
+201,2005_14_NYG_PHI,2005,REG,14,2005-12-11,Sunday,16:05,NYG,PHI,26,23,-3,Lincoln Financial Field,Home,outdoors,grass,2005121108
+202,2005_14_SF_SEA,2005,REG,14,2005-12-11,Sunday,16:05,SF,SEA,3,41,38,Qwest Field,Home,outdoors,fieldturf,2005121109
+203,2005_14_KC_DAL,2005,REG,14,2005-12-11,Sunday,16:15,KC,DAL,28,31,3,Texas Stadium,Home,outdoors,fieldturf,2005121112
+204,2005_14_BAL_DEN,2005,REG,14,2005-12-11,Sunday,16:15,BAL,DEN,10,12,2,Invesco Field at Mile High,Home,outdoors,grass,2005121111
+205,2005_14_MIA_SD,2005,REG,14,2005-12-11,Sunday,16:15,MIA,SD,23,21,-2,Qualcomm Stadium,Home,outdoors,grass,2005121113
+206,2005_14_DET_GB,2005,REG,14,2005-12-11,Sunday,20:30,DET,GB,13,16,3,Lambeau Field,Home,outdoors,grass,2005121114
+207,2005_14_NO_ATL,2005,REG,14,2005-12-12,Monday,09:00,NO,ATL,17,36,19,Georgia Dome,Home,dome,fieldturf,2005121200
+208,2005_15_TB_NE,2005,REG,15,2005-12-17,Saturday,13:30,TB,NE,0,28,28,Gillette Stadium,Home,outdoors,grass,2005121700
+209,2005_15_KC_NYG,2005,REG,15,2005-12-17,Saturday,17:00,KC,NYG,17,27,10,Giants Stadium,Home,outdoors,fieldturf,2005121701
+210,2005_15_DEN_BUF,2005,REG,15,2005-12-17,Saturday,20:30,DEN,BUF,28,17,-11,Ralph Wilson Stadium,Home,outdoors,astroplay,2005121702
+211,2005_15_ARI_HOU,2005,REG,15,2005-12-18,Sunday,13:00,ARI,HOU,19,30,11,Reliant Stadium,Home,closed,grass,2005121800
+212,2005_15_SD_IND,2005,REG,15,2005-12-18,Sunday,13:00,SD,IND,26,17,-9,RCA Dome,Home,dome,fieldturf,2005121805
+213,2005_15_SF_JAX,2005,REG,15,2005-12-18,Sunday,13:00,SF,JAX,9,10,1,Alltel Stadium,Home,outdoors,grass,2005121807
+214,2005_15_NYJ_MIA,2005,REG,15,2005-12-18,Sunday,13:00,NYJ,MIA,20,24,4,Dolphin Stadium,Home,outdoors,grass,2005121803
+215,2005_15_PIT_MIN,2005,REG,15,2005-12-18,Sunday,13:00,PIT,MIN,18,3,-15,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2005121804
+216,2005_15_CAR_NO,2005,REG,15,2005-12-18,Sunday,13:00,CAR,NO,27,10,-17,Tiger Stadium (LSU),Home,outdoors,grass,2005121801
+217,2005_15_PHI_STL,2005,REG,15,2005-12-18,Sunday,13:00,PHI,STL,17,16,-1,Edward Jones Dome,Home,dome,fieldturf,2005121810
+218,2005_15_SEA_TEN,2005,REG,15,2005-12-18,Sunday,13:00,SEA,TEN,28,24,-4,The Coliseum,Home,outdoors,grass,2005121806
+219,2005_15_CIN_DET,2005,REG,15,2005-12-18,Sunday,16:05,CIN,DET,41,17,-24,Ford Field,Home,dome,fieldturf,2005121808
+220,2005_15_CLE_OAK,2005,REG,15,2005-12-18,Sunday,16:05,CLE,OAK,9,7,-2,McAfee Coliseum,Home,outdoors,grass,2005121809
+221,2005_15_DAL_WAS,2005,REG,15,2005-12-18,Sunday,16:15,DAL,WAS,7,35,28,FedExField,Home,outdoors,grass,2005121802
+222,2005_15_ATL_CHI,2005,REG,15,2005-12-18,Sunday,20:30,ATL,CHI,3,16,13,Soldier Field,Home,outdoors,grass,2005121811
+223,2005_15_GB_BAL,2005,REG,15,2005-12-19,Monday,09:00,GB,BAL,3,48,45,M&T Bank Stadium,Home,outdoors,sportturf,2005121900
+224,2005_16_DAL_CAR,2005,REG,16,2005-12-24,Saturday,13:00,DAL,CAR,24,20,-4,Bank of America Stadium,Home,outdoors,grass,2005122402
+225,2005_16_BUF_CIN,2005,REG,16,2005-12-24,Saturday,13:00,BUF,CIN,37,27,-10,Paul Brown Stadium,Home,outdoors,fieldturf,2005122401
+226,2005_16_PIT_CLE,2005,REG,16,2005-12-24,Saturday,13:00,PIT,CLE,41,0,-41,Cleveland Browns Stadium,Home,outdoors,grass,2005122406
+227,2005_16_JAX_HOU,2005,REG,16,2005-12-24,Saturday,13:00,JAX,HOU,38,20,-18,Reliant Stadium,Home,open,grass,2005122404
+228,2005_16_SD_KC,2005,REG,16,2005-12-24,Saturday,13:00,SD,KC,7,20,13,Arrowhead Stadium,Home,outdoors,grass,2005122407
+229,2005_16_TEN_MIA,2005,REG,16,2005-12-24,Saturday,13:00,TEN,MIA,10,24,14,Dolphin Stadium,Home,outdoors,grass,2005122409
+230,2005_16_DET_NO,2005,REG,16,2005-12-24,Saturday,13:00,DET,NO,13,12,-1,Alamo Dome,Home,dome,fieldturf,2005122403
+231,2005_16_SF_STL,2005,REG,16,2005-12-24,Saturday,13:00,SF,STL,24,20,-4,Edward Jones Dome,Home,dome,fieldturf,2005122408
+232,2005_16_ATL_TB,2005,REG,16,2005-12-24,Saturday,13:00,ATL,TB,24,27,3,Raymond James Stadium,Home,outdoors,grass,2005122400
+233,2005_16_NYG_WAS,2005,REG,16,2005-12-24,Saturday,13:00,NYG,WAS,20,35,15,FedExField,Home,outdoors,grass,2005122405
+234,2005_16_PHI_ARI,2005,REG,16,2005-12-24,Saturday,16:05,PHI,ARI,21,27,6,Sun Devil Stadium,Home,outdoors,grass,2005122410
+235,2005_16_OAK_DEN,2005,REG,16,2005-12-24,Saturday,16:15,OAK,DEN,3,22,19,Invesco Field at Mile High,Home,outdoors,grass,2005122412
+236,2005_16_IND_SEA,2005,REG,16,2005-12-24,Saturday,16:15,IND,SEA,13,28,15,Qwest Field,Home,outdoors,fieldturf,2005122411
+237,2005_16_CHI_GB,2005,REG,16,2005-12-25,Sunday,17:00,CHI,GB,24,17,-7,Lambeau Field,Home,outdoors,grass,2005122500
+238,2005_16_MIN_BAL,2005,REG,16,2005-12-25,Sunday,20:30,MIN,BAL,23,30,7,M&T Bank Stadium,Home,outdoors,sportturf,2005122501
+239,2005_16_NE_NYJ,2005,REG,16,2005-12-26,Monday,09:00,NE,NYJ,31,21,-10,Giants Stadium,Home,outdoors,fieldturf,2005122600
+240,2005_17_DEN_SD,2005,REG,17,2005-12-31,Saturday,16:30,DEN,SD,23,7,-16,Qualcomm Stadium,Home,outdoors,grass,2005123100
+241,2005_17_NYG_OAK,2005,REG,17,2005-12-31,Saturday,20:00,NYG,OAK,30,21,-9,McAfee Coliseum,Home,outdoors,grass,2005123101
+242,2005_17_CAR_ATL,2005,REG,17,2006-01-01,Sunday,13:00,CAR,ATL,44,11,-33,Georgia Dome,Home,dome,fieldturf,2006010103
+243,2005_17_BAL_CLE,2005,REG,17,2006-01-01,Sunday,13:00,BAL,CLE,16,20,4,Cleveland Browns Stadium,Home,outdoors,grass,2006010101
+244,2005_17_SEA_GB,2005,REG,17,2006-01-01,Sunday,13:00,SEA,GB,17,23,6,Lambeau Field,Home,outdoors,grass,2006010111
+245,2005_17_ARI_IND,2005,REG,17,2006-01-01,Sunday,13:00,ARI,IND,13,17,4,RCA Dome,Home,dome,fieldturf,2006010100
+246,2005_17_CIN_KC,2005,REG,17,2006-01-01,Sunday,13:00,CIN,KC,3,37,34,Arrowhead Stadium,Home,outdoors,grass,2006010105
+247,2005_17_MIA_NE,2005,REG,17,2006-01-01,Sunday,13:00,MIA,NE,28,26,-2,Gillette Stadium,Home,outdoors,grass,2006010107
+248,2005_17_BUF_NYJ,2005,REG,17,2006-01-01,Sunday,13:00,BUF,NYJ,26,30,4,Giants Stadium,Home,outdoors,fieldturf,2006010102
+249,2005_17_DET_PIT,2005,REG,17,2006-01-01,Sunday,13:00,DET,PIT,21,35,14,Heinz Field,Home,outdoors,dessograss,2006010106
+250,2005_17_NO_TB,2005,REG,17,2006-01-01,Sunday,13:00,NO,TB,13,27,14,Raymond James Stadium,Home,outdoors,grass,2006010108
+251,2005_17_TEN_JAX,2005,REG,17,2006-01-01,Sunday,16:05,TEN,JAX,13,40,27,Alltel Stadium,Home,outdoors,grass,2006010110
+252,2005_17_HOU_SF,2005,REG,17,2006-01-01,Sunday,16:05,HOU,SF,17,20,3,Monster Park,Home,outdoors,grass,2006010109
+253,2005_17_CHI_MIN,2005,REG,17,2006-01-01,Sunday,16:15,CHI,MIN,10,34,24,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2006010104
+254,2005_17_WAS_PHI,2005,REG,17,2006-01-01,Sunday,16:15,WAS,PHI,31,20,-11,Lincoln Financial Field,Home,outdoors,grass,2006010112
+255,2005_17_STL_DAL,2005,REG,17,2006-01-01,Sunday,20:30,STL,DAL,20,10,-10,Texas Stadium,Home,outdoors,fieldturf,2006010113
+256,2005_18_WAS_TB,2005,WC,18,2006-01-07,Saturday,16:30,WAS,TB,17,10,-7,Raymond James Stadium,Home,outdoors,grass,2006010701
+257,2005_18_JAX_NE,2005,WC,18,2006-01-07,Saturday,20:00,JAX,NE,3,28,25,Gillette Stadium,Home,outdoors,grass,2006010700
+258,2005_18_CAR_NYG,2005,WC,18,2006-01-08,Sunday,13:00,CAR,NYG,23,0,-23,Giants Stadium,Home,outdoors,fieldturf,2006010801
+259,2005_18_PIT_CIN,2005,WC,18,2006-01-08,Sunday,16:30,PIT,CIN,31,17,-14,Paul Brown Stadium,Home,outdoors,fieldturf,2006010800
+260,2005_19_WAS_SEA,2005,DIV,19,2006-01-14,Saturday,16:30,WAS,SEA,10,20,10,Qwest Field,Home,outdoors,fieldturf,2006011400
+261,2005_19_NE_DEN,2005,DIV,19,2006-01-14,Saturday,20:00,NE,DEN,13,27,14,Invesco Field at Mile High,Home,outdoors,grass,2006011401
+262,2005_19_PIT_IND,2005,DIV,19,2006-01-15,Sunday,13:00,PIT,IND,21,18,-3,RCA Dome,Home,dome,fieldturf,2006011500
+263,2005_19_CAR_CHI,2005,DIV,19,2006-01-15,Sunday,16:30,CAR,CHI,29,21,-8,Soldier Field,Home,outdoors,grass,2006011501
+264,2005_20_PIT_DEN,2005,CON,20,2006-01-22,Sunday,15:00,PIT,DEN,34,17,-17,Invesco Field at Mile High,Home,outdoors,grass,2006012200
+265,2005_20_CAR_SEA,2005,CON,20,2006-01-22,Sunday,18:30,CAR,SEA,14,34,20,Qwest Field,Home,outdoors,fieldturf,2006012201
+266,2005_21_SEA_PIT,2005,SB,21,2006-02-05,Sunday,18:30,SEA,PIT,10,21,11,Ford Field,Neutral,dome,fieldturf,2006020500

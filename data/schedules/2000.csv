@@ -1,0 +1,260 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2000_01_SF_ATL,2000,REG,1,2000-09-03,Sunday,13:00,SF,ATL,28,36,8,Georgia Dome,Home,dome,astroturf,2000090310
+1,2000_01_JAX_CLE,2000,REG,1,2000-09-03,Sunday,13:00,JAX,CLE,27,7,-20,Cleveland Browns Stadium,Home,outdoors,grass,2000090306
+2,2000_01_IND_KC,2000,REG,1,2000-09-03,Sunday,13:00,IND,KC,27,14,-13,Arrowhead Stadium,Home,outdoors,grass,2000090305
+3,2000_01_CHI_MIN,2000,REG,1,2000-09-03,Sunday,13:00,CHI,MIN,27,30,3,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000090303
+4,2000_01_TB_NE,2000,REG,1,2000-09-03,Sunday,13:00,TB,NE,21,16,-5,Foxboro Stadium,Home,outdoors,grass,2000090312
+5,2000_01_DET_NO,2000,REG,1,2000-09-03,Sunday,13:00,DET,NO,14,10,-4,Louisiana Superdome,Home,dome,astroturf,2000090304
+6,2000_01_ARI_NYG,2000,REG,1,2000-09-03,Sunday,13:00,ARI,NYG,16,21,5,Giants Stadium,Home,outdoors,grass,2000090300
+7,2000_01_BAL_PIT,2000,REG,1,2000-09-03,Sunday,13:00,BAL,PIT,16,0,-16,Three Rivers Stadium,Home,outdoors,astroturf,2000090301
+8,2000_01_CAR_WAS,2000,REG,1,2000-09-03,Sunday,13:00,CAR,WAS,17,20,3,FedExField,Home,outdoors,grass,2000090302
+9,2000_01_PHI_DAL,2000,REG,1,2000-09-03,Sunday,16:05,PHI,DAL,41,14,-27,Texas Stadium,Home,outdoors,astroturf,2000090308
+10,2000_01_NYJ_GB,2000,REG,1,2000-09-03,Sunday,16:15,NYJ,GB,20,16,-4,Lambeau Field,Home,outdoors,grass,2000090307
+11,2000_01_SEA_MIA,2000,REG,1,2000-09-03,Sunday,16:15,SEA,MIA,0,23,23,Pro Player Stadium,Home,outdoors,grass,2000090311
+12,2000_01_SD_OAK,2000,REG,1,2000-09-03,Sunday,16:15,SD,OAK,6,9,3,Network Associates Coliseum,Home,outdoors,grass,2000090309
+13,2000_01_TEN_BUF,2000,REG,1,2000-09-03,Sunday,20:20,TEN,BUF,13,16,3,Ralph Wilson Stadium,Home,outdoors,astroturf,2000090313
+14,2000_01_DEN_STL,2000,REG,1,2000-09-04,Monday,09:00,DEN,STL,36,41,5,TWA Dome,Home,dome,astroturf,2000090400
+15,2000_02_OAK_IND,2000,REG,2,2000-09-10,Sunday,12:00,OAK,IND,38,31,-7,RCA Dome,Home,dome,astroturf,2000091010
+16,2000_02_JAX_BAL,2000,REG,2,2000-09-10,Sunday,13:00,JAX,BAL,36,39,3,PSINet Stadium,Home,outdoors,grass,2000091005
+17,2000_02_GB_BUF,2000,REG,2,2000-09-10,Sunday,13:00,GB,BUF,18,27,9,Ralph Wilson Stadium,Home,outdoors,astroturf,2000091004
+18,2000_02_CLE_CIN,2000,REG,2,2000-09-10,Sunday,13:00,CLE,CIN,24,7,-17,Paul Brown Stadium,Home,outdoors,grass,2000091003
+19,2000_02_MIA_MIN,2000,REG,2,2000-09-10,Sunday,13:00,MIA,MIN,7,13,6,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000091007
+20,2000_02_NYG_PHI,2000,REG,2,2000-09-10,Sunday,13:00,NYG,PHI,33,18,-15,Veterans Stadium,Home,outdoors,astroturf,2000091009
+21,2000_02_CHI_TB,2000,REG,2,2000-09-10,Sunday,13:00,CHI,TB,0,41,41,Raymond James Stadium,Home,outdoors,grass,2000091002
+22,2000_02_KC_TEN,2000,REG,2,2000-09-10,Sunday,13:00,KC,TEN,14,17,3,Adelphia Coliseum,Home,outdoors,grass,2000091006
+23,2000_02_ATL_DEN,2000,REG,2,2000-09-10,Sunday,16:15,ATL,DEN,14,42,28,Mile High Stadium,Home,outdoors,grass,2000091000
+24,2000_02_WAS_DET,2000,REG,2,2000-09-10,Sunday,16:15,WAS,DET,10,15,5,Pontiac Silverdome,Home,dome,astroturf,2000091012
+25,2000_02_NO_SD,2000,REG,2,2000-09-10,Sunday,16:15,NO,SD,28,27,-1,Qualcomm Stadium,Home,outdoors,grass,2000091008
+26,2000_02_STL_SEA,2000,REG,2,2000-09-10,Sunday,16:15,STL,SEA,37,34,-3,Husky Stadium,Home,outdoors,fieldturf,2000091011
+27,2000_02_CAR_SF,2000,REG,2,2000-09-10,Sunday,16:15,CAR,SF,38,22,-16,3Com Park,Home,outdoors,grass,2000091001
+28,2000_02_DAL_ARI,2000,REG,2,2000-09-10,Sunday,20:20,DAL,ARI,31,32,1,Sun Devil Stadium,Home,outdoors,grass,2000091013
+29,2000_02_NE_NYJ,2000,REG,2,2000-09-11,Monday,09:00,NE,NYJ,19,20,1,Giants Stadium,Home,outdoors,grass,2000091100
+30,2000_03_ATL_CAR,2000,REG,3,2000-09-17,Sunday,13:00,ATL,CAR,15,10,-5,Ericsson Stadium,Home,outdoors,grass,2000091700
+31,2000_03_PIT_CLE,2000,REG,3,2000-09-17,Sunday,13:00,PIT,CLE,20,23,3,Cleveland Browns Stadium,Home,outdoors,grass,2000091708
+32,2000_03_TB_DET,2000,REG,3,2000-09-17,Sunday,13:00,TB,DET,31,10,-21,Pontiac Silverdome,Home,dome,astroturf,2000091711
+33,2000_03_PHI_GB,2000,REG,3,2000-09-17,Sunday,13:00,PHI,GB,3,6,3,Lambeau Field,Home,outdoors,grass,2000091707
+34,2000_03_CIN_JAX,2000,REG,3,2000-09-17,Sunday,13:00,CIN,JAX,0,13,13,Alltel Stadium,Home,outdoors,grass,2000091702
+35,2000_03_SD_KC,2000,REG,3,2000-09-17,Sunday,13:00,SD,KC,10,42,32,Arrowhead Stadium,Home,outdoors,grass,2000091709
+36,2000_03_BUF_NYJ,2000,REG,3,2000-09-17,Sunday,13:00,BUF,NYJ,14,27,13,Giants Stadium,Home,outdoors,grass,2000091701
+37,2000_03_SF_STL,2000,REG,3,2000-09-17,Sunday,13:00,SF,STL,24,41,17,TWA Dome,Home,dome,astroturf,2000091710
+38,2000_03_DEN_OAK,2000,REG,3,2000-09-17,Sunday,16:05,DEN,OAK,33,24,-9,Network Associates Coliseum,Home,outdoors,grass,2000091703
+39,2000_03_NYG_CHI,2000,REG,3,2000-09-17,Sunday,16:15,NYG,CHI,14,7,-7,Soldier Field,Home,outdoors,grass,2000091706
+40,2000_03_MIN_NE,2000,REG,3,2000-09-17,Sunday,16:15,MIN,NE,21,13,-8,Foxboro Stadium,Home,outdoors,grass,2000091704
+41,2000_03_NO_SEA,2000,REG,3,2000-09-17,Sunday,16:15,NO,SEA,10,20,10,Husky Stadium,Home,outdoors,fieldturf,2000091705
+42,2000_03_BAL_MIA,2000,REG,3,2000-09-17,Sunday,20:20,BAL,MIA,6,19,13,Pro Player Stadium,Home,outdoors,grass,2000091712
+43,2000_03_DAL_WAS,2000,REG,3,2000-09-18,Monday,09:00,DAL,WAS,27,21,-6,FedExField,Home,outdoors,grass,2000091800
+44,2000_04_STL_ATL,2000,REG,4,2000-09-24,Sunday,13:00,STL,ATL,41,20,-21,Georgia Dome,Home,dome,astroturf,2000092408
+45,2000_04_CIN_BAL,2000,REG,4,2000-09-24,Sunday,13:00,CIN,BAL,0,37,37,PSINet Stadium,Home,outdoors,grass,2000092400
+46,2000_04_DET_CHI,2000,REG,4,2000-09-24,Sunday,13:00,DET,CHI,21,14,-7,Soldier Field,Home,outdoors,grass,2000092402
+47,2000_04_SF_DAL,2000,REG,4,2000-09-24,Sunday,13:00,SF,DAL,41,24,-17,Texas Stadium,Home,outdoors,astroturf,2000092409
+48,2000_04_NE_MIA,2000,REG,4,2000-09-24,Sunday,13:00,NE,MIA,3,10,7,Pro Player Stadium,Home,outdoors,grass,2000092405
+49,2000_04_PHI_NO,2000,REG,4,2000-09-24,Sunday,13:00,PHI,NO,21,7,-14,Louisiana Superdome,Home,dome,astroturf,2000092407
+50,2000_04_TEN_PIT,2000,REG,4,2000-09-24,Sunday,13:00,TEN,PIT,23,20,-3,Three Rivers Stadium,Home,outdoors,astroturf,2000092411
+51,2000_04_GB_ARI,2000,REG,4,2000-09-24,Sunday,15:05,GB,ARI,29,3,-26,Sun Devil Stadium,Home,outdoors,grass,2000092403
+52,2000_04_KC_DEN,2000,REG,4,2000-09-24,Sunday,16:15,KC,DEN,23,22,-1,Mile High Stadium,Home,outdoors,grass,2000092404
+53,2000_04_CLE_OAK,2000,REG,4,2000-09-24,Sunday,16:15,CLE,OAK,10,36,26,Network Associates Coliseum,Home,outdoors,grass,2000092401
+54,2000_04_SEA_SD,2000,REG,4,2000-09-24,Sunday,16:15,SEA,SD,20,12,-8,Qualcomm Stadium,Home,outdoors,grass,2000092410
+55,2000_04_NYJ_TB,2000,REG,4,2000-09-24,Sunday,16:15,NYJ,TB,21,17,-4,Raymond James Stadium,Home,outdoors,grass,2000092406
+56,2000_04_WAS_NYG,2000,REG,4,2000-09-24,Sunday,20:20,WAS,NYG,16,6,-10,Giants Stadium,Home,outdoors,grass,2000092412
+57,2000_04_JAX_IND,2000,REG,4,2000-09-25,Monday,09:00,JAX,IND,14,43,29,RCA Dome,Home,dome,astroturf,2000092500
+58,2000_05_IND_BUF,2000,REG,5,2000-10-01,Sunday,13:00,IND,BUF,18,16,-2,Ralph Wilson Stadium,Home,outdoors,astroturf,2000100104
+59,2000_05_DAL_CAR,2000,REG,5,2000-10-01,Sunday,13:00,DAL,CAR,16,13,-3,Ericsson Stadium,Home,outdoors,grass,2000100103
+60,2000_05_BAL_CLE,2000,REG,5,2000-10-01,Sunday,13:00,BAL,CLE,12,0,-12,Cleveland Browns Stadium,Home,outdoors,grass,2000100101
+61,2000_05_MIN_DET,2000,REG,5,2000-10-01,Sunday,13:00,MIN,DET,31,24,-7,Pontiac Silverdome,Home,dome,astroturf,2000100106
+62,2000_05_PIT_JAX,2000,REG,5,2000-10-01,Sunday,13:00,PIT,JAX,24,13,-11,Alltel Stadium,Home,outdoors,grass,2000100109
+63,2000_05_SD_STL,2000,REG,5,2000-10-01,Sunday,13:00,SD,STL,31,57,26,TWA Dome,Home,dome,astroturf,2000100110
+64,2000_05_NYG_TEN,2000,REG,5,2000-10-01,Sunday,13:00,NYG,TEN,14,28,14,Adelphia Coliseum,Home,outdoors,grass,2000100108
+65,2000_05_MIA_CIN,2000,REG,5,2000-10-01,Sunday,16:05,MIA,CIN,31,16,-15,Paul Brown Stadium,Home,outdoors,grass,2000100105
+66,2000_05_NE_DEN,2000,REG,5,2000-10-01,Sunday,16:05,NE,DEN,28,19,-9,Mile High Stadium,Home,outdoors,grass,2000100107
+67,2000_05_CHI_GB,2000,REG,5,2000-10-01,Sunday,16:15,CHI,GB,27,24,-3,Lambeau Field,Home,outdoors,grass,2000100102
+68,2000_05_ARI_SF,2000,REG,5,2000-10-01,Sunday,16:15,ARI,SF,20,27,7,3Com Park,Home,outdoors,grass,2000100100
+69,2000_05_TB_WAS,2000,REG,5,2000-10-01,Sunday,16:15,TB,WAS,17,20,3,FedExField,Home,outdoors,grass,2000100111
+70,2000_05_ATL_PHI,2000,REG,5,2000-10-01,Sunday,20:20,ATL,PHI,10,38,28,Veterans Stadium,Home,outdoors,astroturf,2000100112
+71,2000_05_SEA_KC,2000,REG,5,2000-10-02,Monday,09:00,SEA,KC,17,24,7,Arrowhead Stadium,Home,outdoors,grass,2000100200
+72,2000_06_NO_CHI,2000,REG,6,2000-10-08,Sunday,13:00,NO,CHI,31,10,-21,Soldier Field,Home,outdoors,grass,2000100805
+73,2000_06_TEN_CIN,2000,REG,6,2000-10-08,Sunday,13:00,TEN,CIN,23,14,-9,Paul Brown Stadium,Home,outdoors,grass,2000100810
+74,2000_06_GB_DET,2000,REG,6,2000-10-08,Sunday,13:00,GB,DET,24,31,7,Pontiac Silverdome,Home,dome,astroturf,2000100803
+75,2000_06_BUF_MIA,2000,REG,6,2000-10-08,Sunday,13:00,BUF,MIA,13,22,9,Pro Player Stadium,Home,outdoors,grass,2000100800
+76,2000_06_IND_NE,2000,REG,6,2000-10-08,Sunday,13:00,IND,NE,16,24,8,Foxboro Stadium,Home,outdoors,grass,2000100804
+77,2000_06_PIT_NYJ,2000,REG,6,2000-10-08,Sunday,13:00,PIT,NYJ,20,3,-17,Giants Stadium,Home,outdoors,grass,2000100808
+78,2000_06_WAS_PHI,2000,REG,6,2000-10-08,Sunday,13:00,WAS,PHI,17,14,-3,Veterans Stadium,Home,outdoors,astroturf,2000100811
+79,2000_06_CLE_ARI,2000,REG,6,2000-10-08,Sunday,15:15,CLE,ARI,21,29,8,Sun Devil Stadium,Home,outdoors,grass,2000100801
+80,2000_06_NYG_ATL,2000,REG,6,2000-10-08,Sunday,16:05,NYG,ATL,13,6,-7,Georgia Dome,Home,dome,astroturf,2000100806
+81,2000_06_SEA_CAR,2000,REG,6,2000-10-08,Sunday,16:15,SEA,CAR,3,26,23,Ericsson Stadium,Home,outdoors,grass,2000100809
+82,2000_06_DEN_SD,2000,REG,6,2000-10-08,Sunday,16:15,DEN,SD,21,7,-14,Qualcomm Stadium,Home,outdoors,grass,2000100802
+83,2000_06_OAK_SF,2000,REG,6,2000-10-08,Sunday,16:15,OAK,SF,34,28,-6,3Com Park,Home,outdoors,grass,2000100807
+84,2000_06_BAL_JAX,2000,REG,6,2000-10-08,Sunday,20:20,BAL,JAX,15,10,-5,Alltel Stadium,Home,outdoors,grass,2000100812
+85,2000_06_TB_MIN,2000,REG,6,2000-10-09,Monday,09:00,TB,MIN,23,30,7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000100900
+86,2000_07_SD_BUF,2000,REG,7,2000-10-15,Sunday,13:00,SD,BUF,24,27,3,Ralph Wilson Stadium,Home,outdoors,astroturf,2000101510
+87,2000_07_OAK_KC,2000,REG,7,2000-10-15,Sunday,13:00,OAK,KC,20,17,-3,Arrowhead Stadium,Home,outdoors,grass,2000101508
+88,2000_07_CAR_NO,2000,REG,7,2000-10-15,Sunday,13:00,CAR,NO,6,24,18,Louisiana Superdome,Home,dome,astroturf,2000101502
+89,2000_07_DAL_NYG,2000,REG,7,2000-10-15,Sunday,13:00,DAL,NYG,14,19,5,Giants Stadium,Home,outdoors,grass,2000101505
+90,2000_07_CIN_PIT,2000,REG,7,2000-10-15,Sunday,13:00,CIN,PIT,0,15,15,Three Rivers Stadium,Home,outdoors,astroturf,2000101503
+91,2000_07_ATL_STL,2000,REG,7,2000-10-15,Sunday,13:00,ATL,STL,29,45,16,TWA Dome,Home,dome,astroturf,2000101500
+92,2000_07_BAL_WAS,2000,REG,7,2000-10-15,Sunday,13:00,BAL,WAS,3,10,7,FedExField,Home,outdoors,grass,2000101501
+93,2000_07_PHI_ARI,2000,REG,7,2000-10-15,Sunday,15:15,PHI,ARI,33,14,-19,Sun Devil Stadium,Home,outdoors,grass,2000101509
+94,2000_07_CLE_DEN,2000,REG,7,2000-10-15,Sunday,16:05,CLE,DEN,10,44,34,Mile High Stadium,Home,outdoors,grass,2000101504
+95,2000_07_NYJ_NE,2000,REG,7,2000-10-15,Sunday,16:05,NYJ,NE,34,17,-17,Foxboro Stadium,Home,outdoors,grass,2000101507
+96,2000_07_IND_SEA,2000,REG,7,2000-10-15,Sunday,16:05,IND,SEA,37,24,-13,Husky Stadium,Home,outdoors,fieldturf,2000101506
+97,2000_07_SF_GB,2000,REG,7,2000-10-15,Sunday,16:15,SF,GB,28,31,3,Lambeau Field,Home,outdoors,grass,2000101511
+98,2000_07_MIN_CHI,2000,REG,7,2000-10-15,Sunday,20:20,MIN,CHI,28,16,-12,Soldier Field,Home,outdoors,grass,2000101512
+99,2000_07_JAX_TEN,2000,REG,7,2000-10-16,Monday,09:00,JAX,TEN,13,27,14,Adelphia Coliseum,Home,outdoors,grass,2000101600
+100,2000_08_DET_TB,2000,REG,8,2000-10-19,Thursday,20:20,DET,TB,28,14,-14,Raymond James Stadium,Home,outdoors,grass,2000101900
+101,2000_08_NE_IND,2000,REG,8,2000-10-22,Sunday,12:00,NE,IND,23,30,7,RCA Dome,Home,dome,astroturf,2000102205
+102,2000_08_NO_ATL,2000,REG,8,2000-10-22,Sunday,13:00,NO,ATL,21,19,-2,Georgia Dome,Home,dome,astroturf,2000102206
+103,2000_08_TEN_BAL,2000,REG,8,2000-10-22,Sunday,13:00,TEN,BAL,14,6,-8,PSINet Stadium,Home,outdoors,grass,2000102210
+104,2000_08_SF_CAR,2000,REG,8,2000-10-22,Sunday,13:00,SF,CAR,16,34,18,Ericsson Stadium,Home,outdoors,grass,2000102208
+105,2000_08_DEN_CIN,2000,REG,8,2000-10-22,Sunday,13:00,DEN,CIN,21,31,10,Paul Brown Stadium,Home,outdoors,grass,2000102204
+106,2000_08_ARI_DAL,2000,REG,8,2000-10-22,Sunday,13:00,ARI,DAL,7,48,41,Texas Stadium,Home,outdoors,astroturf,2000102200
+107,2000_08_STL_KC,2000,REG,8,2000-10-22,Sunday,13:00,STL,KC,34,54,20,Arrowhead Stadium,Home,outdoors,grass,2000102207
+108,2000_08_BUF_MIN,2000,REG,8,2000-10-22,Sunday,13:00,BUF,MIN,27,31,4,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000102201
+109,2000_08_CHI_PHI,2000,REG,8,2000-10-22,Sunday,13:00,CHI,PHI,9,13,4,Veterans Stadium,Home,outdoors,astroturf,2000102202
+110,2000_08_SEA_OAK,2000,REG,8,2000-10-22,Sunday,16:05,SEA,OAK,3,31,28,Network Associates Coliseum,Home,outdoors,grass,2000102209
+111,2000_08_CLE_PIT,2000,REG,8,2000-10-22,Sunday,16:05,CLE,PIT,0,22,22,Three Rivers Stadium,Home,outdoors,astroturf,2000102203
+112,2000_08_WAS_JAX,2000,REG,8,2000-10-22,Sunday,16:15,WAS,JAX,35,16,-19,Alltel Stadium,Home,outdoors,grass,2000102211
+113,2000_08_MIA_NYJ,2000,REG,8,2000-10-23,Monday,09:00,MIA,NYJ,37,40,3,Giants Stadium,Home,outdoors,grass,2000102300
+114,2000_09_CAR_ATL,2000,REG,9,2000-10-29,Sunday,13:00,CAR,ATL,12,13,1,Georgia Dome,Home,dome,astroturf,2000102900
+115,2000_09_PIT_BAL,2000,REG,9,2000-10-29,Sunday,13:00,PIT,BAL,9,6,-3,PSINet Stadium,Home,outdoors,grass,2000102910
+116,2000_09_NYJ_BUF,2000,REG,9,2000-10-29,Sunday,13:00,NYJ,BUF,20,23,3,Ralph Wilson Stadium,Home,outdoors,astroturf,2000102908
+117,2000_09_CIN_CLE,2000,REG,9,2000-10-29,Sunday,13:00,CIN,CLE,12,3,-9,Cleveland Browns Stadium,Home,outdoors,grass,2000102901
+118,2000_09_DET_IND,2000,REG,9,2000-10-29,Sunday,13:00,DET,IND,18,30,12,RCA Dome,Home,dome,astroturf,2000102902
+119,2000_09_GB_MIA,2000,REG,9,2000-10-29,Sunday,13:00,GB,MIA,20,28,8,Pro Player Stadium,Home,outdoors,grass,2000102903
+120,2000_09_MIN_TB,2000,REG,9,2000-10-29,Sunday,13:00,MIN,TB,13,41,28,Raymond James Stadium,Home,outdoors,grass,2000102906
+121,2000_09_NO_ARI,2000,REG,9,2000-10-29,Sunday,16:05,NO,ARI,21,10,-11,Sun Devil Stadium,Home,outdoors,grass,2000102907
+122,2000_09_PHI_NYG,2000,REG,9,2000-10-29,Sunday,16:05,PHI,NYG,7,24,17,Giants Stadium,Home,outdoors,grass,2000102909
+123,2000_09_STL_SF,2000,REG,9,2000-10-29,Sunday,16:05,STL,SF,34,24,-10,3Com Park,Home,outdoors,grass,2000102911
+124,2000_09_JAX_DAL,2000,REG,9,2000-10-29,Sunday,16:15,JAX,DAL,23,17,-6,Texas Stadium,Home,outdoors,astroturf,2000102904
+125,2000_09_KC_SEA,2000,REG,9,2000-10-29,Sunday,16:15,KC,SEA,24,19,-5,Husky Stadium,Home,outdoors,fieldturf,2000102905
+126,2000_09_OAK_SD,2000,REG,9,2000-10-29,Sunday,20:20,OAK,SD,15,13,-2,Qualcomm Stadium,Home,outdoors,grass,2000102912
+127,2000_09_TEN_WAS,2000,REG,9,2000-10-30,Monday,09:00,TEN,WAS,27,21,-6,FedExField,Home,outdoors,grass,2000103000
+128,2000_10_TB_ATL,2000,REG,10,2000-11-05,Sunday,13:00,TB,ATL,27,14,-13,Georgia Dome,Home,dome,astroturf,2000110511
+129,2000_10_IND_CHI,2000,REG,10,2000-11-05,Sunday,13:00,IND,CHI,24,27,3,Soldier Field,Home,outdoors,grass,2000110504
+130,2000_10_BAL_CIN,2000,REG,10,2000-11-05,Sunday,13:00,BAL,CIN,27,7,-20,Paul Brown Stadium,Home,outdoors,grass,2000110500
+131,2000_10_NYG_CLE,2000,REG,10,2000-11-05,Sunday,13:00,NYG,CLE,24,3,-21,Cleveland Browns Stadium,Home,outdoors,grass,2000110507
+132,2000_10_MIA_DET,2000,REG,10,2000-11-05,Sunday,13:00,MIA,DET,23,8,-15,Pontiac Silverdome,Home,dome,astroturf,2000110506
+133,2000_10_BUF_NE,2000,REG,10,2000-11-05,Sunday,13:00,BUF,NE,16,13,-3,Foxboro Stadium,Home,outdoors,grass,2000110501
+134,2000_10_SF_NO,2000,REG,10,2000-11-05,Sunday,13:00,SF,NO,15,31,16,Louisiana Superdome,Home,dome,astroturf,2000110510
+135,2000_10_DAL_PHI,2000,REG,10,2000-11-05,Sunday,13:00,DAL,PHI,13,16,3,Veterans Stadium,Home,outdoors,astroturf,2000110502
+136,2000_10_PIT_TEN,2000,REG,10,2000-11-05,Sunday,13:00,PIT,TEN,7,9,2,Adelphia Coliseum,Home,outdoors,grass,2000110508
+137,2000_10_WAS_ARI,2000,REG,10,2000-11-05,Sunday,16:05,WAS,ARI,15,16,1,Sun Devil Stadium,Home,outdoors,grass,2000110512
+138,2000_10_DEN_NYJ,2000,REG,10,2000-11-05,Sunday,16:15,DEN,NYJ,30,23,-7,Giants Stadium,Home,outdoors,grass,2000110503
+139,2000_10_KC_OAK,2000,REG,10,2000-11-05,Sunday,16:15,KC,OAK,31,49,18,Network Associates Coliseum,Home,outdoors,grass,2000110505
+140,2000_10_SD_SEA,2000,REG,10,2000-11-05,Sunday,16:15,SD,SEA,15,17,2,Husky Stadium,Home,outdoors,fieldturf,2000110509
+141,2000_10_CAR_STL,2000,REG,10,2000-11-05,Sunday,20:20,CAR,STL,27,24,-3,TWA Dome,Home,dome,astroturf,2000110513
+142,2000_10_MIN_GB,2000,REG,10,2000-11-06,Monday,09:00,MIN,GB,20,26,6,Lambeau Field,Home,outdoors,grass,2000110600
+143,2000_11_CHI_BUF,2000,REG,11,2000-11-12,Sunday,13:00,CHI,BUF,3,20,17,Ralph Wilson Stadium,Home,outdoors,astroturf,2000111203
+144,2000_11_NO_CAR,2000,REG,11,2000-11-12,Sunday,13:00,NO,CAR,20,10,-10,Ericsson Stadium,Home,outdoors,grass,2000111209
+145,2000_11_CIN_DAL,2000,REG,11,2000-11-12,Sunday,13:00,CIN,DAL,6,23,17,Texas Stadium,Home,outdoors,astroturf,2000111204
+146,2000_11_ATL_DET,2000,REG,11,2000-11-12,Sunday,13:00,ATL,DET,10,13,3,Pontiac Silverdome,Home,dome,astroturf,2000111201
+147,2000_11_SEA_JAX,2000,REG,11,2000-11-12,Sunday,13:00,SEA,JAX,28,21,-7,Alltel Stadium,Home,outdoors,grass,2000111212
+148,2000_11_ARI_MIN,2000,REG,11,2000-11-12,Sunday,13:00,ARI,MIN,14,31,17,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000111200
+149,2000_11_PHI_PIT,2000,REG,11,2000-11-12,Sunday,13:00,PHI,PIT,26,23,-3,Three Rivers Stadium,Home,outdoors,astroturf,2000111210
+150,2000_11_BAL_TEN,2000,REG,11,2000-11-12,Sunday,13:00,BAL,TEN,24,23,-1,Adelphia Coliseum,Home,outdoors,grass,2000111202
+151,2000_11_NE_CLE,2000,REG,11,2000-11-12,Sunday,13:05,NE,CLE,11,19,8,Cleveland Browns Stadium,Home,outdoors,grass,2000111208
+152,2000_11_MIA_SD,2000,REG,11,2000-11-12,Sunday,16:05,MIA,SD,17,7,-10,Qualcomm Stadium,Home,outdoors,grass,2000111207
+153,2000_11_KC_SF,2000,REG,11,2000-11-12,Sunday,16:05,KC,SF,7,21,14,3Com Park,Home,outdoors,grass,2000111206
+154,2000_11_STL_NYG,2000,REG,11,2000-11-12,Sunday,16:15,STL,NYG,38,24,-14,Giants Stadium,Home,outdoors,grass,2000111211
+155,2000_11_GB_TB,2000,REG,11,2000-11-12,Sunday,16:15,GB,TB,15,20,5,Raymond James Stadium,Home,outdoors,grass,2000111205
+156,2000_11_NYJ_IND,2000,REG,11,2000-11-12,Sunday,20:20,NYJ,IND,15,23,8,RCA Dome,Home,dome,astroturf,2000111213
+157,2000_11_OAK_DEN,2000,REG,11,2000-11-13,Monday,09:00,OAK,DEN,24,27,3,Mile High Stadium,Home,outdoors,grass,2000111300
+158,2000_12_TB_CHI,2000,REG,12,2000-11-19,Sunday,13:00,TB,CHI,10,13,3,Soldier Field,Home,outdoors,grass,2000111912
+159,2000_12_IND_GB,2000,REG,12,2000-11-19,Sunday,13:00,IND,GB,24,26,2,Lambeau Field,Home,outdoors,grass,2000111908
+160,2000_12_BUF_KC,2000,REG,12,2000-11-19,Sunday,13:00,BUF,KC,21,17,-4,Arrowhead Stadium,Home,outdoors,grass,2000111902
+161,2000_12_CAR_MIN,2000,REG,12,2000-11-19,Sunday,13:00,CAR,MIN,17,31,14,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000111903
+162,2000_12_CIN_NE,2000,REG,12,2000-11-19,Sunday,13:00,CIN,NE,13,16,3,Foxboro Stadium,Home,outdoors,grass,2000111904
+163,2000_12_OAK_NO,2000,REG,12,2000-11-19,Sunday,13:00,OAK,NO,31,22,-9,Louisiana Superdome,Home,dome,astroturf,2000111910
+164,2000_12_DET_NYG,2000,REG,12,2000-11-19,Sunday,13:00,DET,NYG,31,21,-10,Giants Stadium,Home,outdoors,grass,2000111907
+165,2000_12_ARI_PHI,2000,REG,12,2000-11-19,Sunday,13:00,ARI,PHI,9,34,25,Veterans Stadium,Home,outdoors,astroturf,2000111900
+166,2000_12_CLE_TEN,2000,REG,12,2000-11-19,Sunday,13:00,CLE,TEN,10,24,14,Adelphia Coliseum,Home,outdoors,grass,2000111905
+167,2000_12_SD_DEN,2000,REG,12,2000-11-19,Sunday,16:05,SD,DEN,37,38,1,Mile High Stadium,Home,outdoors,grass,2000111911
+168,2000_12_NYJ_MIA,2000,REG,12,2000-11-19,Sunday,16:05,NYJ,MIA,20,3,-17,Pro Player Stadium,Home,outdoors,grass,2000111909
+169,2000_12_DAL_BAL,2000,REG,12,2000-11-19,Sunday,16:15,DAL,BAL,0,27,27,PSINet Stadium,Home,outdoors,grass,2000111906
+170,2000_12_ATL_SF,2000,REG,12,2000-11-19,Sunday,16:15,ATL,SF,6,16,10,3Com Park,Home,outdoors,grass,2000111901
+171,2000_12_JAX_PIT,2000,REG,12,2000-11-19,Sunday,20:20,JAX,PIT,34,24,-10,Three Rivers Stadium,Home,outdoors,astroturf,2000111913
+172,2000_12_WAS_STL,2000,REG,12,2000-11-20,Monday,09:00,WAS,STL,33,20,-13,TWA Dome,Home,dome,astroturf,2000112000
+173,2000_13_NE_DET,2000,REG,13,2000-11-23,Thursday,12:30,NE,DET,9,34,25,Pontiac Silverdome,Home,dome,astroturf,2000112301
+174,2000_13_MIN_DAL,2000,REG,13,2000-11-23,Thursday,16:05,MIN,DAL,27,15,-12,Texas Stadium,Home,outdoors,astroturf,2000112300
+175,2000_13_CLE_BAL,2000,REG,13,2000-11-26,Sunday,13:00,CLE,BAL,7,44,37,PSINet Stadium,Home,outdoors,grass,2000112603
+176,2000_13_PIT_CIN,2000,REG,13,2000-11-26,Sunday,13:00,PIT,CIN,48,28,-20,Paul Brown Stadium,Home,outdoors,grass,2000112609
+177,2000_13_CHI_NYJ,2000,REG,13,2000-11-26,Sunday,13:00,CHI,NYJ,10,17,7,Giants Stadium,Home,outdoors,grass,2000112602
+178,2000_13_NO_STL,2000,REG,13,2000-11-26,Sunday,13:00,NO,STL,31,24,-7,TWA Dome,Home,dome,astroturf,2000112607
+179,2000_13_BUF_TB,2000,REG,13,2000-11-26,Sunday,13:00,BUF,TB,17,31,14,Raymond James Stadium,Home,outdoors,grass,2000112601
+180,2000_13_PHI_WAS,2000,REG,13,2000-11-26,Sunday,13:00,PHI,WAS,23,20,-3,FedExField,Home,outdoors,grass,2000112608
+181,2000_13_ATL_OAK,2000,REG,13,2000-11-26,Sunday,16:05,ATL,OAK,14,41,27,Network Associates Coliseum,Home,outdoors,grass,2000112600
+182,2000_13_MIA_IND,2000,REG,13,2000-11-26,Sunday,16:15,MIA,IND,17,14,-3,RCA Dome,Home,dome,astroturf,2000112606
+183,2000_13_TEN_JAX,2000,REG,13,2000-11-26,Sunday,16:15,TEN,JAX,13,16,3,Alltel Stadium,Home,outdoors,grass,2000112610
+184,2000_13_KC_SD,2000,REG,13,2000-11-26,Sunday,16:15,KC,SD,16,17,1,Qualcomm Stadium,Home,outdoors,grass,2000112605
+185,2000_13_DEN_SEA,2000,REG,13,2000-11-26,Sunday,16:15,DEN,SEA,38,31,-7,Husky Stadium,Home,outdoors,fieldturf,2000112604
+186,2000_13_NYG_ARI,2000,REG,13,2000-11-26,Sunday,20:20,NYG,ARI,31,7,-24,Sun Devil Stadium,Home,outdoors,grass,2000112611
+187,2000_13_GB_CAR,2000,REG,13,2000-11-27,Monday,09:00,GB,CAR,14,31,17,Ericsson Stadium,Home,outdoors,grass,2000112700
+188,2000_14_DET_MIN,2000,REG,14,2000-11-30,Thursday,20:20,DET,MIN,17,24,7,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000113000
+189,2000_14_SEA_ATL,2000,REG,14,2000-12-03,Sunday,13:00,SEA,ATL,30,10,-20,Georgia Dome,Home,dome,astroturf,2000120310
+190,2000_14_MIA_BUF,2000,REG,14,2000-12-03,Sunday,13:00,MIA,BUF,33,6,-27,Ralph Wilson Stadium,Home,outdoors,astroturf,2000120305
+191,2000_14_STL_CAR,2000,REG,14,2000-12-03,Sunday,13:00,STL,CAR,3,16,13,Ericsson Stadium,Home,outdoors,grass,2000120308
+192,2000_14_ARI_CIN,2000,REG,14,2000-12-03,Sunday,13:00,ARI,CIN,13,24,11,Paul Brown Stadium,Home,outdoors,grass,2000120300
+193,2000_14_DEN_NO,2000,REG,14,2000-12-03,Sunday,13:00,DEN,NO,38,23,-15,Louisiana Superdome,Home,dome,astroturf,2000120303
+194,2000_14_TEN_PHI,2000,REG,14,2000-12-03,Sunday,13:00,TEN,PHI,15,13,-2,Veterans Stadium,Home,outdoors,astroturf,2000120311
+195,2000_14_OAK_PIT,2000,REG,14,2000-12-03,Sunday,13:00,OAK,PIT,20,21,1,Three Rivers Stadium,Home,outdoors,astroturf,2000120307
+196,2000_14_DAL_TB,2000,REG,14,2000-12-03,Sunday,13:00,DAL,TB,7,27,20,Raymond James Stadium,Home,outdoors,grass,2000120302
+197,2000_14_NYG_WAS,2000,REG,14,2000-12-03,Sunday,13:00,NYG,WAS,9,7,-2,FedExField,Home,outdoors,grass,2000120306
+198,2000_14_SF_SD,2000,REG,14,2000-12-03,Sunday,16:05,SF,SD,45,17,-28,Qualcomm Stadium,Home,outdoors,grass,2000120309
+199,2000_14_CLE_JAX,2000,REG,14,2000-12-03,Sunday,16:15,CLE,JAX,0,48,48,Alltel Stadium,Home,outdoors,grass,2000120301
+200,2000_14_IND_NYJ,2000,REG,14,2000-12-03,Sunday,16:15,IND,NYJ,17,27,10,Giants Stadium,Home,outdoors,grass,2000120304
+201,2000_14_GB_CHI,2000,REG,14,2000-12-03,Sunday,20:20,GB,CHI,28,6,-22,Soldier Field,Home,outdoors,grass,2000120312
+202,2000_14_KC_NE,2000,REG,14,2000-12-04,Monday,09:00,KC,NE,24,30,6,Foxboro Stadium,Home,outdoors,grass,2000120400
+203,2000_15_SD_BAL,2000,REG,15,2000-12-10,Sunday,13:00,SD,BAL,3,24,21,PSINet Stadium,Home,outdoors,grass,2000121009
+204,2000_15_NE_CHI,2000,REG,15,2000-12-10,Sunday,13:00,NE,CHI,17,24,7,Soldier Field,Home,outdoors,grass,2000121005
+205,2000_15_PHI_CLE,2000,REG,15,2000-12-10,Sunday,13:00,PHI,CLE,35,24,-11,Cleveland Browns Stadium,Home,outdoors,grass,2000121007
+206,2000_15_DET_GB,2000,REG,15,2000-12-10,Sunday,13:00,DET,GB,13,26,13,Lambeau Field,Home,outdoors,grass,2000121003
+207,2000_15_ARI_JAX,2000,REG,15,2000-12-10,Sunday,13:00,ARI,JAX,10,44,34,Alltel Stadium,Home,outdoors,grass,2000121000
+208,2000_15_CAR_KC,2000,REG,15,2000-12-10,Sunday,13:00,CAR,KC,14,15,1,Arrowhead Stadium,Home,outdoors,grass,2000121001
+209,2000_15_TB_MIA,2000,REG,15,2000-12-10,Sunday,13:00,TB,MIA,16,13,-3,Pro Player Stadium,Home,outdoors,grass,2000121011
+210,2000_15_PIT_NYG,2000,REG,15,2000-12-10,Sunday,13:00,PIT,NYG,10,30,20,Giants Stadium,Home,outdoors,grass,2000121008
+211,2000_15_CIN_TEN,2000,REG,15,2000-12-10,Sunday,13:00,CIN,TEN,3,35,32,Adelphia Coliseum,Home,outdoors,grass,2000121002
+212,2000_15_SEA_DEN,2000,REG,15,2000-12-10,Sunday,16:05,SEA,DEN,24,31,7,Mile High Stadium,Home,outdoors,grass,2000121010
+213,2000_15_WAS_DAL,2000,REG,15,2000-12-10,Sunday,16:15,WAS,DAL,13,32,19,Texas Stadium,Home,outdoors,astroturf,2000121012
+214,2000_15_NO_SF,2000,REG,15,2000-12-10,Sunday,16:15,NO,SF,31,27,-4,3Com Park,Home,outdoors,grass,2000121006
+215,2000_15_MIN_STL,2000,REG,15,2000-12-10,Sunday,16:15,MIN,STL,29,40,11,TWA Dome,Home,dome,astroturf,2000121004
+216,2000_15_NYJ_OAK,2000,REG,15,2000-12-10,Sunday,20:20,NYJ,OAK,7,31,24,Network Associates Coliseum,Home,outdoors,grass,2000121013
+217,2000_15_BUF_IND,2000,REG,15,2000-12-11,Monday,09:00,BUF,IND,20,44,24,RCA Dome,Home,dome,astroturf,2000121100
+218,2000_16_WAS_PIT,2000,REG,16,2000-12-16,Saturday,12:30,WAS,PIT,3,24,21,Three Rivers Stadium,Home,outdoors,astroturf,2000121600
+219,2000_16_OAK_SEA,2000,REG,16,2000-12-16,Saturday,16:05,OAK,SEA,24,27,3,Husky Stadium,Home,outdoors,fieldturf,2000121601
+220,2000_16_NE_BUF,2000,REG,16,2000-12-17,Sunday,13:00,NE,BUF,13,10,-3,Ralph Wilson Stadium,Home,outdoors,astroturf,2000121708
+221,2000_16_SD_CAR,2000,REG,16,2000-12-17,Sunday,13:00,SD,CAR,22,30,8,Ericsson Stadium,Home,outdoors,grass,2000121709
+222,2000_16_JAX_CIN,2000,REG,16,2000-12-17,Sunday,13:00,JAX,CIN,14,17,3,Paul Brown Stadium,Home,outdoors,grass,2000121707
+223,2000_16_TEN_CLE,2000,REG,16,2000-12-17,Sunday,13:00,TEN,CLE,24,0,-24,Cleveland Browns Stadium,Home,outdoors,grass,2000121710
+224,2000_16_DEN_KC,2000,REG,16,2000-12-17,Sunday,13:00,DEN,KC,7,20,13,Arrowhead Stadium,Home,outdoors,grass,2000121703
+225,2000_16_GB_MIN,2000,REG,16,2000-12-17,Sunday,13:00,GB,MIN,33,28,-5,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2000121705
+226,2000_16_ATL_NO,2000,REG,16,2000-12-17,Sunday,13:00,ATL,NO,7,23,16,Louisiana Superdome,Home,dome,astroturf,2000121700
+227,2000_16_DET_NYJ,2000,REG,16,2000-12-17,Sunday,13:00,DET,NYJ,10,7,-3,Giants Stadium,Home,outdoors,grass,2000121704
+228,2000_16_CHI_SF,2000,REG,16,2000-12-17,Sunday,16:05,CHI,SF,0,17,17,3Com Park,Home,outdoors,grass,2000121702
+229,2000_16_BAL_ARI,2000,REG,16,2000-12-17,Sunday,16:15,BAL,ARI,13,7,-6,Sun Devil Stadium,Home,outdoors,grass,2000121701
+230,2000_16_IND_MIA,2000,REG,16,2000-12-17,Sunday,16:15,IND,MIA,20,13,-7,Pro Player Stadium,Home,outdoors,grass,2000121706
+231,2000_16_NYG_DAL,2000,REG,16,2000-12-17,Sunday,20:20,NYG,DAL,17,13,-4,Texas Stadium,Home,outdoors,astroturf,2000121711
+232,2000_16_STL_TB,2000,REG,16,2000-12-18,Monday,09:00,STL,TB,35,38,3,Raymond James Stadium,Home,outdoors,grass,2000121800
+233,2000_17_JAX_NYG,2000,REG,17,2000-12-23,Saturday,12:30,JAX,NYG,25,28,3,Giants Stadium,Home,outdoors,grass,2000122300
+234,2000_17_SF_DEN,2000,REG,17,2000-12-23,Saturday,16:15,SF,DEN,9,38,29,Mile High Stadium,Home,outdoors,grass,2000122301
+235,2000_17_BUF_SEA,2000,REG,17,2000-12-23,Saturday,20:20,BUF,SEA,42,23,-19,Husky Stadium,Home,outdoors,fieldturf,2000122302
+236,2000_17_KC_ATL,2000,REG,17,2000-12-24,Sunday,13:00,KC,ATL,13,29,16,Georgia Dome,Home,dome,astroturf,2000122404
+237,2000_17_NYJ_BAL,2000,REG,17,2000-12-24,Sunday,13:00,NYJ,BAL,20,34,14,PSINet Stadium,Home,outdoors,grass,2000122407
+238,2000_17_CHI_DET,2000,REG,17,2000-12-24,Sunday,13:00,CHI,DET,23,20,-3,Pontiac Silverdome,Home,dome,astroturf,2000122402
+239,2000_17_TB_GB,2000,REG,17,2000-12-24,Sunday,13:00,TB,GB,14,17,3,Lambeau Field,Home,outdoors,grass,2000122410
+240,2000_17_MIA_NE,2000,REG,17,2000-12-24,Sunday,13:00,MIA,NE,27,24,-3,Foxboro Stadium,Home,outdoors,grass,2000122405
+241,2000_17_STL_NO,2000,REG,17,2000-12-24,Sunday,13:00,STL,NO,26,21,-5,Louisiana Superdome,Home,dome,astroturf,2000122409
+242,2000_17_CIN_PHI,2000,REG,17,2000-12-24,Sunday,13:00,CIN,PHI,7,16,9,Veterans Stadium,Home,outdoors,astroturf,2000122403
+243,2000_17_ARI_WAS,2000,REG,17,2000-12-24,Sunday,13:00,ARI,WAS,3,20,17,FedExField,Home,outdoors,grass,2000122400
+244,2000_17_PIT_SD,2000,REG,17,2000-12-24,Sunday,16:05,PIT,SD,34,21,-13,Qualcomm Stadium,Home,outdoors,grass,2000122408
+245,2000_17_MIN_IND,2000,REG,17,2000-12-24,Sunday,16:15,MIN,IND,10,31,21,RCA Dome,Home,dome,astroturf,2000122406
+246,2000_17_CAR_OAK,2000,REG,17,2000-12-24,Sunday,16:15,CAR,OAK,9,52,43,Network Associates Coliseum,Home,outdoors,grass,2000122401
+247,2000_17_DAL_TEN,2000,REG,17,2000-12-25,Monday,09:00,DAL,TEN,0,31,31,Adelphia Coliseum,Home,outdoors,grass,2000122500
+248,2000_18_IND_MIA,2000,WC,18,2000-12-30,Saturday,12:30,IND,MIA,17,23,6,Pro Player Stadium,Home,outdoors,grass,2000123001
+249,2000_18_STL_NO,2000,WC,18,2000-12-30,Saturday,16:00,STL,NO,28,31,3,Louisiana Superdome,Home,dome,astroturf,2000123000
+250,2000_18_DEN_BAL,2000,WC,18,2000-12-31,Sunday,12:30,DEN,BAL,3,21,18,PSINet Stadium,Home,outdoors,grass,2000123101
+251,2000_18_TB_PHI,2000,WC,18,2000-12-31,Sunday,16:15,TB,PHI,3,21,18,Veterans Stadium,Home,outdoors,astroturf,2000123100
+252,2000_19_NO_MIN,2000,DIV,19,2001-01-06,Saturday,12:30,NO,MIN,16,34,18,Hubert H. Humphrey Metrodome,Home,dome,astroturf,2001010600
+253,2000_19_MIA_OAK,2000,DIV,19,2001-01-06,Saturday,16:00,MIA,OAK,0,27,27,Network Associates Coliseum,Home,outdoors,grass,2001010601
+254,2000_19_BAL_TEN,2000,DIV,19,2001-01-07,Sunday,12:30,BAL,TEN,24,10,-14,Adelphia Coliseum,Home,outdoors,grass,2001010700
+255,2000_19_PHI_NYG,2000,DIV,19,2001-01-07,Sunday,16:00,PHI,NYG,10,20,10,Giants Stadium,Home,outdoors,grass,2001010701
+256,2000_20_MIN_NYG,2000,CON,20,2001-01-14,Sunday,13:00,MIN,NYG,0,41,41,Giants Stadium,Home,outdoors,grass,2001011401
+257,2000_20_BAL_OAK,2000,CON,20,2001-01-14,Sunday,16:00,BAL,OAK,16,3,-13,Network Associates Coliseum,Home,outdoors,grass,2001011400
+258,2000_21_BAL_NYG,2000,SB,21,2001-01-28,Sunday,18:18,BAL,NYG,34,7,-27,Raymond James Stadium,Neutral,outdoors,grass,2001012800

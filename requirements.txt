@@ -1,0 +1,6 @@
+numpy>1
+pandas>1
+datetime>3.5
+fastparquet>0.5
+python-snappy>0.5
+snappy>1

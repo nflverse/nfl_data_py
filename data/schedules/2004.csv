@@ -1,0 +1,268 @@
+,game_id,season,game_type,week,gameday,weekday,gametime,away_team,home_team,away_score,home_score,home_result,stadium,location,roof,surface,old_game_id
+0,2004_01_IND_NE,2004,REG,1,2004-09-09,Thursday,09:00,IND,NE,24,27,3,Gillette Stadium,Home,outdoors,grass,2004090900
+1,2004_01_TEN_MIA,2004,REG,1,2004-09-11,Saturday,13:00,TEN,MIA,17,7,-10,Pro Player Stadium,Home,outdoors,grass,2004091100
+2,2004_01_JAX_BUF,2004,REG,1,2004-09-12,Sunday,13:00,JAX,BUF,13,10,-3,Ralph Wilson Stadium,Home,outdoors,astroplay,2004091200
+3,2004_01_DET_CHI,2004,REG,1,2004-09-12,Sunday,13:00,DET,CHI,20,16,-4,Soldier Field,Home,outdoors,grass,2004091201
+4,2004_01_BAL_CLE,2004,REG,1,2004-09-12,Sunday,13:00,BAL,CLE,3,20,17,Cleveland Browns Stadium,Home,outdoors,grass,2004091202
+5,2004_01_SD_HOU,2004,REG,1,2004-09-12,Sunday,13:00,SD,HOU,27,20,-7,Reliant Stadium,Home,closed,grass,2004091203
+6,2004_01_SEA_NO,2004,REG,1,2004-09-12,Sunday,13:00,SEA,NO,21,7,-14,Louisiana Superdome,Home,dome,fieldturf,2004091205
+7,2004_01_CIN_NYJ,2004,REG,1,2004-09-12,Sunday,13:00,CIN,NYJ,24,31,7,Giants Stadium,Home,outdoors,fieldturf,2004091206
+8,2004_01_OAK_PIT,2004,REG,1,2004-09-12,Sunday,13:00,OAK,PIT,21,24,3,Heinz Field,Home,outdoors,dessograss,2004091207
+9,2004_01_ARI_STL,2004,REG,1,2004-09-12,Sunday,13:00,ARI,STL,10,17,7,Edward Jones Dome,Home,dome,astroturf,2004091208
+10,2004_01_TB_WAS,2004,REG,1,2004-09-12,Sunday,13:00,TB,WAS,10,16,6,FedExField,Home,outdoors,grass,2004091209
+11,2004_01_DAL_MIN,2004,REG,1,2004-09-12,Sunday,16:15,DAL,MIN,17,35,18,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004091210
+12,2004_01_NYG_PHI,2004,REG,1,2004-09-12,Sunday,16:15,NYG,PHI,17,31,14,Lincoln Financial Field,Home,outdoors,grass,2004091211
+13,2004_01_ATL_SF,2004,REG,1,2004-09-12,Sunday,16:15,ATL,SF,21,19,-2,3Com Park,Home,outdoors,grass,2004091212
+14,2004_01_KC_DEN,2004,REG,1,2004-09-12,Sunday,20:30,KC,DEN,24,34,10,Invesco Field at Mile High,Home,outdoors,grass,2004091213
+15,2004_01_GB_CAR,2004,REG,1,2004-09-13,Monday,09:00,GB,CAR,24,14,-10,Bank of America Stadium,Home,outdoors,grass,2004091300
+16,2004_02_STL_ATL,2004,REG,2,2004-09-19,Sunday,13:00,STL,ATL,17,34,17,Georgia Dome,Home,dome,fieldturf,2004091900
+17,2004_02_PIT_BAL,2004,REG,2,2004-09-19,Sunday,13:00,PIT,BAL,13,30,17,M&T Bank Stadium,Home,outdoors,sportturf,2004091901
+18,2004_02_HOU_DET,2004,REG,2,2004-09-19,Sunday,13:00,HOU,DET,16,28,12,Ford Field,Home,dome,fieldturf,2004091902
+19,2004_02_CHI_GB,2004,REG,2,2004-09-19,Sunday,13:00,CHI,GB,21,10,-11,Lambeau Field,Home,outdoors,grass,2004091903
+20,2004_02_DEN_JAX,2004,REG,2,2004-09-19,Sunday,13:00,DEN,JAX,6,7,1,Alltel Stadium,Home,outdoors,grass,2004091904
+21,2004_02_CAR_KC,2004,REG,2,2004-09-19,Sunday,13:00,CAR,KC,28,17,-11,Arrowhead Stadium,Home,outdoors,grass,2004091905
+22,2004_02_SF_NO,2004,REG,2,2004-09-19,Sunday,13:00,SF,NO,27,30,3,Louisiana Superdome,Home,dome,fieldturf,2004091906
+23,2004_02_WAS_NYG,2004,REG,2,2004-09-19,Sunday,13:00,WAS,NYG,14,20,6,Giants Stadium,Home,outdoors,fieldturf,2004091907
+24,2004_02_IND_TEN,2004,REG,2,2004-09-19,Sunday,13:00,IND,TEN,31,17,-14,The Coliseum,Home,outdoors,grass,2004091908
+25,2004_02_SEA_TB,2004,REG,2,2004-09-19,Sunday,16:05,SEA,TB,10,6,-4,Raymond James Stadium,Home,outdoors,grass,2004091909
+26,2004_02_NE_ARI,2004,REG,2,2004-09-19,Sunday,16:15,NE,ARI,23,12,-11,Sun Devil Stadium,Home,outdoors,grass,2004091910
+27,2004_02_CLE_DAL,2004,REG,2,2004-09-19,Sunday,16:15,CLE,DAL,12,19,7,Texas Stadium,Home,outdoors,fieldturf,2004091911
+28,2004_02_BUF_OAK,2004,REG,2,2004-09-19,Sunday,16:15,BUF,OAK,10,13,3,McAfee Coliseum,Home,outdoors,grass,2004091912
+29,2004_02_NYJ_SD,2004,REG,2,2004-09-19,Sunday,16:15,NYJ,SD,34,28,-6,Qualcomm Stadium,Home,outdoors,grass,2004091913
+30,2004_02_MIA_CIN,2004,REG,2,2004-09-19,Sunday,20:30,MIA,CIN,13,16,3,Paul Brown Stadium,Home,outdoors,fieldturf,2004091914
+31,2004_02_MIN_PHI,2004,REG,2,2004-09-20,Monday,09:00,MIN,PHI,16,27,11,Lincoln Financial Field,Home,outdoors,grass,2004092000
+32,2004_03_ARI_ATL,2004,REG,3,2004-09-26,Sunday,13:00,ARI,ATL,3,6,3,Georgia Dome,Home,dome,fieldturf,2004092600
+33,2004_03_BAL_CIN,2004,REG,3,2004-09-26,Sunday,13:00,BAL,CIN,23,9,-14,Paul Brown Stadium,Home,outdoors,fieldturf,2004092601
+34,2004_03_PHI_DET,2004,REG,3,2004-09-26,Sunday,13:00,PHI,DET,30,13,-17,Ford Field,Home,dome,fieldturf,2004092602
+35,2004_03_HOU_KC,2004,REG,3,2004-09-26,Sunday,13:00,HOU,KC,24,21,-3,Arrowhead Stadium,Home,outdoors,grass,2004092603
+36,2004_03_CHI_MIN,2004,REG,3,2004-09-26,Sunday,13:00,CHI,MIN,22,27,5,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004092605
+37,2004_03_CLE_NYG,2004,REG,3,2004-09-26,Sunday,13:00,CLE,NYG,10,27,17,Giants Stadium,Home,outdoors,fieldturf,2004092606
+38,2004_03_NO_STL,2004,REG,3,2004-09-26,Sunday,13:00,NO,STL,28,25,-3,Edward Jones Dome,Home,dome,astroturf,2004092607
+39,2004_03_JAX_TEN,2004,REG,3,2004-09-26,Sunday,13:00,JAX,TEN,15,12,-3,The Coliseum,Home,outdoors,grass,2004092608
+40,2004_03_SD_DEN,2004,REG,3,2004-09-26,Sunday,16:05,SD,DEN,13,23,10,Invesco Field at Mile High,Home,outdoors,grass,2004092609
+41,2004_03_GB_IND,2004,REG,3,2004-09-26,Sunday,16:15,GB,IND,31,45,14,RCA Dome,Home,dome,astroturf,2004092610
+42,2004_03_SF_SEA,2004,REG,3,2004-09-26,Sunday,16:15,SF,SEA,0,34,34,Qwest Field,Home,outdoors,fieldturf,2004092611
+43,2004_03_PIT_MIA,2004,REG,3,2004-09-26,Sunday,20:30,PIT,MIA,13,3,-10,Pro Player Stadium,Home,outdoors,grass,2004092604
+44,2004_03_TB_OAK,2004,REG,3,2004-09-26,Sunday,20:30,TB,OAK,20,30,10,McAfee Coliseum,Home,outdoors,grass,2004092612
+45,2004_03_DAL_WAS,2004,REG,3,2004-09-27,Monday,09:00,DAL,WAS,21,18,-3,FedExField,Home,outdoors,grass,2004092700
+46,2004_04_NE_BUF,2004,REG,4,2004-10-03,Sunday,13:00,NE,BUF,31,17,-14,Ralph Wilson Stadium,Home,outdoors,astroplay,2004100300
+47,2004_04_PHI_CHI,2004,REG,4,2004-10-03,Sunday,13:00,PHI,CHI,19,9,-10,Soldier Field,Home,outdoors,grass,2004100301
+48,2004_04_WAS_CLE,2004,REG,4,2004-10-03,Sunday,13:00,WAS,CLE,13,17,4,Cleveland Browns Stadium,Home,outdoors,grass,2004100302
+49,2004_04_NYG_GB,2004,REG,4,2004-10-03,Sunday,13:00,NYG,GB,14,7,-7,Lambeau Field,Home,outdoors,grass,2004100303
+50,2004_04_OAK_HOU,2004,REG,4,2004-10-03,Sunday,13:00,OAK,HOU,17,30,13,Reliant Stadium,Home,open,grass,2004100304
+51,2004_04_IND_JAX,2004,REG,4,2004-10-03,Sunday,13:00,IND,JAX,24,17,-7,Alltel Stadium,Home,outdoors,grass,2004100305
+52,2004_04_CIN_PIT,2004,REG,4,2004-10-03,Sunday,13:00,CIN,PIT,17,28,11,Heinz Field,Home,outdoors,dessograss,2004100306
+53,2004_04_NO_ARI,2004,REG,4,2004-10-03,Sunday,16:05,NO,ARI,10,34,24,Sun Devil Stadium,Home,outdoors,grass,2004100307
+54,2004_04_ATL_CAR,2004,REG,4,2004-10-03,Sunday,16:05,ATL,CAR,27,10,-17,Bank of America Stadium,Home,outdoors,grass,2004100308
+55,2004_04_NYJ_MIA,2004,REG,4,2004-10-03,Sunday,16:15,NYJ,MIA,17,9,-8,Pro Player Stadium,Home,outdoors,grass,2004100309
+56,2004_04_TEN_SD,2004,REG,4,2004-10-03,Sunday,16:15,TEN,SD,17,38,21,Qualcomm Stadium,Home,outdoors,grass,2004100310
+57,2004_04_DEN_TB,2004,REG,4,2004-10-03,Sunday,16:15,DEN,TB,16,13,-3,Raymond James Stadium,Home,outdoors,grass,2004100311
+58,2004_04_STL_SF,2004,REG,4,2004-10-03,Sunday,20:30,STL,SF,24,14,-10,3Com Park,Home,outdoors,grass,2004100312
+59,2004_04_KC_BAL,2004,REG,4,2004-10-04,Monday,09:00,KC,BAL,27,24,-3,M&T Bank Stadium,Home,outdoors,sportturf,2004100400
+60,2004_05_DET_ATL,2004,REG,5,2004-10-10,Sunday,13:00,DET,ATL,17,10,-7,Georgia Dome,Home,dome,fieldturf,2004101000
+61,2004_05_NYG_DAL,2004,REG,5,2004-10-10,Sunday,13:00,NYG,DAL,26,10,-16,Texas Stadium,Home,outdoors,fieldturf,2004101001
+62,2004_05_MIN_HOU,2004,REG,5,2004-10-10,Sunday,13:00,MIN,HOU,34,28,-6,Reliant Stadium,Home,open,grass,2004101002
+63,2004_05_OAK_IND,2004,REG,5,2004-10-10,Sunday,13:00,OAK,IND,14,35,21,RCA Dome,Home,dome,astroturf,2004101003
+64,2004_05_MIA_NE,2004,REG,5,2004-10-10,Sunday,13:00,MIA,NE,10,24,14,Gillette Stadium,Home,outdoors,grass,2004101004
+65,2004_05_TB_NO,2004,REG,5,2004-10-10,Sunday,13:00,TB,NO,20,17,-3,Louisiana Superdome,Home,dome,fieldturf,2004101005
+66,2004_05_CLE_PIT,2004,REG,5,2004-10-10,Sunday,13:00,CLE,PIT,23,34,11,Heinz Field,Home,outdoors,dessograss,2004101006
+67,2004_05_BUF_NYJ,2004,REG,5,2004-10-10,Sunday,16:05,BUF,NYJ,14,16,2,Giants Stadium,Home,outdoors,fieldturf,2004101007
+68,2004_05_JAX_SD,2004,REG,5,2004-10-10,Sunday,16:05,JAX,SD,21,34,13,Qualcomm Stadium,Home,outdoors,grass,2004101008
+69,2004_05_CAR_DEN,2004,REG,5,2004-10-10,Sunday,16:15,CAR,DEN,17,20,3,Invesco Field at Mile High,Home,outdoors,grass,2004101009
+70,2004_05_STL_SEA,2004,REG,5,2004-10-10,Sunday,16:15,STL,SEA,33,27,-6,Qwest Field,Home,outdoors,fieldturf,2004101011
+71,2004_05_ARI_SF,2004,REG,5,2004-10-10,Sunday,16:15,ARI,SF,28,31,3,3Com Park,Home,outdoors,grass,2004101010
+72,2004_05_BAL_WAS,2004,REG,5,2004-10-10,Sunday,20:30,BAL,WAS,17,10,-7,FedExField,Home,outdoors,grass,2004101012
+73,2004_05_TEN_GB,2004,REG,5,2004-10-11,Monday,09:00,TEN,GB,48,27,-21,Lambeau Field,Home,outdoors,grass,2004101100
+74,2004_06_SD_ATL,2004,REG,6,2004-10-17,Sunday,13:00,SD,ATL,20,21,1,Georgia Dome,Home,dome,fieldturf,2004101700
+75,2004_06_MIA_BUF,2004,REG,6,2004-10-17,Sunday,13:00,MIA,BUF,13,20,7,Ralph Wilson Stadium,Home,outdoors,astroplay,2004101701
+76,2004_06_WAS_CHI,2004,REG,6,2004-10-17,Sunday,13:00,WAS,CHI,13,10,-3,Soldier Field,Home,outdoors,grass,2004101702
+77,2004_06_CIN_CLE,2004,REG,6,2004-10-17,Sunday,13:00,CIN,CLE,17,34,17,Cleveland Browns Stadium,Home,outdoors,grass,2004101703
+78,2004_06_GB_DET,2004,REG,6,2004-10-17,Sunday,13:00,GB,DET,38,10,-28,Ford Field,Home,dome,fieldturf,2004101704
+79,2004_06_KC_JAX,2004,REG,6,2004-10-17,Sunday,13:00,KC,JAX,16,22,6,Alltel Stadium,Home,outdoors,grass,2004101705
+80,2004_06_SEA_NE,2004,REG,6,2004-10-17,Sunday,13:00,SEA,NE,20,30,10,Gillette Stadium,Home,outdoors,grass,2004101706
+81,2004_06_SF_NYJ,2004,REG,6,2004-10-17,Sunday,13:00,SF,NYJ,14,22,8,Giants Stadium,Home,outdoors,fieldturf,2004101707
+82,2004_06_CAR_PHI,2004,REG,6,2004-10-17,Sunday,13:00,CAR,PHI,8,30,22,Lincoln Financial Field,Home,outdoors,grass,2004101708
+83,2004_06_HOU_TEN,2004,REG,6,2004-10-17,Sunday,13:00,HOU,TEN,20,10,-10,The Coliseum,Home,outdoors,grass,2004101709
+84,2004_06_PIT_DAL,2004,REG,6,2004-10-17,Sunday,16:15,PIT,DAL,24,20,-4,Texas Stadium,Home,outdoors,fieldturf,2004101710
+85,2004_06_DEN_OAK,2004,REG,6,2004-10-17,Sunday,16:15,DEN,OAK,31,3,-28,McAfee Coliseum,Home,outdoors,grass,2004101711
+86,2004_06_MIN_NO,2004,REG,6,2004-10-17,Sunday,20:30,MIN,NO,38,31,-7,Louisiana Superdome,Home,dome,fieldturf,2004101712
+87,2004_06_TB_STL,2004,REG,6,2004-10-18,Monday,09:00,TB,STL,21,28,7,Edward Jones Dome,Home,dome,astroturf,2004101800
+88,2004_07_BUF_BAL,2004,REG,7,2004-10-24,Sunday,13:00,BUF,BAL,6,20,14,M&T Bank Stadium,Home,outdoors,sportturf,2004102400
+89,2004_07_SD_CAR,2004,REG,7,2004-10-24,Sunday,13:00,SD,CAR,17,6,-11,Bank of America Stadium,Home,outdoors,grass,2004102401
+90,2004_07_PHI_CLE,2004,REG,7,2004-10-24,Sunday,13:00,PHI,CLE,34,31,-3,Cleveland Browns Stadium,Home,outdoors,grass,2004102402
+91,2004_07_JAX_IND,2004,REG,7,2004-10-24,Sunday,13:00,JAX,IND,27,24,-3,RCA Dome,Home,dome,astroturf,2004102403
+92,2004_07_ATL_KC,2004,REG,7,2004-10-24,Sunday,13:00,ATL,KC,10,56,46,Arrowhead Stadium,Home,outdoors,grass,2004102404
+93,2004_07_STL_MIA,2004,REG,7,2004-10-24,Sunday,13:00,STL,MIA,14,31,17,Pro Player Stadium,Home,outdoors,grass,2004102405
+94,2004_07_TEN_MIN,2004,REG,7,2004-10-24,Sunday,13:00,TEN,MIN,3,20,17,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004102406
+95,2004_07_DET_NYG,2004,REG,7,2004-10-24,Sunday,13:00,DET,NYG,28,13,-15,Giants Stadium,Home,outdoors,fieldturf,2004102407
+96,2004_07_CHI_TB,2004,REG,7,2004-10-24,Sunday,13:00,CHI,TB,7,19,12,Raymond James Stadium,Home,outdoors,grass,2004102408
+97,2004_07_NYJ_NE,2004,REG,7,2004-10-24,Sunday,16:05,NYJ,NE,7,13,6,Gillette Stadium,Home,outdoors,grass,2004102409
+98,2004_07_SEA_ARI,2004,REG,7,2004-10-24,Sunday,16:15,SEA,ARI,17,25,8,Sun Devil Stadium,Home,outdoors,grass,2004102410
+99,2004_07_DAL_GB,2004,REG,7,2004-10-24,Sunday,16:15,DAL,GB,20,41,21,Lambeau Field,Home,outdoors,grass,2004102411
+100,2004_07_NO_OAK,2004,REG,7,2004-10-24,Sunday,16:15,NO,OAK,31,26,-5,McAfee Coliseum,Home,outdoors,grass,2004102412
+101,2004_07_DEN_CIN,2004,REG,7,2004-10-25,Monday,09:00,DEN,CIN,10,23,13,Paul Brown Stadium,Home,outdoors,fieldturf,2004102500
+102,2004_08_ARI_BUF,2004,REG,8,2004-10-31,Sunday,13:00,ARI,BUF,14,38,24,Ralph Wilson Stadium,Home,outdoors,astroplay,2004103100
+103,2004_08_DET_DAL,2004,REG,8,2004-10-31,Sunday,13:00,DET,DAL,21,31,10,Texas Stadium,Home,outdoors,fieldturf,2004103101
+104,2004_08_JAX_HOU,2004,REG,8,2004-10-31,Sunday,13:00,JAX,HOU,6,20,14,Reliant Stadium,Home,open,grass,2004103102
+105,2004_08_IND_KC,2004,REG,8,2004-10-31,Sunday,13:00,IND,KC,35,45,10,Arrowhead Stadium,Home,outdoors,grass,2004103103
+106,2004_08_NYG_MIN,2004,REG,8,2004-10-31,Sunday,13:00,NYG,MIN,34,13,-21,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004103104
+107,2004_08_BAL_PHI,2004,REG,8,2004-10-31,Sunday,13:00,BAL,PHI,10,15,5,Lincoln Financial Field,Home,outdoors,grass,2004103105
+108,2004_08_CIN_TEN,2004,REG,8,2004-10-31,Sunday,13:00,CIN,TEN,20,27,7,The Coliseum,Home,outdoors,grass,2004103106
+109,2004_08_GB_WAS,2004,REG,8,2004-10-31,Sunday,13:00,GB,WAS,28,14,-14,FedExField,Home,outdoors,grass,2004103107
+110,2004_08_ATL_DEN,2004,REG,8,2004-10-31,Sunday,16:05,ATL,DEN,41,28,-13,Invesco Field at Mile High,Home,outdoors,grass,2004103108
+111,2004_08_CAR_SEA,2004,REG,8,2004-10-31,Sunday,16:05,CAR,SEA,17,23,6,Qwest Field,Home,outdoors,fieldturf,2004103109
+112,2004_08_NE_PIT,2004,REG,8,2004-10-31,Sunday,16:15,NE,PIT,20,34,14,Heinz Field,Home,outdoors,dessograss,2004103110
+113,2004_08_OAK_SD,2004,REG,8,2004-10-31,Sunday,16:15,OAK,SD,14,42,28,Qualcomm Stadium,Home,outdoors,grass,2004103111
+114,2004_08_SF_CHI,2004,REG,8,2004-10-31,Sunday,20:30,SF,CHI,13,23,10,Soldier Field,Home,outdoors,grass,2004103112
+115,2004_08_MIA_NYJ,2004,REG,8,2004-11-01,Monday,09:00,MIA,NYJ,14,41,27,Giants Stadium,Home,outdoors,fieldturf,2004110100
+116,2004_09_NYJ_BUF,2004,REG,9,2004-11-07,Sunday,13:00,NYJ,BUF,17,22,5,Ralph Wilson Stadium,Home,outdoors,astroplay,2004110700
+117,2004_09_OAK_CAR,2004,REG,9,2004-11-07,Sunday,13:00,OAK,CAR,27,24,-3,Bank of America Stadium,Home,outdoors,grass,2004110701
+118,2004_09_DAL_CIN,2004,REG,9,2004-11-07,Sunday,13:00,DAL,CIN,3,26,23,Paul Brown Stadium,Home,outdoors,fieldturf,2004110702
+119,2004_09_WAS_DET,2004,REG,9,2004-11-07,Sunday,13:00,WAS,DET,17,10,-7,Ford Field,Home,dome,fieldturf,2004110703
+120,2004_09_ARI_MIA,2004,REG,9,2004-11-07,Sunday,13:00,ARI,MIA,24,23,-1,Pro Player Stadium,Home,outdoors,grass,2004110704
+121,2004_09_PHI_PIT,2004,REG,9,2004-11-07,Sunday,13:00,PHI,PIT,3,27,24,Heinz Field,Home,outdoors,dessograss,2004110705
+122,2004_09_KC_TB,2004,REG,9,2004-11-07,Sunday,13:00,KC,TB,31,34,3,Raymond James Stadium,Home,outdoors,grass,2004110706
+123,2004_09_CHI_NYG,2004,REG,9,2004-11-07,Sunday,16:05,CHI,NYG,28,21,-7,Giants Stadium,Home,outdoors,fieldturf,2004110707
+124,2004_09_NO_SD,2004,REG,9,2004-11-07,Sunday,16:05,NO,SD,17,43,26,Qualcomm Stadium,Home,outdoors,grass,2004110708
+125,2004_09_SEA_SF,2004,REG,9,2004-11-07,Sunday,16:05,SEA,SF,42,27,-15,3Com Park,Home,outdoors,grass,2004110709
+126,2004_09_HOU_DEN,2004,REG,9,2004-11-07,Sunday,16:15,HOU,DEN,13,31,18,Invesco Field at Mile High,Home,outdoors,grass,2004110710
+127,2004_09_NE_STL,2004,REG,9,2004-11-07,Sunday,16:15,NE,STL,40,22,-18,Edward Jones Dome,Home,dome,astroturf,2004110711
+128,2004_09_CLE_BAL,2004,REG,9,2004-11-07,Sunday,20:30,CLE,BAL,13,27,14,M&T Bank Stadium,Home,outdoors,sportturf,2004110712
+129,2004_09_MIN_IND,2004,REG,9,2004-11-08,Monday,09:00,MIN,IND,28,31,3,RCA Dome,Home,dome,astroturf,2004110800
+130,2004_10_TB_ATL,2004,REG,10,2004-11-14,Sunday,13:00,TB,ATL,14,24,10,Georgia Dome,Home,dome,fieldturf,2004111400
+131,2004_10_PIT_CLE,2004,REG,10,2004-11-14,Sunday,13:00,PIT,CLE,24,10,-14,Cleveland Browns Stadium,Home,outdoors,grass,2004111401
+132,2004_10_HOU_IND,2004,REG,10,2004-11-14,Sunday,13:00,HOU,IND,14,49,35,RCA Dome,Home,dome,astroturf,2004111402
+133,2004_10_DET_JAX,2004,REG,10,2004-11-14,Sunday,13:00,DET,JAX,17,23,6,Alltel Stadium,Home,outdoors,grass,2004111403
+134,2004_10_KC_NO,2004,REG,10,2004-11-14,Sunday,13:00,KC,NO,20,27,7,Louisiana Superdome,Home,dome,fieldturf,2004111404
+135,2004_10_BAL_NYJ,2004,REG,10,2004-11-14,Sunday,13:00,BAL,NYJ,20,17,-3,Giants Stadium,Home,outdoors,fieldturf,2004111405
+136,2004_10_SEA_STL,2004,REG,10,2004-11-14,Sunday,13:00,SEA,STL,12,23,11,Edward Jones Dome,Home,dome,astroturf,2004111406
+137,2004_10_CHI_TEN,2004,REG,10,2004-11-14,Sunday,13:00,CHI,TEN,19,17,-2,The Coliseum,Home,outdoors,grass,2004111407
+138,2004_10_CIN_WAS,2004,REG,10,2004-11-14,Sunday,16:05,CIN,WAS,17,10,-7,FedExField,Home,outdoors,grass,2004111408
+139,2004_10_NYG_ARI,2004,REG,10,2004-11-14,Sunday,16:15,NYG,ARI,14,17,3,Sun Devil Stadium,Home,outdoors,grass,2004111409
+140,2004_10_MIN_GB,2004,REG,10,2004-11-14,Sunday,16:15,MIN,GB,31,34,3,Lambeau Field,Home,outdoors,grass,2004111410
+141,2004_10_CAR_SF,2004,REG,10,2004-11-14,Sunday,16:15,CAR,SF,37,27,-10,3Com Park,Home,outdoors,grass,2004111411
+142,2004_10_BUF_NE,2004,REG,10,2004-11-14,Sunday,20:30,BUF,NE,6,29,23,Gillette Stadium,Home,outdoors,grass,2004111412
+143,2004_10_PHI_DAL,2004,REG,10,2004-11-15,Monday,09:00,PHI,DAL,49,21,-28,Texas Stadium,Home,outdoors,fieldturf,2004111500
+144,2004_11_DAL_BAL,2004,REG,11,2004-11-21,Sunday,13:00,DAL,BAL,10,30,20,M&T Bank Stadium,Home,outdoors,sportturf,2004112100
+145,2004_11_STL_BUF,2004,REG,11,2004-11-21,Sunday,13:00,STL,BUF,17,37,20,Ralph Wilson Stadium,Home,outdoors,astroplay,2004112101
+146,2004_11_ARI_CAR,2004,REG,11,2004-11-21,Sunday,13:00,ARI,CAR,10,35,25,Bank of America Stadium,Home,outdoors,grass,2004112102
+147,2004_11_IND_CHI,2004,REG,11,2004-11-21,Sunday,13:00,IND,CHI,41,10,-31,Soldier Field,Home,outdoors,grass,2004112103
+148,2004_11_PIT_CIN,2004,REG,11,2004-11-21,Sunday,13:00,PIT,CIN,19,14,-5,Paul Brown Stadium,Home,outdoors,fieldturf,2004112104
+149,2004_11_NYJ_CLE,2004,REG,11,2004-11-21,Sunday,13:00,NYJ,CLE,10,7,-3,Cleveland Browns Stadium,Home,outdoors,grass,2004112105
+150,2004_11_TEN_JAX,2004,REG,11,2004-11-21,Sunday,13:00,TEN,JAX,18,15,-3,Alltel Stadium,Home,outdoors,grass,2004112106
+151,2004_11_DET_MIN,2004,REG,11,2004-11-21,Sunday,13:00,DET,MIN,19,22,3,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004112107
+152,2004_11_DEN_NO,2004,REG,11,2004-11-21,Sunday,13:00,DEN,NO,34,13,-21,Louisiana Superdome,Home,dome,fieldturf,2004112108
+153,2004_11_SF_TB,2004,REG,11,2004-11-21,Sunday,13:00,SF,TB,3,35,32,Raymond James Stadium,Home,outdoors,grass,2004112109
+154,2004_11_SD_OAK,2004,REG,11,2004-11-21,Sunday,16:05,SD,OAK,23,17,-6,McAfee Coliseum,Home,outdoors,grass,2004112110
+155,2004_11_MIA_SEA,2004,REG,11,2004-11-21,Sunday,16:05,MIA,SEA,17,24,7,Qwest Field,Home,outdoors,fieldturf,2004112111
+156,2004_11_ATL_NYG,2004,REG,11,2004-11-21,Sunday,16:15,ATL,NYG,14,10,-4,Giants Stadium,Home,outdoors,fieldturf,2004112112
+157,2004_11_WAS_PHI,2004,REG,11,2004-11-21,Sunday,16:15,WAS,PHI,6,28,22,Lincoln Financial Field,Home,outdoors,grass,2004112113
+158,2004_11_GB_HOU,2004,REG,11,2004-11-21,Sunday,20:30,GB,HOU,16,13,-3,Reliant Stadium,Home,closed,grass,2004112114
+159,2004_11_NE_KC,2004,REG,11,2004-11-22,Monday,09:00,NE,KC,27,19,-8,Arrowhead Stadium,Home,outdoors,grass,2004112200
+160,2004_12_IND_DET,2004,REG,12,2004-11-25,Thursday,12:30,IND,DET,41,9,-32,Ford Field,Home,dome,fieldturf,2004112500
+161,2004_12_CHI_DAL,2004,REG,12,2004-11-25,Thursday,16:15,CHI,DAL,7,21,14,Texas Stadium,Home,outdoors,fieldturf,2004112501
+162,2004_12_TB_CAR,2004,REG,12,2004-11-28,Sunday,13:00,TB,CAR,14,21,7,Bank of America Stadium,Home,outdoors,grass,2004112800
+163,2004_12_CLE_CIN,2004,REG,12,2004-11-28,Sunday,13:00,CLE,CIN,48,58,10,Paul Brown Stadium,Home,outdoors,fieldturf,2004112801
+164,2004_12_TEN_HOU,2004,REG,12,2004-11-28,Sunday,13:00,TEN,HOU,21,31,10,Reliant Stadium,Home,open,grass,2004112802
+165,2004_12_SD_KC,2004,REG,12,2004-11-28,Sunday,13:00,SD,KC,34,31,-3,Arrowhead Stadium,Home,outdoors,grass,2004112803
+166,2004_12_JAX_MIN,2004,REG,12,2004-11-28,Sunday,13:00,JAX,MIN,16,27,11,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004112804
+167,2004_12_PHI_NYG,2004,REG,12,2004-11-28,Sunday,13:00,PHI,NYG,27,6,-21,Giants Stadium,Home,outdoors,fieldturf,2004112806
+168,2004_12_WAS_PIT,2004,REG,12,2004-11-28,Sunday,13:00,WAS,PIT,7,16,9,Heinz Field,Home,outdoors,dessograss,2004112807
+169,2004_12_NO_ATL,2004,REG,12,2004-11-28,Sunday,16:05,NO,ATL,21,24,3,Georgia Dome,Home,dome,fieldturf,2004112808
+170,2004_12_NYJ_ARI,2004,REG,12,2004-11-28,Sunday,16:15,NYJ,ARI,13,3,-10,Sun Devil Stadium,Home,outdoors,grass,2004112809
+171,2004_12_BAL_NE,2004,REG,12,2004-11-28,Sunday,16:15,BAL,NE,3,24,21,Gillette Stadium,Home,outdoors,grass,2004112805
+172,2004_12_BUF_SEA,2004,REG,12,2004-11-28,Sunday,16:15,BUF,SEA,38,9,-29,Qwest Field,Home,outdoors,fieldturf,2004112811
+173,2004_12_MIA_SF,2004,REG,12,2004-11-28,Sunday,16:15,MIA,SF,24,17,-7,3Com Park,Home,outdoors,grass,2004112810
+174,2004_12_OAK_DEN,2004,REG,12,2004-11-28,Sunday,20:30,OAK,DEN,25,24,-1,Invesco Field at Mile High,Home,outdoors,grass,2004112812
+175,2004_12_STL_GB,2004,REG,12,2004-11-29,Monday,09:00,STL,GB,17,45,28,Lambeau Field,Home,outdoors,grass,2004112900
+176,2004_13_CIN_BAL,2004,REG,13,2004-12-05,Sunday,13:00,CIN,BAL,27,26,-1,M&T Bank Stadium,Home,outdoors,sportturf,2004120500
+177,2004_13_MIN_CHI,2004,REG,13,2004-12-05,Sunday,13:00,MIN,CHI,14,24,10,Soldier Field,Home,outdoors,grass,2004120501
+178,2004_13_NE_CLE,2004,REG,13,2004-12-05,Sunday,13:00,NE,CLE,42,15,-27,Cleveland Browns Stadium,Home,outdoors,grass,2004120502
+179,2004_13_ARI_DET,2004,REG,13,2004-12-05,Sunday,13:00,ARI,DET,12,26,14,Ford Field,Home,dome,fieldturf,2004120503
+180,2004_13_TEN_IND,2004,REG,13,2004-12-05,Sunday,13:00,TEN,IND,24,51,27,RCA Dome,Home,dome,astroturf,2004120504
+181,2004_13_BUF_MIA,2004,REG,13,2004-12-05,Sunday,13:00,BUF,MIA,42,32,-10,Pro Player Stadium,Home,outdoors,grass,2004120505
+182,2004_13_CAR_NO,2004,REG,13,2004-12-05,Sunday,13:00,CAR,NO,32,21,-11,Louisiana Superdome,Home,dome,fieldturf,2004120506
+183,2004_13_HOU_NYJ,2004,REG,13,2004-12-05,Sunday,13:00,HOU,NYJ,7,29,22,Giants Stadium,Home,outdoors,fieldturf,2004120507
+184,2004_13_SF_STL,2004,REG,13,2004-12-05,Sunday,13:00,SF,STL,6,16,10,Edward Jones Dome,Home,dome,astroturf,2004120508
+185,2004_13_ATL_TB,2004,REG,13,2004-12-05,Sunday,13:00,ATL,TB,0,27,27,Raymond James Stadium,Home,outdoors,grass,2004120509
+186,2004_13_KC_OAK,2004,REG,13,2004-12-05,Sunday,16:05,KC,OAK,34,27,-7,McAfee Coliseum,Home,outdoors,grass,2004120510
+187,2004_13_DEN_SD,2004,REG,13,2004-12-05,Sunday,16:05,DEN,SD,17,20,3,Qualcomm Stadium,Home,outdoors,grass,2004120511
+188,2004_13_GB_PHI,2004,REG,13,2004-12-05,Sunday,16:15,GB,PHI,17,47,30,Lincoln Financial Field,Home,outdoors,grass,2004120512
+189,2004_13_NYG_WAS,2004,REG,13,2004-12-05,Sunday,16:15,NYG,WAS,7,31,24,FedExField,Home,outdoors,grass,2004120513
+190,2004_13_PIT_JAX,2004,REG,13,2004-12-05,Sunday,20:30,PIT,JAX,17,16,-1,Alltel Stadium,Home,outdoors,grass,2004120514
+191,2004_13_DAL_SEA,2004,REG,13,2004-12-06,Monday,09:00,DAL,SEA,43,39,-4,Qwest Field,Home,outdoors,fieldturf,2004120600
+192,2004_14_OAK_ATL,2004,REG,14,2004-12-12,Sunday,13:00,OAK,ATL,10,35,25,Georgia Dome,Home,dome,fieldturf,2004121200
+193,2004_14_NYG_BAL,2004,REG,14,2004-12-12,Sunday,13:00,NYG,BAL,14,37,23,M&T Bank Stadium,Home,outdoors,sportturf,2004121201
+194,2004_14_CLE_BUF,2004,REG,14,2004-12-12,Sunday,13:00,CLE,BUF,7,37,30,Ralph Wilson Stadium,Home,outdoors,astroplay,2004121202
+195,2004_14_NO_DAL,2004,REG,14,2004-12-12,Sunday,13:00,NO,DAL,27,13,-14,Texas Stadium,Home,outdoors,fieldturf,2004121203
+196,2004_14_IND_HOU,2004,REG,14,2004-12-12,Sunday,13:00,IND,HOU,23,14,-9,Reliant Stadium,Home,open,grass,2004121205
+197,2004_14_CHI_JAX,2004,REG,14,2004-12-12,Sunday,13:00,CHI,JAX,3,22,19,Alltel Stadium,Home,outdoors,grass,2004121206
+198,2004_14_SEA_MIN,2004,REG,14,2004-12-12,Sunday,13:00,SEA,MIN,27,23,-4,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004121207
+199,2004_14_CIN_NE,2004,REG,14,2004-12-12,Sunday,13:00,CIN,NE,28,35,7,Gillette Stadium,Home,outdoors,grass,2004121208
+200,2004_14_MIA_DEN,2004,REG,14,2004-12-12,Sunday,16:05,MIA,DEN,17,20,3,Invesco Field at Mile High,Home,outdoors,grass,2004121209
+201,2004_14_NYJ_PIT,2004,REG,14,2004-12-12,Sunday,16:05,NYJ,PIT,6,17,11,Heinz Field,Home,outdoors,dessograss,2004121210
+202,2004_14_SF_ARI,2004,REG,14,2004-12-12,Sunday,16:15,SF,ARI,31,28,-3,Sun Devil Stadium,Home,outdoors,grass,2004121211
+203,2004_14_STL_CAR,2004,REG,14,2004-12-12,Sunday,16:15,STL,CAR,7,20,13,Bank of America Stadium,Home,outdoors,grass,2004121212
+204,2004_14_DET_GB,2004,REG,14,2004-12-12,Sunday,16:15,DET,GB,13,16,3,Lambeau Field,Home,outdoors,grass,2004121204
+205,2004_14_TB_SD,2004,REG,14,2004-12-12,Sunday,16:15,TB,SD,24,31,7,Qualcomm Stadium,Home,outdoors,grass,2004121213
+206,2004_14_PHI_WAS,2004,REG,14,2004-12-12,Sunday,20:30,PHI,WAS,17,14,-3,FedExField,Home,outdoors,grass,2004121214
+207,2004_14_KC_TEN,2004,REG,14,2004-12-13,Monday,09:00,KC,TEN,49,38,-11,The Coliseum,Home,outdoors,grass,2004121300
+208,2004_15_PIT_NYG,2004,REG,15,2004-12-18,Saturday,13:30,PIT,NYG,33,30,-3,Giants Stadium,Home,outdoors,fieldturf,2004121800
+209,2004_15_WAS_SF,2004,REG,15,2004-12-18,Saturday,17:00,WAS,SF,26,16,-10,3Com Park,Home,outdoors,grass,2004121801
+210,2004_15_CAR_ATL,2004,REG,15,2004-12-18,Saturday,20:30,CAR,ATL,31,34,3,Georgia Dome,Home,dome,fieldturf,2004121802
+211,2004_15_HOU_CHI,2004,REG,15,2004-12-19,Sunday,13:00,HOU,CHI,24,5,-19,Soldier Field,Home,outdoors,grass,2004121900
+212,2004_15_BUF_CIN,2004,REG,15,2004-12-19,Sunday,13:00,BUF,CIN,33,17,-16,Paul Brown Stadium,Home,outdoors,fieldturf,2004121901
+213,2004_15_SD_CLE,2004,REG,15,2004-12-19,Sunday,13:00,SD,CLE,21,0,-21,Cleveland Browns Stadium,Home,outdoors,grass,2004121904
+214,2004_15_MIN_DET,2004,REG,15,2004-12-19,Sunday,13:00,MIN,DET,28,27,-1,Ford Field,Home,dome,fieldturf,2004121903
+215,2004_15_DEN_KC,2004,REG,15,2004-12-19,Sunday,13:00,DEN,KC,17,45,28,Arrowhead Stadium,Home,outdoors,grass,2004121909
+216,2004_15_SEA_NYJ,2004,REG,15,2004-12-19,Sunday,13:00,SEA,NYJ,14,37,23,Giants Stadium,Home,outdoors,fieldturf,2004121905
+217,2004_15_DAL_PHI,2004,REG,15,2004-12-19,Sunday,13:00,DAL,PHI,7,12,5,Lincoln Financial Field,Home,outdoors,grass,2004121906
+218,2004_15_STL_ARI,2004,REG,15,2004-12-19,Sunday,16:05,STL,ARI,7,31,24,Sun Devil Stadium,Home,outdoors,grass,2004121907
+219,2004_15_NO_TB,2004,REG,15,2004-12-19,Sunday,16:05,NO,TB,21,17,-4,Raymond James Stadium,Home,outdoors,grass,2004121908
+220,2004_15_JAX_GB,2004,REG,15,2004-12-19,Sunday,16:15,JAX,GB,28,25,-3,Lambeau Field,Home,outdoors,grass,2004121902
+221,2004_15_TEN_OAK,2004,REG,15,2004-12-19,Sunday,16:15,TEN,OAK,35,40,5,McAfee Coliseum,Home,outdoors,grass,2004121910
+222,2004_15_BAL_IND,2004,REG,15,2004-12-19,Sunday,20:30,BAL,IND,10,20,10,RCA Dome,Home,dome,astroturf,2004121911
+223,2004_15_NE_MIA,2004,REG,15,2004-12-20,Monday,09:00,NE,MIA,28,29,1,Pro Player Stadium,Home,outdoors,grass,2004122000
+224,2004_16_GB_MIN,2004,REG,16,2004-12-24,Friday,15:00,GB,MIN,34,31,-3,Hubert H. Humphrey Metrodome,Home,dome,fieldturf,2004122400
+225,2004_16_OAK_KC,2004,REG,16,2004-12-25,Saturday,17:00,OAK,KC,30,31,1,Arrowhead Stadium,Home,outdoors,grass,2004122500
+226,2004_16_DEN_TEN,2004,REG,16,2004-12-25,Saturday,20:30,DEN,TEN,37,16,-21,The Coliseum,Home,outdoors,grass,2004122501
+227,2004_16_NYG_CIN,2004,REG,16,2004-12-26,Sunday,13:00,NYG,CIN,22,23,1,Paul Brown Stadium,Home,outdoors,fieldturf,2004122600
+228,2004_16_CHI_DET,2004,REG,16,2004-12-26,Sunday,13:00,CHI,DET,13,19,6,Ford Field,Home,dome,fieldturf,2004122601
+229,2004_16_SD_IND,2004,REG,16,2004-12-26,Sunday,13:00,SD,IND,31,34,3,RCA Dome,Home,dome,astroturf,2004122602
+230,2004_16_HOU_JAX,2004,REG,16,2004-12-26,Sunday,13:00,HOU,JAX,21,0,-21,Alltel Stadium,Home,outdoors,grass,2004122603
+231,2004_16_ATL_NO,2004,REG,16,2004-12-26,Sunday,13:00,ATL,NO,13,26,13,Louisiana Superdome,Home,dome,fieldturf,2004122604
+232,2004_16_BAL_PIT,2004,REG,16,2004-12-26,Sunday,13:00,BAL,PIT,7,20,13,Heinz Field,Home,outdoors,dessograss,2004122605
+233,2004_16_NE_NYJ,2004,REG,16,2004-12-26,Sunday,16:05,NE,NYJ,23,7,-16,Giants Stadium,Home,outdoors,fieldturf,2004122607
+234,2004_16_BUF_SF,2004,REG,16,2004-12-26,Sunday,16:05,BUF,SF,41,7,-34,3Com Park,Home,outdoors,grass,2004122608
+235,2004_16_WAS_DAL,2004,REG,16,2004-12-26,Sunday,16:15,WAS,DAL,10,13,3,Texas Stadium,Home,outdoors,fieldturf,2004122609
+236,2004_16_ARI_SEA,2004,REG,16,2004-12-26,Sunday,16:15,ARI,SEA,21,24,3,Qwest Field,Home,outdoors,fieldturf,2004122610
+237,2004_16_CAR_TB,2004,REG,16,2004-12-26,Sunday,16:15,CAR,TB,37,20,-17,Raymond James Stadium,Home,outdoors,grass,2004122606
+238,2004_16_CLE_MIA,2004,REG,16,2004-12-26,Sunday,20:30,CLE,MIA,7,10,3,Pro Player Stadium,Home,outdoors,grass,2004122611
+239,2004_16_PHI_STL,2004,REG,16,2004-12-27,Monday,09:00,PHI,STL,7,20,13,Edward Jones Dome,Home,dome,astroturf,2004122700
+240,2004_17_MIA_BAL,2004,REG,17,2005-01-02,Sunday,13:00,MIA,BAL,23,30,7,M&T Bank Stadium,Home,outdoors,sportturf,2005010200
+241,2004_17_PIT_BUF,2004,REG,17,2005-01-02,Sunday,13:00,PIT,BUF,29,24,-5,Ralph Wilson Stadium,Home,outdoors,astroplay,2005010201
+242,2004_17_NO_CAR,2004,REG,17,2005-01-02,Sunday,13:00,NO,CAR,21,18,-3,Bank of America Stadium,Home,outdoors,grass,2005010202
+243,2004_17_GB_CHI,2004,REG,17,2005-01-02,Sunday,13:00,GB,CHI,31,14,-17,Soldier Field,Home,outdoors,grass,2005010203
+244,2004_17_CLE_HOU,2004,REG,17,2005-01-02,Sunday,13:00,CLE,HOU,22,14,-8,Reliant Stadium,Home,closed,grass,2005010204
+245,2004_17_SF_NE,2004,REG,17,2005-01-02,Sunday,13:00,SF,NE,7,21,14,Gillette Stadium,Home,outdoors,grass,2005010205
+246,2004_17_CIN_PHI,2004,REG,17,2005-01-02,Sunday,13:00,CIN,PHI,38,10,-28,Lincoln Financial Field,Home,outdoors,grass,2005010206
+247,2004_17_NYJ_STL,2004,REG,17,2005-01-02,Sunday,13:00,NYJ,STL,29,32,3,Edward Jones Dome,Home,dome,astroturf,2005010207
+248,2004_17_DET_TEN,2004,REG,17,2005-01-02,Sunday,13:00,DET,TEN,19,24,5,The Coliseum,Home,outdoors,grass,2005010208
+249,2004_17_MIN_WAS,2004,REG,17,2005-01-02,Sunday,13:00,MIN,WAS,18,21,3,FedExField,Home,outdoors,grass,2005010209
+250,2004_17_TB_ARI,2004,REG,17,2005-01-02,Sunday,16:05,TB,ARI,7,12,5,Sun Devil Stadium,Home,outdoors,grass,2005010210
+251,2004_17_ATL_SEA,2004,REG,17,2005-01-02,Sunday,16:05,ATL,SEA,26,28,2,Qwest Field,Home,outdoors,fieldturf,2005010211
+252,2004_17_IND_DEN,2004,REG,17,2005-01-02,Sunday,16:15,IND,DEN,14,33,19,Invesco Field at Mile High,Home,outdoors,grass,2005010212
+253,2004_17_JAX_OAK,2004,REG,17,2005-01-02,Sunday,16:15,JAX,OAK,13,6,-7,McAfee Coliseum,Home,outdoors,grass,2005010213
+254,2004_17_KC_SD,2004,REG,17,2005-01-02,Sunday,16:15,KC,SD,17,24,7,Qualcomm Stadium,Home,outdoors,grass,2005010214
+255,2004_17_DAL_NYG,2004,REG,17,2005-01-02,Sunday,20:30,DAL,NYG,24,28,4,Giants Stadium,Home,outdoors,fieldturf,2005010215
+256,2004_18_STL_SEA,2004,WC,18,2005-01-08,Saturday,16:30,STL,SEA,27,20,-7,Qwest Field,Home,outdoors,fieldturf,2005010800
+257,2004_18_NYJ_SD,2004,WC,18,2005-01-08,Saturday,20:00,NYJ,SD,20,17,-3,Qualcomm Stadium,Home,outdoors,grass,2005010801
+258,2004_18_DEN_IND,2004,WC,18,2005-01-09,Sunday,13:00,DEN,IND,24,49,25,RCA Dome,Home,dome,astroturf,2005010901
+259,2004_18_MIN_GB,2004,WC,18,2005-01-09,Sunday,16:30,MIN,GB,31,17,-14,Lambeau Field,Home,outdoors,grass,2005010902
+260,2004_19_NYJ_PIT,2004,DIV,19,2005-01-15,Saturday,16:30,NYJ,PIT,17,20,3,Heinz Field,Home,outdoors,dessograss,2005011500
+261,2004_19_STL_ATL,2004,DIV,19,2005-01-15,Saturday,20:00,STL,ATL,17,47,30,Georgia Dome,Home,dome,fieldturf,2005011501
+262,2004_19_MIN_PHI,2004,DIV,19,2005-01-16,Sunday,13:00,MIN,PHI,14,27,13,Lincoln Financial Field,Home,outdoors,grass,2005011600
+263,2004_19_IND_NE,2004,DIV,19,2005-01-16,Sunday,16:30,IND,NE,3,20,17,Gillette Stadium,Home,outdoors,grass,2005011601
+264,2004_20_ATL_PHI,2004,CON,20,2005-01-23,Sunday,15:00,ATL,PHI,10,27,17,Lincoln Financial Field,Home,outdoors,grass,2005012300
+265,2004_20_NE_PIT,2004,CON,20,2005-01-23,Sunday,18:30,NE,PIT,41,27,-14,Heinz Field,Home,outdoors,dessograss,2005012301
+266,2004_21_NE_PHI,2004,SB,21,2005-02-06,Sunday,18:30,NE,PHI,24,21,-3,Alltel Stadium,Neutral,outdoors,grass,2005020600
