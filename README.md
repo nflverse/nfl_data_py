@@ -26,8 +26,10 @@ Returns play-by-play data for the years and columns specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
+
 columns
 : optional, list of columns to pull data for
+
 downcast
 : converts float64 columns to float32, reducing memory usage by ~30%. Will slow down initial load speed ~50%
 
@@ -44,8 +46,10 @@ Returns weekly data for the years and columns specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
+
 columns
 : optional, list of columns to pull data for
+
 downcast
 : converts float64 columns to float32, reducing memory usage by ~30%. Will slow down initial load speed ~50%
 
@@ -71,6 +75,7 @@ Returns roster information for years and columns specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
+
 columns
 : optional, list of columns to pull data for
 
@@ -129,16 +134,22 @@ nfl.import_combine_data(years, positions)
 ```
 Returns dataframe with combine results for years and positions specified
 
-years: optional, list or range of years to pull data from
-positions: optional, list of positions to be pulled (standard format - WR/QB/RB/etc.)
+years
+: optional, list or range of years to pull data from
+
+positions
+: optional, list of positions to be pulled (standard format - WR/QB/RB/etc.)
 
 ```python
 nfl.import_ids(columns, ids)
 ```
 Returns dataframe with mapped ids for all players across most major NFL and fantasy football data platforms
 
-columns: optional, list of columns to return
-ids: optional, list of ids to return
+columns
+: optional, list of columns to return
+
+ids
+: optional, list of ids to return
 
 **Additional features**
 ```python
