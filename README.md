@@ -20,7 +20,7 @@ import nfl_data_py as nfl
 
 **Working with play-by-play data**
 ```python
-nfl.import_pbp_data(years, columns)
+nfl.import_pbp_data(years, columns, downcast=True)
 ```
 Returns play-by-play data for the years and columns specified
 
@@ -28,6 +28,8 @@ years
 : required, list of years to pull data for (earliest available is 1999)
 columns
 : optional, list of columns to pull data for
+downcast
+: converts float64 columns to float32, reducing memory usage by ~30%. Will slow down initial load speed ~50%
 
 ```python
 nfl.see_pbp_cols()
@@ -36,7 +38,7 @@ returns list of columns available in play-by-play dataset
 
 **Working with weekly data**
 ```python
-nfl.import_weekly_data(years, columns)
+nfl.import_weekly_data(years, columns, downcast)
 ```
 Returns weekly data for the years and columns specified
 
@@ -44,6 +46,8 @@ years
 : required, list of years to pull data for (earliest available is 1999)
 columns
 : optional, list of columns to pull data for
+downcast
+: converts float64 columns to float32, reducing memory usage by ~30%. Will slow down initial load speed ~50%
 
 ```python
 nfl.see_weekly_cols()
