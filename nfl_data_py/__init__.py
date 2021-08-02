@@ -5,8 +5,18 @@ import numpy
 import datetime
 
 
-def import_pbp_data(years, columns=None):
+def import_pbp_data(years, columns=None, downcast=True):
+    """Imports play-by-play data
+    
+    Args:
+        years (List[int]): years to get PBP data for
+        columns (List[str]): only return these columns
+        downcast (bool): convert float64 to float32, default True
 
+    Returns:
+        DataFrame
+
+    """
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
         
@@ -41,12 +51,27 @@ def import_pbp_data(years, columns=None):
             
         except:
             print('Data not available for ' + str(year))
+    
+    # converts float64 to float32, saves ~30% memory
+    if downcast:
+        cols = plays.select_dtypes(include=[numpy.float64]).columns
+        plays.loc[:, cols] = plays.loc[:, cols].astype(numpy.float32)
             
     return plays
 
 
-def import_weekly_data(years, columns=None):
+def import_weekly_data(years, columns=None, downcast=True):
+    """Imports weekly player data
+    
+    Args:
+        years (List[int]): years to get PBP data for
+        columns (List[str]): only return these columns
+        downcast (bool): convert float64 to float32, default True
 
+    Returns:
+        DataFrame
+
+    """
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
         
@@ -61,6 +86,11 @@ def import_weekly_data(years, columns=None):
 
     if len(columns) > 0:
         data = data[columns]
+
+    # converts float64 to float32, saves ~30% memory
+    if downcast:
+        cols = data.select_dtypes(include=[numpy.float64]).columns
+        data.loc[:, cols] = data.loc[:, cols].astype(numpy.float32)
 
     return data
 
