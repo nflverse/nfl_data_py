@@ -12,10 +12,8 @@ def import_pbp_data(years, columns=None, downcast=True):
         years (List[int]): years to get PBP data for
         columns (List[str]): only return these columns
         downcast (bool): convert float64 to float32, default True
-
     Returns:
         DataFrame
-
     """
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
@@ -54,6 +52,7 @@ def import_pbp_data(years, columns=None, downcast=True):
     
     # converts float64 to float32, saves ~30% memory
     if downcast:
+        print('Downcasting floats.')
         cols = plays.select_dtypes(include=[numpy.float64]).columns
         plays.loc[:, cols] = plays.loc[:, cols].astype(numpy.float32)
             
@@ -67,10 +66,8 @@ def import_weekly_data(years, columns=None, downcast=True):
         years (List[int]): years to get PBP data for
         columns (List[str]): only return these columns
         downcast (bool): convert float64 to float32, default True
-
     Returns:
         DataFrame
-
     """
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
@@ -89,6 +86,7 @@ def import_weekly_data(years, columns=None, downcast=True):
 
     # converts float64 to float32, saves ~30% memory
     if downcast:
+        print('Downcasting floats.')
         cols = data.select_dtypes(include=[numpy.float64]).columns
         data.loc[:, cols] = data.loc[:, cols].astype(numpy.float32)
 
