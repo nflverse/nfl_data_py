@@ -223,7 +223,7 @@ def import_schedules(years):
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
     
-    scheds = pd.DataFrame()
+    scheds = pandas.DataFrame()
             
     for x in years:
         

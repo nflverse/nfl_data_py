@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: nfl-data-py
-Version: 0.1.4
+Version: 0.1.5
 Summary: python library for interacting with NFL data sourced from nflfastR
 Home-page: https://github.com/cooperdff/nfl_data_py
 Author: cooperdff
