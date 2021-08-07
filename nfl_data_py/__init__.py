@@ -36,9 +36,9 @@ def import_pbp_data(years, columns=None, downcast=True):
         
         try:
             if len(columns) != 0:
-                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
+                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='auto')
             else:
-                data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
+                data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
             
             raw = pandas.DataFrame(data)
             raw['season'] = year
@@ -84,7 +84,8 @@ def import_weekly_data(years, columns=None, downcast=True):
         columns = []
         
     # read weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
+
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
@@ -120,7 +121,7 @@ def import_seasonal_data(years, s_type='REG'):
         raise ValueError('Only REG, ALL, POST allowed for s_type.')
     
     # import weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
     
     # filter to appropriate season_type
     if s_type == 'ALL':
@@ -179,7 +180,8 @@ def see_pbp_cols():
     """
     
     # load pbp file, identify columns
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='fastparquet')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='auto')
+
     cols = data.columns
 
     return cols
@@ -193,7 +195,8 @@ def see_weekly_cols():
     """
     
     # load weekly file, identify columns
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
+
     cols = data.columns
 
     return cols
@@ -284,14 +287,8 @@ def import_schedules(years):
     scheds = pandas.DataFrame()
     
     # import schedule for specified years
-    for x in years:
-        
-        try:
-            temp = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/schedules//' + str(x) + '.csv').drop('Unnamed: 0', axis=1)
-            scheds = scheds.append(temp)
-    
-        except:
-            print('Data not available for ' + str(x))
+    scheds = pandas.read_csv(r'http://www.habitatring.com/games.csv')    
+    scheds = scheds[scheds['season'].isin(years)]
         
     return scheds
     
@@ -513,6 +510,58 @@ def import_ids(columns=None, ids=None):
     return df
     
 
+def import_ids(columns=None, ids=None):
+    """Import mapping table of ids for most major data providers
+    
+    Args:
+        columns (List[str]): list of columns to return
+        ids (List[str]): list of specific ids to return
+        
+    Returns:
+        DataFrame
+    """
+    
+    # create list of id options
+    avail_ids = ['mfl_id', 'sportradar_id', 'fantasypros_id', 'gsis_id', 'pff_id',
+       'sleeper_id', 'nfl_id', 'espn_id', 'yahoo_id', 'fleaflicker_id',
+       'cbs_id', 'rotowire_id', 'rotoworld_id', 'ktc_id', 'pfr_id',
+       'cfbref_id', 'stats_id', 'stats_global_id', 'fantasy_data_id']
+    avail_sites = [x[:-3] for x in avail_ids]
+    
+    # check variable types
+    if columns is None:
+        columns = []
+    
+    if ids is None:
+        ids = []
+
+    if not isinstance(columns, list):
+        raise ValueError('columns variable must be list.')
+        
+    if not isinstance(ids, list):
+        raise ValueError('ids variable must be list.')
+        
+    # confirm id is in table
+    if False in [x in avail_sites for x in ids]:
+        raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
+        
+    # import data
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
+    
+    rem_cols = [x for x in df.columns if x not in avail_ids]
+    tgt_ids = [x + '_id' for x in ids]
+        
+    # filter df to just specified columns
+    if len(columns) > 0 and len(ids) > 0:
+        df = df[set(tgt_ids + columns)]
+    elif len(columns) > 0 and len(ids) == 0:
+        df = df[set(avail_ids + columns)]
+    elif len(columns) == 0 and len(ids) > 0:
+        df = df[set(tgt_ids + rem_cols)]
+    
+    return df
+    
+
 def clean_nfl_data(df):
     """Cleans descriptive data for players and teams to help with consistency across datasets
     
@@ -592,6 +641,13 @@ def clean_nfl_data(df):
         'SFO': 'SF',
         'TAM': 'TB'
     }
+    
+    na_replace = {
+        'NA':np.nan
+    }
+
+    for col in df.columns:
+        df.replace({col:na_replace}, inplace=True)
 
     if 'name' in df.columns:
         df.replace({'name': name_repl}, inplace=True)
