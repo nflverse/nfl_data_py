@@ -15,8 +15,6 @@ def import_pbp_data(years, columns=None, downcast=True):
     Returns:
         DataFrame
     """
-    
-    # check variable types
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
         
@@ -31,14 +29,13 @@ def import_pbp_data(years, columns=None, downcast=True):
     url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
     url2 = r'.parquet'
 
-    # read in pbp data
     for year in years:
         
         try:
             if len(columns) != 0:
-                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='auto')
+                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='fastparquet')
             else:
-                data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
+                data = pandas.read_parquet(url1 + str(year) + url2, engine='fastparquet')
             
             raw = pandas.DataFrame(data)
             raw['season'] = year
@@ -66,14 +63,12 @@ def import_weekly_data(years, columns=None, downcast=True):
     """Imports weekly player data
     
     Args:
-        years (List[int]): years to get weekly data for
+        years (List[int]): years to get PBP data for
         columns (List[str]): only return these columns
         downcast (bool): convert float64 to float32, default True
     Returns:
         DataFrame
     """
-    
-    # check variable types
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
         
@@ -83,9 +78,7 @@ def import_weekly_data(years, columns=None, downcast=True):
     if columns is None:
         columns = []
         
-    # read weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
-
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
@@ -101,16 +94,7 @@ def import_weekly_data(years, columns=None, downcast=True):
 
 
 def import_seasonal_data(years, s_type='REG'):
-    """Imports seasonal player data
     
-    Args:
-        years (List[int]): years to get seasonal data for
-        s_type (str): season type to include in average ('ALL','REG','POST')
-    Returns:
-        DataFrame
-    """
-    
-    # check variable types
     if not isinstance(years, (list, range)):
         raise ValueError('years input must be list or range.')
         
@@ -120,17 +104,14 @@ def import_seasonal_data(years, s_type='REG'):
     if s_type not in ('REG','ALL','POST'):
         raise ValueError('Only REG, ALL, POST allowed for s_type.')
     
-    # import weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     
-    # filter to appropriate season_type
     if s_type == 'ALL':
         data = data[data['season'].isin(years)]
         
     else:
         data = data[(data['season'].isin(years)) & (data['season_type'] == s_type)]
     
-    # calc per game stats
     pgstats = data[['recent_team', 'season', 'week', 'attempts', 'completions', 'passing_yards', 'passing_tds',
                       'passing_air_yards', 'passing_yards_after_catch', 'passing_first_downs',
                       'fantasy_points_ppr']].groupby(
@@ -145,7 +126,6 @@ def import_seasonal_data(years, s_type='REG'):
     season_stats = all_stats.drop(['recent_team', 'week'], axis=1).groupby(
         ['player_id', 'player_name', 'season']).sum().reset_index()
 
-    # calc custom receiving stats
     season_stats['tgt_sh'] = season_stats['targets'] / season_stats['atts']
     season_stats['ay_sh'] = season_stats['receiving_air_yards'] / season_stats['p_ayds']
     season_stats['yac_sh'] = season_stats['receiving_yards_after_catch'] / season_stats['p_yac']
@@ -173,47 +153,23 @@ def import_seasonal_data(years, s_type='REG'):
 
 
 def see_pbp_cols():
-    """Identifies list of columns in pbp data
-    
-    Returns:
-        list
-    """
-    
-    # load pbp file, identify columns
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='auto')
 
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='fastparquet')
     cols = data.columns
 
     return cols
 
 
 def see_weekly_cols():
-    """Identifies list of columns in weekly data
-    
-    Returns:
-        list
-    """
-    
-    # load weekly file, identify columns
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
 
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='fastparquet')
     cols = data.columns
 
     return cols
 
 
 def import_rosters(years, columns=None):
-    """Imports roster data
-    
-    Args:
-        years (List[int]): years to get rosters for
-        columns (List[str]): list of columns to return with DataFrame
-        
-    Returns:
-        DataFrame
-    """
 
-    # check variable types
     if not isinstance(years, (list, range)):
         raise ValueError('years input must be list or range.')
 
@@ -225,7 +181,6 @@ def import_rosters(years, columns=None):
 
     rosters = []
 
-    # imports rosters for specified years
     for y in years:
         temp = pandas.read_csv(r'https://github.com/mrcaseb/nflfastR-roster/blob/master/data/seasons/roster_' + str(y)
                                + '.csv?raw=True', low_memory=False)
@@ -238,7 +193,6 @@ def import_rosters(years, columns=None):
     if len(columns) > 0:
         rosters = rosters[columns]
 
-    # define function for calculating age in season and then calculate
     def calc_age(x):
         ca = pandas.to_datetime(x[0])
         bd = pandas.to_datetime(x[1])
@@ -255,29 +209,14 @@ def import_rosters(years, columns=None):
 
 
 def import_team_desc():
-    """Import team descriptive data
     
-    Returns:
-        DataFrame
-    """
-    
-    # import desc data
     df = pandas.read_csv(r'https://github.com/nflverse/nflfastR-data/raw/master/teams_colors_logos.csv')
     
     return df
 
 
 def import_schedules(years):
-    """Import schedules
-    
-    Args:
-        years (List[int]): years to get schedules for
-        
-    Returns:
-        DataFrame
-    """
-    
-    # check variable types
+
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
     
@@ -285,29 +224,24 @@ def import_schedules(years):
         raise ValueError('Data not available before 1999.')
     
     scheds = pandas.DataFrame()
+            
+    for x in years:
+        
+        try:
+            temp = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/schedules//' + str(x) + '.csv').drop('Unnamed: 0', axis=1)
+            scheds = scheds.append(temp)
     
-    # import schedule for specified years
-    scheds = pandas.read_csv(r'http://www.habitatring.com/games.csv')    
-    scheds = scheds[scheds['season'].isin(years)]
+        except:
+            print('Data not available for ' + str(x))
         
     return scheds
     
 
 def import_win_totals(years):
-    """Import win total projections
-    
-    Args:
-        years (List[int]): years to get win totals for
-        
-    Returns:
-        DataFrame
-    """
 
-    # check variable types
     if not isinstance(years, (list, range)):
         raise ValueError('years variable must be list or range.')
     
-    # import win totals
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/win_totals.csv')
     
     df = df[df['season'].isin(years)]
@@ -316,23 +250,13 @@ def import_win_totals(years):
     
 
 def import_officials(years=None):
-    """Import game officials
-    
-    Args:
-        years (List[int]): years to get officials for
-        
-    Returns:
-        DataFrame
-    """
 
-    # check variable types
     if years is None:
         years = []
     
     if not isinstance(years, (list, range)):
         raise ValueError('years variable must be list or range.')
 
-    # import officials data
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/officials.csv')
     df['season'] = df['game_id'].str[0:4].astype(int)
     
@@ -343,23 +267,13 @@ def import_officials(years=None):
     
     
 def import_sc_lines(years=None):
-    """Import weekly scoring lines
-    
-    Args:
-        years (List[int]): years to get scoring lines for
-       
-    Returns:
-        DataFrame
-    """
 
-    # check variable types
     if years is None:
         years = []
     
     if not isinstance(years, (list, range)):
         raise ValueError('years variable must be list or range.')
-    
-    # import data
+
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/sc_lines.csv')
     
     if len(years) > 0:
@@ -369,23 +283,13 @@ def import_sc_lines(years=None):
     
     
 def import_draft_picks(years=None):
-    """Import draft picks
-    
-    Args:
-        years (List[int]): years to get draft picks for
-    
-    Returns:
-        DataFrame
-    """
 
-    # check variable types
     if years is None:
         years = []
     
     if not isinstance(years, (list, range)):
         raise ValueError('years variable must be list or range.')
 
-    # import draft pick data
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_picks.csv')
     
     if len(years) > 0:
@@ -395,23 +299,13 @@ def import_draft_picks(years=None):
     
 
 def import_draft_values(picks=None):
-    """Import draft pick values from variety of models
-    
-    Args:
-        picks (List[int]): subset of picks to return values for
-        
-    Returns:
-        DataFrame
-    """
 
-    # check variable types
     if picks is None:
         picks = []
     
     if not isinstance(picks, (list, range)):
         raise ValueError('picks variable must be list or range.')
 
-    # import data
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_values.csv')
 
     if len(picks) > 0:
@@ -421,17 +315,7 @@ def import_draft_values(picks=None):
 
 
 def import_combine_data(years=None, positions=None):
-    """Import combine results for all position groups
     
-    Args:
-        years (List[str]): years to get combine data for
-        positions (List[str]): list of positions to get data for
-        
-    Returns:
-        DataFrame
-    """
-    
-    # check variable types
     if years is None:
         years = []
         
@@ -443,11 +327,9 @@ def import_combine_data(years=None, positions=None):
         
     if not isinstance(positions, list):
         raise ValueError('positions variable must be list.')
-        
-    # import data
+    
     df = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/combine.csv')
     
-    # filter to years and positions
     if len(years) > 0 and len(positions) > 0:
         df = df[(df['season'].isin(years)) & (df['position'].isin(positions))]
     elif len(years) > 0:
@@ -459,24 +341,13 @@ def import_combine_data(years=None, positions=None):
 
 
 def import_ids(columns=None, ids=None):
-    """Import mapping table of ids for most major data providers
     
-    Args:
-        columns (List[str]): list of columns to return
-        ids (List[str]): list of specific ids to return
-        
-    Returns:
-        DataFrame
-    """
-    
-    # create list of id options
     avail_ids = ['mfl_id', 'sportradar_id', 'fantasypros_id', 'gsis_id', 'pff_id',
        'sleeper_id', 'nfl_id', 'espn_id', 'yahoo_id', 'fleaflicker_id',
        'cbs_id', 'rotowire_id', 'rotoworld_id', 'ktc_id', 'pfr_id',
        'cfbref_id', 'stats_id', 'stats_global_id', 'fantasy_data_id']
     avail_sites = [x[:-3] for x in avail_ids]
     
-    # check variable types
     if columns is None:
         columns = []
     
@@ -489,69 +360,14 @@ def import_ids(columns=None, ids=None):
     if not isinstance(ids, list):
         raise ValueError('ids variable must be list.')
         
-    # confirm id is in table
     if False in [x in avail_sites for x in ids]:
         raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
         
-    # import data
     df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
     
     rem_cols = [x for x in df.columns if x not in avail_ids]
     tgt_ids = [x + '_id' for x in ids]
         
-    # filter df to just specified columns
-    if len(columns) > 0 and len(ids) > 0:
-        df = df[set(tgt_ids + columns)]
-    elif len(columns) > 0 and len(ids) == 0:
-        df = df[set(avail_ids + columns)]
-    elif len(columns) == 0 and len(ids) > 0:
-        df = df[set(tgt_ids + rem_cols)]
-    
-    return df
-    
-
-def import_ids(columns=None, ids=None):
-    """Import mapping table of ids for most major data providers
-    
-    Args:
-        columns (List[str]): list of columns to return
-        ids (List[str]): list of specific ids to return
-        
-    Returns:
-        DataFrame
-    """
-    
-    # create list of id options
-    avail_ids = ['mfl_id', 'sportradar_id', 'fantasypros_id', 'gsis_id', 'pff_id',
-       'sleeper_id', 'nfl_id', 'espn_id', 'yahoo_id', 'fleaflicker_id',
-       'cbs_id', 'rotowire_id', 'rotoworld_id', 'ktc_id', 'pfr_id',
-       'cfbref_id', 'stats_id', 'stats_global_id', 'fantasy_data_id']
-    avail_sites = [x[:-3] for x in avail_ids]
-    
-    # check variable types
-    if columns is None:
-        columns = []
-    
-    if ids is None:
-        ids = []
-
-    if not isinstance(columns, list):
-        raise ValueError('columns variable must be list.')
-        
-    if not isinstance(ids, list):
-        raise ValueError('ids variable must be list.')
-        
-    # confirm id is in table
-    if False in [x in avail_sites for x in ids]:
-        raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
-        
-    # import data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
-    
-    rem_cols = [x for x in df.columns if x not in avail_ids]
-    tgt_ids = [x + '_id' for x in ids]
-        
-    # filter df to just specified columns
     if len(columns) > 0 and len(ids) > 0:
         df = df[set(tgt_ids + columns)]
     elif len(columns) > 0 and len(ids) == 0:
@@ -563,14 +379,6 @@ def import_ids(columns=None, ids=None):
     
 
 def clean_nfl_data(df):
-    """Cleans descriptive data for players and teams to help with consistency across datasets
-    
-    Args:
-        df (DataFrame): DataFrame to be cleaned
-        
-    Returns:
-        DataFrame
-    """
 
     name_repl = {
         'Gary Jennings Jr': 'Gary Jennings',
@@ -641,13 +449,6 @@ def clean_nfl_data(df):
         'SFO': 'SF',
         'TAM': 'TB'
     }
-    
-    na_replace = {
-        'NA':np.nan
-    }
-
-    for col in df.columns:
-        df.replace({col:na_replace}, inplace=True)
 
     if 'name' in df.columns:
         df.replace({'name': name_repl}, inplace=True)
