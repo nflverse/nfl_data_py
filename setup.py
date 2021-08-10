@@ -18,7 +18,7 @@ URL = 'https://github.com/cooperdff/nfl_data_py'
 EMAIL = 'cooper.dff11@gmail.com'
 AUTHOR = 'cooperdff'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.6'
+VERSION = '0.1.7'
 
 
 # What packages are required for this module to be executed?
@@ -108,9 +108,6 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
-    test_suite='nose.collector',
-    tests_require=['nose'],
-
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
