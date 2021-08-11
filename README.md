@@ -1,10 +1,10 @@
-# nfl_data_py
+#### nfl_data_py
 
 nfl_data_py is a Python library for interacting with NFL data sourced from [nflfastR](https://github.com/nflverse/nflfastR-data/), [nfldata](https://github.com/nflverse/nfldata/), [dynastyprocess](https://raw.githubusercontent.com/dynastyprocess/), and [Draft Scout](https://draftscout.com/).
 
 Includes import functions for play-by-play data, weekly data, seasonal data, rosters, win totals, scoring lines, officials, draft picks, draft pick values, schedules, team descriptive info, combine results and id mappings across various sites.
 
-## Installation
+### Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nfl_data_py.
 
@@ -150,6 +150,63 @@ columns
 
 ids
 : optional, list of ids to return
+
+```python
+nfl.import_ngs_data(stat_type, years)
+```
+Returns dataframe with specified NGS data
+
+columns
+: required, type of data (passing, rushing, receiving)
+
+years
+: optional, list of years to return data for
+
+```python
+nfl.import_depth_charts(years)
+```
+Returns dataframe with depth chart data
+
+years
+: optional, list of years to return data for
+
+```python
+nfl.import_injuries(years)
+```
+Returns dataframe of injury reports
+
+years
+: optional, list of years to return data for
+
+```python
+nfl.import_qbr(years, level, frequency)
+```
+Returns dataframe with QBR history
+
+years
+: optional, years to return data for
+
+level
+: optional, competition level to return data for, nfl or college, default nfl
+
+frequency
+: optional, frequency to return data for, weekly or season, default season
+
+```python
+nfl.import_pfr_passing(years)
+```
+Returns dataframe of PFR passing data
+
+years
+: optional, years to return data for
+
+```python
+nfl.import_snap_counts(years)
+```
+Returns dataframe with snap count records
+
+years
+: optional, list of years to return data for
 
 **Additional features**
 ```python

@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated python requirements to >=py3.5
 - Fixed bug in clean_nfl_data()
 - Updated tests with new functions
+- Update README to align with function updates
