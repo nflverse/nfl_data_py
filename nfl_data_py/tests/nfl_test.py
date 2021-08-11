@@ -72,4 +72,38 @@ class test_ids(TestCase):
     def test_is_df(self):
         s = nfl.import_ids()
         self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_ngs(TestCase):
+    def test_is_df(self):
+        s = nfl.import_ngs_data('passing')
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_clean(TestCase):
+    def test_is_df(self):
+        s = nfl.clean_nfl_data(nfl.import_weekly_data([2020]))
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
 
+class test_depth_charts(TestCase):
+    def test_is_df(self):
+        s = nfl.import_depth_charts()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_injuries(TestCase):
+    def test_is_df(self):
+        s = nfl.import_injuries()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_qbr(TestCase):
+    def test_is_df(self):
+        s = nfl.import_qbr()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+    
+class test_pfr(TestCase):
+    def test_is_df(self):
+        s = nfl.import_pfr_passing()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_snaps(TestCase):
+    def test_is_df(self):
+        s = nfl.import_snap_counts([2020])
+        self.assertEqual(True, isinstance(s, pd.DataFrame))

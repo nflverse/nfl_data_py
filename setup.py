@@ -17,8 +17,8 @@ DESCRIPTION = 'python library for interacting with NFL data sourced from nflfast
 URL = 'https://github.com/cooperdff/nfl_data_py'
 EMAIL = 'cooper.dff11@gmail.com'
 AUTHOR = 'cooperdff'
-REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.7'
+REQUIRES_PYTHON = '>=3.5.0'
+VERSION = '0.2.0'
 
 
 # What packages are required for this module to be executed?

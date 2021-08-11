@@ -85,7 +85,6 @@ def import_weekly_data(years, columns=None, downcast=True):
         
     # read weekly data
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
-
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
@@ -181,7 +180,6 @@ def see_pbp_cols():
     
     # load pbp file, identify columns
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='auto')
-
     cols = data.columns
 
     return cols
@@ -196,7 +194,6 @@ def see_weekly_cols():
     
     # load weekly file, identify columns
     data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
-
     cols = data.columns
 
     return cols
@@ -509,59 +506,214 @@ def import_ids(columns=None, ids=None):
     
     return df
     
-
-def import_ids(columns=None, ids=None):
-    """Import mapping table of ids for most major data providers
+    
+def import_ngs_data(stat_type, years=None):
+    """Imports seasonal NGS data
     
     Args:
-        columns (List[str]): list of columns to return
-        ids (List[str]): list of specific ids to return
-        
+        stat_type (str): type of stats to pull (receiving, passing, rushing)
+        years (List[int]): years to get PBP data for, optional
     Returns:
         DataFrame
     """
     
-    # create list of id options
-    avail_ids = ['mfl_id', 'sportradar_id', 'fantasypros_id', 'gsis_id', 'pff_id',
-       'sleeper_id', 'nfl_id', 'espn_id', 'yahoo_id', 'fleaflicker_id',
-       'cbs_id', 'rotowire_id', 'rotoworld_id', 'ktc_id', 'pfr_id',
-       'cfbref_id', 'stats_id', 'stats_global_id', 'fantasy_data_id']
-    avail_sites = [x[:-3] for x in avail_ids]
-    
     # check variable types
-    if columns is None:
-        columns = []
+    if years is None:
+        years = []
+        
+    if stat_type not in ('receiving','passing','rushing'):
+        raise ValueError('stat_type must be one of receiving, passing, rushing.')
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('years variable must be list or range.')
     
-    if ids is None:
-        ids = []
-
-    if not isinstance(columns, list):
-        raise ValueError('columns variable must be list.')
-        
-    if not isinstance(ids, list):
-        raise ValueError('ids variable must be list.')
-        
-    # confirm id is in table
-    if False in [x in avail_sites for x in ids]:
-        raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
-        
     # import data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
+    url = r'https://github.com/nflverse/ngs-data/raw/main/data/ngs_{}.csv.gz'
+    url = url.format(stat_type)
     
-    rem_cols = [x for x in df.columns if x not in avail_ids]
-    tgt_ids = [x + '_id' for x in ids]
+    data = pandas.read_csv(url)
+    
+    # filter if years varaible provided
+    if len(years) > 0:
+        data = data[data['season'].between(min(years), max(years))]
         
-    # filter df to just specified columns
-    if len(columns) > 0 and len(ids) > 0:
-        df = df[set(tgt_ids + columns)]
-    elif len(columns) > 0 and len(ids) == 0:
-        df = df[set(avail_ids + columns)]
-    elif len(columns) == 0 and len(ids) > 0:
-        df = df[set(tgt_ids + rem_cols)]
+    # return
+    return data
+    
+
+def import_depth_charts(years=None):
+    """Imports team depth charts
+    
+    Args:
+        years (List[int]): years to return depth charts for, optional
+    Returns:
+        DataFrame
+    """
+
+    # check variable types
+    if years is None:
+        years = []
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if len(years) > 0:
+        if min(years) < 2001:
+            raise ValueError('Data not available before 2001.')
+    
+    # import data
+    url = r'https://github.com/nflverse/nflfastR-roster/blob/master/data/nflfastR-depth_charts.csv.gz?raw=True'
+
+    df = pandas.read_csv(url, compression='gzip')
+            
+    # filter to desired years
+    if len(years) > 0:
+        df = df[df['season'].between(min(years), max(years))]
     
     return df
     
 
+def import_injuries(years=None):
+    """Imports team injury reports
+    
+    Args:
+        years (List[int]): years to return injury reports for, optional
+    Returns:
+        DataFrame
+    """
+
+    # check variable types
+    if years is None:
+        years = []
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if len(years) > 0:
+        if min(years) < 2009:
+            raise ValueError('Data not available before 2009.')
+    
+    #import data
+    url = r'https://github.com/nflverse/nflfastR-roster/blob/master/data/nflfastR-injuries.csv.gz?raw=True'
+
+    df = pandas.read_csv(url, low_memory=False, compression='gzip')
+    
+    # filter to relevant years
+    if len(years) > 0:
+        df = df[df['season'].between(min(years), max(years))]
+    
+    return df
+    
+
+def import_qbr(years=None, level='nfl', frequency='season'):
+    """Import NFL or college QBR data
+    
+    Args:
+        years (List[int]): list of years to return data for, optional
+        level (str): level to pull data, nfl or college, default to nfl
+        frequency (str): frequency to pull data, weekly or season, default to season
+    Returns:
+        DataFrame
+    """
+
+    # check variable types and specifics
+    if years is None:
+        years = []
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if len(years) > 0:
+        if min(years) < 2006:
+            raise ValueError('Data not available before 2006.')
+    
+    if level not in ('nfl','college'):
+        raise ValueError('level must be nfl or college')
+        
+    if frequency not in ('season','weekly'):
+        raise ValueError('frequency must be season or weekly')
+    
+    # import data
+    url = r'https://raw.githubusercontent.com/nflverse/espnscrapeR-data/master/data/qbr-{}-{}.csv'.format(level, frequency)
+
+    df = pandas.read_csv(url)
+            
+    # filter to desired years
+    if len(years) > 0:
+        df = df[df['season'].between(min(years), max(years))]
+    
+    return df
+    
+    
+def import_pfr_passing(years=None):
+    """Import PFR advanced passing statistics
+    
+    Args:
+        years (List[int]): years to return data for, optional
+    Returns:
+        DataFrame
+    """
+
+    # check variables types
+    if years is None:
+        years = []
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if len(years) > 0:
+        if min(years) < 2019:
+            raise ValueError('Data not available before 2019.')
+    
+    # import data
+    url = r'https://raw.githubusercontent.com/nflverse/pfr_scrapR/master/data/pfr_advanced_passing.csv'
+
+    df = pandas.read_csv(url)
+            
+    # filter to desired years
+    if len(years) > 0:
+        df = df[df['season'].between(min(years), max(years))]
+    
+    return df
+    
+    
+def import_snap_counts(years):
+    """Import snap count data for individual players
+    
+    Args:
+        years (List[int]): years to return snap counts for
+    Returns:
+        DataFrame
+    """
+
+    # check variables types
+    if years is None:
+        years = []
+        
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+    
+    if len(years) > 0:
+        if min(years) < 2013:
+            raise ValueError('Data not available before 2013.')
+    
+    df = pandas.DataFrame()
+    
+    # import data
+    for yr in years:
+        
+        url = r'https://raw.githubusercontent.com/nflverse/pfr_scrapR/master/data/snap_counts_{}.csv'.format(yr)
+
+        temp = pandas.read_csv(url)
+            
+        if len(df) > 0:
+            df = df.append(temp)
+        else:
+            df = temp.copy()
+    
+    return df
+
+    
 def clean_nfl_data(df):
     """Cleans descriptive data for players and teams to help with consistency across datasets
     
@@ -643,7 +795,7 @@ def clean_nfl_data(df):
     }
     
     na_replace = {
-        'NA':np.nan
+        'NA':numpy.nan
     }
 
     for col in df.columns:
