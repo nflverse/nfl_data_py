@@ -107,3 +107,7 @@ class test_snaps(TestCase):
     def test_is_df(self):
         s = nfl.import_snap_counts([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_cache(TestCase):
+    def test_cache(self):
+        nfl.cache_pbp([2020])
