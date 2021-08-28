@@ -4,14 +4,51 @@ import pandas
 import numpy
 import datetime
 
+# module level doc string
+__doc__ = """
+nfl_data_py - a Python package for working with NFL data
+=========================================================
 
-def import_pbp_data(years, columns=None, downcast=True):
+**nfl_data_py** is a Python package that streamlines the importing
+of a variety of different American football datasets. It also includes
+tables to assist with the merging of datasets from various sources.
+
+Functions
+---------
+import_pbp_data() - import play-by-play data
+import_weekly_data() - import weekly player stats
+import_seasonal_data() - import seasonal player stats
+import_snap_counts() - import weekly snap count stats
+import_ngs_data() - import NGS advanced analytics
+import_qbr() - import QBR for NFL or college
+import_pfr_passing() - import advanced passing stats from PFR
+import_officials() - import details on game officials
+import_schedules() - import weekly teams schedules
+import_rosters() - import team rosters
+import_depth_charts() - import team depth charts
+import_injuries() - import team injury reports
+import_ids() - import mapping of player ids for more major sites
+import_win_totals() - import win total lines for teams
+import_sc_lines() - import weekly betting lines for teams
+import_draft_picks() - import draft pick history
+import_draft_values() - import draft value models by pick
+import_combine_data() - import combine stats
+see_pbp_cols() - return list of play-by-play columns
+see_weekly_cols() - return list of weekly stat columns
+import_team_desc() - import descriptive data for team viz
+clean_nfl_data() - clean df by aligning common name diffs
+"""
+
+
+def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=None):
     """Imports play-by-play data
     
     Args:
         years (List[int]): years to get PBP data for
         columns (List[str]): only return these columns
         downcast (bool): convert float64 to float32, default True
+        cache (bool): whether to use local cache as source of pbp data
+        alt_path (str): path for cache if not nfl_data_py default
     Returns:
         DataFrame
     """
@@ -25,20 +62,34 @@ def import_pbp_data(years, columns=None, downcast=True):
     
     if columns is None:
         columns = []
-        
-    plays = pandas.DataFrame()
-
+       
+    # potential sources for pbp data
     url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
     url2 = r'.parquet'
+    appname = 'nfl_data_py'
+    appauthor = 'cooper_dff'
+    
+    plays = pandas.DataFrame()
 
     # read in pbp data
     for year in years:
         
+        # define path based on cache and alt_path variables
+        if cache is True:
+            if alt_path is None:
+                alt_path = ''
+                path = user_cache_dir(appname, appauthor) + '\\pbp'
+            else:
+                url = alt_path
+        else:
+            path = url1 + str(year) + url2
+
+        # load data
         try:
             if len(columns) != 0:
-                data = pandas.read_parquet(url1 + str(year) + url2, columns=columns, engine='auto')
+                data = pandas.read_parquet(path, columns=columns, engine='auto')
             else:
-                data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
+                data = pandas.read_parquet(path, engine='auto')
             
             raw = pandas.DataFrame(data)
             raw['season'] = year
@@ -61,6 +112,62 @@ def import_pbp_data(years, columns=None, downcast=True):
             
     return plays
 
+
+def cache_pbp(years, downcast=True, alt_path=None):
+    """Cache pbp data in local location to allow for faster loading
+    
+    Args:
+        years (List[int]): years to cache PBP data for
+        downcast (bool): convert float64 to float32, default True
+        alt_path (str): path for cache if not nfl_data_py default
+    Returns:
+        DataFrame
+    """
+    
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+        
+    if min(years) < 1999:
+        raise ValueError('Data not available before 1999.')
+    
+    if alt_path is None:
+        alt_path = ''
+    
+    plays = pandas.DataFrame()
+
+    url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
+    url2 = r'.parquet'
+    appname = 'nfl_data_py'
+    appauthor = 'cooper_dff'
+    
+    # define path for caching
+    if len(alt_path) > 0:
+        path = alt_path
+    else:
+        path = user_cache_dir(appname, appauthor) + '\\pbp'
+
+    # read in pbp data
+    for year in years:
+
+        try:
+
+            data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
+
+            raw = pandas.DataFrame(data)
+            raw['season'] = year
+
+            if downcast:
+                cols = raw.select_dtypes(include=[numpy.float64]).columns
+                raw.loc[:, cols] = raw.loc[:, cols].astype(numpy.float32)
+
+            # write parquet to path, partitioned by season
+            raw.to_parquet(path, partition_cols='season')
+
+            print(str(year) + ' done.')
+
+        except:
+            next
+            
 
 def import_weekly_data(years, columns=None, downcast=True):
     """Imports weekly player data
