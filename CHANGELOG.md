@@ -16,3 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed bug in clean_nfl_data()
 - Updated tests with new functions
 - Update README to align with function updates
+
+## [0.2.4] - 2021-08-28
+
+### Changed
+- Added feature  to cache play-by-play files locally
+- Updated load_pbp_data() to work with locally cached files
+- Updates README
