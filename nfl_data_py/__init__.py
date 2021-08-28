@@ -4,6 +4,7 @@ import pandas
 import numpy
 import datetime
 import appdirs
+import os
 
 # module level doc string
 __doc__ = """
@@ -71,17 +72,23 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     appauthor = 'cooper_dff'
     
     plays = pandas.DataFrame()
+    
+    if alt_path is None:
+        dpath = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
+    else:
+        dpath = alt_path
 
     # read in pbp data
     for year in years:
         
+        for folder in [dpath + '\\' + x + '\\' for x in os.listdir(dpath) if ('season='+str(year)) in x]:
+            for file in os.listdir(folder):
+                if file.endswith(".parquet"):
+                    fpath = os.path.join(folder, file)
+        
         # define path based on cache and alt_path variables
         if cache is True:
-            if alt_path is None:
-                alt_path = ''
-                path = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
-            else:
-                url = alt_path
+            path = fpath
         else:
             path = url1 + str(year) + url2
 
@@ -146,6 +153,12 @@ def cache_pbp(years, downcast=True, alt_path=None):
         path = alt_path
     else:
         path = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
+    
+    # delete seasons to be replaced
+    for folder in [path + '\\' + x + '\\' for x in os.listdir(path) for y in years if ('season='+str(y)) in x]:
+        for file in os.listdir(folder):
+            if file.endswith(".parquet"):
+                os.remove(os.path.join(folder, file))
 
     # read in pbp data
     for year in years:
