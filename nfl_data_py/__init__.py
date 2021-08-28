@@ -3,6 +3,7 @@ name = 'nfl_data_py'
 import pandas
 import numpy
 import datetime
+import appdirs
 
 # module level doc string
 __doc__ = """
@@ -78,7 +79,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
         if cache is True:
             if alt_path is None:
                 alt_path = ''
-                path = user_cache_dir(appname, appauthor) + '\\pbp'
+                path = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
             else:
                 url = alt_path
         else:
@@ -144,7 +145,7 @@ def cache_pbp(years, downcast=True, alt_path=None):
     if len(alt_path) > 0:
         path = alt_path
     else:
-        path = user_cache_dir(appname, appauthor) + '\\pbp'
+        path = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
 
     # read in pbp data
     for year in years:
