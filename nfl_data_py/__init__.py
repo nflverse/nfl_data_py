@@ -38,6 +38,7 @@ import_combine_data() - import combine stats
 see_pbp_cols() - return list of play-by-play columns
 see_weekly_cols() - return list of weekly stat columns
 import_team_desc() - import descriptive data for team viz
+cache_pbp() - save pbp files locally to allow for faster loading
 clean_nfl_data() - clean df by aligning common name diffs
 """
 
