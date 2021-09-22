@@ -65,6 +65,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     
     if columns is None:
         columns = []
+    columns = [x for x in columns if x not in ['season']]
        
     # potential sources for pbp data
     url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
@@ -74,21 +75,24 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     
     plays = pandas.DataFrame()
     
-    if alt_path is None:
-        dpath = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
-    else:
-        dpath = alt_path
+    if cache is True:
+    
+        if alt_path is None:
+            dpath = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
+        else:
+            dpath = alt_path
 
-    # read in pbp data
+        # read in pbp data
     for year in years:
-        
-        for folder in [dpath + '\\' + x + '\\' for x in os.listdir(dpath) if ('season='+str(year)) in x]:
-            for file in os.listdir(folder):
-                if file.endswith(".parquet"):
-                    fpath = os.path.join(folder, file)
-        
-        # define path based on cache and alt_path variables
         if cache is True:
+            if not os.path.isdir(dpath + '\\' + 'season='+str(year)):
+                raise ValueError(str(year) + ' cache file does not exist.')
+            for folder in [dpath + '\\' + x + '\\' for x in os.listdir(dpath) if ('season='+str(year)) in x]:
+                for file in os.listdir(folder):
+                    if file.endswith(".parquet"):
+                        fpath = os.path.join(folder, file)
+            
+        # define path based on cache and alt_path variables
             path = fpath
         else:
             path = url1 + str(year) + url2
@@ -99,7 +103,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
                 data = pandas.read_parquet(path, columns=columns, engine='auto')
             else:
                 data = pandas.read_parquet(path, engine='auto')
-            
+
             raw = pandas.DataFrame(data)
             raw['season'] = year
 
@@ -107,9 +111,9 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
                 plays = raw
             else:
                 plays = plays.append(raw)
-            
+
             print(str(year) + ' done.')
-            
+
         except:
             print('Data not available for ' + str(year))
     
@@ -154,6 +158,10 @@ def cache_pbp(years, downcast=True, alt_path=None):
         path = alt_path
     else:
         path = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
+    
+    # check if drectory exists already
+    if not os.path.isdir(path):
+        os.makedirs(path)
     
     # delete seasons to be replaced
     for folder in [path + '\\' + x + '\\' for x in os.listdir(path) for y in years if ('season='+str(y)) in x]:
