@@ -173,6 +173,7 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
     # read in pbp data
     for year in years:
+
         try:
 
             data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
@@ -188,7 +189,7 @@ def cache_pbp(years, downcast=True, alt_path=None):
             raw.to_parquet(path, partition_cols='season')
 
             print(str(year) + ' done.')
-            
+
         except:
             next
             
