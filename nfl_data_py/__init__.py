@@ -173,19 +173,24 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
     # read in pbp data
     for year in years:
-        data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
+        try:
 
-        raw = pandas.DataFrame(data)
-        raw['season'] = year
+            data = pandas.read_parquet(url1 + str(year) + url2, engine='auto')
 
-        if downcast:
-            cols = raw.select_dtypes(include=[numpy.float64]).columns
-            raw.loc[:, cols] = raw.loc[:, cols].astype(numpy.float32)
+            raw = pandas.DataFrame(data)
+            raw['season'] = year
 
-        # write parquet to path, partitioned by season
-        raw.to_parquet(path, partition_cols='season')
+            if downcast:
+                cols = raw.select_dtypes(include=[numpy.float64]).columns
+                raw.loc[:, cols] = raw.loc[:, cols].astype(numpy.float32)
 
-        print(str(year) + ' done.')
+            # write parquet to path, partitioned by season
+            raw.to_parquet(path, partition_cols='season')
+
+            print(str(year) + ' done.')
+            
+        except:
+            next
             
 
 def import_weekly_data(years, columns=None, downcast=True):
