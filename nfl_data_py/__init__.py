@@ -78,16 +78,18 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     if cache is True:
     
         if alt_path is None:
-            dpath = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
+            dpath = os.path.join(appdirs.user_cache_dir(appname, appauthor), 'pbp')
         else:
             dpath = alt_path
 
         # read in pbp data
     for year in years:
         if cache is True:
-            if not os.path.isdir(dpath + '\\' + 'season='+str(year)):
-                raise ValueError(str(year) + ' cache file does not exist.')
-            for folder in [dpath + '\\' + x + '\\' for x in os.listdir(dpath) if ('season='+str(year)) in x]:
+            seasonStr = f'season={year}'
+            if not os.path.isdir(os.path.join(dpath, seasonStr)):
+                raise ValueError(f'{year} cache file does not exist.')
+            for fname in filter(lambda x: seasonStr in x, os.listdir(dpath)):
+                folder = os.path.join(dpath, fname)
                 for file in os.listdir(folder):
                     if file.endswith(".parquet"):
                         fpath = os.path.join(folder, file)
@@ -157,14 +159,14 @@ def cache_pbp(years, downcast=True, alt_path=None):
     if len(alt_path) > 0:
         path = alt_path
     else:
-        path = appdirs.user_cache_dir(appname, appauthor) + '\\pbp'
+        path = os.path.join(appdirs.user_cache_dir(appname, appauthor), 'pbp')
     
     # check if drectory exists already
     if not os.path.isdir(path):
         os.makedirs(path)
     
     # delete seasons to be replaced
-    for folder in [path + '\\' + x + '\\' for x in os.listdir(path) for y in years if ('season='+str(y)) in x]:
+    for folder in [os.path.join(path, x) for x in os.listdir(path) for y in years if ('season='+str(y)) in x]:
         for file in os.listdir(folder):
             if file.endswith(".parquet"):
                 os.remove(os.path.join(folder, file))
