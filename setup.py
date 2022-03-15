@@ -18,7 +18,7 @@ URL = 'https://github.com/cooperdff/nfl_data_py'
 EMAIL = 'cooper.dff11@gmail.com'
 AUTHOR = 'cooperdff'
 REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.2.5'
+VERSION = '0.2.6'
 
 
 # What packages are required for this module to be executed?

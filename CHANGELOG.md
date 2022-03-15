@@ -24,7 +24,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated load_pbp_data() to work with locally cached files
 - Updates README
 
-## [0.2.4] - 2021-09-22
+## [0.2.5] - 2021-09-22
 
 ### Changed
 - Fixed bug in cache process that was effecting pbp load too
+
+## [0.2.6] - 2022-03-15
+
+### Changed
+- Updated cache feature to be OS agnostic
+

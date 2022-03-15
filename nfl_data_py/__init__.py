@@ -798,7 +798,7 @@ def import_pfr_passing(years=None):
             raise ValueError('Data not available before 2019.')
     
     # import data
-    url = r'https://raw.githubusercontent.com/nflverse/pfr_scrapR/master/data/pfr_advanced_passing.csv'
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_pass.csv'
 
     df = pandas.read_csv(url)
             
@@ -834,7 +834,7 @@ def import_snap_counts(years):
     # import data
     for yr in years:
         
-        url = r'https://raw.githubusercontent.com/nflverse/pfr_scrapR/master/data/snap_counts_{}.csv'.format(yr)
+        url = r'https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_{}.csv'.format(yr)
 
         temp = pandas.read_csv(url)
             
