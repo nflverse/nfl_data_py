@@ -23,3 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added feature  to cache play-by-play files locally
 - Updated load_pbp_data() to work with locally cached files
 - Updates README
+
+## [0.2.4] - 2021-09-22
+
+### Changed
+- Fixed bug in cache process that was effecting pbp load too
