@@ -34,3 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated cache feature to be OS agnostic
 
+## [0.2.7] - 2022-06-04
+
+### Changed
+- Redirected data pulls to new repos
+
