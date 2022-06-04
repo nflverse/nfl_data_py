@@ -85,12 +85,12 @@ class test_clean(TestCase):
 
 class test_depth_charts(TestCase):
     def test_is_df(self):
-        s = nfl.import_depth_charts()
+        s = nfl.import_depth_charts([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         
 class test_injuries(TestCase):
     def test_is_df(self):
-        s = nfl.import_injuries()
+        s = nfl.import_injuries([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         
 class test_qbr(TestCase):
@@ -100,7 +100,7 @@ class test_qbr(TestCase):
     
 class test_pfr(TestCase):
     def test_is_df(self):
-        s = nfl.import_pfr_passing()
+        s = nfl.import_pfr('pass')
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         
 class test_snaps(TestCase):

@@ -23,13 +23,9 @@ VERSION = '0.2.7'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-        'numpy>1',
-        'pandas>1',
-        'datetime>3.5',
-        'fastparquet>0.5',
-        'python-snappy>0.5',
-        'snappy>1',
-        'appdirs>1',
+    'pandas>=1.3.5',
+    'appdirs>=1.4.4',
+    'fastparquet>=0.8.1',
 ]
 
 # What packages are optional?

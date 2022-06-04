@@ -23,7 +23,7 @@ import_seasonal_data() - import seasonal player stats
 import_snap_counts() - import weekly snap count stats
 import_ngs_data() - import NGS advanced analytics
 import_qbr() - import QBR for NFL or college
-import_pfr_passing() - import advanced passing stats from PFR
+import_pfr() - import advanced passing stats from PFR
 import_officials() - import details on game officials
 import_schedules() - import weekly teams schedules
 import_rosters() - import team rosters
@@ -216,8 +216,8 @@ def import_weekly_data(years, columns=None, downcast=True):
         columns = []
         
     # read weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats.parquet', engine='auto')
-    data = data[data['season'].isin(years)]
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_{0}.parquet'
+    data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])
 
     if len(columns) > 0:
         data = data[columns]
@@ -252,14 +252,12 @@ def import_seasonal_data(years, s_type='REG'):
         raise ValueError('Only REG, ALL, POST allowed for s_type.')
     
     # import weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_{0}.parquet'
+    data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])
     
     # filter to appropriate season_type
-    if s_type == 'ALL':
-        data = data[data['season'].isin(years)]
-
-    else:
-        data = data[(data['season'].isin(years)) & (data['season_type'] == s_type)]
+    if s_type != 'ALL':
+        data = data[(data['season_type'] == s_type)]
 
     # calc per game stats
     pgstats = data[['recent_team', 'season', 'week', 'attempts', 'completions', 'passing_yards', 'passing_tds',
@@ -325,7 +323,7 @@ def see_weekly_cols():
     """
     
     # load weekly file, identify columns
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2020.parquet', engine='auto')
     cols = data.columns
 
     return cols
@@ -659,15 +657,13 @@ def import_ngs_data(stat_type, years=None):
         raise ValueError('years variable must be list or range.')
     
     # import data
-    url = r'hhttps://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}.parquet'
-    url = url.format(stat_type)
+    if len(years) == 0:
+        url = r'https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}.parquet'.format(stat_type)
+        data = pandas.read_parquet(url)
+    else:
+        url = r'https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}_{1}.parquet'
+        data = pandas.concat([pandas.read_parquet(url.format(x, stat_type), engine='auto') for x in years])
     
-    data = pandas.read_parquet(url, engine='auto')
-    
-    # filter if years varaible provided
-    if len(years) > 0:
-        data = data[data['season'].between(min(years), max(years))]
-        
     # return
     return data
     
@@ -798,7 +794,7 @@ def import_pfr(s_type, years=None):
         df = pandas.read_parquet(url, engine='auto')
     else:
         url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet'
-        df = pandas.concat([read_parquet(url.format(s_type, x)) for x in years])
+        df = pandas.concat([pandas.read_parquet(url.format(s_type, x), engine='auto') for x in years])
     
     return df
     
