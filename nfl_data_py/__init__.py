@@ -68,7 +68,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     columns = [x for x in columns if x not in ['season']]
        
     # potential sources for pbp data
-    url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
+    url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
     url2 = r'.parquet'
     appname = 'nfl_data_py'
     appauthor = 'cooper_dff'
@@ -150,7 +150,7 @@ def cache_pbp(years, downcast=True, alt_path=None):
     
     plays = pandas.DataFrame()
 
-    url1 = r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_'
+    url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
     url2 = r'.parquet'
     appname = 'nfl_data_py'
     appauthor = 'cooper_dff'
@@ -216,7 +216,7 @@ def import_weekly_data(years, columns=None, downcast=True):
         columns = []
         
     # read weekly data
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/player_stats.parquet', engine='auto')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats.parquet', engine='auto')
     data = data[data['season'].isin(years)]
 
     if len(columns) > 0:
@@ -257,10 +257,10 @@ def import_seasonal_data(years, s_type='REG'):
     # filter to appropriate season_type
     if s_type == 'ALL':
         data = data[data['season'].isin(years)]
-        
+
     else:
         data = data[(data['season'].isin(years)) & (data['season_type'] == s_type)]
-    
+
     # calc per game stats
     pgstats = data[['recent_team', 'season', 'week', 'attempts', 'completions', 'passing_yards', 'passing_tds',
                       'passing_air_yards', 'passing_yards_after_catch', 'passing_first_downs',
@@ -274,7 +274,7 @@ def import_seasonal_data(years, s_type='REG'):
          'receiving_air_yards', 'receiving_yards_after_catch', 'receiving_first_downs', 'receiving_epa',
          'fantasy_points_ppr']].merge(pgstats, how='left', on=['recent_team', 'season', 'week']).fillna(0)
     season_stats = all_stats.drop(['recent_team', 'week'], axis=1).groupby(
-        ['player_id', 'player_name', 'season']).sum().reset_index()
+        ['player_id', 'season']).sum().reset_index()
 
     # calc custom receiving stats
     season_stats['tgt_sh'] = season_stats['targets'] / season_stats['atts']
@@ -292,7 +292,7 @@ def import_seasonal_data(years, s_type='REG'):
     season_stats['ppr_sh'] = season_stats['fantasy_points_ppr'] / season_stats['ppr_pts']
 
     data.drop(['recent_team', 'week'], axis=1, inplace=True)
-    szn = data.groupby(['player_id', 'player_name', 'season', 'season_type']).sum().reset_index().merge(
+    szn = data.groupby(['player_id', 'season', 'season_type']).sum().reset_index().merge(
         data[['player_id', 'season', 'season_type']].groupby(['player_id', 'season']).count().reset_index().rename(
             columns={'season_type': 'games'}), how='left', on=['player_id', 'season'])
 
@@ -311,7 +311,7 @@ def see_pbp_cols():
     """
     
     # load pbp file, identify columns
-    data = pandas.read_parquet(r'https://github.com/nflverse/nflfastR-data/raw/master/data/play_by_play_2020.parquet', engine='auto')
+    data = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2020.parquet', engine='auto')
     cols = data.columns
 
     return cols
@@ -356,8 +356,7 @@ def import_rosters(years, columns=None):
 
     # imports rosters for specified years
     for y in years:
-        temp = pandas.read_csv(r'https://github.com/mrcaseb/nflfastR-roster/blob/master/data/seasons/roster_' + str(y)
-                               + '.csv?raw=True', low_memory=False)
+        temp = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_{0}.parquet'.format(y), engine='auto')
         rosters.append(temp)
 
     rosters = pandas.DataFrame(pandas.concat(rosters)).rename(
@@ -515,7 +514,7 @@ def import_draft_picks(years=None):
         raise ValueError('years variable must be list or range.')
 
     # import draft pick data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/draft_picks.csv')
+    df = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/draft_picks/draft_picks.parquet', engine='auto')
     
     if len(years) > 0:
         df = df[df['season'].isin(years)]  
@@ -574,7 +573,7 @@ def import_combine_data(years=None, positions=None):
         raise ValueError('positions variable must be list.')
         
     # import data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/cooperdff/nfl_data_py/main/data/combine.csv')
+    df = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/combine/combine.parquet', engine='auto')
     
     # filter to years and positions
     if len(years) > 0 and len(positions) > 0:
@@ -660,10 +659,10 @@ def import_ngs_data(stat_type, years=None):
         raise ValueError('years variable must be list or range.')
     
     # import data
-    url = r'https://github.com/nflverse/ngs-data/raw/main/data/ngs_{}.csv.gz'
+    url = r'hhttps://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}.parquet'
     url = url.format(stat_type)
     
-    data = pandas.read_csv(url)
+    data = pandas.read_parquet(url, engine='auto')
     
     # filter if years varaible provided
     if len(years) > 0:
@@ -673,7 +672,7 @@ def import_ngs_data(stat_type, years=None):
     return data
     
 
-def import_depth_charts(years=None):
+def import_depth_charts(years):
     """Imports team depth charts
     
     Args:
@@ -684,7 +683,7 @@ def import_depth_charts(years=None):
 
     # check variable types
     if years is None:
-        years = []
+        raise ValueError('Must specify timeframe.')
         
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
@@ -694,18 +693,14 @@ def import_depth_charts(years=None):
             raise ValueError('Data not available before 2001.')
     
     # import data
-    url = r'https://github.com/nflverse/nflfastR-roster/blob/master/data/nflfastR-depth_charts.csv.gz?raw=True'
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_{0}.parquet'
 
-    df = pandas.read_csv(url, compression='gzip')
-            
-    # filter to desired years
-    if len(years) > 0:
-        df = df[df['season'].between(min(years), max(years))]
+    df = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])
     
     return df
     
 
-def import_injuries(years=None):
+def import_injuries(years):
     """Imports team injury reports
     
     Args:
@@ -716,7 +711,7 @@ def import_injuries(years=None):
 
     # check variable types
     if years is None:
-        years = []
+        raise ValueError('Must specify timeframe.')
         
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
@@ -726,13 +721,9 @@ def import_injuries(years=None):
             raise ValueError('Data not available before 2009.')
     
     #import data
-    url = r'https://github.com/nflverse/nflfastR-roster/blob/master/data/nflfastR-injuries.csv.gz?raw=True'
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{0}.parquet'
 
-    df = pandas.read_csv(url, low_memory=False, compression='gzip')
-    
-    # filter to relevant years
-    if len(years) > 0:
-        df = df[df['season'].between(min(years), max(years))]
+    df = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])
     
     return df
     
@@ -777,16 +768,20 @@ def import_qbr(years=None, level='nfl', frequency='season'):
     return df
     
     
-def import_pfr_passing(years=None):
-    """Import PFR advanced passing statistics
+def import_pfr(s_type, years=None):
+    """Import PFR advanced statistics
     
     Args:
+        s_type (str): must be one of pass, rec, rush
         years (List[int]): years to return data for, optional
     Returns:
         DataFrame
     """
 
     # check variables types
+    if s_type not in ('pass', 'rec', 'rush'):
+        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
+        
     if years is None:
         years = []
         
@@ -798,13 +793,12 @@ def import_pfr_passing(years=None):
             raise ValueError('Data not available before 2019.')
     
     # import data
-    url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_pass.csv'
-
-    df = pandas.read_csv(url)
-            
-    # filter to desired years
-    if len(years) > 0:
-        df = df[df['season'].between(min(years), max(years))]
+    if len(years) == 0:
+        url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_{0}.parquet'.format(s_type)
+        df = pandas.read_parquet(url, engine='auto')
+    else:
+        url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet'
+        df = pandas.concat([read_parquet(url.format(s_type, x)) for x in years])
     
     return df
     
@@ -820,7 +814,7 @@ def import_snap_counts(years):
 
     # check variables types
     if years is None:
-        years = []
+        raise ValueError('Must provide years variable.')
         
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
@@ -832,16 +826,10 @@ def import_snap_counts(years):
     df = pandas.DataFrame()
     
     # import data
-    for yr in years:
         
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_{}.csv'.format(yr)
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_{0}.parquet'
 
-        temp = pandas.read_csv(url)
-            
-        if len(df) > 0:
-            df = df.append(temp)
-        else:
-            df = temp.copy()
+    df = pandas.concat([pandas.read_parquet(url.format(x)) for x in years])
     
     return df
 
