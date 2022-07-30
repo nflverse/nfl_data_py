@@ -658,12 +658,11 @@ def import_ngs_data(stat_type, years=None):
         raise ValueError('years variable must be list or range.')
     
     # import data
-    if len(years) == 0:
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}.parquet'.format(stat_type)
-        data = pandas.read_parquet(url)
-    else:
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}_{1}.parquet'
-        data = pandas.concat([pandas.read_parquet(url.format(x, stat_type), engine='auto') for x in years])
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_{0}.parquet'.format(stat_type)
+    data = pandas.read_parquet(url)
+    
+    if len(years) > 0:
+        data = data[data['season'].isin([x for x in years])]
     
     # return
     return data
