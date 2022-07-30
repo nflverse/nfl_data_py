@@ -74,6 +74,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     appauthor = 'cooper_dff'
     
     plays = pandas.DataFrame()
+    pbp_data = []
     
     if cache is True:
     
@@ -109,15 +110,15 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
             raw = pandas.DataFrame(data)
             raw['season'] = year
 
-            if len(plays) == 0:
-                plays = raw
-            else:
-                plays = plays.append(raw)
+            pbp_data.append(raw)
 
             print(str(year) + ' done.')
 
         except:
             print('Data not available for ' + str(year))
+    
+    if len(pbp_data) > 0:
+        plays = pandas.concat(pbp_data).reset_index(drop=True)
     
     # converts float64 to float32, saves ~30% memory
     if downcast:
