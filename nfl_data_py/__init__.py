@@ -576,7 +576,7 @@ def import_combine_data(years=None, positions=None):
     
     # filter to years and positions
     if len(years) > 0 and len(positions) > 0:
-        df = df[(df['season'].isin(years)) & (df['position'].isin(positions))]
+        df = df[(df['season'].isin(years)) & (df['pos'].isin(positions))]
     elif len(years) > 0:
         df = df[df['season'].isin(years)]
     elif len(positions) > 0:
