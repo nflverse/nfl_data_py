@@ -17,15 +17,16 @@ DESCRIPTION = 'python library for interacting with NFL data sourced from nflfast
 URL = 'https://github.com/cooperdff/nfl_data_py'
 EMAIL = 'cooper.dff11@gmail.com'
 AUTHOR = 'cooperdff'
-REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.2.7'
+REQUIRES_PYTHON = '>=3.6.0'
+VERSION = '0.2.10'
 
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'pandas>=1.3.5',
-    'appdirs>=1.4.4',
-    'fastparquet>=0.8.1',
+    'pandas>1',
+    'appdirs>1',
+    'fastparquet>0.5',
+    'python-snappy>0.5'
 ]
 
 # What packages are optional?
