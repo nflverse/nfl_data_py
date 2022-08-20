@@ -134,3 +134,16 @@ class test_cache(TestCase):
         nfl.cache_pbp([2020])
         s = nfl.import_pbp_data([2020], cache=True)
         self.assertEqual(True, isinstance(s, pd.DataFrame))
+        
+class test_contracts(TestCase):
+    def test_contracts(self):
+        s = nfl.import_contracts()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+        
+class test_players(TestCase):
+    def test_players(self):
+        s = nfl.import_players()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+

@@ -42,7 +42,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.2.9] - 2022-08-18
 - Fixed compatibility issue between python and pandas
 
-## [0.2.10] - 2022-08-20
+## [0.2.11] - 2022-08-20
 - Actually fixed issue between python and pandas not resolved in 0.2.9
 - Dropped python 3.5 support from nfl_data_py to allow for parquet file usage
+
+## [0.3.0] - 2022-08-20
+- Added import functionality for participation, contract, and player data made previously available through nflReadR
 

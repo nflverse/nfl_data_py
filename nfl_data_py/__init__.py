@@ -27,9 +27,11 @@ import_pfr() - import advanced passing stats from PFR
 import_officials() - import details on game officials
 import_schedules() - import weekly teams schedules
 import_rosters() - import team rosters
+import_players() - import descriptive data for all players
 import_depth_charts() - import team depth charts
 import_injuries() - import team injury reports
 import_ids() - import mapping of player ids for more major sites
+import_contracts() - import contract data
 import_win_totals() - import win total lines for teams
 import_sc_lines() - import weekly betting lines for teams
 import_draft_picks() - import draft pick history
@@ -43,12 +45,13 @@ clean_nfl_data() - clean df by aligning common name diffs
 """
 
 
-def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=None):
+def import_pbp_data(years, columns=None, include_participation=True, downcast=True, cache=False, alt_path=None):
     """Imports play-by-play data
     
     Args:
         years (List[int]): years to get PBP data for
         columns (List[str]): only return these columns
+        include_participation (bool): whether to include participation stats or not
         downcast (bool): convert float64 to float32, default True
         cache (bool): whether to use local cache as source of pbp data
         alt_path (str): path for cache if not nfl_data_py default
@@ -66,6 +69,9 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
     if columns is None:
         columns = []
     columns = [x for x in columns if x not in ['season']]
+    
+    if all([include_participation, len(columns) != 0]):
+        columns = columns + [x for x in ['play_id','old_game_id'] if x not in columns]
        
     # potential sources for pbp data
     url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
@@ -83,7 +89,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
         else:
             dpath = alt_path
 
-        # read in pbp data
+    # read in pbp data
     for year in years:
         if cache is True:
             seasonStr = f'season={year}'
@@ -109,9 +115,13 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
 
             raw = pandas.DataFrame(data)
             raw['season'] = year
-
+            
+            if all([include_participation, year >= 2016, not cache]):
+                path = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
+                partic = pandas.read_parquet(path)
+                raw = raw.merge(partic, how='left', on=['play_id','old_game_id'])
+            
             pbp_data.append(raw)
-
             print(str(year) + ' done.')
 
         except:
@@ -131,7 +141,7 @@ def import_pbp_data(years, columns=None, downcast=True, cache=False, alt_path=No
 
 def cache_pbp(years, downcast=True, alt_path=None):
     """Cache pbp data in local location to allow for faster loading
-    
+
     Args:
         years (List[int]): years to cache PBP data for
         downcast (bool): convert float64 to float32, default True
@@ -139,33 +149,33 @@ def cache_pbp(years, downcast=True, alt_path=None):
     Returns:
         DataFrame
     """
-    
+
     if not isinstance(years, (list, range)):
         raise ValueError('Input must be list or range.')
-        
+
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
-    
+
     if alt_path is None:
         alt_path = ''
-    
+
     plays = pandas.DataFrame()
 
     url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
     url2 = r'.parquet'
     appname = 'nfl_data_py'
     appauthor = 'cooper_dff'
-    
+
     # define path for caching
     if len(alt_path) > 0:
         path = alt_path
     else:
         path = os.path.join(appdirs.user_cache_dir(appname, appauthor), 'pbp')
-    
+
     # check if drectory exists already
     if not os.path.isdir(path):
         os.makedirs(path)
-    
+
     # delete seasons to be replaced
     for folder in [os.path.join(path, x) for x in os.listdir(path) for y in years if ('season='+str(y)) in x]:
         for file in os.listdir(folder):
@@ -181,6 +191,11 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
             raw = pandas.DataFrame(data)
             raw['season'] = year
+
+            if year >= 2016:
+                path2 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
+                part = pandas.read_parquet(path2)
+                raw = raw.merge(part, how='left', on=['play_id','old_game_id'])
 
             if downcast:
                 cols = raw.select_dtypes(include=[numpy.float64]).columns
@@ -381,6 +396,16 @@ def import_rosters(years, columns=None):
     return rosters
 
 
+def import_players():
+    """Import descriptive data for all players
+    
+    Returns:
+        DataFrame
+    """
+    df = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/players/players.parquet')
+    return df
+    
+    
 def import_team_desc():
     """Import team descriptive data
     
@@ -636,6 +661,18 @@ def import_ids(columns=None, ids=None):
     
     return df
     
+
+def import_contracts():
+    """Imports historical contract data
+    
+    Returns:
+        DataFrame
+    """
+    
+    df = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/contracts/historical_contracts.parquet')
+    
+    return df
+    
     
 def import_ngs_data(stat_type, years=None):
     """Imports seasonal NGS data
@@ -816,8 +853,8 @@ def import_snap_counts(years):
         raise ValueError('Input must be list or range.')
     
     if len(years) > 0:
-        if min(years) < 2013:
-            raise ValueError('Data not available before 2013.')
+        if min(years) < 2012:
+            raise ValueError('Data not available before 2012.')
     
     df = pandas.DataFrame()
     
