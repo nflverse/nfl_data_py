@@ -134,7 +134,7 @@ def import_pbp_data(years, columns=None, include_participation=True, downcast=Tr
     if downcast:
         print('Downcasting floats.')
         cols = plays.select_dtypes(include=[numpy.float64]).columns
-        plays.loc[:, cols] = plays.loc[:, cols].astype(numpy.float32)
+        plays[cols] = plays[cols].astype(numpy.float32)
             
     return plays
 
@@ -199,7 +199,7 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
             if downcast:
                 cols = raw.select_dtypes(include=[numpy.float64]).columns
-                raw.loc[:, cols] = raw.loc[:, cols].astype(numpy.float32)
+                raw[cols] = raw[cols].astype(numpy.float32)
 
             # write parquet to path, partitioned by season
             raw.to_parquet(path, partition_cols='season')
@@ -242,7 +242,7 @@ def import_weekly_data(years, columns=None, downcast=True):
     if downcast:
         print('Downcasting floats.')
         cols = data.select_dtypes(include=[numpy.float64]).columns
-        data.loc[:, cols] = data.loc[:, cols].astype(numpy.float32)
+        data[cols] = data[cols].astype(numpy.float32)
 
     return data
 
