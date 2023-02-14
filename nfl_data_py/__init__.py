@@ -288,7 +288,7 @@ def import_seasonal_data(years, s_type='REG'):
          'receiving_air_yards', 'receiving_yards_after_catch', 'receiving_first_downs', 'receiving_epa',
          'fantasy_points_ppr']].merge(pgstats, how='left', on=['recent_team', 'season', 'week']).fillna(0)
     season_stats = all_stats.drop(['recent_team', 'week'], axis=1).groupby(
-        ['player_id', 'season']).sum().reset_index()
+        ['player_id', 'season']).sum(numeric_only=True).reset_index()
 
     # calc custom receiving stats
     season_stats['tgt_sh'] = season_stats['targets'] / season_stats['atts']
@@ -306,7 +306,7 @@ def import_seasonal_data(years, s_type='REG'):
     season_stats['ppr_sh'] = season_stats['fantasy_points_ppr'] / season_stats['ppr_pts']
 
     data.drop(['recent_team', 'week'], axis=1, inplace=True)
-    szn = data.groupby(['player_id', 'season', 'season_type']).sum().reset_index().merge(
+    szn = data.groupby(['player_id', 'season', 'season_type']).sum(numeric_only=True).reset_index().merge(
         data[['player_id', 'season', 'season_type']].groupby(['player_id', 'season']).count().reset_index().rename(
             columns={'season_type': 'games'}), how='left', on=['player_id', 'season'])
 
