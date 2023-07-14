@@ -199,11 +199,14 @@ frequency
 : optional, frequency to return data for, weekly or season, default season
 
 ```python
-nfl.import_pfr_passing(years)
+nfl.import_pfr(s_type, years)
 ```
-Returns dataframe of PFR passing data
+Returns dataframe of data sourced from https://www.pro-football-reference.com/
 
-years
+s_type (str)
+: required, the type of stat data to request. Must be one of pass, rec, or rush.
+
+years (List[int])
 : optional, years to return data for
 
 ```python
