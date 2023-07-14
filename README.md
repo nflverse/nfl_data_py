@@ -162,8 +162,8 @@ nfl.import_ngs_data(stat_type, years)
 ```
 Returns dataframe with specified NGS data
 
-columns
-: required, type of data (passing, rushing, receiving)
+stat_type (str)
+: required, type of stats to pull (passing, rushing, receiving)
 
 years
 : optional, list of years to return data for
