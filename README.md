@@ -19,9 +19,11 @@ import nfl_data_py as nfl
 ```
 
 **Working with play-by-play data**
+
 ```python
 nfl.import_pbp_data(years, columns, downcast=True, cache=False, alt_path=None)
 ```
+
 Returns play-by-play data for the years and columns specified
 
 years
@@ -42,12 +44,15 @@ alt_path
 ```python
 nfl.see_pbp_cols()
 ```
+
 returns list of columns available in play-by-play dataset
 
 **Working with weekly data**
+
 ```python
 nfl.import_weekly_data(years, columns, downcast)
 ```
+
 Returns weekly data for the years and columns specified
 
 years
@@ -62,21 +67,46 @@ downcast
 ```python
 nfl.see_weekly_cols()
 ```
+
 returns list of columns available in weekly dataset
 
 **Working with seasonal data**
-```python
-nfl.import_seasonal_data(years)
-```
-Returns seasonal data, including various calculated market share stats
 
-years
+```python
+nfl.import_seasonal_data(years, s_type)
+```
+
+Returns seasonal data, including various calculated market share stats specific to receivers
+
+years (List[int])
 : required, list of years to pull data for (earliest available is 1999)
 
+s_type (str)
+: optional (default 'REG') season type to include in average ('ALL','REG','POST')
+
+calculated receiving market share stats include:
+
+| Column   | is short for                                                                                                                                  |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| tgt_sh   | target share                                                                                                                                  |
+| ay_sh    | air yards share                                                                                                                               |
+| yac_sh   | yards after catch share                                                                                                                       |
+| wopr     | [weighted opportunity rating](https://www.nbcsports.com/fantasy/football/news/article-numbers-why-receiver-air-yards-matter)                  |
+| ry_sh    | receiving yards share                                                                                                                         |
+| rtd_sh   | receiving TDs share                                                                                                                           |
+| rfd_sh   | receiving 1st Downs share                                                                                                                     |
+| rtdfd_sh | receiving TDs + 1st Downs share                                                                                                               |
+| dom      | [dominator rating](https://www.pff.com/news/fantasy-football-predicting-breakout-rookie-wide-receivers-using-pff-grades-and-dominator-rating) |
+| w8dom    | dominator rating, but weighted in favor of receiving yards over TDs                                                                           |
+| yptmpa   | receiving yards per team pass attempt                                                                                                         |
+| ppr_sh   | PPR fantasy points share                                                                                                                      |
+
 **Additional data imports**
+
 ```python
 nfl.import_rosters(years, columns)
 ```
+
 Returns roster information for years and columns specified
 
 years
@@ -88,6 +118,7 @@ columns
 ```python
 nfl.import_win_totals(years)
 ```
+
 Returns win total lines for years specified
 
 years
@@ -96,6 +127,7 @@ years
 ```python
 nfl.import_sc_lines(years)
 ```
+
 Returns scoring lines for years specified
 
 years
@@ -104,6 +136,7 @@ years
 ```python
 nfl.import_officials(years)
 ```
+
 Returns official information by game for the years specified
 
 years
@@ -112,6 +145,7 @@ years
 ```python
 nfl.import_draft_picks(years)
 ```
+
 Returns list of draft picks for the years specified
 
 years
@@ -120,16 +154,19 @@ years
 ```python
 nfl.import_draft_values()
 ```
+
 Returns relative values by generic draft pick according to various popular valuation methods
 
 ```python
 nfl.import_team_desc()
 ```
+
 Returns dataframe with color/logo/etc information for all NFL team
 
 ```python
 nfl.import_schedules(years)
 ```
+
 Returns dataframe with schedule information for years specified
 
 years
@@ -138,6 +175,7 @@ years
 ```python
 nfl.import_combine_data(years, positions)
 ```
+
 Returns dataframe with combine results for years and positions specified
 
 years
@@ -149,6 +187,7 @@ positions
 ```python
 nfl.import_ids(columns, ids)
 ```
+
 Returns dataframe with mapped ids for all players across most major NFL and fantasy football data platforms
 
 columns
@@ -160,6 +199,7 @@ ids
 ```python
 nfl.import_ngs_data(stat_type, years)
 ```
+
 Returns dataframe with specified NGS data
 
 stat_type (str)
@@ -171,6 +211,7 @@ years
 ```python
 nfl.import_depth_charts(years)
 ```
+
 Returns dataframe with depth chart data
 
 years
@@ -179,6 +220,7 @@ years
 ```python
 nfl.import_injuries(years)
 ```
+
 Returns dataframe of injury reports
 
 years
@@ -187,6 +229,7 @@ years
 ```python
 nfl.import_qbr(years, level, frequency)
 ```
+
 Returns dataframe with QBR history
 
 years
@@ -201,6 +244,7 @@ frequency
 ```python
 nfl.import_pfr(s_type, years)
 ```
+
 Returns dataframe of data sourced from https://www.pro-football-reference.com/
 
 s_type (str)
@@ -212,15 +256,18 @@ years (List[int])
 ```python
 nfl.import_snap_counts(years)
 ```
+
 Returns dataframe with snap count records
 
 years
 : optional, list of years to return data for
 
 **Additional features**
+
 ```python
 nfl.cache_pbp(years, downcast=True, alt_path=None)
 ```
+
 Caches play-by-play data locally to speed up download time. If years specified have already been cached they will be overwritten, so if using in-season must cache 1x per week to catch most recent data
 
 years
@@ -235,16 +282,20 @@ alt_path
 ```python
 nfl.clean_nfl_data(df)
 ```
+
 Runs descriptive data (team name, player name, etc.) through various cleaning processes
 
 df
 : required, dataframe to be cleaned
 
 ## Recognition
+
 I'd like to recognize all of [Ben Baldwin](https://twitter.com/benbbaldwin), [Sebastian Carl](https://twitter.com/mrcaseb), and [Lee Sharpe](https://twitter.com/LeeSharpeNFL) for making this data freely available and easy to access. I'd also like to thank [Tan Ho](https://twitter.com/_TanH), who has been an invaluable resource as I've worked through this project, and Josh Kazan for the resources and assistance he's provided.
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
