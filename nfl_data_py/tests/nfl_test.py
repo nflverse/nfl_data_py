@@ -39,6 +39,21 @@ class test_rosters(TestCase):
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
         
+class test_weekly_rosters(TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls._data = nfl.import_weekly_rosters([2022])
+        
+    def test_is_df_with_data(self):
+        self.assertIsInstance(self._data, pd.DataFrame)
+        self.assertGreater(len(self._data), 0)
+        
+    def test_gets_weekly_updates(self):
+        hock = self._data[self._data.full_name == 'T.J. Hockenson']
+        self.assertCountEqual(hock.week, range(1, 19))
+        self.assertCountEqual(hock[hock.team == 'DET'].week, range(1, 8))
+        self.assertCountEqual(hock[hock.team == 'MIN'].week, range(8, 19))
+        
 class test_team_desc(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_team_desc()
