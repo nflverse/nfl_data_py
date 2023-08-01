@@ -87,6 +87,11 @@ class test_wins(TestCase):
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
         
+    def test_is_df_with_data_no_years(self):
+        s = nfl.import_win_totals()
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+        
 class test_officials(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_officials([2020])

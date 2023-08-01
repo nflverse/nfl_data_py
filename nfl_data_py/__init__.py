@@ -507,7 +507,7 @@ def import_schedules(years):
     return scheds
     
 
-def import_win_totals(years):
+def import_win_totals(years = None):
     """Import win total projections
     
     Args:
@@ -518,15 +518,13 @@ def import_win_totals(years):
     """
 
     # check variable types
-    if not isinstance(years, (list, range)):
+    if not isinstance(years, (list, range, type(None))):
         raise ValueError('years variable must be list or range.')
     
     # import win totals
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/win_totals.csv')
-    
-    df = df[df['season'].isin(years)]
-    
-    return df
+
+    return df[df['season'].isin(years)] if years else df
     
 
 def import_officials(years=None):
