@@ -26,7 +26,8 @@ import_qbr() - import QBR for NFL or college
 import_pfr() - import advanced passing stats from PFR
 import_officials() - import details on game officials
 import_schedules() - import weekly teams schedules
-import_rosters() - import team rosters
+import_seasonal_rosters() - import yearly team rosters
+import_weekly_rosters() - import team rosters by week, including in-season updates
 import_players() - import descriptive data for all players
 import_depth_charts() - import team depth charts
 import_injuries() - import team injury reports
@@ -355,7 +356,7 @@ def __import_rosters(release, years, columns=None):
     Returns:
         DataFrame
     """
-    
+
     # check variable types
     if not isinstance(years, (list, range)):
         raise ValueError('years input must be list or range.')

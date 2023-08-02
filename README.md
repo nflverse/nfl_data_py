@@ -104,10 +104,22 @@ calculated receiving market share stats include:
 **Additional data imports**
 
 ```python
-nfl.import_rosters(years, columns)
+nfl.import_seasonal_rosters(years, columns)
 ```
 
-Returns roster information for years and columns specified
+Returns yearly roster information for the seasons specified
+
+years
+: required, list of years to pull data for (earliest available is 1999)
+
+columns
+: optional, list of columns to pull data for
+
+```python
+nfl.import_weekly_rosters(years, columns)
+```
+
+Returns per-game roster information for the seasons specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
