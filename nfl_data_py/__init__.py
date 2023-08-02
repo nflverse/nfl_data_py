@@ -24,7 +24,8 @@ import_seasonal_data() - import seasonal player stats
 import_snap_counts() - import weekly snap count stats
 import_ngs_data() - import NGS advanced analytics
 import_qbr() - import QBR for NFL or college
-import_pfr() - import advanced passing stats from PFR
+import_seasonal_pfr() - import advanced stats from PFR on a seasonal basis
+import_weekly_pfr() - import advanced stats from PFR on a weekly basis
 import_officials() - import details on game officials
 import_schedules() - import weekly teams schedules
 import_rosters() - import team rosters
