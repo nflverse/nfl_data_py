@@ -5,6 +5,7 @@ import numpy
 import datetime
 import appdirs
 import os
+from typing import Iterable
 
 # module level doc string
 __doc__ = """
@@ -797,10 +798,48 @@ def import_qbr(years=None, level='nfl', frequency='season'):
         df = df[df['season'].between(min(years), max(years))]
     
     return df
+
+
+def __validate_pfr_inputs(s_type, years=None):
+    if s_type not in ('pass', 'rec', 'rush'):
+        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
     
+    if years is None:
+        return []
     
-def import_pfr(s_type, years=None):
-    """Import PFR advanced statistics
+    if not isinstance(years, Iterable):
+        raise ValueError("years must be an Iterable.")
+    
+    years = list(years)
+
+    if not all(isinstance(x, int) for x in years):
+        raise ValueError('years variable must only contain integers.')
+
+    if years and min(years) < 2018:
+        raise ValueError('Data not available before 2018.')
+
+    return years
+    
+def import_seasonal_pfr(s_type, years=None):
+    """Import PFR advanced season-level statistics
+    
+    Args:
+        s_type (str): must be one of pass, rec, rush
+        years (List[int]): years to return data for, optional
+    Returns:
+        DataFrame
+    """
+    
+    years = __validate_pfr_inputs(s_type, years)
+
+    url = f"https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_{s_type}.parquet"
+    df = pandas.read_parquet(url)
+
+    return df[df.season.isin(years)] if years else df
+
+
+def import_weekly_pfr(s_type, years=None):
+    """Import PFR advanced week-level statistics
     
     Args:
         s_type (str): must be one of pass, rec, rush
@@ -809,29 +848,22 @@ def import_pfr(s_type, years=None):
         DataFrame
     """
 
-    # check variables types
-    if s_type not in ('pass', 'rec', 'rush'):
-        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
-        
-    if years is None:
-        years = []
-        
-    if not isinstance(years, (list, range)):
-        raise ValueError('Input must be list or range.')
+    years = __validate_pfr_inputs(s_type, years)
     
-    if len(years) > 0:
-        if min(years) < 2019:
-            raise ValueError('Data not available before 2019.')
-    
-    # import data
     if len(years) == 0:
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_{0}.parquet'.format(s_type)
-        df = pandas.read_parquet(url, engine='auto')
-    else:
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet'
-        df = pandas.concat([pandas.read_parquet(url.format(s_type, x), engine='auto') for x in years])
+        years = list(import_seasonal_pfr(s_type).season.unique())
     
-    return df
+    url = "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet"
+    df = pandas.concat([
+        pandas.read_parquet(url.format(s_type, yr))
+        for yr in years
+    ])
+    
+    return df[df.season.isin(years)] if years else df
+    
+    
+    # url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet'
+    # df = pandas.concat([pandas.read_parquet(url.format(s_type, x), engine='auto') for x in years])
     
     
 def import_snap_counts(years):
