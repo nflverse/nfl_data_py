@@ -863,10 +863,6 @@ def import_weekly_pfr(s_type, years=None):
     return df[df.season.isin(years)] if years else df
     
     
-    # url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet'
-    # df = pandas.concat([pandas.read_parquet(url.format(s_type, x), engine='auto') for x in years])
-    
-    
 def import_snap_counts(years):
     """Import snap count data for individual players
     
