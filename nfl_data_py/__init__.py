@@ -19,7 +19,6 @@ tables to assist with the merging of datasets from various sources.
 
 Functions
 ---------
-_read_parquet() - utility function to read parquet files in parallel
 import_pbp_data() - import play-by-play data
 import_weekly_data() - import weekly player stats
 import_seasonal_data() - import seasonal player stats
@@ -46,21 +45,6 @@ import_team_desc() - import descriptive data for team viz
 cache_pbp() - save pbp files locally to allow for faster loading
 clean_nfl_data() - clean df by aligning common name diffs
 """
-
-def _read_parquet(path, year, columns):
-    """Utility function to read parquet files in parallel
-    Args:
-        path (str): URL path to parquet file
-        year (int): year of data
-        columns (List[str]): only return these columns
-    Returns:
-        dict: year and data
-    """
-    pa = pandas.read_parquet(path, columns=columns, engine='pyarrow')
-    return {
-        'year': year,
-        'data': pa
-    }
 
 def import_pbp_data(
         years, 
@@ -112,12 +96,14 @@ def import_pbp_data(
         else:
             dpath = alt_path
 
-    if thread_requests:
+    if thread_requests and not cache:
         with ThreadPoolExecutor() as executor:
-            futures = [executor.submit(_read_parquet, url1 + str(year) + url2, year, columns if columns else None) for year in years]
-            pbp_data = [future.result() for future in as_completed(futures)]
-            pbp_data = sorted(pbp_data, key=lambda x: x['year'])
-            pbp_data = [x['data'] for x in pbp_data]
+            # Create a list of the same size as years, initialized with None
+            pbp_data = [None]*len(years)
+            # Create a mapping of futures to their corresponding index in the pbp_data
+            futures_map = {executor.submit(pandas.read_parquet, path=url1 + str(year) + url2, columns=columns if columns else None, engine='auto'): idx for idx, year in enumerate(years)}
+            for future in as_completed(futures_map):
+                pbp_data[futures_map[future]] = future.result()
     else:
         # read in pbp data
         for year in years:
@@ -138,7 +124,7 @@ def import_pbp_data(
 
             # load data
             try:
-                data = pandas.read_parquet(path, columns=columns if columns else None, engine='pyarrow')
+                data = pandas.read_parquet(path, columns=columns if columns else None, engine='auto')
 
                 raw = pandas.DataFrame(data)
                 raw['season'] = year
@@ -151,7 +137,8 @@ def import_pbp_data(
                 pbp_data.append(raw)
                 print(str(year) + ' done.')
 
-            except:
+            except Error as e:
+                print(e)
                 print('Data not available for ' + str(year))
     
     if pbp_data:
@@ -262,18 +249,21 @@ def import_weekly_data(
     
     if not columns:
         columns = []
-        
-    # read weekly data
+
     url = r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_{0}.parquet'
-    data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])
 
     if thread_requests:
         with ThreadPoolExecutor() as executor:
-            futures = [executor.submit(_read_parquet, url.format(year), year, columns if columns else None) for year in years]
-            data = [future.result() for future in as_completed(futures)]
-            data = sorted(data, key=lambda x: x['year'])
-            data = [x['data'] for x in data]
+            # Create a list of the same size as years, initialized with None
+            data = [None]*len(years)
+            # Create a mapping of futures to their corresponding index in the data
+            futures_map = {executor.submit(pandas.read_parquet, path=url.format(year), columns=columns if columns else None, engine='auto'): idx for idx, year in enumerate(years)}
+            for future in as_completed(futures_map):
+                data[futures_map[future]] = future.result()
             data = pandas.concat(data)
+    else:
+        # read weekly data
+        data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])        
 
     if columns:
         data = data[columns]
