@@ -81,10 +81,25 @@ class test_draft_values(TestCase):
         self.assertTrue(len(s) > 0)
         
 class test_combine(TestCase):
-    def test_is_df_with_data(self):
+    def test_is_df_with_data_no_years_no_positions(self):
+        s = nfl.import_combine_data()
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertFalse(s.empty)
+        
+    def test_is_df_with_data_with_years_no_positions(self):
         s = nfl.import_combine_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
-        self.assertTrue(len(s) > 0)
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertFalse(s.empty)
+        
+    def test_is_df_with_data_no_years_with_positions(self):
+        s = nfl.import_combine_data(positions=["QB"])
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertFalse(s.empty)
+        
+    def test_is_df_with_data_with_years_and_positions(self):
+        s = nfl.import_combine_data([2020], positions=["QB"])
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertFalse(s.empty)
         
 class test_ids(TestCase):
     def test_is_df_with_data(self):
