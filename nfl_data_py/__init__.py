@@ -600,7 +600,7 @@ def import_combine_data(years=None, positions=None):
     elif len(years) > 0:
         df = df[df['season'].isin(years)]
     elif len(positions) > 0:
-        df = df[df['position'].isin(positions)]
+        df = df[df['pos'].isin(positions)]
 
     return df    
 
