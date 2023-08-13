@@ -1,14 +1,32 @@
 from unittest import TestCase
+from pathlib import Path
+import shutil
+
 import pandas as pd
 
 import nfl_data_py as nfl
+
 
 class test_pbp(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_pbp_data([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
-		
+        
+    def test_uses_cache_when_cache_is_true(self):
+        cache = Path(__file__).parent/"tmpcache"
+        self.assertRaises(
+            ValueError,
+            nfl.import_pbp_data, [2020], cache=True, alt_path=cache
+        )
+        
+        nfl.cache_pbp([2020], alt_path=cache)
+        
+        data = nfl.import_pbp_data([2020], cache=True, alt_path=cache)
+        self.assertIsInstance(data, pd.DataFrame)
+        
+        shutil.rmtree(cache)
+        
 class test_weekly(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_weekly_data([2020])
@@ -136,9 +154,21 @@ class test_snaps(TestCase):
         
 class test_cache(TestCase):
     def test_cache(self):
-        nfl.cache_pbp([2020])
-        s = nfl.import_pbp_data([2020], cache=True)
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        cache = Path(__file__).parent/"tmpcache"
+        self.assertFalse(cache.is_dir())
+        
+        nfl.cache_pbp([2020], alt_path=cache)
+        
+        new_paths = list(cache.glob("**/*"))
+        self.assertEqual(len(new_paths), 2)
+        self.assertTrue(new_paths[0].is_dir())
+        self.assertTrue(new_paths[1].is_file())
+        
+        pbp2020 = pd.read_parquet(new_paths[1])
+        self.assertIsInstance(pbp2020, pd.DataFrame)
+        self.assertFalse(pbp2020.empty)
+        
+        shutil.rmtree(cache)
         
 class test_contracts(TestCase):
     def test_contracts(self):
