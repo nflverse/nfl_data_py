@@ -265,7 +265,15 @@ def import_weekly_data(
             # Create a list of the same size as years, initialized with None
             data = [None]*len(years)
             # Create a mapping of futures to their corresponding index in the data
-            futures_map = {executor.submit(pandas.read_parquet, path=url.format(year), columns=columns if columns else None, engine='auto'): idx for idx, year in enumerate(years)}
+            futures_map = {
+                executor.submit(
+                    pandas.read_parquet,
+                    path=url.format(year),
+                    columns=columns if columns else None,
+                    engine='auto'
+                ): idx
+                for idx, year in enumerate(years)
+            }
             for future in as_completed(futures_map):
                 data[futures_map[future]] = future.result()
             data = pandas.concat(data)
