@@ -101,7 +101,15 @@ def import_pbp_data(
             # Create a list of the same size as years, initialized with None
             pbp_data = [None]*len(years)
             # Create a mapping of futures to their corresponding index in the pbp_data
-            futures_map = {executor.submit(pandas.read_parquet, path=url1 + str(year) + url2, columns=columns if columns else None, engine='auto'): idx for idx, year in enumerate(years)}
+            futures_map = {
+                executor.submit(
+                    pandas.read_parquet,
+                    path=url1 + str(year) + url2,
+                    columns=columns if columns else None, 
+                    engine='auto'
+                ): idx 
+                for idx, year in enumerate(years)
+            }
             for future in as_completed(futures_map):
                 pbp_data[futures_map[future]] = future.result()
     else:
