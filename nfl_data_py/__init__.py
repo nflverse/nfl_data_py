@@ -156,7 +156,7 @@ def import_pbp_data(
     if downcast:
         print('Downcasting floats.')
         cols = plays.select_dtypes(include=[numpy.float64]).columns
-        plays.loc[:, cols] = plays.loc[:, cols].astype(numpy.float32)
+        plays[cols] = plays[cols].astype(numpy.float32)
             
     return plays
 
@@ -178,9 +178,6 @@ def cache_pbp(years, downcast=True, alt_path=None):
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
 
-    if alt_path is None:
-        alt_path = ''
-
     plays = pandas.DataFrame()
 
     url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
@@ -189,8 +186,8 @@ def cache_pbp(years, downcast=True, alt_path=None):
     appauthor = 'cooper_dff'
 
     # define path for caching
-    if len(alt_path) > 0:
-        path = alt_path
+    if alt_path is not None:
+        path = str(alt_path)
     else:
         path = os.path.join(appdirs.user_cache_dir(appname, appauthor), 'pbp')
 
@@ -221,7 +218,7 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
             if downcast:
                 cols = raw.select_dtypes(include=[numpy.float64]).columns
-                raw.loc[:, cols] = raw.loc[:, cols].astype(numpy.float32)
+                raw[cols] = raw[cols].astype(numpy.float32)
 
             # write parquet to path, partitioned by season
             raw.to_parquet(path, partition_cols='season')
@@ -288,7 +285,7 @@ def import_weekly_data(
     if downcast:
         print('Downcasting floats.')
         cols = data.select_dtypes(include=[numpy.float64]).columns
-        data.loc[:, cols] = data.loc[:, cols].astype(numpy.float32)
+        data[cols] = data[cols].astype(numpy.float32)
 
     return data
 
@@ -334,7 +331,7 @@ def import_seasonal_data(years, s_type='REG'):
          'receiving_air_yards', 'receiving_yards_after_catch', 'receiving_first_downs', 'receiving_epa',
          'fantasy_points_ppr']].merge(pgstats, how='left', on=['recent_team', 'season', 'week']).fillna(0)
     season_stats = all_stats.drop(['recent_team', 'week'], axis=1).groupby(
-        ['player_id', 'season']).sum().reset_index()
+        ['player_id', 'season']).sum(numeric_only=True).reset_index()
 
     # calc custom receiving stats
     season_stats['tgt_sh'] = season_stats['targets'] / season_stats['atts']
@@ -352,7 +349,7 @@ def import_seasonal_data(years, s_type='REG'):
     season_stats['ppr_sh'] = season_stats['fantasy_points_ppr'] / season_stats['ppr_pts']
 
     data.drop(['recent_team', 'week'], axis=1, inplace=True)
-    szn = data.groupby(['player_id', 'season', 'season_type']).sum().reset_index().merge(
+    szn = data.groupby(['player_id', 'season', 'season_type']).sum(numeric_only=True).reset_index().merge(
         data[['player_id', 'season', 'season_type']].groupby(['player_id', 'season']).count().reset_index().rename(
             columns={'season_type': 'games'}), how='left', on=['player_id', 'season'])
 
@@ -491,7 +488,7 @@ def import_schedules(years):
     return scheds
     
 
-def import_win_totals(years):
+def import_win_totals(years = None):
     """Import win total projections
     
     Args:
@@ -502,15 +499,13 @@ def import_win_totals(years):
     """
 
     # check variable types
-    if not isinstance(years, (list, range)):
+    if not isinstance(years, (list, range, type(None))):
         raise ValueError('years variable must be list or range.')
     
     # import win totals
     df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/win_totals.csv')
-    
-    df = df[df['season'].isin(years)]
-    
-    return df
+
+    return df[df['season'].isin(years)] if years else df
     
 
 def import_officials(years=None):
@@ -651,7 +646,7 @@ def import_combine_data(years=None, positions=None):
     elif len(years) > 0:
         df = df[df['season'].isin(years)]
     elif len(positions) > 0:
-        df = df[df['position'].isin(positions)]
+        df = df[df['pos'].isin(positions)]
 
     return df    
 
