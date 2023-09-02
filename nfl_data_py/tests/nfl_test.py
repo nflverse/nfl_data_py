@@ -155,11 +155,54 @@ class test_qbr(TestCase):
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
         
-class test_pfr(TestCase):
+class test_seasonal_pfr(TestCase):
+    df = nfl.import_seasonal_pfr('pass')
+    
     def test_is_df_with_data(self):
-        s = nfl.import_pfr('pass')
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
-        self.assertTrue(len(s) > 0)
+        self.assertIsInstance(self.df, pd.DataFrame)
+        self.assertTrue(len(self.df) > 0)
+        
+    def test_contains_one_row_per_player_per_season(self):
+        pat = get_pat(self.df)
+        self.assertCountEqual(pat.season, pat.season.unique())
+        
+    def test_contains_seasonal_exclusive_columns(self):
+        self.assertIn("rpo_plays", self.df.columns)
+    
+    def test_retrieves_all_available_years_by_default(self):
+        available_years = pd.read_parquet(
+            "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_pass.parquet"
+        ).season.unique()
+        self.assertCountEqual(self.df.season.unique(), available_years)
+        
+    def test_filters_by_year(self):
+        only_20_21 = nfl.import_seasonal_pfr('pass', [2020, 2021])
+        self.assertCountEqual(only_20_21.season.unique(), [2020, 2021])
+        
+class test_weekly_pfr(TestCase):
+    df = nfl.import_weekly_pfr('pass')
+    
+    def test_is_df_with_data(self):
+        self.assertIsInstance(self.df, pd.DataFrame)
+        self.assertTrue(len(self.df) > 0)
+        
+    def test_contains_one_row_per_player_per_week(self):
+        weeks_per_season = get_pat(self.df).groupby("season").week.nunique()
+        self.assertEqual(weeks_per_season.to_list(), [18, 17, 18, 20, 20])
+        
+    def test_does_not_contain_seasonal_exclusive_columns(self):
+        self.assertNotIn("rpo_plays", self.df.columns)
+    
+    def test_retrieves_all_available_years_by_default(self):
+        available_years = pd.read_parquet(
+            "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_pass.parquet"
+        ).season.unique()
+        self.assertCountEqual(self.df.season.unique(), available_years)
+        
+    def test_filters_by_year(self):
+        only_20_21 = nfl.import_weekly_pfr('pass', [2020, 2021])
+        self.assertCountEqual(only_20_21.season.unique(), [2020, 2021])
+    
         
 class test_snaps(TestCase):
     def test_is_df_with_data(self):
@@ -197,3 +240,15 @@ class test_players(TestCase):
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
 
+
+# ---------------------------- Helper Functions -------------------------------
+def __get_player(df: pd.DataFrame, player_name: str):
+    player_name_cols = ('player_name', 'player', 'pfr_player_name')
+    player_name_col = set(player_name_cols).intersection(set(df.columns)).pop()
+    return df[df[player_name_col] == player_name]
+
+def get_pat(df):
+    return __get_player(df, 'Patrick Mahomes')
+
+def get_hock(df):
+    return __get_player(df, 'T.J. Hockenson')
