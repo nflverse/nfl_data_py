@@ -51,11 +51,41 @@ class test_weekly_cols(TestCase):
         self.assertEqual(True, isinstance(set(nfl.see_pbp_cols()), set))
         self.assertTrue(len(s) > 0)
         
-class test_rosters(TestCase):
+class test_seasonal_rosters(TestCase):
+    data = nfl.import_seasonal_rosters([2020])
+    
     def test_is_df_with_data(self):
-        s = nfl.import_rosters([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
-        self.assertTrue(len(s) > 0)
+        self.assertEqual(True, isinstance(self.data, pd.DataFrame))
+        self.assertTrue(len(self.data) > 0)
+        
+    def test_computes_age_as_of_season_start(self):
+        mahomes_ages = self.data[get_pat].age
+        self.assertEqual(len(mahomes_ages), 1)
+        self.assertEqual(mahomes_ages.iloc[0], 24)
+        
+
+class test_weekly_rosters(TestCase):
+    data = nfl.import_weekly_rosters([2022])
+        
+    def test_is_df_with_data(self):
+        assert isinstance(self.data, pd.DataFrame)
+        self.assertGreater(len(self.data), 0)
+        
+    def test_gets_weekly_updates(self):
+        assert isinstance(self.data, pd.DataFrame)
+        hock = self.data[get_hock]
+        self.assertCountEqual(hock[hock.team == 'DET'].week, [1, 2, 3, 4, 5, 7, 8])
+        self.assertCountEqual(hock[hock.team == 'MIN'].week, range(9, 20))
+        
+    def test_computes_age_as_of_week(self):
+        self.assertEqual(
+            self.data[get_pat].age.to_list(),
+            [
+                26.984, 26.995, 27.023, 27.042, 27.064, 27.08, 27.099,
+                27.138, 27.157, 27.176, 27.195, 27.214, 27.233, 27.253,
+                27.269, 27.291, 27.307, 27.346, 27.368, 27.406
+            ]
+        )
         
 class test_team_desc(TestCase):
     def test_is_df_with_data(self):
@@ -242,13 +272,9 @@ class test_players(TestCase):
 
 
 # ---------------------------- Helper Functions -------------------------------
-def __get_player(df: pd.DataFrame, player_name: str):
-    player_name_cols = ('player_name', 'player', 'pfr_player_name')
-    player_name_col = set(player_name_cols).intersection(set(df.columns)).pop()
-    return df[df[player_name_col] == player_name]
 
-def get_pat(df):
-    return __get_player(df, 'Patrick Mahomes')
+def get_pat(row):
+    return row.player_name == 'Patrick Mahomes'
 
-def get_hock(df):
-    return __get_player(df, 'T.J. Hockenson')
+def get_hock(row):
+    return row.player_name == 'T.J. Hockenson'
