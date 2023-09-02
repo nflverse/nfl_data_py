@@ -2,11 +2,13 @@ name = 'nfl_data_py'
 
 import datetime
 import os
+
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import appdirs
 import numpy
 import pandas
+from typing import Iterable
 
 # module level doc string
 __doc__ = """
@@ -25,10 +27,12 @@ import_seasonal_data() - import seasonal player stats
 import_snap_counts() - import weekly snap count stats
 import_ngs_data() - import NGS advanced analytics
 import_qbr() - import QBR for NFL or college
-import_pfr() - import advanced passing stats from PFR
+import_seasonal_pfr() - import advanced stats from PFR on a seasonal basis
+import_weekly_pfr() - import advanced stats from PFR on a weekly basis
 import_officials() - import details on game officials
 import_schedules() - import weekly teams schedules
-import_rosters() - import team rosters
+import_seasonal_rosters() - import yearly team rosters
+import_weekly_rosters() - import team rosters by week, including in-season updates
 import_players() - import descriptive data for all players
 import_depth_charts() - import team depth charts
 import_injuries() - import team injury reports
@@ -388,7 +392,7 @@ def see_weekly_cols():
     return cols
 
 
-def import_rosters(years, columns=None):
+def __import_rosters(release, years, columns=None):
     """Imports roster data
     
     Args:
@@ -406,35 +410,97 @@ def import_rosters(years, columns=None):
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
 
-    if columns is None:
-        columns = []
+    if release not in ('seasonal', 'weekly'):
+        raise ValueError("release input must be 'seasonal' or 'weekly'.")
+    
+    if columns is not None and not (
+        isinstance(columns, list) and
+        all(isinstance(x, str) for x in columns) and
+        len(columns) > 0
+    ):
+        raise ValueError('columns input must be a list of strings.')
 
-    rosters = []
+    # Build the relevant URI for the release type
+    uri = "https://github.com/nflverse/nflverse-data/releases/download/"
+    if release == "seasonal":
+        uri += "rosters/roster_{0}.parquet"
+    elif release == "weekly":
+        uri += "weekly_rosters/roster_weekly_{0}.parquet"
 
     # imports rosters for specified years
-    for y in years:
-        temp = pandas.read_parquet(r'https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_{0}.parquet'.format(y), engine='auto')
-        rosters.append(temp)
-
-    rosters = pandas.DataFrame(pandas.concat(rosters)).rename(
-        columns={'full_name': 'player_name', 'gsis_id': 'player_id'})
-    rosters.drop_duplicates(subset=['season', 'player_name', 'position', 'player_id'], keep='first', inplace=True)
-
-    if len(columns) > 0:
+    rosters = pandas.concat([
+        pandas.read_parquet(uri.format(y))
+        for y in years
+    ])
+    
+    # Post-import processing
+    rosters['birth_date'] = pandas.to_datetime(rosters.birth_date)
+    rosters.rename(
+        columns={'gsis_id': 'player_id', 'full_name': 'player_name'},
+        inplace=True
+    )
+    if columns:
         rosters = rosters[columns]
 
-    # define function for calculating age in season and then calculate
-    def calc_age(x):
-        ca = pandas.to_datetime(x[0])
-        bd = pandas.to_datetime(x[1])
-        return ca.year - bd.year + numpy.where(ca.month > bd.month, 0, -1)
+    return rosters
 
-    if 'birth_date' in columns and 'current_age' in columns:
+
+def import_weekly_rosters(years, columns=None):
+    """Imports roster data including mid-season changes
     
-        rosters['current_age'] = rosters['season'].apply(lambda x: datetime.datetime(int(x), 9, 1))
-        rosters['age'] = rosters[['current_age', 'birth_date']].apply(calc_age, axis=1)
-        rosters.drop(['current_age'], axis=1, inplace=True)
-        rosters.dropna(subset=['player_id'], inplace=True)
+    Args:
+        years (List[int]): years to get rosters for
+        columns (List[str]): list of columns to return with DataFrame
+        
+    Returns:
+        DataFrame
+    """
+    rosters = __import_rosters("weekly", years, columns)
+    
+    scheds = pandas.read_csv("http://www.habitatring.com/games.csv")
+    common_cols = ["season", "week", "gameday"]
+    week_team_dates = pandas.concat([
+        scheds[common_cols + ["home_team"]].rename(columns={"home_team": "team"}),
+        scheds[common_cols + ["away_team"]].rename(columns={"away_team": "team"})
+    ])
+    roster_dates = pandas.to_datetime(
+        rosters.merge(
+            week_team_dates,
+            on=["season", "week", "team"],
+            how="left"
+        ).gameday
+    )
+    rosters["age"] = ((roster_dates - rosters.birth_date).dt.days / 365.25).round(3)
+    
+    return rosters
+    
+
+def import_seasonal_rosters(years, columns=None):
+    """Imports roster data as of the end of the season
+    
+    Args:
+        years (List[int]): years to get rosters for
+        columns (List[str]): list of columns to return with DataFrame
+        
+    Returns:
+        DataFrame
+    """
+    
+    rosters = __import_rosters("seasonal", years, columns)
+    
+    # calculate age in season
+    if 'birth_date' in rosters.columns:
+        rosters['szn_start'] = pandas.to_datetime(
+            rosters.season.apply(lambda x: datetime.datetime(int(x), 9, 1))
+        )
+        rosters["age"] = (
+            rosters.szn_start.dt.year - rosters.birth_date.dt.year  + numpy.where(
+                rosters.szn_start.dt.month > rosters.birth_date.dt.month, 0, -1
+            )
+        )
+        rosters.drop(['szn_start'], axis=1, inplace=True)
+        
+    rosters.dropna(subset=['player_id'], inplace=True)
 
     return rosters
 
@@ -840,10 +906,48 @@ def import_qbr(years=None, level='nfl', frequency='season'):
         df = df[df['season'].between(min(years), max(years))]
     
     return df
+
+
+def __validate_pfr_inputs(s_type, years=None):
+    if s_type not in ('pass', 'rec', 'rush'):
+        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
     
+    if years is None:
+        return []
     
-def import_pfr(s_type, years=None):
-    """Import PFR advanced statistics
+    if not isinstance(years, Iterable):
+        raise ValueError("years must be an Iterable.")
+    
+    years = list(years)
+
+    if not all(isinstance(x, int) for x in years):
+        raise ValueError('years variable must only contain integers.')
+
+    if years and min(years) < 2018:
+        raise ValueError('Data not available before 2018.')
+
+    return years
+    
+def import_seasonal_pfr(s_type, years=None):
+    """Import PFR advanced season-level statistics
+    
+    Args:
+        s_type (str): must be one of pass, rec, rush
+        years (List[int]): years to return data for, optional
+    Returns:
+        DataFrame
+    """
+    
+    years = __validate_pfr_inputs(s_type, years)
+
+    url = f"https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_{s_type}.parquet"
+    df = pandas.read_parquet(url)
+
+    return df[df.season.isin(years)] if years else df
+
+
+def import_weekly_pfr(s_type, years=None):
+    """Import PFR advanced week-level statistics
     
     Args:
         s_type (str): must be one of pass, rec, rush
@@ -852,29 +956,18 @@ def import_pfr(s_type, years=None):
         DataFrame
     """
 
-    # check variables types
-    if s_type not in ('pass', 'rec', 'rush'):
-        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
-        
-    if years is None:
-        years = []
-        
-    if not isinstance(years, (list, range)):
-        raise ValueError('Input must be list or range.')
+    years = __validate_pfr_inputs(s_type, years)
     
-    if len(years) > 0:
-        if min(years) < 2019:
-            raise ValueError('Data not available before 2019.')
-    
-    # import data
     if len(years) == 0:
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_{0}.parquet'.format(s_type)
-        df = pandas.read_parquet(url, engine='auto')
-    else:
-        url = r'https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet'
-        df = pandas.concat([pandas.read_parquet(url.format(s_type, x), engine='auto') for x in years])
+        years = list(import_seasonal_pfr(s_type).season.unique())
     
-    return df
+    url = "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_{0}_{1}.parquet"
+    df = pandas.concat([
+        pandas.read_parquet(url.format(s_type, yr))
+        for yr in years
+    ])
+    
+    return df[df.season.isin(years)] if years else df
     
     
 def import_snap_counts(years):

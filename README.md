@@ -104,10 +104,22 @@ calculated receiving market share stats include:
 **Additional data imports**
 
 ```python
-nfl.import_rosters(years, columns)
+nfl.import_seasonal_rosters(years, columns)
 ```
 
-Returns roster information for years and columns specified
+Returns yearly roster information for the seasons specified
+
+years
+: required, list of years to pull data for (earliest available is 1999)
+
+columns
+: optional, list of columns to pull data for
+
+```python
+nfl.import_weekly_rosters(years, columns)
+```
+
+Returns per-game roster information for the seasons specified
 
 years
 : required, list of years to pull data for (earliest available is 1999)
@@ -242,10 +254,22 @@ frequency
 : optional, frequency to return data for, weekly or season, default season
 
 ```python
-nfl.import_pfr(s_type, years)
+nfl.import_seasonal_pfr(s_type, years)
 ```
 
-Returns dataframe of data sourced from https://www.pro-football-reference.com/
+Returns a dataframe of season-aggregated data sourced from players' pages on pro-football-reference.com. E.g. [Patrick Mahomes](https://www.pro-football-reference.com/players/M/MahoPa00.htm#all_passing_detailed)
+
+s_type (str)
+: required, the type of stat data to request. Must be one of pass, rec, or rush.
+
+years (List[int])
+: optional, years to return data for
+
+```python
+nfl.import_weekly_pfr(s_type, years)
+```
+
+Returns a dataframe of per-game data sourced from players' advanced gamelog pages on pro-football-reference.com. E.g. [Mahomes in 2022](https://www.pro-football-reference.com/players/M/MahoPa00/gamelog/2022/advanced/#all_advanced_passing)
 
 s_type (str)
 : required, the type of stat data to request. Must be one of pass, rec, or rush.
