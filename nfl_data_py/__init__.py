@@ -1,10 +1,13 @@
 name = 'nfl_data_py'
 
-import pandas
-import numpy
 import datetime
-import appdirs
 import os
+
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import appdirs
+import numpy
+import pandas
 from typing import Iterable
 
 # module level doc string
@@ -47,8 +50,15 @@ cache_pbp() - save pbp files locally to allow for faster loading
 clean_nfl_data() - clean df by aligning common name diffs
 """
 
-
-def import_pbp_data(years, columns=None, include_participation=True, downcast=True, cache=False, alt_path=None):
+def import_pbp_data(
+        years, 
+        columns=None, 
+        include_participation=True, 
+        downcast=True, 
+        cache=False, 
+        alt_path=None,
+        thread_requests=False
+    ):
     """Imports play-by-play data
     
     Args:
@@ -69,8 +79,9 @@ def import_pbp_data(years, columns=None, include_participation=True, downcast=Tr
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
     
-    if columns is None:
+    if not columns:
         columns = []
+
     columns = [x for x in columns if x not in ['season']]
     
     if all([include_participation, len(columns) != 0]):
@@ -81,56 +92,68 @@ def import_pbp_data(years, columns=None, include_participation=True, downcast=Tr
     url2 = r'.parquet'
     appname = 'nfl_data_py'
     appauthor = 'cooper_dff'
-    
-    plays = pandas.DataFrame()
     pbp_data = []
     
-    if cache is True:
-    
-        if alt_path is None:
+    if cache:
+        if not alt_path:
             dpath = os.path.join(appdirs.user_cache_dir(appname, appauthor), 'pbp')
         else:
             dpath = alt_path
 
-    # read in pbp data
-    for year in years:
-        if cache is True:
-            seasonStr = f'season={year}'
-            if not os.path.isdir(os.path.join(dpath, seasonStr)):
-                raise ValueError(f'{year} cache file does not exist.')
-            for fname in filter(lambda x: seasonStr in x, os.listdir(dpath)):
-                folder = os.path.join(dpath, fname)
-                for file in os.listdir(folder):
-                    if file.endswith(".parquet"):
-                        fpath = os.path.join(folder, file)
-            
-        # define path based on cache and alt_path variables
-            path = fpath
-        else:
-            path = url1 + str(year) + url2
-
-        # load data
-        try:
-            if len(columns) != 0:
-                data = pandas.read_parquet(path, columns=columns, engine='auto')
+    if thread_requests and not cache:
+        with ThreadPoolExecutor() as executor:
+            # Create a list of the same size as years, initialized with None
+            pbp_data = [None]*len(years)
+            # Create a mapping of futures to their corresponding index in the pbp_data
+            futures_map = {
+                executor.submit(
+                    pandas.read_parquet,
+                    path=url1 + str(year) + url2,
+                    columns=columns if columns else None, 
+                    engine='auto'
+                ): idx 
+                for idx, year in enumerate(years)
+            }
+            for future in as_completed(futures_map):
+                pbp_data[futures_map[future]] = future.result()
+    else:
+        # read in pbp data
+        for year in years:
+            if cache:
+                seasonStr = f'season={year}'
+                if not os.path.isdir(os.path.join(dpath, seasonStr)):
+                    raise ValueError(f'{year} cache file does not exist.')
+                for fname in filter(lambda x: seasonStr in x, os.listdir(dpath)):
+                    folder = os.path.join(dpath, fname)
+                    for file in os.listdir(folder):
+                        if file.endswith(".parquet"):
+                            fpath = os.path.join(folder, file)
+                
+            # define path based on cache and alt_path variables
+                path = fpath
             else:
-                data = pandas.read_parquet(path, engine='auto')
+                path = url1 + str(year) + url2
 
-            raw = pandas.DataFrame(data)
-            raw['season'] = year
-            
-            if all([include_participation, year >= 2016, not cache]):
-                path = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
-                partic = pandas.read_parquet(path)
-                raw = raw.merge(partic, how='left', on=['play_id','old_game_id'])
-            
-            pbp_data.append(raw)
-            print(str(year) + ' done.')
+            # load data
+            try:
+                data = pandas.read_parquet(path, columns=columns if columns else None, engine='auto')
 
-        except:
-            print('Data not available for ' + str(year))
+                raw = pandas.DataFrame(data)
+                raw['season'] = year
+                
+                if all([include_participation, year >= 2016, not cache]):
+                    path = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
+                    partic = pandas.read_parquet(path)
+                    raw = raw.merge(partic, how='left', on=['play_id','old_game_id'])
+                
+                pbp_data.append(raw)
+                print(str(year) + ' done.')
+
+            except Error as e:
+                print(e)
+                print('Data not available for ' + str(year))
     
-    if len(pbp_data) > 0:
+    if pbp_data:
         plays = pandas.concat(pbp_data).reset_index(drop=True)
     
     # converts float64 to float32, saves ~30% memory
@@ -210,7 +233,12 @@ def cache_pbp(years, downcast=True, alt_path=None):
             next
             
 
-def import_weekly_data(years, columns=None, downcast=True):
+def import_weekly_data(
+        years, 
+        columns=None, 
+        downcast=True,
+        thread_requests=False
+    ):
     """Imports weekly player data
     
     Args:
@@ -228,14 +256,33 @@ def import_weekly_data(years, columns=None, downcast=True):
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
     
-    if columns is None:
+    if not columns:
         columns = []
-        
-    # read weekly data
-    url = r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_{0}.parquet'
-    data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])
 
-    if len(columns) > 0:
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_{0}.parquet'
+
+    if thread_requests:
+        with ThreadPoolExecutor() as executor:
+            # Create a list of the same size as years, initialized with None
+            data = [None]*len(years)
+            # Create a mapping of futures to their corresponding index in the data
+            futures_map = {
+                executor.submit(
+                    pandas.read_parquet,
+                    path=url.format(year),
+                    columns=columns if columns else None,
+                    engine='auto'
+                ): idx
+                for idx, year in enumerate(years)
+            }
+            for future in as_completed(futures_map):
+                data[futures_map[future]] = future.result()
+            data = pandas.concat(data)
+    else:
+        # read weekly data
+        data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])        
+
+    if columns:
         data = data[columns]
 
     # converts float64 to float32, saves ~30% memory

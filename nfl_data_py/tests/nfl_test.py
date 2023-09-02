@@ -12,6 +12,12 @@ class test_pbp(TestCase):
         s = nfl.import_pbp_data([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
+
+    def test_is_df_with_data_thread_requests(self):
+        s = nfl.import_pbp_data([2020, 2021], thread_requests=True)
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+		
         
     def test_uses_cache_when_cache_is_true(self):
         cache = Path(__file__).parent/"tmpcache"
@@ -30,6 +36,11 @@ class test_pbp(TestCase):
 class test_weekly(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_weekly_data([2020])
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+
+    def test_is_df_with_data_thread_requests(self):
+        s = nfl.import_weekly_data([2020, 2021], thread_requests=True)
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
         
