@@ -288,7 +288,7 @@ years
 
 
 ```python
-nfl.import_ftn_data(years, columns, downcast, thread_requests)
+nfl.import_ftn_data(years, columns=None, downcast=True, thread_requests=False)
 ```
 Returns dataframe with FTN charting data
     
