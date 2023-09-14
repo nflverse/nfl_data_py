@@ -1021,7 +1021,7 @@ def import_ftn_data(
         years (List[int]): years to get weekly data for
         columns (List[str]): only return these columns
         downcast (bool): convert float64 to float32, default True
-        thread_requests (bool): use thread pool to read files
+        thread_requests (bool): use thread pool to read files, default False
     Returns:
         DataFrame
     """
