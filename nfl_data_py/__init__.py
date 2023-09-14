@@ -1019,7 +1019,7 @@ def import_ftn_data(
     
     Args:
         years (List[int]): years to get weekly data for
-        columns (List[str]): only return these columns
+        columns (List[str]): only return these columns, default None
         downcast (bool): convert float64 to float32, default True
         thread_requests (bool): use thread pool to read files, default False
     Returns:
@@ -1032,9 +1032,6 @@ def import_ftn_data(
         
     if min(years) < 2022:
         raise ValueError('Data not available before 2022.')
-    
-    if not columns:
-        columns = []
 
     url = r'https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_{0}.parquet'
 
@@ -1057,10 +1054,7 @@ def import_ftn_data(
             data = pandas.concat(data)
     else:
         # read charting data
-        data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto') for x in years])        
-
-    if columns:
-        data = data[columns]
+        data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto', columns=columns) for x in years])
 
     # converts float64 to float32, saves ~30% memory
     if downcast:

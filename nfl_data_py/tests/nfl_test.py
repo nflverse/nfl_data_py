@@ -33,6 +33,7 @@ class test_pbp(TestCase):
         
         shutil.rmtree(cache)
         
+        
 class test_weekly(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_weekly_data([2020])
@@ -250,6 +251,19 @@ class test_snaps(TestCase):
         s = nfl.import_snap_counts([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
+        
+        
+class test_ftn(TestCase):
+    def test_is_df_with_data(self):
+        s = nfl.import_ftn_data([2023])
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+
+    def test_is_df_with_data_thread_requests(self):
+        s = nfl.import_ftn_data([2022, 2023], thread_requests=True)
+        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertTrue(len(s) > 0)
+		
         
 class test_cache(TestCase):
     def test_cache(self):
