@@ -2,7 +2,7 @@ name = 'nfl_data_py'
 
 import datetime
 import os
-
+import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import appdirs
@@ -564,6 +564,10 @@ def import_win_totals(years = None):
     Returns:
         DataFrame
     """
+    
+    logging.warning(
+        "The win totals data source is currently in flux and may be out of date."
+    )
 
     # check variable types
     if not isinstance(years, (list, range, type(None))):
