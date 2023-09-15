@@ -570,7 +570,9 @@ def import_win_totals(years = None):
         raise ValueError('years variable must be list or range.')
     
     # import win totals
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/nflverse/nfldata/master/data/win_totals.csv')
+    url = "https://raw.githubusercontent.com/mrcaseb/nfl-data/master/data/nfl_lines_odds.csv.gz"
+    df = pandas.read_csv(url).loc[lambda df: df.game_id.notna()]
+    df["season"] = df.game_id.str[:4].astype(int)
 
     return df[df['season'].isin(years)] if years else df
     
