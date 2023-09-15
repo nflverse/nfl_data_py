@@ -43,6 +43,7 @@ import_sc_lines() - import weekly betting lines for teams
 import_draft_picks() - import draft pick history
 import_draft_values() - import draft value models by pick
 import_combine_data() - import combine stats
+import_ftn_data() - import FTN charting data
 see_pbp_cols() - return list of play-by-play columns
 see_weekly_cols() - return list of weekly stat columns
 import_team_desc() - import descriptive data for team viz
@@ -999,6 +1000,69 @@ def import_snap_counts(years):
     df = pandas.concat([pandas.read_parquet(url.format(x)) for x in years])
     
     return df
+
+
+
+def import_ftn_data(
+        years, 
+        columns=None, 
+        downcast=True,
+        thread_requests=False
+    ):
+    """Imports FTN charting data
+    
+    FTN Data manually charts plays and has graciously provided a subset of their
+    charting data to be published via the nflverse. Data is available from the 2022
+    season onwards and is charted within 48 hours following each game. This data
+    is released under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+    Creative Commons license and attribution must be made to **FTN Data via nflverse**
+    
+    Args:
+        years (List[int]): years to get weekly data for
+        columns (List[str]): only return these columns, default None
+        downcast (bool): convert float64 to float32, default True
+        thread_requests (bool): use thread pool to read files, default False
+    Returns:
+        DataFrame
+    """
+    
+    # check variable types
+    if not isinstance(years, (list, range)):
+        raise ValueError('Input must be list or range.')
+        
+    if min(years) < 2022:
+        raise ValueError('Data not available before 2022.')
+
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_{0}.parquet'
+
+    if thread_requests:
+        with ThreadPoolExecutor() as executor:
+            # Create a list of the same size as years, initialized with None
+            data = [None]*len(years)
+            # Create a mapping of futures to their corresponding index in the data
+            futures_map = {
+                executor.submit(
+                    pandas.read_parquet,
+                    path=url.format(year),
+                    columns=columns if columns else None,
+                    engine='auto'
+                ): idx
+                for idx, year in enumerate(years)
+            }
+            for future in as_completed(futures_map):
+                data[futures_map[future]] = future.result()
+            data = pandas.concat(data)
+    else:
+        # read charting data
+        data = pandas.concat([pandas.read_parquet(url.format(x), engine='auto', columns=columns) for x in years])
+
+    # converts float64 to float32, saves ~30% memory
+    if downcast:
+        print('Downcasting floats.')
+        cols = data.select_dtypes(include=[numpy.float64]).columns
+        data[cols] = data[cols].astype(numpy.float32)
+
+    return data
 
     
 def clean_nfl_data(df):

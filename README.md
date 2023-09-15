@@ -286,6 +286,29 @@ Returns dataframe with snap count records
 years
 : optional, list of years to return data for
 
+
+```python
+nfl.import_ftn_data(years, columns=None, downcast=True, thread_requests=False)
+```
+Returns dataframe with FTN charting data
+    
+FTN Data manually charts plays and has graciously provided a subset of their
+charting data to be published via the nflverse. Data is available from the 2022
+season onwards and is charted within 48 hours following each game. This data
+is released under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+Creative Commons license and attribution must be made to **FTN Data via nflverse**
+
+years (List[int])
+    : required, years to get weekly data for
+columns (List[str])
+    : optional, only return these columns
+downcast (bool)
+    : optional, convert float64 to float32, default True
+thread_requests (bool)
+    : optional use thread pool to read files, default False
+
+
+
 **Additional features**
 
 ```python
