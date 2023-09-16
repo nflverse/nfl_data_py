@@ -111,7 +111,7 @@ class test_schedules(TestCase):
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
         
-class test_wins(TestCase):
+class test_win_totals(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_win_totals([2020])
         self.assertEqual(True, isinstance(s, pd.DataFrame))
