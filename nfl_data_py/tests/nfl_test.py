@@ -71,7 +71,7 @@ class test_seasonal_rosters(TestCase):
         self.assertTrue(len(self.data) > 0)
         
     def test_computes_age_as_of_season_start(self):
-        mahomes_ages = self.data[get_pat].age
+        mahomes_ages = get_pat(self.data).age
         self.assertEqual(len(mahomes_ages), 1)
         self.assertEqual(mahomes_ages.iloc[0], 24)
         
@@ -85,13 +85,13 @@ class test_weekly_rosters(TestCase):
         
     def test_gets_weekly_updates(self):
         assert isinstance(self.data, pd.DataFrame)
-        hock = self.data[get_hock]
+        hock = get_hock(self.data)
         self.assertCountEqual(hock[hock.team == 'DET'].week, [1, 2, 3, 4, 5, 7, 8])
         self.assertCountEqual(hock[hock.team == 'MIN'].week, range(9, 20))
         
     def test_computes_age_as_of_week(self):
         self.assertEqual(
-            self.data[get_pat].age.to_list(),
+            get_pat(self.data).sort_values("week").age.to_list(),
             [
                 26.984, 26.995, 27.023, 27.042, 27.064, 27.08, 27.099,
                 27.138, 27.157, 27.176, 27.195, 27.214, 27.233, 27.253,
@@ -229,7 +229,8 @@ class test_weekly_pfr(TestCase):
         self.assertTrue(len(self.df) > 0)
         
     def test_contains_one_row_per_player_per_week(self):
-        weeks_per_season = get_pat(self.df).groupby("season").week.nunique()
+        test_seasons = self.df.loc[self.df.season.isin(range(2018, 2023))]
+        weeks_per_season = get_pat(test_seasons).groupby("season").week.nunique()
         self.assertEqual(weeks_per_season.to_list(), [18, 17, 18, 20, 20])
         
     def test_does_not_contain_seasonal_exclusive_columns(self):
@@ -298,8 +299,13 @@ class test_players(TestCase):
 
 # ---------------------------- Helper Functions -------------------------------
 
-def get_pat(row):
-    return row.player_name == 'Patrick Mahomes'
+def __get_player(df: pd.DataFrame, player_name: str):
+    player_name_cols = ('player_name', 'player', 'pfr_player_name')
+    player_name_col = set(player_name_cols).intersection(set(df.columns)).pop()
+    return df[df[player_name_col] == player_name]
 
-def get_hock(row):
-    return row.player_name == 'T.J. Hockenson'
+def get_pat(df):
+    return __get_player(df, 'Patrick Mahomes')
+
+def get_hock(df):
+    return __get_player(df, 'T.J. Hockenson')
