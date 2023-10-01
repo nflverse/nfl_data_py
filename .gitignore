@@ -51,6 +51,9 @@ coverage.xml
 .pytest_cache/
 cover/
 
+nfl_data_py/tests
+
+
 # Translations
 *.mo
 *.pot
