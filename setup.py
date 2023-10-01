@@ -26,7 +26,6 @@ REQUIRED = [
     'pandas>1',
     'appdirs>1',
     'fastparquet>0.5',
-    'python-snappy>0.5'
 ]
 
 # What packages are optional?
