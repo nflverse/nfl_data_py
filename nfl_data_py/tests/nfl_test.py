@@ -167,6 +167,29 @@ class test_ids(TestCase):
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
         
+    def test_import_using_ids(self):
+        ids = ["espn", "yahoo", "gsis"]
+        s = nfl.import_ids(ids=ids)
+        self.assertTrue(all([f"{id}_id" in s.columns for id in ids]))
+        
+    def test_import_using_columns(self):
+        ret_columns = ["name", "birthdate", "college"]
+        not_ret_columns = ["draft_year", "db_season", "team"]
+        s = nfl.import_ids(columns=ret_columns)
+        self.assertTrue(all([column in s.columns for column in ret_columns]))
+        self.assertTrue(all([column not in s.columns for column in not_ret_columns]))
+        
+    def test_import_using_ids_and_columns(self):
+        ret_ids = ["espn", "yahoo", "gsis"]
+        ret_columns = ["name", "birthdate", "college"]
+        not_ret_ids = ["cfbref_id", "pff_id", "prf_id"]
+        not_ret_columns = ["draft_year", "db_season", "team"]
+        s = nfl.import_ids(columns=ret_columns, ids=ret_ids)
+        self.assertTrue(all([column in s.columns for column in ret_columns]))
+        self.assertTrue(all([column not in s.columns for column in not_ret_columns]))
+        self.assertTrue(all([f"{id}_id" in s.columns for id in ret_ids]))
+        self.assertTrue(all([f"{id}_id" not in s.columns for id in not_ret_ids]))
+        
 class test_ngs(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_ngs_data('passing')
