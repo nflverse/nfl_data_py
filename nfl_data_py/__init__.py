@@ -471,7 +471,7 @@ def import_weekly_rosters(years, columns=None):
             how="left"
         ).gameday
     )
-    if "age" in columns:
+    if columns is not None and "age" in columns:
         rosters["age"] = ((roster_dates - rosters.birth_date).dt.days / 365.25).round(3)
     
     return rosters
