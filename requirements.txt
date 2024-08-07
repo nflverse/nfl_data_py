@@ -1,0 +1,4 @@
+appdirs
+fastparquet
+numpy
+pandas
