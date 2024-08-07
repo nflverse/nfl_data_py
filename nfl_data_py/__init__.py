@@ -150,7 +150,7 @@ def import_pbp_data(
                 pbp_data.append(raw)
                 print(str(year) + ' done.')
 
-            except Error as e:
+            except Exception as e:
                 print(e)
                 print('Data not available for ' + str(year))
     
@@ -1138,18 +1138,6 @@ def clean_nfl_data(df):
         'Southern Miss': 'Southern Mississippi',
         'Louisiana State': 'LSU'
     }
-
-    pro_tm_repl = {
-        'GNB': 'GB',
-        'KAN': 'KC',
-        'LA': 'LAR',
-        'LVR': 'LV',
-        'NWE': 'NE',
-        'NOR': 'NO',
-        'SDG': 'SD',
-        'SFO': 'SF',
-        'TAM': 'TB'
-    }
     
     na_replace = {
         'NA':numpy.nan
@@ -1163,9 +1151,5 @@ def clean_nfl_data(df):
 
     if 'col_team' in df.columns:
         df.replace({'col_team': col_tm_repl}, inplace=True)
-
-        if 'name' in df.columns:
-            for z in player_col_tm_repl:
-                df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
 
     return df
