@@ -1,0 +1,4 @@
+appdirs
+fastparquet>0.5
+numpy>1, <2
+pandas>1, <2

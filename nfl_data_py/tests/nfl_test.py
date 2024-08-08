@@ -1,6 +1,7 @@
 from unittest import TestCase
 from pathlib import Path
 import shutil
+import random
 
 import pandas as pd
 
@@ -20,7 +21,7 @@ class test_pbp(TestCase):
 		
         
     def test_uses_cache_when_cache_is_true(self):
-        cache = Path(__file__).parent/"tmpcache"
+        cache = Path(__file__).parent/f"tmpcache-{random.randint(0, 10000)}"
         self.assertRaises(
             ValueError,
             nfl.import_pbp_data, [2020], cache=True, alt_path=cache
@@ -268,17 +269,14 @@ class test_ftn(TestCase):
         
 class test_cache(TestCase):
     def test_cache(self):
-        cache = Path(__file__).parent/"tmpcache"
+        cache = Path(__file__).parent/f"tmpcache-{random.randint(0, 10000)}"
         self.assertFalse(cache.is_dir())
         
         nfl.cache_pbp([2020], alt_path=cache)
         
-        new_paths = list(cache.glob("**/*"))
-        self.assertEqual(len(new_paths), 2)
-        self.assertTrue(new_paths[0].is_dir())
-        self.assertTrue(new_paths[1].is_file())
-        
-        pbp2020 = pd.read_parquet(new_paths[1])
+        self.assertTrue(cache.is_dir())
+
+        pbp2020 = pd.read_parquet(cache/"season=2020"/"part.0.parquet")
         self.assertIsInstance(pbp2020, pd.DataFrame)
         self.assertFalse(pbp2020.empty)
         
