@@ -4,6 +4,7 @@ import datetime
 import os
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from warnings import warn
 
 import appdirs
 import numpy
@@ -230,7 +231,15 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
             print(str(year) + ' done.')
 
-        except:
+        except Exception as e:
+            warn(
+                f"Caching failed for {year}, skipping.\n"
+                "In nfl_data_py 1.0, this will raise an exception.\n"
+                f"Failure: {e}",
+                DeprecationWarning,
+                stacklevel=2
+            )
+
             next
             
 
