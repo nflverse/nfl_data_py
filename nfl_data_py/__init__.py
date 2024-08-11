@@ -1153,7 +1153,8 @@ def clean_nfl_data(df):
     }
 
     for col in df.columns:
-        df.replace({col:na_replace}, inplace=True)
+        if df[col].dtype == 'object':
+            df.replace({col:na_replace}, inplace=True)
 
     if 'name' in df.columns:
         df.replace({'name': name_repl}, inplace=True)
