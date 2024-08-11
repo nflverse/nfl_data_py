@@ -184,12 +184,10 @@ def cache_pbp(years, downcast=True, alt_path=None):
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
 
-    plays = pandas.DataFrame()
-
     url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
     url2 = r'.parquet'
     appname = 'nfl_data_py'
-    appauthor = 'cooper_dff'
+    appauthor = 'nflverse'
 
     # define path for caching
     if alt_path is not None:
