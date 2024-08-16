@@ -142,3 +142,6 @@ cython_debug/
 
 # Mac local files
 .DS_Store
+
+# Dev
+scratch.ipynb
