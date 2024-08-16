@@ -16,8 +16,8 @@ VERSION = '0.3.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'numpy>=1.0, <=2.0',
-    'pandas>=1.0, <=2.0',
+    'numpy>=1.0, <2.0',
+    'pandas>=1.0, <2.0',
     'appdirs>1',
     'fastparquet>0.5',
 ]
