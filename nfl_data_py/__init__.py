@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import appdirs
 import numpy
+numpy.float_=numpy.float64
 import pandas
 from typing import Iterable
 
