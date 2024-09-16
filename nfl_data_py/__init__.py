@@ -146,7 +146,10 @@ def import_pbp_data(
                 if all([include_participation, year >= 2016, not cache]):
                     path = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
                     partic = pandas.read_parquet(path)
-                    raw = raw.merge(partic, how='left', on=['play_id','old_game_id'])
+                    raw = raw.merge(partic,
+                                    how='left',
+                                    left_on=['play_id','game_id'],
+                                    right_on=['play_id','nflverse_game_id'])
                 
                 pbp_data.append(raw)
                 print(str(year) + ' done.')
