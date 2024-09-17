@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import numpy
 import pandas
 import appdirs
+from requests import HTTPError
 
 # module level doc string
 __doc__ = """
@@ -143,13 +144,20 @@ def import_pbp_data(
                 raw = pandas.DataFrame(data)
                 raw['season'] = year
                 
-                if all([include_participation, year >= 2016, not cache]):
+
+                if include_participation and not cache:
                     path = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
-                    partic = pandas.read_parquet(path)
-                    raw = raw.merge(partic,
-                                    how='left',
-                                    left_on=['play_id','game_id'],
-                                    right_on=['play_id','nflverse_game_id'])
+
+                    try:
+                        partic = pandas.read_parquet(path)
+                        raw = raw.merge(
+                            partic,
+                            how='left',
+                            left_on=['play_id','game_id'],
+                            right_on=['play_id','nflverse_game_id']
+                        )
+                    except HTTPError:
+                        pass
                 
                 pbp_data.append(raw)
                 print(str(year) + ' done.')
@@ -158,8 +166,10 @@ def import_pbp_data(
                 print(e)
                 print('Data not available for ' + str(year))
     
-    if pbp_data:
-        plays = pandas.concat(pbp_data).reset_index(drop=True)
+    if not pbp_data:
+        return pandas.DataFrame()
+    
+    plays = pandas.concat(pbp_data, ignore_index=True)
     
     # converts float64 to float32, saves ~30% memory
     if downcast:

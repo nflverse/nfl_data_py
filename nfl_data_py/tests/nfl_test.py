@@ -9,17 +9,17 @@ import nfl_data_py as nfl
 
 
 class test_pbp(TestCase):
+    pbp = nfl.import_pbp_data([2020])
+
     def test_is_df_with_data(self):
-        s = nfl.import_pbp_data([2020])
-        self.assertIsInstance(s, pd.DataFrame)
-        self.assertTrue(len(s) > 0)
+        self.assertIsInstance(self.pbp, pd.DataFrame)
+        self.assertTrue(len(self.pbp) > 0)
 
     def test_is_df_with_data_thread_requests(self):
         s = nfl.import_pbp_data([2020, 2021], thread_requests=True)
         self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
 		
-        
     def test_uses_cache_when_cache_is_true(self):
         cache = Path(__file__).parent/f"tmpcache-{random.randint(0, 10000)}"
         self.assertRaises(
@@ -33,6 +33,21 @@ class test_pbp(TestCase):
         self.assertIsInstance(data, pd.DataFrame)
         
         shutil.rmtree(cache)
+
+    def test_includes_participation_by_default(self):
+        self.assertIn("offense_players", self.pbp.columns)
+
+    def test_excludes_participation_when_requested(self):
+        data = nfl.import_pbp_data([2020], include_participation=False)
+        self.assertIsInstance(self.pbp, pd.DataFrame)
+        self.assertTrue(len(self.pbp) > 0)
+        self.assertNotIn("offense_players", data.columns)
+
+    def test_excludes_participation_if_not_available(self):
+        data = nfl.import_pbp_data([2024])
+        self.assertIsInstance(self.pbp, pd.DataFrame)
+        self.assertTrue(len(self.pbp) > 0)
+        self.assertNotIn("offense_players", data.columns)
         
         
 class test_weekly(TestCase):
