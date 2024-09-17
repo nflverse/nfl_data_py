@@ -916,8 +916,8 @@ def import_qbr(years=None, level='nfl', frequency='season'):
 
 
 def __validate_pfr_inputs(s_type, years=None):
-    if s_type not in ('pass', 'rec', 'rush'):
-        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
+    if s_type not in ('pass', 'rec', 'rush', 'def'):
+        raise ValueError('s_type variable must be one of "pass", "rec","rush", or "def.')
     
     if years is None:
         return []
@@ -939,7 +939,7 @@ def import_seasonal_pfr(s_type, years=None):
     """Import PFR advanced season-level statistics
     
     Args:
-        s_type (str): must be one of pass, rec, rush
+        s_type (str): must be one of pass, rec, rush, def
         years (List[int]): years to return data for, optional
     Returns:
         DataFrame
@@ -957,7 +957,7 @@ def import_weekly_pfr(s_type, years=None):
     """Import PFR advanced week-level statistics
     
     Args:
-        s_type (str): must be one of pass, rec, rush
+        s_type (str): must be one of pass, rec, rush, def
         years (List[int]): years to return data for, optional
     Returns:
         DataFrame
