@@ -11,12 +11,12 @@ import nfl_data_py as nfl
 class test_pbp(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_pbp_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
 
     def test_is_df_with_data_thread_requests(self):
         s = nfl.import_pbp_data([2020, 2021], thread_requests=True)
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
 		
         
@@ -38,38 +38,42 @@ class test_pbp(TestCase):
 class test_weekly(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_weekly_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
 
     def test_is_df_with_data_thread_requests(self):
         s = nfl.import_weekly_data([2020, 2021], thread_requests=True)
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
         
 class test_seasonal(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_seasonal_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
         
 class test_pbp_cols(TestCase):
     def test_is_list_with_data(self):
         s = nfl.see_pbp_cols()
-        self.assertEqual(True, isinstance(set(nfl.see_pbp_cols()), set))
         self.assertTrue(len(s) > 0)
         
 class test_weekly_cols(TestCase):
     def test_is_list_with_data(self):
         s = nfl.see_weekly_cols()
-        self.assertEqual(True, isinstance(set(nfl.see_pbp_cols()), set))
         self.assertTrue(len(s) > 0)
         
 class test_seasonal_rosters(TestCase):
     data = nfl.import_seasonal_rosters([2020])
     
     def test_is_df_with_data(self):
-        self.assertEqual(True, isinstance(self.data, pd.DataFrame))
+        self.assertIsInstance(self.data, pd.DataFrame)
         self.assertTrue(len(self.data) > 0)
+
+    def test_import_multiple_years(self):
+        s = nfl.import_weekly_rosters([2022, 2023])
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertGreater(len(s), len(self.data))
+        self.assertListEqual(s.season.unique().tolist(), [2022, 2023])
         
     def test_computes_age_as_of_season_start(self):
         mahomes_ages = get_pat(self.data).age
@@ -83,6 +87,12 @@ class test_weekly_rosters(TestCase):
     def test_is_df_with_data(self):
         assert isinstance(self.data, pd.DataFrame)
         self.assertGreater(len(self.data), 0)
+
+    def test_import_multiple_years(self):
+        s = nfl.import_weekly_rosters([2022, 2023])
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertGreater(len(s), len(self.data))
+        self.assertListEqual(s.season.unique().tolist(), [2022, 2023])
         
     def test_gets_weekly_updates(self):
         assert isinstance(self.data, pd.DataFrame)
