@@ -442,7 +442,7 @@ def __import_rosters(release, years, columns=None):
     rosters = pandas.concat([
         pandas.read_parquet(uri.format(y))
         for y in years
-    ])
+    ], ignore_index=True)
     
     # Post-import processing
     rosters['birth_date'] = pandas.to_datetime(rosters.birth_date)
