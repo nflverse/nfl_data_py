@@ -150,7 +150,7 @@ def import_pbp_data(
                 pbp_data.append(raw)
                 print(str(year) + ' done.')
 
-            except Error as e:
+            except Exception as e:
                 print(e)
                 print('Data not available for ' + str(year))
     
@@ -760,7 +760,17 @@ def import_ids(columns=None, ids=None):
         raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
         
     # import data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
+    dtypes = {
+        'mfl_id': str, 'sportradar_id': str, 'fantasypros_id': str, 'gsis_id': str,
+        'pff_id': str, 'sleeper_id': str, 'nfl_id': str, 'espn_id': str, 'yahoo_id': str,
+        'fleaflicker_id': str, 'cbs_id': str, 'pfr_id': str, 'cfbref_id': str,
+        'rotowire_id': str, 'rotoworld_id': str, 'ktc_id': str, 'stats_id': str,
+        'stats_global_id': str, 'fantasy_data_id': str, 'swish_id': str, 'name': str,
+        'merge_name': str, 'position': str, 'team': str, 'age': 'Float64',
+        'draft_year': 'Int64', 'draft_round': 'Int64', 'draft_pick': 'Int64', 'draft_ovr': 'Int64',
+        'twitter_username': str, 'height': 'Int64', 'weight': 'Int64', 'college': str, 'db_season': 'Int64'
+    }
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv', dtype=dtypes, parse_dates=['birthdate'])
     
     rem_cols = [x for x in df.columns if x not in avail_ids]
     tgt_ids = [x + '_id' for x in ids]
@@ -1138,18 +1148,6 @@ def clean_nfl_data(df):
         'Southern Miss': 'Southern Mississippi',
         'Louisiana State': 'LSU'
     }
-
-    pro_tm_repl = {
-        'GNB': 'GB',
-        'KAN': 'KC',
-        'LA': 'LAR',
-        'LVR': 'LV',
-        'NWE': 'NE',
-        'NOR': 'NO',
-        'SDG': 'SD',
-        'SFO': 'SF',
-        'TAM': 'TB'
-    }
     
     na_replace = {
         'NA':numpy.nan
@@ -1163,9 +1161,5 @@ def clean_nfl_data(df):
 
     if 'col_team' in df.columns:
         df.replace({'col_team': col_tm_repl}, inplace=True)
-
-        if 'name' in df.columns:
-            for z in player_col_tm_repl:
-                df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
 
     return df
