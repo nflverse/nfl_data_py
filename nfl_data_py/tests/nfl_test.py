@@ -1,6 +1,7 @@
 from unittest import TestCase
 from pathlib import Path
 import shutil
+import random
 
 import pandas as pd
 
@@ -8,19 +9,19 @@ import nfl_data_py as nfl
 
 
 class test_pbp(TestCase):
+    pbp = nfl.import_pbp_data([2020])
+
     def test_is_df_with_data(self):
-        s = nfl.import_pbp_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
-        self.assertTrue(len(s) > 0)
+        self.assertIsInstance(self.pbp, pd.DataFrame)
+        self.assertTrue(len(self.pbp) > 0)
 
     def test_is_df_with_data_thread_requests(self):
         s = nfl.import_pbp_data([2020, 2021], thread_requests=True)
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
 		
-        
     def test_uses_cache_when_cache_is_true(self):
-        cache = Path(__file__).parent/"tmpcache"
+        cache = Path(__file__).parent/f"tmpcache-{random.randint(0, 10000)}"
         self.assertRaises(
             ValueError,
             nfl.import_pbp_data, [2020], cache=True, alt_path=cache
@@ -32,43 +33,62 @@ class test_pbp(TestCase):
         self.assertIsInstance(data, pd.DataFrame)
         
         shutil.rmtree(cache)
+
+    def test_includes_participation_by_default(self):
+        self.assertIn("offense_players", self.pbp.columns)
+
+    def test_excludes_participation_when_requested(self):
+        data = nfl.import_pbp_data([2020], include_participation=False)
+        self.assertIsInstance(self.pbp, pd.DataFrame)
+        self.assertTrue(len(self.pbp) > 0)
+        self.assertNotIn("offense_players", data.columns)
+
+    def test_excludes_participation_if_not_available(self):
+        data = nfl.import_pbp_data([2024])
+        self.assertIsInstance(self.pbp, pd.DataFrame)
+        self.assertTrue(len(self.pbp) > 0)
+        self.assertNotIn("offense_players", data.columns)
         
         
 class test_weekly(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_weekly_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
 
     def test_is_df_with_data_thread_requests(self):
         s = nfl.import_weekly_data([2020, 2021], thread_requests=True)
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
         
 class test_seasonal(TestCase):
     def test_is_df_with_data(self):
         s = nfl.import_seasonal_data([2020])
-        self.assertEqual(True, isinstance(s, pd.DataFrame))
+        self.assertIsInstance(s, pd.DataFrame)
         self.assertTrue(len(s) > 0)
         
 class test_pbp_cols(TestCase):
     def test_is_list_with_data(self):
         s = nfl.see_pbp_cols()
-        self.assertEqual(True, isinstance(set(nfl.see_pbp_cols()), set))
         self.assertTrue(len(s) > 0)
         
 class test_weekly_cols(TestCase):
     def test_is_list_with_data(self):
         s = nfl.see_weekly_cols()
-        self.assertEqual(True, isinstance(set(nfl.see_pbp_cols()), set))
         self.assertTrue(len(s) > 0)
         
 class test_seasonal_rosters(TestCase):
     data = nfl.import_seasonal_rosters([2020])
     
     def test_is_df_with_data(self):
-        self.assertEqual(True, isinstance(self.data, pd.DataFrame))
+        self.assertIsInstance(self.data, pd.DataFrame)
         self.assertTrue(len(self.data) > 0)
+
+    def test_import_multiple_years(self):
+        s = nfl.import_weekly_rosters([2022, 2023])
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertGreater(len(s), len(self.data))
+        self.assertListEqual(s.season.unique().tolist(), [2022, 2023])
         
     def test_computes_age_as_of_season_start(self):
         mahomes_ages = get_pat(self.data).age
@@ -82,6 +102,12 @@ class test_weekly_rosters(TestCase):
     def test_is_df_with_data(self):
         assert isinstance(self.data, pd.DataFrame)
         self.assertGreater(len(self.data), 0)
+
+    def test_import_multiple_years(self):
+        s = nfl.import_weekly_rosters([2022, 2023])
+        self.assertIsInstance(s, pd.DataFrame)
+        self.assertGreater(len(s), len(self.data))
+        self.assertListEqual(s.season.unique().tolist(), [2022, 2023])
         
     def test_gets_weekly_updates(self):
         assert isinstance(self.data, pd.DataFrame)
@@ -166,6 +192,29 @@ class test_ids(TestCase):
         s = nfl.import_ids()
         self.assertEqual(True, isinstance(s, pd.DataFrame))
         self.assertTrue(len(s) > 0)
+
+    def test_import_using_ids(self):
+        ids = ["espn", "yahoo", "gsis"]
+        s = nfl.import_ids(ids=ids)
+        self.assertTrue(all([f"{id}_id" in s.columns for id in ids]))
+
+    def test_import_using_columns(self):
+        ret_columns = ["name", "birthdate", "college"]
+        not_ret_columns = ["draft_year", "db_season", "team"]
+        s = nfl.import_ids(columns=ret_columns)
+        self.assertTrue(all([column in s.columns for column in ret_columns]))
+        self.assertTrue(all([column not in s.columns for column in not_ret_columns]))
+
+    def test_import_using_ids_and_columns(self):
+        ret_ids = ["espn", "yahoo", "gsis"]
+        ret_columns = ["name", "birthdate", "college"]
+        not_ret_ids = ["cfbref_id", "pff_id", "prf_id"]
+        not_ret_columns = ["draft_year", "db_season", "team"]
+        s = nfl.import_ids(columns=ret_columns, ids=ret_ids)
+        self.assertTrue(all([column in s.columns for column in ret_columns]))
+        self.assertTrue(all([column not in s.columns for column in not_ret_columns]))
+        self.assertTrue(all([f"{id}_id" in s.columns for id in ret_ids]))
+        self.assertTrue(all([f"{id}_id" not in s.columns for id in not_ret_ids]))
         
 class test_ngs(TestCase):
     def test_is_df_with_data(self):
@@ -268,17 +317,14 @@ class test_ftn(TestCase):
         
 class test_cache(TestCase):
     def test_cache(self):
-        cache = Path(__file__).parent/"tmpcache"
+        cache = Path(__file__).parent/f"tmpcache-{random.randint(0, 10000)}"
         self.assertFalse(cache.is_dir())
         
         nfl.cache_pbp([2020], alt_path=cache)
         
-        new_paths = list(cache.glob("**/*"))
-        self.assertEqual(len(new_paths), 2)
-        self.assertTrue(new_paths[0].is_dir())
-        self.assertTrue(new_paths[1].is_file())
-        
-        pbp2020 = pd.read_parquet(new_paths[1])
+        self.assertTrue(cache.is_dir())
+
+        pbp2020 = pd.read_parquet(cache/"season=2020"/"part.0.parquet")
         self.assertIsInstance(pbp2020, pd.DataFrame)
         self.assertFalse(pbp2020.empty)
         

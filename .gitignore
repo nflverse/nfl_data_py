@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 
@@ -50,6 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+*/**/tmpcache-*
 
 # Translations
 *.mo
@@ -139,3 +140,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Mac local files
+.DS_Store
+
+# Dev
+scratch.ipynb

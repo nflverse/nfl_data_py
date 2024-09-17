@@ -8,15 +8,16 @@ from setuptools import find_packages, setup
 NAME = 'nfl_data_py'
 DESCRIPTION = 'python library for interacting with NFL data sourced from nflfastR'
 URL = 'https://github.com/nflverse/nfl_data_py'
-EMAIL = 'cooper.dff11@gmail.com'
-AUTHOR = 'cooperdff'
+EMAIL = 'alec.ostrander@gmail.com'
+AUTHOR = 'Alec Ostrander'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.3.2'
+VERSION = '0.3.3'
 
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'pandas>1',
+    'numpy>=1.0, <2.0',
+    'pandas>=1.0, <2.0',
     'appdirs>1',
     'fastparquet>0.5',
 ]
