@@ -760,7 +760,17 @@ def import_ids(columns=None, ids=None):
         raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
         
     # import data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
+    dtypes = {
+        'mfl_id': str, 'sportradar_id': str, 'fantasypros_id': str, 'gsis_id': str,
+        'pff_id': str, 'sleeper_id': str, 'nfl_id': str, 'espn_id': str, 'yahoo_id': str,
+        'fleaflicker_id': str, 'cbs_id': str, 'pfr_id': str, 'cfbref_id': str,
+        'rotowire_id': str, 'rotoworld_id': str, 'ktc_id': str, 'stats_id': str,
+        'stats_global_id': str, 'fantasy_data_id': str, 'swish_id': str, 'name': str,
+        'merge_name': str, 'position': str, 'team': str, 'age': 'Float64',
+        'draft_year': 'Int64', 'draft_round': 'Int64', 'draft_pick': 'Int64', 'draft_ovr': 'Int64',
+        'twitter_username': str, 'height': 'Int64', 'weight': 'Int64', 'college': str, 'db_season': 'Int64'
+    }
+    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv', dtype=dtypes, parse_dates=['birthdate'])
     
     rem_cols = [x for x in df.columns if x not in avail_ids]
     tgt_ids = [x + '_id' for x in ids]
