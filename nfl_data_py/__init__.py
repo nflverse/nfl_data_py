@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import numpy
 import pandas
 import appdirs
-from requests import HTTPError
+from urllib.error import HTTPError
 
 # module level doc string
 __doc__ = """
