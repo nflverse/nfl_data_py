@@ -917,7 +917,7 @@ def import_qbr(years=None, level='nfl', frequency='season'):
 
 def __validate_pfr_inputs(s_type, years=None):
     if s_type not in ('pass', 'rec', 'rush', 'def'):
-        raise ValueError('s_type variable must be one of "pass", "rec","rush", or "def.')
+        raise ValueError('s_type variable must be one of "pass", "rec","rush", or "def".')
     
     if years is None:
         return []
