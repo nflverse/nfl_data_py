@@ -1,14 +1,16 @@
 name = 'nfl_data_py'
 
-import datetime
 import os
 import logging
+import datetime
+from warnings import warn
+from typing import Iterable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import appdirs
 import numpy
 import pandas
-from typing import Iterable
+import appdirs
+from urllib.error import HTTPError
 
 # module level doc string
 __doc__ = """
@@ -142,20 +144,32 @@ def import_pbp_data(
                 raw = pandas.DataFrame(data)
                 raw['season'] = year
                 
-                if all([include_participation, year >= 2016, not cache]):
+
+                if include_participation and not cache:
                     path = r'https://github.com/nflverse/nflverse-data/releases/download/pbp_participation/pbp_participation_{}.parquet'.format(year)
-                    partic = pandas.read_parquet(path)
-                    raw = raw.merge(partic, how='left', on=['play_id','old_game_id'])
+
+                    try:
+                        partic = pandas.read_parquet(path)
+                        raw = raw.merge(
+                            partic,
+                            how='left',
+                            left_on=['play_id','game_id'],
+                            right_on=['play_id','nflverse_game_id']
+                        )
+                    except HTTPError:
+                        pass
                 
                 pbp_data.append(raw)
                 print(str(year) + ' done.')
 
-            except Error as e:
+            except Exception as e:
                 print(e)
                 print('Data not available for ' + str(year))
     
-    if pbp_data:
-        plays = pandas.concat(pbp_data).reset_index(drop=True)
+    if not pbp_data:
+        return pandas.DataFrame()
+    
+    plays = pandas.concat(pbp_data, ignore_index=True)
     
     # converts float64 to float32, saves ~30% memory
     if downcast:
@@ -183,12 +197,10 @@ def cache_pbp(years, downcast=True, alt_path=None):
     if min(years) < 1999:
         raise ValueError('Data not available before 1999.')
 
-    plays = pandas.DataFrame()
-
     url1 = r'https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_'
     url2 = r'.parquet'
     appname = 'nfl_data_py'
-    appauthor = 'cooper_dff'
+    appauthor = 'nflverse'
 
     # define path for caching
     if alt_path is not None:
@@ -230,7 +242,15 @@ def cache_pbp(years, downcast=True, alt_path=None):
 
             print(str(year) + ' done.')
 
-        except:
+        except Exception as e:
+            warn(
+                f"Caching failed for {year}, skipping.\n"
+                "In nfl_data_py 1.0, this will raise an exception.\n"
+                f"Failure: {e}",
+                DeprecationWarning,
+                stacklevel=2
+            )
+
             next
             
 
@@ -432,7 +452,7 @@ def __import_rosters(release, years, columns=None):
     rosters = pandas.concat([
         pandas.read_parquet(uri.format(y))
         for y in years
-    ])
+    ], ignore_index=True)
     
     # Post-import processing
     rosters['birth_date'] = pandas.to_datetime(rosters.birth_date)
@@ -728,52 +748,32 @@ def import_ids(columns=None, ids=None):
     """Import mapping table of ids for most major data providers
     
     Args:
-        columns (List[str]): list of columns to return
-        ids (List[str]): list of specific ids to return
+        columns (Iterable[str]): list of columns to return
+        ids (Iterable[str]): list of specific ids to return
         
     Returns:
         DataFrame
     """
-    
-    # create list of id options
-    avail_ids = ['mfl_id', 'sportradar_id', 'fantasypros_id', 'gsis_id', 'pff_id',
-       'sleeper_id', 'nfl_id', 'espn_id', 'yahoo_id', 'fleaflicker_id',
-       'cbs_id', 'rotowire_id', 'rotoworld_id', 'ktc_id', 'pfr_id',
-       'cfbref_id', 'stats_id', 'stats_global_id', 'fantasy_data_id']
-    avail_sites = [x[:-3] for x in avail_ids]
-    
-    # check variable types
-    if columns is None:
-        columns = []
-    
-    if ids is None:
-        ids = []
 
-    if not isinstance(columns, list):
-        raise ValueError('columns variable must be list.')
+    columns = columns or []
+    if not isinstance(columns, Iterable):
+        raise ValueError('columns argument must be a list.')
+
+    ids = ids or []
+    if not isinstance(ids, Iterable):
+        raise ValueError('ids argument must be a list.')
         
-    if not isinstance(ids, list):
-        raise ValueError('ids variable must be list.')
-        
-    # confirm id is in table
-    if False in [x in avail_sites for x in ids]:
-        raise ValueError('ids variable can only contain ' + ', '.join(avail_sites))
-        
-    # import data
-    df = pandas.read_csv(r'https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv')
+    df = pandas.read_csv("https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv")
     
-    rem_cols = [x for x in df.columns if x not in avail_ids]
-    tgt_ids = [x + '_id' for x in ids]
-        
-    # filter df to just specified columns
-    if len(columns) > 0 and len(ids) > 0:
-        df = df[set(tgt_ids + columns)]
-    elif len(columns) > 0 and len(ids) == 0:
-        df = df[set(avail_ids + columns)]
-    elif len(columns) == 0 and len(ids) > 0:
-        df = df[set(tgt_ids + rem_cols)]
+    id_cols = [c for c in df.columns if c.endswith('_id')]
+    non_id_cols = [c for c in df.columns if not c.endswith('_id')]
     
-    return df
+    # filter df to just specified ids + columns
+    ret_ids = [x + '_id' for x in ids] or id_cols
+    ret_cols = columns or non_id_cols
+    ret_columns = list(set([*ret_ids, *ret_cols]))
+
+    return df[ret_columns]
     
 
 def import_contracts():
@@ -916,8 +916,8 @@ def import_qbr(years=None, level='nfl', frequency='season'):
 
 
 def __validate_pfr_inputs(s_type, years=None):
-    if s_type not in ('pass', 'rec', 'rush'):
-        raise ValueError('s_type variable must be one of "pass", "rec", or "rush".')
+    if s_type not in ('pass', 'rec', 'rush', 'def'):
+        raise ValueError('s_type variable must be one of "pass", "rec","rush", or "def".')
     
     if years is None:
         return []
@@ -939,7 +939,7 @@ def import_seasonal_pfr(s_type, years=None):
     """Import PFR advanced season-level statistics
     
     Args:
-        s_type (str): must be one of pass, rec, rush
+        s_type (str): must be one of pass, rec, rush, def
         years (List[int]): years to return data for, optional
     Returns:
         DataFrame
@@ -957,7 +957,7 @@ def import_weekly_pfr(s_type, years=None):
     """Import PFR advanced week-level statistics
     
     Args:
-        s_type (str): must be one of pass, rec, rush
+        s_type (str): must be one of pass, rec, rush, def
         years (List[int]): years to return data for, optional
     Returns:
         DataFrame
@@ -1139,33 +1139,18 @@ def clean_nfl_data(df):
         'Louisiana State': 'LSU'
     }
 
-    pro_tm_repl = {
-        'GNB': 'GB',
-        'KAN': 'KC',
-        'LA': 'LAR',
-        'LVR': 'LV',
-        'NWE': 'NE',
-        'NOR': 'NO',
-        'SDG': 'SD',
-        'SFO': 'SF',
-        'TAM': 'TB'
-    }
-    
     na_replace = {
         'NA':numpy.nan
     }
 
     for col in df.columns:
-        df.replace({col:na_replace}, inplace=True)
+        if df[col].dtype == 'object':
+            df.replace({col:na_replace}, inplace=True)
 
     if 'name' in df.columns:
         df.replace({'name': name_repl}, inplace=True)
 
     if 'col_team' in df.columns:
         df.replace({'col_team': col_tm_repl}, inplace=True)
-
-        if 'name' in df.columns:
-            for z in player_col_tm_repl:
-                df[df['name'] == z[0]] = df[df['name'] == z[0]].replace({z[1]: z[2]})
 
     return df
