@@ -9,78 +9,45 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-      
+
 - type: checkboxes
   attributes:
-    label: Have you installed the latest development version of the package(s) in question?
-    description: Use `nflverse::nflverse_update(devel = TRUE)` to do this efficiently.
+    label: Have you installed the latest version of nfl_data_py?
+    description: Use `pip install --upgrade nfl_data_py`.
     options:
-    - label: I have installed the latest development version of the package. 
+    - label: I have installed the latest version of nfl_data_py. 
       required: true
-      
+
 - type: dropdown
   attributes:
-    label: If this is a data issue, have you tried clearing your nflverse cache?
-    description: Use `nflreadr::clear_cache()` to do this efficiently.
+    label: If this is a play-by-play data issue, are you using the cache feature?
+    description: Run `import_pbp_data()` with `cache=False` if using caching.
     options:
-      - I have cleared my nflverse cache and the issue persists.
-      - I am not using an nflverse R package (nflreadr, nflfastR) to access this data.
-      - This is not a data-related issue.
+      - I have run with `cache=False` and the issue persists.
+      - This is not a play-by-play data issue.
   validations:
     required: true
 
-- type: input
-  attributes:
-    label: What version of the package do you have?
-    description: Use `packageVersion("packagename")` to print out the current version.
-  validations:
-      required: true
-      
 - type: textarea
   attributes:
     label: Describe the bug
     description: A clear and concise description of what the bug is.
   validations:
     required: true
-    
+
 - type: textarea
   attributes:
-    label: Reprex
-    render: r
+    label: Example
+    render: python
     description: | 
       Please provide a short, reproducible example of the code you're trying to run.
-      For more on reprexes, check out https://reprex.tidyverse.org
+      Include import statements and minimal code that demonstrates the issue.
   validations:
     required: true
-    
+
 - type: textarea
   attributes:
     label: Expected Behavior
     description: A concise description of what you expected to happen.
   validations:
     required: true
-    
-- type: textarea
-  attributes:
-    label: nflverse_sitrep
-    description: | 
-      Please copy the output of `nflverse_sitrep()` AFTER running the reprex example locally.
-      If the bug is not related to an R package, put NA.
-    render: r
-  validations:
-    required: true
-    
-- type: textarea
-  attributes:
-    label: Screenshots
-    description: If applicable/helpful for your problem
-    render: markdown
-  validations:
-    required: false
-    
-- type: textarea
-  attributes:
-    label: Additional context
-    description: If applicable/helpful for your problem
-  validations:
-    required: false
