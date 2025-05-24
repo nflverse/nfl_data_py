@@ -1,0 +1,70 @@
+name: 📊 Data Issue
+description: Report incorrect or missing data
+labels: ["data issue"]
+body:
+- type: checkboxes
+  attributes:
+    label: Has anyone already reported this issue?
+    options:
+    - label: I have searched the existing issues
+      required: true
+      
+- type: checkboxes
+  attributes:
+    label: Have you installed the latest version of nfl_data_py?
+    description: |
+      Use `pip install --upgrade nfl_data_py` to install the latest version.
+    options:
+    - label: I have installed the latest version of nfl_data_py
+      required: true
+      
+- type: dropdown
+  attributes:
+    label: If this is a play-by-play issue, are you using the cache feature?
+    description: |
+      It's possible the data has already been corrected, but you're still
+      seeing the old version. Try again with the parameter `cache=False`.
+    options:
+      - I have run without caching and the issue persists
+      - Not a play-by-play data issue
+  validations:
+    required: true
+    
+- type: dropdown
+  attributes:
+    label: Select the category that best describes your issue
+    descripton: Data is...
+    options:
+      - Missing (expected data not present)
+      - Clearly incorrect (i.e. player on wrong team)
+      - Inconsistent (values don't match across sources)
+  validations:
+    required: true
+      
+- type: textarea
+  attributes:
+    label: Add a description
+    value: |
+      Function call (include your input values):
+
+      Records / columns affected (be specific):
+
+      Details:
+
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Example Code
+    render: python
+    description: | 
+      If you used any additional filtering or transforms, provide the
+      specific code used to demonstrate the problem.
+    placeholder: |
+      import nfl_data_py as nfl
+
+      df = nfl.import_pbp_data(years=[2022])
+      df[["air_yards", "yards_after_catch"]].corr().iat[0, 1]
+  validations:
+    required: false

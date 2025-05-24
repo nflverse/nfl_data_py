@@ -1,0 +1,45 @@
+name: 🐞 Bug
+description: Report an error or bug in the nfl_data_py package code/functionality
+labels: ["bug"]
+body:
+- type: checkboxes
+  attributes:
+    label: Has anyone already reported this issue?
+    options:
+    - label: I have searched the existing issues
+      required: true
+
+- type: checkboxes
+  attributes:
+    label: Have you installed the latest version of nfl_data_py?
+    description: Use `pip install --upgrade nfl_data_py` to install the latest version.
+    options:
+    - label: I have installed the latest version of nfl_data_py
+      required: true
+
+- type: textarea
+  attributes:
+    label: Add a description
+    value: |
+      Function call (include your input values):
+
+      Expectation:
+
+      Actual result:
+
+      Full error message, if applicable:
+
+      Any other relevant info:
+
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Environment
+    description: | 
+      Please state your OS, Python and package version information.
+      You can use: `python --version` and `pip list`
+    render: text
+  validations:
+    required: true
