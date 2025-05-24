@@ -1,0 +1,44 @@
+name: 💡 Enhancement Request
+description: | 
+  Suggest an idea for this project.
+  It's often a good idea to discuss these in our discord first:
+  [nflverse discord](https://discord.com/invite/5Er2FBnnQa)
+labels: ["enhancement"]
+body:
+- type: checkboxes
+  attributes:
+    label: Has anyone already requested this feature?
+    options:
+    - label: I have searched the existing issues
+      required: true
+
+- type: textarea
+  attributes:
+    label: Is your feature request related to a problem? Please describe.
+    description: |
+      A clear and concise description of the problem, e.g.
+      `I'm always frustrated when ...`
+
+- type: checkboxes
+  attributes:
+    label: What type of enhancement is this?
+    options:
+      - New function
+      - Improvement to existing function
+      - New data source integration
+      - Performance improvement
+      - Documentation improvement
+      - Other
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Proposal details
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: |
+      Alternative solutions you've considered
