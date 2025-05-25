@@ -38,8 +38,8 @@ body:
   attributes:
     label: Environment
     description: | 
-      Please state your OS, Python and package version information.
-      You can use: `python --version` and `pip list`
+      Run the command `python -m nfl_data_py.troubleshooting_info` in your
+      environment and paste the output here.
     render: text
   validations:
     required: true
