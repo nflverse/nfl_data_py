@@ -1,10 +1,10 @@
-#### nfl_data_py
+# nfl_data_py
 
 nfl_data_py is a Python library for interacting with NFL data sourced from [nflfastR](https://github.com/nflverse/nflfastR-data/), [nfldata](https://github.com/nflverse/nfldata/), [dynastyprocess](https://raw.githubusercontent.com/dynastyprocess/), and [Draft Scout](https://draftscout.com/).
 
 Includes import functions for play-by-play data, weekly data, seasonal data, rosters, win totals, scoring lines, officials, draft picks, draft pick values, schedules, team descriptive info, combine results and id mappings across various sites.
 
-### Installation
+## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nfl_data_py.
 
@@ -286,12 +286,12 @@ Returns dataframe with snap count records
 years
 : optional, list of years to return data for
 
-
 ```python
 nfl.import_ftn_data(years, columns=None, downcast=True, thread_requests=False)
 ```
+
 Returns dataframe with FTN charting data
-    
+
 FTN Data manually charts plays and has graciously provided a subset of their
 charting data to be published via the nflverse. Data is available from the 2022
 season onwards and is charted within 48 hours following each game. This data
@@ -306,8 +306,6 @@ downcast (bool)
     : optional, convert float64 to float32, default True
 thread_requests (bool)
     : optional use thread pool to read files, default False
-
-
 
 **Additional features**
 
@@ -343,6 +341,6 @@ I'd like to recognize all of [Ben Baldwin](https://twitter.com/benbbaldwin), [Se
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## Conduct
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Refer to the [nflverse code of conduct](https://github.com/nflverse/nflverse-org/blob/main/CODE_OF_CONDUCT.md).
