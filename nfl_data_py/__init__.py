@@ -1,4 +1,5 @@
 name = 'nfl_data_py'
+__version__ = '0.3.3'
 
 import os
 import logging
