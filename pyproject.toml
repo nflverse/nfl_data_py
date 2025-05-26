@@ -60,9 +60,11 @@ packages = ["nfl_data_py"]
 version = {attr = "nfl_data_py.__version__"}
 
 [tool.ruff]
-select = ["E4", "E7", "E9", "F"]
 cache-dir = ".venv/.ruff_cache"
 line-length = 90
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
 
 [tool.pytest.ini_options]
 testpaths = ["nfl_data_py/tests"]

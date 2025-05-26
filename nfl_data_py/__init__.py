@@ -1,6 +1,3 @@
-name = 'nfl_data_py'
-__version__ = '0.3.3'
-
 import os
 import logging
 import datetime
@@ -13,7 +10,8 @@ import pandas
 import appdirs
 from urllib.error import HTTPError
 
-# module level doc string
+name = 'nfl_data_py'
+__version__ = '0.3.3'
 __doc__ = """
 nfl_data_py - a Python package for working with NFL data
 =========================================================
