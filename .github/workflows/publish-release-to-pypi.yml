@@ -13,35 +13,29 @@ permissions:
 jobs:
   build-package:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Build release distribution
-        run: |
-          python -m pip install build
-          python -m build
-      - name: Upload dist as build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: dist/
 
-  pypi-publish:
-    runs-on: ubuntu-latest
-    needs:
-      - build-package
     permissions:
       id-token: write
-    environment:
-      name: nfl_data_py
-      url: https://pypi.org/p/nfl-data-py/
+      
     steps:
-      - name: Retrieve build artifact
-        uses: actions/download-artifact@v4
+      - uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
         with:
-          name: dist
-          path: dist/
-      - name: Publish release distributions to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+          version: "0.7.8"
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+
+      - name: Build release distribution
+        run: uv build
+
+      - name: Upload release distribution
+        run: uv publish
+        
+      
