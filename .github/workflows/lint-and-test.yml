@@ -11,7 +11,15 @@ on:
     types: [ opened, synchronize, reopened, ready_for_review ]
 
 jobs:
-  build:
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/ruff-action@v3
+
+  test:
+    needs: lint
     if: github.event.pull_request.draft == false
     strategy:
       fail-fast: false
@@ -27,31 +35,15 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
         with:
-          version: "0.7.8"
           python-version: ${{ matrix.python-version }}
           enable-cache: true
           cache-dependency-glob: "uv.lock"
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
+      - name: Install the project and test deps
+        run: uv sync --locked --no-dev --group test
 
-      - name: Install the project and test dependencies
-        run: uv sync --locked --dev
-
-      - name: Lint with flake8
-        shell: bash
-        run: |
-          # stop the build if there are Python syntax errors or undefined names
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-          # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-
-      - name: Test with pytest
-        shell: bash
-        run: |
-          pytest
+      - name: Run tests
+        run: uv run --no-sync pytest
 
       - name: Minify the uv cache
         run: uv cache prune --ci

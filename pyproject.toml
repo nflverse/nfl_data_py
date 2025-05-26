@@ -36,7 +36,16 @@ classifiers = [
 
 [dependency-groups]
 dev = [
-    "flake8",
+    "debugpy",
+    "invoke",
+    "ipykernel",
+    "ipython",
+    "jupyter",
+    "matplotlib",
+    "ruff",
+    "seaborn",
+]
+test = [
     "pytest",
 ]
 
@@ -49,3 +58,12 @@ packages = ["nfl_data_py"]
 
 [tool.setuptools.dynamic]
 version = {attr = "nfl_data_py.__version__"}
+
+[tool.ruff]
+select = ["E4", "E7", "E9", "F"]
+cache-dir = ".venv/.ruff_cache"
+line-length = 90
+
+[tool.pytest.ini_options]
+testpaths = ["nfl_data_py/tests"]
+cache_dir = ".venv/.pytest_cache"
