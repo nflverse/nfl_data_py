@@ -16,6 +16,10 @@ dependencies = [
     "fastparquet>0.5",
     "numpy>=1.20,<3.0",
     "pandas>=1.3,<3.0",
+    # nflplotpy dependencies
+    "matplotlib>=3.5.0",
+    "pillow>=8.0.0",
+    "requests>=2.25.0",
 ]
 classifiers = [
     # Trove classifiers. Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -48,9 +52,15 @@ dev = [
     "matplotlib",
     "ruff",
     "seaborn",
+    "plotly>=5.0.0",  # for nflplotpy plotly integration
 ]
 test = [
     "pytest",
+]
+nflplotpy = [
+    # Optional dependencies for full nflplotpy functionality
+    "plotly>=5.0.0",
+    "seaborn>=0.11.0",
 ]
 
 [build-system]
@@ -58,7 +68,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["nfl_data_py"]
+packages = ["nfl_data_py", "nflplotpy"]
 
 [tool.setuptools.dynamic]
 version = {attr = "nfl_data_py.__version__"}
@@ -71,5 +81,5 @@ line-length = 90
 select = ["E4", "E7", "E9", "F"]
 
 [tool.pytest.ini_options]
-testpaths = ["nfl_data_py/tests"]
+testpaths = ["nfl_data_py/tests", "nflplotpy/tests"]
 cache_dir = ".venv/.pytest_cache"
