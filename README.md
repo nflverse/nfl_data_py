@@ -4,6 +4,27 @@ nfl_data_py is a Python library for interacting with NFL data sourced from [nflf
 
 Includes import functions for play-by-play data, weekly data, seasonal data, rosters, win totals, scoring lines, officials, draft picks, draft pick values, schedules, team descriptive info, combine results and id mappings across various sites.
 
+## 🎨 nflplotpy - NFL Visualization Package
+
+nfl_data_py now includes **nflplotpy**, a comprehensive visualization package that provides the Python equivalent of R's popular `nflplotR` package. Create NFL-themed plots with team colors, logos, and professional styling!
+
+```python
+import nfl_data_py as nfl
+import nflplotpy as nflplot
+
+# Load data and create visualizations
+pbp = nfl.import_pbp_data([2023])
+fig = nflplot.plot_team_stats(team_data, x='epa', y='success_rate', show_logos=True)
+```
+
+**Features:**
+- 🏈 Official NFL team colors and logos
+- 📊 Matplotlib, Plotly, and Seaborn integration  
+- 🎯 1:1 parity with nflplotR functions
+- 🚀 High-level plotting functions for common NFL analytics
+
+See [`nflplotpy/README.md`](nflplotpy/README.md) for detailed documentation.
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nfl_data_py.
