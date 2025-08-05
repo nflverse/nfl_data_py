@@ -167,7 +167,8 @@ factor = nflplot.team_factor(['KC', 'BUF', 'GB'])
 
 ## Next Steps
 
-- Check out `examples/nflplotpy_demo.py` for comprehensive examples
+- Check out `nflplotpy/examples/real_data_examples.py` for real NFL data analysis
+- Try `nflplotpy/examples/nflplotpy_demo.py` for comprehensive feature examples
 - Read the full documentation in `nflplotpy/README.md`
 - Explore the API reference for advanced features
 - Try integrating with your existing NFL analysis workflows!

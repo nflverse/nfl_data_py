@@ -10,16 +10,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Import nflplotpy
+# Import nflplotpy and nfl_data_py
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 import nflplotpy as nflplot
-
-# Import nfl_data_py for data
-try:
-    import nfl_data_py as nfl
-    has_nfl_data = True
-except ImportError:
-    print("nfl_data_py not available, using sample data")
-    has_nfl_data = False
+import nfl_data_py as nfl
 
 
 def demo_basic_functionality():
@@ -167,26 +163,52 @@ def demo_color_palettes():
 
 
 def demo_with_real_nfl_data():
-    """Demonstrate with real NFL data if available."""
-    if not has_nfl_data:
-        print("\n=== Real NFL Data Demo ===")
-        print("nfl_data_py not available - skipping real data demo")
-        return
-        
+    """Demonstrate with real NFL data."""
     print("\n=== Real NFL Data Integration Demo ===")
     
     try:
-        # Load some real NFL data
-        print("Loading 2023 team stats...")
+        # Load actual 2024 NFL data
+        print("Loading 2024 play-by-play data...")
+        pbp = nfl.import_pbp_data([2024])
         
-        # This is a placeholder - actual implementation would depend on
-        # what specific data is available in nfl_data_py
-        print("Real data integration would be implemented here")
-        print("Example: pbp_data = nfl.import_pbp_data([2023])")
-        print("Then: nflplot.plot_team_stats(processed_data, x='epa', y='success_rate')")
+        # Filter for regular season
+        pbp_reg = pbp[pbp['season_type'] == 'REG']
+        print(f"Loaded {len(pbp_reg):,} regular season plays")
+        
+        # Calculate team EPA stats (simplified version)
+        team_stats = pbp_reg[pbp_reg['epa'].notna() & pbp_reg['posteam'].notna()].groupby('posteam').agg({
+            'epa': 'mean'
+        }).round(4).reset_index()
+        team_stats.columns = ['team', 'epa_per_play']
+        
+        # Filter to reasonable number of teams
+        team_stats = team_stats.head(8)  # Just show top 8 for demo
+        
+        print(f"Sample of team EPA data:")
+        print(team_stats.to_string(index=False))
+        
+        # Create a simple visualization
+        fig = nflplot.plot_team_stats(
+            pd.DataFrame({
+                'team': team_stats['team'].tolist(),
+                'epa_per_play': team_stats['epa_per_play'].tolist(),
+                'success_rate': np.random.normal(0.45, 0.03, len(team_stats))  # Add some random success rate for demo
+            }),
+            x='epa_per_play',
+            y='success_rate',
+            show_logos=False,
+            title='Real 2024 NFL Data Demo'
+        )
+        
+        # Save demo plot
+        output_dir = os.path.dirname(__file__)
+        plt.savefig(os.path.join(output_dir, 'real_data_demo.png'), dpi=150, bbox_inches='tight')
+        plt.close()
+        print("✓ Created real data demo plot: nflplotpy/examples/real_data_demo.png")
         
     except Exception as e:
         print(f"Error loading real data: {e}")
+        print("This is expected if you don't have internet connection or nfl_data_py setup")
 
 
 def demo_plotly_integration():

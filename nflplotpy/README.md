@@ -104,7 +104,10 @@ pip install nfl_data_py[nflplotpy]  # With plotly support
 
 ## Examples
 
-See `examples/nflplotpy_demo.py` for comprehensive usage examples.
+See `nflplotpy/examples/` for comprehensive usage examples:
+- `real_data_examples.py`: Complete 2024 NFL analysis using real play-by-play data
+- `nflplotpy_demo.py`: Feature demonstrations and tutorials
+- `quick_test.py`: Simple functionality test
 
 ## Package Structure
 

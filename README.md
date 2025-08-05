@@ -23,7 +23,7 @@ fig = nflplot.plot_team_stats(team_data, x='epa', y='success_rate', show_logos=T
 - 🎯 1:1 parity with nflplotR functions
 - 🚀 High-level plotting functions for common NFL analytics
 
-See [`nflplotpy/README.md`](nflplotpy/README.md) for detailed documentation.
+See [`nflplotpy/README.md`](nflplotpy/README.md) for detailed documentation and [`nflplotpy/examples/`](nflplotpy/examples/) for real data examples.
 
 ## Installation
 
