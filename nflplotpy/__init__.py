@@ -14,7 +14,7 @@ from .core.colors import NFLColorPalette, NFL_TEAM_COLORS, get_team_colors
 from .core.utils import team_factor, team_tiers, get_nflverse_info
 
 # Matplotlib integration
-from .matplotlib.artists import add_nfl_logo, add_nfl_headshot, add_nfl_wordmark
+from .matplotlib.artists import add_nfl_logo, add_nfl_headshot, add_nfl_wordmark, add_median_lines, add_mean_lines
 from .matplotlib.scales import nfl_color_scale, apply_nfl_theme
 
 # High-level plotting functions
@@ -37,6 +37,8 @@ __all__ = [
     "add_nfl_logo",
     "add_nfl_headshot", 
     "add_nfl_wordmark",
+    "add_median_lines",
+    "add_mean_lines",
     "nfl_color_scale",
     "apply_nfl_theme",
     
