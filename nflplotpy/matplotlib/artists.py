@@ -77,7 +77,8 @@ class NFLLogoArtist(Artist):
 
 def add_nfl_logo(ax: plt.Axes, team: str, x: float, y: float, 
                 width: float = 0.1, height: Optional[float] = None,
-                alpha: float = 1.0, zorder: int = 10, **kwargs) -> AnnotationBbox:
+                alpha: float = 1.0, zorder: int = 10, 
+                target_width_pixels: Optional[int] = None, **kwargs) -> AnnotationBbox:
     """Add NFL team logo to matplotlib axes.
     
     Equivalent to nflplotR's geom_nfl_logos().
@@ -87,10 +88,11 @@ def add_nfl_logo(ax: plt.Axes, team: str, x: float, y: float,
         team: Team abbreviation
         x: X position
         y: Y position  
-        width: Logo width (as fraction of axes width)
+        width: Logo width (as fraction of axes width) - ignored if target_width_pixels is set
         height: Logo height (if None, maintains aspect ratio)
         alpha: Transparency level (0-1)
         zorder: Drawing order
+        target_width_pixels: Target width in pixels for consistent sizing (overrides width)
         **kwargs: Additional arguments passed to AnnotationBbox
         
     Returns:
@@ -106,14 +108,28 @@ def add_nfl_logo(ax: plt.Axes, team: str, x: float, y: float,
         # Get logo image
         pil_image = get_team_logo(team)
         
-        # Convert PIL to numpy array
+        # For adaptive sizing, resize the PIL image first before converting to numpy
+        if target_width_pixels is not None:
+            # Get original dimensions
+            orig_width, orig_height = pil_image.size
+            
+            # Calculate new height maintaining aspect ratio
+            aspect_ratio = orig_height / orig_width
+            new_height = int(target_width_pixels * aspect_ratio)
+            
+            # Resize the PIL image to exact target dimensions
+            pil_image = pil_image.resize((target_width_pixels, new_height), Image.Resampling.LANCZOS)
+            
+            # Now use zoom=1 since we've already resized
+            zoom = 1.0
+        else:
+            # Fallback to old method with zoom scaling
+            zoom = width * 10
+        
+        # Convert PIL to numpy array after any resizing
         image_array = np.array(pil_image)
         
-        # Calculate zoom level based on desired width
-        # This is approximate - you may need to adjust based on your specific needs
-        zoom = width * 10  # Adjust multiplier as needed
-        
-        # Create OffsetImage
+        # Create OffsetImage with calculated zoom
         offset_image = OffsetImage(image_array, zoom=zoom, alpha=alpha)
         
         # Create AnnotationBbox
@@ -138,7 +154,7 @@ def add_nfl_logo(ax: plt.Axes, team: str, x: float, y: float,
 
 def add_nfl_logos(ax: plt.Axes, teams: List[str], x: Union[List[float], np.ndarray], 
                  y: Union[List[float], np.ndarray], width: float = 0.1, 
-                 **kwargs) -> List[AnnotationBbox]:
+                 target_width_pixels: Optional[int] = None, **kwargs) -> List[AnnotationBbox]:
     """Add multiple NFL team logos to matplotlib axes.
     
     Args:
@@ -146,7 +162,8 @@ def add_nfl_logos(ax: plt.Axes, teams: List[str], x: Union[List[float], np.ndarr
         teams: List of team abbreviations
         x: X positions (must be same length as teams)
         y: Y positions (must be same length as teams)
-        width: Logo width for all logos
+        width: Logo width for all logos - ignored if target_width_pixels is set
+        target_width_pixels: Target width in pixels for consistent sizing across all logos
         **kwargs: Additional arguments passed to add_nfl_logo
         
     Returns:
@@ -160,7 +177,7 @@ def add_nfl_logos(ax: plt.Axes, teams: List[str], x: Union[List[float], np.ndarr
     
     annotations = []
     for team, xi, yi in zip(teams, x, y):
-        ab = add_nfl_logo(ax, team, xi, yi, width=width, **kwargs)
+        ab = add_nfl_logo(ax, team, xi, yi, width=width, target_width_pixels=target_width_pixels, **kwargs)
         if ab is not None:
             annotations.append(ab)
     
