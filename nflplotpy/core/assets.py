@@ -48,7 +48,17 @@ class NFLAssetManager:
             PIL.UnidentifiedImageError: If image cannot be opened
         """
         try:
-            response = requests.get(url, timeout=timeout)
+            # Set proper headers to comply with Wikipedia User-Agent policy
+            headers = {
+                'User-Agent': 'nflplotpy/0.1.0 (https://github.com/nflverse/nfl_data_py; nflplotpy@nflverse.com) Python/3.x',
+                'Accept': 'image/*,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Accept-Encoding': 'gzip, deflate',
+                'Connection': 'keep-alive',
+                'Upgrade-Insecure-Requests': '1',
+            }
+            
+            response = requests.get(url, headers=headers, timeout=timeout)
             response.raise_for_status()
             
             # Save to cache

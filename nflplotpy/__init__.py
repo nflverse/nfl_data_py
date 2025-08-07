@@ -11,7 +11,7 @@ __author__ = "nflverse"
 # Core functionality
 from .core.logos import NFLAssetManager, get_available_teams
 from .core.colors import NFLColorPalette, NFL_TEAM_COLORS, get_team_colors
-from .core.utils import team_factor, team_tiers, get_nflverse_info
+from .core.utils import team_factor, team_tiers, get_nflverse_info, validate_teams
 
 # Matplotlib integration
 from .matplotlib.artists import add_nfl_logo, add_nfl_headshot, add_nfl_wordmark, add_median_lines, add_mean_lines
@@ -32,6 +32,7 @@ __all__ = [
     "get_available_teams",
     "get_team_colors",
     "get_nflverse_info",
+    "validate_teams",
     
     # Matplotlib functions
     "add_nfl_logo",

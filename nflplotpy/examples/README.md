@@ -1,165 +1,195 @@
-# nflplotpy Examples
+# nflplotpy Examples 🏈
 
-This directory contains example scripts demonstrating nflplotpy capabilities using **REAL NFL data** from nfl_data_py.
+Welcome to the nflplotpy examples directory! This collection of scripts demonstrates the full capabilities of nflplotpy, the Python equivalent of R's nflplotR package for NFL data visualization.
 
-## Example Files
+## 📋 Quick Start
 
-### 🏈 `real_data_examples.py` - **REAL 2024 NFL Data Analysis**
-Comprehensive examples using actual 2024 NFL play-by-play data:
+1. **Install Requirements**
+   ```bash
+   pip install -e .  # Install nfl_data_py with nflplotpy
+   ```
 
-**What it does:**
-- Loads complete 2024 regular season play-by-play data via nfl_data_py
-- Calculates team offensive EPA per play (how good each team's offense is)
-- Calculates team defensive EPA per play allowed (how good each team's defense is) 
-- Creates publication-quality visualizations with authentic team performance data
+2. **Run Examples**
+   ```bash
+   # Comprehensive feature demo
+   python nflplotpy_demo.py
+   
+   # Real NFL data examples with team logos
+   python real_data_examples.py
+   
+   # Quick functionality test
+   python quick_test.py
+   ```
 
-**Generated Plots:**
-- `2024_real_all_teams_epa.png` - All 32 teams scatter plot with real performance data
-- `2024_real_divisions_epa.png` - 8 division subplots showing actual divisional performance
-- `2024_real_conferences_epa.png` - AFC vs NFC comparison with real data
+## 📊 Available Examples
 
-### 🚀 `nflplotpy_demo.py` - Feature Demonstration
-Complete feature walkthrough including:
-- Basic team colors and utilities
-- Matplotlib integration examples  
-- High-level plotting functions
-- Real NFL data integration demo
-- Color palette creation
+### 1. `nflplotpy_demo.py` - Complete Feature Showcase
 
-## Running the Examples
+**What it demonstrates:**
+- 🎨 **Team Colors**: Official NFL color palettes
+- 🏟️ **Team Organization**: Conference/division groupings  
+- 💾 **Asset Management**: Logo caching system
+- 📊 **Matplotlib Integration**: Dots vs logos comparison
+- 🚀 **High-Level Functions**: One-line plotting with `plot_team_stats()`
+- 🎯 **Color Palettes**: Advanced color management
+- 📈 **Real Data Integration**: Using nfl_data_py for authentic data
 
-```bash
-# Install dependencies (if needed)
-pip install nfl_data_py
+**Key Features:**
+- Side-by-side comparison of traditional dots vs modern team logos
+- Proper User-Agent handling for logo downloads
+- Professional NFL styling and themes
+- Reference lines for statistical context
 
-# Run real data examples (uses actual 2024 NFL data)
-cd nflplotpy/examples
-python real_data_examples.py
+**Output Files:**
+- `matplotlib_integration_demo.png`
+- `high_level_team_plot.png`
+- `real_data_demo.png` (if internet available)
 
-# Run feature demo
-python nflplotpy_demo.py
-```
+### 2. `real_data_examples.py` - Authentic NFL Analytics
 
-## Data Source Details
+**What it demonstrates:**
+- 📊 **Real 2024 NFL Data**: Live play-by-play analysis
+- 🏈 **Team Logos**: All plots use actual team logos instead of dots
+- 📈 **EPA Analysis**: Expected Points Added per play metrics
+- 🏆 **Multiple Views**: All teams, divisions, conferences
+- 🎯 **Statistical Context**: Reference lines and quadrant analysis
 
-### Real NFL Data Pipeline
+**Key Metrics:**
+- Offensive EPA per play
+- Defensive EPA per play allowed  
+- Team performance quadrants
+- Division and conference comparisons
+
+**Output Files:**
+- `2024_real_all_teams_epa.png` - All 32 teams overview
+- `2024_real_divisions_epa.png` - 8 division breakdown
+- `2024_real_conferences_epa.png` - AFC vs NFC comparison
+
+### 3. `quick_test.py` - Fast Functionality Check
+
+**What it demonstrates:**
+- ⚡ **Quick Setup Test**: Verify installation
+- 🎨 **Basic Colors**: Simple color retrieval
+- 🏈 **Logo Loading**: Test logo download system
+- ✅ **System Check**: Validate all components work
+
+## 🔑 Key Features Explained
+
+### Team Logos vs Dots
+
+**Traditional Approach (Dots):**
 ```python
-# What the scripts actually do:
-pbp = nfl.import_pbp_data([2024])  # Load all 2024 plays
-pbp_reg = pbp[pbp['season_type'] == 'REG']  # Filter to regular season
-
-# Calculate offensive EPA per play by team
-offensive_stats = pbp_reg.groupby('posteam')['epa'].mean()
-
-# Calculate defensive EPA per play allowed by team  
-defensive_stats = pbp_reg.groupby('defteam')['epa'].mean()
+# Old way - colored dots with team labels
+colors = nflplot.get_team_colors(teams, 'primary')
+ax.scatter(x, y, c=colors, s=200)
 ```
 
-### Data Validation
-- **Play Count Filtering**: Only includes teams with 800+ plays (full season threshold)
-- **Data Cleaning**: Removes plays with missing EPA or team data
-- **Real Performance**: Shows actual 2024 team performance, not estimates
+**Modern Approach (Logos):**
+```python  
+# New way - actual team logos
+ax.scatter(x, y, c='white', s=1, alpha=0.01)  # Invisible positioning
+add_nfl_logos(ax, teams, x, y, width=0.15)    # Add logos
+```
 
-## Example Output Features
+### High-Level Function
 
-### All Teams Plot
-- ✅ **Real Data**: Actual 2024 EPA per play for all 32 teams
-- ✅ **Authentic Colors**: Official NFL team colors from nflverse sources
-- ✅ **Performance Context**: Quadrant labels showing what combinations mean
-- ✅ **Data Source**: Play-by-play aggregation clearly labeled
+The easiest way to create NFL plots:
 
-### Division Plots
-- ✅ **8 Subplots**: One for each NFL division with real team performance
-- ✅ **Consistent Scaling**: Easy comparison across divisions
-- ✅ **Team Counts**: Shows actual number of teams with sufficient data
-- ✅ **Real Rivalries**: See actual divisional performance patterns
-
-### Key Insights From Real Data
-The plots will show actual 2024 performance insights like:
-- Which teams had strong offenses but weak defenses
-- How divisions compared in overall performance  
-- Which conference (AFC/NFC) performed better overall
-- Real team performance clustering and outliers
-
-## Technical Implementation
-
-### Performance Optimization
 ```python
-# Efficient data processing
-pbp_clean = pbp_reg[
-    (pbp_reg['epa'].notna()) & 
-    (pbp_reg['posteam'].notna()) & 
-    (pbp_reg['defteam'].notna())
-]
-
-# Aggregation with multiple metrics
-team_stats = pbp_clean.groupby('posteam').agg({
-    'epa': ['mean', 'count', 'sum']
-})
+fig = nflplot.plot_team_stats(
+    data,
+    x='offensive_epa', 
+    y='defensive_epa',
+    show_logos=True,  # 🔑 Enable team logos
+    add_reference_lines=True,
+    title='Team Performance Analysis'
+)
 ```
 
-### Error Handling
-- Graceful handling of missing data
-- Validation of team abbreviations  
-- Clear error messages for debugging
-- Fallback options for network issues
+### Logo System Features
 
-## Sample Output (Real Data)
-```
-Loading 2024 NFL play-by-play data...
-Loaded 44,123 plays from 2024 season
-Regular season plays: 41,567
-Clean plays with EPA data: 38,892
+- ✅ **35+ working team logos** from official nflverse data
+- 💾 **Automatic caching** for fast subsequent use
+- 🔄 **Fallback system** gracefully handles failed downloads
+- 📏 **Adjustable sizing** with `width` parameter
+- 🎯 **Professional quality** suitable for presentations
 
-Top 5 Offensive Teams (EPA/play):
-  team  off_epa_per_play  off_total_plays
-   KC           0.156           1045
-   DAL          0.142            987
-   BUF          0.138           1023
-   SF           0.127            956
-   MIA          0.119            834
+## 🛠️ Customization
 
-Top 5 Defensive Teams (lowest EPA/play allowed):
-  team  def_epa_per_play  def_total_plays  
-   PIT         -0.084           1012
-   BAL         -0.071            998
-   CLE         -0.068            945
-   NYJ         -0.056            923
-   BUF         -0.054           1001
-```
-
-## Customization Examples
-
-### Change Analysis Period
+### Logo Sizes
 ```python
-# Analyze different seasons
-pbp = nfl.import_pbp_data([2023, 2024])  # Multi-year
-pbp = nfl.import_pbp_data([2024])        # Single year
-
-# Filter to specific weeks
-pbp_recent = pbp[pbp['week'] >= 10]      # Late season only
+width=0.08   # Small logos
+width=0.12   # Medium logos (default)
+width=0.18   # Large logos
 ```
 
-### Modify Visualizations
+### Reference Lines
 ```python
-# Different color schemes
-colors = nflplot.get_team_colors(teams, 'secondary')  # Secondary colors
-
-# Custom themes
-nflplot.apply_nfl_theme(ax, style='dark')  # Dark theme
-
-# Custom filtering
-min_plays = 1000  # Stricter play count requirement
+add_reference_lines=True,
+reference_type='median'  # or 'mean' or 'both'
 ```
 
-## Why Real Data Matters
+### NFL Themes
+```python
+nflplot.apply_nfl_theme(ax, style='default')  # or 'minimal'
+```
 
-1. **Authentic Analysis**: Shows actual team performance, not approximations
-2. **Current Insights**: Up-to-date with latest season performance  
-3. **Credible Results**: Can be used in real NFL analysis and reporting
-4. **Dynamic Updates**: As season progresses, data automatically updates
-5. **Research Quality**: Suitable for academic or professional analysis
+## 📋 Common Use Cases
+
+1. **Team Performance Analysis**
+   - EPA efficiency plots
+   - Win rate comparisons
+   - Offensive vs defensive metrics
+
+2. **Division/Conference Breakdowns**
+   - Comparing teams within divisions
+   - AFC vs NFC analysis
+   - Playoff race visualizations
+
+3. **Season Tracking**
+   - Week-by-week progression
+   - Trend analysis
+   - Performance correlation studies
+
+## 🔍 Troubleshooting
+
+### Logo Issues
+If logos aren't loading:
+1. Check internet connection
+2. Verify User-Agent headers are working
+3. Look for fallback to colored dots
+4. Check cache directory permissions
+
+### Data Issues  
+If real data examples fail:
+1. Ensure `nfl_data_py` is installed
+2. Check internet connection for data download
+3. Verify year parameter (2024 data availability)
+
+### Import Issues
+```python
+# Make sure path is set correctly
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+```
+
+## 🎯 Next Steps
+
+1. **Modify Examples**: Edit the scripts to use your own data
+2. **Create Custom Plots**: Use `plot_team_stats()` with your metrics
+3. **Explore Colors**: Try different team color combinations
+4. **Add Reference Lines**: Use median/mean lines for context
+5. **Export High-DPI**: Save plots with `dpi=300` for presentations
+
+## 📚 Documentation
+
+- **Package Documentation**: See parent directory README files
+- **Function Documentation**: All functions have detailed docstrings
+- **nfl_data_py Integration**: Check nfl_data_py documentation for data options
+- **Matplotlib Integration**: Standard matplotlib customization applies
 
 ---
 
-**These examples demonstrate nflplotpy's power with real NFL data - no fake data, no approximations, just authentic NFL analytics!** 🏈📊
+**Happy plotting! 🏈📊**
+
+*Questions? Check the test files in `nflplotpy/tests/` for more code examples.*
