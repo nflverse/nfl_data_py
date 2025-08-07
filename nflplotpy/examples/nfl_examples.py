@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-nflplotpy Real Data Examples - 2024 NFL Season
+nflplotpy Examples - 2024 NFL Season
 
-This script creates example plots using REAL NFL data from nfl_data_py:
+This script creates example plots using NFL data from nfl_data_py:
 1. All 32 teams offensive vs defensive EPA per play (2024 season)
 2. Division-by-division breakdown (8 subplots)
 3. Conference comparison
@@ -124,12 +124,10 @@ def get_division_teams():
 
 
 def create_all_teams_plot(data, show_logos=True):
-    """Create plot with all 32 teams - offensive vs defensive EPA using real data."""
-    print("Creating all teams plot with real 2024 data...")
-    if show_logos:
-        print("🏈 Using team logos instead of dots!")
+    """Create plot with all 32 teams - offensive vs defensive EPA."""
+    print("Creating all teams plot...")
     
-    fig, ax = plt.subplots(figsize=(14, 10))
+    fig, ax = plt.subplots(figsize=(18, 14))
     
     # Get team colors - validate teams first
     valid_teams = nflplot.validate_teams(data['team'].tolist(), allow_conferences=False)
@@ -152,7 +150,8 @@ def create_all_teams_plot(data, show_logos=True):
                 data['team'].tolist(), 
                 data['off_epa_per_play'].values, 
                 data['def_epa_per_play'].values, 
-                target_width_pixels=25
+                target_width_pixels=60,
+                alpha=0.9
             )
             successful_logos = len([l for l in logos if l is not None])
             print(f"✅ Successfully added {successful_logos} team logos")
@@ -187,28 +186,55 @@ def create_all_teams_plot(data, show_logos=True):
                 bbox=dict(boxstyle='round,pad=0.2', facecolor='black', alpha=0.7)
             )
     
-    # Add reference lines at zero
-    ax.axhline(y=0, color='gray', linestyle='--', alpha=0.5, zorder=1)
-    ax.axvline(x=0, color='gray', linestyle='--', alpha=0.5, zorder=1)
+    # Add reference lines at league averages
+    league_avg_off = data['off_epa_per_play'].mean()
+    league_avg_def = data['def_epa_per_play'].mean()
+    ax.axhline(y=league_avg_def, color='gray', linestyle='--', alpha=0.6, zorder=1, label=f'League Avg Defense ({league_avg_def:.3f})')
+    ax.axvline(x=league_avg_off, color='gray', linestyle='--', alpha=0.6, zorder=1, label=f'League Avg Offense ({league_avg_off:.3f})')
     
-    # Add quadrant labels with real performance context
-    ax.text(0.02, 0.98, 'Good Offense\nPoor Defense', transform=ax.transAxes, 
-            fontsize=10, ha='left', va='top', alpha=0.7,
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='orange', alpha=0.3))
-    ax.text(0.98, 0.98, 'Good Offense\nGood Defense', transform=ax.transAxes,
-            fontsize=10, ha='right', va='top', alpha=0.7,
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='lightgreen', alpha=0.3))
-    ax.text(0.02, 0.02, 'Poor Offense\nPoor Defense', transform=ax.transAxes,
-            fontsize=10, ha='left', va='bottom', alpha=0.7,
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='lightcoral', alpha=0.3))
-    ax.text(0.98, 0.02, 'Poor Offense\nGood Defense', transform=ax.transAxes,
-            fontsize=10, ha='right', va='bottom', alpha=0.7,
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='lightyellow', alpha=0.3))
+    # Add quadrant background colors using rectangles
+    from matplotlib.patches import Rectangle
+    xlims = ax.get_xlim()
+    ylims = ax.get_ylim()
+    
+    # Q1 (upper right): Good Offense, Poor Defense - Orange (barnburner games)
+    rect1 = Rectangle((league_avg_off, league_avg_def), xlims[1] - league_avg_off, ylims[1] - league_avg_def, 
+                      alpha=0.18, color='darkorange', zorder=0)
+    ax.add_patch(rect1)
+    
+    # Q2 (lower right): Good Offense, Good Defense - Blue (blue chip teams)  
+    rect2 = Rectangle((league_avg_off, ylims[0]), xlims[1] - league_avg_off, league_avg_def - ylims[0],
+                      alpha=0.18, color='royalblue', zorder=0)
+    ax.add_patch(rect2)
+    
+    # Q3 (lower left): Poor Offense, Good Defense - Yellow (grind 'em out games)
+    rect3 = Rectangle((xlims[0], ylims[0]), league_avg_off - xlims[0], league_avg_def - ylims[0],
+                      alpha=0.18, color='goldenrod', zorder=0)
+    ax.add_patch(rect3)
+    
+    # Q4 (upper left): Poor Offense, Poor Defense - Red (bad teams)
+    rect4 = Rectangle((xlims[0], league_avg_def), league_avg_off - xlims[0], ylims[1] - league_avg_def,
+                      alpha=0.18, color='crimson', zorder=0)
+    ax.add_patch(rect4)
+    
+    # Add quadrant labels with better contrast
+    ax.text(0.02, 0.98, 'Poor Offense\nPoor Defense\n"Scouting the SEC"', transform=ax.transAxes, 
+            fontsize=12, ha='left', va='top', alpha=1.0, fontweight='bold', color='white',
+            bbox=dict(boxstyle='round,pad=0.5', facecolor='darkred', alpha=0.9, edgecolor='white', linewidth=2))
+    ax.text(0.98, 0.98, 'Good Offense\nPoor Defense\n"Barn burners"', transform=ax.transAxes,
+            fontsize=12, ha='right', va='top', alpha=1.0, fontweight='bold', color='white',
+            bbox=dict(boxstyle='round,pad=0.5', facecolor='darkorange', alpha=0.9, edgecolor='white', linewidth=2))
+    ax.text(0.02, 0.02, 'Poor Offense\nGood Defense\n"Grind It Out"', transform=ax.transAxes,
+            fontsize=12, ha='left', va='bottom', alpha=1.0, fontweight='bold', color='black',
+            bbox=dict(boxstyle='round,pad=0.5', facecolor='gold', alpha=0.9, edgecolor='black', linewidth=2))
+    ax.text(0.98, 0.02, 'Good Offense\nGood Defense\n"Blue Chip"', transform=ax.transAxes,
+            fontsize=12, ha='right', va='bottom', alpha=1.0, fontweight='bold', color='white',
+            bbox=dict(boxstyle='round,pad=0.5', facecolor='navy', alpha=0.9, edgecolor='white', linewidth=2))
     
     # Styling
     ax.set_xlabel('Offensive EPA per Play', fontsize=14, fontweight='bold')
     ax.set_ylabel('Defensive EPA per Play Allowed', fontsize=14, fontweight='bold')
-    ax.set_title('2024 NFL Team Performance: Real Data Analysis\nOffensive vs Defensive EPA per Play (Regular Season)', 
+    ax.set_title('2024 NFL Team EPA Analysis\nOffensive vs Defensive (allowed) EPA/Play (Regular Season)', 
                 fontsize=16, fontweight='bold', pad=20)
     
     # Apply NFL theme
@@ -217,33 +243,33 @@ def create_all_teams_plot(data, show_logos=True):
     # Add grid
     ax.grid(True, alpha=0.3, zorder=0)
     
-    # Add explanatory text
-    fig.text(0.5, 0.02, 
-             'Data: 2024 NFL Regular Season Play-by-Play • Lower defensive EPA is better • Higher offensive EPA is better',
-             ha='center', fontsize=10, style='italic', alpha=0.7)
+    plt.tight_layout(rect=[0, 0.05, 1, 1])  # Leave more space at bottom (1/4 height)
     
-    plt.tight_layout()
+    # Add explanatory text with more space
+    fig.text(0.5, 0.04, 
+             'Data: 2024 NFL Regular Season Play-by-Play • Lower defensive EPA is better • Higher offensive EPA is better',
+             ha='center', fontsize=11, style='italic', alpha=0.7)
     
     # Save in nflplotpy examples directory
     output_dir = os.path.dirname(__file__)
-    output_path = os.path.join(output_dir, '2024_real_all_teams_epa.png')
-    plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='white')
+    output_path = os.path.join(output_dir, '2024_all_teams_epa.png')
+    plt.savefig(output_path, dpi=600, bbox_inches='tight', facecolor='white')
     print(f"Saved: {output_path}")
     
     return fig
 
 
 def create_division_plots(data, show_logos=True):
-    """Create 8 subplot figure showing each division separately with real data."""
-    print("Creating division plots with real 2024 data...")
+    """Create 8 subplot figure showing each division separately."""
+    print("Creating division plots with 2024 pbp data...")
     if show_logos:
         print("🏈 Using team logos in division breakdown!")
     
     divisions = get_division_teams()
     
     # Create figure with 2x4 subplot grid
-    fig = plt.figure(figsize=(20, 12))
-    gs = GridSpec(2, 4, figure=fig, hspace=0.35, wspace=0.25)
+    fig = plt.figure(figsize=(28, 16))
+    gs = GridSpec(2, 4, figure=fig, hspace=0.4, wspace=0.35)
     
     for i, (division, teams) in enumerate(divisions.items()):
         # Calculate subplot position
@@ -280,7 +306,7 @@ def create_division_plots(data, show_logos=True):
                     div_data['team'].tolist(), 
                     div_data['off_epa_per_play'].values, 
                     div_data['def_epa_per_play'].values, 
-                    target_width_pixels=30  # Slightly larger for division plots
+                    target_width_pixels=65  # Higher resolution for division plots
                 )
             except Exception as e:
                 print(f"⚠️ Division {division} logo issues: {e}")
@@ -311,12 +337,23 @@ def create_division_plots(data, show_logos=True):
                     bbox=dict(boxstyle='round,pad=0.3', facecolor='black', alpha=0.8)
                 )
         
-        # Add reference lines
-        ax.axhline(y=0, color='gray', linestyle='--', alpha=0.4)
-        ax.axvline(x=0, color='gray', linestyle='--', alpha=0.4)
+        # Add reference lines - league and division averages
+        league_avg_off = data['off_epa_per_play'].mean()
+        league_avg_def = data['def_epa_per_play'].mean()
+        div_avg_off = div_data['off_epa_per_play'].mean()
+        div_avg_def = div_data['def_epa_per_play'].mean()
+        
+        # League averages (gray dashed)
+        ax.axhline(y=league_avg_def, color='gray', linestyle='--', alpha=0.5, label='League Avg')
+        ax.axvline(x=league_avg_off, color='gray', linestyle='--', alpha=0.5)
+        
+        # Division averages with conference colors
+        div_color = 'red' if 'AFC' in division else 'blue'
+        ax.axhline(y=div_avg_def, color=div_color, linestyle=':', alpha=0.8, linewidth=2, label=f'{division} Avg')
+        ax.axvline(x=div_avg_off, color=div_color, linestyle=':', alpha=0.8, linewidth=2)
         
         # Styling
-        ax.set_title(f'{division}\n({len(div_data)} teams)', fontsize=12, fontweight='bold', pad=10)
+        ax.set_title(f'{division}', fontsize=12, fontweight='bold', pad=10)
         ax.set_xlabel('Offensive EPA/Play', fontsize=10)
         ax.set_ylabel('Defensive EPA/Play', fontsize=10)
         
@@ -324,33 +361,38 @@ def create_division_plots(data, show_logos=True):
         nflplot.apply_nfl_theme(ax, style='minimal')
         ax.grid(True, alpha=0.2)
         
-        # Set consistent axis limits for comparison across divisions
-        ax.set_xlim(data['off_epa_per_play'].min() - 0.01, 
-                   data['off_epa_per_play'].max() + 0.01)
-        ax.set_ylim(data['def_epa_per_play'].min() - 0.01,
-                   data['def_epa_per_play'].max() + 0.01)
+        # Add legend for reference lines
+        ax.legend(loc='upper right', fontsize=8, framealpha=0.9)
+        
+        # Set consistent axis limits with extra padding for logos
+        x_range = data['off_epa_per_play'].max() - data['off_epa_per_play'].min()
+        y_range = data['def_epa_per_play'].max() - data['def_epa_per_play'].min()
+        ax.set_xlim(data['off_epa_per_play'].min() - x_range * 0.05, 
+                   data['off_epa_per_play'].max() + x_range * 0.05)
+        ax.set_ylim(data['def_epa_per_play'].min() - y_range * 0.05,
+                   data['def_epa_per_play'].max() + y_range * 0.05)
     
     # Overall title
-    fig.suptitle('2024 NFL Real Data: Team Performance by Division\nOffensive vs Defensive EPA per Play (Regular Season)', 
-                fontsize=18, fontweight='bold', y=0.96)
+    fig.suptitle('2024 NFL Team Performance by Division\nOffensive vs Defensive EPA per Play (Regular Season)', 
+                fontsize=18, fontweight='bold', y=0.98)
     
     # Add explanatory text
-    fig.text(0.5, 0.02,
+    fig.text(0.5, 0.01,
              'Data: 2024 NFL Regular Season Play-by-Play • Lower defensive EPA = better defense • Higher offensive EPA = better offense',
              ha='center', fontsize=12, style='italic', alpha=0.7)
     
     # Save in nflplotpy examples directory
     output_dir = os.path.dirname(__file__)
-    output_path = os.path.join(output_dir, '2024_real_divisions_epa.png')
-    plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='white')
+    output_path = os.path.join(output_dir, '2024_divisions_epa.png')
+    plt.savefig(output_path, dpi=600, bbox_inches='tight', facecolor='white')
     print(f"Saved: {output_path}")
     
     return fig
 
 
 def create_conference_comparison(data, show_logos=True):
-    """Create AFC vs NFC comparison with real data."""
-    print("Creating conference comparison with real 2024 data...")
+    """Create AFC vs NFC comparison."""
+    print("Creating conference comparison with 2024 pbp data...")
     if show_logos:
         print("🏈 Using team logos in conference comparison!")
     
@@ -364,7 +406,7 @@ def create_conference_comparison(data, show_logos=True):
         lambda x: 'AFC' if x in afc_teams else 'NFC'
     )
     
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 12))
     
     for i, conf in enumerate(['AFC', 'NFC']):
         ax = ax1 if i == 0 else ax2
@@ -393,7 +435,7 @@ def create_conference_comparison(data, show_logos=True):
                     conf_data['team'].tolist(), 
                     conf_data['off_epa_per_play'].values, 
                     conf_data['def_epa_per_play'].values, 
-                    target_width_pixels=28
+                    target_width_pixels=62
                 )
             except Exception as e:
                 print(f"⚠️ Conference {conf} logo issues: {e}")
@@ -424,16 +466,23 @@ def create_conference_comparison(data, show_logos=True):
                     bbox=dict(boxstyle='round,pad=0.2', facecolor='black', alpha=0.7)
                 )
         
-        # Add reference lines
-        ax.axhline(y=0, color='gray', linestyle='--', alpha=0.5)
-        ax.axvline(x=0, color='gray', linestyle='--', alpha=0.5)
-        
         # Calculate conference averages
         avg_off = conf_data['off_epa_per_play'].mean()
         avg_def = conf_data['def_epa_per_play'].mean()
         
+        # Add reference lines - both league and conference averages
+        league_avg_off = data['off_epa_per_play'].mean()
+        league_avg_def = data['def_epa_per_play'].mean()
+        ax.axhline(y=league_avg_def, color='gray', linestyle='--', alpha=0.4, label='League Avg')
+        ax.axvline(x=league_avg_off, color='gray', linestyle='--', alpha=0.4)
+        
+        # Add conference-specific averages with proper colors
+        conf_color = 'red' if conf == 'AFC' else 'blue'
+        ax.axhline(y=avg_def, color=conf_color, linestyle=':', alpha=0.8, linewidth=2, label=f'{conf} Avg')
+        ax.axvline(x=avg_off, color=conf_color, linestyle=':', alpha=0.8, linewidth=2)
+        
         # Styling
-        ax.set_title(f'{conf} Conference\n({len(conf_data)} teams)', fontsize=14, fontweight='bold')
+        ax.set_title(f'{conf} Conference', fontsize=14, fontweight='bold')
         ax.set_xlabel('Offensive EPA per Play', fontsize=12)
         ax.set_ylabel('Defensive EPA per Play', fontsize=12)
         
@@ -446,33 +495,35 @@ def create_conference_comparison(data, show_logos=True):
         nflplot.apply_nfl_theme(ax, style='default')
         ax.grid(True, alpha=0.3)
         
-        # Set consistent limits
-        ax.set_xlim(data['off_epa_per_play'].min() - 0.01, 
-                   data['off_epa_per_play'].max() + 0.01)
-        ax.set_ylim(data['def_epa_per_play'].min() - 0.01,
-                   data['def_epa_per_play'].max() + 0.01)
+        # Add legend for reference lines
+        ax.legend(loc='upper right', fontsize=9, framealpha=0.9)
+        
+        # Set consistent limits with extra padding for logos
+        x_range = data['off_epa_per_play'].max() - data['off_epa_per_play'].min()
+        y_range = data['def_epa_per_play'].max() - data['def_epa_per_play'].min()
+        ax.set_xlim(data['off_epa_per_play'].min() - x_range * 0.05, 
+                   data['off_epa_per_play'].max() + x_range * 0.05)
+        ax.set_ylim(data['def_epa_per_play'].min() - y_range * 0.05,
+                   data['def_epa_per_play'].max() + y_range * 0.05)
     
-    plt.suptitle('2024 NFL Real Data: AFC vs NFC Performance Comparison', fontsize=16, fontweight='bold')
+    plt.suptitle('2024 NFL AFC vs NFC Performance Comparison', fontsize=16, fontweight='bold')
     plt.tight_layout()
     
     # Save in nflplotpy examples directory
     output_dir = os.path.dirname(__file__)
-    output_path = os.path.join(output_dir, '2024_real_conferences_epa.png')
-    plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='white')
+    output_path = os.path.join(output_dir, '2024_conferences_epa.png')
+    plt.savefig(output_path, dpi=600, bbox_inches='tight', facecolor='white')
     print(f"Saved: {output_path}")
     
     return fig
 
 
 def main():
-    """Create all example plots using real 2024 NFL data."""
-    print("nflplotpy Real Data Examples - 2024 NFL Season")
+    """Create all example plots using 2024 NFL data."""
+    print("nflplotpy Examples - 2024 NFL Season")
     print("=" * 50)
-    print("Using REAL NFL play-by-play data from nfl_data_py")
-    print()
-    
     try:
-        # Load and process real data (cached if available)
+        # Load and process data (cached if available)
         data = load_and_process_2024_data()
         print(f"\nSuccessfully processed data for {len(data)} teams")
         
@@ -491,13 +542,13 @@ def main():
         plt.close(fig3)
         
         print("\n" + "=" * 50)
-        print("✅ All plots created successfully using REAL 2024 NFL data!")
+        print("✅ All plots created successfully using 2024 NFL data.")
         print("\nGenerated files:")
-        print("- nflplotpy/examples/2024_real_all_teams_epa.png")
-        print("- nflplotpy/examples/2024_real_divisions_epa.png") 
-        print("- nflplotpy/examples/2024_real_conferences_epa.png")
+        print("- nflplotpy/examples/2024_all_teams_epa.png")
+        print("- nflplotpy/examples/2024_divisions_epa.png") 
+        print("- nflplotpy/examples/2024_conferences_epa.png")
         print("\n📊 These plots showcase:")
-        print("✓ Real 2024 NFL play-by-play data aggregated by team")
+        print("✓ 2024 NFL play-by-play data aggregated by team")
         print("✓ Authentic team performance metrics (EPA per play)")
         print("✓ Professional NFL visualization styling")
         print("✓ Publication-quality output suitable for analysis")
