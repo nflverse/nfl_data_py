@@ -69,6 +69,42 @@ fig = nflplot.plot_player_comparison(
 )
 ```
 
+### 📋 **NFL Tables (NEW!)**
+```python
+# Style pandas DataFrames with team logos
+styled = nflplot.style_with_logos(df, 'team')
+styled.to_html('nfl_table.html')
+
+# Comprehensive NFL-themed tables
+table = nflplot.create_nfl_table(
+    standings_df, 
+    team_column='team',
+    title='2024 NFL Standings'
+)
+table.save_html('standings.html')
+```
+
+### 🔍 **Plot Preview**
+```python
+# Preview plots with specified dimensions
+nflplot.nfl_preview(fig, width=12, height=8, dpi=150)
+
+# Quick preview with presets
+nflplot.preview_with_dimensions(fig, 'presentation')  # 16:9 format
+```
+
+### 🏷️ **Advanced Elements**
+```python
+# Add logos to axis labels
+nflplot.set_xlabel_with_logos(ax, ['KC', 'BUF', 'NE', 'NYJ'])
+
+# Add logo watermarks
+nflplot.add_logo_watermark(ax, 'KC', position='bottom_right')
+
+# Create team comparison layouts
+left_ax, right_ax = nflplot.create_team_comparison_axes(fig, 'KC', 'BUF')
+```
+
 ## API Reference
 
 ### Main Functions
@@ -78,6 +114,9 @@ fig = nflplot.plot_player_comparison(
 | `get_team_colors()` | Get NFL team colors | `team_colors` |
 | `add_nfl_logo()` | Add team logo to plot | `geom_nfl_logos()` |
 | `add_median_lines()` | Add reference lines | `geom_median_lines()` |
+| `style_with_logos()` | Add logos to tables | `gt_nfl_logos()` |
+| `nfl_preview()` | Preview plots | `ggpreview()` |
+| `nfl_sitrep()` | System information | `nflverse_sitrep` |
 | `plot_team_stats()` | High-level team plots | Custom implementation |
 | `team_factor()` | Ordered team factors | `nfl_team_factor()` |
 | `team_tiers()` | Group teams by tiers | `nfl_team_tiers()` |
@@ -86,6 +125,8 @@ fig = nflplot.plot_player_comparison(
 
 - **`NFLAssetManager`**: Manages logo caching and asset downloads
 - **`NFLColorPalette`**: Advanced color palette management
+- **`NFLTableStyler`**: Pandas DataFrame styling with NFL elements
+- **`AssetURLManager`**: Comprehensive URL management for all NFL assets
 
 ### Visualization Backends
 
@@ -113,12 +154,14 @@ See `nflplotpy/examples/` for comprehensive usage examples:
 
 ```
 nflplotpy/
-├── core/           # Core functionality (colors, logos, utilities)
-├── matplotlib/     # Matplotlib integration
+├── core/           # Core functionality (colors, logos, utilities, URLs)
+├── matplotlib/     # Matplotlib integration (artists, scales, preview, elements)
 ├── plotly/         # Plotly integration  
 ├── seaborn/        # Seaborn integration
+├── pandas/         # Pandas table styling integration
 ├── data/           # Team metadata
-└── tests/          # Test suite
+├── examples/       # Usage examples and tutorials
+└── tests/          # Comprehensive test suite
 ```
 
 ## Contributing
