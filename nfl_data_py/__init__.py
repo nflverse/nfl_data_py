@@ -279,7 +279,7 @@ def import_weekly_data(
     if not columns:
         columns = []
 
-    url = r'https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_{0}.parquet'
+    url = r'https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_{0}.parquet'
 
     if thread_requests:
         with ThreadPoolExecutor() as executor:
